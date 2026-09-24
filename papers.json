@@ -29,104 +29,245 @@
   },
   "topics": [
     {
+      "id": "planetary",
+      "name": "行星大气与气候",
+      "name_en": "Planetary atmospheres & climate",
+      "terms": [
+        "planetary atmosphere",
+        "exoplanet atmosphere",
+        "atmospheric escape",
+        "photochemistry",
+        "tidally locked",
+        "tidal locking",
+        "hot jupiter",
+        "lava world",
+        "hycean",
+        "thermal phase curve",
+        "habitable zone",
+        "heat redistribution",
+        "sub neptune",
+        "exoplanetary atmosphere",
+        "atmospheric mass loss",
+        "planetary climate",
+        "rocky planet atmosphere"
+      ],
+      "context": [
+        "planet",
+        "exoplanet",
+        "rocky",
+        "terrestrial",
+        "tidally locked",
+        "tidal locking",
+        "hot jupiter",
+        "sub neptune",
+        "lava world",
+        "mars",
+        "martian",
+        "venus",
+        "jupiter",
+        "trappist",
+        "hycean",
+        "habitable"
+      ]
+    },
+    {
+      "id": "physics",
+      "name": "大气物理",
+      "name_en": "Atmospheric physics",
+      "terms": [
+        "radiative transfer",
+        "radiative cooling",
+        "radiative feedback",
+        "cloud feedback",
+        "cloud microphysics",
+        "radiative forcing",
+        "radiative convective",
+        "outgoing longwave",
+        "water vapor",
+        "collision induced absorption",
+        "condensation",
+        "cold trap",
+        "cloud resolving",
+        "surface inversion",
+        "precipitation",
+        "moist convection"
+      ],
+      "context": [
+        "atmosphere",
+        "atmospheric",
+        "climate",
+        "cloud",
+        "water vapor",
+        "greenhouse",
+        "precipitation",
+        "planet",
+        "radiative convective",
+        "troposphere",
+        "stratosphere",
+        "hydrological"
+      ]
+    },
+    {
       "id": "dynamics",
       "name": "大气与气候动力学",
+      "name_en": "Atmospheric & climate dynamics",
       "terms": [
         "atmospheric dynamics",
         "climate dynamics",
         "general circulation",
-        "baroclinic",
+        "hadley",
+        "walker circulation",
         "rossby",
         "gravity wave",
-        "geophysical fluid",
-        "convection",
-        "rotating convection",
+        "baroclinic",
+        "superrotation",
         "atmospheric circulation",
-        "climate feedback",
         "climate sensitivity",
-        "turbulence",
-        "instability"
-      ]
-    },
-    {
-      "id": "atmosphere",
-      "name": "行星大气与大气物理",
-      "terms": [
-        "planetary atmosphere",
-        "exoplanet atmosphere",
-        "radiative transfer",
-        "cloud microphysics",
-        "atmospheric escape",
-        "photochemistry",
-        "radiative feedback",
-        "cloud feedback",
-        "atmospheric physics",
-        "tidally locked"
-      ]
-    },
-    {
-      "id": "detection",
-      "name": "系外行星探测",
-      "terms": [
-        "exoplanet",
-        "transit photometry",
-        "radial velocity",
-        "transmission spectrum",
-        "transmission spectra",
-        "direct imaging",
-        "exomoon",
-        "biosignature"
-      ]
-    },
-    {
-      "id": "evolution",
-      "name": "行星科学与演化",
-      "terms": [
-        "planet formation",
-        "planetary evolution",
-        "magma ocean",
-        "lava planet",
-        "volatile",
-        "tidal heating",
-        "habitability",
-        "habitable zone",
-        "protoplanetary",
-        "planetary interior"
+        "hydrological cycle",
+        "water cycle",
+        "radiative convective equilibrium",
+        "atmospheric tide",
+        "polar cyclone"
       ]
     },
     {
       "id": "ocean",
-      "name": "物理海洋",
+      "name": "物理海洋与地球流体",
+      "name_en": "Physical oceanography & GFD",
       "terms": [
-        "physical oceanography",
         "ocean circulation",
         "ocean heat transport",
         "ocean dynamics",
+        "ocean tide",
+        "ocean mixing",
+        "overturning circulation",
+        "thermocline",
+        "geophysical fluid",
+        "rotating fluid",
         "stratified flow",
         "internal wave",
-        "ocean mixing",
         "ocean eddy",
         "ocean eddies",
         "air sea interaction",
-        "rotating fluid"
+        "rotating convection",
+        "kolmogorov flow",
+        "two dimensional turbulence",
+        "2d turbulence",
+        "inverse cascade"
+      ]
+    },
+    {
+      "id": "detection",
+      "name": "系外行星探测与表征",
+      "name_en": "Exoplanet detection & characterization",
+      "terms": [
+        "transit photometry",
+        "transit timing",
+        "radial velocity",
+        "transmission spectrum",
+        "transmission spectra",
+        "phase curve",
+        "secondary eclipse",
+        "exomoon",
+        "biosignature",
+        "exoplanet spectroscopy",
+        "direct imaging",
+        "planet detection"
+      ]
+    },
+    {
+      "id": "evolution",
+      "name": "行星内部与演化",
+      "name_en": "Planetary interiors & evolution",
+      "terms": [
+        "planet formation",
+        "planetesimal",
+        "planetary evolution",
+        "magma ocean",
+        "lava planet",
+        "tidal heating",
+        "radiogenic",
+        "planetary interior",
+        "mantle",
+        "core conditions",
+        "orbital evolution",
+        "volatile",
+        "outgassing"
+      ],
+      "context": [
+        "planet",
+        "exoplanet",
+        "rocky",
+        "terrestrial",
+        "tidally locked",
+        "tidal locking",
+        "hot jupiter",
+        "sub neptune",
+        "lava world",
+        "mars",
+        "martian",
+        "venus",
+        "jupiter",
+        "trappist",
+        "hycean",
+        "habitable",
+        "earth",
+        "mantle",
+        "core",
+        "planetesimal",
+        "protoplanetary"
       ]
     },
     {
       "id": "surface",
-      "name": "表层系统物理化学",
+      "name": "表层过程与古气候",
+      "name_en": "Surface processes & paleoclimate",
       "terms": [
         "snowball earth",
         "sea ice",
         "ice albedo",
         "sea glacier",
-        "weathering",
         "water rock",
         "rock water",
-        "phase transition",
-        "outgassing",
         "carbon cycle",
-        "surface atmosphere",
-        "ocean atmosphere"
+        "paleoclimate",
+        "palaeoclimate",
+        "cryovolcan",
+        "cryomagma",
+        "cryolava",
+        "weathering",
+        "desorption",
+        "ice mantle"
+      ],
+      "context": [
+        "earth",
+        "planet",
+        "moon",
+        "europa",
+        "ocean",
+        "climate",
+        "surface",
+        "snowball",
+        "sea ice",
+        "water rock"
+      ]
+    },
+    {
+      "id": "methods",
+      "name": "数学物理与数值方法",
+      "name_en": "Mathematical physics & methods",
+      "terms": [
+        "data assimilation",
+        "inverse problem",
+        "scaling law",
+        "radiation hydrodynamics",
+        "boltzmann",
+        "reduced order",
+        "turbulence",
+        "navier stokes",
+        "direct numerical simulation",
+        "smoothed particle hydrodynamics",
+        "physics informed"
       ]
     }
   ],
@@ -155,11 +296,69 @@
       "source": "arXiv",
       "first_seen": "2026-09-24T08:51:14.614730+00:00",
       "version_changed": false,
-      "topics": [],
-      "matches": {},
+      "topics": [
+        "planetary",
+        "detection"
+      ],
+      "matches": {
+        "planetary": [
+          "hot jupiter",
+          "lava world"
+        ],
+        "detection": [
+          "phase curve"
+        ]
+      },
       "status": "candidate",
-      "reason": "行星分类候选，待人工判断",
-      "method": "keyword"
+      "reason": "关联线索：hot jupiter、lava world、phase curve",
+      "method": "keyword",
+      "institutions": [
+        "Department of the Geophysical Sciences, University of Chicago, Chicago, IL, USA",
+        "Department of Astronomy & Astrophysics, University of Chicago, Chicago, IL, USA",
+        "Department of Astronomy, University of Hawai’i, Honolulu, HI, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Brandon Park Coy",
+          "institutions": [
+            "Department of the Geophysical Sciences, University of Chicago, Chicago, IL, USA"
+          ]
+        },
+        {
+          "name": "Michael Zhang",
+          "institutions": [
+            "Department of Astronomy & Astrophysics, University of Chicago, Chicago, IL, USA"
+          ]
+        },
+        {
+          "name": "Fei Dai",
+          "institutions": [
+            "Department of Astronomy, University of Hawai’i, Honolulu, HI, USA"
+          ]
+        },
+        {
+          "name": "Qiao Xue",
+          "institutions": [
+            "Department of Astronomy & Astrophysics, University of Chicago, Chicago, IL, USA"
+          ]
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.26874v1",
+      "intro_en": "Uses visible-light TESS phase curves to distinguish reflective surfaces or clouds from atmospheric heat transport on hot small planets.",
+      "intro_zh": "用 TESS 可见光相曲线研究高温小型系外行星的反射光，区分高反照率与大气热输送对较低日面亮温的影响。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-22",
+      "publication_date_source": "https://arxiv.org/abs/2609.26874v1",
+      "tags": [
+        "云与辐射 · Clouds & radiation",
+        "光谱与相曲线 · Spectra & phase curves",
+        "岩浆与挥发分 · Magma & volatiles",
+        "海冰与表层 · Ice & surface"
+      ],
+      "intro_version": "2609.26874v1",
+      "version_date": "2026-09-22T18:00:00+00:00"
     },
     {
       "id": "2609.26894",
@@ -193,16 +392,122 @@
       "first_seen": "2026-09-24T08:51:14.614730+00:00",
       "version_changed": false,
       "topics": [
-        "detection"
+        "planetary",
+        "detection",
+        "evolution"
       ],
       "matches": {
+        "planetary": [
+          "hot jupiter"
+        ],
         "detection": [
-          "exoplanet"
+          "transit timing"
+        ],
+        "evolution": [
+          "orbital evolution"
         ]
       },
       "status": "candidate",
-      "reason": "命中：exoplanet",
-      "method": "keyword"
+      "reason": "关联线索：hot jupiter、transit timing、orbital evolution",
+      "method": "keyword",
+      "institutions": [
+        "Earth and Planets Laboratory, Carnegie Institution for Science, 5241 Broad Branch Road, NW, Washington, DC 20015, USA",
+        "Department of Astronomy & Astrophysics, University of California San Diego, 9500 Gilman Drive, La Jolla, CA 92093, USA",
+        "Carnegie Science Observatories, 813 Santa Barbara Street, Pasadena, CA 91101, USA",
+        "Space Telescope Science Institute, 3700 San Martin Drive, Baltimore, MD 21218, USA",
+        "Department of Physics (Atmospheric, Oceanic, and Planetary Physics), University of Oxford, Oxford OX1 3PU, UK",
+        "Department of Astronomy & Astrophysics, University of California, Santa Cruz, CA 95064, USA",
+        "Institute for Astronomy, University of Hawai‘i, 2680 Woodlawn Drive, Honolulu, HI 96822, USA",
+        "Department of Physics and Astronomy, Johns Hopkins University, Baltimore, MD, USA",
+        "Jet Propulsion Laboratory, California Institute of Technology, 4800 Oak Grove Drive, Pasadena, CA 91109, USA",
+        "The Observatories of the Carnegie Institution for Science, 813 Santa Barbara St., Pasadena, CA 91101, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Michael Greklek-McKeon",
+          "institutions": [
+            "Earth and Planets Laboratory, Carnegie Institution for Science, 5241 Broad Branch Road, NW, Washington, DC 20015, USA"
+          ]
+        },
+        {
+          "name": "Julie Inglis",
+          "institutions": [
+            "Department of Astronomy & Astrophysics, University of California San Diego, 9500 Gilman Drive, La Jolla, CA 92093, USA"
+          ]
+        },
+        {
+          "name": "Nicole L. Wallack",
+          "institutions": [
+            "Earth and Planets Laboratory, Carnegie Institution for Science, 5241 Broad Branch Road, NW, Washington, DC 20015, USA"
+          ]
+        },
+        {
+          "name": "Shreyas Vissapragada",
+          "institutions": [
+            "Carnegie Science Observatories, 813 Santa Barbara Street, Pasadena, CA 91101, USA"
+          ]
+        },
+        {
+          "name": "Ian Wong",
+          "institutions": [
+            "Space Telescope Science Institute, 3700 San Martin Drive, Baltimore, MD 21218, USA"
+          ]
+        },
+        {
+          "name": "John R. T. Allen",
+          "institutions": [
+            "Department of Physics (Atmospheric, Oceanic, and Planetary Physics), University of Oxford, Oxford OX1 3PU, UK"
+          ]
+        },
+        {
+          "name": "Yayaati Chachan",
+          "institutions": [
+            "Department of Astronomy & Astrophysics, University of California, Santa Cruz, CA 95064, USA"
+          ]
+        },
+        {
+          "name": "Fei Dai",
+          "institutions": [
+            "Institute for Astronomy, University of Hawai‘i, 2680 Woodlawn Drive, Honolulu, HI 96822, USA"
+          ]
+        },
+        {
+          "name": "Guangwei Fu",
+          "institutions": [
+            "Department of Physics and Astronomy, Johns Hopkins University, Baltimore, MD, USA"
+          ]
+        },
+        {
+          "name": "Tiffany Kataria",
+          "institutions": [
+            "Jet Propulsion Laboratory, California Institute of Technology, 4800 Oak Grove Drive, Pasadena, CA 91109, USA"
+          ]
+        },
+        {
+          "name": "Thaddeus D. Komacek",
+          "institutions": [
+            "Department of Physics (Atmospheric, Oceanic, and Planetary Physics), University of Oxford, Oxford OX1 3PU, UK"
+          ]
+        },
+        {
+          "name": "Johanna K. Teske",
+          "institutions": [
+            "Earth and Planets Laboratory, Carnegie Institution for Science, 5241 Broad Branch Road, NW, Washington, DC 20015, USA",
+            "The Observatories of the Carnegie Institution for Science, 813 Santa Barbara St., Pasadena, CA 91101, USA"
+          ]
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.26894v1",
+      "intro_en": "Combines JWST, HST and archival photometry to investigate transit-timing variations, a possible companion and orbital decay in TOI-2109 b.",
+      "intro_zh": "结合 JWST、HST 与既有测光资料，研究 TOI-2109 b 的凌星时刻变化及潜在伴星和轨道衰减解释。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-22",
+      "publication_date_source": "https://arxiv.org/abs/2609.26894v1",
+      "tags": [],
+      "intro_version": "2609.26894v1",
+      "version_date": "2026-09-22T18:00:33+00:00"
     },
     {
       "id": "2609.26917",
@@ -226,16 +531,51 @@
       "first_seen": "2026-09-24T08:51:14.614730+00:00",
       "version_changed": false,
       "topics": [
+        "planetary",
         "evolution"
       ],
       "matches": {
+        "planetary": [
+          "atmospheric mass loss"
+        ],
         "evolution": [
-          "habitability"
+          "radiogenic"
         ]
       },
       "status": "candidate",
-      "reason": "命中：habitability",
-      "method": "keyword"
+      "reason": "关联线索：atmospheric mass loss、radiogenic",
+      "method": "keyword",
+      "institutions": [
+        "University of Wisconsin-Madison"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Nathaniel Tanglin",
+          "institutions": [
+            "University of Wisconsin-Madison"
+          ]
+        },
+        {
+          "name": "Juliette Becker",
+          "institutions": [
+            "University of Wisconsin-Madison"
+          ]
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.26917v1",
+      "intro_en": "Simulates coupled interior cooling, magnetic evolution and atmospheric loss for Earth-like planets with different radiogenic budgets and host stars.",
+      "intro_zh": "模拟不同放射性元素丰度下类地行星内部热演化、磁场和大气流失的耦合，比较不同宿主恒星环境。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-22",
+      "publication_date_source": "https://arxiv.org/abs/2609.26917v1",
+      "tags": [
+        "宜居性 · Habitability",
+        "海冰与表层 · Ice & surface"
+      ],
+      "intro_version": "2609.26917v1",
+      "version_date": "2026-09-22T18:12:48+00:00"
     },
     {
       "id": "2609.27013",
@@ -264,17 +604,71 @@
       "source": "arXiv",
       "first_seen": "2026-09-24T08:51:14.614730+00:00",
       "version_changed": false,
-      "topics": [
-        "evolution"
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "行星科学拓展阅读",
+      "method": "keyword",
+      "institutions": [
+        "Center for Computational Astrophysics, Flatiron Institute, 162 Fifth Ave, New York, NY 10010, USA",
+        "American Museum of Natural History, 200 Central Park West, Manhattan, NY 10024, USA",
+        "Department of Astronomy, The Ohio State University, Columbus, 140 W 18th Ave., OH 43210, USA",
+        "Center for Cosmology and Astroparticle Physics, The Ohio State University, 191 W. Woodruff Ave., Columbus, OH 43210, USA",
+        "Center for Astrophysics || Harvard & Smithsonian, 60 Garden Street, Cambridge, MA 02138, USA",
+        "Department of Astronomy, Columbia University, 538 West 120th Street, Pupin Hall, New York, NY 10027, USA"
       ],
-      "matches": {
-        "evolution": [
-          "protoplanetary"
-        ]
-      },
-      "status": "candidate",
-      "reason": "命中：protoplanetary",
-      "method": "keyword"
+      "author_affiliations": [
+        {
+          "name": "Aida Behmard",
+          "institutions": [
+            "Center for Computational Astrophysics, Flatiron Institute, 162 Fifth Ave, New York, NY 10010, USA",
+            "American Museum of Natural History, 200 Central Park West, Manhattan, NY 10024, USA"
+          ]
+        },
+        {
+          "name": "Sheila Sagear",
+          "institutions": [
+            "Center for Computational Astrophysics, Flatiron Institute, 162 Fifth Ave, New York, NY 10010, USA"
+          ]
+        },
+        {
+          "name": "Yuxi(Lucy) Lu",
+          "institutions": [
+            "Department of Astronomy, The Ohio State University, Columbus, 140 W 18th Ave., OH 43210, USA",
+            "Center for Cosmology and Astroparticle Physics, The Ohio State University, 191 W. Woodruff Ave., Columbus, OH 43210, USA"
+          ]
+        },
+        {
+          "name": "Romy Rodríguez Martínez",
+          "institutions": [
+            "Center for Astrophysics || Harvard & Smithsonian, 60 Garden Street, Cambridge, MA 02138, USA"
+          ]
+        },
+        {
+          "name": "Adrian M. Price-Whelan",
+          "institutions": [
+            "Center for Computational Astrophysics, Flatiron Institute, 162 Fifth Ave, New York, NY 10010, USA"
+          ]
+        },
+        {
+          "name": "Soichiro Hattori",
+          "institutions": [
+            "Department of Astronomy, Columbia University, 538 West 120th Street, Pupin Hall, New York, NY 10027, USA",
+            "American Museum of Natural History, 200 Central Park West, Manhattan, NY 10024, USA"
+          ]
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.27013v1",
+      "intro_en": "Compares metallicities and orbital properties of M-dwarf systems with one or multiple transiting planets, probing differences in their origins.",
+      "intro_zh": "比较 M 矮星单凌星与多凌星系统的金属丰度和轨道特征，讨论其形成与演化差异。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-22",
+      "publication_date_source": "https://arxiv.org/abs/2609.27013v1",
+      "tags": [],
+      "intro_version": "2609.27013v1",
+      "version_date": "2026-09-22T19:53:00+00:00"
     },
     {
       "id": "2609.27025",
@@ -300,16 +694,63 @@
       "first_seen": "2026-09-24T08:51:14.614730+00:00",
       "version_changed": false,
       "topics": [
-        "dynamics"
+        "evolution"
       ],
       "matches": {
-        "dynamics": [
-          "instability"
+        "evolution": [
+          "planetesimal"
         ]
       },
       "status": "candidate",
-      "reason": "命中：instability",
-      "method": "keyword"
+      "reason": "关联线索：planetesimal",
+      "method": "keyword",
+      "institutions": [
+        "Department of Physics and Astronomy, Iowa State University, Ames, IA 50010",
+        "Department of Astronomy, New Mexico State University, Las Cruces, New Mexico, USA",
+        "Nevada Center for Astrophysics, University of Nevada, Las Vegas, 4505 South Maryland Parkway, Las Vegas, NV 89154, USA",
+        "Department of Physics and Astronomy, University of Nevada, Las Vegas, 4505 South Maryland Parkway, Las Vegas, NV 89154, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Tabassum S Tanvir",
+          "institutions": []
+        },
+        {
+          "name": "Jacob B Simon",
+          "institutions": [
+            "Department of Physics and Astronomy, Iowa State University, Ames, IA 50010"
+          ]
+        },
+        {
+          "name": "Daniel Carrera",
+          "institutions": [
+            "Department of Physics and Astronomy, Iowa State University, Ames, IA 50010",
+            "Department of Astronomy, New Mexico State University, Las Cruces, New Mexico, USA"
+          ]
+        },
+        {
+          "name": "Jeonghoon Lim (임정훈)",
+          "institutions": [
+            "Department of Physics and Astronomy, Iowa State University, Ames, IA 50010",
+            "Nevada Center for Astrophysics, University of Nevada, Las Vegas, 4505 South Maryland Parkway, Las Vegas, NV 89154, USA",
+            "Department of Physics and Astronomy, University of Nevada, Las Vegas, 4505 South Maryland Parkway, Las Vegas, NV 89154, USA"
+          ]
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.27025v1",
+      "intro_en": "Uses three-dimensional shearing-box simulations to test how pressure-bump reinforcement affects millimetre-grain concentration and planetesimal formation.",
+      "intro_zh": "通过三维局地剪切盒模拟，考察压力隆起的恢复强度如何影响毫米颗粒聚集以及微行星形成。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-22",
+      "publication_date_source": "https://arxiv.org/abs/2609.27025v1",
+      "tags": [
+        "流体与不稳定性 · Fluid dynamics",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "intro_version": "2609.27025v1",
+      "version_date": "2026-09-22T20:08:46+00:00"
     },
     {
       "id": "2609.27415",
@@ -333,11 +774,54 @@
       "source": "arXiv",
       "first_seen": "2026-09-24T08:51:14.614730+00:00",
       "version_changed": false,
-      "topics": [],
-      "matches": {},
+      "topics": [
+        "planetary"
+      ],
+      "matches": {
+        "planetary": [
+          "sub neptune"
+        ]
+      },
       "status": "candidate",
-      "reason": "行星分类候选，待人工判断",
-      "method": "keyword"
+      "reason": "关联线索：sub neptune",
+      "method": "keyword",
+      "institutions": [
+        "Universidad Autonóma de Nuevo León, Facultad de Ingeniería Mecánica y Eléctrica, San Nicolás de los Garza, 66451, NL, México",
+        "Universidad Autonóma de Nuevo León, Facultad de Ciencias Físico–Matemáticas, San Nicolás de los Garza, 66451, NL, México"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Carlos E. Chavez",
+          "institutions": [
+            "Universidad Autonóma de Nuevo León, Facultad de Ingeniería Mecánica y Eléctrica, San Nicolás de los Garza, 66451, NL, México"
+          ]
+        },
+        {
+          "name": "Adrián Fierro",
+          "institutions": [
+            "Universidad Autonóma de Nuevo León, Facultad de Ciencias Físico–Matemáticas, San Nicolás de los Garza, 66451, NL, México"
+          ]
+        },
+        {
+          "name": "Ándres Avilés",
+          "institutions": [
+            "Universidad Autonóma de Nuevo León, Facultad de Ciencias Físico–Matemáticas, San Nicolás de los Garza, 66451, NL, México"
+          ]
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.27415v1",
+      "intro_en": "Uses high-resolution N-body integrations and stability maps to revisit long-term protection in the four-planet resonant chain of Kepler-223.",
+      "intro_zh": "对 Kepler-223 四行星共振链进行高分辨率 N 体积分与稳定性分析，研究长期轨道保护机制。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-23",
+      "publication_date_source": "https://arxiv.org/abs/2609.27415v1",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "intro_version": "2609.27415v1",
+      "version_date": "2026-09-23T06:29:51+00:00"
     },
     {
       "id": "2609.27443",
@@ -368,17 +852,84 @@
       "source": "arXiv",
       "first_seen": "2026-09-24T08:51:14.614730+00:00",
       "version_changed": false,
-      "topics": [
-        "dynamics"
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "行星科学拓展阅读",
+      "method": "keyword",
+      "institutions": [
+        "organization=Group of Orbital & Rotational Research in Irregular Objects & Observational astroNomy (ORION), addressline=UNESP, city=Guaratinguetá, state=São Paulo, country=Brazil",
+        "organization=São Paulo State University (UNESP), School of Engineering and Sciences , city=Guaratinguetá, postcode=12516-410, state=São Paulo, country=Brazil",
+        "organization=Observatório Nacional (ON/MCTI), addressline=R. Gen. José Cristino, 77 - São Cristóvão, city=Rio de Janeiro, postcode=20921-400, state=Rio de Janeiro, country=Brazil",
+        "organization=Faculty of Sciences and Technology, University of the Azores, addressline=Rua da Mãe de Deus, 9500-321 Ponta Delgada, city=Açores, country=Portugal",
+        "organization=CFisUC, Departamento de Física, Universidade de Coimbra, addressline=3004-516, city=Coimbra, country=Portugal",
+        "organization=Atmospheric, Oceanic & Planetary Physics, addressline=Clarendon Laboratory, Parks Rd, city=Oxford, postcode=OX1 3PU, country=UK",
+        "organization=Polytechnic School of Pernambuco, University of Pernambuco (UPE), city=Recife, postcode=50100-010, state=Pernambuco, country=Brazil"
       ],
-      "matches": {
-        "dynamics": [
-          "instability"
-        ]
-      },
-      "status": "candidate",
-      "reason": "命中：instability",
-      "method": "keyword"
+      "author_affiliations": [
+        {
+          "name": "Caio Gomes",
+          "institutions": []
+        },
+        {
+          "name": "Andre Amarante",
+          "institutions": []
+        },
+        {
+          "name": "Filipe Monteiro",
+          "institutions": []
+        },
+        {
+          "name": "Alessandra Ferreira",
+          "institutions": []
+        },
+        {
+          "name": "Leonardo Braga",
+          "institutions": []
+        },
+        {
+          "name": "A.K. de Almeida Jr",
+          "institutions": []
+        },
+        {
+          "name": "Duncan Lyster",
+          "institutions": []
+        },
+        {
+          "name": "Nicoli Rocha",
+          "institutions": []
+        },
+        {
+          "name": "Gabriel Damilano",
+          "institutions": []
+        },
+        {
+          "name": "Leonardo Barbosa",
+          "institutions": [
+            "organization=Group of Orbital & Rotational Research in Irregular Objects & Observational astroNomy (ORION), addressline=UNESP, city=Guaratinguetá, state=São Paulo, country=Brazil",
+            "organization=São Paulo State University (UNESP), School of Engineering and Sciences , city=Guaratinguetá, postcode=12516-410, state=São Paulo, country=Brazil",
+            "organization=Observatório Nacional (ON/MCTI), addressline=R. Gen. José Cristino, 77 - São Cristóvão, city=Rio de Janeiro, postcode=20921-400, state=Rio de Janeiro, country=Brazil",
+            "organization=Faculty of Sciences and Technology, University of the Azores, addressline=Rua da Mãe de Deus, 9500-321 Ponta Delgada, city=Açores, country=Portugal",
+            "organization=CFisUC, Departamento de Física, Universidade de Coimbra, addressline=3004-516, city=Coimbra, country=Portugal",
+            "organization=Atmospheric, Oceanic & Planetary Physics, addressline=Clarendon Laboratory, Parks Rd, city=Oxford, postcode=OX1 3PU, country=UK",
+            "organization=Polytechnic School of Pernambuco, University of Pernambuco (UPE), city=Recife, postcode=50100-010, state=Pernambuco, country=Brazil"
+          ]
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.27443v1",
+      "intro_en": "Models surface stability and nearby orbital dynamics of a rapidly rotating asteroid, including cohesion and strong centrifugal effects.",
+      "intro_zh": "利用三维形状模型分析快速自转小行星表面稳定性，讨论内聚力、离心作用与近表面轨道环境。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-23",
+      "publication_date_source": "https://arxiv.org/abs/2609.27443v1",
+      "tags": [
+        "海冰与表层 · Ice & surface",
+        "流体与不稳定性 · Fluid dynamics"
+      ],
+      "intro_version": "2609.27443v1",
+      "version_date": "2026-09-23T07:07:59+00:00"
     },
     {
       "id": "2609.27474",
@@ -410,15 +961,11 @@
       "first_seen": "2026-09-24T08:51:14.614730+00:00",
       "version_changed": false,
       "topics": [
-        "dynamics",
-        "atmosphere",
+        "planetary",
         "evolution"
       ],
       "matches": {
-        "dynamics": [
-          "instability"
-        ],
-        "atmosphere": [
+        "planetary": [
           "atmospheric escape"
         ],
         "evolution": [
@@ -426,8 +973,25 @@
         ]
       },
       "status": "candidate",
-      "reason": "命中：instability、atmospheric escape、volatile",
-      "method": "keyword"
+      "reason": "关联线索：atmospheric escape、volatile",
+      "method": "keyword",
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2609.27474v1",
+      "intro_en": "Studies Kelvin–Helmholtz vortices at Mars using MAVEN and Tianwen-1 measurements, linking local magnetic conditions to plasma mixing and atmospheric escape.",
+      "intro_zh": "依据 MAVEN 与天问一号观测研究火星太阳风边界的开尔文—亥姆霍兹涡旋，关注局地磁场与大气逃逸的联系。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-23",
+      "publication_date_source": "https://arxiv.org/abs/2609.27474v1",
+      "tags": [
+        "环流与波动 · Circulation & waves",
+        "岩浆与挥发分 · Magma & volatiles",
+        "流体与不稳定性 · Fluid dynamics"
+      ],
+      "intro_version": "2609.27474v1",
+      "version_date": "2026-09-23T07:38:34+00:00"
     },
     {
       "id": "2609.27562",
@@ -451,11 +1015,59 @@
       "source": "arXiv",
       "first_seen": "2026-09-24T08:51:14.614730+00:00",
       "version_changed": false,
-      "topics": [],
-      "matches": {},
+      "topics": [
+        "surface",
+        "methods"
+      ],
+      "matches": {
+        "surface": [
+          "cryomagma",
+          "cryolava"
+        ],
+        "methods": [
+          "smoothed particle hydrodynamics"
+        ]
+      },
       "status": "candidate",
-      "reason": "行星分类候选，待人工判断",
-      "method": "keyword"
+      "reason": "关联线索：cryomagma、cryolava、smoothed particle hydrodynamics",
+      "method": "keyword",
+      "institutions": [
+        "organization=Laboratoire Environnements et Atmosphères Terrestres et Planétaires, Université de Reims Champagne-Ardenne, city=Reims, country=France",
+        "organization=Laboratoire de Planétologie et Géodynamique, CNRS UMR 6112, Université de Nantes, postcode=44322, city=Nantes, country=France",
+        "organization=Jet Propulsion Laboratory, California Institute of Technology, addressline=4800 Oak Grove Drive, city=Pasadena, state=CA, postcode=91109, country=USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Bastien Bodin",
+          "institutions": []
+        },
+        {
+          "name": "Daniel Cordier",
+          "institutions": []
+        },
+        {
+          "name": "Ashley Gerard Davies",
+          "institutions": [
+            "organization=Laboratoire Environnements et Atmosphères Terrestres et Planétaires, Université de Reims Champagne-Ardenne, city=Reims, country=France",
+            "organization=Laboratoire de Planétologie et Géodynamique, CNRS UMR 6112, Université de Nantes, postcode=44322, city=Nantes, country=France",
+            "organization=Jet Propulsion Laboratory, California Institute of Technology, addressline=4800 Oak Grove Drive, city=Pasadena, state=CA, postcode=91109, country=USA"
+          ]
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.27562v1",
+      "intro_en": "Develops an SPH model of cryolava flow and cooling to investigate the formation of smooth plains on Europa.",
+      "intro_zh": "建立耦合流动与传热的 SPH 冰火山模型，模拟木卫二冰熔岩的铺展和冷却，解释光滑平原形成。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-23",
+      "publication_date_source": "https://arxiv.org/abs/2609.27562v1",
+      "tags": [
+        "海冰与表层 · Ice & surface",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "intro_version": "2609.27562v1",
+      "version_date": "2026-09-23T08:48:00+00:00"
     },
     {
       "id": "2609.27569",
@@ -499,9 +1111,24 @@
       "version_changed": false,
       "topics": [],
       "matches": {},
-      "status": "candidate",
-      "reason": "行星分类候选，待人工判断",
-      "method": "keyword"
+      "status": "unmatched",
+      "reason": "行星科学拓展阅读",
+      "method": "keyword",
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2609.27569v1",
+      "intro_en": "Describes Juice-SWI operations during the lunar–Earth gravity assist and their connection to atmospheric, exospheric and surface-thermal measurements.",
+      "intro_zh": "介绍 Juice 亚毫米波仪在地月引力助推期间的运行安排，涉及木星大气、冰卫星外逸层及表层热物性的观测需求。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-23",
+      "publication_date_source": "https://arxiv.org/abs/2609.27569v1",
+      "tags": [
+        "海冰与表层 · Ice & surface"
+      ],
+      "intro_version": "2609.27569v1",
+      "version_date": "2026-09-23T08:49:48+00:00"
     },
     {
       "id": "2609.27622",
@@ -557,28 +1184,654 @@
       "first_seen": "2026-09-24T08:51:14.614730+00:00",
       "version_changed": false,
       "topics": [
+        "planetary",
         "dynamics",
-        "atmosphere",
-        "detection",
         "evolution"
       ],
       "matches": {
-        "dynamics": [
-          "atmospheric circulation"
-        ],
-        "atmosphere": [
+        "planetary": [
+          "planetary atmosphere",
+          "exoplanet atmosphere",
           "photochemistry"
         ],
-        "detection": [
-          "exoplanet"
+        "dynamics": [
+          "atmospheric circulation"
         ],
         "evolution": [
           "planetary evolution"
         ]
       },
       "status": "candidate",
-      "reason": "命中：atmospheric circulation、photochemistry、exoplanet、planetary evolution",
-      "method": "keyword"
+      "reason": "关联线索：planetary atmosphere、exoplanet atmosphere、photochemistry、atmospheric circulation、planetary evolution",
+      "method": "keyword",
+      "institutions": [],
+      "author_affiliations": [
+        {
+          "name": "\\newauthorOlivia Venot",
+          "institutions": []
+        },
+        {
+          "name": "1,2 Yamila Miguel",
+          "institutions": []
+        },
+        {
+          "name": "3,4 Robin Baeyens",
+          "institutions": []
+        },
+        {
+          "name": "5 Stefano Bellotti",
+          "institutions": []
+        },
+        {
+          "name": "6,7 Giuseppe Cassone",
+          "institutions": []
+        },
+        {
+          "name": "8 \\newauthorQuentin Changeat",
+          "institutions": []
+        },
+        {
+          "name": "9 Ryan Cloutier",
+          "institutions": []
+        },
+        {
+          "name": "10 Athena Coustenis",
+          "institutions": []
+        },
+        {
+          "name": "11 Dwaipayan Dubey",
+          "institutions": []
+        },
+        {
+          "name": "12,13 Billy Edwards",
+          "institutions": []
+        },
+        {
+          "name": "3 \\newauthorKaustubh Hakim",
+          "institutions": []
+        },
+        {
+          "name": "14,15 Eric Hébrard",
+          "institutions": []
+        },
+        {
+          "name": "16 Christiane Helling",
+          "institutions": []
+        },
+        {
+          "name": "17,18 Helgi Rafn Hrodmarsson",
+          "institutions": []
+        },
+        {
+          "name": "2 Leoni Janssen",
+          "institutions": []
+        },
+        {
+          "name": "4 \\newauthorAdam Yassin Jaziri",
+          "institutions": []
+        },
+        {
+          "name": "19 Gaia Lacedelli",
+          "institutions": []
+        },
+        {
+          "name": "20 Panayotis Lavvas",
+          "institutions": []
+        },
+        {
+          "name": "21 Jorge Lillo-Box",
+          "institutions": []
+        },
+        {
+          "name": "22 Amy Louca",
+          "institutions": []
+        },
+        {
+          "name": "3 Adrien Masson",
+          "institutions": []
+        },
+        {
+          "name": "22 \\newauthorZita Martins",
+          "institutions": []
+        },
+        {
+          "name": "23 Karan Molaverdikhani",
+          "institutions": []
+        },
+        {
+          "name": "12,13,24 Benjamín Montesinos",
+          "institutions": []
+        },
+        {
+          "name": "22 Harrison Nicholls",
+          "institutions": []
+        },
+        {
+          "name": "25 Enric Palle",
+          "institutions": []
+        },
+        {
+          "name": "20 \\newauthorPaul Rimmer",
+          "institutions": []
+        },
+        {
+          "name": "26 Donna Rodgers-Lee",
+          "institutions": []
+        },
+        {
+          "name": "27 Jonathan Tennyson",
+          "institutions": []
+        },
+        {
+          "name": "28 Shang-Min Tsai",
+          "institutions": []
+        },
+        {
+          "name": "29 Roméo Veillet",
+          "institutions": []
+        },
+        {
+          "name": "16 \\newauthorSergey N. Yurchenko",
+          "institutions": []
+        },
+        {
+          "name": "28 and Maria Zamyatina16 1 Univ. Grenoble Alpes",
+          "institutions": []
+        },
+        {
+          "name": "CNRS",
+          "institutions": []
+        },
+        {
+          "name": "IPAG",
+          "institutions": []
+        },
+        {
+          "name": "38000 Grenoble",
+          "institutions": []
+        },
+        {
+          "name": "France 2 Université Paris Cité and Univ Paris Est Creteil",
+          "institutions": []
+        },
+        {
+          "name": "CNRS",
+          "institutions": []
+        },
+        {
+          "name": "LISA",
+          "institutions": []
+        },
+        {
+          "name": "F-75013 Paris",
+          "institutions": []
+        },
+        {
+          "name": "France 3 SRON",
+          "institutions": []
+        },
+        {
+          "name": "Netherlands Institute for Space Research",
+          "institutions": []
+        },
+        {
+          "name": "Niels Bohrweg 4",
+          "institutions": []
+        },
+        {
+          "name": "NL-2333 CA",
+          "institutions": []
+        },
+        {
+          "name": "Leiden",
+          "institutions": []
+        },
+        {
+          "name": "The Netherlands 4 Leiden Observatory",
+          "institutions": []
+        },
+        {
+          "name": "Leiden University",
+          "institutions": []
+        },
+        {
+          "name": "Niels Bohrweg 2",
+          "institutions": []
+        },
+        {
+          "name": "2333 CA Leiden",
+          "institutions": []
+        },
+        {
+          "name": "The Netherlands 5 Anton Pannekoek Institute for Astronomy",
+          "institutions": []
+        },
+        {
+          "name": "University of Amsterdam",
+          "institutions": []
+        },
+        {
+          "name": "Science Park 904",
+          "institutions": []
+        },
+        {
+          "name": "1098 XH",
+          "institutions": []
+        },
+        {
+          "name": "Amsterdam",
+          "institutions": []
+        },
+        {
+          "name": "The Netherlands 6 Leiden Observatory",
+          "institutions": []
+        },
+        {
+          "name": "Leiden University",
+          "institutions": []
+        },
+        {
+          "name": "PO Box 9513",
+          "institutions": []
+        },
+        {
+          "name": "NL-2300 RA Leiden",
+          "institutions": []
+        },
+        {
+          "name": "The Netherlands 7 IRAP",
+          "institutions": []
+        },
+        {
+          "name": "Université de Toulouse",
+          "institutions": []
+        },
+        {
+          "name": "CNRS/UMR 5277",
+          "institutions": []
+        },
+        {
+          "name": "UPS-OMP",
+          "institutions": []
+        },
+        {
+          "name": "14 Avenue E. Belin",
+          "institutions": []
+        },
+        {
+          "name": "Toulouse F-31400",
+          "institutions": []
+        },
+        {
+          "name": "France 8 Institute for Chemical-Physical Processes",
+          "institutions": []
+        },
+        {
+          "name": "National Research Council of Italy (IPCF-CNR)",
+          "institutions": []
+        },
+        {
+          "name": "98158 Messina",
+          "institutions": []
+        },
+        {
+          "name": "Italy 9 Kapteyn Institute",
+          "institutions": []
+        },
+        {
+          "name": "University of Groningen",
+          "institutions": []
+        },
+        {
+          "name": "9747 AD",
+          "institutions": []
+        },
+        {
+          "name": "Groningen",
+          "institutions": []
+        },
+        {
+          "name": "NL",
+          "institutions": []
+        },
+        {
+          "name": "The Netherlands 10 Department of Physics & Astronomy",
+          "institutions": []
+        },
+        {
+          "name": "McMaster University",
+          "institutions": []
+        },
+        {
+          "name": "Hamilton",
+          "institutions": []
+        },
+        {
+          "name": "ON",
+          "institutions": []
+        },
+        {
+          "name": "Canada 11 LIRA",
+          "institutions": []
+        },
+        {
+          "name": "Paris Observatory",
+          "institutions": []
+        },
+        {
+          "name": "PSL University",
+          "institutions": []
+        },
+        {
+          "name": "CNRS",
+          "institutions": []
+        },
+        {
+          "name": "Paris University",
+          "institutions": []
+        },
+        {
+          "name": "Meudon",
+          "institutions": []
+        },
+        {
+          "name": "92195",
+          "institutions": []
+        },
+        {
+          "name": "France 12 Universitäts-Sternwarte",
+          "institutions": []
+        },
+        {
+          "name": "Ludwig-Maximilians-Universität München",
+          "institutions": []
+        },
+        {
+          "name": "Scheinerstraße 1",
+          "institutions": []
+        },
+        {
+          "name": "D-81679 München",
+          "institutions": []
+        },
+        {
+          "name": "Germany 13 Exzellenzcluster Origins",
+          "institutions": []
+        },
+        {
+          "name": "Boltzmannstraße 2",
+          "institutions": []
+        },
+        {
+          "name": "85748 Garching",
+          "institutions": []
+        },
+        {
+          "name": "Germany 14 Royal Observatory of Belgium",
+          "institutions": []
+        },
+        {
+          "name": "Ringlaan 3",
+          "institutions": []
+        },
+        {
+          "name": "1180 Brussels",
+          "institutions": []
+        },
+        {
+          "name": "Belgium 15 Institute of Astronomy",
+          "institutions": []
+        },
+        {
+          "name": "KU Leuven",
+          "institutions": []
+        },
+        {
+          "name": "Celestijnenlaan 200D",
+          "institutions": []
+        },
+        {
+          "name": "3001 Leuven",
+          "institutions": []
+        },
+        {
+          "name": "Belgium 16 Department of Physics and Astronomy",
+          "institutions": []
+        },
+        {
+          "name": "Faculty of Environment",
+          "institutions": []
+        },
+        {
+          "name": "Science and Economy",
+          "institutions": []
+        },
+        {
+          "name": "University of Exeter",
+          "institutions": []
+        },
+        {
+          "name": "Exeter EX4 4QL",
+          "institutions": []
+        },
+        {
+          "name": "UK 17 Space Research Institute",
+          "institutions": []
+        },
+        {
+          "name": "Austrian Academy of Sciences",
+          "institutions": []
+        },
+        {
+          "name": "Schmiedlstraße 6",
+          "institutions": []
+        },
+        {
+          "name": "A-8042 Graz",
+          "institutions": []
+        },
+        {
+          "name": "Austria 18 Graz University of Technology",
+          "institutions": []
+        },
+        {
+          "name": "Graz",
+          "institutions": []
+        },
+        {
+          "name": "Austria 19 LATMOS/IPSL",
+          "institutions": []
+        },
+        {
+          "name": "UVSQ Université Paris-Saclay",
+          "institutions": []
+        },
+        {
+          "name": "Sorbonne Université",
+          "institutions": []
+        },
+        {
+          "name": "CNRS",
+          "institutions": []
+        },
+        {
+          "name": "Guyancourt",
+          "institutions": []
+        },
+        {
+          "name": "France 20 Instituto de Astrofisica de Canarias (IAC)",
+          "institutions": []
+        },
+        {
+          "name": "38205 La Laguna",
+          "institutions": []
+        },
+        {
+          "name": "Tenerife",
+          "institutions": []
+        },
+        {
+          "name": "Spain 21 Groupe de Spectrométrie Moléculaire et Atmosphérique - (GSMA)",
+          "institutions": []
+        },
+        {
+          "name": "Université Reims Champagne-Ardenne",
+          "institutions": []
+        },
+        {
+          "name": "Reims",
+          "institutions": []
+        },
+        {
+          "name": "51687",
+          "institutions": []
+        },
+        {
+          "name": "France 22 Centro de Astrobiología (CAB)",
+          "institutions": []
+        },
+        {
+          "name": "CSIC-INTA",
+          "institutions": []
+        },
+        {
+          "name": "ESAC campus",
+          "institutions": []
+        },
+        {
+          "name": "Camino Bajo del Castillo s/n",
+          "institutions": []
+        },
+        {
+          "name": "28692",
+          "institutions": []
+        },
+        {
+          "name": "Villanueva de la Cañada (Madrid)",
+          "institutions": []
+        },
+        {
+          "name": "Spain 23 Centro de Química Estrutural",
+          "institutions": []
+        },
+        {
+          "name": "Instituto de Ciências Moleculares e Departamento de Engenharia Química",
+          "institutions": []
+        },
+        {
+          "name": "Instituto Superior Técnico",
+          "institutions": []
+        },
+        {
+          "name": "Universidade de Lisboa",
+          "institutions": []
+        },
+        {
+          "name": "1049-001 Lisboa",
+          "institutions": []
+        },
+        {
+          "name": "Portugal 24 Max-Planck-Institut für extraterrestrische Physik",
+          "institutions": []
+        },
+        {
+          "name": "Gießenbachstr. 1",
+          "institutions": []
+        },
+        {
+          "name": "D-85748 Garching",
+          "institutions": []
+        },
+        {
+          "name": "Germany 25 Institute of Astronomy",
+          "institutions": []
+        },
+        {
+          "name": "University of Cambridge",
+          "institutions": []
+        },
+        {
+          "name": "Cambridge CB3 0HA",
+          "institutions": []
+        },
+        {
+          "name": "United Kingdom 26 Cavendish Laboratory",
+          "institutions": []
+        },
+        {
+          "name": "University of Cambridge",
+          "institutions": []
+        },
+        {
+          "name": "Cambridge CB3 0HE",
+          "institutions": []
+        },
+        {
+          "name": "UK 27 Astronomy & Astrophysics Section",
+          "institutions": []
+        },
+        {
+          "name": "School of Cosmic Physics",
+          "institutions": []
+        },
+        {
+          "name": "Dublin Institute for Advanced Studies",
+          "institutions": []
+        },
+        {
+          "name": "31 Fitzwilliam Place",
+          "institutions": []
+        },
+        {
+          "name": "Dublin D02 XF86",
+          "institutions": []
+        },
+        {
+          "name": "Ireland 28 Department of Physics and Astronomy",
+          "institutions": []
+        },
+        {
+          "name": "University College London",
+          "institutions": []
+        },
+        {
+          "name": "Gower Street",
+          "institutions": []
+        },
+        {
+          "name": "London WC1E 6BT",
+          "institutions": []
+        },
+        {
+          "name": "United Kingdom 29 Institute of Astronomy & Astrophysics",
+          "institutions": []
+        },
+        {
+          "name": "Academia Sinica",
+          "institutions": []
+        },
+        {
+          "name": "Taipei 10617",
+          "institutions": []
+        },
+        {
+          "name": "Taiwan",
+          "institutions": []
+        }
+      ],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2609.27622v1",
+      "intro_en": "Discusses how Ariel can constrain atmospheric chemical diversity, emphasizing vertical mixing, photochemistry and circulation-driven disequilibrium.",
+      "intro_zh": "讨论 Ariel 大规模行星大气观测如何约束化学多样性，并将垂直混合、光化学和大气环流纳入解释框架。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-23",
+      "publication_date_source": "https://arxiv.org/abs/2609.27622v1",
+      "tags": [
+        "环流与波动 · Circulation & waves"
+      ],
+      "intro_version": "2609.27622v1",
+      "version_date": "2026-09-23T09:44:21+00:00"
     },
     {
       "id": "2609.27722",
@@ -609,9 +1862,77 @@
       "version_changed": false,
       "topics": [],
       "matches": {},
-      "status": "candidate",
-      "reason": "行星分类候选，待人工判断",
-      "method": "keyword"
+      "status": "unmatched",
+      "reason": "行星科学拓展阅读",
+      "method": "keyword",
+      "institutions": [
+        "Department of Physics, University of Helsinki, PO Box 64, 00014, Finland",
+        "Finnish Centre for Astronomy with ESO, University of Turku, Vesilinnantie 5, 20014 Turun Yliopisto, Finland",
+        "Asteroid Engineering Laboratory, Luleå University of Technology, Box 848, SE-98128 Kiruna, Sweden"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Eric M. MacLennan",
+          "institutions": [
+            "Department of Physics, University of Helsinki, PO Box 64, 00014, Finland"
+          ]
+        },
+        {
+          "name": "Grigori Fedorets",
+          "institutions": [
+            "Department of Physics, University of Helsinki, PO Box 64, 00014, Finland",
+            "Finnish Centre for Astronomy with ESO, University of Turku, Vesilinnantie 5, 20014 Turun Yliopisto, Finland"
+          ]
+        },
+        {
+          "name": "Zuri Gray",
+          "institutions": [
+            "Department of Physics, University of Helsinki, PO Box 64, 00014, Finland"
+          ]
+        },
+        {
+          "name": "Teemu Willamo",
+          "institutions": [
+            "Department of Physics, University of Helsinki, PO Box 64, 00014, Finland"
+          ]
+        },
+        {
+          "name": "Tuomas Salo",
+          "institutions": [
+            "Department of Physics, University of Helsinki, PO Box 64, 00014, Finland"
+          ]
+        },
+        {
+          "name": "Anne Virkki",
+          "institutions": [
+            "Department of Physics, University of Helsinki, PO Box 64, 00014, Finland"
+          ]
+        },
+        {
+          "name": "Mikael Granvik",
+          "institutions": [
+            "Department of Physics, University of Helsinki, PO Box 64, 00014, Finland",
+            "Asteroid Engineering Laboratory, Luleå University of Technology, Box 848, SE-98128 Kiruna, Sweden"
+          ]
+        },
+        {
+          "name": "Karri Muinonen",
+          "institutions": [
+            "Department of Physics, University of Helsinki, PO Box 64, 00014, Finland"
+          ]
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.27722v1",
+      "intro_en": "Combines photometry, spectroscopy and polarimetry to investigate Atira’s surface composition and its connection to hydrated carbonaceous meteorites.",
+      "intro_zh": "结合测光、光谱与偏振观测，研究双小行星 Atira 的表面组成及其与含水碳质球粒陨石的联系。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-23",
+      "publication_date_source": "https://arxiv.org/abs/2609.27722v1",
+      "tags": [],
+      "intro_version": "2609.27722v1",
+      "version_date": "2026-09-23T11:39:32+00:00"
     },
     {
       "id": "2609.28166",
@@ -658,8 +1979,138 @@
         ]
       },
       "status": "candidate",
-      "reason": "命中：weathering",
-      "method": "keyword"
+      "reason": "关联线索：weathering",
+      "method": "keyword",
+      "institutions": [
+        "Univ. Grenoble Alpes, CNRS, IPAG, 38000 Grenoble, France",
+        "ETH Zurich, Institute for Particle Physics and Astrophysics, 3688 Wolfgang-Pauli-Strasse 27, CH-8093 Zurich, Switzerland",
+        "Department of Earth Science and Astronomy, The University of Tokyo, Tokyo 153-8902, Japan",
+        "European Southern Observatory, Karl-Schwarzschild-Strasse 2, 85748 Garching bei München, Germany",
+        "LPC2E-CNRS, Orléans, France",
+        "IRAP, Université de Toulouse, CNES, CNRS, UPS, Toulouse, France",
+        "LIRA, Observatoire de Paris/PSL, Sorbonne Université, Université Paris Cité, CY Cergy Paris Université, CNRS, 5 place Jules Janssen, 92190 Meudon, France",
+        "Astronomy Department, University of California Berkeley, Berkeley CA 94720-3411, USA",
+        "William H. Miller III Department of Physics and Astronomy, John’s Hopkins University, 3400 N. Charles Street, Baltimore, MD 21218, USA",
+        "Space Telescope Science Institute, 3700 San Martin Drive, Baltimore, MD 21218, USA",
+        "Space Department, Johns Hopkins University Applied Physics Laboratory, 11100 Johns Hopkins Rd, Laurel, MD, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "M. Bonduelle",
+          "institutions": [
+            "Univ. Grenoble Alpes, CNRS, IPAG, 38000 Grenoble, France"
+          ]
+        },
+        {
+          "name": "J. Milli",
+          "institutions": [
+            "Univ. Grenoble Alpes, CNRS, IPAG, 38000 Grenoble, France"
+          ]
+        },
+        {
+          "name": "O. Poch",
+          "institutions": [
+            "Univ. Grenoble Alpes, CNRS, IPAG, 38000 Grenoble, France"
+          ]
+        },
+        {
+          "name": "N. Engler",
+          "institutions": [
+            "ETH Zurich, Institute for Particle Physics and Astrophysics, 3688 Wolfgang-Pauli-Strasse 27, CH-8093 Zurich, Switzerland"
+          ]
+        },
+        {
+          "name": "M. Rigouleau",
+          "institutions": [
+            "Univ. Grenoble Alpes, CNRS, IPAG, 38000 Grenoble, France"
+          ]
+        },
+        {
+          "name": "R. Tazaki",
+          "institutions": [
+            "Department of Earth Science and Astronomy, The University of Tokyo, Tokyo 153-8902, Japan"
+          ]
+        },
+        {
+          "name": "J. Ma",
+          "institutions": [
+            "Univ. Grenoble Alpes, CNRS, IPAG, 38000 Grenoble, France"
+          ]
+        },
+        {
+          "name": "J. Olofsson",
+          "institutions": [
+            "European Southern Observatory, Karl-Schwarzschild-Strasse 2, 85748 Garching bei München, Germany"
+          ]
+        },
+        {
+          "name": "J-B. Renard",
+          "institutions": [
+            "LPC2E-CNRS, Orléans, France"
+          ]
+        },
+        {
+          "name": "J. Lasue",
+          "institutions": [
+            "IRAP, Université de Toulouse, CNES, CNRS, UPS, Toulouse, France"
+          ]
+        },
+        {
+          "name": "R. Sultana",
+          "institutions": [
+            "LIRA, Observatoire de Paris/PSL, Sorbonne Université, Université Paris Cité, CY Cergy Paris Université, CNRS, 5 place Jules Janssen, 92190 Meudon, France"
+          ]
+        },
+        {
+          "name": "G. Duchêne",
+          "institutions": [
+            "Univ. Grenoble Alpes, CNRS, IPAG, 38000 Grenoble, France",
+            "Astronomy Department, University of California Berkeley, Berkeley CA 94720-3411, USA"
+          ]
+        },
+        {
+          "name": "L. Martinien",
+          "institutions": [
+            "Univ. Grenoble Alpes, CNRS, IPAG, 38000 Grenoble, France"
+          ]
+        },
+        {
+          "name": "M. Roumesy",
+          "institutions": [
+            "Univ. Grenoble Alpes, CNRS, IPAG, 38000 Grenoble, France"
+          ]
+        },
+        {
+          "name": "C.H. Chen",
+          "institutions": [
+            "William H. Miller III Department of Physics and Astronomy, John’s Hopkins University, 3400 N. Charles Street, Baltimore, MD 21218, USA",
+            "Space Telescope Science Institute, 3700 San Martin Drive, Baltimore, MD 21218, USA"
+          ]
+        },
+        {
+          "name": "C. Lisse",
+          "institutions": [
+            "Space Department, Johns Hopkins University Applied Physics Laboratory, 11100 Johns Hopkins Rd, Laurel, MD, USA"
+          ]
+        },
+        {
+          "name": "J-C. Augereau",
+          "institutions": [
+            "Univ. Grenoble Alpes, CNRS, IPAG, 38000 Grenoble, France"
+          ]
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.28166v1",
+      "intro_en": "Combines scattered-light observations and experiments to constrain dust properties in HR 4796 through phase functions, polarization and reflectance.",
+      "intro_zh": "将 HR 4796 碎屑盘散射光观测与实验结果相结合，利用相函数、偏振和反射率约束尘埃物理化学性质。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-23",
+      "publication_date_source": "https://arxiv.org/abs/2609.28166v1",
+      "tags": [],
+      "intro_version": "2609.28166v1",
+      "version_date": "2026-09-23T14:12:59+00:00"
     },
     {
       "id": "2609.27031",
@@ -690,11 +2141,90 @@
       "source": "arXiv",
       "first_seen": "2026-09-24T08:51:14.614730+00:00",
       "version_changed": false,
-      "topics": [],
-      "matches": {},
+      "topics": [
+        "evolution",
+        "surface"
+      ],
+      "matches": {
+        "evolution": [
+          "mantle"
+        ],
+        "surface": [
+          "desorption",
+          "ice mantle"
+        ]
+      },
       "status": "candidate",
-      "reason": "行星分类候选，待人工判断",
-      "method": "keyword"
+      "reason": "关联线索：mantle、desorption、ice mantle",
+      "method": "keyword",
+      "institutions": [
+        "University of Virginia, Department of Astronomy, Charlottesville, VA 22904, USA",
+        "Photonics Research Group, The Hague University of Applied Sciences, 2628 AL Delft, The Netherlands",
+        "University of Virginia, Laboratory for Astrophysics & Surface Physics, Dept. Materials Science & Engineering, Charlottesville, VA 22904, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Rachel E. Gross",
+          "institutions": [
+            "University of Virginia, Department of Astronomy, Charlottesville, VA 22904, USA"
+          ]
+        },
+        {
+          "name": "Jeroen Terwisscha van Scheltinga",
+          "institutions": [
+            "Photonics Research Group, The Hague University of Applied Sciences, 2628 AL Delft, The Netherlands"
+          ]
+        },
+        {
+          "name": "L. Ilsedore Cleeves",
+          "institutions": [
+            "University of Virginia, Department of Astronomy, Charlottesville, VA 22904, USA"
+          ]
+        },
+        {
+          "name": "Catherine A. Dukes",
+          "institutions": [
+            "University of Virginia, Laboratory for Astrophysics & Surface Physics, Dept. Materials Science & Engineering, Charlottesville, VA 22904, USA"
+          ]
+        },
+        {
+          "name": "Robin T. Garrod",
+          "institutions": [
+            "University of Virginia, Department of Astronomy, Charlottesville, VA 22904, USA"
+          ]
+        },
+        {
+          "name": "Alexia Simon",
+          "institutions": [
+            "University of Virginia, Department of Astronomy, Charlottesville, VA 22904, USA"
+          ]
+        },
+        {
+          "name": "Shane Sawyer",
+          "institutions": [
+            "University of Virginia, Department of Astronomy, Charlottesville, VA 22904, USA"
+          ]
+        },
+        {
+          "name": "Adam Woodson",
+          "institutions": [
+            "University of Virginia, Laboratory for Astrophysics & Surface Physics, Dept. Materials Science & Engineering, Charlottesville, VA 22904, USA"
+          ]
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.27031v1",
+      "intro_en": "Uses temperature-programmed desorption to examine how water and methanol ice substrates affect methyl-formate binding and release into the gas phase.",
+      "intro_zh": "用程序升温脱附实验比较不同水冰和甲醇冰基底上甲酸甲酯的结合与脱附行为，研究冰组成对气相释放的影响。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-22",
+      "publication_date_source": "https://arxiv.org/abs/2609.27031v1",
+      "tags": [
+        "海冰与表层 · Ice & surface"
+      ],
+      "intro_version": "2609.27031v1",
+      "version_date": "2026-09-22T20:22:26+00:00"
     },
     {
       "id": "2609.27039",
@@ -726,9 +2256,76 @@
       "version_changed": false,
       "topics": [],
       "matches": {},
-      "status": "candidate",
-      "reason": "行星分类候选，待人工判断",
-      "method": "keyword"
+      "status": "unmatched",
+      "reason": "行星科学拓展阅读",
+      "method": "keyword",
+      "institutions": [
+        "Departamento de Física, Universidade Federal de Santa Catarina, Trindade, Florianópolis, 88040-900, Santa Catarina, Brazil",
+        "Instituto Federal Catarinense, 89703-720, Concórdia, Santa Catarina, Brazil",
+        "Universidad de Valparaíso, Valparaíso, Chile",
+        "Coordenadoria Especial de Física, Química e Matemática, Universidade Federal de Santa Catarina, Jardim das Avenidas, Araranguá, Santa Catarina, Brazil",
+        "Instituto de Astrofísica, Dep. de Física y Astronomia, Facultad de Ciencias Exactas, Universidad Andres Bello, Av. Fernández Concha 700, Santiago, Chile",
+        "Vatican Observatory, Specola Vaticana, V-00120, Vatican City, Vatican City State"
+      ],
+      "author_affiliations": [
+        {
+          "name": "R. M. Torres",
+          "institutions": [
+            "Departamento de Física, Universidade Federal de Santa Catarina, Trindade, Florianópolis, 88040-900, Santa Catarina, Brazil",
+            "Instituto Federal Catarinense, 89703-720, Concórdia, Santa Catarina, Brazil"
+          ]
+        },
+        {
+          "name": "R. K. Saito",
+          "institutions": [
+            "Departamento de Física, Universidade Federal de Santa Catarina, Trindade, Florianópolis, 88040-900, Santa Catarina, Brazil"
+          ]
+        },
+        {
+          "name": "V. Fermiano",
+          "institutions": [
+            "Departamento de Física, Universidade Federal de Santa Catarina, Trindade, Florianópolis, 88040-900, Santa Catarina, Brazil",
+            "Universidad de Valparaíso, Valparaíso, Chile"
+          ]
+        },
+        {
+          "name": "P. Esteves",
+          "institutions": [
+            "Departamento de Física, Universidade Federal de Santa Catarina, Trindade, Florianópolis, 88040-900, Santa Catarina, Brazil"
+          ]
+        },
+        {
+          "name": "B. W. Borges",
+          "institutions": [
+            "Departamento de Física, Universidade Federal de Santa Catarina, Trindade, Florianópolis, 88040-900, Santa Catarina, Brazil",
+            "Coordenadoria Especial de Física, Química e Matemática, Universidade Federal de Santa Catarina, Jardim das Avenidas, Araranguá, Santa Catarina, Brazil"
+          ]
+        },
+        {
+          "name": "D. Quispe",
+          "institutions": [
+            "Departamento de Física, Universidade Federal de Santa Catarina, Trindade, Florianópolis, 88040-900, Santa Catarina, Brazil"
+          ]
+        },
+        {
+          "name": "D. Minniti",
+          "institutions": [
+            "Instituto de Astrofísica, Dep. de Física y Astronomia, Facultad de Ciencias Exactas, Universidad Andres Bello, Av. Fernández Concha 700, Santiago, Chile",
+            "Vatican Observatory, Specola Vaticana, V-00120, Vatican City, Vatican City State"
+          ]
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.27039v1",
+      "intro_en": "Builds a multi-survey infrared-excess catalog in Vela–Carina and characterizes candidates using spectral energy distributions.",
+      "intro_zh": "交叉匹配多波段巡天，构建船帆—船底区域红外超候选源目录，并通过光谱能量分布分析其辐射性质。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-22",
+      "publication_date_source": "https://arxiv.org/abs/2609.27039v1",
+      "tags": [],
+      "intro_version": "2609.27039v1",
+      "version_date": "2026-09-22T20:34:54+00:00"
     },
     {
       "id": "2609.27140",
@@ -754,9 +2351,41 @@
       "version_changed": false,
       "topics": [],
       "matches": {},
-      "status": "candidate",
-      "reason": "行星分类候选，待人工判断",
-      "method": "keyword"
+      "status": "unmatched",
+      "reason": "行星科学拓展阅读",
+      "method": "keyword",
+      "institutions": [
+        "Western University, 1151 Richmond St, London, ON N6A 3K7, Canada",
+        "Western University, Institute for Earth and Space Exploration, London, Ontario, Canada"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Anthony Girmenia",
+          "institutions": [
+            "Western University, 1151 Richmond St, London, ON N6A 3K7, Canada"
+          ]
+        },
+        {
+          "name": "Stanimir Metchev",
+          "institutions": [
+            "Western University, 1151 Richmond St, London, ON N6A 3K7, Canada",
+            "Western University, Institute for Earth and Space Exploration, London, Ontario, Canada"
+          ]
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.27140v1",
+      "intro_en": "Uses differences between JWST detector reads to shorten moving-object trails and improve searches for small Solar System bodies.",
+      "intro_zh": "通过 JWST 探测器连续读出之间的差分减少运动目标拖迹，提高存档图像中小太阳系天体的检出灵敏度。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-22",
+      "publication_date_source": "https://arxiv.org/abs/2609.27140v1",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "intro_version": "2609.27140v1",
+      "version_date": "2026-09-22T22:59:02+00:00"
     },
     {
       "id": "2609.27997",
@@ -879,17 +2508,124 @@
       "source": "arXiv",
       "first_seen": "2026-09-24T08:51:14.614730+00:00",
       "version_changed": false,
-      "topics": [
-        "evolution"
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "行星科学拓展阅读",
+      "method": "keyword",
+      "institutions": [
+        "School of Mathematical and Physical Sciences, Macquarie University, Balaclava Road, Sydney, NSW 2109, Australia",
+        "Astrophysics and Space Technologies Research Centre, Macquarie University, Balaclava Road, Sydney, NSW 2109, Australia",
+        "INAF, Osservatorio Astronomico di Roma, Via Frascati 33, I-00077 Monte Porzio Catone, Italy",
+        "ATNF, CSIRO, Space and Astronomy, PO Box 76, Epping, NSW 1710, Australia",
+        "Institute of Astronomy, KU Leuven, Celestijnenlaan 200D, 3001 Leuven, Belgium",
+        "School of Physics and Astronomy, Monash University, Wellington Rd, Clayton VIC 3800, Australia",
+        "Univ. Grenoble Alpes, CNRS, IPAG, 38000 Grenoble, France",
+        "Institut de Radioastronomie Millimétrique, 300 rue de la Piscine, 38406 Saint-Martin-d’Hères, France",
+        "Observatorio Astronómico Nacional (OAN-IGN), Alfonso XII 3, 28014 Madrid, Spain",
+        "Department of Astrophysics and Planetary Science, Villanova University, 800 E. Lancaster Ave., Villanova, PA 19085, USA",
+        "Observatorio Astronómico Nacional (OAN-IGN), Apartado 112, 28803 Alcalá de Henares, Spain"
       ],
-      "matches": {
-        "evolution": [
-          "protoplanetary"
-        ]
-      },
-      "status": "candidate",
-      "reason": "命中：protoplanetary",
-      "method": "keyword"
+      "author_affiliations": [
+        {
+          "name": "Maksym Mohorian",
+          "institutions": [
+            "School of Mathematical and Physical Sciences, Macquarie University, Balaclava Road, Sydney, NSW 2109, Australia",
+            "Astrophysics and Space Technologies Research Centre, Macquarie University, Balaclava Road, Sydney, NSW 2109, Australia"
+          ]
+        },
+        {
+          "name": "Devika Kamath",
+          "institutions": [
+            "School of Mathematical and Physical Sciences, Macquarie University, Balaclava Road, Sydney, NSW 2109, Australia",
+            "Astrophysics and Space Technologies Research Centre, Macquarie University, Balaclava Road, Sydney, NSW 2109, Australia",
+            "INAF, Osservatorio Astronomico di Roma, Via Frascati 33, I-00077 Monte Porzio Catone, Italy"
+          ]
+        },
+        {
+          "name": "Elizabeth Cappellazzo",
+          "institutions": [
+            "School of Mathematical and Physical Sciences, Macquarie University, Balaclava Road, Sydney, NSW 2109, Australia",
+            "Astrophysics and Space Technologies Research Centre, Macquarie University, Balaclava Road, Sydney, NSW 2109, Australia",
+            "ATNF, CSIRO, Space and Astronomy, PO Box 76, Epping, NSW 1710, Australia"
+          ]
+        },
+        {
+          "name": "Kateryna Andrych",
+          "institutions": [
+            "School of Mathematical and Physical Sciences, Macquarie University, Balaclava Road, Sydney, NSW 2109, Australia",
+            "Astrophysics and Space Technologies Research Centre, Macquarie University, Balaclava Road, Sydney, NSW 2109, Australia"
+          ]
+        },
+        {
+          "name": "Jacques Kluska",
+          "institutions": [
+            "Institute of Astronomy, KU Leuven, Celestijnenlaan 200D, 3001 Leuven, Belgium"
+          ]
+        },
+        {
+          "name": "Hans van Winckel",
+          "institutions": [
+            "Institute of Astronomy, KU Leuven, Celestijnenlaan 200D, 3001 Leuven, Belgium"
+          ]
+        },
+        {
+          "name": "Daniel Price",
+          "institutions": [
+            "School of Physics and Astronomy, Monash University, Wellington Rd, Clayton VIC 3800, Australia",
+            "Univ. Grenoble Alpes, CNRS, IPAG, 38000 Grenoble, France"
+          ]
+        },
+        {
+          "name": "Toon De Prins",
+          "institutions": [
+            "School of Mathematical and Physical Sciences, Macquarie University, Balaclava Road, Sydney, NSW 2109, Australia",
+            "Astrophysics and Space Technologies Research Centre, Macquarie University, Balaclava Road, Sydney, NSW 2109, Australia",
+            "Institute of Astronomy, KU Leuven, Celestijnenlaan 200D, 3001 Leuven, Belgium"
+          ]
+        },
+        {
+          "name": "Arancha Castro-Carrizo",
+          "institutions": [
+            "Institut de Radioastronomie Millimétrique, 300 rue de la Piscine, 38406 Saint-Martin-d’Hères, France"
+          ]
+        },
+        {
+          "name": "Javier Alcolea",
+          "institutions": [
+            "Observatorio Astronómico Nacional (OAN-IGN), Alfonso XII 3, 28014 Madrid, Spain"
+          ]
+        },
+        {
+          "name": "Nicolás Cuello",
+          "institutions": [
+            "Univ. Grenoble Alpes, CNRS, IPAG, 38000 Grenoble, France"
+          ]
+        },
+        {
+          "name": "Matthias Fabry",
+          "institutions": [
+            "Department of Astrophysics and Planetary Science, Villanova University, 800 E. Lancaster Ave., Villanova, PA 19085, USA"
+          ]
+        },
+        {
+          "name": "Valentin Bujarrabal",
+          "institutions": [
+            "Observatorio Astronómico Nacional (OAN-IGN), Apartado 112, 28803 Alcalá de Henares, Spain"
+          ]
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.27997v1",
+      "intro_en": "Uses high-resolution ALMA observations to examine dust asymmetries and disk evolution around the evolved binary IRAS 08544-4431.",
+      "intro_zh": "利用高分辨率 ALMA 观测研究演化双星 IRAS 08544-4431 周围尘埃盘的不对称结构及其演化。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-23",
+      "publication_date_source": "https://arxiv.org/abs/2609.27997v1",
+      "tags": [],
+      "intro_version": "2609.27997v1",
+      "version_date": "2026-09-23T12:27:17+00:00"
     },
     {
       "id": "2609.28001",
@@ -919,12 +2655,117 @@
       ],
       "matches": {
         "detection": [
-          "exoplanet"
+          "exoplanet spectroscopy"
         ]
       },
       "status": "candidate",
-      "reason": "命中：exoplanet",
-      "method": "keyword"
+      "reason": "关联线索：exoplanet spectroscopy",
+      "method": "keyword",
+      "institutions": [],
+      "author_affiliations": [
+        {
+          "name": "K. Vida",
+          "institutions": []
+        },
+        {
+          "name": "1,2 B. Seli1,2 B. Edwards3,4 1Konkoly Observatory",
+          "institutions": []
+        },
+        {
+          "name": "HUN-REN Research Centre for Astronomy and Earth Sciences",
+          "institutions": []
+        },
+        {
+          "name": "Konkoly Thege Miklós út 15-17",
+          "institutions": []
+        },
+        {
+          "name": "H-1121",
+          "institutions": []
+        },
+        {
+          "name": "Budapest",
+          "institutions": []
+        },
+        {
+          "name": "Hungary 2HUN-REN CSFK",
+          "institutions": []
+        },
+        {
+          "name": "MTA Centre of Excellence",
+          "institutions": []
+        },
+        {
+          "name": "Budapest",
+          "institutions": []
+        },
+        {
+          "name": "Konkoly Thege Miklós út 15-17",
+          "institutions": []
+        },
+        {
+          "name": "H-1121",
+          "institutions": []
+        },
+        {
+          "name": "Budapest",
+          "institutions": []
+        },
+        {
+          "name": "Hungary 3Department of Physics and Astronomy",
+          "institutions": []
+        },
+        {
+          "name": "University College London",
+          "institutions": []
+        },
+        {
+          "name": "Gower Street",
+          "institutions": []
+        },
+        {
+          "name": "WC1E 6BT London",
+          "institutions": []
+        },
+        {
+          "name": "UK 4SRON",
+          "institutions": []
+        },
+        {
+          "name": "Space Research Organisation Netherlands",
+          "institutions": []
+        },
+        {
+          "name": "Niels Bohrweg 4",
+          "institutions": []
+        },
+        {
+          "name": "NL-2333 CA",
+          "institutions": []
+        },
+        {
+          "name": "Leiden",
+          "institutions": []
+        },
+        {
+          "name": "The Netherlands",
+          "institutions": []
+        }
+      ],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2609.28001v1",
+      "intro_en": "Assesses Ariel’s ability to detect stellar flares with rapid photometry and discusses their effects on exoplanet transit spectroscopy.",
+      "intro_zh": "评估 Ariel 高时间分辨率测光探测恒星耀斑的能力，并讨论耀斑对系外行星凌星光谱的干扰。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-23",
+      "publication_date_source": "https://arxiv.org/abs/2609.28001v1",
+      "tags": [
+        "光谱与相曲线 · Spectra & phase curves",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "intro_version": "2609.28001v1",
+      "version_date": "2026-09-23T12:30:52+00:00"
     },
     {
       "id": "2509.12737",
@@ -950,17 +2791,63 @@
       "first_seen": "2026-09-24T08:51:14.614730+00:00",
       "version_changed": true,
       "topics": [
-        "detection"
+        "planetary",
+        "detection",
+        "methods"
       ],
       "matches": {
+        "planetary": [
+          "exoplanetary atmosphere"
+        ],
         "detection": [
-          "exoplanet",
           "transmission spectrum"
+        ],
+        "methods": [
+          "inverse problem"
         ]
       },
       "status": "candidate",
-      "reason": "命中：exoplanet、transmission spectrum",
-      "method": "keyword"
+      "reason": "关联线索：exoplanetary atmosphere、transmission spectrum、inverse problem",
+      "method": "keyword",
+      "institutions": [
+        "Astronomy Division, Dept. of Physics and Astronomy, Uppsala University, Box 516, 75120 Uppsala, Sweden",
+        "Instituto de Astrofísica, Pontificia Universidad Católica de Chile, Av. Vicuña Mackenna 4860, 782-0436 Macul, Santiago, Chile"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Nikolai Piskunov",
+          "institutions": [
+            "Astronomy Division, Dept. of Physics and Astronomy, Uppsala University, Box 516, 75120 Uppsala, Sweden"
+          ]
+        },
+        {
+          "name": "Adam D. Rains",
+          "institutions": [
+            "Astronomy Division, Dept. of Physics and Astronomy, Uppsala University, Box 516, 75120 Uppsala, Sweden",
+            "Instituto de Astrofísica, Pontificia Universidad Católica de Chile, Av. Vicuña Mackenna 4860, 782-0436 Macul, Santiago, Chile"
+          ]
+        },
+        {
+          "name": "Linn Boldt-Christmas",
+          "institutions": [
+            "Astronomy Division, Dept. of Physics and Astronomy, Uppsala University, Box 516, 75120 Uppsala, Sweden"
+          ]
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2509.12737v2",
+      "intro_en": "Frames high-resolution exoplanet transmission-spectrum recovery as an inverse problem, addressing limitations of conventional analysis methods.",
+      "intro_zh": "从逆问题角度恢复高分辨率观测中的行星大气透射光谱，针对传统处理方法在模型依赖和谱线恢复上的限制。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2025-09-16",
+      "publication_date_source": "https://arxiv.org/abs/2509.12737v2",
+      "tags": [
+        "光谱与相曲线 · Spectra & phase curves",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "intro_version": "2509.12737v2",
+      "version_date": "2026-09-23T07:17:28+00:00"
     },
     {
       "id": "2606.14646",
@@ -986,21 +2873,67 @@
       "first_seen": "2026-09-24T08:51:14.614730+00:00",
       "version_changed": true,
       "topics": [
-        "evolution",
-        "surface"
+        "planetary",
+        "evolution"
       ],
       "matches": {
+        "planetary": [
+          "sub neptune"
+        ],
         "evolution": [
           "magma ocean",
-          "volatile"
-        ],
-        "surface": [
+          "mantle",
+          "volatile",
           "outgassing"
         ]
       },
       "status": "candidate",
-      "reason": "命中：magma ocean、volatile、outgassing",
-      "method": "keyword"
+      "reason": "关联线索：sub neptune、magma ocean、mantle、volatile、outgassing",
+      "method": "keyword",
+      "institutions": [
+        "Department of Astronomy and Astrophysics, University of California, Santa Cruz 1156 High Street, Santa Cruz, CA 95064, USA",
+        "Department of Earth and Planetary Sciences, Stanford University, Stanford, CA 94305, USA",
+        "Earth and Planets Laboratory, Carnegie Institution for Science, Washington DC, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Yao Tang",
+          "institutions": [
+            "Department of Astronomy and Astrophysics, University of California, Santa Cruz 1156 High Street, Santa Cruz, CA 95064, USA"
+          ]
+        },
+        {
+          "name": "Jonathan J. Fortney",
+          "institutions": [
+            "Department of Astronomy and Astrophysics, University of California, Santa Cruz 1156 High Street, Santa Cruz, CA 95064, USA"
+          ]
+        },
+        {
+          "name": "Laura K. Schaefer",
+          "institutions": [
+            "Department of Earth and Planetary Sciences, Stanford University, Stanford, CA 94305, USA"
+          ]
+        },
+        {
+          "name": "Peter Gao",
+          "institutions": [
+            "Earth and Planets Laboratory, Carnegie Institution for Science, Washington DC, USA"
+          ]
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2606.14646v2",
+      "intro_en": "Introduces a unified sub-Neptune evolution model coupling cooling, solidification, atmospheric loss and hydrogen–helium dissolution in magma.",
+      "intro_zh": "提出统一演化模型，将内部冷却、凝固、大气流失及氢氦在岩浆中的溶解结合起来，研究次海王星半径演化。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-06-12",
+      "publication_date_source": "https://arxiv.org/abs/2606.14646v2",
+      "tags": [
+        "岩浆与挥发分 · Magma & volatiles"
+      ],
+      "intro_version": "2606.14646v2",
+      "version_date": "2026-09-22T19:33:16+00:00"
     },
     {
       "id": "2609.08710",
@@ -1025,9 +2958,38 @@
       "version_changed": true,
       "topics": [],
       "matches": {},
-      "status": "candidate",
-      "reason": "行星分类候选，待人工判断",
-      "method": "keyword"
+      "status": "unmatched",
+      "reason": "行星科学拓展阅读",
+      "method": "keyword",
+      "institutions": [
+        "Knowledgeum Academy, Bengaluru, 560070, Karnataka, India",
+        "Indian Institute of Astrophysics, Bengaluru, 560034, India"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Naresh Prasanna",
+          "institutions": [
+            "Knowledgeum Academy, Bengaluru, 560070, Karnataka, India"
+          ]
+        },
+        {
+          "name": "Chrisphin Karthick",
+          "institutions": [
+            "Indian Institute of Astrophysics, Bengaluru, 560034, India"
+          ]
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.08710v3",
+      "intro_en": "Revisits Centaur lifetimes and dynamical classifications with updated orbital solutions and N-body integrations of orbital clones.",
+      "intro_zh": "用更新轨道解与轨道克隆的 N 体积分重新评估半人马天体寿命及其动力学分类的稳定性。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-08",
+      "publication_date_source": "https://arxiv.org/abs/2609.08710v3",
+      "tags": [],
+      "intro_version": "2609.08710v3",
+      "version_date": "2026-09-23T12:05:37+00:00"
     },
     {
       "id": "2609.24283",
@@ -1053,9 +3015,43 @@
       "version_changed": true,
       "topics": [],
       "matches": {},
-      "status": "candidate",
-      "reason": "行星分类候选，待人工判断",
-      "method": "keyword"
+      "status": "unmatched",
+      "reason": "行星科学拓展阅读",
+      "method": "keyword",
+      "institutions": [
+        "organization=Initiative for Interstellar Studies, city=27/29 South Lambeth Road London, postcode=SW8 1SZ, state=London, country=United Kingdom",
+        "organization=Astronomy Department,Harvard University, addressline=60 Garden Street, city=Cambridge, postcode = MA 02138, country=USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Adam Hibberd",
+          "institutions": []
+        },
+        {
+          "name": "Adam Crowl",
+          "institutions": []
+        },
+        {
+          "name": "Abraham Loeb",
+          "institutions": [
+            "organization=Initiative for Interstellar Studies, city=27/29 South Lambeth Road London, postcode=SW8 1SZ, state=London, country=United Kingdom",
+            "organization=Astronomy Department,Harvard University, addressline=60 Garden Street, city=Cambridge, postcode = MA 02138, country=USA"
+          ]
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.24283v2",
+      "intro_en": "Tests the hypothesis that dark comet 1998 KY26 is a lost spacecraft, considering its rotation, albedo and non-gravitational acceleration.",
+      "intro_zh": "检验暗彗星 1998 KY26 可能为失联航天器的假说，结合其自转、反照率和非引力加速度讨论可行性。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-21",
+      "publication_date_source": "https://arxiv.org/abs/2609.24283v2",
+      "tags": [
+        "云与辐射 · Clouds & radiation"
+      ],
+      "intro_version": "2609.24283v2",
+      "version_date": "2026-09-23T08:51:21+00:00"
     },
     {
       "id": "2605.14971",
@@ -1080,17 +3076,24 @@
       "source": "arXiv",
       "first_seen": "2026-09-24T08:51:14.614730+00:00",
       "version_changed": false,
-      "topics": [
-        "evolution"
-      ],
-      "matches": {
-        "evolution": [
-          "protoplanetary"
-        ]
-      },
-      "status": "candidate",
-      "reason": "命中：protoplanetary",
-      "method": "keyword"
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "行星科学拓展阅读",
+      "method": "keyword",
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2605.14971v2",
+      "intro_en": "Develops interferometry-informed neural denoising using the point-spread function, tested on synthetic protoplanetary-disk observations.",
+      "intro_zh": "提出融入干涉测量点扩散函数的神经网络去噪方法，以原行星盘合成观测检验图像恢复效果。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-05-14",
+      "publication_date_source": "https://arxiv.org/abs/2605.14971v2",
+      "tags": [],
+      "intro_version": "2605.14971v2",
+      "version_date": "2026-09-23T11:11:34+00:00"
     },
     {
       "id": "2606.05237",
@@ -1171,20 +3174,37 @@
       "first_seen": "2026-09-24T08:51:14.614730+00:00",
       "version_changed": false,
       "topics": [
-        "detection",
-        "evolution"
+        "planetary"
       ],
       "matches": {
-        "detection": [
-          "exoplanet"
-        ],
-        "evolution": [
-          "protoplanetary"
+        "planetary": [
+          "planetary atmosphere",
+          "exoplanet atmosphere"
         ]
       },
       "status": "candidate",
-      "reason": "命中：exoplanet、protoplanetary",
-      "method": "keyword"
+      "reason": "关联线索：planetary atmosphere、exoplanet atmosphere",
+      "method": "keyword",
+      "institutions": [],
+      "author_affiliations": [
+        {
+          "name": "GREX-PLUS Science Team",
+          "institutions": []
+        }
+      ],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2606.05237v3",
+      "intro_en": "Outlines GREX-PLUS science and infrared instrumentation, including planetary-system formation, disk water snowlines and early galaxies.",
+      "intro_zh": "介绍 GREX-PLUS 任务的科学目标与红外仪器方案，包括行星系统形成、原行星盘水雪线和宇宙早期星系研究。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-06-03",
+      "publication_date_source": "https://arxiv.org/abs/2606.05237v3",
+      "tags": [
+        "光谱与相曲线 · Spectra & phase curves"
+      ],
+      "intro_version": "2606.05237v3",
+      "version_date": "2026-09-23T02:36:17+00:00"
     },
     {
       "id": "2607.24418",
@@ -1211,9 +3231,35 @@
       "version_changed": false,
       "topics": [],
       "matches": {},
-      "status": "candidate",
-      "reason": "行星分类候选，待人工判断",
-      "method": "keyword"
+      "status": "unmatched",
+      "reason": "行星科学拓展阅读",
+      "method": "keyword",
+      "institutions": [
+        "Center for Computational Astrophysics, National Astronomical Observatory of Japan, Mitaka, Tokyo 181-8588, Japan",
+        "Astronomical Science Program, The Graduate University for Advanced Studies (SOKENDAI), 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Kazunari Iwasaki",
+          "institutions": [
+            "Center for Computational Astrophysics, National Astronomical Observatory of Japan, Mitaka, Tokyo 181-8588, Japan",
+            "Astronomical Science Program, The Graduate University for Advanced Studies (SOKENDAI), 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan"
+          ]
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2607.24418v2",
+      "intro_en": "Develops a split-flux dust–gas method to reduce artificial dust-to-gas ratio variations caused by inconsistent fluxes in strong coupling.",
+      "intro_zh": "提出尘埃—气体双流体分裂通量算法，改善强耦合条件下质量通量不一致导致的人工尘气比变化。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-07-27",
+      "publication_date_source": "https://arxiv.org/abs/2607.24418v2",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "intro_version": "2607.24418v2",
+      "version_date": "2026-09-23T11:08:25+00:00"
     },
     {
       "id": "2609.15331",
@@ -1243,9 +3289,73 @@
       "version_changed": false,
       "topics": [],
       "matches": {},
-      "status": "candidate",
-      "reason": "行星分类候选，待人工判断",
-      "method": "keyword"
+      "status": "unmatched",
+      "reason": "行星科学拓展阅读",
+      "method": "keyword",
+      "institutions": [
+        "Instituto de Astrofísica de Canarias, c/ Vía Láctea, s/n, E-38205 La Laguna, Tenerife, Spain",
+        "Departamento de Astrofísica, Universidad de La Laguna, E-38206 La Laguna, Tenerife, Spain",
+        "Institute of Astronomy, KU Leuven, Celestijnlaan 200D, 3001 Leuven, Belgium",
+        "Leuven Gravity Institute, KU Leuven, Celestijnenlaan 200D, box 2415, 3001 Leuven, Belgium"
+      ],
+      "author_affiliations": [
+        {
+          "name": "D. Galán-Diéguez ,",
+          "institutions": [
+            "Instituto de Astrofísica de Canarias, c/ Vía Láctea, s/n, E-38205 La Laguna, Tenerife, Spain",
+            "Departamento de Astrofísica, Universidad de La Laguna, E-38206 La Laguna, Tenerife, Spain"
+          ]
+        },
+        {
+          "name": "M. Abdul-Masih",
+          "institutions": [
+            "Instituto de Astrofísica de Canarias, c/ Vía Láctea, s/n, E-38205 La Laguna, Tenerife, Spain",
+            "Departamento de Astrofísica, Universidad de La Laguna, E-38206 La Laguna, Tenerife, Spain"
+          ]
+        },
+        {
+          "name": "C. Allende Prieto",
+          "institutions": [
+            "Instituto de Astrofísica de Canarias, c/ Vía Láctea, s/n, E-38205 La Laguna, Tenerife, Spain",
+            "Departamento de Astrofísica, Universidad de La Laguna, E-38206 La Laguna, Tenerife, Spain"
+          ]
+        },
+        {
+          "name": "S.R. Berlanas",
+          "institutions": [
+            "Instituto de Astrofísica de Canarias, c/ Vía Láctea, s/n, E-38205 La Laguna, Tenerife, Spain",
+            "Departamento de Astrofísica, Universidad de La Laguna, E-38206 La Laguna, Tenerife, Spain"
+          ]
+        },
+        {
+          "name": "A. Herrero",
+          "institutions": [
+            "Instituto de Astrofísica de Canarias, c/ Vía Láctea, s/n, E-38205 La Laguna, Tenerife, Spain",
+            "Departamento de Astrofísica, Universidad de La Laguna, E-38206 La Laguna, Tenerife, Spain"
+          ]
+        },
+        {
+          "name": "H. Sana",
+          "institutions": [
+            "Institute of Astronomy, KU Leuven, Celestijnlaan 200D, 3001 Leuven, Belgium",
+            "Leuven Gravity Institute, KU Leuven, Celestijnenlaan 200D, box 2415, 3001 Leuven, Belgium"
+          ]
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.15331v2",
+      "intro_en": "Expands the atmosphere grids in SPAMMS for three-dimensional spectral synthesis across more stellar types and non-spherical surfaces.",
+      "intro_zh": "扩展 SPAMMS 三维恒星光谱建模的大气模型网格，使其能够处理更广的恒星类型及非球对称表面效应。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-14",
+      "publication_date_source": "https://arxiv.org/abs/2609.15331v2",
+      "tags": [
+        "云与辐射 · Clouds & radiation",
+        "海冰与表层 · Ice & surface"
+      ],
+      "intro_version": "2609.15331v2",
+      "version_date": "2026-09-23T09:29:25+00:00"
     },
     {
       "id": "2609.26890",
@@ -1269,11 +3379,49 @@
       "source": "arXiv",
       "first_seen": "2026-09-24T08:58:07.531315+00:00",
       "version_changed": false,
-      "topics": [],
-      "matches": {},
-      "status": "unmatched",
-      "reason": "未命中当前规则",
-      "method": "keyword"
+      "topics": [
+        "ocean",
+        "methods"
+      ],
+      "matches": {
+        "ocean": [
+          "kolmogorov flow"
+        ],
+        "methods": [
+          "data assimilation"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：kolmogorov flow、data assimilation",
+      "method": "keyword",
+      "institutions": [
+        "iTHEMS",
+        "RIKEN",
+        "Kobe, Japan"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Yuta Tarumi",
+          "institutions": [
+            "iTHEMS",
+            "RIKEN",
+            "Kobe, Japan"
+          ]
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.26890v1",
+      "intro_en": "Introduces a non-Gaussian data-assimilation smoother that retains the prescribed physical simulator and supports parameter calibration.",
+      "intro_zh": "提出保留原有物理模拟器的数据同化平滑方法，用非高斯分布描述状态轨迹并支持模拟器参数校准。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-22",
+      "publication_date_source": "https://arxiv.org/abs/2609.26890v1",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "intro_version": "2609.26890v1",
+      "version_date": "2026-09-22T18:00:06+00:00"
     },
     {
       "id": "2609.27093",
@@ -1305,8 +3453,21 @@
       "topics": [],
       "matches": {},
       "status": "unmatched",
-      "reason": "未命中当前规则",
-      "method": "keyword"
+      "reason": "拓展阅读",
+      "method": "keyword",
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2609.27093v1",
+      "intro_en": "Uses sodium lidar and meteor radar to investigate wintertime enhancement of twelve-hour wind oscillations over Alaska.",
+      "intro_zh": "用钠激光雷达和流星雷达研究阿拉斯加中间层—低热层的十二小时风场波动及其冬季增强特征。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-22",
+      "publication_date_source": "https://arxiv.org/abs/2609.27093v1",
+      "tags": [],
+      "intro_version": "2609.27093v1",
+      "version_date": "2026-09-22T21:51:58+00:00"
     },
     {
       "id": "2609.27769",
@@ -1333,8 +3494,30 @@
       "topics": [],
       "matches": {},
       "status": "unmatched",
-      "reason": "未命中当前规则",
-      "method": "keyword"
+      "reason": "拓展阅读",
+      "method": "keyword",
+      "institutions": [
+        "Faculty of Engineering, Universidad del Desarrollo, Santiago, Chile"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Mauricio Herrera-Marín",
+          "institutions": [
+            "Faculty of Engineering, Universidad del Desarrollo, Santiago, Chile"
+          ]
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.27769v1",
+      "intro_en": "Shows how placing surrogate-test constraints before or after threshold aggregation changes inference for environmental indices.",
+      "intro_zh": "研究环境阈值指标的替代数据检验，说明在原始变量或聚合指标层面设置零假设会改变统计推断。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-08-16",
+      "publication_date_source": "https://arxiv.org/abs/2609.27769v1",
+      "tags": [],
+      "intro_version": "2609.27769v1",
+      "version_date": "2026-08-16T19:26:50+00:00"
     },
     {
       "id": "2605.07167",
@@ -1359,11 +3542,65 @@
       "source": "arXiv",
       "first_seen": "2026-09-24T08:58:07.531315+00:00",
       "version_changed": true,
-      "topics": [],
-      "matches": {},
-      "status": "unmatched",
-      "reason": "未命中当前规则",
-      "method": "keyword"
+      "topics": [
+        "physics"
+      ],
+      "matches": {
+        "physics": [
+          "precipitation"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：precipitation",
+      "method": "keyword",
+      "institutions": [
+        "Colorado State University, Fort Collins, Colorado, USA",
+        "University of Maryland, Baltimore County, Baltimore, Maryland, USA",
+        "NASA Goddard Space Flight Center, Greenbelt, Maryland, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Simon Pfreundschuh",
+          "institutions": [
+            "Colorado State University, Fort Collins, Colorado, USA"
+          ]
+        },
+        {
+          "name": "Christian D. Kummerow",
+          "institutions": [
+            "Colorado State University, Fort Collins, Colorado, USA"
+          ]
+        },
+        {
+          "name": "Jackson Tan",
+          "institutions": [
+            "University of Maryland, Baltimore County, Baltimore, Maryland, USA",
+            "NASA Goddard Space Flight Center, Greenbelt, Maryland, USA"
+          ]
+        },
+        {
+          "name": "George J. Huffman",
+          "institutions": [
+            "NASA Goddard Space Flight Center, Greenbelt, Maryland, USA"
+          ]
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2605.07167v2",
+      "intro_en": "Introduces a spatiotemporal infrared neural retrieval to improve the infrared contribution to merged satellite precipitation products.",
+      "intro_zh": "提出利用时空红外图像的神经网络降水反演方法，旨在改进多卫星融合降水产品的红外估计部分。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-05-08",
+      "publication_date_source": "https://arxiv.org/abs/2605.07167v2",
+      "tags": [
+        "云与辐射 · Clouds & radiation",
+        "水循环 · Water cycle",
+        "海冰与表层 · Ice & surface",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "intro_version": "2605.07167v2",
+      "version_date": "2026-09-22T23:38:53+00:00"
     },
     {
       "id": "2609.27907",
@@ -1387,11 +3624,32 @@
       "source": "arXiv",
       "first_seen": "2026-09-24T08:58:07.531315+00:00",
       "version_changed": false,
-      "topics": [],
-      "matches": {},
-      "status": "unmatched",
-      "reason": "未命中当前规则",
-      "method": "keyword"
+      "topics": [
+        "evolution"
+      ],
+      "matches": {
+        "evolution": [
+          "mantle"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：mantle",
+      "method": "keyword",
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2609.27907v1",
+      "intro_en": "Uses three-dimensional thermomechanical models to test how crustal structure and inelastic heating can localize European volcanism.",
+      "intro_zh": "用三维热力—力学地球动力模型检验地壳厚度差异及非弹性变形加热对欧洲局地火山活动的贡献。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-08-21",
+      "publication_date_source": "https://arxiv.org/abs/2609.27907v1",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "intro_version": "2609.27907v1",
+      "version_date": "2026-08-21T12:27:10+00:00"
     },
     {
       "id": "2609.28426",
@@ -1419,8 +3677,23 @@
       "topics": [],
       "matches": {},
       "status": "unmatched",
-      "reason": "未命中当前规则",
-      "method": "keyword"
+      "reason": "拓展阅读",
+      "method": "keyword",
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2609.28426v1",
+      "intro_en": "Uses discrete-element simulations to quantify how irregular rock-fragment geometry affects strength and stiffness under static and dynamic loading.",
+      "intro_zh": "通过离散元模拟比较不规则岩石碎片在静态与动态载荷下的强度和刚度，评估几何形状的影响。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-23",
+      "publication_date_source": "https://arxiv.org/abs/2609.28426v1",
+      "tags": [
+        "海冰与表层 · Ice & surface"
+      ],
+      "intro_version": "2609.28426v1",
+      "version_date": "2026-09-23T17:27:16+00:00"
     },
     {
       "id": "2605.13594",
@@ -1447,11 +3720,32 @@
       "source": "arXiv",
       "first_seen": "2026-09-24T08:58:07.531315+00:00",
       "version_changed": true,
-      "topics": [],
-      "matches": {},
-      "status": "unmatched",
-      "reason": "未命中当前规则",
-      "method": "keyword"
+      "topics": [
+        "evolution"
+      ],
+      "matches": {
+        "evolution": [
+          "core conditions"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：core conditions",
+      "method": "keyword",
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2605.13594v3",
+      "intro_en": "Benchmarks foundational atomistic models against ab initio results for iron-alloy phases, phonons and melting under Earth-core conditions.",
+      "intro_zh": "将基础原子模型与第一性原理结果比较，评估其描述地核条件下铁合金物态、声子和熔化性质的能力。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-05-13",
+      "publication_date_source": "https://arxiv.org/abs/2605.13594v3",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "intro_version": "2605.13594v3",
+      "version_date": "2026-09-23T13:45:26+00:00"
     },
     {
       "id": "2608.21045",
@@ -1481,8 +3775,23 @@
       "topics": [],
       "matches": {},
       "status": "unmatched",
-      "reason": "未命中当前规则",
-      "method": "keyword"
+      "reason": "拓展阅读",
+      "method": "keyword",
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2608.21045v3",
+      "intro_en": "Extracts time-resolved fault displacement from earthquake video, comparing optical-flow and template-matching approaches to recording artifacts.",
+      "intro_zh": "从地震现场视频提取随时间变化的地表位移，并比较光流与模板匹配对相机运动和录制误差的处理。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-08-21",
+      "publication_date_source": "https://arxiv.org/abs/2608.21045v3",
+      "tags": [
+        "海冰与表层 · Ice & surface"
+      ],
+      "intro_version": "2608.21045v3",
+      "version_date": "2026-09-23T11:46:42+00:00"
     },
     {
       "id": "2609.26816",
@@ -1510,8 +3819,37 @@
       "topics": [],
       "matches": {},
       "status": "unmatched",
-      "reason": "未命中当前规则",
-      "method": "keyword"
+      "reason": "拓展阅读",
+      "method": "keyword",
+      "institutions": [],
+      "author_affiliations": [
+        {
+          "name": "Chun-Jun Pu",
+          "institutions": []
+        },
+        {
+          "name": "Li-Wei Chen",
+          "institutions": []
+        },
+        {
+          "name": "Hai-Bo Huang",
+          "institutions": []
+        }
+      ],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2609.26816v1",
+      "intro_en": "Develops a stiffness-conditioned neural evolution model for coupled flow and flexible-plate dynamics across distinct response regimes.",
+      "intro_zh": "建立刚度条件化的神经演化模型，联合表示流场和柔性板状态，预测不同刚度下的流固耦合响应。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-19",
+      "publication_date_source": "https://arxiv.org/abs/2609.26816v1",
+      "tags": [
+        "环流与波动 · Circulation & waves",
+        "海冰与表层 · Ice & surface"
+      ],
+      "intro_version": "2609.26816v1",
+      "version_date": "2026-09-19T03:04:57+00:00"
     },
     {
       "id": "2609.26833",
@@ -1537,16 +3875,44 @@
       "first_seen": "2026-09-24T08:58:07.531315+00:00",
       "version_changed": false,
       "topics": [
-        "dynamics"
+        "methods"
       ],
       "matches": {
-        "dynamics": [
+        "methods": [
           "turbulence"
         ]
       },
-      "status": "candidate",
-      "reason": "命中：turbulence",
-      "method": "keyword"
+      "status": "unmatched",
+      "reason": "关联线索：turbulence",
+      "method": "keyword",
+      "institutions": [],
+      "author_affiliations": [
+        {
+          "name": "Bijita Bose",
+          "institutions": []
+        },
+        {
+          "name": "Somdeep Dey",
+          "institutions": []
+        },
+        {
+          "name": "Soma Sanyal",
+          "institutions": []
+        }
+      ],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2609.26833v1",
+      "intro_en": "Uses rotation-group representations to study coherent structures and correlation scales in Gaussian and non-Gaussian anisotropic magnetic turbulence.",
+      "intro_zh": "利用旋转群表示分析各向异性磁流体湍流中的相干结构，比较高斯与非高斯磁场分布的相关尺度。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-21",
+      "publication_date_source": "https://arxiv.org/abs/2609.26833v1",
+      "tags": [
+        "流体与不稳定性 · Fluid dynamics"
+      ],
+      "intro_version": "2609.26833v1",
+      "version_date": "2026-09-21T10:42:31+00:00"
     },
     {
       "id": "2609.27062",
@@ -1570,16 +3936,44 @@
       "first_seen": "2026-09-24T08:58:07.531315+00:00",
       "version_changed": false,
       "topics": [
-        "dynamics"
+        "ocean",
+        "methods"
       ],
       "matches": {
-        "dynamics": [
+        "ocean": [
+          "kolmogorov flow"
+        ],
+        "methods": [
           "turbulence"
         ]
       },
       "status": "candidate",
-      "reason": "命中：turbulence",
-      "method": "keyword"
+      "reason": "关联线索：kolmogorov flow、turbulence",
+      "method": "keyword",
+      "institutions": [
+        "\\aff1Theoretical Division, Los Alamos National Laboratory, Los Alamos, NM 87544, USA \\aff2School of Physics, Georgia Institute of Technology, Atlanta, GA 30318, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Matthew Golden\\aff1,2",
+          "institutions": [
+            "\\aff1Theoretical Division, Los Alamos National Laboratory, Los Alamos, NM 87544, USA \\aff2School of Physics, Georgia Institute of Technology, Atlanta, GA 30318, USA"
+          ]
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.27062v1",
+      "intro_en": "Presents a large catalog of exact steady states of two-dimensional Kolmogorov flow for dynamical-systems studies of turbulence and transients.",
+      "intro_zh": "给出二维 Kolmogorov 流的大量精确稳态解，为从动力系统角度分析湍流与瞬态行为提供参考。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-22",
+      "publication_date_source": "https://arxiv.org/abs/2609.27062v1",
+      "tags": [
+        "流体与不稳定性 · Fluid dynamics"
+      ],
+      "intro_version": "2609.27062v1",
+      "version_date": "2026-09-22T21:02:03+00:00"
     },
     {
       "id": "2609.27137",
@@ -1602,11 +3996,45 @@
       "source": "arXiv",
       "first_seen": "2026-09-24T08:58:07.531315+00:00",
       "version_changed": false,
-      "topics": [],
-      "matches": {},
+      "topics": [
+        "methods"
+      ],
+      "matches": {
+        "methods": [
+          "navier stokes"
+        ]
+      },
       "status": "unmatched",
-      "reason": "未命中当前规则",
-      "method": "keyword"
+      "reason": "关联线索：navier stokes",
+      "method": "keyword",
+      "institutions": [
+        "††affiliation: 1Department of Mechanical and Aerospace Engineering, University of California, Davis, CA 95616, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Jordon Won1",
+          "institutions": []
+        },
+        {
+          "name": "Seongkyu Lee1",
+          "institutions": []
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.27137v1",
+      "intro_en": "Combines flow simulations and acoustic analogies to investigate quasi-tonal noise from secondary-vortex interactions with hovering rotor blades.",
+      "intro_zh": "耦合流动模拟与声学类比，研究悬停旋翼中次级涡与叶片相互作用产生的准音调噪声。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-22",
+      "publication_date_source": "https://arxiv.org/abs/2609.27137v1",
+      "tags": [
+        "环流与波动 · Circulation & waves",
+        "流体与不稳定性 · Fluid dynamics",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "intro_version": "2609.27137v1",
+      "version_date": "2026-09-22T22:52:33+00:00"
     },
     {
       "id": "2609.27228",
@@ -1634,17 +4062,27 @@
       "source": "arXiv",
       "first_seen": "2026-09-24T08:58:07.531315+00:00",
       "version_changed": false,
-      "topics": [
-        "dynamics"
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "method": "keyword",
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2609.27228v1",
+      "intro_en": "Develops a Mie-scattering inversion method to resolve nanoscale surface disturbances on liquid jets beyond conventional imaging limits.",
+      "intro_zh": "提出基于米散射的液体射流表面扰动测量方法，通过散射条纹反演突破常规成像对纳米尺度扰动的限制。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-23",
+      "publication_date_source": "https://arxiv.org/abs/2609.27228v1",
+      "tags": [
+        "海冰与表层 · Ice & surface",
+        "流体与不稳定性 · Fluid dynamics"
       ],
-      "matches": {
-        "dynamics": [
-          "instability"
-        ]
-      },
-      "status": "candidate",
-      "reason": "命中：instability",
-      "method": "keyword"
+      "intro_version": "2609.27228v1",
+      "version_date": "2026-09-23T01:50:34+00:00"
     },
     {
       "id": "2609.27292",
@@ -1670,16 +4108,58 @@
       "first_seen": "2026-09-24T08:58:07.531315+00:00",
       "version_changed": false,
       "topics": [
-        "dynamics"
+        "ocean",
+        "methods"
       ],
       "matches": {
-        "dynamics": [
-          "turbulence"
+        "ocean": [
+          "2d turbulence"
+        ],
+        "methods": [
+          "turbulence",
+          "direct numerical simulation"
         ]
       },
       "status": "candidate",
-      "reason": "命中：turbulence",
-      "method": "keyword"
+      "reason": "关联线索：2d turbulence、turbulence、direct numerical simulation",
+      "method": "keyword",
+      "institutions": [
+        "\\aff1Department of Mechanics, Huazhong University of Science and Technology, Wuhan 430074, China \\aff2Hubei Key Laboratory of Engineering Structural Analysis and Safety Assessment, Wuhan 430074, China"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Haoyu Wang\\aff1,2",
+          "institutions": []
+        },
+        {
+          "name": "Hangyu Zhu\\aff1,2",
+          "institutions": []
+        },
+        {
+          "name": "Xiaoqiu He\\aff1,2",
+          "institutions": []
+        },
+        {
+          "name": "Yongliang Xiong\\aff1,2",
+          "institutions": [
+            "\\aff1Department of Mechanics, Huazhong University of Science and Technology, Wuhan 430074, China \\aff2Hubei Key Laboratory of Engineering Structural Analysis and Safety Assessment, Wuhan 430074, China"
+          ]
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.27292v1",
+      "intro_en": "Uses direct simulations to study how polymer elasticity changes two-dimensional turbulence structures and scale-by-scale energy transfer.",
+      "intro_zh": "用直接数值模拟研究聚合物弹性如何改变二维湍流结构及能量传输，并区分弱弹性和弹性激活状态。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-23",
+      "publication_date_source": "https://arxiv.org/abs/2609.27292v1",
+      "tags": [
+        "流体与不稳定性 · Fluid dynamics",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "intro_version": "2609.27292v1",
+      "version_date": "2026-09-23T03:30:29+00:00"
     },
     {
       "id": "2609.27512",
@@ -1706,11 +4186,43 @@
       "source": "arXiv",
       "first_seen": "2026-09-24T08:58:07.531315+00:00",
       "version_changed": false,
-      "topics": [],
-      "matches": {},
+      "topics": [
+        "methods"
+      ],
+      "matches": {
+        "methods": [
+          "navier stokes"
+        ]
+      },
       "status": "unmatched",
-      "reason": "未命中当前规则",
-      "method": "keyword"
+      "reason": "关联线索：navier stokes",
+      "method": "keyword",
+      "institutions": [
+        "Seminar for Applied Mathematics, ETH Zurich, CH-8092 Zurich, Switzerland"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Tobias Rohner",
+          "institutions": [
+            "Seminar for Applied Mathematics, ETH Zurich, CH-8092 Zurich, Switzerland"
+          ]
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.27512v1",
+      "intro_en": "Studies stationary statistics of randomly forced two-dimensional flows in the fast-advection limit, focusing on concentration in the lowest Fourier modes.",
+      "intro_zh": "考察随机强迫二维流体在快速平流极限下的统计分布，研究能量向最低傅里叶模态集中的现象。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-23",
+      "publication_date_source": "https://arxiv.org/abs/2609.27512v1",
+      "tags": [
+        "水循环 · Water cycle",
+        "流体与不稳定性 · Fluid dynamics",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "intro_version": "2609.27512v1",
+      "version_date": "2026-09-23T08:10:22+00:00"
     },
     {
       "id": "2609.27568",
@@ -1736,16 +4248,47 @@
       "first_seen": "2026-09-24T08:58:07.531315+00:00",
       "version_changed": false,
       "topics": [
-        "dynamics"
+        "methods"
       ],
       "matches": {
-        "dynamics": [
-          "instability"
+        "methods": [
+          "direct numerical simulation"
         ]
       },
-      "status": "candidate",
-      "reason": "命中：instability",
-      "method": "keyword"
+      "status": "unmatched",
+      "reason": "关联线索：direct numerical simulation",
+      "method": "keyword",
+      "institutions": [
+        "††affiliation: 1 Dipartimento di Ingegneria Meccanica e Aerospaziale, Sapienza Università di Roma, Rome 00184, Italy 2 Center for Turbulence Research, Stanford University, Stanford, CA, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Giulio Soldati1",
+          "institutions": []
+        },
+        {
+          "name": "Hang Song2",
+          "institutions": []
+        },
+        {
+          "name": "Sergio Pirozzoli1 and Sanjiva K. Lele2",
+          "institutions": []
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.27568v1",
+      "intro_en": "Uses direct simulations and spectral mode decomposition to investigate transonic-buffet onset, dominant modes and acoustic feedback paths.",
+      "intro_zh": "通过直接数值模拟与谱模态分解，研究超临界翼型跨声速抖振的起始、主导模态与声学反馈路径。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-23",
+      "publication_date_source": "https://arxiv.org/abs/2609.27568v1",
+      "tags": [
+        "流体与不稳定性 · Fluid dynamics",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "intro_version": "2609.27568v1",
+      "version_date": "2026-09-23T08:49:40+00:00"
     },
     {
       "id": "2609.27892",
@@ -1770,8 +4313,38 @@
       "topics": [],
       "matches": {},
       "status": "unmatched",
-      "reason": "未命中当前规则",
-      "method": "keyword"
+      "reason": "拓展阅读",
+      "method": "keyword",
+      "institutions": [
+        "[0.35em] Department of Mechanical and Industrial Engineering,",
+        "University of Massachusetts Amherst, Amherst, Massachusetts 01003, USA",
+        "[0.35em] eroohi@umass.edu"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Ehsan Roohi",
+          "institutions": [
+            "[0.35em] Department of Mechanical and Industrial Engineering,",
+            "University of Massachusetts Amherst, Amherst, Massachusetts 01003, USA",
+            "[0.35em] eroohi@umass.edu"
+          ]
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.27892v1",
+      "intro_en": "Examines observability in rarefied heat transport, showing why reproducing counter-gradient heat flux need not uniquely identify higher-order closure states.",
+      "intro_zh": "分析稀薄气体逆温度梯度热流的可观测性，指出复现热流并不必然唯一确定高阶输运闭合状态。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-08-21",
+      "publication_date_source": "https://arxiv.org/abs/2609.27892v1",
+      "tags": [
+        "环流与波动 · Circulation & waves",
+        "热输送 · Heat transport",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "intro_version": "2609.27892v1",
+      "version_date": "2026-08-21T02:22:13+00:00"
     },
     {
       "id": "2609.27943",
@@ -1794,17 +4367,33 @@
       "first_seen": "2026-09-24T08:58:07.531315+00:00",
       "version_changed": false,
       "topics": [
-        "dynamics"
+        "methods"
       ],
       "matches": {
-        "dynamics": [
-          "convection",
-          "turbulence"
+        "methods": [
+          "turbulence",
+          "direct numerical simulation"
         ]
       },
-      "status": "candidate",
-      "reason": "命中：convection、turbulence",
-      "method": "keyword"
+      "status": "unmatched",
+      "reason": "关联线索：turbulence、direct numerical simulation",
+      "method": "keyword",
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2609.27943v1",
+      "intro_en": "Uses pore-scale simulation insights to model turbulent flow across porous and clear-fluid regions, emphasizing limits imposed by pore size.",
+      "intro_zh": "根据多孔介质直接数值模拟，讨论孔尺度对湍流结构的限制，并建立多孔—自由流复合区域的建模思路。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-08-22",
+      "publication_date_source": "https://arxiv.org/abs/2609.27943v1",
+      "tags": [
+        "流体与不稳定性 · Fluid dynamics",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "intro_version": "2609.27943v1",
+      "version_date": "2026-08-22T17:16:47+00:00"
     },
     {
       "id": "2609.28151",
@@ -1830,8 +4419,24 @@
       "topics": [],
       "matches": {},
       "status": "unmatched",
-      "reason": "未命中当前规则",
-      "method": "keyword"
+      "reason": "拓展阅读",
+      "method": "keyword",
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2609.28151v1",
+      "intro_en": "Uses direct simulation Monte Carlo to examine how corner rounding and Knudsen number affect rarefied-cavity flow and thermodynamic fields.",
+      "intro_zh": "用直接模拟蒙特卡洛方法研究腔体圆角与克努森数对稀薄气体环流、温度和密度分布的影响。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-23",
+      "publication_date_source": "https://arxiv.org/abs/2609.28151v1",
+      "tags": [
+        "环流与波动 · Circulation & waves",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "intro_version": "2609.28151v1",
+      "version_date": "2026-09-23T14:07:23+00:00"
     },
     {
       "id": "2609.28173",
@@ -1857,16 +4462,51 @@
       "first_seen": "2026-09-24T08:58:07.531315+00:00",
       "version_changed": false,
       "topics": [
-        "dynamics"
+        "ocean",
+        "methods"
       ],
       "matches": {
-        "dynamics": [
-          "turbulence"
+        "ocean": [
+          "two dimensional turbulence",
+          "inverse cascade"
+        ],
+        "methods": [
+          "turbulence",
+          "direct numerical simulation"
         ]
       },
       "status": "candidate",
-      "reason": "命中：turbulence",
-      "method": "keyword"
+      "reason": "关联线索：two dimensional turbulence、inverse cascade、turbulence、direct numerical simulation",
+      "method": "keyword",
+      "institutions": [],
+      "author_affiliations": [
+        {
+          "name": "A. Alexakis1",
+          "institutions": []
+        },
+        {
+          "name": "M. E. Brachet1",
+          "institutions": []
+        },
+        {
+          "name": "S. Fauve1 and F. Pétrélis1",
+          "institutions": []
+        }
+      ],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2609.28173v1",
+      "intro_en": "Reviews dynamics and statistics above the forcing scale, contrasting three-dimensional equipartition with large-scale structures in two-dimensional inverse cascades.",
+      "intro_zh": "综述湍流强迫尺度以上的大尺度动力与统计性质，比较三维能量均分及二维逆级联背景下的结构。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-23",
+      "publication_date_source": "https://arxiv.org/abs/2609.28173v1",
+      "tags": [
+        "流体与不稳定性 · Fluid dynamics",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "intro_version": "2609.28173v1",
+      "version_date": "2026-09-23T14:17:50+00:00"
     },
     {
       "id": "2609.28355",
@@ -1895,11 +4535,57 @@
       "source": "arXiv",
       "first_seen": "2026-09-24T08:58:07.531315+00:00",
       "version_changed": false,
-      "topics": [],
-      "matches": {},
+      "topics": [
+        "methods"
+      ],
+      "matches": {
+        "methods": [
+          "direct numerical simulation"
+        ]
+      },
       "status": "unmatched",
-      "reason": "未命中当前规则",
-      "method": "keyword"
+      "reason": "关联线索：direct numerical simulation",
+      "method": "keyword",
+      "institutions": [],
+      "author_affiliations": [
+        {
+          "name": "Umberto Zucchelli",
+          "institutions": []
+        },
+        {
+          "name": "Miguel Alfonso Mendez",
+          "institutions": []
+        },
+        {
+          "name": "Annafederica Urbano",
+          "institutions": []
+        },
+        {
+          "name": "Sebastien Vincent-Bonnieu",
+          "institutions": []
+        },
+        {
+          "name": "Piotr Wenderski",
+          "institutions": []
+        },
+        {
+          "name": "Francesco Sanfedino",
+          "institutions": []
+        }
+      ],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2609.28355v1",
+      "intro_en": "Develops a partitioned solver for microgravity sloshing and flexible spacecraft dynamics, checked with experiments and energy-balance diagnostics.",
+      "intro_zh": "构建微重力下液体晃荡与柔性航天器的分区流固耦合求解器，并用实验和能量收支检验数值一致性。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-23",
+      "publication_date_source": "https://arxiv.org/abs/2609.28355v1",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "intro_version": "2609.28355v1",
+      "version_date": "2026-09-23T16:28:42+00:00"
     },
     {
       "id": "2605.19796",
@@ -1923,16 +4609,45 @@
       "first_seen": "2026-09-24T08:58:07.531315+00:00",
       "version_changed": true,
       "topics": [
-        "dynamics"
+        "methods"
       ],
       "matches": {
-        "dynamics": [
-          "turbulence"
+        "methods": [
+          "boltzmann",
+          "turbulence",
+          "navier stokes"
         ]
       },
-      "status": "candidate",
-      "reason": "命中：turbulence",
-      "method": "keyword"
+      "status": "unmatched",
+      "reason": "关联线索：boltzmann、turbulence、navier stokes",
+      "method": "keyword",
+      "institutions": [
+        "1Department of Computer Science, University of Geneva",
+        "2HEPIA, University of Applied Sciences and Arts of Western Switzerland"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Francesco Marson1,2,∗ and Orestis Malaspinas2",
+          "institutions": [
+            "1Department of Computer Science, University of Geneva",
+            "2HEPIA, University of Applied Sciences and Arts of Western Switzerland"
+          ]
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2605.19796v3",
+      "intro_en": "Develops turbulence closure from the filtered Boltzmann equation, emphasizing non-Markovian collision dynamics and unresolved correlations.",
+      "intro_zh": "从滤波玻尔兹曼方程出发研究湍流闭合，强调碰撞项中的非马尔可夫效应与未解析尺度相关性。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-05-19",
+      "publication_date_source": "https://arxiv.org/abs/2605.19796v3",
+      "tags": [
+        "流体与不稳定性 · Fluid dynamics",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "intro_version": "2605.19796v3",
+      "version_date": "2026-09-23T11:23:23+00:00"
     },
     {
       "id": "2609.15762",
@@ -1956,11 +4671,57 @@
       "source": "arXiv",
       "first_seen": "2026-09-24T08:58:07.531315+00:00",
       "version_changed": true,
-      "topics": [],
-      "matches": {},
+      "topics": [
+        "methods"
+      ],
+      "matches": {
+        "methods": [
+          "data assimilation",
+          "reduced order"
+        ]
+      },
       "status": "unmatched",
-      "reason": "未命中当前规则",
-      "method": "keyword"
+      "reason": "关联线索：data assimilation、reduced order",
+      "method": "keyword",
+      "institutions": [
+        "Department of Mechanical, Aerospace, and Nuclear Engineering, Rensselaer Polytechnic Institute, 110 8th St, Troy, New York 12180, USA",
+        "Department of Computer Science, Institute of Artificial Intelligence, University of Central Florida, 4356 Scorpius Street, Orlando, Florida 32816, USA",
+        "Scientific Computation Research Center, Rensselaer Polytechnic Institute, 110 8th St, Troy, New York 12180, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Nithin Somasekharan",
+          "institutions": [
+            "Department of Mechanical, Aerospace, and Nuclear Engineering, Rensselaer Polytechnic Institute, 110 8th St, Troy, New York 12180, USA"
+          ]
+        },
+        {
+          "name": "Yadi Cao",
+          "institutions": [
+            "Department of Computer Science, Institute of Artificial Intelligence, University of Central Florida, 4356 Scorpius Street, Orlando, Florida 32816, USA"
+          ]
+        },
+        {
+          "name": "Shaowu Pan",
+          "institutions": [
+            "Department of Mechanical, Aerospace, and Nuclear Engineering, Rensselaer Polytechnic Institute, 110 8th St, Troy, New York 12180, USA",
+            "Scientific Computation Research Center, Rensselaer Polytechnic Institute, 110 8th St, Troy, New York 12180, USA"
+          ]
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.15762v2",
+      "intro_en": "Combines a nonlinear encoder and Koopman-like dynamics for sparse-observation flow assimilation, distinguishing sensing skill from forecasting accuracy.",
+      "intro_zh": "提出结合非线性编码器和 Koopman 近似的数据同化框架，比较稀疏观测下流场重建与前向预测的表现差异。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-14",
+      "publication_date_source": "https://arxiv.org/abs/2609.15762v2",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "intro_version": "2609.15762v2",
+      "version_date": "2026-09-23T15:57:39+00:00"
     },
     {
       "id": "2609.23787",
@@ -1990,8 +4751,40 @@
       "topics": [],
       "matches": {},
       "status": "unmatched",
-      "reason": "未命中当前规则",
-      "method": "keyword"
+      "reason": "拓展阅读",
+      "method": "keyword",
+      "institutions": [],
+      "author_affiliations": [
+        {
+          "name": "Zijian Liu",
+          "institutions": []
+        },
+        {
+          "name": "Julian Olszewski",
+          "institutions": []
+        },
+        {
+          "name": "Bruce I. Gaynes",
+          "institutions": []
+        },
+        {
+          "name": "Jie Xu",
+          "institutions": []
+        }
+      ],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2609.23787v2",
+      "intro_en": "Combines polarimetry and velocimetry for viscoelastic-stress inference, examining calibration, error covariance and identifiability at low retardance.",
+      "intro_zh": "将偏振与测速联合用于黏弹性应力反演，分析标定、误差协方差和低延迟量条件下的可辨识性。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-20",
+      "publication_date_source": "https://arxiv.org/abs/2609.23787v2",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "intro_version": "2609.23787v2",
+      "version_date": "2026-09-23T03:34:45+00:00"
     },
     {
       "id": "2609.24368",
@@ -2021,8 +4814,65 @@
       "topics": [],
       "matches": {},
       "status": "unmatched",
-      "reason": "未命中当前规则",
-      "method": "keyword"
+      "reason": "拓展阅读",
+      "method": "keyword",
+      "institutions": [
+        "Department of Mechanical and Industrial Engineering, University of Illinois Chicago, Chicago, Illinois 60607, USA",
+        "Department of Mechanical, Industrial and Systems Engineering, University of Rhode Island, Kingston, Rhode Island 02881, USA",
+        "Department of Mechanical Engineering, University of Memphis, Memphis, Tennessee 38152, USA",
+        "Department of Mechanical Engineering, Stanford University, Stanford, California 94305, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Zijian Liu",
+          "institutions": [
+            "Department of Mechanical and Industrial Engineering, University of Illinois Chicago, Chicago, Illinois 60607, USA"
+          ]
+        },
+        {
+          "name": "Julian Olszewski",
+          "institutions": [
+            "Department of Mechanical and Industrial Engineering, University of Illinois Chicago, Chicago, Illinois 60607, USA"
+          ]
+        },
+        {
+          "name": "Yang Lin",
+          "institutions": [
+            "Department of Mechanical, Industrial and Systems Engineering, University of Rhode Island, Kingston, Rhode Island 02881, USA"
+          ]
+        },
+        {
+          "name": "Yuan Gao",
+          "institutions": [
+            "Department of Mechanical Engineering, University of Memphis, Memphis, Tennessee 38152, USA"
+          ]
+        },
+        {
+          "name": "Mengren Wu",
+          "institutions": [
+            "Department of Mechanical Engineering, Stanford University, Stanford, California 94305, USA"
+          ]
+        },
+        {
+          "name": "Jie Xu",
+          "institutions": [
+            "Department of Mechanical and Industrial Engineering, University of Illinois Chicago, Chicago, Illinois 60607, USA"
+          ]
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.24368v2",
+      "intro_en": "Derives closed-form streaming and Lagrangian transport in a deforming circular cavity, comparing mean flows under different wall kinematics.",
+      "intro_zh": "推导变形圆形腔体中稳流与拉格朗日输运的解析解，比较壁面运动条件对平均流强度和结构的影响。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-21",
+      "publication_date_source": "https://arxiv.org/abs/2609.24368v2",
+      "tags": [
+        "海冰与表层 · Ice & surface"
+      ],
+      "intro_version": "2609.24368v2",
+      "version_date": "2026-09-23T05:23:29+00:00"
     },
     {
       "id": "2609.24866",
@@ -2047,8 +4897,30 @@
       "topics": [],
       "matches": {},
       "status": "unmatched",
-      "reason": "未命中当前规则",
-      "method": "keyword"
+      "reason": "拓展阅读",
+      "method": "keyword",
+      "institutions": [
+        "Department of Mathematics and Statistics, University of Strathclyde, Livingstone Tower, 26 Richmond Street, Glasgow G1 1XH, UK"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Alexander W. Wray",
+          "institutions": [
+            "Department of Mathematics and Statistics, University of Strathclyde, Livingstone Tower, 26 Richmond Street, Glasgow G1 1XH, UK"
+          ]
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.24866v2",
+      "intro_en": "Derives spatially resolved evaporation fluxes for multiple droplets, linking evaporative shielding to liquid flow and particle transport.",
+      "intro_zh": "推导多液滴局地蒸发通量的渐近表达式，刻画液滴间蒸发屏蔽以及由此驱动的液体和颗粒输运。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-09-21",
+      "publication_date_source": "https://arxiv.org/abs/2609.24866v2",
+      "tags": [],
+      "intro_version": "2609.24866v2",
+      "version_date": "2026-09-23T11:44:27+00:00"
     },
     {
       "id": "2510.12203",
@@ -2076,16 +4948,49 @@
       "first_seen": "2026-09-24T08:58:07.531315+00:00",
       "version_changed": false,
       "topics": [
-        "dynamics"
+        "methods"
       ],
       "matches": {
-        "dynamics": [
+        "methods": [
+          "radiation hydrodynamics",
           "turbulence"
         ]
       },
-      "status": "candidate",
-      "reason": "命中：turbulence",
-      "method": "keyword"
+      "status": "unmatched",
+      "reason": "关联线索：radiation hydrodynamics、turbulence",
+      "method": "keyword",
+      "institutions": [
+        "Research School of Astronomy and Astrophysics, Australian National University, Cotter Road, Canberra, 2611, ACT, Australia, ORCID: 0000-0002-0706-2306",
+        "Astronomy Department, The University of Texas at Austin, 2515 Speedway, Stop C1400, Austin, 78712-1205, TX, USA, ORCID: 0000-0003-1252-9916"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Christoph Federrath",
+          "institutions": [
+            "Research School of Astronomy and Astrophysics, Australian National University, Cotter Road, Canberra, 2611, ACT, Australia, ORCID: 0000-0002-0706-2306"
+          ]
+        },
+        {
+          "name": "Stella Offner",
+          "institutions": [
+            "Astronomy Department, The University of Texas at Austin, 2515 Speedway, Stop C1400, Austin, 78712-1205, TX, USA, ORCID: 0000-0003-1252-9916"
+          ]
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2510.12203v3",
+      "intro_en": "Reviews numerical advances in turbulence and star-formation simulations, including magnetohydrodynamics, radiation transport and feedback methods.",
+      "intro_zh": "综述湍流与恒星形成模拟中的数值进展，包括磁流体、辐射流体、反馈和宇宙线输运方法。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2025-10-14",
+      "publication_date_source": "https://arxiv.org/abs/2510.12203v3",
+      "tags": [
+        "流体与不稳定性 · Fluid dynamics",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "intro_version": "2510.12203v3",
+      "version_date": "2026-09-23T01:11:08+00:00"
     },
     {
       "id": "2603.19561",
@@ -2111,11 +5016,33 @@
       "source": "arXiv",
       "first_seen": "2026-09-24T08:58:07.531315+00:00",
       "version_changed": false,
-      "topics": [],
-      "matches": {},
+      "topics": [
+        "methods"
+      ],
+      "matches": {
+        "methods": [
+          "data assimilation",
+          "physics informed"
+        ]
+      },
       "status": "unmatched",
-      "reason": "未命中当前规则",
-      "method": "keyword"
+      "reason": "关联线索：data assimilation、physics informed",
+      "method": "keyword",
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2603.19561v2",
+      "intro_en": "Develops an adaptive physics-informed neural framework for coupled dual-network porous flow, including inverse modeling and data assimilation.",
+      "intro_zh": "提出自适应物理信息神经网络，模拟双孔隙网络的耦合流动，并支持参数反演和数据同化。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-03-20",
+      "publication_date_source": "https://arxiv.org/abs/2603.19561v2",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "intro_version": "2603.19561v2",
+      "version_date": "2026-09-23T11:17:42+00:00"
     },
     {
       "id": "2607.25385",
@@ -2142,8 +5069,35 @@
       "topics": [],
       "matches": {},
       "status": "unmatched",
-      "reason": "未命中当前规则",
-      "method": "keyword"
+      "reason": "拓展阅读",
+      "method": "keyword",
+      "institutions": [
+        "††affiliation: 1Frumkin Institute of Physical Chemistry and Electrochemistry, Russian Academy of Sciences, 31-4 Leninsky Prospect, 119071 Moscow, Russia"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Evgeny S. Asmolov1",
+          "institutions": []
+        },
+        {
+          "name": "Olga I. Vinogradova1",
+          "institutions": []
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2607.25385v2",
+      "intro_en": "Generalizes the reciprocal theorem for ion-releasing colloids, examining how secondary charge clouds affect electrophoresis, diffusiophoresis and propulsion.",
+      "intro_zh": "推广电解质溶液中释放离子胶体的互易定理，研究次级电荷云对电泳、扩散泳和自推进的影响。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-07-28",
+      "publication_date_source": "https://arxiv.org/abs/2607.25385v2",
+      "tags": [
+        "云与辐射 · Clouds & radiation",
+        "海冰与表层 · Ice & surface"
+      ],
+      "intro_version": "2607.25385v2",
+      "version_date": "2026-09-23T14:58:34+00:00"
     }
   ]
 }

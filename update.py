@@ -15,23 +15,28 @@ NS = {'a': 'http://www.w3.org/2005/Atom', 'o': 'http://a9.com/-/spec/opensearch/
 def normalize(s):
     return re.sub(r'[^\w.]+', ' ', s.lower()).strip()
 
+def contains(text, term):
+    # Word boundaries plus common plural endings; avoid nonvolatile -> volatile.
+    word = normalize(term)
+    return bool(re.search(r'(?<!\w)'+re.escape(word)+r'(?:s|es|ies)?(?!\w)', text))
+
 def classify(paper, config):
-    text = ' ' + normalize(paper['title'] + ' ' + paper['abstract']) + ' '
-    matches = {t['id']: [w for w in t['terms'] if ' '+normalize(w)+' ' in text] for t in config['topics']}
-    matches = {k: v for k, v in matches.items() if v}
-    excluded = [w for w in config['exclude_terms'] if ' '+normalize(w)+' ' in text]
-    direct = 'astro-ph.EP' in paper['categories']
-    status = 'candidate' if matches or direct else 'unmatched'
-    # Pollution papers remain reviewable; mechanism matches must not erase this flag.
-    if excluded:
-        status = 'excluded'
-    reason = '命中：' + '、'.join(dict.fromkeys(w for words in matches.values() for w in words)) if matches else ('行星分类候选，待人工判断' if direct else '未命中当前规则')
-    if excluded:
-        reason = '污染主题待排除：' + '、'.join(excluded) + '；可在排除候选中复核'
-    override = config.get('overrides', {}).get(paper['id'])
-    if override:
-        status, reason = override['status'], override['reason']
-    return {'topics': list(matches), 'matches': matches, 'status': status, 'reason': reason, 'method': 'manual' if override else 'keyword'}
+    text = normalize(paper['title']+' '+paper['abstract'])
+    matches = {}
+    for t in config['topics']:
+        terms=[w for w in t['terms'] if contains(text,w)]
+        if terms and (not t.get('context') or any(contains(text,w) for w in t['context'])):
+            matches[t['id']]=terms
+    excluded=[w for w in config['exclude_terms'] if contains(text,w)]
+    direct='astro-ph.EP' in paper['categories']
+    status='candidate' if any(k!='methods' for k in matches) else 'unmatched'
+    if excluded: status='excluded'
+    reason='关联线索：'+'、'.join(list(dict.fromkeys(w for terms in matches.values() for w in terms))[:6]) if matches else ('行星科学拓展阅读' if direct else '拓展阅读')
+    if excluded: reason='当前研究范围外的候选，供管理员复核'
+    override=config.get('overrides',{}).get(paper['id'])
+    if override: status,reason=override['status'],override['reason']
+    tags=[m['label'] for m in config.get('mechanisms',[]) if any(contains(text,w) for w in m['terms'])]
+    return {'topics':list(matches),'matches':matches,'status':status,'reason':reason,'tags':tags[:5],'method':'manual' if override else 'keyword'}
 
 def parse_feed(data):
     root = ET.fromstring(data)
@@ -82,7 +87,7 @@ def parse_rss(data):
         announcement = e.findtext('{http://arxiv.org/schemas/atom}announce_type','')
         result.append({'id':base,'version_id':identity,'title':clean('title'),
             'abstract':summary.split('Abstract:',1)[-1].strip(),
-            'authors':e.findtext('{http://purl.org/dc/elements/1.1/}creator','').split(', '),
+            'authors':[e.findtext('{http://purl.org/dc/elements/1.1/}creator','')],
             'categories':[c.attrib['term'] for c in e.findall('a:category',NS)],
             'published':clean('published'),'updated':clean('updated'),'date_kind':'announcement',
             'announcement_type':announcement,'url':'https://arxiv.org/abs/'+base,
@@ -121,7 +126,7 @@ def update(days=7):
                 prior = papers.get(p['id'], {})
                 p['first_seen'] = prior.get('first_seen', stamp)
                 p['version_changed'] = prior.get('version_changed', False) or bool(prior and prior['version_id'] != p['version_id'])
-                papers[p['id']] = p
+                papers[p['id']] = {**prior, **p}
             sources[category] = {'last_attempt':stamp,'last_success':stamp,'status':'ok','fetched':len(incoming)}
             print(category, len(incoming), 'records')
         except Exception as e:
@@ -134,7 +139,7 @@ def update(days=7):
                     if prior and prior.get('date_kind') != 'announcement':
                         p['published'] = prior['published']
                         p['date_kind'] = 'published'
-                    papers[p['id']] = p
+                    papers[p['id']] = {**prior, **p}
                 sources[category].update(status='partial',last_rss_success=stamp)
             except Exception:
                 pass

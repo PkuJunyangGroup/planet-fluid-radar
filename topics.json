@@ -9,104 +9,245 @@
   ],
   "topics": [
     {
+      "id": "planetary",
+      "name": "行星大气与气候",
+      "name_en": "Planetary atmospheres & climate",
+      "terms": [
+        "planetary atmosphere",
+        "exoplanet atmosphere",
+        "atmospheric escape",
+        "photochemistry",
+        "tidally locked",
+        "tidal locking",
+        "hot jupiter",
+        "lava world",
+        "hycean",
+        "thermal phase curve",
+        "habitable zone",
+        "heat redistribution",
+        "sub neptune",
+        "exoplanetary atmosphere",
+        "atmospheric mass loss",
+        "planetary climate",
+        "rocky planet atmosphere"
+      ],
+      "context": [
+        "planet",
+        "exoplanet",
+        "rocky",
+        "terrestrial",
+        "tidally locked",
+        "tidal locking",
+        "hot jupiter",
+        "sub neptune",
+        "lava world",
+        "mars",
+        "martian",
+        "venus",
+        "jupiter",
+        "trappist",
+        "hycean",
+        "habitable"
+      ]
+    },
+    {
+      "id": "physics",
+      "name": "大气物理",
+      "name_en": "Atmospheric physics",
+      "terms": [
+        "radiative transfer",
+        "radiative cooling",
+        "radiative feedback",
+        "cloud feedback",
+        "cloud microphysics",
+        "radiative forcing",
+        "radiative convective",
+        "outgoing longwave",
+        "water vapor",
+        "collision induced absorption",
+        "condensation",
+        "cold trap",
+        "cloud resolving",
+        "surface inversion",
+        "precipitation",
+        "moist convection"
+      ],
+      "context": [
+        "atmosphere",
+        "atmospheric",
+        "climate",
+        "cloud",
+        "water vapor",
+        "greenhouse",
+        "precipitation",
+        "planet",
+        "radiative convective",
+        "troposphere",
+        "stratosphere",
+        "hydrological"
+      ]
+    },
+    {
       "id": "dynamics",
       "name": "大气与气候动力学",
+      "name_en": "Atmospheric & climate dynamics",
       "terms": [
         "atmospheric dynamics",
         "climate dynamics",
         "general circulation",
-        "baroclinic",
+        "hadley",
+        "walker circulation",
         "rossby",
         "gravity wave",
-        "geophysical fluid",
-        "convection",
-        "rotating convection",
+        "baroclinic",
+        "superrotation",
         "atmospheric circulation",
-        "climate feedback",
         "climate sensitivity",
-        "turbulence",
-        "instability"
-      ]
-    },
-    {
-      "id": "atmosphere",
-      "name": "行星大气与大气物理",
-      "terms": [
-        "planetary atmosphere",
-        "exoplanet atmosphere",
-        "radiative transfer",
-        "cloud microphysics",
-        "atmospheric escape",
-        "photochemistry",
-        "radiative feedback",
-        "cloud feedback",
-        "atmospheric physics",
-        "tidally locked"
-      ]
-    },
-    {
-      "id": "detection",
-      "name": "系外行星探测",
-      "terms": [
-        "exoplanet",
-        "transit photometry",
-        "radial velocity",
-        "transmission spectrum",
-        "transmission spectra",
-        "direct imaging",
-        "exomoon",
-        "biosignature"
-      ]
-    },
-    {
-      "id": "evolution",
-      "name": "行星科学与演化",
-      "terms": [
-        "planet formation",
-        "planetary evolution",
-        "magma ocean",
-        "lava planet",
-        "volatile",
-        "tidal heating",
-        "habitability",
-        "habitable zone",
-        "protoplanetary",
-        "planetary interior"
+        "hydrological cycle",
+        "water cycle",
+        "radiative convective equilibrium",
+        "atmospheric tide",
+        "polar cyclone"
       ]
     },
     {
       "id": "ocean",
-      "name": "物理海洋",
+      "name": "物理海洋与地球流体",
+      "name_en": "Physical oceanography & GFD",
       "terms": [
-        "physical oceanography",
         "ocean circulation",
         "ocean heat transport",
         "ocean dynamics",
+        "ocean tide",
+        "ocean mixing",
+        "overturning circulation",
+        "thermocline",
+        "geophysical fluid",
+        "rotating fluid",
         "stratified flow",
         "internal wave",
-        "ocean mixing",
         "ocean eddy",
         "ocean eddies",
         "air sea interaction",
-        "rotating fluid"
+        "rotating convection",
+        "kolmogorov flow",
+        "two dimensional turbulence",
+        "2d turbulence",
+        "inverse cascade"
+      ]
+    },
+    {
+      "id": "detection",
+      "name": "系外行星探测与表征",
+      "name_en": "Exoplanet detection & characterization",
+      "terms": [
+        "transit photometry",
+        "transit timing",
+        "radial velocity",
+        "transmission spectrum",
+        "transmission spectra",
+        "phase curve",
+        "secondary eclipse",
+        "exomoon",
+        "biosignature",
+        "exoplanet spectroscopy",
+        "direct imaging",
+        "planet detection"
+      ]
+    },
+    {
+      "id": "evolution",
+      "name": "行星内部与演化",
+      "name_en": "Planetary interiors & evolution",
+      "terms": [
+        "planet formation",
+        "planetesimal",
+        "planetary evolution",
+        "magma ocean",
+        "lava planet",
+        "tidal heating",
+        "radiogenic",
+        "planetary interior",
+        "mantle",
+        "core conditions",
+        "orbital evolution",
+        "volatile",
+        "outgassing"
+      ],
+      "context": [
+        "planet",
+        "exoplanet",
+        "rocky",
+        "terrestrial",
+        "tidally locked",
+        "tidal locking",
+        "hot jupiter",
+        "sub neptune",
+        "lava world",
+        "mars",
+        "martian",
+        "venus",
+        "jupiter",
+        "trappist",
+        "hycean",
+        "habitable",
+        "earth",
+        "mantle",
+        "core",
+        "planetesimal",
+        "protoplanetary"
       ]
     },
     {
       "id": "surface",
-      "name": "表层系统物理化学",
+      "name": "表层过程与古气候",
+      "name_en": "Surface processes & paleoclimate",
       "terms": [
         "snowball earth",
         "sea ice",
         "ice albedo",
         "sea glacier",
-        "weathering",
         "water rock",
         "rock water",
-        "phase transition",
-        "outgassing",
         "carbon cycle",
-        "surface atmosphere",
-        "ocean atmosphere"
+        "paleoclimate",
+        "palaeoclimate",
+        "cryovolcan",
+        "cryomagma",
+        "cryolava",
+        "weathering",
+        "desorption",
+        "ice mantle"
+      ],
+      "context": [
+        "earth",
+        "planet",
+        "moon",
+        "europa",
+        "ocean",
+        "climate",
+        "surface",
+        "snowball",
+        "sea ice",
+        "water rock"
+      ]
+    },
+    {
+      "id": "methods",
+      "name": "数学物理与数值方法",
+      "name_en": "Mathematical physics & methods",
+      "terms": [
+        "data assimilation",
+        "inverse problem",
+        "scaling law",
+        "radiation hydrodynamics",
+        "boltzmann",
+        "reduced order",
+        "turbulence",
+        "navier stokes",
+        "direct numerical simulation",
+        "smoothed particle hydrodynamics",
+        "physics informed"
       ]
     }
   ],
@@ -119,5 +260,128 @@
     "health risk",
     "emission policy"
   ],
-  "overrides": {}
+  "overrides": {},
+  "research_basis": [
+    {
+      "name": "杨军 / Jun Yang",
+      "url": "https://faculty.pku.edu.cn/junyang/en/zdylm/42234/list/index.htm",
+      "focus": [
+        "云辐射与对流",
+        "海洋热输送与海冰",
+        "极端气候水循环"
+      ]
+    },
+    {
+      "name": "丁峰 / Feng Ding",
+      "url": "https://faculty.pku.edu.cn/dingfeng/zh_CN/lwcg/46562/list/2.htm",
+      "focus": [
+        "水循环与冷阱",
+        "贫水与富水行星",
+        "逐线辐射与环流"
+      ]
+    },
+    {
+      "name": "Daniel Koll",
+      "url": "https://danielkoll.github.io/publications/",
+      "focus": [
+        "辐射反馈与能量收支",
+        "热再分配与相曲线",
+        "岩石行星大气探测"
+      ]
+    }
+  ],
+  "mechanisms": [
+    {
+      "label": "云与辐射 · Clouds & radiation",
+      "terms": [
+        "cloud",
+        "radiative",
+        "albedo",
+        "greenhouse"
+      ]
+    },
+    {
+      "label": "水循环 · Water cycle",
+      "terms": [
+        "water vapor",
+        "hydrological",
+        "precipitation",
+        "condensation",
+        "cold trap"
+      ]
+    },
+    {
+      "label": "环流与波动 · Circulation & waves",
+      "terms": [
+        "circulation",
+        "rossby",
+        "gravity wave",
+        "superrotation",
+        "vortex",
+        "vortices"
+      ]
+    },
+    {
+      "label": "热输送 · Heat transport",
+      "terms": [
+        "heat transport",
+        "heat redistribution",
+        "heat flux"
+      ]
+    },
+    {
+      "label": "宜居性 · Habitability",
+      "terms": [
+        "habitability",
+        "habitable",
+        "snowball"
+      ]
+    },
+    {
+      "label": "光谱与相曲线 · Spectra & phase curves",
+      "terms": [
+        "spectroscopy",
+        "transmission spectrum",
+        "phase curve",
+        "emission spectrum"
+      ]
+    },
+    {
+      "label": "岩浆与挥发分 · Magma & volatiles",
+      "terms": [
+        "magma",
+        "volatile",
+        "outgassing",
+        "lava"
+      ]
+    },
+    {
+      "label": "海冰与表层 · Ice & surface",
+      "terms": [
+        "sea ice",
+        "ice albedo",
+        "cryovolcan",
+        "surface"
+      ]
+    },
+    {
+      "label": "流体与不稳定性 · Fluid dynamics",
+      "terms": [
+        "turbulence",
+        "instability",
+        "navier stokes",
+        "convection"
+      ]
+    },
+    {
+      "label": "反演与数值方法 · Inverse & numerical methods",
+      "terms": [
+        "inverse",
+        "assimilation",
+        "numerical",
+        "simulation",
+        "retrieval"
+      ]
+    }
+  ]
 }

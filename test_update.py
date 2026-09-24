@@ -33,6 +33,9 @@ class Rules(unittest.TestCase):
   with tempfile.TemporaryDirectory() as d:
    root=Path(d);(root/'topics.json').write_text(json.dumps({**CONFIG,'categories':['astro-ph.EP']}))
    with patch.object(update,'ROOT',root),patch.object(update,'request_feed',side_effect=lambda *a:(1,[dict(p)])):
-    update.update();update.update()
+    update.update()
+    first=json.loads((root/'papers.json').read_text())['papers'][0]['first_seen']
+    update.update()
+    self.assertEqual(first,json.loads((root/'papers.json').read_text())['papers'][0]['first_seen'])
    self.assertEqual(len(json.loads((root/'papers.json').read_text())['papers']),1)
 if __name__=='__main__': unittest.main()
