@@ -1,0 +1,222 @@
+{
+  "groups": {
+    "general": "综合期刊 · General",
+    "atmosphere": "大气 · Atmosphere",
+    "ocean": "海洋 · Ocean",
+    "climate": "气候 · Climate",
+    "planet": "地球与行星 · Earth & Planets"
+  },
+  "journals": [
+    {
+      "id": "1476-4687",
+      "name": "Nature",
+      "issn": "1476-4687",
+      "group": "general",
+      "url": "https://www.nature.com/nature/",
+      "enabled": true
+    },
+    {
+      "id": "1095-9203",
+      "name": "Science",
+      "issn": "1095-9203",
+      "group": "general",
+      "url": "https://www.science.org/journal/science",
+      "enabled": true
+    },
+    {
+      "id": "1091-6490",
+      "name": "PNAS",
+      "issn": "1091-6490",
+      "group": "general",
+      "url": "https://www.pnas.org/",
+      "enabled": true
+    },
+    {
+      "id": "1752-0908",
+      "name": "Nature Geoscience",
+      "issn": "1752-0908",
+      "group": "general",
+      "url": "https://www.nature.com/ngeo/",
+      "enabled": true
+    },
+    {
+      "id": "2397-3366",
+      "name": "Nature Astronomy",
+      "issn": "2397-3366",
+      "group": "general",
+      "url": "https://www.nature.com/natastron/",
+      "enabled": true
+    },
+    {
+      "id": "1758-6798",
+      "name": "Nature Climate Change",
+      "issn": "1758-6798",
+      "group": "general",
+      "url": "https://www.nature.com/nclimate/",
+      "enabled": true
+    },
+    {
+      "id": "1520-0469",
+      "name": "Journal of the Atmospheric Sciences",
+      "issn": "1520-0469",
+      "group": "atmosphere",
+      "url": "https://journals.ametsoc.org/view/journals/atsc/atsc-overview.xml",
+      "enabled": true
+    },
+    {
+      "id": "1680-7324",
+      "name": "Atmospheric Chemistry and Physics",
+      "issn": "1680-7324",
+      "group": "atmosphere",
+      "url": "https://acp.copernicus.org/",
+      "enabled": true
+    },
+    {
+      "id": "2169-8996",
+      "name": "Journal of Geophysical Research: Atmospheres",
+      "issn": "2169-8996",
+      "group": "atmosphere",
+      "url": "https://agupubs.onlinelibrary.wiley.com/journal/21698996",
+      "enabled": true
+    },
+    {
+      "id": "1520-0485",
+      "name": "Journal of Physical Oceanography",
+      "issn": "1520-0485",
+      "group": "ocean",
+      "url": "https://journals.ametsoc.org/view/journals/phoc/phoc-overview.xml",
+      "enabled": true
+    },
+    {
+      "id": "1463-5003",
+      "name": "Ocean Modelling",
+      "issn": "1463-5003",
+      "group": "ocean",
+      "url": "https://www.sciencedirect.com/journal/ocean-modelling",
+      "enabled": true
+    },
+    {
+      "id": "2572-4525",
+      "name": "Paleoceanography and Paleoclimatology",
+      "issn": "2572-4525",
+      "group": "ocean",
+      "url": "https://agupubs.onlinelibrary.wiley.com/journal/25724525",
+      "enabled": true
+    },
+    {
+      "id": "2169-9291",
+      "name": "Journal of Geophysical Research: Oceans",
+      "issn": "2169-9291",
+      "group": "ocean",
+      "url": "https://agupubs.onlinelibrary.wiley.com/journal/21699291",
+      "enabled": true
+    },
+    {
+      "id": "1520-0442",
+      "name": "Journal of Climate",
+      "issn": "1520-0442",
+      "group": "climate",
+      "url": "https://journals.ametsoc.org/view/journals/clim/clim-overview.xml",
+      "enabled": true
+    },
+    {
+      "id": "1432-0894",
+      "name": "Climate Dynamics",
+      "issn": "1432-0894",
+      "group": "climate",
+      "url": "https://link.springer.com/journal/382",
+      "enabled": true
+    },
+    {
+      "id": "1814-9332",
+      "name": "Climate of the Past",
+      "issn": "1814-9332",
+      "group": "climate",
+      "url": "https://cp.copernicus.org/",
+      "enabled": true
+    },
+    {
+      "id": "1477-870X",
+      "name": "Quarterly Journal of the Royal Meteorological Society",
+      "issn": "1477-870X",
+      "group": "climate",
+      "url": "https://rmets.onlinelibrary.wiley.com/journal/1477870x",
+      "enabled": true
+    },
+    {
+      "id": "1557-8070",
+      "name": "Astrobiology",
+      "issn": "1557-8070",
+      "group": "planet",
+      "url": "https://www.liebertpub.com/loi/ast",
+      "enabled": true
+    },
+    {
+      "id": "1944-8007",
+      "name": "Geophysical Research Letters",
+      "issn": "1944-8007",
+      "group": "planet",
+      "url": "https://agupubs.onlinelibrary.wiley.com/journal/19448007",
+      "enabled": true
+    },
+    {
+      "id": "2169-9100",
+      "name": "Journal of Geophysical Research: Planets",
+      "issn": "2169-9100",
+      "group": "planet",
+      "url": "https://agupubs.onlinelibrary.wiley.com/journal/21699100",
+      "enabled": true
+    },
+    {
+      "id": "1538-4357",
+      "name": "The Astrophysical Journal",
+      "issn": "1538-4357",
+      "group": "planet",
+      "url": "https://iopscience.iop.org/journal/0004-637X",
+      "enabled": true
+    },
+    {
+      "id": "2041-8213",
+      "name": "The Astrophysical Journal Letters",
+      "issn": "2041-8213",
+      "group": "planet",
+      "url": "https://iopscience.iop.org/journal/2041-8205",
+      "enabled": true
+    },
+    {
+      "id": "0012-821X",
+      "name": "Earth and Planetary Science Letters",
+      "issn": "0012-821X",
+      "group": "planet",
+      "url": "https://www.sciencedirect.com/journal/earth-and-planetary-science-letters",
+      "enabled": true
+    }
+  ],
+  "resources": [
+    {
+      "group": "雪球地球",
+      "name": "Snowball Earth · 背景资料",
+      "url": "https://www.snowballearth.org/"
+    },
+    {
+      "group": "雪球地球",
+      "name": "Snowball Earth · Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Snowball_Earth"
+    },
+    {
+      "group": "系外行星",
+      "name": "The Extrasolar Planets Encyclopaedia",
+      "url": "https://exoplanet.eu/"
+    },
+    {
+      "group": "系外行星",
+      "name": "Exoplanet Data Explorer",
+      "url": "http://www.exoplanets.org/"
+    },
+    {
+      "group": "预印本",
+      "name": "arXiv · Earth and Planetary Astrophysics",
+      "url": "https://arxiv.org/list/astro-ph.EP/recent"
+    }
+  ]
+}

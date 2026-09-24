@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-09-24T09:24:17.931892+00:00",
+  "generated_at": "2026-09-24T08:58:07.531315+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
       "status": "partial",
-      "last_rss_success": "2026-09-24T09:24:17.931892+00:00",
-      "last_attempt": "2026-09-24T09:24:17.931892+00:00",
+      "last_rss_success": "2026-09-24T08:58:07.531315+00:00",
+      "last_attempt": "2026-09-24T08:58:07.531315+00:00",
       "error": "HTTPError"
     },
     "physics.ao-ph": {
-      "last_attempt": "2026-09-24T09:24:17.931892+00:00",
+      "last_attempt": "2026-09-24T08:58:07.531315+00:00",
       "status": "partial",
       "error": "HTTPError",
-      "last_rss_success": "2026-09-24T09:24:17.931892+00:00"
+      "last_rss_success": "2026-09-24T08:58:07.531315+00:00"
     },
     "physics.geo-ph": {
-      "last_attempt": "2026-09-24T09:24:17.931892+00:00",
+      "last_attempt": "2026-09-24T08:58:07.531315+00:00",
       "status": "partial",
       "error": "HTTPError",
-      "last_rss_success": "2026-09-24T09:24:17.931892+00:00"
+      "last_rss_success": "2026-09-24T08:58:07.531315+00:00"
     },
     "physics.flu-dyn": {
-      "last_attempt": "2026-09-24T09:24:17.931892+00:00",
+      "last_attempt": "2026-09-24T08:58:07.531315+00:00",
       "status": "partial",
       "error": "HTTPError",
-      "last_rss_success": "2026-09-24T09:24:17.931892+00:00"
+      "last_rss_success": "2026-09-24T08:58:07.531315+00:00"
     }
   },
   "topics": [
@@ -173,6 +173,19 @@
         "exoplanet spectroscopy",
         "direct imaging",
         "planet detection"
+      ],
+      "context": [
+        "planet",
+        "exoplanet",
+        "exoplanetary",
+        "planetary",
+        "hot jupiter",
+        "sub neptune",
+        "exomoon",
+        "habitable",
+        "biosignature",
+        "trappist",
+        "wasp"
       ]
     },
     {
@@ -279,7 +292,10 @@
       "title": "Revealing the Shiny Nature of Lava Worlds: Small Planet Phase Curves with TESS",
       "abstract": "Recent thermal emission observations suggest that `lava worlds'--Earth-sized exoplanets hot enough to melt their silicate surfaces--have atmospheres on a population-level. This evidence comes from measured dayside brightness temperatures much lower than expected for a dark, maximally hot bare rock. However, these results are degenerate between a thick atmosphere advecting heat to the planet's nightside or a high albedo reflecting incoming radiation. This degeneracy can be resolved through visible light phase curve observations, which can constrain how much light is reflected by the planet. Here, we present a population-level analysis of the visible-light TESS phase curves of $R\\lesssim5\\,R_{\\oplus}$ exoplanets. We select the population by defining a `Reflection Spectroscopy Metric' meant to quantify the relative signal-to-noise of reflected light observations. We report new $>3\\,\\sigma$ detections of the TESS phase curve signals of LTT 9779 b and the lava worlds TOI-2431 b, TOI-561 b, 55 Cancri e, K2-141 b, and TOI-1444 b. We use these results and previous results from Kepler and CHEOPS to homogeneously derive geometric albedos for these planets, revealing that lava worlds generally show high albedos compared to the low geometric albedos measured for hot Jupiters at similar temperatures. These results support an emerging picture of reflective silicate clouds on these worlds cooling their daysides. The upcoming PLATO mission is expected to tightly constrain the reflected light phase curves of lava worlds.",
       "authors": [
-        "Brandon Park Coy, Michael Zhang, Fei Dai, Qiao Xue"
+        "Brandon Park Coy",
+        "Michael Zhang",
+        "Fei Dai",
+        "Qiao Xue"
       ],
       "categories": [
         "astro-ph.EP"
@@ -363,7 +379,18 @@
       "title": "JWST and HST Confirm Transit Timing Variations for the Ultra-Hot Jupiter TOI-2109 b",
       "abstract": "Ultra-hot Jupiters are a rare yet valuable subset of exoplanets that can help elucidate both the internal properties of their host stars as well as the orbital evolution of close-in planets. An extreme among extremes, TOI-2109 b is a super-Jupiter ($1.347 \\pm 0.047 R_{\\rm Jup}$, $5.02 \\pm 0.75 M_{\\rm Jup}$) with the shortest orbital period (0.67247479 $\\pm$ 0.00000028 days) and the fastest predicted orbital decay rate of any known giant planet. Previous observations hinted at a quadratic long-term trend in the transit timing variations (TTVs) consistent with orbital decay, as well as short-term sinusoidal TTVs consistent with a near-resonant planetary companion that would indicate a dynamically quiescent migration pathway. Here, we combine archival ground-based, TESS, and CHEOPS photometry with new transit and eclipse data from HST and JWST to update the TTV analysis. We find very strong evidence for sinusoidal TTVs over a linear ephemeris ($\\Delta$BIC of 33.6), consistent with a nearby planetary companion as suggested by J.-V. Harre et al. 2024, and rule out several non-planetary scenarios that could explain the sinusoidal TTVs. We also find strong evidence of a quadratic TTV trend ($\\Delta$BIC of 6.75) consistent with an orbital decay rate of -3.46 $\\pm$ 1.17 ms/yr and a stellar tidal quality factor of 2.13$^{+1.18}_{-0.61} \\times10^7$, though we cannot rule out line-of-sight acceleration as the cause of the quadratic trend. If our results are confirmed, TOI-2109 b would be the only known exoplanet besides WASP-12 b with a decaying orbit and the most extreme of an ultra-rare class of close-in giant planets with nearby companions.",
       "authors": [
-        "Michael Greklek-McKeon, Julie Inglis, Nicole L. Wallack, Shreyas Vissapragada, Ian Wong, John R. T. Allen, Yayaati Chachan, Fei Dai, Guangwei Fu, Tiffany Kataria, Thaddeus D. Komacek, Johanna K. Teske"
+        "Michael Greklek-McKeon",
+        "Julie Inglis",
+        "Nicole L. Wallack",
+        "Shreyas Vissapragada",
+        "Ian Wong",
+        "John R. T. Allen",
+        "Yayaati Chachan",
+        "Fei Dai",
+        "Guangwei Fu",
+        "Tiffany Kataria",
+        "Thaddeus D. Komacek",
+        "Johanna K. Teske"
       ],
       "categories": [
         "astro-ph.EP"
@@ -501,7 +528,8 @@
       "title": "Simulated Effects of Radioactive Elements on Magnetic Evolution and Atmospheric Mass Loss of Earth-like Planets",
       "abstract": "Thousands of exoplanets have been discovered in recent decades, yet Earth remains the only known world with life. To assess the potential habitability of other planets, we must identify the importance of various physical conditions that may contribute to sustaining life. One such factor is the presence of a planetary magnetic field. A planet's magnetic field can protect its atmosphere from photoevaporation, and its long-term strength depends on interior heat flow driven by radiogenic heating from isotopes such as 40K, 232Th, 235U, and 238U. In this work, we use the VPLanet code to simulate the coupled thermal, magnetic, and atmospheric evolution of Earth-like planets with varying radiogenic heat budgets orbiting G-, K-, and M-dwarf stars. The range of isotope abundances tested is based on observed stellar elemental distributions for planet-hosting stars in the Milky Way. We find that variations in radiogenic heating slightly extend dynamo lifetimes and reduces atmosphere and surface water loss for K- and G-dwarf systems, while its effects are more negligible for M dwarfs. Our results show that, while stellar irradiation and planetary location primarily control photoevaporation rates, radiogenic heating contributes to planetary habitability in a small subset of cases and may help refine target selection for future surveys.",
       "authors": [
-        "Nathaniel Tanglin, Juliette Becker"
+        "Nathaniel Tanglin",
+        "Juliette Becker"
       ],
       "categories": [
         "astro-ph.EP"
@@ -568,7 +596,13 @@
       "title": "M Dwarf Singles and Multis Have Dissimilar Metallicities Indicating Different Origins",
       "abstract": "It is unclear if host star metallicities differ between systems with one detected transiting planet (\"singles\") or multiple detected transiting planets (\"multis\") around FGK dwarfs. Here, we find strong evidence that they do for M dwarfs. We use a homogeneous sample of FGK and M dwarf chemical abundances to demonstrate that M dwarf multis are significantly more metal-poor than singles ($p$ = 0.00079), even when we only consider small (<4 $R_{\\oplus}$) planets ($p$ = 0.0013). This result emerges at the late-K to M dwarf transition. We observe that M dwarf multis become more metal-poor as a function of increasing planet multiplicity. Additionally, planets in singles have significantly higher eccentricities and shorter orbital periods compared to planets in multis. We interpret these findings as evidence that M dwarf singles lead relatively active dynamical lives, and the different planetary architectures of singles and multis arise from distinct dynamics influenced by metallicity. This may not occur in FGK systems because their more massive protoplanetary disks may supply enough planet-forming material to instigate dynamics that lead to only one transiting planet, even when the host star metallicity is low. Another possibility is that multis are less compact around FGK dwarfs because they form from larger disks, which may often cause them to be observed as singles in transit data.",
       "authors": [
-        "Aida Behmard (Lucy), Sheila Sagear (Lucy),  Yuxi (Lucy),  Lu, Romy Rodr\\'iguez Mart\\'inez, Adrian M. Price-Whelan, Soichiro Hattori"
+        "Aida Behmard (Lucy)",
+        "Sheila Sagear (Lucy)",
+        " Yuxi (Lucy)",
+        " Lu",
+        "Romy Rodr\\'iguez Mart\\'inez",
+        "Adrian M. Price-Whelan",
+        "Soichiro Hattori"
       ],
       "categories": [
         "astro-ph.EP",
@@ -655,7 +689,10 @@
       "title": "Revisiting planetesimal formation from mm-sized grains in pressure bumps",
       "abstract": "We present evidence that the streaming instability (SI) can form planetesimals from millimeter grains inside axisymmetric pressure bumps, provided the bump is not too strongly reinforced. We conducted three-dimensional local shearing-box simulations of millimeter grains in a Gaussian pressure bump of amplitude $A = 0.6$, at a resolution of $160/H$. We varied only the Newtonian reinforcement timescale $t_{\\rm reinf}$, the timescale on which the imposed bump is restored against particle back-reaction. Our reference run T1 uses $t_{\\rm reinf} = 1\\,\\Omega^{-1}$. Particles pile up in a narrow axisymmetric band at the minimum-headwind point, cross the Roche density, and collapse through direct gravitational instability (GI). In our weakly reinforced run T100 with $t_{\\rm reinf} = 100\\,\\Omega^{-1}$, the outcome is different. Particles drift through the bump roughly three times more slowly, and dense SI-like filaments develop across a wide radial region well before the Roche density is reached. These results are consistent with a residence-time criterion, which states that for the SI to grow, $t_{\\rm cross} > t_{\\rm grow}$, where $t_{\\rm cross}$ is the time a particle spends inside the region where the ratio $Z/\\Pi$ of the solid abundance $Z = \\Sigma_p/\\Sigma_g$ to the headwind parameter $\\Pi = \\Delta v/c_{\\rm s}$ is high enough for strong clumping, and $t_{\\rm grow}$ is the SI growth time. T1 violates this criterion, and T100 satisfies it. Our results suggest that the reinforcement timescale matters for millimeter grains because it helps set the crossing time, and therefore whether the SI has time to grow. We caution, however, that our reinforcement scheme is an idealised numerical construction rather than a physical bump-forming mechanism such as a planet, and a more definitive test of this picture will require simulations with a more physically motivated bump.",
       "authors": [
-        "Tabassum S Tanvir, Jacob B Simon, Daniel Carrera, Jeonghoon Lim"
+        "Tabassum S Tanvir",
+        "Jacob B Simon",
+        "Daniel Carrera",
+        "Jeonghoon Lim"
       ],
       "categories": [
         "astro-ph.EP"
@@ -734,7 +771,9 @@
       "title": "The Dynamical Environment of Kepler-223 Planetary System",
       "abstract": "The Kepler space telescope was a successful mission that used the transit method. Multi-planetary systems are interesting because they are dynamically rich due to the planets' interactions. Kepler's mission was the first to find a system with four planets all in resonance, that is Kepler-223. The Kepler-223 system is of unique dynamical interest as the first exoplanetary system confirmed to host four sub-Neptune planets in a precise 3:4:6:8 resonant chain. Previous dynamical studies have struggled to fully recover the long-term phase protection mechanisms, often finding that higher-order resonant angles circulate rather than librate. In this work, we re-examine the dynamical state of Kepler-223 by performing high-resolution N-body integrations and constructing detailed stability maps in the (a,e) phase space, we demonstrate that the system is locked in a deeper resonant state than previously thought. Crucially, we find that all resonant arguments, exhibit robust libration over secular timescales. Our stability maps reveal that the planets reside in clearly defined stability islands that allow for higher eccentricities than previous estimates. We further compare these numerical islands with analytical resonance widths and find excellent agreement for the inner three planets, while the outermost planet (Kepler-223e) exhibits a stability region wider than first-order analytical theories predict, suggesting complex multi-body stabilization effects at the edge of the chain.",
       "authors": [
-        "Carlos E. Chavez, Adri\\'an Fierro, \\'Andres Avil\\'es"
+        "Carlos E. Chavez",
+        "Adri\\'an Fierro",
+        "\\'Andres Avil\\'es"
       ],
       "categories": [
         "astro-ph.EP"
@@ -803,7 +842,16 @@
       "title": "Dynamical Behavior and Surface Features of Large Super-Fast Rotator Near-Earth Asteroid (436724) 2011 UW158",
       "abstract": "The sub-kilometer Super-Fast Rotator and Potentially Hazardous Asteroid (436724) 2011 UW158 exhibits an extreme dynamical environment driven by its rotational period of 0.61072 h. Using a 3-D polyhedral shape model, we investigate the surface dynamic stability under both cohesionless and cohesion-modified conditions, while also addressing families of periodic orbits, station-keeping maneuvers, and energy states in this rapidly rotating, irregular-body regime. Our results show that, with the inclusion of cohesion, the effective slopes decrease to ~45{\\deg}, permitting the retention of boulders with maximum sizes of ~50 m near the equatorial region. The dominance of the centrifugal term in the effective potential shifts the exterior equilibrium points inward, creating highly unstable geopotential regions where loose regolith is susceptible to ejection, preventing long-term surface retention outside the polar regions. To quantify this instability, we introduce the equivalent instability speed ($v_{\\mathrm{ei}}$), extending conventional escape speed analyses to the SFR regime. These results are consistent with significant internal cohesion in 2011 UW158, which enables the body to maintain structural integrity under rotational stresses exceeding the classical spin barrier. Additionally, thermophysical modeling reveals that the super-fast rotation produces a nearly uniform surface temperature distribution. Finally, we apply a spherical harmonics method to compute families of periodic orbits around the asteroid to assess the fuel cost of station-keeping maneuvers at reduced computational cost. Overall, this study characterizes the dynamical environment of 2011 UW158, contributing to the understanding of Super-Fast Rotator asteroids recently identified in LSST survey images.",
       "authors": [
-        "Caio Gomes, Andre Amarante, Filipe Monteiro, Alessandra Ferreira, Leonardo Braga, Allan Kardec de Almeida Jr., Duncan Lyster, Nicoli Rocha, Gabriel Damilano, Leonardo Barbosa"
+        "Caio Gomes",
+        "Andre Amarante",
+        "Filipe Monteiro",
+        "Alessandra Ferreira",
+        "Leonardo Braga",
+        "Allan Kardec de Almeida Jr.",
+        "Duncan Lyster",
+        "Nicoli Rocha",
+        "Gabriel Damilano",
+        "Leonardo Barbosa"
       ],
       "categories": [
         "astro-ph.EP"
@@ -902,7 +950,15 @@
       "title": "Kelvin-Helmholtz vortices in the Martian +E hemisphere downstream of crustal magnetic anomalies",
       "abstract": "At unmagnetized planetary bodies, the Kelvin-Helmholtz (KH) instability at the solar-wind boundary is a key driver of atmospheric escape, fundamentally shaping long-term climate evolution. This shear-driven plasma mixing is theoretically predicted to be asymmetric, strongly favoring the hemisphere where the solar-wind electric field points toward the planet (-E hemisphere). Here we report the observation of a coherent train of fully developed KH vortices in the traditionally unfavorable +E hemisphere of Mars, using in-situ MAVEN measurements. Contemporaneous upstream constraints from Tianwen-1 confirm a steady interplanetary magnetic field, indicating sustained shear-driven growth rather than a transient boundary response. We find that these vortices developed within an expanded, weak-field boundary layer downstream of strong southern crustal magnetic anomalies. Our analysis suggests that regional boundary structuring can override the large-scale hemispheric preference to facilitate localized KH growth. These findings demonstrate that shear-driven escape pathways can operate in traditionally unfavorable regions, altering our understanding of atmospheric volatile loss at weakly magnetized planets.",
       "authors": [
-        "Junxi Niu, Tong Dang, Jiuhou Lei, Binzheng Zhang, Wenya Li, Binbin Tang, Junjie Chen, Sudong Xiao, Tielong Zhang"
+        "Junxi Niu",
+        "Tong Dang",
+        "Jiuhou Lei",
+        "Binzheng Zhang",
+        "Wenya Li",
+        "Binbin Tang",
+        "Junjie Chen",
+        "Sudong Xiao",
+        "Tielong Zhang"
       ],
       "categories": [
         "astro-ph.EP",
@@ -956,7 +1012,9 @@
       "title": "Europa smooth plains formation: a SPH cryovolcanic model",
       "abstract": "Cryovolcanism is a fundamental geodynamical process that has been observed on several icy moons. Europa stands out as a primary target for investigating potential cryovolcanic activity and its role in shaping icy moon surfaces. This work characterizes the physical state of ascending cryomagma and evaluates the relevance of terrestrial analogues to explain Europa's surface features. After investigating cryomagma depressurization, we developed CryoPy, a numerical model based on Smoothed-Particle Hydrodynamics (SPH) for computational fluid dynamics and heat transfer. We simulated flow propagation and surface cooling using this model. Our simulations show that snow is a relevant physical analogue for cryolava, as the resulting flows closely match the smooth plains observed by Galileo in both extent and morphology. Additionally, we established the temporal thermal signatures of these events. Such active cryovolcanic events are within the detection limits of, primarily, the E-THEMIS infrared imager, providing a predictive framework for the Europa Clipper mission.",
       "authors": [
-        "Bastien Bodin (LEATP), Daniel Cordier (LPGN), Ashley Gerard Davies (JPL)"
+        "Bastien Bodin (LEATP)",
+        "Daniel Cordier (LPGN)",
+        "Ashley Gerard Davies (JPL)"
       ],
       "categories": [
         "astro-ph.EP"
@@ -1030,7 +1088,26 @@
       "title": "Juice-SWI during the Lunar-Earth-Gravity-Assist (LEGA) - Part 2: Instrument operations",
       "abstract": "The Jupiter Icy Moons Explorer (Juice) embarked in 2023 on a 8-year interplanetary journey to Jupiter and its icy moons. The Submillimetre Wave Instrument (SWI) is one of the ten science instruments aboard the spacecraft. SWI is a sophisticated and first-of-its-kind payload visiting the outer solar system, featuring dual-band tunable receivers, two independent pointing mechanisms, and spectrometers capable of high resolution (up to a resolving power of 10^{7}). It is designed to support the diverse science objectives of the Juice mission targeting Jupiter's middle atmosphere, icy-moon's exospheres as well as near sub-surface thermophysical properties. For this purpose the Juice mission adopts a complex trajectory tour within the Jovian system, which further necessitates a sophisticated, mission-driven operations concept for SWI. This presents significant planning, operations and commanding challenges which are described in this paper in the context of the Lunar and Earth Gravity Assist (LEGA). After the development and ground calibration of the instrument, the SWI Team has designed a comprehensive calibration strategy applicable during the Cruise Phase of Juice. Among the various opportunities for calibration, including the Near-Earth Commissioning Phase and more than ten Payload Checkout Windows, the LEGA offers the means not only to improve the calibration of the instrument, but also to validate the operational strategy of future icy moon flybys.",
       "authors": [
-        "T. Cavali\\'e, R. Moreno, L. Rezac, F. Herpin, C. Jarchow, P. Hartogh, A. Carrasco-Gallardo, S. Goodyear, P. Mancini, A. Schulz-Ravanbakhsh, B. Dabrowski, Y. Kasai, E. Lellouch, A. Murk, D. Murtagh, M. Olberg, M. Rengel, H. Sagawa, S. Szutowicz, E. Wirstr\\\"om"
+        "T. Cavali\\'e",
+        "R. Moreno",
+        "L. Rezac",
+        "F. Herpin",
+        "C. Jarchow",
+        "P. Hartogh",
+        "A. Carrasco-Gallardo",
+        "S. Goodyear",
+        "P. Mancini",
+        "A. Schulz-Ravanbakhsh",
+        "B. Dabrowski",
+        "Y. Kasai",
+        "E. Lellouch",
+        "A. Murk",
+        "D. Murtagh",
+        "M. Olberg",
+        "M. Rengel",
+        "H. Sagawa",
+        "S. Szutowicz",
+        "E. Wirstr\\\"om"
       ],
       "categories": [
         "astro-ph.EP",
@@ -1072,7 +1149,39 @@
       "title": "Probing Exoplanetary Chemistry with Ariel: Scientific Priorities and Observational Strategies",
       "abstract": "Over the past two decades, increasingly precise observations have revealed that exoplanet atmospheres are chemically diverse and often far from equilibrium, with processes such as vertical mixing, photochemistry, and atmospheric circulation producing significant departures from thermochemical expectations. As large surveys across a wide range of planets begin to uncover population-level chemical trends, a coherent interpretation of these patterns remains elusive, particularly for gas giants and Neptune-like planets where disequilibrium processes likely dominate. The ESA Ariel mission will provide the first homogeneous, statistically significant atmospheric dataset for nearly a thousand exoplanets, offering an unprecedented opportunity to investigate the origins of chemical diversity across planetary populations. This white paper highlights central scientific questions for understanding atmospheric chemistry and recognized as priorities for the community. These questions span the mechanisms driving disequilibrium chemistry, the role of sulfur- and phosphorus-bearing species, the influence of stellar activity, the formation of haze precursors, and the chemical evolution of atmospheres around stars of different ages and types. Because these topics connect chemistry, physics, and planetary evolution, they form the core focus of the Ariel Chemistry Working Group, which synthesizes current knowledge and identifies the diagnostics best addressed by Ariel's spectral capabilities. For each theme, we outline observational strategies and representative targets already included in the Mission Candidate Sample, illustrating Ariel's ability to address these questions. By linking large-scale observations to predictive atmospheric models, this work supports refinement of Ariel's target selection and enables population-level studies that will transform our understanding of planetary atmospheres.",
       "authors": [
-        "Olivia Venot, Yamila Miguel, Robin Baeyens, Stefano Bellotti, Giuseppe Cassone, Quentin Changeat, Ryan Cloutier, Athena Coustenis, Dwaipayan Dubey, Billy Edwards, Kaustubh Hakim, Eric H\\'ebrard, Christiane Helling, Helgi Rafn Hrodmarsson, Leoni Janssen, Adam Yassin Jaziri, Gaia Lacedelli, Panayotis Lavvas, Jorge Lillo-Box, Amy Louca, Adrien Masson, Zita Martins, Karan Molaverdikhani, Benjam\\'in Montesinos, Harrison Nicholls, Enric Palle, Paul Rimmer, Donna Rodgers-Lee, Jonathan Tennyson, Shang-Min Tsai, Rom\\'eo Veillet, Sergey N. Yurchenko, Maria Zamyatina"
+        "Olivia Venot",
+        "Yamila Miguel",
+        "Robin Baeyens",
+        "Stefano Bellotti",
+        "Giuseppe Cassone",
+        "Quentin Changeat",
+        "Ryan Cloutier",
+        "Athena Coustenis",
+        "Dwaipayan Dubey",
+        "Billy Edwards",
+        "Kaustubh Hakim",
+        "Eric H\\'ebrard",
+        "Christiane Helling",
+        "Helgi Rafn Hrodmarsson",
+        "Leoni Janssen",
+        "Adam Yassin Jaziri",
+        "Gaia Lacedelli",
+        "Panayotis Lavvas",
+        "Jorge Lillo-Box",
+        "Amy Louca",
+        "Adrien Masson",
+        "Zita Martins",
+        "Karan Molaverdikhani",
+        "Benjam\\'in Montesinos",
+        "Harrison Nicholls",
+        "Enric Palle",
+        "Paul Rimmer",
+        "Donna Rodgers-Lee",
+        "Jonathan Tennyson",
+        "Shang-Min Tsai",
+        "Rom\\'eo Veillet",
+        "Sergey N. Yurchenko",
+        "Maria Zamyatina"
       ],
       "categories": [
         "astro-ph.EP",
@@ -1743,7 +1852,14 @@
       "title": "Nordic-based observations of binary asteroid (163693) Atira reveal a hydrated CM chondrite composition",
       "abstract": "We present photometric, spectroscopic, and polarimetric observations of (163693) Atira collected on the night of 05 March 2024. A dual-band lightcurve acquired in the V and R_C filters using the Mets\\\"ahovi Observatory (L08) in Kirkkonummi, Finland spans nearly 8~hours. From these measurements we estimate a V-R_C = 0.43 +/- 0.07 mag. A visible spectrum and linear polarisation measurement were obtained with the Nordic Optical Telescope in La Palma, Spain. We employ a semi-empirical model to recover the spectral flux that was lost due to a mis-aligned spectroscopic slit. The corrected model reflectance spectrum indicates a primitive Cgh taxonomic type with a distinct absorption feature from 0.60 to 0.85 um with a depth of ~7.4 %. Direct comparison with laboratory spectra of meteorites indicates close matches with CM carbonaceous chondrites. We detect a large degree of linear polarisation at a phase angle of 83 degrees which is consistent with (3200) Phaethon and (155140) 2005 UD, but lower than (162173) Ryugu and (152679) 1998 KU2. We use a CM carbonaceous chondrite density to estimate its bulk porosity of 51 +/- 31 % from previously estimated bulk density. The uncertainty in bulk density and bulk porosity is dominated by the volume of the primary. Future near-infrared spectroscopic and thermal infrared observations can be used to refine the composition and bulk density. Finally, we discuss implications for ground-based physical characterisation studies of the Atira population.",
       "authors": [
-        "Eric M. MacLennan, Grigori Fedorets, Zuri Gray, Teemu Willamo, Tuomas Salo, Anne Virkki, Mikael Granvik, Karri Muinonen"
+        "Eric M. MacLennan",
+        "Grigori Fedorets",
+        "Zuri Gray",
+        "Teemu Willamo",
+        "Tuomas Salo",
+        "Anne Virkki",
+        "Mikael Granvik",
+        "Karri Muinonen"
       ],
       "categories": [
         "astro-ph.EP"
@@ -1837,7 +1953,23 @@
       "title": "The dust in Sauron's eye - Observational and experimental results on the debris disk around HR 4796",
       "abstract": "The optical properties (scattering phase function SPF; degree of linear polarization DoLP; reflectance) of the dust particles orbiting in debris disks can be retrieved through scattered light imaging and are linked to the physicochemical properties of the dust (size, shape, composition...). Among debris disks, the bright, narrow disk surrounding HR 4796A presents several peculiarities, in particular unusually high DoLP values at small scattering angles. We aim at improving the constraints on the properties of the dust particles orbiting in HR 4796. We use new observational data (SPHERE/ZIMPOL and IRDIS) in scattered light of HR 4796, for lambda = 0.63 um; 0.79 um and 1.25 um. We modeled the disk at each of these wavelengths and found geometric parameters consistent with previous results. We obtained the parametrized SPF and DoLP over the whole range of scattering angles (13 degrees to 167 degrees) and extracted the DoLP and spectral reflectance at 90 degrees (without any parametrization) from the visible to the NIR wavelength range. We compared the reflectance and polarimetric properties of HR 4796 to those measured on a laboratory dust sample and find that the sample providing the best match appears to be large iron sulfides particles. We confirm that the DoLP of HR 4796 peaks at high values (> 45 percent) and for small scattering angles (< 55 degrees). At a 90 degrees scattering angle, we observe a red spectral slope in the visible and NIR wavelength range, as well as a blue polarimetric slope. These results are compatible with large (a few um to 100 um) absorbents being the main scatterers in the disk. We show that the DoLP of HR 4796 is notably different from that of Solar System comets and seems closer to that of some more processed near-Earth orbit asteroids, possibly indicating devolatilization and/or melting induced by space weathering on the dust particles of HR 4796.",
       "authors": [
-        "M. Bonduelle, J. Milli, O. Poch, N. Engler, M. Rigouleau, R. Tazaki, J. Ma, J. Olofsson, J-B. Renard, J. Lasue, R. Sultana, G. Duch\\^ene, L. Martinien, M. Roumesy, C. H. Chen, C. Lisse, J-C. Augereau"
+        "M. Bonduelle",
+        "J. Milli",
+        "O. Poch",
+        "N. Engler",
+        "M. Rigouleau",
+        "R. Tazaki",
+        "J. Ma",
+        "J. Olofsson",
+        "J-B. Renard",
+        "J. Lasue",
+        "R. Sultana",
+        "G. Duch\\^ene",
+        "L. Martinien",
+        "M. Roumesy",
+        "C. H. Chen",
+        "C. Lisse",
+        "J-C. Augereau"
       ],
       "categories": [
         "astro-ph.EP"
@@ -1999,7 +2131,14 @@
       "title": "Laboratory Evidence that Methanol-Rich Ice Mantles Lower Methyl Formate Binding Energies",
       "abstract": "Complex organic molecules are widely detected in star-forming regions and are important precursors to prebiotic species. Because these molecules are thought to form primarily within icy grain mantles, their desorption is assumed to be regulated by the sublimation of the surrounding H$_2$O ice matrix. However, observations increasingly reveal gas-phase abundances of methyl formate (MF) at temperatures well below the sublimation temperature of water ice (T ~ 100K), challenging this view. To investigate how ice composition and phase influence MF desorption, we present laboratory temperature-programmed desorption measurements of MF from four astrophysically relevant substrates: amorphous and crystalline H$_2$O and CH$_3$OH. Desorption kinetics were analyzed using pre-exponential factors derived from transition-state theory with leading-edge analysis and non-negative least-squares inversion to recover binding-energy distributions. We find that MF binds more weakly to CH$_3$OH ice than to H$_2$O-rich substrates, with representative binding energies of ~6247K for amorphous H$_2$O, ~6213K for crystalline H$_2$O, and ~5469K for amorphous CH$_3$OH. MF deposited on crystalline CH$_3$OH exhibits coverage-independent leading edges consistent with multilayer or island desorption, yielding an effective binding energy of 5333K. Enhanced surface mobility and reduced trapping efficiency on methanol ice, combined with weaker MF binding, provide a natural explanation for the early appearance of gas-phase MF observed in star-forming environments, with characteristic desorption temperatures of ~85K on CH$_3$OH and ~95-100K on H$_2$O. Together, these effects support a two-step thermal desorption pathway in which MF associated with CH$_3$OH-rich ice can be released prior to bulk H$_2$O sublimation.",
       "authors": [
-        "Rachel E. Gross, Jeroen Terwisscha van Scheltinga, L. Ilsedore Cleeves, Catherine A. Dukes, Robin T. Garrod, Alexia Simon, Shane Sawyer, Adam Woodson"
+        "Rachel E. Gross",
+        "Jeroen Terwisscha van Scheltinga",
+        "L. Ilsedore Cleeves",
+        "Catherine A. Dukes",
+        "Robin T. Garrod",
+        "Alexia Simon",
+        "Shane Sawyer",
+        "Adam Woodson"
       ],
       "categories": [
         "astro-ph.IM",
@@ -2106,7 +2245,13 @@
       "title": "A Multiband Catalog of Infrared-Excess Sources in the Vela-Carina Region: VVVX, DECaPS, and GLIMPSE",
       "abstract": "Multiwavelength surveys of the Galactic midplane enable the identification of infrared-excess sources, signatures of circumstellar material, though high extinction and crowding hinder detection. We construct a homogeneous catalog of infrared-excess candidates in a $\\sim$7.0 deg$^2$ field of the Vela-Carina region, characterizing their excess emission via spectral energy distribution (SED) analysis. We combine optical photometry from DECaPS, near-infrared photometry from VVVX, and mid-infrared photometry from Spitzer/GLIMPSE using hierarchical positional cross-matching. Candidates are selected via photometric quality and MIR color diagnostics, and their SEDs are analyzed with VOSA using theoretical atmosphere model grids. Photogeometric distances are adopted, while Gaia DR3 and NEOWISE variability provide complementary diagnostics. From the matched 249,719-source VVVX-GLIMPSE-DECaPS catalog, we identify 1,512 MIR-excess objects, of which 191 have complete 12-band photometry with S/N > 10, enabling detailed SED analysis. Photogeometric distances are statistically consistent with geometric distances for nearly the entire sample. SED analysis independently supports the MIR-excess nature of most sources, indicating emission beyond stellar photospheres. About 15% of sources are flagged variable by Gaia, while NEOWISE light curves reveal MIR variability of a few tenths of a magnitude. Comparisons with published YSO and variability-selected catalogs show limited overlap, particularly with variability-selected samples, indicating that MIR-excess selection complements other approaches to identifying candidate YSOs in the Vela-Carina region. The resulting catalog provides a well-defined MIR-excess sample with homogeneous multiband photometry, SED characterization, distances, and variability diagnostics, forming a foundation for future spectroscopic and time-domain studies.",
       "authors": [
-        "R. M. Torres, R. K. Saito, V. Fermiano, P. Esteves, B. W. Borges, D. Quispe, D. Minniti"
+        "R. M. Torres",
+        "R. K. Saito",
+        "V. Fermiano",
+        "P. Esteves",
+        "B. W. Borges",
+        "D. Quispe",
+        "D. Minniti"
       ],
       "categories": [
         "astro-ph.SR",
@@ -2201,7 +2346,8 @@
       "title": "Increasing Sensitivity to Trailed Solar System Objects in Archival JWST NIRCam Imaging with Group Differencing",
       "abstract": "The JWST archive contains thousands of NIRCam exposures distributed across the sky. Small solar system bodies (SSSBs) are present in many of these fields, but are often trailed and more difficult to detect. The standard pipeline produces a single image by fitting a slope to a sequence of $N$ cumulative ``up-the-ramp\" groups of the detector. Thus, each JWST image comprises a time series of cumulative reads. We demonstrate that transforming the ramp into a series of group difference images reduces the per-image trail length of moving sources, producing an $(N-1)$-group photometrically calibrated time series from an $N$-group integration. This enables higher-cadence trajectory-based searches using as few as a single JWST exposure. A generalized least-squares fit of the group difference images along the trajectory of a moving source recovers the source flux at higher SNR when compared to the ramp fit, with the improvement scaling with the reduction in trailing. We validate our procedure on 13 moving objects detected in archival JWST NIRCam images. To estimate our sensitivity increase, we perform an injection/recovery simulation on the JWST imagery. Trailed moving objects recovered via group differencing show higher SNRs, improving completeness to moving sources compared to standard calibrations. For typical integration lengths of $N=4$ or $6$ for archival JWST/NIRCam exposures in the ecliptic, group differencing yields sensitivity gains between $\\sim 1.1$--$1.4$ mag, based on simulation results. This method significantly increases the sensitivity of archival JWST surveys to trailed SSSBs.",
       "authors": [
-        "Anthony Girmenia, Stanimir Metchev"
+        "Anthony Girmenia",
+        "Stanimir Metchev"
       ],
       "categories": [
         "astro-ph.IM",
@@ -2260,7 +2406,107 @@
       "title": "ALMA's sharpest view of IRAS 08544-4431: Unveiling the dust distribution asymmetries in the circumbinary disk",
       "abstract": "The interactions between post-asymptotic giant branch (post-AGB) binaries and their circumbinary disks play a central role in shaping the evolution of these systems. Circumbinary disks around post-AGB binaries are stable, though relatively short-lived structures ($10^4-10^5$ years) and their physical properties and evolution remain poorly understood. In this study, we target IRAS 08544-4431, one of the best-studied post-AGB binaries. This system has well-constrained stellar and orbital parameters, exhibits well-defined characteristic refractory-depleted photospheric chemistry, and hosts a stable, sub-Keplerian circumbinary disk extending from a well-resolved sublimation rim at approximately 8 au to outer radii of approximately 1 000 au. We probe the disk layers close to the midplane using ALMA Band 7 continuum and $^{12}$CO $J=3-2$ observations of IRAS 08544-4431 obtained with baselines up to 16.2 km. These data provide the finest angular resolution yet achieved with ALMA for dust-continuum observations of post-AGB binaries with a (almost) face-on disk (15 au; 10 mas). The resulting map of dust continuum enabled resolving disk inner rim, a largely smooth radial profile, and a prominent azimuthal asymmetry at a radius of $\\sim$45 mas. Notably, the location of this dust asymmetry coincides with the forward-scattering peak reported in SPHERE/VLT observations of IRAS 08544-4431. The $^{12}$CO emission is more extended than the dust continuum and confirms the disk rotation in this system. However, the global $^{12}$CO map shows indications of a spatial offset from the dust asymmetry, suggesting some degree of gas-dust decoupling. Together, these observations establish IRAS 08544-4431 as a key laboratory for studying disk and dust evolution in a parameter space distinct from that of young stars with protoplanetary disks.",
       "authors": [
-        "Maksym Mohorian (School of Mathematical and Physical Sciences, Macquarie University, Balaclava Road, Sydney, NSW, Australia, Astrophysics and Space Technologies Research Centre, Macquarie University, Sydney, NSW, Australia), Devika Kamath (School of Mathematical and Physical Sciences, Macquarie University, Balaclava Road, Sydney, NSW, Australia, Astrophysics and Space Technologies Research Centre, Macquarie University, Sydney, NSW, Australia, INAF, Osservatorio Astronomico di Roma, Monte Porzio Catone, Italy), Elizabeth Cappellazzo (School of Mathematical and Physical Sciences, Macquarie University, Balaclava Road, Sydney, NSW, Australia, Astrophysics and Space Technologies Research Centre, Macquarie University, Sydney, NSW, Australia, ATNF, CSIRO, Space and Astronomy, Epping, NSW, Australia), Kateryna Andrych (School of Mathematical and Physical Sciences, Macquarie University, Balaclava Road, Sydney, NSW, Australia, Astrophysics and Space Technologies Research Centre, Macquarie University, Sydney, NSW, Australia), Jacques Kluska (Institute of Astronomy, KU Leuven, Leuven, Belgium), Hans van Winckel (Institute of Astronomy, KU Leuven, Leuven, Belgium), Daniel Price (School of Physics and Astronomy, Monash University, Clayton VIC, Australia, Univ. Grenoble Alpes, CNRS, IPAG, Grenoble, France), Toon De Prins (School of Mathematical and Physical Sciences, Macquarie University, Balaclava Road, Sydney, NSW, Australia, Astrophysics and Space Technologies Research Centre, Macquarie University, Sydney, NSW, Australia, Institute of Astronomy, KU Leuven, Leuven, Belgium), Arancha Castro-Carrizo (Institut de Radioastronomie Millimetrique, Saint-Martin-d'Heres, France), Javier Alcolea (Observatorio Astronomico Nacional), Nicolas Cuello (Univ. Grenoble Alpes, CNRS, IPAG, Grenoble, France), Matthias Fabry (Department of Astrophysics and Planetary Science, Villanova University, Villanova, PA, USA), Valentin Bujarrabal (Observatorio Astronomico Nacional)"
+        "Maksym Mohorian (School of Mathematical and Physical Sciences",
+        "Macquarie University",
+        "Balaclava Road",
+        "Sydney",
+        "NSW",
+        "Australia",
+        "Astrophysics and Space Technologies Research Centre",
+        "Macquarie University",
+        "Sydney",
+        "NSW",
+        "Australia)",
+        "Devika Kamath (School of Mathematical and Physical Sciences",
+        "Macquarie University",
+        "Balaclava Road",
+        "Sydney",
+        "NSW",
+        "Australia",
+        "Astrophysics and Space Technologies Research Centre",
+        "Macquarie University",
+        "Sydney",
+        "NSW",
+        "Australia",
+        "INAF",
+        "Osservatorio Astronomico di Roma",
+        "Monte Porzio Catone",
+        "Italy)",
+        "Elizabeth Cappellazzo (School of Mathematical and Physical Sciences",
+        "Macquarie University",
+        "Balaclava Road",
+        "Sydney",
+        "NSW",
+        "Australia",
+        "Astrophysics and Space Technologies Research Centre",
+        "Macquarie University",
+        "Sydney",
+        "NSW",
+        "Australia",
+        "ATNF",
+        "CSIRO",
+        "Space and Astronomy",
+        "Epping",
+        "NSW",
+        "Australia)",
+        "Kateryna Andrych (School of Mathematical and Physical Sciences",
+        "Macquarie University",
+        "Balaclava Road",
+        "Sydney",
+        "NSW",
+        "Australia",
+        "Astrophysics and Space Technologies Research Centre",
+        "Macquarie University",
+        "Sydney",
+        "NSW",
+        "Australia)",
+        "Jacques Kluska (Institute of Astronomy",
+        "KU Leuven",
+        "Leuven",
+        "Belgium)",
+        "Hans van Winckel (Institute of Astronomy",
+        "KU Leuven",
+        "Leuven",
+        "Belgium)",
+        "Daniel Price (School of Physics and Astronomy",
+        "Monash University",
+        "Clayton VIC",
+        "Australia",
+        "Univ. Grenoble Alpes",
+        "CNRS",
+        "IPAG",
+        "Grenoble",
+        "France)",
+        "Toon De Prins (School of Mathematical and Physical Sciences",
+        "Macquarie University",
+        "Balaclava Road",
+        "Sydney",
+        "NSW",
+        "Australia",
+        "Astrophysics and Space Technologies Research Centre",
+        "Macquarie University",
+        "Sydney",
+        "NSW",
+        "Australia",
+        "Institute of Astronomy",
+        "KU Leuven",
+        "Leuven",
+        "Belgium)",
+        "Arancha Castro-Carrizo (Institut de Radioastronomie Millimetrique",
+        "Saint-Martin-d'Heres",
+        "France)",
+        "Javier Alcolea (Observatorio Astronomico Nacional)",
+        "Nicolas Cuello (Univ. Grenoble Alpes",
+        "CNRS",
+        "IPAG",
+        "Grenoble",
+        "France)",
+        "Matthias Fabry (Department of Astrophysics and Planetary Science",
+        "Villanova University",
+        "Villanova",
+        "PA",
+        "USA)",
+        "Valentin Bujarrabal (Observatorio Astronomico Nacional)"
       ],
       "categories": [
         "astro-ph.SR",
@@ -2400,7 +2646,9 @@
       "title": "Stellar flares with Ariel: detection prospects and impacts on exoplanet spectroscopy",
       "abstract": "Stellar flares are important tracers of magnetic activity and can significantly influence the characterization of exoplanet host stars by introducing time-dependent astrophysical variability. ESA's Ariel mission, designed for atmospheric characterization of exoplanets, will include the VISPhot instrument, providing high-cadence optical photometry offering an opportunity to study stellar flares while identifying and mitigating their impact on transit spectroscopy. We discuss Ariel's potential for flare studies, emphasizing the importance of short-cadence observations for resolving flare morphology and estimating flare energies. We identify potential flaring targets within the Ariel Mission Candidate Sample by cross-matching it with a TESS-based flare catalog, identifying 44 stars in the sample of 3321 host stars with flare rates spanning 0.0012-1.05 flares per day yielding a lower limit. The majority of these active stars are expected to flare infrequently during typical Ariel observations, but for a few of the most active targets there is a significant chance of flaring during a typical Ariel observing window. We further investigate the detectability of stellar flares in Ariel's wavelength range using synthetic spectra based on time-dependent RADYN flare models propagated through the Ariel radiometric simulator. Our simulations indicate that strong flares on cool dwarfs can produce measurable infrared signatures, with flux variations reaching several percent, substantially exceeding the amplitudes of typical exoplanet atmospheric features. These results demonstrate stellar flares represent both a valuable ancillary science case and a potential source of contamination for Ariel observations, highlighting the need for improved flare models and mitigation strategies to maximize the mission's scientific return.",
       "authors": [
-        "K. Vida, B. Seli, B. Edwards"
+        "K. Vida",
+        "B. Seli",
+        "B. Edwards"
       ],
       "categories": [
         "astro-ph.SR",
@@ -2538,7 +2786,9 @@
       "title": "TSD: An inverse problem approach for recovering the exoplanetary atmosphere transmission spectrum from high-resolution spectroscopy",
       "abstract": "Our ability to observe, detect, and characterize exoplanetary atmospheres has grown by leaps and bounds over the last 20 years, aided largely by developments in astronomical instrumentation; improvements in data analysis techniques; and an increase in the sophistication and availability of spectroscopic models. Over this time, detections have been made for a number of important molecular species across a range of wavelengths and spectral resolutions. Ground-based observations at high resolution are particularly valuable due to the high contrast achievable between the stellar spectral continuum and the cores of resolved exoplanet absorption features. However, the model-independent retrieval of such features remains a major hurdle in data analysis, with traditional methods being limited by both the choice of algorithm used to remove the non-exoplanetary components of the signal, as well as the accuracy of model template spectra used for cross-correlation. Here we present a new algorithm TSD (Transmission Spectroscopy Decomposition) formulated as an inverse problem in order to minimize the number of assumptions and theoretically modelled components included in the retrieval. Instead of cross-correlation with pre-computed template exoplanet spectra, we rely on high spectral resolution and instrument stability to distinguish between the stellar, exoplanetary, and telluric components and velocity frames in the sequence of absorption spectra taken during multiple transits. We demonstrate the performance of our new method using both simulated and real K band observations from ESO's VLT/CRIRES+ instrument, and present results obtained from two transits of the highly-inflated super-Neptune WASP-107 b which orbits a nearby K7V star.",
       "authors": [
-        "Nikolai Piskunov, Adam D. Rains, Linn Boldt-Christmas"
+        "Nikolai Piskunov",
+        "Adam D. Rains",
+        "Linn Boldt-Christmas"
       ],
       "categories": [
         "astro-ph.EP",
@@ -2618,7 +2868,10 @@
       "title": "Hydrogen and Helium Dissolution, Outgassing, and Loss in Evolving Sub-Neptune Magma Oceans: Examining Demographic Features and Radius Evolution",
       "abstract": "Sub-Neptunes' molten interiors are expected to accommodate large quantities of volatiles, potentially altering their radius evolution. Previous studies have examined this effect in isolation with simplified evolution modeling, often assuming idealized interior and atmospheric conditions. To address this limitation, we introduce SEAMIST, a unified evolution model for sub-Neptunes and super-Earths that self-consistently combines, for the first time, interior structure, cooling, rock/iron solidification, boil-off, photoevaporation, H/He dissolution, and atmospheric composition. SEAMIST considers both a partially soluble case, in which hydrogen partitions into the magma ocean with a fraction set by mantle-envelope boundary conditions, and a fully miscible case, in which hydrogen may fully dissolve into the magma ocean at high temperatures. We identify a novel catastrophic boil-off mechanism, triggered by a positive feedback between hydrogen outgassing and mass loss that can operate billions of years after disk dispersal. In partially soluble models, the impact of H/He dissolution on radius evolution is modest. This contrasts with previous expectations, as we find that increasing hydrogen abundance from outgassing enhances mass-loss efficiency, counterbalancing volatile replenishment from the rock/iron interior. Fully miscible hydrogen, in contrast, significantly enhances envelope survival especially around low-mass stars. Overall, at intermediate to low masses, mass-radius curves from partially soluble models match observed distributions. The fully miscible case predicts a pronounced radius peak and excess planets around low stellar masses that appear inconsistent with current observations, although it reproduces the observed radius ``cliff\" near 4$R_\\oplus$ at higher masses. Our results suggest that high metallicity may explain the cliff, although alternatives cannot be entirely ruled out.",
       "authors": [
-        "Yao Tang, Jonathan J. Fortney, Laura K. Schaefer, Peter Gao"
+        "Yao Tang",
+        "Jonathan J. Fortney",
+        "Laura K. Schaefer",
+        "Peter Gao"
       ],
       "categories": [
         "astro-ph.EP"
@@ -2701,7 +2954,8 @@
       "title": "Centaur Longevity Revisited: Lifetime Dispersion and the Bailey & Malhotra Classifications under Modern Orbital Solutions",
       "abstract": "Centaurs occupy dynamically unstable orbits between Jupiter and Neptune and are typically removed by giant-planet encounters within a few Myr. Bailey and Malhotra (hereafter BM09) classified the known Centaurs, from 2007 orbits, into a short-lived diffusing class (D), a resonance-hopping class (R), and a long-lived, quasi-stable class (Q); their sole Q object, 2005 TH173, was fit to a 17\\,d arc. We revisit both halves of that analysis on modern Jet Propulsion Laboratory Small-Body Database (SBDB) orbits (retrieved 2026-07-26), integrating clone ensembles of each object with the REBOUND WHFast $N$-body integrator. We ask (i) whether tighter orbital precision narrows the dispersion in clone lifetimes, and (ii) whether the BM09 labels survive on updated elements. Among 65 genuine Centaurs with arc $\\ge 30$\\,d and no censored clones, $\\sigma(\\log_{10}\\mathrm{lifetime})=0.54$\\,dex (a factor of 3.5). Conditioned on present-day $a$, $e$, $i$, and $q$, this dispersion is insensitive to relative semimajor-axis uncertainty (slope $=-0.002$\\,dex per decade in $\\sigma_a/a$; 95\\% confidence interval $-0.034$ to $+0.030$) --- a chaos floor. On the D/Q axis, 49/50 comparable objects retain their BM09 class; 2005 TH173 is the exception (Q$\\to$D): 80/100 clones escape before 10\\,Myr (median 2.99\\,Myr), and a 40\\,Myr integration of the same initial conditions returns 88\\,D / 12\\,R / 0\\,Q. None of the 30 multi-opposition 2007 orbits changes class; two short-arc objects leave the Centaur zone.}",
       "authors": [
-        "Naresh Prasanna, Chrisphin Karthick"
+        "Naresh Prasanna",
+        "Chrisphin Karthick"
       ],
       "categories": [
         "astro-ph.EP"
@@ -2756,7 +3010,9 @@
       "title": "Feasibility of the Phobos 1 Hypothesis for Dark Comet 1998 KY$_{26}$",
       "abstract": "The asteroid 1998 KY$_{26}$ has been the subject of thorough observation, both optical and radar, from shortly following its discovery on 28 May 1998, through 2 further close apparitions in 2020 and 2024. This has previously allowed an accurate characterization of the object, including an unusually rapid spin-rate with period 5.3516 $\\pm$ 0.0001 minutes, a diameter of 11 $\\pm$ 2 m, and a high albedo of $\\sim{0.52}$. Furthermore, the presence of significant nongravitational accelerations (NGAs), with no detectable shedding of gas or dust, has stimulated the 'dark comet' categorization, with JAXA repurposing their Hayabusa2$\\sharp$ spacecraft to rendezvous with the object in 2031. We follow-up the astrodynamical evidence pointing to the possibility this may actually be the lost Soviet Phobos 1 probe, and analyse various photometry and astrometry associated with 1998 KY$_{26}$ to further investigate the feasibility of this hypothesis. We find a first order approximation of the Phobos 1 spacecraft provides compelling agreement to 8 light curves of the object and further that modelling NGAs as solar radiation pressure (SRP) on a cylinder or solar panels provide significant reductions in residual of $\\sim{11} \\%$ with respect to the 260 astrometric and radar measurements. Although an investigation of this kind cannot be conclusive, nevertheless the results here add strong weight to the Phobos 1 hypothesis, and we find no clear contradictory evidence. The spin pole in Ecliptic J2000 coordinates, calculated from photometry based on the Phobos 1 assumption is $(\\lambda,\\beta)=({151^{+1}_{-2}}^{\\circ},{+11^{+12}_{- 3}}^{\\circ})$ , where the quoted ranges represent approximate 68.3\\% confidence levels.",
       "authors": [
-        "Adam Hibberd, Adam Crowl, Abraham Loeb"
+        "Adam Hibberd",
+        "Adam Crowl",
+        "Abraham Loeb"
       ],
       "categories": [
         "astro-ph.EP"
@@ -2816,7 +3072,9 @@
       "title": "Denoising Interferometric Observations Using Visibility-Informed Neural Networks",
       "abstract": "The upcoming observations from the Square Kilometer Array Observatory will provide the astronomical community with a wealth of observations of important objects at long wavelengths. Full analysis of these outputs will necessitate specialized methods and software. Using synthetic observations of protoplanetary discs as an example, we present VIREO, a machine-learning-based visibility-informed method for denoising interferometric images. VIREO operates on image-plane observations, but it is informed by the interferometric measurement process through the UV-derived point spread function supplied as an additional input and used in the loss function. VIREO outperforms traditional cleaning methods and PSF-ignorant denoising models by producing data that is quantitatively cleaner and more conducive to analysis of the planets within the disc. Applying VIREO to archival ALMA data creates images with significantly less background noise, while maintaining, and in some cases enhancing, the substructure. By demonstrating the general utility of visibility-informed models, our results suggest that VIREO can be applied across interferometric observatories when trained on appropriate datasets.",
       "authors": [
-        "Jason P. Terry, Cassandra Hall, Sergei Gleyzer"
+        "Jason P. Terry",
+        "Cassandra Hall",
+        "Sergei Gleyzer"
       ],
       "categories": [
         "astro-ph.IM",
@@ -2856,7 +3114,61 @@
       "title": "GREX-PLUS Science Book v2",
       "abstract": "GREX-PLUS (Galaxy Reionization EXplorer and PLanetary Universe Spectrometer) is a mission candidate for a JAXA strategic L-class mission to be launched in the 2030s. Its primary science goals are two-fold: galaxy formation and evolution, and planetary system formation and evolution. The GREX-PLUS spacecraft will carry a telescope with a 1 m primary mirror aperture cooled down to 50 K. The two science instruments will be onboard: a wide-field camera in the 2--8 $\\mu$m wavelength band and a high-resolution spectrometer with a wavelength resolution of 30,000 in the 10--18 $\\mu$m band. The GREX-PLUS wide-field camera aims to detect the first generation of galaxies at redshift $z>15$. The GREX-PLUS high-resolution spectrometer aims to identify the location of the water ``snowline'' in protoplanetary disks. Both instruments will provide unique datasets for a broad range of scientific topics, including galaxy mass assembly, the origin of supermassive blackholes, infrared background radiation, molecular spectroscopy in the interstellar medium, transit spectroscopy of exoplanet atmospheres, planetary atmospheres in the Solar System, and so on. This document is the second version of a collection of scientific themes that can be achieved with GREX-PLUS. Each section in Chapters~2 and 3 is based on presentations at several GREX-PLUS Science Workshops.",
       "authors": [
-        " PLUS Science Team, Shunsuke Baba, Sirio Belli, Pietro Benotto, Ivan Delvecchio, Yoshinobu Fudamoto, Yuka Fujii, Yuichi Harikane, Yasuhiro Hirahara, Akio K. Inoue, Yoshiyuki Inoue, Hajime Kawahara, Taiki Kawamuro, Yui Kawashima, Lucas Kimmig, Tadayuki Kodama, Mitsuru Kokubo, Hiroyuki Kurokawa, Katsunori Kusakabe, Kosei Matsumoto, Noriyuki Matsunaga, Taro Matsuo, Yoshiki Matsuoka, Shuji Matsuura, Toru Misawa, Shota Miyazaki, Alessia Moretti, Kumiko Morihana, Takashi Moriya, Kentaro Nagamine, Kimihiko Nakajima, Hideko Nomura, Shota Notsu, Takafumi Ootsubo, Kazumasa Ohno, Giorgia Peluso, Bianca M. Poggianti, Mario Radovich, Giulia Rodighiero, Hideo Sagawa, Kazuhiro Shimasaku, Takashi Shimonishi, Ken-ichi Tadaki, Kosuke Takahashi, Michihiro Takami, Shuya Tan, Takumi Tanaka, Tsuyoshi Terai, Yoshiki Toba, Roberta Tripodi, Francesco Valentino, Benedetta Vulcani, Taihei Yano, Chikako Yasui, Stefano Zibetti"
+        " PLUS Science Team",
+        "Shunsuke Baba",
+        "Sirio Belli",
+        "Pietro Benotto",
+        "Ivan Delvecchio",
+        "Yoshinobu Fudamoto",
+        "Yuka Fujii",
+        "Yuichi Harikane",
+        "Yasuhiro Hirahara",
+        "Akio K. Inoue",
+        "Yoshiyuki Inoue",
+        "Hajime Kawahara",
+        "Taiki Kawamuro",
+        "Yui Kawashima",
+        "Lucas Kimmig",
+        "Tadayuki Kodama",
+        "Mitsuru Kokubo",
+        "Hiroyuki Kurokawa",
+        "Katsunori Kusakabe",
+        "Kosei Matsumoto",
+        "Noriyuki Matsunaga",
+        "Taro Matsuo",
+        "Yoshiki Matsuoka",
+        "Shuji Matsuura",
+        "Toru Misawa",
+        "Shota Miyazaki",
+        "Alessia Moretti",
+        "Kumiko Morihana",
+        "Takashi Moriya",
+        "Kentaro Nagamine",
+        "Kimihiko Nakajima",
+        "Hideko Nomura",
+        "Shota Notsu",
+        "Takafumi Ootsubo",
+        "Kazumasa Ohno",
+        "Giorgia Peluso",
+        "Bianca M. Poggianti",
+        "Mario Radovich",
+        "Giulia Rodighiero",
+        "Hideo Sagawa",
+        "Kazuhiro Shimasaku",
+        "Takashi Shimonishi",
+        "Ken-ichi Tadaki",
+        "Kosuke Takahashi",
+        "Michihiro Takami",
+        "Shuya Tan",
+        "Takumi Tanaka",
+        "Tsuyoshi Terai",
+        "Yoshiki Toba",
+        "Roberta Tripodi",
+        "Francesco Valentino",
+        "Benedetta Vulcani",
+        "Taihei Yano",
+        "Chikako Yasui",
+        "Stefano Zibetti"
       ],
       "categories": [
         "astro-ph.IM",
@@ -2968,7 +3280,12 @@
       "title": "SPAMMS: 3D spectroscopic modeling of stellar surfaces. II. Implementation of Kurucz and TLUSTY model atmospheres",
       "abstract": "Context. Accurate stellar spectra are essential to derive stellar properties. Traditional model atmospheres often oversimplify phenomena that break spherical symmetry, such as rotational deformation or multiplicity. The Spectroscopic PAtch Model for Massive Stars (SPAMMS) accounts for these effects, but its applicability has been limited by the spectral types covered by its model atmosphere grids. Aims. We aim to extend the parameter space of the model atmosphere grids available to SPAMMS, enabling spectral synthesis across a broader range of stellar types. Methods. We computed specific intensities, $I\\left(\\lambda,\\mu\\right)$, for $101$ emergent angles using PRISMAS (Pipeline of Radiative Intensity Synthesis for Meshed Atmospheric Surfaces), and pre-computed LTE and non-LTE atmospheres from two ATLAS9-Kurucz grids and the TLUSTY-based OSTAR2002 and BSTAR2006 models. Results. The intensity grids cover effective temperatures from $3500$ to $55000\\,\\mathrm{K}$ and surface gravities from $0.0$ to $5.0\\,\\mathrm{dex}$, spanning O- to K-type stars. They include metallicities from $0$ to $30\\,\\mathrm{Z_\\odot}$ and microturbulent velocities of $1$, $3$, $5$, and $10\\,\\mathrm{km\\,s^{-1}}$. The spectral range extends from $3000$ to $9000\\,\\mathring{\\mathrm{A}}$ with $\\Delta\\lambda=0.01\\,\\mathring{\\mathrm{A}}$. As a proof of concept, we modelled with SPAMMS a rapidly rotating B-type star and an eclipsing Algol-type binary. Conclusions. The new LTE-Kurucz and NLTE-TLUSTY grids substantially expand the parameter space accessible to SPAMMS. The code can now generate synthetic spectra for a broader range of stellar types and geometries, including rapidly rotating and multiple systems -- providing a more comprehensive framework for modelling non-spherical stellar surfaces.",
       "authors": [
-        "D. Gal\\'an-Di\\'eguez, M. Abdul-Masih, C. Allende Prieto, S. R. Berlanas, A. Herrero, H. Sana"
+        "D. Gal\\'an-Di\\'eguez",
+        "M. Abdul-Masih",
+        "C. Allende Prieto",
+        "S. R. Berlanas",
+        "A. Herrero",
+        "H. Sana"
       ],
       "categories": [
         "astro-ph.SR",
@@ -3125,7 +3442,13 @@
       "title": "The Localized 12-hour Wave Over Alaska: Leveraging Meridional Wind Measurements From the Sodium Lidar",
       "abstract": "The 12-h wave in meridional winds in the mesosphere and lower thermosphere (MLT) during the solar minimum 2018-2019 Arctic winter is investigated using sodium lidar observations at Poker Flat Research Range (PFRR), Chatanika, Alaska (64N,147W). Nightly 12-h wave amplitudes increased significantly during December-January, with amplitudes exceeding 130 m/s above 97 km on several days. This was more than double the 12-h wave amplitudes observed outside this time period. Meteor radar winds over Chatanika also showed significant increase in meridional wind 12-h wave amplitudes at altitudes between 82 and 97 km during this time period with lower amplitudes than lidar measurements. The strong variation in 12-h wave amplitudes was not correlated with SME index, though the largest amplitudes coincided with the sudden stratospheric warming (SSW) in early January. Measurements were compared to a seasonal WACCM-X model run and four days of HIAMCM. For the four dates of available HIAMCM data, 12-h wave amplitudes over Chatanika were found to be similar between both HIAMCM and WACCM-X and the lidar below 97 km, with amplitudes measured by lidar exceeding the models at altitudes between 97-105 km. All measurements followed a similar seasonal trend with increasing amplitudes at the end of December/early January. Fits of SW2 from WACCM-X show the SW2 tidal amplitude following similar seasonal trends to 12-h wave measurements. These high-resolution lidar measurements indicate that localized 12-h wave amplitudes are larger than previously reported by studies using meteor radar measurements.",
       "authors": [
-        "Sophie R. Phillips (Arizona State University), Katrina Bossert (Arizona State University), Komal Kumari (University of Illinois - Urbana-Champaign), Erich Becker (NorthWest Research Associates), Richard L. Collins (University of Alaska, Fairbanks), Nicholas Pedatella (National Center for Atmospheric Research)"
+        "Sophie R. Phillips (Arizona State University)",
+        "Katrina Bossert (Arizona State University)",
+        "Komal Kumari (University of Illinois - Urbana-Champaign)",
+        "Erich Becker (NorthWest Research Associates)",
+        "Richard L. Collins (University of Alaska",
+        "Fairbanks)",
+        "Nicholas Pedatella (National Center for Atmospheric Research)"
       ],
       "categories": [
         "physics.space-ph",
@@ -3215,7 +3538,10 @@
       "title": "GPROF-IR: An Improved Single-Channel Infrared Precipitation Retrieval for Merged Satellite Precipitation Products",
       "abstract": "The Integrated Multi-Satellite Retrievals for the Global Precipitation Measurement (IMERG) product combines precipitation estimates from passive microwave (PMW) and infrared (IR) sensors to provide quasi-global precipitation estimates at half-hourly resolution. Because IR observations are primarily sensitive to cloud-top properties, however, IR-based precipitation estimates are generally less accurate than PMW estimates and can introduce artifacts into the merged precipitation fields. We introduce GPROF-IR, a neural-network-based precipitation retrieval designed to provide precipitation estimates from single-channel geostationary IR observations for the upcoming IMERG V08. GPROF-IR uses a convolutional neural network to exploit spatiotemporal information from sequences of half-hourly IR observations. We validate GPROF-IR against independent surface-based precipitation measurements over land and ocean. GPROF-IR substantially improves upon existing single-channel IR retrievals, including the IR retrieval used in IMERG V07 and more recent neural-network-based approaches. During overpasses of flagship PMW sensors, GPROF-IR is more accurate than the corresponding IMERG PMW estimates over CONUS and Austria, but not Korea. Over CONUS, GPROF-IR outperforms the merged IMERG V07 product for hourly and daily precipitation accumulations. Against shipborne disdrometer observations, GPROF-IR is more accurate than IMERG V07 in the tropics but slightly less accurate in the extratropics. Since geostationary IR observations are continuously available across much of the globe since 1983, GPROF-IR provides a promising basis for improving merged precipitation products and developing long-term, temporally consistent precipitation records.",
       "authors": [
-        "Simon Pfreundschuh, Christian D. Kummerow, Jackson Tan, George J. Huffman"
+        "Simon Pfreundschuh",
+        "Christian D. Kummerow",
+        "Jackson Tan",
+        "George J. Huffman"
       ],
       "categories": [
         "physics.ao-ph"
@@ -3295,7 +3621,9 @@
       "title": "3-D thermomechanical geodynamic modelling of heating and volcanism in the Massif Central (France) and Eifel Volcanic Region (Germany)",
       "abstract": "The French Massif Central and the Eifel Volcanic Field represent two of the enigmatic features in France and Germany, respectively. Both areas have been affected by Cenozoic volcanism whose origin is still debated. Using 3-D numerical geodynamic modelling of recently developed solid-mechanical constitutive laws including viscoelastic-viscoplastic behaviour, we explored a new hypothesis to highlight the contribution of localised deformational (inelastic) heating towards the evolution of localised volcanism as being due to far-field-induced compressive stresses from the Africa-Eurasia convergence. Our simulations show that variations in crustal thicknesses can help localise inelastic strain near the Moho of relatively thicker crust, which leads to enhanced heating. Localised viscoplastic deformation above the brittle-ductile transition in the crust also formed conjugate deformation bands, resulting in localised changes in the topography which can be compared to present-day topography. The first-order picture that emerges from our simulations shows an association of elevated topography and tectonic structures that localise deformation, with a geothermal anomaly sufficient to explain the elevated heat flow and cause a potential localised zone for partial melting in hydrated or CO\\textsubscript{2}-bearing mantle below the Moho.",
       "authors": [
-        "E. Momoh, S. Tait, H S. Bhat"
+        "E. Momoh",
+        "S. Tait",
+        "H S. Bhat"
       ],
       "categories": [
         "physics.geo-ph"
@@ -3342,7 +3670,8 @@
       "title": "Shape matters: DEM investigation of geometry-controlled mechanical response in irregular rock fragments under static and dynamic loading",
       "abstract": "Mechanical characterization of subsurface rock formations typically requires standardized cylindrical core specimens, which are often unavailable from fractured or unconventional reservoir sequences. This study uses a Discrete Element Method (DEM) framework calibrated to Sulphur Mountain Formation siltstone to investigate how fragment geometry governs mechanical response in irregular rock particles, which are direct analogues of drill cuttings. Nineteen specimens (18 procedurally generated irregular geometries and one reference Brazilian disk), normalized to a 10 mm bounding sphere radius, were tested under quasi-static (Brazilian-type) and dynamic (Short Impact Load Cell) loading modes. Four mechanical outputs of failure force (Ff), apparent strength ({\\sigma}f), apparent stiffness (Ka), and stiffness (E) were regressed against seven retained shape descriptors. Results show that force-based quantities are strongly controlled by the surface-area-to-volume (SA/V) ratio under static loading (Adj. R2 = 0.69), while area-normalized quantities ({\\sigma}f and E) are geometrically insensitive. Dynamic loading amplifies geometric sensitivity for failure force and introduces an independent role for surface concavity depth. These findings establish a preliminary quantitative framework for interpreting mechanical measurements from irregular rock fragments when a standardized core is unavailable.",
       "authors": [
-        "Athena Bahramiyarahmadi, Rick Chalaturnyk"
+        "Athena Bahramiyarahmadi",
+        "Rick Chalaturnyk"
       ],
       "categories": [
         "physics.geo-ph",
@@ -3385,7 +3714,11 @@
       "title": "Assessing foundational atomistic models for iron alloys under Earth's core conditions",
       "abstract": "We assess the capability of recently developed foundational atomistic models (FAMs) to simulate iron alloys under the extreme pressures and temperatures of Earth's core. Static equations of state for hexagonal close-packed (hcp) and body-centered cubic (bcc) iron, computed using 17 FAMs, are benchmarked against ab initio calculations. Two representative models, MatterSim and MACE, are further evaluated for their ability to reproduce phonon spectra, liquid structure, and melting relations of iron at core conditions. While both models capture several key properties, MACE substantially overestimates the stability of bcc iron and fails to correctly describe the stability of hcp iron. Their performance is also examined for binary liquids, superionic phases, and a seven-component Fe-Ni-Si-S-O-H-C liquid. Although these FAMs were not explicitly trained on data from core conditions, they can reproduce several structural and dynamical properties across a wide range of compositions. However, none of the tested models consistently reproduces all first-principles benchmarks. By analyzing the origins of these discrepancies, we identify several limitations of current FAMs, particularly the lack of an explicit treatment of thermal electronic excitations, which significantly affect phase stability and thermodynamic properties under core conditions. We further discuss directions for improving FAMs to enable predictive simulations of core-forming materials under extreme conditions.",
       "authors": [
-        "Tianqi Wan, Liangrui Wei, Zepeng Wu, Renata M. Wentzcovitch, Yang Sun"
+        "Tianqi Wan",
+        "Liangrui Wei",
+        "Zepeng Wu",
+        "Renata M. Wentzcovitch",
+        "Yang Sun"
       ],
       "categories": [
         "physics.geo-ph",
@@ -3433,7 +3766,12 @@
       "title": "Time-Resolved Surface-Fault Displacement During the 2026 Kumamoto Earthquake From Near-Fault Video",
       "abstract": "Video recordings can reveal how rapidly fault displacement develops at the Earth's surface, but camera motion and recording artifacts can obscure the ground signal. We analyze a secondary copy of security-camera footage that captured surface displacement during the 28 July 2026 Kumamoto earthquake; the native recording was unavailable and could not be recovered. Two independent image-tracking methods were used. Optical flow follows identifiable image features, whereas normalized cross-correlation (NCC) template matching follows fixed image patches by their similarity. Both measured target-region motion relative to spatially separated reference regions while correcting motion shared by the recording. Image displacement was calibrated to the magnitude of the field-measured offset vector: 1.05 m right-lateral and 0.90 m east-side-up, or 1.383 m in total. We characterize the principal rise by the time required for displacement to progress from 20% to 80% of the selected final level. Across prespecified endpoint choices, optical flow gives 0.866-0.901 s and NCC gives 0.910-0.928 s. These durations correspond to average rates of 0.920-0.958 and 0.895-0.912 m/s, respectively. Checks using independently published tracking windows reproduce the displacement scale, although exact timing is more sensitive in spatially restricted tests. The record also shows an early apparent peak and decline followed by renewed apparent horizontal displacement. Because that later motion may represent either continued ground displacement or the geometry of the secondary recording, neither the permanent endpoint nor physical overshoot can be determined. The most robust conclusion is that the central part of the surface displacement developed in approximately 0.9 s at an average rate near 0.9 m/s.",
       "authors": [
-        "Bogdan Enescu, Shinji Toda, Yuji Yagi, Kazuo Oike, Yu Xuan Teh, Shohei Nobuhara"
+        "Bogdan Enescu",
+        "Shinji Toda",
+        "Yuji Yagi",
+        "Kazuo Oike",
+        "Yu Xuan Teh",
+        "Shohei Nobuhara"
       ],
       "categories": [
         "physics.geo-ph"
@@ -3474,7 +3812,9 @@
       "title": "Learning Stiffness Dependent Fluid Structure Dynamics from Coarse Flow Representations",
       "abstract": "This paper develops a data-driven framework for long-term prediction of fluid--structure interaction (FSI) dynamics, focusing on the flow-induced vibration (FIV) of a flexible plate. A stiffness-conditioned neural evolution operator jointly represents the Eulerian flow field and Lagrangian structural state. The plate is represented by 101 ordered structural tokens carrying nodal coordinates and velocities, with nondimensional bending stiffness as a global conditioning variable. Bidirectional cross-attention couples fluid and structural representations within a hybrid CNN-Transformer architecture. Trained with staged multi-step autoregressive rollouts and symmetry-reflected trajectories, a single operator captures three stiffness-dependent response regimes: deflected--flapping, deflected, and flapping. The predicted trajectories preserve the principal flow structures, structural oscillations, and dominant frequencies, while blind 1000-step rollouts remain bounded. The operator also interpolates to stiffness values excluded from training. To reduce sensitivity to under-resolved near-wall gradients in force reconstruction, we develop a differentiable aerodynamic-force module based on the derivative-moment transformation (DMT). Conventional wall-stress surface integrals are replaced by an enclosed 2D curve integral around the core vortex region, enabling accurate reconstruction of lift and drag. A Signed Distance Function (SDF) and smoothed Dirac-delta formulation make the integration fully differentiable while preserving gradient flow. The proposed framework provides an accurate and differentiable surrogate for stiffness-dependent FSI dynamics, enabling efficient parameter studies and future stiffness optimization for flow-energy-harvesting applications.",
       "authors": [
-        "Chun-Jun Pu, Li-Wei Chen, Hai-Bo Huang"
+        "Chun-Jun Pu",
+        "Li-Wei Chen",
+        "Hai-Bo Huang"
       ],
       "categories": [
         "physics.flu-dyn",
@@ -3530,7 +3870,9 @@
       "title": "Probing magnetic correlations in anisotropic turbulence",
       "abstract": "The topological classes of coherent structures in magnetohydrodynamic turbulence are studied using the irreducible representations of the SO(3) and SO(2) rotation groups. We probe the coherent structures around axisymmetric magnetic fields in the universe. Such axisymmetric fields can be found around filamentary structures as well as cosmic strings. We have considered a Gaussian and a non Gaussian magnetic field. We find that the field distribution leads to different coherent structures for the two cases. Our results show that the scattering of particles from the Gaussian structure depends predominantly on two lengthscales. In the case of the non Gaussian distribution, we can define a third intermediate lengthscale, similar to the Taylor lengthscale. In both the cases, we find that there is a dominance of the polarization anisotropy which indicates that the field gradients are forced into rigid spatial configurations. In the early universe, this will change the mean free path of the baryons and leptons in the coherent structures. Trapping of charged particle as well as their acceleration will be more frequent in the case of a magnetic field with a heavy tailed distribution. The lengthscale of density inhomogeneities close to these structures will thus be determined by the magnetic field distribution of the fields.",
       "authors": [
-        "Bijita Bose, Somdeep Dey, Soma Sanyal"
+        "Bijita Bose",
+        "Somdeep Dey",
+        "Soma Sanyal"
       ],
       "categories": [
         "physics.flu-dyn",
@@ -3652,7 +3994,8 @@
       "title": "Blade secondary vortex interaction noise in hovering rotors",
       "abstract": "Recent indoor experiments on small-scale hovering rotors have reported mid-frequency quasi-tonal peaks of uncertain origin in the residual (aperiodic) far-field sound spectrum, even without wake recirculation. This study investigates their physical origin using hybrid Reynolds-averaged Navier-Stokes/large-eddy simulations coupled with a Ffowcs Williams-Hawkings acoustic analogy, applied to a four-bladed ideally twisted rotor in hover. The high-resolution simulation reproduces the measured higher-harmonic blade-passage-frequency tones, confirming that they arise from the rotor flow itself and not from the enclosed-chamber test environment. Flow-field analysis attributes the tones to blade secondary vortex interaction (BSVI): the outboard blade sections, between approximately r/R = 0.88 and 0.96, are repeatedly impinged upon by coherent, S-shaped secondary vortex worms formed by entrainment of the wake shear layer into the primary tip vortices of preceding blades. These aperiodic secondary vortices produce blade-to-blade correlated loading, yielding a quasi-tonal signature distinct from both purely periodic blade-vortex interaction and mostly stochastic blade-wake interaction noise. Spectral proper orthogonal decomposition of the zero-mean upwash confirms that the mid-frequency (3-10 kHz) content is dominated by a single, low-rank, spatially coherent mode associated with the braids, whereas a lower-frequency mode near 1 kHz is linked to the primary tip vortex core. BSVI is thus identified as a distinct and previously uncharacterized source of aperiodic tonal noise in hovering rotors, with direct implications for the acoustic design of small- to medium-scale rotorcraft and electric vertical take-off and landing propulsors.",
       "authors": [
-        "Jordon Won, Seongkyu Lee"
+        "Jordon Won",
+        "Seongkyu Lee"
       ],
       "categories": [
         "physics.flu-dyn"
@@ -3712,7 +4055,12 @@
       "title": "Measurement of Nanoscale Surface Disturbances on Liquid Jets Using the Mie Scattering Method",
       "abstract": "The Plateau--Rayleigh instability of liquid jets governs a wide range of natural and industrial processes. While the classical linear stability theory accurately predicts disturbance growth rates and dominant wavelengths, it cannot quantify the amplitude and frequency spectrum of nanoscale initial surface disturbances. This critical missing information prevents accurate forecasting of breakup lengths and droplet generation. Conventional optical imaging is constrained by the diffraction limit and lacks the capability to resolve such nanoscale surface fluctuations. Here we introduce a Mie-scattering-based measurement technique to characterize nanoscale surface disturbances on liquid jets. The method employs a thin laser sheet to illuminate the jet, with scattered light captured at designated azimuthal observation angles. Based on Lorenz--Mie theory, we develop an inversion algorithm incorporating cosine similarity and cross-correlation to reconstruct jet surface disturbances from measured scattering fringes, achieving a sub-nanometer resolution for detecting diameter variations, with an overall measurement precision limited by a background noise floor of 0.18 nm RMS. Comparative analyses of forward and rainbow scattering signals further confirm that the surface disturbances become axially symmetric as the amplitude reaches a few nanometers, and thus satisfies the assumptions of the scattering model. Synchronous validations against high--speed imaging and scanning electron microscopy corroborate the quantitative accuracy of our scattering method. Applied in the near-nozzle region, the technique identifies two intrinsic signatures of initial perturbations: stochastic pulse-like fluctuations and low-frequency oscillations.",
       "authors": [
-        "Dingwei Zhang, Qiyou Liu, Hu Sun, Qingfei Fu, Bingqiang Ji, Lijun Yang"
+        "Dingwei Zhang",
+        "Qiyou Liu",
+        "Hu Sun",
+        "Qingfei Fu",
+        "Bingqiang Ji",
+        "Lijun Yang"
       ],
       "categories": [
         "physics.flu-dyn",
@@ -3755,7 +4103,10 @@
       "title": "Transition from a weak-elastic to an elastic-activated regime in two-dimensional polymeric turbulence",
       "abstract": "We conduct direct numerical simulations to investigate the effects of dilute polymers on flow structure, statistical properties and energy transfer in 2D turbulence. As the Weissenberg number (Wi) increases, the flow undergoes a sharp but continuous crossover between a weak-elastic regime and an elastic-activated regime. In the weak-elastic regime, the flow remains close to its Newtonian counterpart and polymer stresses have weak dynamical effects. In the elastic-activated regime, elastic stresses attenuate vortical motions and promote shear-dominated filaments. Scale-by-scale energy analysis shows that polymer addition weakens both the inverse kinetic-energy cascade and the forward enstrophy cascade in the two regimes, whereas the kinetic--elastic exchange and the inter-scale redistribution of elastic energy differ between them. Kinetic-to-elastic conversion dominates over the analysed range of scales in the weak-elastic regime, whereas a partial transfer from elastic to kinetic energy emerges at small scales in the elastic-activated regime. The inter-scale transfer of elastic energy is dominated by inverse transfer over the large-scale range in the weak-elastic regime but by forward transfer over the small-scale range in the elastic-activated regime. These results link the crossover to the onset of strong elastic feedback from the polymers and the associated reorganisation of the scale-by-scale transfer pathways. Downstream-decay statistics also show the same qualitative two-regime behaviour.",
       "authors": [
-        "Haoyu Wang, Hangyu Zhu, Xiaoqiu He, Yongliang Xiong"
+        "Haoyu Wang",
+        "Hangyu Zhu",
+        "Xiaoqiu He",
+        "Yongliang Xiong"
       ],
       "categories": [
         "physics.flu-dyn"
@@ -3892,7 +4243,10 @@
       "title": "Mechanisms of transonic buffet over supercritical airfoils revealed by direct numerical simulations",
       "abstract": "We use direct numerical simulations to study the turbulent transonic flow over a supercritical airfoil, spanning the transition from stable conditions to fully developed buffet at chord-based Reynolds numbers of $3\\times10^5$ and $6\\times10^5$. The Reynolds number determines the incoming boundary-layer state, thereby affecting the separation behaviour. Spectral proper orthogonal decomposition reveals a single dominant mode that emerges below onset and persists across the transition to buffet. The energy of this mode increases with the angle of attack while its spatial structure and fundamental frequency remain nearly unchanged, consistent with a global instability that saturates into a nonlinear limit cycle. Geometrical acoustics provides a first-order description of the global mode propagation and identifies two paths connecting the acoustic source, located in the near wake, to the shock. A shorter path impinges on the shock from behind, while a longer one circumvents the shock tip before reaching it from the front. Linearised shock--acoustic interaction theory predicts a stronger shock response to low-frequency, front-impinging acoustic disturbances. Space--time correlations link the establishment of a downstream path to complete boundary-layer separation, which is induced intermittently by the upstream motion of the shock. The sum of the upstream acoustic time along the front-impinging path and the downstream convective time is compatible with the measured buffet period at both Reynolds numbers. Together, these results are consistent with a unified picture of buffet, where an aeroacoustic feedback mechanism provides the physical pathways through which perturbations can sustain the global dynamics.",
       "authors": [
-        "Giulio Soldati, Hang Song, Sergio Pirozzoli, Sanjiva K. Lele"
+        "Giulio Soldati",
+        "Hang Song",
+        "Sergio Pirozzoli",
+        "Sanjiva K. Lele"
       ],
       "categories": [
         "physics.flu-dyn"
@@ -4060,7 +4414,8 @@
       "title": "Effects of Corner Radius and Knudsen Number on Rarefied Gas Flow in a Lid-Driven Cavity",
       "abstract": "Finite corner curvature is commonly omitted when rarefied cavity flows are represented using idealised geometries. This study examines how downstream corner rounding affects lid-driven cavity flow over 0.5 $\\le$ Kn $\\le$ 5. Direct simulation Monte Carlo calculations were performed for normalised corner radii of Rc = 0, 0.10 and 0.20. The model was assessed through published benchmark data and a local grid-sensitivity test. Velocity fields, centreline profiles, area-averaged speed, translational temperature, number density and temperature anisotropy were analysed. A single primary vortex persisted across all cases. Corner rounding modified the local turning of the downstream return flow but caused little change in the wider circulation. The root-mean-square differences between the rounded and sharp-cornered centreline velocity profiles remained below 0.007. The area-averaged normalised speed increased in all rounded configurations, with a maximum change of approximately 2.5%. The thermodynamic response showed a stronger dependence on rarefaction. Corner rounding reduced the mean temperature non-uniformity at Kn = 0.5 and 1, but increased it at Kn = 2 and 5. Changes in the mean density deviation remained within approximately 1.3%, while the mean translational-temperature anisotropy varied from about -3% to 2.4%. The results show that the sharp-corner approximation captures the global velocity structure under the conditions studied, but can omit local flow changes and small thermodynamic responses associated with finite corner curvature.",
       "authors": [
-        "Peiliang Yan, Chuang Wen"
+        "Peiliang Yan",
+        "Chuang Wen"
       ],
       "categories": [
         "physics.flu-dyn"
@@ -4102,7 +4457,10 @@
       "title": "Dynamical and statistical properties of large scales in turbulence",
       "abstract": "We present a review of results concerning the properties of scales larger than the forcing scale in turbulent flows. In three-dimensional turbulence, when the power driving the flow is injected at a well-defined scale, the injection scale separates the small-scale range, where the Kolmogorov cascade takes place, from the large-scale range across which the mean energy flux is zero, suggesting that these modes are in equilibrium. We show that, in the case of spatially periodic forcing involving only a few modes, an equipartition energy spectrum is generated at large scales, and we discuss the deviations from equipartition observed with more complex forcings. In two-dimensional turbulence, the injection scale separates the direct enstrophy cascade toward small scales from the inverse energy cascade toward large scales. Because of the inverse cascade, one would not expect equilibrium statistical physics tools to be suitable for describing the large-scale structures. Yet this is precisely the situation in which such tools have been most widely used. We indeed show that the bifurcations observed between different largescale regimes of two-dimensional turbulence, both in experiments and in direct numerical simulations, can be qualitatively described by the Truncated Euler equations, whose solutions satisfy statistical equilibrium.",
       "authors": [
-        "A. Alexakis, M. E. Brachet, S. Fauve, F. P\\'etr\\'elis"
+        "A. Alexakis",
+        "M. E. Brachet",
+        "S. Fauve",
+        "F. P\\'etr\\'elis"
       ],
       "categories": [
         "physics.flu-dyn"
@@ -4169,7 +4527,12 @@
       "title": "A partitioned fluid-structure interaction solver for two-phase sloshing and flexible spacecraft dynamics",
       "abstract": "This paper presents a high-fidelity direct numerical simulation (DNS)-fluid-structure interaction (FSI) framework for rigid-liquid-flexible spacecraft dynamics under microgravity conditions. The liquid-gas flow is simulated with the incompressible two-phase solver implemented in DIVA, validated against FLUIDICS experiments conducted aboard the International Space Station (ISS). The flexible appendages are described by a rotating assumed-mode plate model that accounts for geometric stiffening. The fluid and structural operators are coupled through a Dirichlet-Neumann fixed-point algorithm with Aitken relaxation, and a closed-system mechanical energy balance is used as an a posteriori diagnostic to assess the energy imbalance of the partitioned discretisation. The coupling strategy is validated against an experimental free-decay sloshing benchmark, and its numerical consistency is assessed through spatial sensitivity studies of the energy-balance defect. Prescribed-motion, rigid open-loop, and flexible open-loop simulations of a spin-up manoeuvre are compared to isolate the effect of structural feedback on the sloshing response. Reduced liquid models identified from the different simulation architectures exhibit different predictive capabilities when embedded in the same rigid-flexible plant. A controller synthesized from the reduced model identified from the flexible simulation is replayed in the nonlinear CFD-FSI environment. The reduced model reproduces the principal attitude and actuator responses for the considered manoeuvre but does not recover the detailed nonlinear sloshing-load history. The framework provides a high-fidelity environment for analysing coupled spacecraft dynamics, identifying control-oriented models, and assessing reduced-model-based control strategies beyond their linear design representation.",
       "authors": [
-        "Umberto Zucchelli, Miguel Alfonso Mendez, Annafederica Urbano, Sebastien Vincent-Bonnieu, Piotr Wenderski, Francesco Sanfedino"
+        "Umberto Zucchelli",
+        "Miguel Alfonso Mendez",
+        "Annafederica Urbano",
+        "Sebastien Vincent-Bonnieu",
+        "Piotr Wenderski",
+        "Francesco Sanfedino"
       ],
       "categories": [
         "eess.SY",
@@ -4243,7 +4606,8 @@
       "title": "Kinetic closure of turbulence: collision-side modeling beyond the filtered Boltzmann equation",
       "abstract": "This article extends a recently introduced kinetic closure of turbulence by developing its theoretical framework, operational realizations, and validation. In contrast with filtered Navier--Stokes formulations, filtering the Boltzmann equation retains subgrid transport under the linear streaming operator, so that unresolved physics is concentrated on the collision side. We show that in dilute-gas large-eddy simulation, the main limitation of Bhatnagar--Gross--Krook (BGK)-type collision models is not the breakdown of molecular chaos, but the retention of a Markovian collision at a scale where filtering can induce finite temporal correlations in the collision product. In a BGK-type framework, the closure problem is dual: one must infer the filtered fine-grained equilibrium, not computable from filtered moments alone, and model the non-Markovian collision dynamics generated by the collision-product covariance. The present framework makes this dual structure explicit and represents the resulting collision-covariance source term through a BGK-like closure built from the equilibrium commutation residual, with the turbulent relaxation frequency given by a first phenomenological realization. The framework relies on a Chapman--Enskog analysis organized by the reference timescale ratio emerging from the nondimensionalization of the kinetic equation, performed in the classical sense, thereby avoiding artificial turbulent scale separations. We show that the Chapman--Enskog structure is not a pure one-parameter Knudsen scaling: the primary ordering is set by the kinetic-to-macroscopic timescale ratio, while higher moments retain an additional Mach dependence through the mixed scaling of particle velocity. The resulting kinetic closures are validated through lattice Boltzmann simulations and compared with the Smagorinsky model and regularization-based collision models.",
       "authors": [
-        "Francesco Marson, Orestis Malaspinas"
+        "Francesco Marson",
+        "Orestis Malaspinas"
       ],
       "categories": [
         "physics.flu-dyn"
@@ -4304,7 +4668,9 @@
       "title": "Deep Koopman Sensing",
       "abstract": "Real-time reconstruction of fluid flows from sparse sensor measurements is important for both physical understanding and flow control. When first-principles models are too expensive for online data assimilation (DA), learned reduced-order models provide an efficient alternative, but are commonly optimized for forward prediction rather than state estimation. We propose Deep Koopman Sensing, a data-driven reduced-order DA framework that combines a nonlinear autoencoder with parameter-conditioned linear latent dynamics approximating the Koopman operator. We compare the proposed model with parametric dynamic mode decomposition (pDMD), a multilayer perceptron (MLP), and xLSTM across four benchmarks: 1D viscous Burgers, 2D flow past a cylinder, 2D dambreak, and 3D flow past a sphere. Our results reveal a marked distinction between forecasting and sensing: open-loop accuracy does not reliably predict assimilation performance, while Deep Koopman Sensing achieves the lowest assimilation error across all four benchmarks. More importantly, with an extended Kalman filter, incorporating sensor measurements improves the estimates of both linear latent models across all four benchmarks, whereas it degrades the nonlinear models, despite their strong open-loop performance. With ensemble filtering, the nonlinear models are no longer degraded by assimilation, while the Koopman model still attains the lowest assimilation error. These results show that latent dynamics should be designed for the downstream estimation task rather than selected solely for forecast accuracy, and demonstrate Koopman-based reduced-order modeling as an effective approach for real-time flow reconstruction from sparse, streaming measurements.",
       "authors": [
-        "Nithin Somasekharan, Yadi Cao, Shaowu Pan"
+        "Nithin Somasekharan",
+        "Yadi Cao",
+        "Shaowu Pan"
       ],
       "categories": [
         "physics.flu-dyn"
@@ -4376,7 +4742,10 @@
       "title": "Design of a combined polarimetric and velocimetric measurement for viscoelastic stress, and its constitutive resolving power",
       "abstract": "A polarimeter does not report stress. It reports a retardance and an azimuth, and converting those to a stress pair fixes both the calibration that is required and the covariance that the subsequent inference must carry. We set out that observation chain for planar viscoelastic flow, combine it with velocimetry, and ask what the combined measurement can resolve. The calibration constant is fixed by three separately measurable quantities (path length, stress-optic coefficient and wavelength) rather than being fitted. Propagating the polarimetric errors to first order gives a stress covariance that is anisotropic and site dependent even for independent homoscedastic inputs, and whose conditioning degrades as the retardance approaches zero, where the linearization itself stops describing the measurement. Wrapping imposes a separate design bound. Two numerical studies follow, both in ideal calibrated stress coordinates under a prescribed covariance rather than the propagated polarimetric one. Holding the total scalar count fixed and varying the split between velocimetric and optical sites, an unequal allocation favoring optical sites outperforms either pure configuration. We then ask what the measurement resolves between constitutive models compatible with the same velocity data. In self-consistent pressure-driven flow of the finitely extensible nonlinear elastic Peterlin model, at extensibility L^2=50 and 3% noise, the optical channel rejects the velocity-compatible Oldroyd-B family in 78.1% of realizations at the Deborah number De=2, the ratio of the relaxation time to the flow timescale, and in 100% at De=4, while rejecting only about 5% below De=0.3. The resolving power of a design is therefore a strong function of Deborah number and must be quoted with it.",
       "authors": [
-        "Zijian Liu, Julian Olszewski, Bruce I. Gaynes, Jie Xu"
+        "Zijian Liu",
+        "Julian Olszewski",
+        "Bruce I. Gaynes",
+        "Jie Xu"
       ],
       "categories": [
         "physics.flu-dyn",
@@ -4436,7 +4805,12 @@
       "title": "A closed-form solution for streaming and Lagrangian transport in a deforming circular cavity",
       "abstract": "Streaming from a deforming cavity wall serves micromixing, pumping and particle handling. We solve it in closed form in a two-dimensional circular cavity, for any azimuthal wall mode $m$, as $\\mathrm{Wo}^2 \\to 0$. A biharmonic inversion against the Reynolds stress, corrected by the second-order slip a moving wall imposes, gives the Lagrangian mean a tracer follows for a deforming no-slip wall, $\\psi_L = -[m(5m+4)a_m^2/(128(m+2)(2m+1))]\\,r^{2m}(r^2-1)^2\\sin 2m\\theta$, with a companion form for a shear-free interface. For a single mode the factor $(5m+4)/(m+2)$ relating it to the auxiliary solution $\\psi_2$ is the same for every member of the co-phased prescribed-velocity family; at $m=2$ the physical Eulerian mean peaks an order of magnitude above $\\psi_2$, with opposite sign. The no-slip cell centers lie at $r^2 = m/(m+2)$, and at large $m$ the peak streamfunction falls as $m^{-2}$, the peak speed as $m^{-1}$. At fixed radial wall-velocity amplitude the ranking over $m$ follows the wall kinematics: an externally driven wall peaks at $m=1$, a wall with zero first-order surface strain at $m=3$. Mode superpositions invert without degenerating, each harmonic carrying its own correction. At finite $\\mathrm{Wo}$ the first-order field stays closed form in Bessel functions and the mean flow reduces to quadrature; the construction approaches the $m=2$ Rayleigh limit on a separate tangentially driven boundary problem. An independent finite-element solver, with the closed form withheld, reproduces $\\psi_2$ with quadratic mesh convergence.",
       "authors": [
-        "Zijian Liu, Julian Olszewski, Yang Lin, Yuan Gao, Mengren Wu, Jie Xu"
+        "Zijian Liu",
+        "Julian Olszewski",
+        "Yang Lin",
+        "Yuan Gao",
+        "Mengren Wu",
+        "Jie Xu"
       ],
       "categories": [
         "physics.flu-dyn"
@@ -4567,7 +4941,8 @@
       "title": "Computational advances and challenges in simulations of turbulence and star formation",
       "abstract": "We review recent advances in the numerical modeling of turbulent flows and star formation. An overview of the most widely used simulation codes and their core capabilities is provided. We then examine methods for achieving the highest-resolution magnetohydrodynamical turbulence simulations to date, highlighting challenges related to numerical viscosity and resistivity. State-of-the-art approaches to modeling gravity and star formation are discussed in detail, including implementations of star particles and feedback from jets, winds, heating, ionization, and supernovae. We review the latest techniques for radiation hydrodynamics, including ray tracing, Monte Carlo, and moment methods, with comparisons between the flux-limited diffusion, moment-1, and variable Eddington tensor methods. The final chapter summarizes advances in cosmic-ray transport schemes, emphasizing their growing importance for connecting small-scale star formation physics with galaxy-scale evolution.",
       "authors": [
-        "Christoph Federrath, Stella Offner"
+        "Christoph Federrath",
+        "Stella Offner"
       ],
       "categories": [
         "astro-ph.GA",
@@ -4636,7 +5011,8 @@
       "title": "An Adaptive Machine Learning Framework for Fluid Flow in Dual-Network Porous Media",
       "abstract": "Porous materials -- natural or engineered -- often exhibit dual pore-network structures that govern processes such as mineral exploration and hydrocarbon recovery from tight shales. Double porosity/permeability (DPP) mathematical models describe incompressible fluid flow through two interacting pore networks with inter-network mass exchange. Despite significant advances in numerical methods, there remains a need for computational frameworks that enable rapid forecasting, data assimilation, and reliable inverse analysis. To address this, we present a physics-informed neural network (PINN) framework for forward and inverse modeling of DPP systems. The proposed approach encodes the governing equations in mixed form, along with boundary conditions, directly into the loss function, with adaptive weighting strategies to balance their contributions. Key features of the framework include adaptive weight tuning, dynamic collocation point selection, and the use of shared trunk neural architectures to efficiently capture the coupled behavior of the dual pore networks. It is inherently mesh-free, making it well-suited for complex geometries typical of porous media. It accurately captures discontinuities in solution fields across layered domains without introducing spurious oscillations commonly observed in classical finite element formulations. Importantly, the framework is well-suited for inverse analysis, enabling robust parameter identification in scenarios where key physical quantities -- such as the mass transfer coefficient in DPP models -- are difficult to measure directly. In addition, a systematic convergence analysis is provided to rigorously assess the stability, accuracy, and reliability of the method. The effectiveness and computational advantages of the approach are demonstrated through a series of representative numerical experiments.",
       "authors": [
-        "V. S. Maduri, K. B. Nakshatrala"
+        "V. S. Maduri",
+        "K. B. Nakshatrala"
       ],
       "categories": [
         "math.NA",
@@ -4687,7 +5063,8 @@
       "title": "Reciprocal theorem for ion-releasing colloidal particles",
       "abstract": "We describe a generalization of the reciprocal theorem for particles suspended in electrolyte solutions and subjected to an electric field that could be either applied or emerged spontaneously. Attention is focused on catalytic colloids that release ions. The power of the generalization is to capture the effect of formation of a secondary cloud around a catalytic particle, which is equivalent to accounting for an excess charge $Q$ of a system. Our results show that the propulsion speed of catalytic particles has an extra contribution proportional to $Q$ and an external field $E_{\\infty}$. The derived equation for $Q$ reveals that its sign is defined by the difference in the ion diffusivity and the magnitude is controlled by the average flux of ions from the surface. We demonstrate the application of the generalized theorem to electro- and diffusiophoresis of homogeneously releasing ions passive particles, as well as to a self-propulsion of inhomogeneous active particles (microswimmers). It is shown that whilst in some situations the extra term in the reciprocal theorem vanishes or has a little effect on the particle mobility, in many others it may dramatically change its magnitude, and even sign. In addition, the relevance of our results for microswimmer interactions is discussed briefly.",
       "authors": [
-        "Evgeny S. Asmolov, Olga I. Vinogradova"
+        "Evgeny S. Asmolov",
+        "Olga I. Vinogradova"
       ],
       "categories": [
         "cond-mat.soft",

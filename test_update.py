@@ -11,6 +11,8 @@ class Rules(unittest.TestCase):
   return {'id':'test','title':title,'abstract':abstract,'categories':categories or []}
  def test_mechanism_bridge(self):
   self.assertEqual(update.classify(self.paper('Rossby waves in rotating fluid'),CONFIG)['status'],'candidate')
+ def test_stellar_radial_velocity_is_not_planet_detection(self):
+  self.assertNotIn('detection',update.classify(self.paper('Radial velocity of hypervelocity stars'),CONFIG)['topics'])
  def test_pollution_review(self):
   self.assertEqual(update.classify(self.paper('Air pollution and convection'),CONFIG)['status'],'excluded')
  def test_no_blanket_aerosol_exclusion(self):

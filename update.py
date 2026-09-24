@@ -52,6 +52,7 @@ def parse_feed(data):
         items.append({'id': base, 'version_id': full_id, 'title': clean('title'), 'abstract': clean('summary'),
             'published': clean('published'), 'updated': clean('updated'),
             'authors': [a.findtext('a:name', '', NS) for a in e.findall('a:author', NS)],
+            'doi':e.findtext('{http://arxiv.org/schemas/atom}doi','').strip(),
             'categories': [c.attrib['term'] for c in e.findall('a:category', NS)],
             'url': 'https://arxiv.org/abs/'+base, 'pdf': 'https://arxiv.org/pdf/'+full_id, 'source':'arXiv'})
     return total, items
