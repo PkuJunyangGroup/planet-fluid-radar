@@ -19,6 +19,7 @@
 - 地球流体力学 · Geophysical fluid dynamics
 - 系外行星探测与表征 · Exoplanet detection & characterization
 - 行星内部与演化 · Planetary interiors & evolution
+- 行星冰冻圈、冰物理与冰动力 · Planetary cryospheres, ice physics & ice dynamics
 - 表层过程与古气候 · Surface processes & paleoclimate
 - 数学、物理、数值方法 · Mathematics, Physics & Numerical Methods
 

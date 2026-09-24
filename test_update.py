@@ -7,6 +7,13 @@ import update
 
 CONFIG=json.loads(Path('topics.json').read_text())
 class Rules(unittest.TestCase):
+ def test_cryosphere_primary_and_unrelated_ice(self):
+  for title in ['Ice shell convection on Europa','Sea ice rheology and basal melting','High-pressure ice phase transitions','Glacier dynamics and basal sliding']:
+   result=update.classify(self.paper(title),CONFIG)
+   self.assertIn('cryosphere',result['topics'])
+   self.assertEqual(result['status'],'candidate')
+  for title in ['Quantum spin ice dynamics','Water ice in interstellar molecular clouds']:
+   self.assertNotIn('cryosphere',update.classify(self.paper(title),CONFIG)['topics'])
  def paper(self,title,abstract='',categories=None):
   return {'id':'test','title':title,'abstract':abstract,'categories':categories or []}
  def test_planetary_chemistry_and_models_are_primary(self):
