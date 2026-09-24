@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T10:41:40.471378+00:00",
+  "generated_at": "2026-09-24T10:56:28.834423+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
@@ -384,31 +384,178 @@
     },
     {
       "id": "dynamics",
-      "name": "大气与气候动力学",
-      "name_en": "Atmospheric & climate dynamics",
+      "name": "大气动力学",
+      "name_en": "Atmospheric dynamics",
       "terms": [
         "atmospheric dynamics",
-        "climate dynamics",
         "general circulation",
         "hadley",
         "walker circulation",
         "rossby",
         "gravity wave",
         "baroclinic",
+        "baroclinicity",
         "superrotation",
         "atmospheric circulation",
+        "atmospheric tide",
+        "polar cyclone",
+        "jet stream",
+        "storm track",
+        "wave mean flow",
+        "stratospheric warming"
+      ],
+      "term_context": {
+        "general circulation": [
+          "atmosphere",
+          "atmospheric",
+          "troposphere",
+          "stratosphere",
+          "tropospheric",
+          "stratospheric",
+          "weather",
+          "monsoon",
+          "atmospheric circulation",
+          "superrotation"
+        ],
+        "rossby": [
+          "atmosphere",
+          "atmospheric",
+          "troposphere",
+          "stratosphere",
+          "tropospheric",
+          "stratospheric",
+          "weather",
+          "monsoon",
+          "atmospheric circulation",
+          "superrotation"
+        ],
+        "gravity wave": [
+          "atmosphere",
+          "atmospheric",
+          "troposphere",
+          "stratosphere",
+          "tropospheric",
+          "stratospheric",
+          "weather",
+          "monsoon",
+          "atmospheric circulation",
+          "superrotation"
+        ],
+        "baroclinic": [
+          "atmosphere",
+          "atmospheric",
+          "troposphere",
+          "stratosphere",
+          "tropospheric",
+          "stratospheric",
+          "weather",
+          "monsoon",
+          "atmospheric circulation",
+          "superrotation"
+        ],
+        "baroclinicity": [
+          "atmosphere",
+          "atmospheric",
+          "troposphere",
+          "stratosphere",
+          "tropospheric",
+          "stratospheric",
+          "weather",
+          "monsoon",
+          "atmospheric circulation",
+          "superrotation"
+        ],
+        "polar cyclone": [
+          "atmosphere",
+          "atmospheric",
+          "troposphere",
+          "stratosphere",
+          "tropospheric",
+          "stratospheric",
+          "weather",
+          "monsoon",
+          "atmospheric circulation",
+          "superrotation"
+        ],
+        "wave mean flow": [
+          "atmosphere",
+          "atmospheric",
+          "troposphere",
+          "stratosphere",
+          "tropospheric",
+          "stratospheric",
+          "weather",
+          "monsoon",
+          "atmospheric circulation",
+          "superrotation"
+        ],
+        "jet stream": [
+          "atmosphere",
+          "atmospheric",
+          "troposphere",
+          "stratosphere",
+          "tropospheric",
+          "stratospheric",
+          "weather",
+          "monsoon",
+          "atmospheric circulation",
+          "superrotation"
+        ]
+      }
+    },
+    {
+      "id": "climate",
+      "name": "气候动力学",
+      "name_en": "Climate dynamics",
+      "terms": [
+        "climate dynamics",
         "climate sensitivity",
+        "climate feedback",
+        "cloud feedback",
+        "radiative feedback",
         "hydrological cycle",
         "water cycle",
         "radiative convective equilibrium",
-        "atmospheric tide",
-        "polar cyclone"
-      ]
+        "climate variability",
+        "climate response",
+        "climate stability",
+        "climate transition",
+        "climate oscillation",
+        "climate tipping",
+        "energy balance",
+        "el nino",
+        "la nina",
+        "enso",
+        "intertropical convergence zone",
+        "ice albedo feedback",
+        "ocean atmosphere coupling",
+        "coupled climate",
+        "paleoclimate dynamics"
+      ],
+      "term_context": {
+        "energy balance": [
+          "climate",
+          "planetary",
+          "atmosphere",
+          "atmospheric",
+          "ocean",
+          "radiative",
+          "greenhouse"
+        ],
+        "water cycle": [
+          "climate",
+          "planet",
+          "planetary",
+          "atmosphere",
+          "atmospheric",
+          "hydrological"
+        ]
+      }
     },
     {
       "id": "ocean",
-      "name": "物理海洋与地球流体",
-      "name_en": "Physical oceanography & GFD",
+      "name": "物理海洋",
+      "name_en": "Physical oceanography",
       "terms": [
         "ocean circulation",
         "ocean heat transport",
@@ -417,18 +564,110 @@
         "ocean mixing",
         "overturning circulation",
         "thermocline",
-        "geophysical fluid",
-        "rotating fluid",
-        "stratified flow",
-        "internal wave",
         "ocean eddy",
         "ocean eddies",
         "air sea interaction",
+        "ocean current",
+        "ocean stratification",
+        "ocean turbulence",
+        "oceanic turbulence",
+        "oceanic circulation",
+        "oceanic mixing",
+        "oceanic heat transport",
+        "mesoscale eddy",
+        "mesoscale eddies",
+        "submesoscale",
+        "internal wave"
+      ],
+      "term_context": {
+        "internal wave": [
+          "ocean",
+          "oceanic",
+          "marine",
+          "sea",
+          "seawater",
+          "abyssal"
+        ],
+        "mesoscale eddy": [
+          "ocean",
+          "oceanic",
+          "marine",
+          "sea",
+          "seawater",
+          "abyssal"
+        ],
+        "mesoscale eddies": [
+          "ocean",
+          "oceanic",
+          "marine",
+          "sea",
+          "seawater",
+          "abyssal"
+        ],
+        "submesoscale": [
+          "ocean",
+          "oceanic",
+          "marine",
+          "sea",
+          "seawater",
+          "abyssal"
+        ],
+        "overturning circulation": [
+          "ocean",
+          "oceanic",
+          "abyssal",
+          "thermohaline",
+          "amoc"
+        ]
+      }
+    },
+    {
+      "id": "gfd",
+      "name": "地球流体力学",
+      "name_en": "Geophysical fluid dynamics",
+      "terms": [
+        "geophysical fluid",
+        "rotating fluid",
+        "stratified flow",
+        "stratified fluid",
+        "rotating stratified",
         "rotating convection",
+        "quasigeostrophic",
+        "quasi geostrophic",
+        "geostrophic",
+        "potential vorticity",
+        "rossby",
+        "baroclinic",
+        "barotropic instability",
+        "shallow water",
+        "internal wave",
+        "inertial wave",
+        "beta plane",
+        "f plane",
+        "thermal wind",
+        "taylor proudman",
+        "ekman",
         "kolmogorov flow",
         "two dimensional turbulence",
         "2d turbulence",
         "inverse cascade"
+      ],
+      "reject_context": [
+        "galaxy",
+        "galaxies",
+        "interstellar",
+        "accretion disk",
+        "accretion disc",
+        "stellar interior",
+        "stellar convection"
+      ],
+      "allow_context": [
+        "geophysical",
+        "ocean",
+        "oceanic",
+        "planetary atmosphere",
+        "atmospheric circulation",
+        "earth atmosphere"
       ]
     },
     {
@@ -3942,11 +4181,11 @@
       "first_seen": "2026-09-24T08:58:07.531315+00:00",
       "version_changed": false,
       "topics": [
-        "ocean",
+        "gfd",
         "methods"
       ],
       "matches": {
-        "ocean": [
+        "gfd": [
           "kolmogorov flow"
         ],
         "methods": [
@@ -4030,10 +4269,16 @@
       "source": "arXiv",
       "first_seen": "2026-09-24T08:58:07.531315+00:00",
       "version_changed": false,
-      "topics": [],
-      "matches": {},
-      "status": "unmatched",
-      "reason": "拓展阅读",
+      "topics": [
+        "dynamics"
+      ],
+      "matches": {
+        "dynamics": [
+          "stratospheric warming"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：stratospheric warming",
       "method": "keyword",
       "institutions": [],
       "author_affiliations": [],
@@ -4707,11 +4952,11 @@
       "first_seen": "2026-09-24T08:58:07.531315+00:00",
       "version_changed": false,
       "topics": [
-        "ocean",
+        "gfd",
         "methods"
       ],
       "matches": {
-        "ocean": [
+        "gfd": [
           "kolmogorov flow"
         ],
         "methods": [
@@ -4942,11 +5187,11 @@
       "first_seen": "2026-09-24T08:58:07.531315+00:00",
       "version_changed": false,
       "topics": [
-        "ocean",
+        "gfd",
         "methods"
       ],
       "matches": {
-        "ocean": [
+        "gfd": [
           "2d turbulence"
         ],
         "methods": [
@@ -5433,11 +5678,11 @@
       "first_seen": "2026-09-24T08:58:07.531315+00:00",
       "version_changed": false,
       "topics": [
-        "ocean",
+        "gfd",
         "methods"
       ],
       "matches": {
-        "ocean": [
+        "gfd": [
           "two dimensional turbulence",
           "inverse cascade"
         ],
@@ -7887,14 +8132,15 @@
           "general circulation"
         ],
         "ocean": [
-          "overturning circulation"
+          "overturning circulation",
+          "oceanic circulation"
         ],
         "surface": [
           "carbon cycle"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：precipitation、general circulation、overturning circulation、carbon cycle",
+      "reason": "关联线索：precipitation、general circulation、overturning circulation、oceanic circulation、carbon cycle",
       "tags": [
         "水循环 · Water cycle",
         "环流与波动 · Circulation & waves",
@@ -7999,15 +8245,16 @@
         "published-print": "2026-09-22"
       },
       "topics": [
-        "dynamics"
+        "climate"
       ],
       "matches": {
-        "dynamics": [
-          "water cycle"
+        "climate": [
+          "water cycle",
+          "climate variability"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：water cycle",
+      "reason": "关联线索：water cycle、climate variability",
       "tags": [
         "水循环 · Water cycle",
         "海冰与表层 · Ice & surface"
@@ -8865,15 +9112,20 @@
         "published-online": "2026-09-10"
       },
       "topics": [
-        "physics"
+        "physics",
+        "dynamics"
       ],
       "matches": {
         "physics": [
           "precipitation"
+        ],
+        "dynamics": [
+          "jet stream",
+          "stratospheric warming"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "reason": "关联线索：precipitation、jet stream、stratospheric warming",
       "tags": [
         "水循环 · Water cycle",
         "反演与数值方法 · Inverse & numerical methods"
@@ -9380,15 +9632,19 @@
         "published-print": "2026-09-10"
       },
       "topics": [
+        "dynamics",
         "surface"
       ],
       "matches": {
+        "dynamics": [
+          "baroclinicity"
+        ],
         "surface": [
           "sea ice"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：sea ice",
+      "reason": "关联线索：baroclinicity、sea ice",
       "tags": [
         "海冰与表层 · Ice & surface"
       ],
@@ -11222,15 +11478,19 @@
         "published-online": "2026-09-22"
       },
       "topics": [
+        "dynamics",
         "surface"
       ],
       "matches": {
+        "dynamics": [
+          "storm track"
+        ],
         "surface": [
           "sea ice"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：sea ice",
+      "reason": "关联线索：storm track、sea ice",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "海冰与表层 · Ice & surface",
@@ -11877,13 +12137,17 @@
       },
       "topics": [
         "physics",
-        "dynamics"
+        "dynamics",
+        "gfd"
       ],
       "matches": {
         "physics": [
           "precipitation"
         ],
         "dynamics": [
+          "rossby"
+        ],
+        "gfd": [
           "rossby"
         ]
       },
@@ -12530,10 +12794,14 @@
         "published-print": "2026-09-28"
       },
       "topics": [
-        "dynamics"
+        "dynamics",
+        "gfd"
       ],
       "matches": {
         "dynamics": [
+          "rossby"
+        ],
+        "gfd": [
           "rossby"
         ]
       },
@@ -12690,11 +12958,15 @@
       },
       "topics": [
         "dynamics",
+        "climate",
         "surface"
       ],
       "matches": {
         "dynamics": [
           "general circulation"
+        ],
+        "climate": [
+          "ice albedo feedback"
         ],
         "surface": [
           "sea ice",
@@ -12702,7 +12974,7 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：general circulation、sea ice、ice albedo",
+      "reason": "关联线索：general circulation、ice albedo feedback、sea ice、ice albedo",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "环流与波动 · Circulation & waves",
@@ -12820,11 +13092,12 @@
       ],
       "matches": {
         "ocean": [
-          "ocean dynamics"
+          "ocean dynamics",
+          "ocean current"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：ocean dynamics",
+      "reason": "关联线索：ocean dynamics、ocean current",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "热输送 · Heat transport",
@@ -13962,10 +14235,16 @@
         "published-online": "2026-09-23",
         "published-print": "2026-09-28"
       },
-      "topics": [],
-      "matches": {},
-      "status": "unmatched",
-      "reason": "拓展阅读",
+      "topics": [
+        "climate"
+      ],
+      "matches": {
+        "climate": [
+          "enso"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：enso",
       "tags": [
         "水循环 · Water cycle",
         "环流与波动 · Circulation & waves"
@@ -14077,15 +14356,19 @@
         "published-print": "2026-09-28"
       },
       "topics": [
-        "physics"
+        "physics",
+        "climate"
       ],
       "matches": {
         "physics": [
           "precipitation"
+        ],
+        "climate": [
+          "intertropical convergence zone"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "reason": "关联线索：precipitation、intertropical convergence zone",
       "tags": [
         "水循环 · Water cycle",
         "环流与波动 · Circulation & waves",
@@ -14197,15 +14480,19 @@
         "published-print": "2026-09-10"
       },
       "topics": [
-        "dynamics"
+        "dynamics",
+        "ocean"
       ],
       "matches": {
         "dynamics": [
           "atmospheric circulation"
+        ],
+        "ocean": [
+          "mesoscale eddies"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：atmospheric circulation",
+      "reason": "关联线索：atmospheric circulation、mesoscale eddies",
       "tags": [
         "环流与波动 · Circulation & waves"
       ],
@@ -14338,21 +14625,22 @@
         "published-print": "2026-09-14"
       },
       "topics": [
-        "dynamics",
-        "ocean"
+        "ocean",
+        "gfd"
       ],
       "matches": {
-        "dynamics": [
-          "general circulation",
-          "baroclinic"
-        ],
         "ocean": [
           "ocean circulation",
-          "air sea interaction"
+          "air sea interaction",
+          "mesoscale eddies",
+          "submesoscale"
+        ],
+        "gfd": [
+          "baroclinic"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：general circulation、baroclinic、ocean circulation、air sea interaction",
+      "reason": "关联线索：ocean circulation、air sea interaction、mesoscale eddies、submesoscale、baroclinic",
       "tags": [
         "环流与波动 · Circulation & waves",
         "海冰与表层 · Ice & surface",
@@ -14654,15 +14942,23 @@
         "published-print": "2026-09-22"
       },
       "topics": [
-        "ocean"
+        "ocean",
+        "gfd"
       ],
       "matches": {
         "ocean": [
+          "ocean stratification",
+          "mesoscale eddy",
+          "mesoscale eddies",
+          "submesoscale"
+        ],
+        "gfd": [
+          "geostrophic",
           "inverse cascade"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：inverse cascade",
+      "reason": "关联线索：ocean stratification、mesoscale eddy、mesoscale eddies、submesoscale、geostrophic、inverse cascade",
       "tags": [
         "海冰与表层 · Ice & surface",
         "反演与数值方法 · Inverse & numerical methods"
@@ -14752,15 +15048,21 @@
         "published-print": "2026-09-22"
       },
       "topics": [
-        "dynamics"
+        "ocean",
+        "gfd"
       ],
       "matches": {
-        "dynamics": [
-          "rossby"
+        "ocean": [
+          "mesoscale eddies"
+        ],
+        "gfd": [
+          "potential vorticity",
+          "rossby",
+          "barotropic instability"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：rossby",
+      "reason": "关联线索：mesoscale eddies、potential vorticity、rossby、barotropic instability",
       "tags": [
         "环流与波动 · Circulation & waves",
         "流体与不稳定性 · Fluid dynamics",
@@ -14857,19 +15159,15 @@
         "published-print": "2026-09-15"
       },
       "topics": [
-        "physics",
-        "ocean"
+        "physics"
       ],
       "matches": {
         "physics": [
           "precipitation"
-        ],
-        "ocean": [
-          "overturning circulation"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：precipitation、overturning circulation",
+      "reason": "关联线索：precipitation",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "水循环 · Water cycle",
@@ -15182,18 +15480,22 @@
       },
       "topics": [
         "physics",
+        "climate",
         "methods"
       ],
       "matches": {
         "physics": [
           "outgoing longwave"
         ],
+        "climate": [
+          "coupled climate"
+        ],
         "methods": [
           "data assimilation"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：outgoing longwave、data assimilation",
+      "reason": "关联线索：outgoing longwave、coupled climate、data assimilation",
       "tags": [
         "海冰与表层 · Ice & surface",
         "流体与不稳定性 · Fluid dynamics",
@@ -15319,16 +15621,21 @@
         "published-print": "2026-09-15"
       },
       "topics": [
-        "dynamics"
+        "dynamics",
+        "gfd"
       ],
       "matches": {
         "dynamics": [
           "rossby",
+          "baroclinicity",
           "atmospheric circulation"
+        ],
+        "gfd": [
+          "rossby"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：rossby、atmospheric circulation",
+      "reason": "关联线索：rossby、baroclinicity、atmospheric circulation",
       "tags": [
         "环流与波动 · Circulation & waves",
         "海冰与表层 · Ice & surface"
@@ -15456,7 +15763,8 @@
       },
       "topics": [
         "dynamics",
-        "ocean"
+        "ocean",
+        "gfd"
       ],
       "matches": {
         "dynamics": [
@@ -15464,10 +15772,14 @@
         ],
         "ocean": [
           "air sea interaction"
+        ],
+        "gfd": [
+          "rossby",
+          "ekman"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：rossby、air sea interaction",
+      "reason": "关联线索：rossby、air sea interaction、ekman",
       "tags": [
         "环流与波动 · Circulation & waves",
         "海冰与表层 · Ice & surface"
@@ -15573,7 +15885,8 @@
       },
       "topics": [
         "dynamics",
-        "ocean"
+        "ocean",
+        "gfd"
       ],
       "matches": {
         "dynamics": [
@@ -15581,10 +15894,13 @@
         ],
         "ocean": [
           "thermocline"
+        ],
+        "gfd": [
+          "ekman"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：walker circulation、thermocline",
+      "reason": "关联线索：walker circulation、thermocline、ekman",
       "tags": [
         "环流与波动 · Circulation & waves"
       ],
@@ -15686,19 +16002,19 @@
         "published-print": "2026-09-10"
       },
       "topics": [
-        "dynamics",
+        "climate",
         "ocean"
       ],
       "matches": {
-        "dynamics": [
-          "general circulation"
+        "climate": [
+          "climate variability"
         ],
         "ocean": [
           "overturning circulation"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：general circulation、overturning circulation",
+      "reason": "关联线索：climate variability、overturning circulation",
       "tags": [
         "环流与波动 · Circulation & waves",
         "热输送 · Heat transport",
@@ -16178,15 +16494,19 @@
         "published-print": "2026-09-15"
       },
       "topics": [
-        "dynamics"
+        "climate",
+        "gfd"
       ],
       "matches": {
-        "dynamics": [
+        "climate": [
+          "enso"
+        ],
+        "gfd": [
           "rossby"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：rossby",
+      "reason": "关联线索：enso、rossby",
       "tags": [
         "水循环 · Water cycle",
         "环流与波动 · Circulation & waves",
@@ -16505,10 +16825,14 @@
         "published-print": "2026-09-17"
       },
       "topics": [
+        "climate",
         "ocean",
         "methods"
       ],
       "matches": {
+        "climate": [
+          "enso"
+        ],
         "ocean": [
           "thermocline"
         ],
@@ -16517,7 +16841,7 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：thermocline、physics informed",
+      "reason": "关联线索：enso、thermocline、physics informed",
       "tags": [
         "流体与不稳定性 · Fluid dynamics",
         "反演与数值方法 · Inverse & numerical methods"
@@ -16627,10 +16951,14 @@
         "published-print": "2026-09-18"
       },
       "topics": [
-        "physics"
+        "physics",
+        "climate"
       ],
       "matches": {
         "physics": [
+          "radiative feedback"
+        ],
+        "climate": [
           "radiative feedback"
         ]
       },
@@ -16753,10 +17081,10 @@
         "published-print": "2026-09-18"
       },
       "topics": [
-        "dynamics"
+        "gfd"
       ],
       "matches": {
-        "dynamics": [
+        "gfd": [
           "rossby"
         ]
       },
@@ -16872,16 +17200,24 @@
         "published-print": "2026-09-22"
       },
       "topics": [
-        "dynamics"
+        "dynamics",
+        "climate",
+        "gfd"
       ],
       "matches": {
         "dynamics": [
           "hadley",
           "baroclinic"
+        ],
+        "climate": [
+          "enso"
+        ],
+        "gfd": [
+          "baroclinic"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：hadley、baroclinic",
+      "reason": "关联线索：hadley、baroclinic、enso",
       "tags": [
         "海冰与表层 · Ice & surface",
         "流体与不稳定性 · Fluid dynamics"
@@ -16989,15 +17325,16 @@
       },
       "topics": [
         "dynamics",
-        "ocean"
+        "gfd"
       ],
       "matches": {
         "dynamics": [
           "rossby",
           "atmospheric circulation"
         ],
-        "ocean": [
-          "geophysical fluid"
+        "gfd": [
+          "geophysical fluid",
+          "rossby"
         ]
       },
       "status": "candidate",
@@ -17209,10 +17546,14 @@
         "published-print": "2026-09-22"
       },
       "topics": [
-        "dynamics"
+        "dynamics",
+        "gfd"
       ],
       "matches": {
         "dynamics": [
+          "rossby"
+        ],
+        "gfd": [
           "rossby"
         ]
       },
@@ -17760,15 +18101,19 @@
         "published-print": "2026-10"
       },
       "topics": [
-        "physics"
+        "physics",
+        "climate"
       ],
       "matches": {
         "physics": [
           "precipitation"
+        ],
+        "climate": [
+          "enso"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "reason": "关联线索：precipitation、enso",
       "tags": [
         "水循环 · Water cycle",
         "环流与波动 · Circulation & waves",
@@ -17871,11 +18216,12 @@
       ],
       "matches": {
         "ocean": [
-          "ocean circulation"
+          "ocean circulation",
+          "ocean current"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：ocean circulation",
+      "reason": "关联线索：ocean circulation、ocean current",
       "tags": [
         "环流与波动 · Circulation & waves"
       ],
@@ -18590,15 +18936,19 @@
         "published-online": "2026-09-15"
       },
       "topics": [
+        "climate",
         "ocean"
       ],
       "matches": {
+        "climate": [
+          "intertropical convergence zone"
+        ],
         "ocean": [
           "ocean circulation"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：ocean circulation",
+      "reason": "关联线索：intertropical convergence zone、ocean circulation",
       "tags": [
         "环流与波动 · Circulation & waves",
         "反演与数值方法 · Inverse & numerical methods"
@@ -20090,10 +20440,10 @@
         "published-print": "2026-09-28"
       },
       "topics": [
-        "dynamics"
+        "climate"
       ],
       "matches": {
-        "dynamics": [
+        "climate": [
           "water cycle"
         ]
       },
@@ -20192,18 +20542,23 @@
       },
       "topics": [
         "physics",
+        "climate",
         "ocean"
       ],
       "matches": {
         "physics": [
           "radiative feedback"
         ],
+        "climate": [
+          "radiative feedback",
+          "climate response"
+        ],
         "ocean": [
           "overturning circulation"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：radiative feedback、overturning circulation",
+      "reason": "关联线索：radiative feedback、climate response、overturning circulation",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "环流与波动 · Circulation & waves",
@@ -20528,10 +20883,14 @@
         "published-print": "2026-09-28"
       },
       "topics": [
-        "dynamics"
+        "dynamics",
+        "gfd"
       ],
       "matches": {
         "dynamics": [
+          "rossby"
+        ],
+        "gfd": [
           "rossby"
         ]
       },
@@ -20674,15 +21033,19 @@
         "published-print": "2026-09-28"
       },
       "topics": [
+        "ocean",
         "surface"
       ],
       "matches": {
+        "ocean": [
+          "submesoscale"
+        ],
         "surface": [
           "carbon cycle"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：carbon cycle",
+      "reason": "关联线索：submesoscale、carbon cycle",
       "tags": [
         "海冰与表层 · Ice & surface"
       ],
@@ -20892,10 +21255,10 @@
         "published-print": "2026-09-28"
       },
       "topics": [
-        "dynamics"
+        "climate"
       ],
       "matches": {
-        "dynamics": [
+        "climate": [
           "climate sensitivity"
         ]
       },
@@ -21292,10 +21655,10 @@
         "published-print": "2026-09-28"
       },
       "topics": [
-        "dynamics"
+        "climate"
       ],
       "matches": {
-        "dynamics": [
+        "climate": [
           "water cycle"
         ]
       },
@@ -23291,16 +23654,20 @@
         "published-print": "2026-09-28"
       },
       "topics": [
-        "physics"
+        "physics",
+        "climate"
       ],
       "matches": {
         "physics": [
           "water vapor",
           "precipitation"
+        ],
+        "climate": [
+          "climate response"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：water vapor、precipitation",
+      "reason": "关联线索：water vapor、precipitation、climate response",
       "tags": [
         "水循环 · Water cycle",
         "反演与数值方法 · Inverse & numerical methods"
@@ -23683,11 +24050,13 @@
           "heat redistribution"
         ],
         "ocean": [
-          "overturning circulation"
+          "overturning circulation",
+          "mesoscale eddies",
+          "submesoscale"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：heat redistribution、overturning circulation",
+      "reason": "关联线索：heat redistribution、overturning circulation、mesoscale eddies、submesoscale",
       "tags": [
         "环流与波动 · Circulation & waves",
         "热输送 · Heat transport",
@@ -23800,19 +24169,15 @@
         "published-print": "2026-09-28"
       },
       "topics": [
-        "dynamics",
-        "ocean"
+        "dynamics"
       ],
       "matches": {
         "dynamics": [
           "walker circulation"
-        ],
-        "ocean": [
-          "overturning circulation"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：walker circulation、overturning circulation",
+      "reason": "关联线索：walker circulation",
       "tags": [
         "环流与波动 · Circulation & waves",
         "海冰与表层 · Ice & surface",
@@ -24524,10 +24889,10 @@
         "published-print": "2026-09-20"
       },
       "topics": [
-        "dynamics"
+        "gfd"
       ],
       "matches": {
-        "dynamics": [
+        "gfd": [
           "rossby"
         ]
       },
@@ -27032,11 +27397,12 @@
           "radiative transfer"
         ],
         "dynamics": [
-          "superrotation"
+          "superrotation",
+          "jet stream"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：radiative transfer、superrotation",
+      "reason": "关联线索：radiative transfer、superrotation、jet stream",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "环流与波动 · Circulation & waves",
@@ -29131,10 +29497,10 @@
         "published-print": "2026-09"
       },
       "topics": [
-        "dynamics"
+        "gfd"
       ],
       "matches": {
-        "dynamics": [
+        "gfd": [
           "baroclinic"
         ]
       },
@@ -29353,7 +29719,8 @@
       },
       "topics": [
         "physics",
-        "dynamics"
+        "dynamics",
+        "gfd"
       ],
       "matches": {
         "physics": [
@@ -29361,6 +29728,9 @@
         ],
         "dynamics": [
           "gravity wave",
+          "baroclinic"
+        ],
+        "gfd": [
           "baroclinic"
         ]
       },
@@ -32988,19 +33358,15 @@
         "published-online": "2019-07-08"
       },
       "topics": [
-        "physics",
-        "dynamics"
+        "physics"
       ],
       "matches": {
         "physics": [
           "condensation"
-        ],
-        "dynamics": [
-          "general circulation"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：condensation、general circulation",
+      "reason": "关联线索：condensation",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "水循环 · Water cycle",
@@ -33180,13 +33546,13 @@
       },
       "topics": [
         "physics",
-        "dynamics"
+        "climate"
       ],
       "matches": {
         "physics": [
           "precipitation"
         ],
-        "dynamics": [
+        "climate": [
           "hydrological cycle"
         ]
       },
@@ -33528,14 +33894,14 @@
       },
       "topics": [
         "physics",
-        "dynamics"
+        "climate"
       ],
       "matches": {
         "physics": [
           "radiative forcing",
           "condensation"
         ],
-        "dynamics": [
+        "climate": [
           "hydrological cycle"
         ]
       },
@@ -35380,10 +35746,16 @@
       "publication_dates": {
         "published-online": "2023-02-14"
       },
-      "topics": [],
-      "matches": {},
-      "status": "unmatched",
-      "reason": "拓展阅读",
+      "topics": [
+        "climate"
+      ],
+      "matches": {
+        "climate": [
+          "intertropical convergence zone"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：intertropical convergence zone",
       "tags": [
         "水循环 · Water cycle",
         "反演与数值方法 · Inverse & numerical methods"
@@ -37950,15 +38322,19 @@
         "published-print": "2026-02-28"
       },
       "topics": [
-        "physics"
+        "physics",
+        "climate"
       ],
       "matches": {
         "physics": [
           "precipitation"
+        ],
+        "climate": [
+          "climate variability"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "reason": "关联线索：precipitation、climate variability",
       "tags": [
         "水循环 · Water cycle",
         "海冰与表层 · Ice & surface"
@@ -38069,13 +38445,17 @@
         "published-print": "2026-02-28"
       },
       "topics": [
-        "physics"
+        "physics",
+        "climate"
       ],
       "matches": {
         "physics": [
           "cloud feedback",
           "cloud microphysics",
           "cloud resolving"
+        ],
+        "climate": [
+          "cloud feedback"
         ]
       },
       "status": "candidate",
@@ -38651,15 +39031,19 @@
         "published-print": "2026-02-28"
       },
       "topics": [
-        "physics"
+        "physics",
+        "dynamics"
       ],
       "matches": {
         "physics": [
           "precipitation"
+        ],
+        "dynamics": [
+          "storm track"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "reason": "关联线索：precipitation、storm track",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "水循环 · Water cycle",
@@ -38760,16 +39144,24 @@
         "published-print": "2026-02-28"
       },
       "topics": [
-        "dynamics"
+        "dynamics",
+        "climate",
+        "gfd"
       ],
       "matches": {
         "dynamics": [
           "general circulation",
           "rossby"
+        ],
+        "climate": [
+          "enso"
+        ],
+        "gfd": [
+          "rossby"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：general circulation、rossby",
+      "reason": "关联线索：general circulation、rossby、enso",
       "tags": [
         "水循环 · Water cycle",
         "环流与波动 · Circulation & waves",
@@ -38890,10 +39282,10 @@
         "published-print": "2026-02-28"
       },
       "topics": [
-        "dynamics"
+        "climate"
       ],
       "matches": {
-        "dynamics": [
+        "climate": [
           "water cycle"
         ]
       },
@@ -39252,10 +39644,16 @@
         "published-online": "2026-02-12",
         "published-print": "2026-02-28"
       },
-      "topics": [],
-      "matches": {},
-      "status": "unmatched",
-      "reason": "拓展阅读",
+      "topics": [
+        "climate"
+      ],
+      "matches": {
+        "climate": [
+          "intertropical convergence zone"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：intertropical convergence zone",
       "tags": [
         "水循环 · Water cycle"
       ],
@@ -39401,6 +39799,7 @@
       "topics": [
         "physics",
         "dynamics",
+        "gfd",
         "methods"
       ],
       "matches": {
@@ -39410,6 +39809,9 @@
         "dynamics": [
           "rossby",
           "gravity wave"
+        ],
+        "gfd": [
+          "rossby"
         ],
         "methods": [
           "turbulence"
@@ -39958,13 +40360,13 @@
       },
       "topics": [
         "physics",
-        "dynamics"
+        "climate"
       ],
       "matches": {
         "physics": [
           "precipitation"
         ],
-        "dynamics": [
+        "climate": [
           "hydrological cycle",
           "water cycle"
         ]
@@ -40384,13 +40786,13 @@
       },
       "topics": [
         "physics",
-        "dynamics"
+        "climate"
       ],
       "matches": {
         "physics": [
           "precipitation"
         ],
-        "dynamics": [
+        "climate": [
           "water cycle"
         ]
       },
@@ -40526,12 +40928,16 @@
       },
       "topics": [
         "dynamics",
+        "gfd",
         "surface"
       ],
       "matches": {
         "dynamics": [
           "rossby",
           "atmospheric circulation"
+        ],
+        "gfd": [
+          "rossby"
         ],
         "surface": [
           "sea ice"
@@ -40641,7 +41047,7 @@
       },
       "topics": [
         "physics",
-        "dynamics"
+        "climate"
       ],
       "matches": {
         "physics": [
@@ -40649,12 +41055,13 @@
           "radiative convective",
           "precipitation"
         ],
-        "dynamics": [
-          "radiative convective equilibrium"
+        "climate": [
+          "radiative convective equilibrium",
+          "energy balance"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：radiative cooling、radiative convective、precipitation、radiative convective equilibrium",
+      "reason": "关联线索：radiative cooling、radiative convective、precipitation、radiative convective equilibrium、energy balance",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "水循环 · Water cycle"
@@ -40777,15 +41184,19 @@
         "published-print": "2026-02-28"
       },
       "topics": [
-        "physics"
+        "physics",
+        "dynamics"
       ],
       "matches": {
         "physics": [
           "precipitation"
+        ],
+        "dynamics": [
+          "stratospheric warming"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "reason": "关联线索：precipitation、stratospheric warming",
       "tags": [
         "水循环 · Water cycle",
         "环流与波动 · Circulation & waves"
@@ -41261,13 +41672,13 @@
       },
       "topics": [
         "physics",
-        "dynamics"
+        "climate"
       ],
       "matches": {
         "physics": [
           "precipitation"
         ],
-        "dynamics": [
+        "climate": [
           "hydrological cycle"
         ]
       },
@@ -42240,6 +42651,7 @@
       "matches": {
         "dynamics": [
           "general circulation",
+          "baroclinicity",
           "atmospheric circulation"
         ],
         "ocean": [
@@ -42247,7 +42659,7 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：general circulation、atmospheric circulation、overturning circulation",
+      "reason": "关联线索：general circulation、baroclinicity、atmospheric circulation、overturning circulation",
       "tags": [
         "环流与波动 · Circulation & waves",
         "热输送 · Heat transport",
@@ -42360,10 +42772,10 @@
         "published-print": "2026-09-16"
       },
       "topics": [
-        "ocean"
+        "gfd"
       ],
       "matches": {
-        "ocean": [
+        "gfd": [
           "geophysical fluid"
         ]
       },
@@ -42479,10 +42891,14 @@
         "published-print": "2026-09-16"
       },
       "topics": [
+        "climate",
         "ocean",
         "surface"
       ],
       "matches": {
+        "climate": [
+          "climate variability"
+        ],
         "ocean": [
           "ocean circulation"
         ],
@@ -42491,7 +42907,7 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：ocean circulation、sea ice",
+      "reason": "关联线索：climate variability、ocean circulation、sea ice",
       "tags": [
         "环流与波动 · Circulation & waves",
         "海冰与表层 · Ice & surface"
@@ -42956,17 +43372,22 @@
         "published-print": "2026-09-16"
       },
       "topics": [
-        "physics"
+        "physics",
+        "climate"
       ],
       "matches": {
         "physics": [
           "radiative feedback",
           "radiative forcing",
           "precipitation"
+        ],
+        "climate": [
+          "radiative feedback",
+          "enso"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：radiative feedback、radiative forcing、precipitation",
+      "reason": "关联线索：radiative feedback、radiative forcing、precipitation、enso",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "水循环 · Water cycle",
@@ -44258,7 +44679,8 @@
       },
       "topics": [
         "physics",
-        "dynamics"
+        "dynamics",
+        "climate"
       ],
       "matches": {
         "physics": [
@@ -44268,10 +44690,13 @@
         "dynamics": [
           "hadley",
           "atmospheric circulation"
+        ],
+        "climate": [
+          "intertropical convergence zone"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：water vapor、precipitation、hadley、atmospheric circulation",
+      "reason": "关联线索：water vapor、precipitation、hadley、atmospheric circulation、intertropical convergence zone",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "水循环 · Water cycle",
@@ -44678,15 +45103,19 @@
         "published-print": "2026-09-16"
       },
       "topics": [
+        "climate",
         "surface"
       ],
       "matches": {
+        "climate": [
+          "climate variability"
+        ],
         "surface": [
           "sea ice"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：sea ice",
+      "reason": "关联线索：climate variability、sea ice",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "海冰与表层 · Ice & surface",
@@ -45406,13 +45835,13 @@
       },
       "topics": [
         "physics",
-        "dynamics"
+        "climate"
       ],
       "matches": {
         "physics": [
           "precipitation"
         ],
-        "dynamics": [
+        "climate": [
           "hydrological cycle"
         ]
       },
@@ -45968,18 +46397,22 @@
       },
       "topics": [
         "physics",
+        "dynamics",
         "ocean"
       ],
       "matches": {
         "physics": [
           "precipitation"
         ],
+        "dynamics": [
+          "jet stream"
+        ],
         "ocean": [
           "overturning circulation"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：precipitation、overturning circulation",
+      "reason": "关联线索：precipitation、jet stream、overturning circulation",
       "tags": [
         "水循环 · Water cycle",
         "环流与波动 · Circulation & waves",
@@ -46531,18 +46964,22 @@
       },
       "topics": [
         "physics",
+        "climate",
         "surface"
       ],
       "matches": {
         "physics": [
           "precipitation"
         ],
+        "climate": [
+          "climate variability"
+        ],
         "surface": [
           "paleoclimate"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：precipitation、paleoclimate",
+      "reason": "关联线索：precipitation、climate variability、paleoclimate",
       "tags": [
         "水循环 · Water cycle",
         "海冰与表层 · Ice & surface",
@@ -46679,18 +47116,22 @@
       },
       "topics": [
         "physics",
+        "climate",
         "surface"
       ],
       "matches": {
         "physics": [
           "precipitation"
         ],
+        "climate": [
+          "climate variability"
+        ],
         "surface": [
           "paleoclimate"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：precipitation、paleoclimate",
+      "reason": "关联线索：precipitation、climate variability、paleoclimate",
       "tags": [
         "水循环 · Water cycle",
         "海冰与表层 · Ice & surface"
@@ -46782,15 +47223,19 @@
         "published-print": "2026-02"
       },
       "topics": [
-        "ocean"
+        "ocean",
+        "gfd"
       ],
       "matches": {
         "ocean": [
           "thermocline"
+        ],
+        "gfd": [
+          "shallow water"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：thermocline",
+      "reason": "关联线索：thermocline、shallow water",
       "tags": [
         "海冰与表层 · Ice & surface"
       ],
@@ -46987,18 +47432,22 @@
       },
       "topics": [
         "physics",
+        "dynamics",
         "ocean"
       ],
       "matches": {
         "physics": [
           "precipitation"
         ],
+        "dynamics": [
+          "storm track"
+        ],
         "ocean": [
           "ocean dynamics"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：precipitation、ocean dynamics",
+      "reason": "关联线索：precipitation、storm track、ocean dynamics",
       "tags": [
         "水循环 · Water cycle"
       ],
@@ -47276,16 +47725,20 @@
         "published-print": "2026-09"
       },
       "topics": [
-        "ocean"
+        "ocean",
+        "gfd"
       ],
       "matches": {
         "ocean": [
           "ocean dynamics",
           "thermocline"
+        ],
+        "gfd": [
+          "ekman"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：ocean dynamics、thermocline",
+      "reason": "关联线索：ocean dynamics、thermocline、ekman",
       "tags": [
         "海冰与表层 · Ice & surface",
         "流体与不稳定性 · Fluid dynamics",
@@ -47569,15 +48022,20 @@
         "published-print": "2026-09"
       },
       "topics": [
-        "ocean"
+        "ocean",
+        "gfd"
       ],
       "matches": {
         "ocean": [
+          "mesoscale eddy",
+          "internal wave"
+        ],
+        "gfd": [
           "internal wave"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：internal wave",
+      "reason": "关联线索：mesoscale eddy、internal wave",
       "tags": [],
       "method": "keyword",
       "intro_zh": "联合声学、生物地球化学与影像观测识别罗科尔海槽浑浊层，区分悬浮粒子和生物回波，研究水动力对粒子聚集及横向输送的影响。",
@@ -47684,10 +48142,14 @@
         "published-print": "2026-09"
       },
       "topics": [
-        "ocean"
+        "ocean",
+        "gfd"
       ],
       "matches": {
         "ocean": [
+          "internal wave"
+        ],
+        "gfd": [
           "internal wave"
         ]
       },
@@ -48058,11 +48520,11 @@
         "published-print": "2026-09"
       },
       "topics": [
-        "dynamics",
+        "gfd",
         "surface"
       ],
       "matches": {
-        "dynamics": [
+        "gfd": [
           "baroclinic"
         ],
         "surface": [
@@ -50075,13 +50537,17 @@
         "published-print": "2025-09"
       },
       "topics": [
-        "dynamics"
+        "dynamics",
+        "gfd"
       ],
       "matches": {
         "dynamics": [
           "rossby",
           "superrotation",
           "atmospheric circulation"
+        ],
+        "gfd": [
+          "rossby"
         ]
       },
       "status": "candidate",
@@ -51295,8 +51761,7 @@
       },
       "topics": [
         "physics",
-        "dynamics",
-        "ocean"
+        "dynamics"
       ],
       "matches": {
         "physics": [
@@ -51305,13 +51770,10 @@
         "dynamics": [
           "general circulation",
           "atmospheric circulation"
-        ],
-        "ocean": [
-          "overturning circulation"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：radiative cooling、general circulation、atmospheric circulation、overturning circulation",
+      "reason": "关联线索：radiative cooling、general circulation、atmospheric circulation",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "环流与波动 · Circulation & waves"
