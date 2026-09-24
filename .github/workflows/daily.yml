@@ -5,6 +5,7 @@ on:
     - cron: '17 1 * * *'
   push:
     branches: [main]
+    paths-ignore: ['.github/workflows/**']
 permissions:
   contents: write
   pages: write
@@ -15,7 +16,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -30,15 +31,21 @@ jobs:
         id: fetch
         continue-on-error: true
         run: python update.py --days 7
+      - name: Update journal metadata
+        id: journals
+        continue-on-error: true
+        run: python update_journals.py --days 14
       - name: Enrich introductions, affiliations and dates
         run: |
           python enrich.py --limit 60
           python dates.py --limit 60
+          python build_catalog.py
+          python build_network.py
       - name: Save updated records
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add papers.json affiliations.json dates.json
+          git add papers.json affiliations.json dates.json journal_records.json catalog.json network.json
           if ! git diff --cached --quiet; then
             git commit -m 'Update literature records'
             git push
@@ -46,7 +53,7 @@ jobs:
       - name: Prepare public files
         run: |
           mkdir -p _site
-          cp index.html app.js style.css favicon.svg papers.json sources.html sources.js _site/
+          cp index.html app.js style.css favicon.svg catalog.json sources.html sources.js network.html network.js network.json _site/
       - uses: actions/configure-pages@v4
       - uses: actions/upload-pages-artifact@v3
         with:
@@ -55,7 +62,7 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
       - name: Report source failures after publishing status
-        if: steps.fetch.outcome == 'failure'
+        if: steps.fetch.outcome == 'failure' || steps.journals.outcome == 'failure'
         run: |
           echo 'One or more sources failed. Website published with accurate source status; next run will retry.'
           exit 1
