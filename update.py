@@ -24,7 +24,8 @@ def classify(paper, config):
     text = normalize(paper['title']+' '+paper['abstract'])
     matches = {}
     for t in config['topics']:
-        terms=[w for w in t['terms'] if contains(text,w)]
+        terms=[w for w in t['terms'] if contains(text,w) and (w not in t.get('term_context',{}) or any(contains(text,x) for x in t['term_context'][w]))]
+        if any(contains(text,w) for w in t.get('reject_context',[])) and not any(contains(text,w) for w in t.get('allow_context',[])):continue
         if terms and (not t.get('context') or any(contains(text,w) for w in t['context'])):
             matches[t['id']]=terms
     excluded=[w for w in config['exclude_terms'] if contains(text,w)]

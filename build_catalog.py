@@ -6,6 +6,7 @@ import re
 import unicodedata
 from pathlib import Path
 from enrich import apply_notes
+from update import classify
 ROOT=Path(__file__).resolve().parent
 
 def norm(s):return re.sub(r'[^a-z0-9]','',unicodedata.normalize('NFKD',s).encode('ascii','ignore').decode().lower())
@@ -59,7 +60,11 @@ def merge_records(records,notes):
 
 def build():
  arxiv=json.loads((ROOT/'papers.json').read_text());jpath=ROOT/'journal_records.json';journal=json.loads(jpath.read_text()) if jpath.exists() else {'papers':[],'sources':{}};notes=json.loads((ROOT/'editorial.json').read_text());registry=json.loads((ROOT/'journals.json').read_text())
- papers=merge_records(arxiv['papers']+journal['papers'],notes)
+ config=json.loads((ROOT/'topics.json').read_text())
+ records=arxiv['papers']+journal['papers']
+ for p in records:p.update(classify(p,config))
+ arxiv['topics']=config['topics']
+ papers=merge_records(records,notes)
  sources={**arxiv['sources'],**{'journal:'+k:v for k,v in journal['sources'].items()}}
  d={**arxiv,'generated_at':dt.datetime.now(dt.timezone.utc).isoformat(),'papers':papers,'sources':sources,'journals':registry,'record_count':len(arxiv['papers'])+len(journal['papers']),'merged_count':sum(len(p['variants'])-1 for p in papers)}
  (ROOT/'catalog.json').write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')

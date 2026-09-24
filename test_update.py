@@ -13,6 +13,14 @@ class Rules(unittest.TestCase):
   self.assertEqual(update.classify(self.paper('Rossby waves in rotating fluid'),CONFIG)['status'],'candidate')
  def test_stellar_radial_velocity_is_not_planet_detection(self):
   self.assertNotIn('detection',update.classify(self.paper('Radial velocity of hypervelocity stars'),CONFIG)['topics'])
+ def test_non_atmospheric_precipitation(self):
+  for text in ['Precipitation in the cool circumgalactic medium of galaxies', 'Electron precipitation in atmospheric space physics']:
+   self.assertNotIn('physics',update.classify(self.paper(text),CONFIG)['topics'])
+  self.assertIn('physics',update.classify(self.paper('Cloud microphysics and precipitation in a changing climate'),CONFIG)['topics'])
+ def test_disease_climate_is_outside_scope(self):
+  self.assertEqual(update.classify(self.paper('Emerging infectious diseases','Climate and precipitation modify zoonotic risks'),CONFIG)['status'],'excluded')
+ def test_orbital_system_is_not_atmospheric(self):
+  self.assertNotIn('planetary',update.classify(self.paper('Orbital stability of a sub Neptune planetary system'),CONFIG)['topics'])
  def test_pollution_review(self):
   self.assertEqual(update.classify(self.paper('Air pollution and convection'),CONFIG)['status'],'excluded')
  def test_no_blanket_aerosol_exclusion(self):
