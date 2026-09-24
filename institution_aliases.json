@@ -1,39 +1,1483 @@
 [
- {"name":"University of Chicago","match":["university of chicago"]},
- {"name":"University of Hawaiʻi","match":["university of hawai"]},
- {"name":"Carnegie Science","match":["carnegie institution for science","carnegie science observatories"]},
- {"name":"University of California, San Diego","match":["university of california san diego","university of california, san diego"]},
- {"name":"University of California, Santa Cruz","match":["university of california, santa cruz","university of california santa cruz"]},
- {"name":"University of California, Berkeley","match":["university of california berkeley","university of california, berkeley"]},
- {"name":"University of California, Davis","match":["university of california, davis"]},
- {"name":"Space Telescope Science Institute","match":["space telescope science institute"]},
- {"name":"University of Oxford","match":["university of oxford"]},
- {"name":"Johns Hopkins University","match":["johns hopkins university","john’s hopkins university"]},
- {"name":"Jet Propulsion Laboratory","match":["jet propulsion laboratory"]},
- {"name":"University of Wisconsin–Madison","match":["university of wisconsin-madison"]},
- {"name":"Flatiron Institute","match":["flatiron institute"]},
- {"name":"Ohio State University","match":["ohio state university"]},
- {"name":"Columbia University","match":["columbia university"]},
- {"name":"Iowa State University","match":["iowa state university"]},
- {"name":"University of Nevada, Las Vegas","match":["university of nevada, las vegas"]},
- {"name":"Stanford University","match":["stanford university"]},
- {"name":"University of Virginia","match":["university of virginia"]},
- {"name":"Macquarie University","match":["macquarie university"]},
- {"name":"KU Leuven","match":["ku leuven"]},
- {"name":"ETH Zürich","match":["eth zurich","eth zürich"]},
- {"name":"Western University","match":["western university"]},
- {"name":"University of Helsinki","match":["university of helsinki"]},
- {"name":"University of Turku","match":["university of turku"]},
- {"name":"University of Tokyo","match":["university of tokyo"]},
- {"name":"Uppsala University","match":["uppsala university"]},
- {"name":"RIKEN","match":["riken"]},
- {"name":"NASA Goddard Space Flight Center","match":["nasa goddard space flight center"]},
- {"name":"Peking University","match":["peking university","北京大学"]},
- {"name":"University of Geneva","match":["university of geneva"]},
- {"name":"Los Alamos National Laboratory","match":["los alamos national laboratory"]},
- {"name":"Georgia Institute of Technology","match":["georgia institute of technology"]},
- {"name":"Huazhong University of Science and Technology","match":["huazhong university of science and technology"]},
- {"name":"University of Massachusetts Amherst","match":["university of massachusetts amherst"]},
- {"name":"Australian National University","match":["australian national university"]},
- {"name":"University of Texas at Austin","match":["university of texas at austin"]}
+  {
+    "name": "University of Chicago",
+    "match": [
+      "university of chicago"
+    ]
+  },
+  {
+    "name": "University of Hawaiʻi",
+    "match": [
+      "university of hawai",
+      "university of hawaii",
+      "university of hawai‘i",
+      "university of hawai’i"
+    ]
+  },
+  {
+    "name": "Carnegie Science",
+    "match": [
+      "carnegie institution for science",
+      "carnegie science observatories"
+    ]
+  },
+  {
+    "name": "University of California, San Diego",
+    "match": [
+      "university of california san diego",
+      "university of california, san diego"
+    ]
+  },
+  {
+    "name": "University of California, Santa Cruz",
+    "match": [
+      "university of california santa cruz",
+      "university of california, santa cruz"
+    ]
+  },
+  {
+    "name": "University of California, Berkeley",
+    "match": [
+      "university of california berkeley",
+      "university of california, berkeley"
+    ]
+  },
+  {
+    "name": "University of California, Davis",
+    "match": [
+      "university of california, davis"
+    ]
+  },
+  {
+    "name": "Space Telescope Science Institute",
+    "match": [
+      "space telescope science institute"
+    ]
+  },
+  {
+    "name": "University of Oxford",
+    "match": [
+      "university of oxford"
+    ]
+  },
+  {
+    "name": "Johns Hopkins University",
+    "match": [
+      "johns hopkins university",
+      "john’s hopkins university"
+    ]
+  },
+  {
+    "name": "California Institute of Technology",
+    "match": [
+      "california institute of technology",
+      "jet propulsion laboratory"
+    ]
+  },
+  {
+    "name": "University of Wisconsin–Madison",
+    "match": [
+      "university of wisconsin-madison"
+    ]
+  },
+  {
+    "name": "Flatiron Institute",
+    "match": [
+      "flatiron institute"
+    ]
+  },
+  {
+    "name": "Ohio State University",
+    "match": [
+      "ohio state university"
+    ]
+  },
+  {
+    "name": "Columbia University",
+    "match": [
+      "columbia university"
+    ]
+  },
+  {
+    "name": "Iowa State University",
+    "match": [
+      "iowa state university"
+    ]
+  },
+  {
+    "name": "University of Nevada, Las Vegas",
+    "match": [
+      "university of nevada, las vegas"
+    ]
+  },
+  {
+    "name": "Stanford University",
+    "match": [
+      "stanford university"
+    ]
+  },
+  {
+    "name": "University of Virginia",
+    "match": [
+      "university of virginia"
+    ]
+  },
+  {
+    "name": "Macquarie University",
+    "match": [
+      "macquarie university"
+    ]
+  },
+  {
+    "name": "KU Leuven",
+    "match": [
+      "ku leuven"
+    ]
+  },
+  {
+    "name": "ETH Zürich",
+    "match": [
+      "eth zurich",
+      "eth zürich"
+    ]
+  },
+  {
+    "name": "Western University",
+    "match": [
+      "western university"
+    ]
+  },
+  {
+    "name": "University of Helsinki",
+    "match": [
+      "university of helsinki"
+    ]
+  },
+  {
+    "name": "University of Turku",
+    "match": [
+      "university of turku"
+    ]
+  },
+  {
+    "name": "University of Tokyo",
+    "match": [
+      "university of tokyo"
+    ]
+  },
+  {
+    "name": "Uppsala University",
+    "match": [
+      "uppsala university"
+    ]
+  },
+  {
+    "name": "RIKEN",
+    "match": [
+      "riken"
+    ]
+  },
+  {
+    "name": "NASA",
+    "match": [
+      "nasa",
+      "nasa goddard space flight center",
+      "national aeronautics and space administration"
+    ]
+  },
+  {
+    "name": "Peking University",
+    "match": [
+      "peking university",
+      "北京大学"
+    ]
+  },
+  {
+    "name": "University of Geneva",
+    "match": [
+      "university of geneva"
+    ]
+  },
+  {
+    "name": "Los Alamos National Laboratory",
+    "match": [
+      "los alamos national laboratory"
+    ]
+  },
+  {
+    "name": "Georgia Institute of Technology",
+    "match": [
+      "georgia institute of technology"
+    ]
+  },
+  {
+    "name": "Huazhong University of Science and Technology",
+    "match": [
+      "huazhong university of science and technology"
+    ]
+  },
+  {
+    "name": "University of Massachusetts Amherst",
+    "match": [
+      "university of massachusetts amherst"
+    ]
+  },
+  {
+    "name": "Australian National University",
+    "match": [
+      "australian national university"
+    ]
+  },
+  {
+    "name": "University of Texas at Austin",
+    "match": [
+      "university of texas at austin"
+    ]
+  },
+  {
+    "name": "Chinese Academy of Sciences",
+    "match": [
+      "chinese academy of sciences",
+      "purple mountain observatory",
+      "xinjiang astronomical observatory"
+    ]
+  },
+  {
+    "name": "University of Chinese Academy of Sciences",
+    "match": [
+      "university of chinese academy of sciences"
+    ]
+  },
+  {
+    "name": "Nanjing University of Information Science and Technology",
+    "match": [
+      "nanjing university of information science and technology"
+    ]
+  },
+  {
+    "name": "Nanjing University",
+    "match": [
+      "nanjing university"
+    ]
+  },
+  {
+    "name": "National Taiwan University",
+    "match": [
+      "national taiwan university"
+    ]
+  },
+  {
+    "name": "University of Washington",
+    "match": [
+      "university of washington"
+    ]
+  },
+  {
+    "name": "University of Science and Technology of China",
+    "match": [
+      "university of science and technology of china"
+    ]
+  },
+  {
+    "name": "Sun Yat-sen University",
+    "match": [
+      "sun yat-sen university"
+    ]
+  },
+  {
+    "name": "University of Oklahoma",
+    "match": [
+      "university of oklahoma"
+    ]
+  },
+  {
+    "name": "Laoshan Laboratory",
+    "match": [
+      "laoshan laboratory"
+    ]
+  },
+  {
+    "name": "Stony Brook University",
+    "match": [
+      "state university of new york at stony brook",
+      "stony brook university"
+    ]
+  },
+  {
+    "name": "Zhejiang Institute of Meteorological Sciences",
+    "match": [
+      "zhejiang institute of meteorological sciences"
+    ]
+  },
+  {
+    "name": "University of Reading",
+    "match": [
+      "university of reading"
+    ]
+  },
+  {
+    "name": "University of Cincinnati",
+    "match": [
+      "university of cincinnati"
+    ]
+  },
+  {
+    "name": "Princeton University",
+    "match": [
+      "princeton university"
+    ]
+  },
+  {
+    "name": "Qingdao Marine Science and Technology Center",
+    "match": [
+      "qingdao marine science and technology center"
+    ]
+  },
+  {
+    "name": "Virginia Tech",
+    "match": [
+      "virginia tech"
+    ]
+  },
+  {
+    "name": "Jilin University",
+    "match": [
+      "jilin university"
+    ]
+  },
+  {
+    "name": "Texas A&M University",
+    "match": [
+      "texas a&m university"
+    ]
+  },
+  {
+    "name": "European Southern Observatory",
+    "match": [
+      "european southern observatory"
+    ]
+  },
+  {
+    "name": "Universidad de Santiago de Chile",
+    "match": [
+      "universidad de santiago de chile"
+    ]
+  },
+  {
+    "name": "Université Grenoble Alpes",
+    "match": [
+      "univ. grenoble alpes",
+      "university grenoble alpes",
+      "université grenoble alpes"
+    ]
+  },
+  {
+    "name": "Universidad Diego Portales",
+    "match": [
+      "universidad diego portales"
+    ]
+  },
+  {
+    "name": "SETI Institute",
+    "match": [
+      "seti institute"
+    ]
+  },
+  {
+    "name": "University of Bern",
+    "match": [
+      "university of bern"
+    ]
+  },
+  {
+    "name": "Arizona State University",
+    "match": [
+      "arizona state university"
+    ]
+  },
+  {
+    "name": "Michigan State University",
+    "match": [
+      "michigan state university"
+    ]
+  },
+  {
+    "name": "Leibniz Institute for Astrophysics",
+    "match": [
+      "leibniz institute for astrophysics"
+    ]
+  },
+  {
+    "name": "DESY",
+    "match": [
+      "desy"
+    ]
+  },
+  {
+    "name": "Université de la Côte d’Azur",
+    "match": [
+      "université de la côte d’azur"
+    ]
+  },
+  {
+    "name": "Monash University",
+    "match": [
+      "monash university"
+    ]
+  },
+  {
+    "name": "University of Colorado Boulder",
+    "match": [
+      "university of colorado boulder",
+      "university of colorado, boulder",
+      "university of colorado-boulder"
+    ]
+  },
+  {
+    "name": "Lanzhou University",
+    "match": [
+      "lanzhou university"
+    ]
+  },
+  {
+    "name": "University of Michigan",
+    "match": [
+      "university of michigan",
+      "university of michigan at ann arbor"
+    ]
+  },
+  {
+    "name": "Ministry of Natural Resources",
+    "match": [
+      "ministry of natural resources"
+    ]
+  },
+  {
+    "name": "Kiel University",
+    "match": [
+      "kiel university"
+    ]
+  },
+  {
+    "name": "CONICET",
+    "match": [
+      "conicet"
+    ]
+  },
+  {
+    "name": "Universidad Nacional de Córdoba",
+    "match": [
+      "universidad nacional de córdoba"
+    ]
+  },
+  {
+    "name": "Universidad de Buenos Aires",
+    "match": [
+      "universidad de buenos aires"
+    ]
+  },
+  {
+    "name": "CNRS",
+    "match": [
+      "centre national de la recherche scientifique",
+      "cnrs"
+    ]
+  },
+  {
+    "name": "IRD",
+    "match": [
+      "ird"
+    ]
+  },
+  {
+    "name": "Consiglio Nazionale delle Ricerche",
+    "match": [
+      "consiglio nazionale delle ricerche"
+    ]
+  },
+  {
+    "name": "University of São Paulo",
+    "match": [
+      "university of são paulo"
+    ]
+  },
+  {
+    "name": "Woods Hole Oceanographic Institution",
+    "match": [
+      "woods hole oceanographic institution"
+    ]
+  },
+  {
+    "name": "The Open University",
+    "match": [
+      "the open university"
+    ]
+  },
+  {
+    "name": "Harvard University",
+    "match": [
+      "harvard university"
+    ]
+  },
+  {
+    "name": "New Mexico State University",
+    "match": [
+      "new mexico state university"
+    ]
+  },
+  {
+    "name": "Université de Reims Champagne-Ardenne",
+    "match": [
+      "université de reims champagne-ardenne"
+    ]
+  },
+  {
+    "name": "Université de Nantes",
+    "match": [
+      "université de nantes"
+    ]
+  },
+  {
+    "name": "Université de Toulouse",
+    "match": [
+      "université de toulouse"
+    ]
+  },
+  {
+    "name": "CNES",
+    "match": [
+      "cnes"
+    ]
+  },
+  {
+    "name": "Observatoire de Paris",
+    "match": [
+      "observatoire de paris"
+    ]
+  },
+  {
+    "name": "Sorbonne Université",
+    "match": [
+      "sorbonne université"
+    ]
+  },
+  {
+    "name": "Université Paris Cité",
+    "match": [
+      "université paris cité"
+    ]
+  },
+  {
+    "name": "CY Cergy Paris Université",
+    "match": [
+      "cy cergy paris université"
+    ]
+  },
+  {
+    "name": "Purdue University",
+    "match": [
+      "purdue university"
+    ]
+  },
+  {
+    "name": "Cornell University",
+    "match": [
+      "cornell university"
+    ]
+  },
+  {
+    "name": "Tokyo Gakugei University",
+    "match": [
+      "tokyo gakugei university"
+    ]
+  },
+  {
+    "name": "Northern Arizona University",
+    "match": [
+      "northern arizona university"
+    ]
+  },
+  {
+    "name": "University of Maryland",
+    "match": [
+      "university of maryland"
+    ]
+  },
+  {
+    "name": "University of Florida",
+    "match": [
+      "university of florida"
+    ]
+  },
+  {
+    "name": "Villanova University",
+    "match": [
+      "villanova university"
+    ]
+  },
+  {
+    "name": "Colorado State University",
+    "match": [
+      "colorado state university"
+    ]
+  },
+  {
+    "name": "China University of Geosciences",
+    "match": [
+      "china university of geosciences"
+    ]
+  },
+  {
+    "name": "Kyungpook National University",
+    "match": [
+      "kyungpook national university"
+    ]
+  },
+  {
+    "name": "University of Alabama in Huntsville",
+    "match": [
+      "university of alabama in huntsville"
+    ]
+  },
+  {
+    "name": "Fudan University",
+    "match": [
+      "fudan university"
+    ]
+  },
+  {
+    "name": "McGill University",
+    "match": [
+      "mcgill university"
+    ]
+  },
+  {
+    "name": "Howard University",
+    "match": [
+      "howard university"
+    ]
+  },
+  {
+    "name": "Scripps Research Institute",
+    "match": [
+      "scripps research institute"
+    ]
+  },
+  {
+    "name": "Tohoku University",
+    "match": [
+      "tohoku university"
+    ]
+  },
+  {
+    "name": "University of Canterbury",
+    "match": [
+      "university of canterbury"
+    ]
+  },
+  {
+    "name": "Drexel University",
+    "match": [
+      "drexel university"
+    ]
+  },
+  {
+    "name": "University of Kansas",
+    "match": [
+      "university of kansas"
+    ]
+  },
+  {
+    "name": "Ulsan National Institute of Science and Technology",
+    "match": [
+      "ulsan national institute of science and technology"
+    ]
+  },
+  {
+    "name": "University of Illinois Urbana-Champaign",
+    "match": [
+      "university of illinois at urbana-champaign",
+      "university of illinois urbana-champaign"
+    ]
+  },
+  {
+    "name": "University of Central Florida",
+    "match": [
+      "university of central florida"
+    ]
+  },
+  {
+    "name": "Fukui Prefectural University",
+    "match": [
+      "fukui prefectural university"
+    ]
+  },
+  {
+    "name": "Brown University",
+    "match": [
+      "brown university"
+    ]
+  },
+  {
+    "name": "Imperial College London",
+    "match": [
+      "imperial college london"
+    ]
+  },
+  {
+    "name": "California State University Dominguez Hills",
+    "match": [
+      "california state university dominguez hills"
+    ]
+  },
+  {
+    "name": "Seoul National University",
+    "match": [
+      "seoul national university"
+    ]
+  },
+  {
+    "name": "Binghamton University",
+    "match": [
+      "binghamton university"
+    ]
+  },
+  {
+    "name": "University of Delaware",
+    "match": [
+      "university of delaware"
+    ]
+  },
+  {
+    "name": "University of Oregon",
+    "match": [
+      "university of oregon"
+    ]
+  },
+  {
+    "name": "University of Southern California",
+    "match": [
+      "university of southern california"
+    ]
+  },
+  {
+    "name": "Freie Universität Berlin",
+    "match": [
+      "freie university berlin",
+      "freie universität berlin"
+    ]
+  },
+  {
+    "name": "Natural History Museum",
+    "match": [
+      "natural history museum"
+    ]
+  },
+  {
+    "name": "NOAA",
+    "match": [
+      "national oceanic and atmospheric administration",
+      "noaa"
+    ]
+  },
+  {
+    "name": "Academia Sinica",
+    "match": [
+      "academia sinica"
+    ]
+  },
+  {
+    "name": "Austrian Academy of Sciences",
+    "match": [
+      "austrian academy of sciences"
+    ]
+  },
+  {
+    "name": "Royal Swedish Academy of Sciences",
+    "match": [
+      "royal swedish academy of sciences"
+    ]
+  },
+  {
+    "name": "National Sun Yat-sen University",
+    "match": [
+      "national sun yat-sen university"
+    ]
+  },
+  {
+    "name": "Aix-Marseille Université",
+    "match": [
+      "aix-marseille university",
+      "aix-marseille université"
+    ]
+  },
+  {
+    "name": "Victoria University of Wellington",
+    "match": [
+      "victoria university of wellington"
+    ]
+  },
+  {
+    "name": "Tokyo University of Science",
+    "match": [
+      "tokyo university of science"
+    ]
+  },
+  {
+    "name": "Belgian Institute for Space Aeronomy",
+    "match": [
+      "belgian institute for space aeronomy"
+    ]
+  },
+  {
+    "name": "Blue Marble Space Institute of Science",
+    "match": [
+      "blue marble space institute of science"
+    ]
+  },
+  {
+    "name": "Stockholm University",
+    "match": [
+      "stockholm university"
+    ]
+  },
+  {
+    "name": "Universidade do Algarve",
+    "match": [
+      "universidade do algarve"
+    ]
+  },
+  {
+    "name": "Universidade de Aveiro",
+    "match": [
+      "universidade de aveiro"
+    ]
+  },
+  {
+    "name": "Cary Institute of Ecosystem Studies",
+    "match": [
+      "cary institute of ecosystem studies"
+    ]
+  },
+  {
+    "name": "University of Cambridge",
+    "match": [
+      "university of cambridge"
+    ]
+  },
+  {
+    "name": "Institute for Basic Science",
+    "match": [
+      "institute for basic science"
+    ]
+  },
+  {
+    "name": "Indian Institute of Technology Delhi",
+    "match": [
+      "indian institute of technology delhi"
+    ]
+  },
+  {
+    "name": "Delft University of Technology",
+    "match": [
+      "delft university of technology"
+    ]
+  },
+  {
+    "name": "Universidad Autónoma de Baja California Sur",
+    "match": [
+      "universidad autónoma de baja california sur"
+    ]
+  },
+  {
+    "name": "Universidad de Granada",
+    "match": [
+      "universidad de granada"
+    ]
+  },
+  {
+    "name": "Universidade Federal de Santa Catarina",
+    "match": [
+      "universidade federal de santa catarina"
+    ]
+  },
+  {
+    "name": "Universidade Federal do Rio de Janeiro",
+    "match": [
+      "universidade federal do rio de janeiro"
+    ]
+  },
+  {
+    "name": "Universidad de Concepción",
+    "match": [
+      "universidad de concepción"
+    ]
+  },
+  {
+    "name": "City University of Hong Kong",
+    "match": [
+      "city university of hong kong"
+    ]
+  },
+  {
+    "name": "Indian Institute of Technology Bombay",
+    "match": [
+      "iit bombay",
+      "indian institute of technology bombay"
+    ]
+  },
+  {
+    "name": "Florida Institute of Technology",
+    "match": [
+      "florida institute of technology"
+    ]
+  },
+  {
+    "name": "University College Cork",
+    "match": [
+      "university college cork"
+    ]
+  },
+  {
+    "name": "Kyoto University",
+    "match": [
+      "kyoto university"
+    ]
+  },
+  {
+    "name": "Nagoya University",
+    "match": [
+      "nagoya university"
+    ]
+  },
+  {
+    "name": "Osaka University",
+    "match": [
+      "osaka university"
+    ]
+  },
+  {
+    "name": "Korea Polar Research Institute",
+    "match": [
+      "korea polar research institute"
+    ]
+  },
+  {
+    "name": "Universidade dos Açores",
+    "match": [
+      "universidade dos açores"
+    ]
+  },
+  {
+    "name": "Finnish Meteorological Institute",
+    "match": [
+      "finnish meteorological institute"
+    ]
+  },
+  {
+    "name": "Fisheries and Oceans Canada",
+    "match": [
+      "fisheries and oceans canada"
+    ]
+  },
+  {
+    "name": "Homi Bhabha National Institute",
+    "match": [
+      "homi bhabha national institute"
+    ]
+  },
+  {
+    "name": "Hong Kong Observatory",
+    "match": [
+      "hong kong observatory"
+    ]
+  },
+  {
+    "name": "Hydrometeorological Research Institute",
+    "match": [
+      "hydrometeorological research institute"
+    ]
+  },
+  {
+    "name": "Portuguese Institute of Sea and Atmosphere",
+    "match": [
+      "portuguese institute of sea and atmosphere"
+    ]
+  },
+  {
+    "name": "Indian Institute of Science Education and Research Kolkata",
+    "match": [
+      "indian institute of science education and research kolkata"
+    ]
+  },
+  {
+    "name": "Université Paris-Saclay",
+    "match": [
+      "université paris-saclay"
+    ]
+  },
+  {
+    "name": "Hokkaido University",
+    "match": [
+      "hokkaido university"
+    ]
+  },
+  {
+    "name": "University of Georgia",
+    "match": [
+      "university of georgia"
+    ]
+  },
+  {
+    "name": "Hebrew University of Jerusalem",
+    "match": [
+      "hebrew university of jerusalem"
+    ]
+  },
+  {
+    "name": "University of Lausanne",
+    "match": [
+      "university of lausanne"
+    ]
+  },
+  {
+    "name": "Joint ALMA Observatory",
+    "match": [
+      "joint alma observatory"
+    ]
+  },
+  {
+    "name": "Kanagawa Institute of Technology",
+    "match": [
+      "kanagawa institute of technology"
+    ]
+  },
+  {
+    "name": "Kochi University",
+    "match": [
+      "kochi university"
+    ]
+  },
+  {
+    "name": "Russian Academy of Sciences",
+    "match": [
+      "russian academy of sciences"
+    ]
+  },
+  {
+    "name": "Massachusetts Institute of Technology",
+    "match": [
+      "massachusetts institute of technology"
+    ]
+  },
+  {
+    "name": "Max Planck Society",
+    "match": [
+      "max planck institute",
+      "max planck society",
+      "max-planck-institut"
+    ]
+  },
+  {
+    "name": "Michigan Technological University",
+    "match": [
+      "michigan technological university"
+    ]
+  },
+  {
+    "name": "Moscow Institute of Physics and Technology",
+    "match": [
+      "moscow institute of physics and technology"
+    ]
+  },
+  {
+    "name": "Météo-France",
+    "match": [
+      "météo-france"
+    ]
+  },
+  {
+    "name": "National Astronomical Observatory of Japan",
+    "match": [
+      "national astronomical observatory of japan"
+    ]
+  },
+  {
+    "name": "National Radio Astronomy Observatory",
+    "match": [
+      "national radio astronomy observatory"
+    ]
+  },
+  {
+    "name": "Natural Resources Institute Finland",
+    "match": [
+      "natural resources institute finland"
+    ]
+  },
+  {
+    "name": "University of Copenhagen",
+    "match": [
+      "university of copenhagen"
+    ]
+  },
+  {
+    "name": "Perimeter Institute for Theoretical Physics",
+    "match": [
+      "perimeter institute for theoretical physics"
+    ]
+  },
+  {
+    "name": "Pusan National University",
+    "match": [
+      "pusan national university"
+    ]
+  },
+  {
+    "name": "Queensland University of Technology",
+    "match": [
+      "queensland university of technology"
+    ]
+  },
+  {
+    "name": "Raman Research Institute",
+    "match": [
+      "raman research institute"
+    ]
+  },
+  {
+    "name": "Hokkaido Information University",
+    "match": [
+      "hokkaido information university"
+    ]
+  },
+  {
+    "name": "Université Libre de Bruxelles",
+    "match": [
+      "université libre de bruxelles"
+    ]
+  },
+  {
+    "name": "Universidad Nacional Autónoma de México",
+    "match": [
+      "universidad nacional autónoma de méxico"
+    ]
+  },
+  {
+    "name": "Universidad de Valparaíso",
+    "match": [
+      "universidad de valparaíso"
+    ]
+  },
+  {
+    "name": "University College London",
+    "match": [
+      "university college london"
+    ]
+  },
+  {
+    "name": "University of Arizona",
+    "match": [
+      "university of arizona"
+    ]
+  },
+  {
+    "name": "University of Basel",
+    "match": [
+      "university of basel"
+    ]
+  },
+  {
+    "name": "University of Eastern Finland",
+    "match": [
+      "university of eastern finland"
+    ]
+  },
+  {
+    "name": "University of Leicester",
+    "match": [
+      "university of leicester"
+    ]
+  },
+  {
+    "name": "University of Science and Technology",
+    "match": [
+      "university of science and technology"
+    ]
+  },
+  {
+    "name": "University at Albany",
+    "match": [
+      "university at albany"
+    ]
+  },
+  {
+    "name": "University of New South Wales",
+    "match": [
+      "university of new south wales"
+    ]
+  },
+  {
+    "name": "Norwegian Meteorological Institute",
+    "match": [
+      "norwegian meteorological institute"
+    ]
+  },
+  {
+    "name": "University of Bergen",
+    "match": [
+      "university of bergen"
+    ]
+  },
+  {
+    "name": "Ehime University",
+    "match": [
+      "ehime university"
+    ]
+  },
+  {
+    "name": "University of California, Los Angeles",
+    "match": [
+      "university of california, los angeles"
+    ]
+  },
+  {
+    "name": "University of California, Irvine",
+    "match": [
+      "university of california, irvine"
+    ]
+  },
+  {
+    "name": "University of California, Riverside",
+    "match": [
+      "university of california, riverside"
+    ]
+  },
+  {
+    "name": "University of California, Santa Barbara",
+    "match": [
+      "university of california, santa barbara"
+    ]
+  },
+  {
+    "name": "University of California",
+    "match": [
+      "university of california"
+    ]
+  },
+  {
+    "name": "Syracuse University",
+    "match": [
+      "syracuse university"
+    ]
+  },
+  {
+    "name": "Beihang University",
+    "match": [
+      "beihang university"
+    ]
+  },
+  {
+    "name": "Boston University",
+    "match": [
+      "boston university"
+    ]
+  },
+  {
+    "name": "California State Polytechnic University",
+    "match": [
+      "california state polytechnic university"
+    ]
+  },
+  {
+    "name": "Cardiff University",
+    "match": [
+      "cardiff university"
+    ]
+  },
+  {
+    "name": "China Three Gorges University",
+    "match": [
+      "china three gorges university"
+    ]
+  },
+  {
+    "name": "George Mason University",
+    "match": [
+      "george mason university"
+    ]
+  },
+  {
+    "name": "Kagoshima University",
+    "match": [
+      "kagoshima university"
+    ]
+  },
+  {
+    "name": "Konan University",
+    "match": [
+      "konan university"
+    ]
+  },
+  {
+    "name": "Luoyang Normal University",
+    "match": [
+      "luoyang normal university"
+    ]
+  },
+  {
+    "name": "New York University",
+    "match": [
+      "new york university"
+    ]
+  },
+  {
+    "name": "Northumbria University",
+    "match": [
+      "northumbria university"
+    ]
+  },
+  {
+    "name": "Sejong University",
+    "match": [
+      "sejong university"
+    ]
+  },
+  {
+    "name": "Shanghai Jiao Tong University",
+    "match": [
+      "shanghai jiao tong university"
+    ]
+  },
+  {
+    "name": "The Ohio State University",
+    "match": [
+      "the ohio state university"
+    ]
+  },
+  {
+    "name": "Tsinghua University",
+    "match": [
+      "tsinghua university"
+    ]
+  },
+  {
+    "name": "University of Birmingham",
+    "match": [
+      "university of birmingham"
+    ]
+  },
+  {
+    "name": "University of California Los Angeles",
+    "match": [
+      "university of california los angeles"
+    ]
+  },
+  {
+    "name": "University of California Santa Cruz",
+    "match": [
+      "university of california santa cruz"
+    ]
+  },
+  {
+    "name": "University of Colorado Boulder CO USA",
+    "match": [
+      "university of colorado boulder co usa"
+    ]
+  },
+  {
+    "name": "University of Edinburgh",
+    "match": [
+      "university of edinburgh"
+    ]
+  },
+  {
+    "name": "University of Leeds",
+    "match": [
+      "university of leeds"
+    ]
+  },
+  {
+    "name": "University of Pittsburgh",
+    "match": [
+      "university of pittsburgh"
+    ]
+  },
+  {
+    "name": "University of Portsmouth",
+    "match": [
+      "university of portsmouth"
+    ]
+  },
+  {
+    "name": "University of Southern Queensland",
+    "match": [
+      "university of southern queensland"
+    ]
+  },
+  {
+    "name": "University of Texas at El Paso",
+    "match": [
+      "university of texas at el paso"
+    ]
+  },
+  {
+    "name": "University of Victoria",
+    "match": [
+      "university of victoria"
+    ]
+  },
+  {
+    "name": "University of Warwick",
+    "match": [
+      "university of warwick"
+    ]
+  },
+  {
+    "name": "University of Waterloo",
+    "match": [
+      "university of waterloo"
+    ]
+  },
+  {
+    "name": "University of Western Ontario",
+    "match": [
+      "university of western ontario"
+    ]
+  },
+  {
+    "name": "University of Wisconsin-Madison",
+    "match": [
+      "university of wisconsin-madison"
+    ]
+  },
+  {
+    "name": "University of Zurich",
+    "match": [
+      "university of zurich"
+    ]
+  },
+  {
+    "name": "Xiamen University",
+    "match": [
+      "xiamen university"
+    ]
+  },
+  {
+    "name": "Yunnan Minzu University",
+    "match": [
+      "yunnan minzu university"
+    ]
+  },
+  {
+    "name": "Yuxi Normal University",
+    "match": [
+      "yuxi normal university"
+    ]
+  },
+  {
+    "name": "Zhejiang University",
+    "match": [
+      "zhejiang university"
+    ]
+  }
 ]

@@ -7,6 +7,8 @@ import unicodedata
 from pathlib import Path
 from enrich import apply_notes
 from update import classify
+from institution_utils import orcid_url,verified_hierarchy,parents,normalize
+from functools import lru_cache
 ROOT=Path(__file__).resolve().parent
 
 def norm(s):return re.sub(r'[^a-z0-9]','',unicodedata.normalize('NFKD',s).encode('ascii','ignore').decode().lower())
@@ -65,6 +67,19 @@ def build():
  for p in records:p.update(classify(p,config))
  arxiv['topics']=config['topics']
  papers=merge_records(records,notes)
+ names_path=ROOT/'author_names.json';names=json.loads(names_path.read_text()) if names_path.exists() else {}
+ overrides_path=ROOT/'author_name_overrides.json';overrides=json.loads(overrides_path.read_text()) if overrides_path.exists() else []
+ aliases,_,_=verified_hierarchy(ROOT)
+ @lru_cache(maxsize=None)
+ def parent_names(raw):return parents(raw,aliases)
+ for p in papers:
+  for a in p.get('author_affiliations',[]):
+   a['orcid']=orcid_url(a.get('orcid'))
+   confirmed=names.get(a['orcid'],{})
+   if confirmed.get('name_zh'):a.update(name_zh=confirmed['name_zh'],name_source=confirmed['source'])
+   for item in overrides:
+    if normalize(a['name']) in [normalize(n) for n in item['names']] and any(item['institution'] in parent_names(raw) for raw in a.get('institutions',[])):
+     a.update(name_zh=item['name_zh'],name_source=item['source'])
  sources={**arxiv['sources'],**{'journal:'+k:v for k,v in journal['sources'].items()}}
  d={**arxiv,'generated_at':dt.datetime.now(dt.timezone.utc).isoformat(),'papers':papers,'sources':sources,'journals':registry,'monthly_statistics':journal.get('monthly_statistics',{}),'record_count':len(arxiv['papers'])+len(journal['papers']),'merged_count':sum(len(p['variants'])-1 for p in papers)}
  (ROOT/'catalog.json').write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')

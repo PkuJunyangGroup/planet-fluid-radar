@@ -7,6 +7,7 @@ import time
 import urllib.request
 from html.parser import HTMLParser
 from pathlib import Path
+from institution_utils import orcid_url
 
 ROOT = Path(__file__).resolve().parent
 VOID = {'area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr'}
@@ -41,7 +42,14 @@ def affiliations(html):
         name=clean(names[0].text())
         # Explicit local author block only; never infer mappings from global ordering.
         orgs=list(dict.fromkeys(org(a) for a in n.find('ltx_role_affiliation') if org(a)))
-        if name:authors.append({'name':name,'institutions':orgs})
+        if name:
+            def links(node):
+                found=[orcid_url(node.attrs.get('href'))]
+                for child in node.children:
+                    if isinstance(child,Node):found.extend(links(child))
+                return [x for x in found if x]
+            ids=set(links(n))
+            authors.append({'name':name,'institutions':orgs,'orcid':next(iter(ids)) if len(ids)==1 else None})
     return all_orgs,authors
 
 def digest(p):return hashlib.sha256((p['title']+'\n'+p['abstract']).encode()).hexdigest()
@@ -87,6 +95,10 @@ def enrich(fetch=True, max_fetch=60):
         else:
             p.update(institutions=[],author_affiliations=[],affiliation_status='pending')
         apply_notes(p,notes)
+    if fetch:
+        from author_names import update_names
+        journals=json.loads((ROOT/'journal_records.json').read_text()) if (ROOT/'journal_records.json').exists() else {'papers':[]}
+        update_names(data['papers']+journals['papers'],max_fetch)
     (ROOT/'papers.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
 
 if __name__=='__main__':

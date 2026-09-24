@@ -1,0 +1,4999 @@
+{
+  "https://ror.org/0424h4e32": {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2024-12-11",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1928,
+    "external_ids": [
+      {
+        "all": [
+          "501100011177"
+        ],
+        "preferred": "501100011177",
+        "type": "fundref"
+      },
+      {
+        "all": [
+          "grid.424023.3"
+        ],
+        "preferred": "grid.424023.3",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0004 0644 4737"
+        ],
+        "preferred": null,
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q10874026"
+        ],
+        "preferred": null,
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/0424h4e32",
+    "links": [
+      {
+        "type": "website",
+        "value": "http://english.iap.cas.cn/au"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "AS",
+          "continent_name": "Asia",
+          "country_code": "CN",
+          "country_name": "China",
+          "country_subdivision_code": "BJ",
+          "country_subdivision_name": "Beijing",
+          "lat": 39.9075,
+          "lng": 116.39723,
+          "name": "Beijing"
+        },
+        "geonames_id": 1816670
+      }
+    ],
+    "names": [
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "IAP"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "Institute of Atmospheric Physics"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Institute of Meteorology of Academia Sinica"
+      },
+      {
+        "lang": "zh",
+        "types": [
+          "label"
+        ],
+        "value": "中国科学院大气物理研究所"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "State Key Laboratory of Numerical Modeling for Atmospheric Sciences and Geophysical Fluid Dynamics",
+        "type": "child",
+        "id": "https://ror.org/053w5yj73"
+      },
+      {
+        "label": "State Key Laboratory of Atmospheric Boundary Layer Physics and Atmospheric Chemistry",
+        "type": "child",
+        "id": "https://ror.org/04maje407"
+      },
+      {
+        "label": "Chinese Academy of Sciences",
+        "type": "parent",
+        "id": "https://ror.org/034t30j35"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility",
+      "funder"
+    ]
+  },
+  "https://ror.org/029nkcm90": {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-09-22",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "obspm.fr"
+    ],
+    "established": 1667,
+    "external_ids": [
+      {
+        "all": [
+          "grid.4307.0"
+        ],
+        "preferred": "grid.4307.0",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0004 0475 642X"
+        ],
+        "preferred": null,
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q461340"
+        ],
+        "preferred": null,
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/029nkcm90",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://observatoiredeparis.psl.eu/"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://en.wikipedia.org/wiki/Paris_Observatory"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "FR",
+          "country_name": "France",
+          "country_subdivision_code": "IDF",
+          "country_subdivision_name": "Île-de-France",
+          "lat": 48.85341,
+          "lng": 2.3488,
+          "name": "Paris"
+        },
+        "geonames_id": 2988507
+      }
+    ],
+    "names": [
+      {
+        "lang": "fr",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "Observatoire de Paris"
+      },
+      {
+        "lang": "fr",
+        "types": [
+          "alias"
+        ],
+        "value": "Observatoire de Paris-Meudon"
+      },
+      {
+        "lang": "fr",
+        "types": [
+          "alias"
+        ],
+        "value": "Observatoire de Paris-PSL"
+      },
+      {
+        "lang": "ca",
+        "types": [
+          "label"
+        ],
+        "value": "Observatori de París"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "Paris Observatory"
+      },
+      {
+        "lang": "eu",
+        "types": [
+          "label"
+        ],
+        "value": "Parisko Behatokia"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Laboratoire AstroParticule et Cosmologie",
+        "type": "child",
+        "id": "https://ror.org/03tnjrr49"
+      },
+      {
+        "label": "Galaxies, Etoiles, Physique et Instrumentation",
+        "type": "child",
+        "id": "https://ror.org/01920cw75"
+      },
+      {
+        "label": "Laboratoire de Physique des Plasmas",
+        "type": "child",
+        "id": "https://ror.org/05c95bg36"
+      },
+      {
+        "label": "Laboratoire Univers et Théories",
+        "type": "child",
+        "id": "https://ror.org/00bbtde36"
+      },
+      {
+        "label": "Formation, Innovation, Recherche, Services et Transfert en Temps-Fréquence",
+        "type": "child",
+        "id": "https://ror.org/0557mft23"
+      },
+      {
+        "label": "Observatoire Radioastronomique de Nançay",
+        "type": "child",
+        "id": "https://ror.org/01vqrde47"
+      },
+      {
+        "label": "Laboratoire Temps Espace",
+        "type": "child",
+        "id": "https://ror.org/03hgsyv65"
+      },
+      {
+        "label": "LIRA - Laboratoire d'instrumentation et de recherche en astrophysique",
+        "type": "child",
+        "id": "https://ror.org/017zz7s54"
+      },
+      {
+        "label": "Laboratoire d'Étude de l'Univers et des Phénomènes Extrêmes",
+        "type": "child",
+        "id": "https://ror.org/00cpdar66"
+      },
+      {
+        "label": "Laboratoire de Physique de l'Ecole Normale Supérieure",
+        "type": "child",
+        "id": "https://ror.org/03a26mh11"
+      },
+      {
+        "label": "Université Paris Sciences et Lettres",
+        "type": "parent",
+        "id": "https://ror.org/013cjyk83"
+      },
+      {
+        "label": "Centre National de la Recherche Scientifique",
+        "type": "parent",
+        "id": "https://ror.org/02feahw73"
+      },
+      {
+        "label": "Fédération de recherche PLAS@PAR",
+        "type": "related",
+        "id": "https://ror.org/02rmk5x23"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
+  },
+  "https://ror.org/014p8mr66": {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-07-20",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1992,
+    "external_ids": [
+      {
+        "all": [
+          "grid.482888.6"
+        ],
+        "preferred": "grid.482888.6",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0004 0614 9404"
+        ],
+        "preferred": null,
+        "type": "isni"
+      }
+    ],
+    "id": "https://ror.org/014p8mr66",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.ias.u-psud.fr"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "FR",
+          "country_name": "France",
+          "country_subdivision_code": "IDF",
+          "country_subdivision_name": "Île-de-France",
+          "lat": 48.69981,
+          "lng": 2.17064,
+          "name": "Bures-sur-Yvette"
+        },
+        "geonames_id": 3029522
+      }
+    ],
+    "names": [
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "IAS"
+      },
+      {
+        "lang": "fr",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "Institut d'Astrophysique Spatiale"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Institute for Space Astrophysics"
+      },
+      {
+        "lang": null,
+        "types": [
+          "alias"
+        ],
+        "value": "UMR 8617"
+      },
+      {
+        "lang": "fr",
+        "types": [
+          "acronym"
+        ],
+        "value": "UMR IAS"
+      },
+      {
+        "lang": "fr",
+        "types": [
+          "alias"
+        ],
+        "value": "UMR Institut d'Astrophysique Spatiale"
+      },
+      {
+        "lang": null,
+        "types": [
+          "alias"
+        ],
+        "value": "UMR8617"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Université Paris-Saclay",
+        "type": "parent",
+        "id": "https://ror.org/03xjwb503"
+      },
+      {
+        "label": "Centre National de la Recherche Scientifique",
+        "type": "parent",
+        "id": "https://ror.org/02feahw73"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
+  },
+  "https://ror.org/01cyfxe35": {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-08-25",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1961,
+    "external_ids": [
+      {
+        "all": [
+          "100016595"
+        ],
+        "preferred": "100016595",
+        "type": "fundref"
+      },
+      {
+        "all": [
+          "grid.419078.3"
+        ],
+        "preferred": "grid.419078.3",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0001 2284 9855"
+        ],
+        "preferred": null,
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q422272"
+        ],
+        "preferred": null,
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/01cyfxe35",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.giss.nasa.gov"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://en.wikipedia.org/wiki/Goddard_Institute_for_Space_Studies"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "NA",
+          "continent_name": "North America",
+          "country_code": "US",
+          "country_name": "United States",
+          "country_subdivision_code": "NY",
+          "country_subdivision_name": "New York",
+          "lat": 40.71427,
+          "lng": -74.00597,
+          "name": "New York"
+        },
+        "geonames_id": 5128581
+      }
+    ],
+    "names": [
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "GISS"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "Goddard Institute for Space Studies"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "National Aeronautics and Space Administration",
+        "type": "parent",
+        "id": "https://ror.org/027ka1x80"
+      },
+      {
+        "label": "Columbia University",
+        "type": "parent",
+        "id": "https://ror.org/00hj8s172"
+      },
+      {
+        "label": "Goddard Space Flight Center",
+        "type": "related",
+        "id": "https://ror.org/0171mag52"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility",
+      "funder"
+    ]
+  },
+  "https://ror.org/02603xz34": {
+    "admin": {
+      "created": {
+        "date": "2026-01-15",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-01-15",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 2007,
+    "external_ids": [
+      {
+        "all": [
+          "Q5133416"
+        ],
+        "preferred": "Q5133416",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/02603xz34",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.unsw.edu.au/research/ccrc"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://en.wikipedia.org/wiki/Climate_Change_Research_Centre"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "OC",
+          "continent_name": "Oceania",
+          "country_code": "AU",
+          "country_name": "Australia",
+          "country_subdivision_code": "NSW",
+          "country_subdivision_name": "New South Wales",
+          "lat": -33.86785,
+          "lng": 151.20732,
+          "name": "Sydney"
+        },
+        "geonames_id": 2147714
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "acronym"
+        ],
+        "value": "CCRC"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Climate Change Research Centre"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "UNSW Climate Change Research Centre"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "UNSW Sydney",
+        "type": "parent",
+        "id": "https://ror.org/03r8z3t63"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
+  },
+  "https://ror.org/03gz4y884": {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-01-15",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 2000,
+    "external_ids": [
+      {
+        "all": [
+          "grid.463921.b"
+        ],
+        "preferred": "grid.463921.b",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0001 0481 064X"
+        ],
+        "preferred": null,
+        "type": "isni"
+      }
+    ],
+    "id": "https://ror.org/03gz4y884",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://lamp.uca.fr"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "FR",
+          "country_name": "France",
+          "country_subdivision_code": "ARA",
+          "country_subdivision_name": "Auvergne-Rhône-Alpes",
+          "lat": 45.75082,
+          "lng": 3.11078,
+          "name": "Aubière"
+        },
+        "geonames_id": 3036364
+      }
+    ],
+    "names": [
+      {
+        "lang": "fr",
+        "types": [
+          "acronym"
+        ],
+        "value": "LAMP"
+      },
+      {
+        "lang": "fr",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "Laboratoire de Météorologie Physique"
+      },
+      {
+        "lang": null,
+        "types": [
+          "alias"
+        ],
+        "value": "UMR 6016"
+      },
+      {
+        "lang": "fr",
+        "types": [
+          "acronym"
+        ],
+        "value": "UMR LAMP"
+      },
+      {
+        "lang": null,
+        "types": [
+          "alias"
+        ],
+        "value": "UMR6016"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Institut National des Sciences de l'Univers",
+        "type": "parent",
+        "id": "https://ror.org/04kdfz702"
+      },
+      {
+        "label": "Université Clermont Auvergne",
+        "type": "parent",
+        "id": "https://ror.org/01a8ajp46"
+      },
+      {
+        "label": "Observatoire de Physique du Globe de Clermont-Ferrand",
+        "type": "parent",
+        "id": "https://ror.org/01bch8q67"
+      },
+      {
+        "label": "Centre National de la Recherche Scientifique",
+        "type": "parent",
+        "id": "https://ror.org/02feahw73"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
+  },
+  "https://ror.org/01jz1e142": {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-09-22",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "lzb.ac.cn"
+    ],
+    "established": 2016,
+    "external_ids": [
+      {
+        "all": [
+          "501100002902"
+        ],
+        "preferred": null,
+        "type": "fundref"
+      },
+      {
+        "all": [
+          "grid.496923.3"
+        ],
+        "preferred": "grid.496923.3",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0000 9805 287X",
+          "0000 0004 1799 3141",
+          "0000 0004 1769 9989",
+          "0000 0004 1798 0543",
+          "0000 0004 1800 3218"
+        ],
+        "preferred": "0000 0000 9805 287X",
+        "type": "isni"
+      }
+    ],
+    "id": "https://ror.org/01jz1e142",
+    "links": [
+      {
+        "type": "website",
+        "value": "http://english.nieer.cas.cn/"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "AS",
+          "continent_name": "Asia",
+          "country_code": "CN",
+          "country_name": "China",
+          "country_subdivision_code": "GS",
+          "country_subdivision_name": "Gansu",
+          "lat": 36.05701,
+          "lng": 103.83987,
+          "name": "Lanzhou"
+        },
+        "geonames_id": 1804430
+      }
+    ],
+    "names": [
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "NIEER"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "Northwest Institute of Eco-Environment and Resources"
+      },
+      {
+        "lang": "zh",
+        "types": [
+          "label"
+        ],
+        "value": "中国科学院西北生态环境资源研究院"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Chinese Academy of Sciences",
+        "type": "parent",
+        "id": "https://ror.org/034t30j35"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility",
+      "funder"
+    ]
+  },
+  "https://ror.org/0171mag52": {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-07-20",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1959,
+    "external_ids": [
+      {
+        "all": [
+          "100006198",
+          "100007726",
+          "100016908"
+        ],
+        "preferred": "100006198",
+        "type": "fundref"
+      },
+      {
+        "all": [
+          "grid.133275.1"
+        ],
+        "preferred": "grid.133275.1",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0004 0637 6666"
+        ],
+        "preferred": null,
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q52152"
+        ],
+        "preferred": null,
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/0171mag52",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.nasa.gov/centers/goddard/home/index.html"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://en.wikipedia.org/wiki/Goddard_Space_Flight_Center"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "NA",
+          "continent_name": "North America",
+          "country_code": "US",
+          "country_name": "United States",
+          "country_subdivision_code": "MD",
+          "country_subdivision_name": "Maryland",
+          "lat": 39.00455,
+          "lng": -76.87553,
+          "name": "Greenbelt"
+        },
+        "geonames_id": 4356847
+      }
+    ],
+    "names": [
+      {
+        "lang": "es",
+        "types": [
+          "label"
+        ],
+        "value": "Centro de Vuelo Espacial Goddard"
+      },
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "GSFC"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "Goddard Space Flight Center"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Space Physics Data Facility",
+        "type": "child",
+        "id": "https://ror.org/00ryjtt64"
+      },
+      {
+        "label": "Community Coordinated Modeling Center",
+        "type": "child",
+        "id": "https://ror.org/01dy3j343"
+      },
+      {
+        "label": "Katherine Johnson Independent Verification and Validation Facility",
+        "type": "child",
+        "id": "https://ror.org/04xr3m042"
+      },
+      {
+        "label": "Solar Data Analysis Center",
+        "type": "child",
+        "id": "https://ror.org/04rvfc379"
+      },
+      {
+        "label": "Heliophysics Science Division",
+        "type": "child",
+        "id": "https://ror.org/03myraf72"
+      },
+      {
+        "label": "High Energy Astrophysics Science Archive Research Center",
+        "type": "child",
+        "id": "https://ror.org/05g4cxq12"
+      },
+      {
+        "label": "National Aeronautics and Space Administration",
+        "type": "parent",
+        "id": "https://ror.org/027ka1x80"
+      },
+      {
+        "label": "Wallops Flight Facility",
+        "type": "related",
+        "id": "https://ror.org/00r57r863"
+      },
+      {
+        "label": "Python in Heliophysics Community",
+        "type": "related",
+        "id": "https://ror.org/012prn105"
+      },
+      {
+        "label": "Earth System Science Interdisciplinary Center",
+        "type": "related",
+        "id": "https://ror.org/042607708"
+      },
+      {
+        "label": "Goddard Institute for Space Studies",
+        "type": "related",
+        "id": "https://ror.org/01cyfxe35"
+      },
+      {
+        "label": "NASA Ocean Biology Processing Group",
+        "type": "related",
+        "id": "https://ror.org/037ch5s45"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility",
+      "funder"
+    ]
+  },
+  "https://ror.org/058pyyv44": {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-09-22",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 2001,
+    "external_ids": [
+      {
+        "all": [
+          "grid.450302.0"
+        ],
+        "preferred": "grid.450302.0",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0004 1792 7179"
+        ],
+        "preferred": null,
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q844345"
+        ],
+        "preferred": null,
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/058pyyv44",
+    "links": [
+      {
+        "type": "website",
+        "value": "http://english.nao.cas.cn/"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://en.wikipedia.org/wiki/National_Astronomical_Observatory_of_China"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "AS",
+          "continent_name": "Asia",
+          "country_code": "CN",
+          "country_name": "China",
+          "country_subdivision_code": "BJ",
+          "country_subdivision_name": "Beijing",
+          "lat": 39.9075,
+          "lng": 116.39723,
+          "name": "Beijing"
+        },
+        "geonames_id": 1816670
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Beijing Astronomical Observatory"
+      },
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "NAOC"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "National Astronomical Observatories"
+      },
+      {
+        "lang": "zh",
+        "types": [
+          "label"
+        ],
+        "value": "中国科学院国家天文台"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Changchun Observatory",
+        "type": "child",
+        "id": "https://ror.org/01ycn3984"
+      },
+      {
+        "label": "Nanjing Institute of Astronomical Optics & Technology",
+        "type": "child",
+        "id": "https://ror.org/04sxr1261"
+      },
+      {
+        "label": "Xinjiang Astronomical Observatory",
+        "type": "child",
+        "id": "https://ror.org/01pjxkf30"
+      },
+      {
+        "label": "Yunnan Observatories",
+        "type": "child",
+        "id": "https://ror.org/02f42pw58"
+      },
+      {
+        "label": "Chinese Academy of Sciences",
+        "type": "parent",
+        "id": "https://ror.org/034t30j35"
+      },
+      {
+        "label": "East Asian Core Observatories Association",
+        "type": "related",
+        "id": "https://ror.org/03g75b474"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
+  },
+  "https://ror.org/05bzz1e33": {
+    "admin": {
+      "created": {
+        "date": "2025-04-02",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2025-04-03",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 2001,
+    "external_ids": [],
+    "id": "https://ror.org/05bzz1e33",
+    "links": [
+      {
+        "type": "website",
+        "value": "http://www.iac.ethz.ch"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "CH",
+          "country_name": "Switzerland",
+          "country_subdivision_code": "ZH",
+          "country_subdivision_name": "Zurich",
+          "lat": 47.36667,
+          "lng": 8.55,
+          "name": "Zurich"
+        },
+        "geonames_id": 2657896
+      }
+    ],
+    "names": [
+      {
+        "lang": "de",
+        "types": [
+          "acronym"
+        ],
+        "value": "IAC"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Inst. Atmospheric and Climate Science"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label"
+        ],
+        "value": "Institut für Atmosphäre und Klima"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Institute for Atmospheric and Climate Science"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "ETH Zurich",
+        "type": "parent",
+        "id": "https://ror.org/05a28rw58"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
+  },
+  "https://ror.org/05abgg682": {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2025-10-28",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1997,
+    "external_ids": [
+      {
+        "all": [
+          "grid.462475.6"
+        ],
+        "preferred": "grid.462475.6",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0004 0644 8455"
+        ],
+        "preferred": null,
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q16964697"
+        ],
+        "preferred": "Q16964697",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/05abgg682",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://impmc.sorbonne-universite.fr"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "FR",
+          "country_name": "France",
+          "country_subdivision_code": "IDF",
+          "country_subdivision_name": "Île-de-France",
+          "lat": 48.85341,
+          "lng": 2.3488,
+          "name": "Paris"
+        },
+        "geonames_id": 2988507
+      }
+    ],
+    "names": [
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "IMPMC"
+      },
+      {
+        "lang": "fr",
+        "types": [
+          "alias"
+        ],
+        "value": "Institut de Minéralogie et de Physique des Milieux Condensés"
+      },
+      {
+        "lang": "fr",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Institut de minéralogie, de physique des matériaux et de cosmochimie"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Institute of Mineralogy, Materials Physics and Cosmochemistry"
+      },
+      {
+        "lang": null,
+        "types": [
+          "alias"
+        ],
+        "value": "UMR 7590"
+      },
+      {
+        "lang": null,
+        "types": [
+          "alias"
+        ],
+        "value": "UMR7590"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Institut de Physique",
+        "type": "parent",
+        "id": "https://ror.org/00z54nq84"
+      },
+      {
+        "label": "Institut de Recherche pour le Développement",
+        "type": "parent",
+        "id": "https://ror.org/05q3vnk25"
+      },
+      {
+        "label": "Muséum national d'Histoire naturelle",
+        "type": "parent",
+        "id": "https://ror.org/03wkt5x30"
+      },
+      {
+        "label": "Sorbonne Université",
+        "type": "parent",
+        "id": "https://ror.org/02en5vm52"
+      },
+      {
+        "label": "Centre National de la Recherche Scientifique",
+        "type": "parent",
+        "id": "https://ror.org/02feahw73"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
+  },
+  "https://ror.org/04v7hvq31": {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-07-20",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1903,
+    "external_ids": [
+      {
+        "all": [
+          "100023638"
+        ],
+        "preferred": "100023638",
+        "type": "fundref"
+      },
+      {
+        "all": [
+          "grid.217200.6"
+        ],
+        "preferred": "grid.217200.6",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0004 0627 2787"
+        ],
+        "preferred": null,
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q604029"
+        ],
+        "preferred": null,
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/04v7hvq31",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://scripps.ucsd.edu/"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://en.wikipedia.org/wiki/Scripps_Institution_of_Oceanography"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "NA",
+          "continent_name": "North America",
+          "country_code": "US",
+          "country_name": "United States",
+          "country_subdivision_code": "CA",
+          "country_subdivision_name": "California",
+          "lat": 32.84727,
+          "lng": -117.2742,
+          "name": "La Jolla"
+        },
+        "geonames_id": 5363943
+      }
+    ],
+    "names": [
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "SIO"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Scripps"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "Scripps Institution of Oceanography"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Scripps Oceanography"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "California Current Ecosystem Long Term Ecological Research",
+        "type": "child",
+        "id": "https://ror.org/010dcp921"
+      },
+      {
+        "label": "California Cooperative Oceanic Fisheries Investigations",
+        "type": "child",
+        "id": "https://ror.org/04c3j6v84"
+      },
+      {
+        "label": "University of California San Diego",
+        "type": "parent",
+        "id": "https://ror.org/0168r3w48"
+      },
+      {
+        "label": "Moorea Coral Reef Long Term Ecological Research",
+        "type": "related",
+        "id": "https://ror.org/017vyhs10"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility",
+      "funder"
+    ]
+  },
+  "https://ror.org/02h41sr05": {
+    "admin": {
+      "created": {
+        "date": "2023-09-21",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2024-12-11",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 2020,
+    "external_ids": [],
+    "id": "https://ror.org/02h41sr05",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://epl.carnegiescience.edu"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "NA",
+          "continent_name": "North America",
+          "country_code": "US",
+          "country_name": "United States",
+          "country_subdivision_code": "DC",
+          "country_subdivision_name": "District of Columbia",
+          "lat": 38.89511,
+          "lng": -77.03637,
+          "name": "Washington"
+        },
+        "geonames_id": 4140963
+      }
+    ],
+    "names": [
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "EPL"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Earth & Planets Laboratory"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "Earth and Planets Laboratory"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Carnegie Institution for Science",
+        "type": "parent",
+        "id": "https://ror.org/04jr01610"
+      },
+      {
+        "label": "Geophysical Laboratory",
+        "type": "predecessor",
+        "id": "https://ror.org/05qyye271"
+      },
+      {
+        "label": "Department of Terrestrial Magnetism",
+        "type": "predecessor",
+        "id": "https://ror.org/04hawj979"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
+  },
+  "https://ror.org/03zeev498": {
+    "admin": {
+      "created": {
+        "date": "2025-03-26",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2025-03-26",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "atmosfera.unam.mx"
+    ],
+    "established": null,
+    "external_ids": [],
+    "id": "https://ror.org/03zeev498",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.atmosfera.unam.mx"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "NA",
+          "continent_name": "North America",
+          "country_code": "MX",
+          "country_name": "Mexico",
+          "country_subdivision_code": "CMX",
+          "country_subdivision_name": "Mexico City",
+          "lat": 19.42847,
+          "lng": -99.12766,
+          "name": "Mexico City"
+        },
+        "geonames_id": 3530597
+      }
+    ],
+    "names": [
+      {
+        "lang": "es",
+        "types": [
+          "acronym"
+        ],
+        "value": "ICAyCC"
+      },
+      {
+        "lang": "es",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Instituto de Ciencias de la Atmósfera y Cambio Climático"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Universidad Nacional Autónoma de México",
+        "type": "parent",
+        "id": "https://ror.org/01tmp8f25"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
+  },
+  "https://ror.org/02acart68": {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2024-12-11",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1939,
+    "external_ids": [
+      {
+        "all": [
+          "100006195"
+        ],
+        "preferred": null,
+        "type": "fundref"
+      },
+      {
+        "all": [
+          "grid.419075.e"
+        ],
+        "preferred": "grid.419075.e",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0001 1955 7990"
+        ],
+        "preferred": null,
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q181052"
+        ],
+        "preferred": null,
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/02acart68",
+    "links": [
+      {
+        "type": "website",
+        "value": "http://www.nasa.gov/centers/ames/home/index.html"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://en.wikipedia.org/wiki/Ames_Research_Center"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "NA",
+          "continent_name": "North America",
+          "country_code": "US",
+          "country_name": "United States",
+          "country_subdivision_code": "CA",
+          "country_subdivision_name": "California",
+          "lat": 37.38605,
+          "lng": -122.08385,
+          "name": "Mountain View"
+        },
+        "geonames_id": 5375480
+      }
+    ],
+    "names": [
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "ARC"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "Ames Research Center"
+      },
+      {
+        "lang": "es",
+        "types": [
+          "label"
+        ],
+        "value": "Centro de Investigación Ames"
+      },
+      {
+        "lang": null,
+        "types": [
+          "alias"
+        ],
+        "value": "NASA Ames"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "NASA Research Park",
+        "type": "child",
+        "id": "https://ror.org/04hccab49"
+      },
+      {
+        "label": "Radiation Biophysics Laboratory",
+        "type": "child",
+        "id": "https://ror.org/0540g1c48"
+      },
+      {
+        "label": "National Aeronautics and Space Administration",
+        "type": "parent",
+        "id": "https://ror.org/027ka1x80"
+      },
+      {
+        "label": "Ames Aeronautical Laboratory",
+        "type": "predecessor",
+        "id": "https://ror.org/02yhmtm27"
+      },
+      {
+        "label": "Research Institute for Advanced Computer Science",
+        "type": "related",
+        "id": "https://ror.org/022qmyy53"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility",
+      "funder"
+    ]
+  },
+  "https://ror.org/029pp9z10": {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-09-22",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "jhuapl.edu"
+    ],
+    "established": 1942,
+    "external_ids": [
+      {
+        "all": [
+          "100012314"
+        ],
+        "preferred": "100012314",
+        "type": "fundref"
+      },
+      {
+        "all": [
+          "grid.474430.0"
+        ],
+        "preferred": "grid.474430.0",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0004 0630 1170"
+        ],
+        "preferred": null,
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q249373"
+        ],
+        "preferred": null,
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/029pp9z10",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.jhuapl.edu/"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://en.wikipedia.org/wiki/Applied_Physics_Laboratory"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "NA",
+          "continent_name": "North America",
+          "country_code": "US",
+          "country_name": "United States",
+          "country_subdivision_code": "MD",
+          "country_subdivision_name": "Maryland",
+          "lat": 39.139,
+          "lng": -76.87053,
+          "name": "North Laurel"
+        },
+        "geonames_id": 4363964
+      }
+    ],
+    "names": [
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "APL"
+      },
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "JHU"
+      },
+      {
+        "lang": null,
+        "types": [
+          "alias"
+        ],
+        "value": "JHU/APL"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "Johns Hopkins University Applied Physics Laboratory"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Johns Hopkins University",
+        "type": "parent",
+        "id": "https://ror.org/00za53h95"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility",
+      "funder"
+    ]
+  },
+  "https://ror.org/01a8ev928": {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2024-12-11",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1998,
+    "external_ids": [
+      {
+        "all": [
+          "501100009958"
+        ],
+        "preferred": "501100009958",
+        "type": "fundref"
+      },
+      {
+        "all": [
+          "grid.458469.2"
+        ],
+        "preferred": "grid.458469.2",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0001 0038 6319"
+        ],
+        "preferred": null,
+        "type": "isni"
+      }
+    ],
+    "id": "https://ror.org/01a8ev928",
+    "links": [
+      {
+        "type": "website",
+        "value": "http://english.egi.cas.cn/"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "AS",
+          "continent_name": "Asia",
+          "country_code": "CN",
+          "country_name": "China",
+          "country_subdivision_code": "XJ",
+          "country_subdivision_name": "Xinjiang",
+          "lat": 43.80096,
+          "lng": 87.60046,
+          "name": "Ürümqi"
+        },
+        "geonames_id": 1529102
+      }
+    ],
+    "names": [
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "XIEG"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "Xinjiang Institute of Ecology and Geography"
+      },
+      {
+        "lang": "zh",
+        "types": [
+          "label"
+        ],
+        "value": "中国科学院新疆生态与地理研究所"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Research Center for Ecology and Environment of Central Asia",
+        "type": "child",
+        "id": "https://ror.org/00q2dta10"
+      },
+      {
+        "label": "State Key Laboratory of Desert and Oasis Ecology",
+        "type": "child",
+        "id": "https://ror.org/058nm8p51"
+      },
+      {
+        "label": "Chinese Academy of Sciences",
+        "type": "parent",
+        "id": "https://ror.org/034t30j35"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility",
+      "funder"
+    ]
+  },
+  "https://ror.org/0145rpw38": {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-06-23",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 2007,
+    "external_ids": [
+      {
+        "all": [
+          "501100024029"
+        ],
+        "preferred": "501100024029",
+        "type": "fundref"
+      },
+      {
+        "all": [
+          "grid.483636.c"
+        ],
+        "preferred": "grid.483636.c",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0004 4672 2690"
+        ],
+        "preferred": null,
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q29864663"
+        ],
+        "preferred": null,
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/0145rpw38",
+    "links": [
+      {
+        "type": "website",
+        "value": "http://www.stockholmresilience.org"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://en.wikipedia.org/wiki/Stockholm_Resilience_Centre"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "SE",
+          "country_name": "Sweden",
+          "country_subdivision_code": "AB",
+          "country_subdivision_name": "Stockholm",
+          "lat": 59.32938,
+          "lng": 18.06871,
+          "name": "Stockholm"
+        },
+        "geonames_id": 2673730
+      }
+    ],
+    "names": [
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "SRC"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "Stockholm Resilience Centre"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Stockholm University",
+        "type": "parent",
+        "id": "https://ror.org/05f0yaq80"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "education"
+    ]
+  },
+  "https://ror.org/02e2tgs60": {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2025-08-26",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1949,
+    "external_ids": [
+      {
+        "all": [
+          "grid.473157.3"
+        ],
+        "preferred": "grid.473157.3",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0000 9175 9928"
+        ],
+        "preferred": null,
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q34051"
+        ],
+        "preferred": null,
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/02e2tgs60",
+    "links": [
+      {
+        "type": "website",
+        "value": "http://www.ldeo.columbia.edu/"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://en.wikipedia.org/wiki/Lamont%E2%80%93Doherty_Earth_Observatory"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "NA",
+          "continent_name": "North America",
+          "country_code": "US",
+          "country_name": "United States",
+          "country_subdivision_code": "NY",
+          "country_subdivision_name": "New York",
+          "lat": 41.03121,
+          "lng": -73.92708,
+          "name": "Sparkill"
+        },
+        "geonames_id": 5139097
+      }
+    ],
+    "names": [
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "LDEO"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "Lamont-Doherty Earth Observatory"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Global Centroid-Moment-Tensor (CMT) Project",
+        "type": "child",
+        "id": "https://ror.org/04knth696"
+      },
+      {
+        "label": "Columbia University",
+        "type": "parent",
+        "id": "https://ror.org/00hj8s172"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
+  },
+  "https://ror.org/03haqsp75": {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2024-12-11",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1995,
+    "external_ids": [
+      {
+        "all": [
+          "grid.482254.d"
+        ],
+        "preferred": "grid.482254.d",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0004 0633 7624"
+        ],
+        "preferred": null,
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q17370620"
+        ],
+        "preferred": null,
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/03haqsp75",
+    "links": [
+      {
+        "type": "website",
+        "value": "http://www.iams.sinica.edu.tw/en/"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "AS",
+          "continent_name": "Asia",
+          "country_code": "TW",
+          "country_name": "Taiwan",
+          "country_subdivision_code": null,
+          "country_subdivision_name": "Taiwan",
+          "lat": 25.05306,
+          "lng": 121.52639,
+          "name": "Taipei"
+        },
+        "geonames_id": 1668341
+      }
+    ],
+    "names": [
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "IAMS"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "Institute of Atomic and Molecular Sciences, Academia Sinica"
+      },
+      {
+        "lang": "zh",
+        "types": [
+          "label"
+        ],
+        "value": "中央研究院原子與分子科學研究所"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Academia Sinica",
+        "type": "parent",
+        "id": "https://ror.org/05bxb3784"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
+  },
+  "https://ror.org/037tm7f56": {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2024-12-11",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1935,
+    "external_ids": [
+      {
+        "all": [
+          "grid.482020.c"
+        ],
+        "preferred": "grid.482020.c",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0001 1089 179X"
+        ],
+        "preferred": null,
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q946028"
+        ],
+        "preferred": null,
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/037tm7f56",
+    "links": [
+      {
+        "type": "website",
+        "value": "http://www.cims.nyu.edu/"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://en.wikipedia.org/wiki/Courant_Institute_of_Mathematical_Sciences"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "NA",
+          "continent_name": "North America",
+          "country_code": "US",
+          "country_name": "United States",
+          "country_subdivision_code": "NY",
+          "country_subdivision_name": "New York",
+          "lat": 40.71427,
+          "lng": -74.00597,
+          "name": "New York"
+        },
+        "geonames_id": 5128581
+      }
+    ],
+    "names": [
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "CIMS"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "Courant Institute of Mathematical Sciences"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "New York University",
+        "type": "parent",
+        "id": "https://ror.org/0190ak572"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "education"
+    ]
+  },
+  "https://ror.org/04nps9965": {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-09-22",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "ieecas.cn"
+    ],
+    "established": 1985,
+    "external_ids": [
+      {
+        "all": [
+          "501100014887"
+        ],
+        "preferred": "501100014887",
+        "type": "fundref"
+      },
+      {
+        "all": [
+          "grid.458457.f"
+        ],
+        "preferred": "grid.458457.f",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0004 1792 8067"
+        ],
+        "preferred": null,
+        "type": "isni"
+      }
+    ],
+    "id": "https://ror.org/04nps9965",
+    "links": [
+      {
+        "type": "website",
+        "value": "http://english.ieecas.cn/"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "AS",
+          "continent_name": "Asia",
+          "country_code": "CN",
+          "country_name": "China",
+          "country_subdivision_code": "SN",
+          "country_subdivision_name": "Shaanxi",
+          "lat": 34.25833,
+          "lng": 108.92861,
+          "name": "Xi'an"
+        },
+        "geonames_id": 1790630
+      }
+    ],
+    "names": [
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "IEE"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "Institute of Earth Environment"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Xi’an Research Laboratory of Loess and Quaternary Geology"
+      },
+      {
+        "lang": "zh",
+        "types": [
+          "label"
+        ],
+        "value": "中国科学院地球环境研究所"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Chinese Academy of Sciences",
+        "type": "parent",
+        "id": "https://ror.org/034t30j35"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility",
+      "funder"
+    ]
+  },
+  "https://ror.org/027k65916": {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2025-10-28",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "jpl.nasa.gov"
+    ],
+    "established": 1936,
+    "external_ids": [
+      {
+        "all": [
+          "100006196"
+        ],
+        "preferred": null,
+        "type": "fundref"
+      },
+      {
+        "all": [
+          "grid.211367.0"
+        ],
+        "preferred": "grid.211367.0",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0004 0637 6500"
+        ],
+        "preferred": null,
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q189325"
+        ],
+        "preferred": null,
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/027k65916",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.jpl.nasa.gov"
+      },
+      {
+        "type": "wikipedia",
+        "value": "http://en.wikipedia.org/wiki/Jet_Propulsion_Laboratory"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "NA",
+          "continent_name": "North America",
+          "country_code": "US",
+          "country_name": "United States",
+          "country_subdivision_code": "CA",
+          "country_subdivision_name": "California",
+          "lat": 34.14778,
+          "lng": -118.14452,
+          "name": "Pasadena"
+        },
+        "geonames_id": 5381396
+      }
+    ],
+    "names": [
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "JPL"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Jet Propulsion Lab"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "Jet Propulsion Laboratory"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Jet Propulsion Laboratory, California Institute of Technology"
+      },
+      {
+        "lang": "es",
+        "types": [
+          "label"
+        ],
+        "value": "Laboratorio de Propulsión a Chorro"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Keck Institute for Space Studies",
+        "type": "child",
+        "id": "https://ror.org/05xkke381"
+      },
+      {
+        "label": "National Aeronautics and Space Administration",
+        "type": "parent",
+        "id": "https://ror.org/027ka1x80"
+      },
+      {
+        "label": "California Institute of Technology",
+        "type": "parent",
+        "id": "https://ror.org/05dxps055"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility",
+      "funder"
+    ]
+  },
+  "https://ror.org/049d6bh38": {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2024-12-11",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1966,
+    "external_ids": [
+      {
+        "all": [
+          "grid.458468.3"
+        ],
+        "preferred": "grid.458468.3",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0004 1806 6526"
+        ],
+        "preferred": null,
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q16904213"
+        ],
+        "preferred": null,
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/049d6bh38",
+    "links": [
+      {
+        "type": "website",
+        "value": "http://english.gyig.cas.cn/"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://en.wikipedia.org/wiki/Institute_of_Geochemistry"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "AS",
+          "continent_name": "Asia",
+          "country_code": "CN",
+          "country_name": "China",
+          "country_subdivision_code": "GZ",
+          "country_subdivision_name": "Guizhou",
+          "lat": 26.58333,
+          "lng": 106.71667,
+          "name": "Guiyang"
+        },
+        "geonames_id": 1809461
+      }
+    ],
+    "names": [
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "IGCAS"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "Institute of Geochemistry"
+      },
+      {
+        "lang": "zh",
+        "types": [
+          "label"
+        ],
+        "value": "地球化学研究所"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "State Key Laboratory of Environmental Geochemistry",
+        "type": "child",
+        "id": "https://ror.org/04gq84p09"
+      },
+      {
+        "label": "State Key Laboratory of Mineral Deposit Geochemistry",
+        "type": "child",
+        "id": "https://ror.org/04b6v9z58"
+      },
+      {
+        "label": "State Key Laboratory of Loess and Quaternary Geology",
+        "type": "child",
+        "id": "https://ror.org/03t0yb134"
+      },
+      {
+        "label": "Chinese Academy of Sciences",
+        "type": "parent",
+        "id": "https://ror.org/034t30j35"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
+  },
+  "https://ror.org/03k6r8t20": {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-09-22",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "niglas.ac.cn"
+    ],
+    "established": 1940,
+    "external_ids": [
+      {
+        "all": [
+          "501100011193"
+        ],
+        "preferred": "501100011193",
+        "type": "fundref"
+      },
+      {
+        "all": [
+          "grid.458478.2"
+        ],
+        "preferred": "grid.458478.2",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0004 1799 2325"
+        ],
+        "preferred": null,
+        "type": "isni"
+      }
+    ],
+    "id": "https://ror.org/03k6r8t20",
+    "links": [
+      {
+        "type": "website",
+        "value": "http://english.niglas.cas.cn/"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "AS",
+          "continent_name": "Asia",
+          "country_code": "CN",
+          "country_name": "China",
+          "country_subdivision_code": "JS",
+          "country_subdivision_name": "Jiangsu",
+          "lat": 32.06167,
+          "lng": 118.77778,
+          "name": "Nanjing"
+        },
+        "geonames_id": 1799962
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Geography Institute of China"
+      },
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "NIGLAS"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "Nanjing Institute of Geography and Limnology"
+      },
+      {
+        "lang": "zh",
+        "types": [
+          "label"
+        ],
+        "value": "中国科学院南京地理与湖泊研究所"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "State Key Laboratory of Lake Science and Environment",
+        "type": "child",
+        "id": "https://ror.org/02aez6s57"
+      },
+      {
+        "label": "Chinese Academy of Sciences",
+        "type": "parent",
+        "id": "https://ror.org/034t30j35"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility",
+      "funder"
+    ]
+  },
+  "https://ror.org/004gzqz66": {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2025-08-26",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "ipgp.fr"
+    ],
+    "established": 1854,
+    "external_ids": [
+      {
+        "all": [
+          "501100010768"
+        ],
+        "preferred": "501100010768",
+        "type": "fundref"
+      },
+      {
+        "all": [
+          "grid.9489.c"
+        ],
+        "preferred": "grid.9489.c",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0001 0675 8101"
+        ],
+        "preferred": null,
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q3152060"
+        ],
+        "preferred": null,
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/004gzqz66",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.ipgp.fr"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://en.wikipedia.org/wiki/Institut_de_Physique_du_Globe_de_Paris"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "FR",
+          "country_name": "France",
+          "country_subdivision_code": "IDF",
+          "country_subdivision_name": "Île-de-France",
+          "lat": 48.85341,
+          "lng": 2.3488,
+          "name": "Paris"
+        },
+        "geonames_id": 2988507
+      }
+    ],
+    "names": [
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "IPGP"
+      },
+      {
+        "lang": "fr",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "Institut de physique du globe de Paris"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "Paris Institute of Earth Physics"
+      },
+      {
+        "lang": "fr",
+        "types": [
+          "alias"
+        ],
+        "value": "UMR 7154"
+      },
+      {
+        "lang": "fr",
+        "types": [
+          "acronym"
+        ],
+        "value": "UMR-IPGP"
+      },
+      {
+        "lang": "fr",
+        "types": [
+          "alias"
+        ],
+        "value": "UMR7154"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Couplage Multi-physiques et Multi-échelles en mécanique géo-environnemental",
+        "type": "child",
+        "id": "https://ror.org/01w1erp60"
+      },
+      {
+        "label": "Institut National des Sciences de l'Univers",
+        "type": "parent",
+        "id": "https://ror.org/04kdfz702"
+      },
+      {
+        "label": "Centre National de la Recherche Scientifique",
+        "type": "parent",
+        "id": "https://ror.org/02feahw73"
+      },
+      {
+        "label": "Université Paris Cité",
+        "type": "parent",
+        "id": "https://ror.org/05f82e368"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility",
+      "funder"
+    ]
+  },
+  "https://ror.org/0356cst02": {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-09-22",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "gig.ac.cn"
+    ],
+    "established": 1993,
+    "external_ids": [
+      {
+        "all": [
+          "501100011140"
+        ],
+        "preferred": "501100011140",
+        "type": "fundref"
+      },
+      {
+        "all": [
+          "grid.454798.3"
+        ],
+        "preferred": "grid.454798.3",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0004 0644 5393"
+        ],
+        "preferred": null,
+        "type": "isni"
+      }
+    ],
+    "id": "https://ror.org/0356cst02",
+    "links": [
+      {
+        "type": "website",
+        "value": "http://english.gig.cas.cn/"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "AS",
+          "continent_name": "Asia",
+          "country_code": "CN",
+          "country_name": "China",
+          "country_subdivision_code": "GD",
+          "country_subdivision_name": "Guangdong",
+          "lat": 23.11667,
+          "lng": 113.25,
+          "name": "Guangzhou"
+        },
+        "geonames_id": 1809858
+      }
+    ],
+    "names": [
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "GIGCAS"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "Guangzhou Institute of Geochemistry"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Institute of Geology"
+      },
+      {
+        "lang": "zh",
+        "types": [
+          "label"
+        ],
+        "value": "中国科学院广州地球化学研究所"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Changsha Mineral Resources Exploration Center",
+        "type": "child",
+        "id": "https://ror.org/02jmf0570"
+      },
+      {
+        "label": "State Key Laboratory of Isotope Geochemistry",
+        "type": "child",
+        "id": "https://ror.org/00nycge49"
+      },
+      {
+        "label": "State Key Laboratory of Organic Geochemistry",
+        "type": "child",
+        "id": "https://ror.org/00x9tpk83"
+      },
+      {
+        "label": "Chinese Academy of Sciences",
+        "type": "parent",
+        "id": "https://ror.org/034t30j35"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility",
+      "funder"
+    ]
+  },
+  "https://ror.org/048400679": {
+    "admin": {
+      "created": {
+        "date": "2025-02-26",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2025-02-26",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "ssl.berkeley.edu"
+    ],
+    "established": 1959,
+    "external_ids": [],
+    "id": "https://ror.org/048400679",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.ssl.berkeley.edu"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "NA",
+          "continent_name": "North America",
+          "country_code": "US",
+          "country_name": "United States",
+          "country_subdivision_code": "CA",
+          "country_subdivision_name": "California",
+          "lat": 37.87159,
+          "lng": -122.27275,
+          "name": "Berkeley"
+        },
+        "geonames_id": 5327684
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "acronym"
+        ],
+        "value": "SSL"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Space Sciences Lab"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Space Sciences Laboratory"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "acronym"
+        ],
+        "value": "UCB SSL"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "University of California, Berkeley",
+        "type": "parent",
+        "id": "https://ror.org/01an7q238"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "education"
+    ]
+  },
+  "https://ror.org/01fcjzv38": {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2025-04-28",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1948,
+    "external_ids": [
+      {
+        "all": [
+          "grid.498048.9"
+        ],
+        "preferred": "grid.498048.9",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "Q6467281"
+        ],
+        "preferred": null,
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/01fcjzv38",
+    "links": [
+      {
+        "type": "website",
+        "value": "http://lasp.colorado.edu/home/"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://en.wikipedia.org/wiki/Laboratory_for_Atmospheric_and_Space_Physics"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "NA",
+          "continent_name": "North America",
+          "country_code": "US",
+          "country_name": "United States",
+          "country_subdivision_code": "CO",
+          "country_subdivision_name": "Colorado",
+          "lat": 40.01499,
+          "lng": -105.27055,
+          "name": "Boulder"
+        },
+        "geonames_id": 5574991
+      }
+    ],
+    "names": [
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "LASP"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "Laboratory for Atmospheric and Space Physics"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Upper Air Laboratory"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "University of Colorado Boulder",
+        "type": "parent",
+        "id": "https://ror.org/02ttsq026"
+      },
+      {
+        "label": "Python in Heliophysics Community",
+        "type": "related",
+        "id": "https://ror.org/012prn105"
+      },
+      {
+        "label": "Institute for Modeling Plasma, Atmospheres and Cosmic Dust",
+        "type": "related",
+        "id": "https://ror.org/02y798n84"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
+  },
+  "https://ror.org/00924z688": {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2024-12-11",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1951,
+    "external_ids": [
+      {
+        "all": [
+          "grid.474433.3"
+        ],
+        "preferred": "grid.474433.3",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0001 2188 4421"
+        ],
+        "preferred": null,
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q16920360"
+        ],
+        "preferred": null,
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/00924z688",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://instaar.colorado.edu/"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://en.wikipedia.org/wiki/Institute_of_Arctic_and_Alpine_Research"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "NA",
+          "continent_name": "North America",
+          "country_code": "US",
+          "country_name": "United States",
+          "country_subdivision_code": "CO",
+          "country_subdivision_name": "Colorado",
+          "lat": 40.01499,
+          "lng": -105.27055,
+          "name": "Boulder"
+        },
+        "geonames_id": 5574991
+      }
+    ],
+    "names": [
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "INSTAAR"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "Institute of Arctic and Alpine Research"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "University of Colorado Boulder",
+        "type": "parent",
+        "id": "https://ror.org/02ttsq026"
+      },
+      {
+        "label": "McMurdo Dry Valleys Long Term Ecological Research",
+        "type": "related",
+        "id": "https://ror.org/04r3s7465"
+      },
+      {
+        "label": "Niwot Ridge Long Term Ecological Research",
+        "type": "related",
+        "id": "https://ror.org/02ep77d74"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
+  },
+  "https://ror.org/049k66y27": {
+    "admin": {
+      "created": {
+        "date": "2023-05-25",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2025-10-28",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 2012,
+    "external_ids": [
+      {
+        "all": [
+          "0000 0004 0623 5273"
+        ],
+        "preferred": "0000 0004 0623 5273",
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q15967014"
+        ],
+        "preferred": "Q15967014",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/049k66y27",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.lpc2e.cnrs.fr"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://fr.wikipedia.org/wiki/Laboratoire_de_physique_et_chimie_de_l%27environnement_et_de_l%27espace"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "FR",
+          "country_name": "France",
+          "country_subdivision_code": "CVL",
+          "country_subdivision_name": "Centre-Val de Loire",
+          "lat": 47.90289,
+          "lng": 1.90389,
+          "name": "Orléans"
+        },
+        "geonames_id": 2989317
+      }
+    ],
+    "names": [
+      {
+        "lang": "fr",
+        "types": [
+          "acronym"
+        ],
+        "value": "LPC2E"
+      },
+      {
+        "lang": "fr",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "Laboratoire de Physique et Chimie de l’Environnement et de l’Espace"
+      },
+      {
+        "lang": null,
+        "types": [
+          "alias"
+        ],
+        "value": "UMR 7328"
+      },
+      {
+        "lang": "fr",
+        "types": [
+          "acronym"
+        ],
+        "value": "UMR LPC2E"
+      },
+      {
+        "lang": null,
+        "types": [
+          "alias"
+        ],
+        "value": "UMR7328"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Institut National des Sciences de l'Univers",
+        "type": "parent",
+        "id": "https://ror.org/04kdfz702"
+      },
+      {
+        "label": "Université d'Orléans",
+        "type": "parent",
+        "id": "https://ror.org/014zrew76"
+      },
+      {
+        "label": "Centre National d'Études Spatiales",
+        "type": "parent",
+        "id": "https://ror.org/04h1h0y33"
+      },
+      {
+        "label": "Centre National de la Recherche Scientifique",
+        "type": "parent",
+        "id": "https://ror.org/02feahw73"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
+  },
+  "https://ror.org/00bdqav06": {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-07-20",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1967,
+    "external_ids": [
+      {
+        "all": [
+          "100017536"
+        ],
+        "preferred": "100017536",
+        "type": "fundref"
+      },
+      {
+        "all": [
+          "grid.464551.7"
+        ],
+        "preferred": "grid.464551.7",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0004 0450 3000"
+        ],
+        "preferred": null,
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q2996588"
+        ],
+        "preferred": null,
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/00bdqav06",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://cires.colorado.edu/"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://en.wikipedia.org/wiki/Cooperative_Institute_for_Research_in_Environmental_Sciences"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "NA",
+          "continent_name": "North America",
+          "country_code": "US",
+          "country_name": "United States",
+          "country_subdivision_code": "CO",
+          "country_subdivision_name": "Colorado",
+          "lat": 40.01499,
+          "lng": -105.27055,
+          "name": "Boulder"
+        },
+        "geonames_id": 5574991
+      }
+    ],
+    "names": [
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "CIRES"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "Cooperative Institute for Research in Environmental Sciences"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "National Snow and Ice Data Center",
+        "type": "child",
+        "id": "https://ror.org/00bxr0z07"
+      },
+      {
+        "label": "NOAA Oceanic and Atmospheric Research",
+        "type": "parent",
+        "id": "https://ror.org/02kgve346"
+      },
+      {
+        "label": "University of Colorado Boulder",
+        "type": "parent",
+        "id": "https://ror.org/02ttsq026"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility",
+      "funder"
+    ]
+  },
+  "https://ror.org/03k9wer31": {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-09-22",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1960,
+    "external_ids": [
+      {
+        "all": [
+          "grid.464061.1"
+        ],
+        "preferred": "grid.464061.1",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0004 0368 3943"
+        ],
+        "preferred": null,
+        "type": "isni"
+      }
+    ],
+    "id": "https://ror.org/03k9wer31",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://pc2a.univ-lille.fr"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "FR",
+          "country_name": "France",
+          "country_subdivision_code": "HDF",
+          "country_subdivision_name": "Hauts-de-France",
+          "lat": 50.61669,
+          "lng": 3.16664,
+          "name": "Villeneuve-d'Ascq"
+        },
+        "geonames_id": 6543862
+      }
+    ],
+    "names": [
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "PC2A"
+      },
+      {
+        "lang": "fr",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "PhysicoChimie des Processus de Combustion et de l'Atmosphère"
+      },
+      {
+        "lang": null,
+        "types": [
+          "alias"
+        ],
+        "value": "UMR 8522"
+      },
+      {
+        "lang": null,
+        "types": [
+          "alias"
+        ],
+        "value": "UMR8522"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "CNRS Ingénierie",
+        "type": "parent",
+        "id": "https://ror.org/00s19x989"
+      },
+      {
+        "label": "Université de Lille",
+        "type": "parent",
+        "id": "https://ror.org/02kzqn938"
+      },
+      {
+        "label": "Centre National de la Recherche Scientifique",
+        "type": "parent",
+        "id": "https://ror.org/02feahw73"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
+  },
+  "https://ror.org/04fm0sh33": {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2025-10-28",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 2000,
+    "external_ids": [
+      {
+        "all": [
+          "grid.463945.9"
+        ],
+        "preferred": "grid.463945.9",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0004 0385 1628"
+        ],
+        "preferred": null,
+        "type": "isni"
+      }
+    ],
+    "id": "https://ror.org/04fm0sh33",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://lpg-umr6112.fr"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "FR",
+          "country_name": "France",
+          "country_subdivision_code": "PDL",
+          "country_subdivision_name": "Pays de la Loire",
+          "lat": 47.21725,
+          "lng": -1.55336,
+          "name": "Nantes"
+        },
+        "geonames_id": 2990969
+      }
+    ],
+    "names": [
+      {
+        "lang": "fr",
+        "types": [
+          "acronym"
+        ],
+        "value": "LPG"
+      },
+      {
+        "lang": "fr",
+        "types": [
+          "alias"
+        ],
+        "value": "LPGNantes"
+      },
+      {
+        "lang": "fr",
+        "types": [
+          "alias"
+        ],
+        "value": "Laboratoire de Planétologie et Géodynamique de Nantes"
+      },
+      {
+        "lang": "fr",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "Laboratoire de Planétologie et Géosciences"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Laboratory of Planetology and Geodynamics"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label"
+        ],
+        "value": "Laboratory of Planetology and Geosciences"
+      },
+      {
+        "lang": null,
+        "types": [
+          "alias"
+        ],
+        "value": "UMR 6112"
+      },
+      {
+        "lang": "fr",
+        "types": [
+          "acronym"
+        ],
+        "value": "UMR LPG"
+      },
+      {
+        "lang": null,
+        "types": [
+          "alias"
+        ],
+        "value": "UMR6112"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Centre National d'Études Spatiales",
+        "type": "parent",
+        "id": "https://ror.org/04h1h0y33"
+      },
+      {
+        "label": "Institut National des Sciences de l'Univers",
+        "type": "parent",
+        "id": "https://ror.org/04kdfz702"
+      },
+      {
+        "label": "Nantes Université",
+        "type": "parent",
+        "id": "https://ror.org/03gnr7b55"
+      },
+      {
+        "label": "Université d'Angers",
+        "type": "parent",
+        "id": "https://ror.org/04yrqp957"
+      },
+      {
+        "label": "Le Mans Université",
+        "type": "parent",
+        "id": "https://ror.org/01mtcc283"
+      },
+      {
+        "label": "Observatoire des Sciences de l'Univers Nantes Atlantique",
+        "type": "parent",
+        "id": "https://ror.org/02w0vb190"
+      },
+      {
+        "label": "Centre National de la Recherche Scientifique",
+        "type": "parent",
+        "id": "https://ror.org/02feahw73"
+      },
+      {
+        "label": "Observatoire des Sciences de l'Univers Nantes Atlantique",
+        "type": "related",
+        "id": "https://ror.org/02w0vb190"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
+  },
+  "https://ror.org/04xx4z452": {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2024-12-11",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1961,
+    "external_ids": [
+      {
+        "all": [
+          "100006203"
+        ],
+        "preferred": null,
+        "type": "fundref"
+      },
+      {
+        "all": [
+          "grid.419085.1"
+        ],
+        "preferred": "grid.419085.1",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0004 0613 2864"
+        ],
+        "preferred": null,
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q208371"
+        ],
+        "preferred": null,
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/04xx4z452",
+    "links": [
+      {
+        "type": "website",
+        "value": "http://www.nasa.gov/centers/johnson/home/index.html"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://en.wikipedia.org/wiki/Lyndon_B._Johnson_Space_Center"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "NA",
+          "continent_name": "North America",
+          "country_code": "US",
+          "country_name": "United States",
+          "country_subdivision_code": "TX",
+          "country_subdivision_name": "Texas",
+          "lat": 29.76328,
+          "lng": -95.36327,
+          "name": "Houston"
+        },
+        "geonames_id": 4699066
+      }
+    ],
+    "names": [
+      {
+        "lang": "es",
+        "types": [
+          "label"
+        ],
+        "value": "Centro Espacial Lyndon B. Johnson"
+      },
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "JSC"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "Johnson Space Center"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Lyndon B. Johnson Space Center"
+      },
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "MSC"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Manned Spacecraft Center"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "White Sands Test Facility",
+        "type": "child",
+        "id": "https://ror.org/05q5zzn71"
+      },
+      {
+        "label": "National Aeronautics and Space Administration",
+        "type": "parent",
+        "id": "https://ror.org/027ka1x80"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility",
+      "funder"
+    ]
+  },
+  "https://ror.org/01cgmpb23": {
+    "admin": {
+      "created": {
+        "date": "2025-04-02",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2025-04-03",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 2017,
+    "external_ids": [],
+    "id": "https://ror.org/01cgmpb23",
+    "links": [
+      {
+        "type": "website",
+        "value": "http://www.ipa.phys.ethz.ch"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "CH",
+          "country_name": "Switzerland",
+          "country_subdivision_code": "ZH",
+          "country_subdivision_name": "Zurich",
+          "lat": 47.36667,
+          "lng": 8.55,
+          "name": "Zurich"
+        },
+        "geonames_id": 2657896
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "acronym"
+        ],
+        "value": "IPA"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Inst. Particle Physics and Astrophysics"
+      },
+      {
+        "lang": "de",
+        "types": [
+          "label"
+        ],
+        "value": "Institut für Teilchen- und Astrophysik"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Institute for Particle Physics and Astrophysics"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "ETH Zurich",
+        "type": "parent",
+        "id": "https://ror.org/05a28rw58"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
+  },
+  "https://ror.org/001p3qb93": {
+    "admin": {
+      "created": {
+        "date": "2026-03-30",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2026-07-20",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "ssec.wisc.edu"
+    ],
+    "established": 1965,
+    "external_ids": [
+      {
+        "all": [
+          "0000 0000 9204 9506"
+        ],
+        "preferred": "0000 0000 9204 9506",
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q7572481"
+        ],
+        "preferred": "Q7572481",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/001p3qb93",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.ssec.wisc.edu"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://en.wikipedia.org/wiki/Space_Science_and_Engineering_Center"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "NA",
+          "continent_name": "North America",
+          "country_code": "US",
+          "country_name": "United States",
+          "country_subdivision_code": "WI",
+          "country_subdivision_name": "Wisconsin",
+          "lat": 43.07305,
+          "lng": -89.40123,
+          "name": "Madison"
+        },
+        "geonames_id": 5261457
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "acronym"
+        ],
+        "value": "SSEC"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Space Science & Engineering Center"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Space Science and Engineering Center"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "UW-Madison Space Science and Engineering Center"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "University of Wisconsin–Madison Space Science and Engineering Center"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "University of Wisconsin–Madison",
+        "type": "parent",
+        "id": "https://ror.org/01y2jtd41"
+      },
+      {
+        "label": "Cooperative Institute for Meteorological Satellite Studies",
+        "type": "related",
+        "id": "https://ror.org/01k3ptk15"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "other"
+    ]
+  },
+  "https://ror.org/02haar591": {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-09-22",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "ipsl.fr"
+    ],
+    "established": 1991,
+    "external_ids": [
+      {
+        "all": [
+          "grid.423115.0"
+        ],
+        "preferred": "grid.423115.0",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0000 9000 8794"
+        ],
+        "preferred": null,
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q3151794"
+        ],
+        "preferred": null,
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/02haar591",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.ipsl.fr/"
+      },
+      {
+        "type": "wikipedia",
+        "value": "https://en.wikipedia.org/wiki/Institut_Pierre_Simon_Laplace"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "FR",
+          "country_name": "France",
+          "country_subdivision_code": "IDF",
+          "country_subdivision_name": "Île-de-France",
+          "lat": 48.85341,
+          "lng": 2.3488,
+          "name": "Paris"
+        },
+        "geonames_id": 2988507
+      }
+    ],
+    "names": [
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "IPSL"
+      },
+      {
+        "lang": "fr",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "Institut Pierre-Simon Laplace"
+      },
+      {
+        "lang": null,
+        "types": [
+          "alias"
+        ],
+        "value": "UAR 636"
+      },
+      {
+        "lang": null,
+        "types": [
+          "alias"
+        ],
+        "value": "UAR636"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Sorbonne Université",
+        "type": "parent",
+        "id": "https://ror.org/02en5vm52"
+      },
+      {
+        "label": "Centre National de la Recherche Scientifique",
+        "type": "parent",
+        "id": "https://ror.org/02feahw73"
+      },
+      {
+        "label": "Laboratoire de Météorologie Dynamique",
+        "type": "related",
+        "id": "https://ror.org/000ehr937"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
+  },
+  "https://ror.org/0192yj155": {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-09-22",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "scsio.ac.cn"
+    ],
+    "established": 1959,
+    "external_ids": [
+      {
+        "all": [
+          "501100010213"
+        ],
+        "preferred": "501100010213",
+        "type": "fundref"
+      },
+      {
+        "all": [
+          "grid.458498.c"
+        ],
+        "preferred": "grid.458498.c",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0004 1798 9724"
+        ],
+        "preferred": null,
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q30259667"
+        ],
+        "preferred": null,
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/0192yj155",
+    "links": [
+      {
+        "type": "website",
+        "value": "http://english.scsio.cas.cn/"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "AS",
+          "continent_name": "Asia",
+          "country_code": "CN",
+          "country_name": "China",
+          "country_subdivision_code": "GD",
+          "country_subdivision_name": "Guangdong",
+          "lat": 23.11667,
+          "lng": 113.25,
+          "name": "Guangzhou"
+        },
+        "geonames_id": 1809858
+      }
+    ],
+    "names": [
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "SCSIO"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "South China Sea Institute Of Oceanology"
+      },
+      {
+        "lang": "zh",
+        "types": [
+          "label"
+        ],
+        "value": "中国科学院南海海洋研究所"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "State Key Laboratory of Tropical Oceanography",
+        "type": "child",
+        "id": "https://ror.org/02b5xr067"
+      },
+      {
+        "label": "Chinese Academy of Sciences",
+        "type": "parent",
+        "id": "https://ror.org/034t30j35"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility",
+      "funder"
+    ]
+  },
+  "https://ror.org/02xcy2g83": {
+    "admin": {
+      "created": {
+        "date": "2025-04-02",
+        "schema_version": "2.1"
+      },
+      "last_modified": {
+        "date": "2025-04-03",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1990,
+    "external_ids": [],
+    "id": "https://ror.org/02xcy2g83",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://geophysics.ethz.ch"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "CH",
+          "country_name": "Switzerland",
+          "country_subdivision_code": "ZH",
+          "country_subdivision_name": "Zurich",
+          "lat": 47.36667,
+          "lng": 8.55,
+          "name": "Zurich"
+        },
+        "geonames_id": 2657896
+      }
+    ],
+    "names": [
+      {
+        "lang": "de",
+        "types": [
+          "label"
+        ],
+        "value": "Institut für Geophysik"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Institute of Geophysics"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "ETH Zurich",
+        "type": "parent",
+        "id": "https://ror.org/05a28rw58"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
+  },
+  "https://ror.org/030vmwa78": {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2024-12-11",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": 1999,
+    "external_ids": [
+      {
+        "all": [
+          "501100018805"
+        ],
+        "preferred": "501100018805",
+        "type": "fundref"
+      },
+      {
+        "all": [
+          "grid.458476.c"
+        ],
+        "preferred": "grid.458476.c",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0004 0605 1722"
+        ],
+        "preferred": null,
+        "type": "isni"
+      }
+    ],
+    "id": "https://ror.org/030vmwa78",
+    "links": [
+      {
+        "type": "website",
+        "value": "http://english.igg.cas.cn/"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "AS",
+          "continent_name": "Asia",
+          "country_code": "CN",
+          "country_name": "China",
+          "country_subdivision_code": "BJ",
+          "country_subdivision_name": "Beijing",
+          "lat": 39.9075,
+          "lng": 116.39723,
+          "name": "Beijing"
+        },
+        "geonames_id": 1816670
+      }
+    ],
+    "names": [
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "IGGCAS"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "Institute of Geology and Geophysics"
+      },
+      {
+        "lang": "zh",
+        "types": [
+          "label"
+        ],
+        "value": "中国科学院地质与地球物理研究所"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "State Key Laboratory of Lithospheric Evolution",
+        "type": "child",
+        "id": "https://ror.org/00vsr3s09"
+      },
+      {
+        "label": "Chinese Academy of Sciences",
+        "type": "parent",
+        "id": "https://ror.org/034t30j35"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility",
+      "funder"
+    ]
+  },
+  "https://ror.org/034bxn811": {
+    "admin": {
+      "created": {
+        "date": "2024-10-29",
+        "schema_version": "2.0"
+      },
+      "last_modified": {
+        "date": "2024-12-11",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "beg.utexas.edu"
+    ],
+    "established": 1909,
+    "external_ids": [
+      {
+        "all": [
+          "100015298"
+        ],
+        "preferred": "100015298",
+        "type": "fundref"
+      },
+      {
+        "all": [
+          "0000 0001 2195 5509"
+        ],
+        "preferred": "0000 0001 2195 5509",
+        "type": "isni"
+      }
+    ],
+    "id": "https://ror.org/034bxn811",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.beg.utexas.edu"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "NA",
+          "continent_name": "North America",
+          "country_code": "US",
+          "country_name": "United States",
+          "country_subdivision_code": "TX",
+          "country_subdivision_name": "Texas",
+          "lat": 30.26715,
+          "lng": -97.74306,
+          "name": "Austin"
+        },
+        "geonames_id": 4671654
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "acronym"
+        ],
+        "value": "BEG"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "label",
+          "ror_display"
+        ],
+        "value": "Bureau of Economic Geology"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "University of Texas at Austin Bureau of Economic Geology"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "The University of Texas at Austin",
+        "type": "parent",
+        "id": "https://ror.org/00hj54h04"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility",
+      "funder"
+    ]
+  },
+  "https://ror.org/04sg95s75": {
+    "admin": {
+      "created": {
+        "date": "2024-02-13",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2024-12-11",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": null,
+    "external_ids": [
+      {
+        "all": [
+          "501100018750"
+        ],
+        "preferred": "501100018750",
+        "type": "fundref"
+      }
+    ],
+    "id": "https://ror.org/04sg95s75",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://gpmr.cug.edu.cn"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "AS",
+          "continent_name": "Asia",
+          "country_code": "CN",
+          "country_name": "China",
+          "country_subdivision_code": "HB",
+          "country_subdivision_name": "Hubei",
+          "lat": 30.58333,
+          "lng": 114.26667,
+          "name": "Wuhan"
+        },
+        "geonames_id": 1791247
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "State Key Lab of Geological Processes and Mineral Resources"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "State Key Laboratory of Geological Processes and Mineral Resources"
+      },
+      {
+        "lang": "zh",
+        "types": [
+          "label"
+        ],
+        "value": "地质过程与矿产资源国家重点实验室"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "China University of Geosciences",
+        "type": "parent",
+        "id": "https://ror.org/04gcegc37"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility",
+      "funder"
+    ]
+  },
+  "https://ror.org/01vq13895": {
+    "admin": {
+      "created": {
+        "date": "2024-02-13",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2024-12-11",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [],
+    "established": null,
+    "external_ids": [
+      {
+        "all": [
+          "501100011294"
+        ],
+        "preferred": "501100011294",
+        "type": "fundref"
+      },
+      {
+        "all": [
+          "0000 0004 6008 4816"
+        ],
+        "preferred": "0000 0004 6008 4816",
+        "type": "isni"
+      }
+    ],
+    "id": "https://ror.org/01vq13895",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://www.sklfs.ustc.edu.cn"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "AS",
+          "continent_name": "Asia",
+          "country_code": "CN",
+          "country_name": "China",
+          "country_subdivision_code": "AH",
+          "country_subdivision_name": "Anhui",
+          "lat": 31.86389,
+          "lng": 117.28083,
+          "name": "Hefei"
+        },
+        "geonames_id": 1808722
+      }
+    ],
+    "names": [
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "State Key Lab of Fire Science"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "State Key Laboratory of Fire Science"
+      },
+      {
+        "lang": "zh",
+        "types": [
+          "label"
+        ],
+        "value": "火灾科学国家重点实验室"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "University of Science and Technology of China",
+        "type": "parent",
+        "id": "https://ror.org/04c4dkn09"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility",
+      "funder"
+    ]
+  },
+  "https://ror.org/011nqat45": {
+    "admin": {
+      "created": {
+        "date": "2018-11-14",
+        "schema_version": "1.0"
+      },
+      "last_modified": {
+        "date": "2026-07-20",
+        "schema_version": "2.1"
+      }
+    },
+    "domains": [
+      "crpg.univ-lorraine.fr"
+    ],
+    "established": 1953,
+    "external_ids": [
+      {
+        "all": [
+          "grid.462869.7"
+        ],
+        "preferred": "grid.462869.7",
+        "type": "grid"
+      },
+      {
+        "all": [
+          "0000 0001 2194 0016"
+        ],
+        "preferred": null,
+        "type": "isni"
+      },
+      {
+        "all": [
+          "Q16507426"
+        ],
+        "preferred": "Q16507426",
+        "type": "wikidata"
+      }
+    ],
+    "id": "https://ror.org/011nqat45",
+    "links": [
+      {
+        "type": "website",
+        "value": "https://crpg.univ-lorraine.fr"
+      }
+    ],
+    "locations": [
+      {
+        "geonames_details": {
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "country_code": "FR",
+          "country_name": "France",
+          "country_subdivision_code": "GES",
+          "country_subdivision_name": "Grand Est",
+          "lat": 48.66115,
+          "lng": 6.17114,
+          "name": "Vandœuvre-lès-Nancy"
+        },
+        "geonames_id": 2970797
+      }
+    ],
+    "names": [
+      {
+        "lang": null,
+        "types": [
+          "acronym"
+        ],
+        "value": "CRPG"
+      },
+      {
+        "lang": "fr",
+        "types": [
+          "ror_display",
+          "label"
+        ],
+        "value": "Centre de Recherches Pétrographiques et Géochimiques"
+      },
+      {
+        "lang": "en",
+        "types": [
+          "alias"
+        ],
+        "value": "Centre for Petrographic and Geochemical Research"
+      },
+      {
+        "lang": null,
+        "types": [
+          "alias"
+        ],
+        "value": "UMR 7358"
+      },
+      {
+        "lang": "fr",
+        "types": [
+          "acronym"
+        ],
+        "value": "UMR CRPG"
+      },
+      {
+        "lang": null,
+        "types": [
+          "alias"
+        ],
+        "value": "UMR7358"
+      }
+    ],
+    "relationships": [
+      {
+        "label": "Institut National des Sciences de l'Univers",
+        "type": "parent",
+        "id": "https://ror.org/04kdfz702"
+      },
+      {
+        "label": "Université de Lorraine",
+        "type": "parent",
+        "id": "https://ror.org/04vfs2w97"
+      },
+      {
+        "label": "Observatoire Terre et environnement de Lorraine",
+        "type": "parent",
+        "id": "https://ror.org/02cyw3861"
+      },
+      {
+        "label": "Centre National de la Recherche Scientifique",
+        "type": "parent",
+        "id": "https://ror.org/02feahw73"
+      }
+    ],
+    "status": "active",
+    "types": [
+      "facility"
+    ]
+  }
+}
