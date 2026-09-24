@@ -49,6 +49,113 @@
       ]
     },
     {
+      "id": "chemistry",
+      "name": "行星大气化学",
+      "name_en": "Planetary atmospheric chemistry",
+      "terms": [
+        "photochemistry",
+        "photochemical",
+        "atmospheric chemistry",
+        "chemical kinetics",
+        "chemical equilibrium",
+        "disequilibrium chemistry",
+        "chemical disequilibrium",
+        "reaction network",
+        "chemical network",
+        "thermochemistry",
+        "thermochemical",
+        "haze formation",
+        "aerosol chemistry"
+      ],
+      "required_context_groups": [
+        [
+          "planet",
+          "planetary",
+          "exoplanet",
+          "exoplanetary",
+          "mars",
+          "martian",
+          "venus",
+          "venusian",
+          "jupiter",
+          "jovian",
+          "saturn",
+          "titan",
+          "neptune",
+          "uranus",
+          "terrestrial",
+          "early earth",
+          "hot jupiter",
+          "sub neptune",
+          "trappist",
+          "wasp"
+        ],
+        [
+          "atmosphere",
+          "atmospheric",
+          "climate",
+          "stratosphere",
+          "troposphere",
+          "atmospheres"
+        ]
+      ]
+    },
+    {
+      "id": "models",
+      "name": "行星大气模式",
+      "name_en": "Planetary atmospheric models",
+      "terms": [
+        "general circulation model",
+        "global circulation model",
+        "climate model",
+        "atmospheric model",
+        "atmosphere model",
+        "gcm",
+        "radiative convective model",
+        "photochemical model",
+        "chemistry model",
+        "dynamical core",
+        "radiative transfer model",
+        "cloud resolving model",
+        "global climate model",
+        "atmospheric modeling",
+        "atmospheric modelling",
+        "climate simulation"
+      ],
+      "required_context_groups": [
+        [
+          "planet",
+          "planetary",
+          "exoplanet",
+          "exoplanetary",
+          "mars",
+          "martian",
+          "venus",
+          "venusian",
+          "jupiter",
+          "jovian",
+          "saturn",
+          "titan",
+          "neptune",
+          "uranus",
+          "terrestrial",
+          "early earth",
+          "hot jupiter",
+          "sub neptune",
+          "trappist",
+          "wasp"
+        ],
+        [
+          "atmosphere",
+          "atmospheric",
+          "climate",
+          "stratosphere",
+          "troposphere",
+          "atmospheres"
+        ]
+      ]
+    },
+    {
       "id": "physics",
       "name": "大气物理",
       "name_en": "Atmospheric physics",
@@ -531,8 +638,8 @@
     },
     {
       "id": "methods",
-      "name": "数学物理与数值方法",
-      "name_en": "Mathematical physics & methods",
+      "name": "数学、物理、数值方法",
+      "name_en": "Mathematics, Physics & Numerical Methods",
       "terms": [
         "data assimilation",
         "inverse problem",

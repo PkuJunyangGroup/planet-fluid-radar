@@ -9,6 +9,16 @@ CONFIG=json.loads(Path('topics.json').read_text())
 class Rules(unittest.TestCase):
  def paper(self,title,abstract='',categories=None):
   return {'id':'test','title':title,'abstract':abstract,'categories':categories or []}
+ def test_planetary_chemistry_and_models_are_primary(self):
+  for text,topic in [('Photochemical haze formation in the atmosphere of Titan','chemistry'),('A general circulation model for the climate of Mars','models')]:
+   result=update.classify(self.paper(text),CONFIG)
+   self.assertIn(topic,result['topics'])
+   self.assertEqual(result['status'],'candidate')
+ def test_planetary_chemistry_and_models_require_relevant_context(self):
+  for text in ['Chemical kinetics in a laboratory reactor','Photochemistry in interstellar molecular clouds','A general circulation model of the ocean','Chemical equilibrium in planetary interiors']:
+   result=update.classify(self.paper(text),CONFIG)
+   self.assertNotIn('chemistry',result['topics'])
+   self.assertNotIn('models',result['topics'])
  def test_mechanism_bridge(self):
   self.assertEqual(update.classify(self.paper('Rossby waves in rotating fluid'),CONFIG)['status'],'candidate')
  def test_atmospheric_dynamics_separate_from_climate(self):
