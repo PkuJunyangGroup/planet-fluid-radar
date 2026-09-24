@@ -66,7 +66,7 @@ def build():
  arxiv['topics']=config['topics']
  papers=merge_records(records,notes)
  sources={**arxiv['sources'],**{'journal:'+k:v for k,v in journal['sources'].items()}}
- d={**arxiv,'generated_at':dt.datetime.now(dt.timezone.utc).isoformat(),'papers':papers,'sources':sources,'journals':registry,'record_count':len(arxiv['papers'])+len(journal['papers']),'merged_count':sum(len(p['variants'])-1 for p in papers)}
+ d={**arxiv,'generated_at':dt.datetime.now(dt.timezone.utc).isoformat(),'papers':papers,'sources':sources,'journals':registry,'monthly_statistics':journal.get('monthly_statistics',{}),'record_count':len(arxiv['papers'])+len(journal['papers']),'merged_count':sum(len(p['variants'])-1 for p in papers)}
  (ROOT/'catalog.json').write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')
  print(len(papers),'catalog items;',d['merged_count'],'duplicates linked')
  return d

@@ -21,6 +21,7 @@ async function init(){try{
  $('#topics').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;topic=b.dataset.topic;$('#topics .active')?.classList.remove('active');b.classList.add('active');limit=30;render()});
  $('.segments').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;status=b.dataset.status;$('.segments .active')?.classList.remove('active');b.classList.add('active');limit=30;render()});
  for(const j of data.journals.journals){const opt=document.createElement('option');opt.value='journal:'+j.id;opt.textContent=j.name;$('#source-filter').append(opt)}
+ const requestedJournal=new URLSearchParams(location.search).get('journal');if(data.journals.journals.some(j=>j.id===requestedJournal))$('#source-filter').value='journal:'+requestedJournal;
  const entries=Object.values(data.sources),success=entries.map(s=>s.last_rss_success||s.last_success).filter(Boolean).sort();
  $('#updated').textContent=success.length?`最近成功抓取 ${new Date(success.at(-1)).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai'})} · 北京时间`:'尚未完成首次抓取';
  const failed=entries.filter(s=>s.status!=='ok').length;

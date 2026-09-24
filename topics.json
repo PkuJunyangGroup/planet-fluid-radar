@@ -561,7 +561,20 @@
     "cancer",
     "vector borne disease"
   ],
-  "overrides": {},
+  "overrides": {
+    "doi:10.1038/s41558-026-02737-3": {
+      "status": "unmatched",
+      "reason": "人工复核：侧重生态系统或农业影响，暂列拓展阅读。"
+    },
+    "doi:10.1038/s41558-026-02733-7": {
+      "status": "unmatched",
+      "reason": "人工复核：侧重生态系统或农业影响，暂列拓展阅读。"
+    },
+    "doi:10.1038/s41561-026-02095-x": {
+      "status": "unmatched",
+      "reason": "人工复核：侧重生态系统或农业影响，暂列拓展阅读。"
+    }
+  },
   "mechanisms": [
     {
       "label": "云与辐射 · Clouds & radiation",
