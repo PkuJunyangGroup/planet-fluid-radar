@@ -48,7 +48,7 @@ def digest(p):return hashlib.sha256((p['title']+'\n'+p['abstract']).encode()).he
 def apply_notes(p, notes):
     n=notes.get(p['id'])
     if n and n.get('version_id')==p['version_id'] and n.get('abstract_sha256')==digest(p):
-        p['intro_zh']=n['zh'];p['intro_en']=n['en'];p['intro_kind']='bilingual_editorial';p['intro_basis']='基于公开摘要整理';p['intro_version']=n['version_id']
+        p['intro_zh']=n['zh'];p['intro_en']=n['en'];p['intro_kind']='bilingual_editorial';p['intro_basis']=({'title only':'仅依据标题整理；未取得摘要或正文','publisher text':'基于出版社正文／研究简报整理','publisher abstract':'基于出版社页面摘要整理'}.get(n.get('basis'),'基于公开摘要整理') + (' · 英文为摘要节选' if n.get('english_basis')=='abstract excerpt' and n.get('en') else ''));p['intro_source']=n.get('source_url','');p['intro_version']=n['version_id']
         p['tags']=list(dict.fromkeys(p.get('tags',[])+n.get('tags',[])))
     else:
         abstract=p.get('abstract','')
@@ -56,7 +56,7 @@ def apply_notes(p, notes):
         selected=' '.join(sentences[:2])
         p['intro_en']=selected[:650]+('…' if len(selected)>650 else '')
         p['intro_zh']='中文导读待整理；可展开英文摘要查看研究内容。'
-        p['intro_kind']='abstract_excerpt';p['intro_basis']='英文摘要节选';p.pop('intro_version',None)
+        p['intro_kind']='abstract_excerpt';p['intro_basis']='英文摘要节选';p.pop('intro_version',None);p.pop('intro_source',None)
 
 
 def enrich(fetch=True, max_fetch=60):

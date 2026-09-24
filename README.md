@@ -4,9 +4,8 @@
 
 [浏览网站](https://pkujunyanggroup.github.io/planet-fluid-radar/) · [数据来源与方法](https://pkujunyanggroup.github.io/planet-fluid-radar/sources.html)
 
-根据杨军、丁峰和 Daniel Koll 的公开研究主题确定筛选范围，收录全球相关研究。作者姓名不作为收录条件，不建设个人论文专栏。
+研究方向涵盖行星气候与宜居性、云和辐射反馈、水循环、热输送、大气环流、海冰与海洋过程及行星大气观测表征，收录全球相关研究。
 
-研究背景参考：[杨军](https://faculty.pku.edu.cn/junyang/en/zdylm/40837/list/index.htm)、[丁峰](https://faculty.pku.edu.cn/dingfeng/zh_CN/lwcg/46562/list/2.htm)、[Daniel Koll](https://danielkoll.github.io/research/)、[系内研究介绍](https://www.atmos.pku.edu.cn/kxyj/yjfx/3dqyhykxx345.htm)。
 
 ## 学科与内容
 
@@ -55,11 +54,11 @@ python3 -m http.server 8766
 
 来源出错时 `update.py` 返回非零状态，但保留历史并写明失败状态。工作流仍会先发布页面，再报告抓取问题。机构缓存为 `affiliations.json`，日期缓存为 `dates.json`；两者按版本保存。
 
-## 期刊与专题来源（扩展版）
+## 期刊来源（扩展版）
 
 新增 `journals.json`，按综合、大气、海洋、气候、地球与行星分组配置 23 种期刊，包括 Nature、Science、PNAS、Nature Geoscience、Nature Astronomy、Nature Climate Change、JAS、ACP、JGR 各相关刊、JPO、Ocean Modelling、Paleoceanography and Paleoclimatology、Journal of Climate、Climate Dynamics、Climate of the Past、QJRMS、Astrobiology、GRL、ApJ、ApJL、EPSL。
 
-期刊记录使用出版商向 Crossref 登记的公开元数据，首次检索近 14 天，后续按登记更新时间增量检索并保留检查点。来源页逐项显示状态与成功时间。无摘要时只按标题筛选并明确标注；接口可能晚于出版商网页。Snowball Earth 与系外行星专题网站作为资料入口列出。
+期刊记录使用出版商向 Crossref 登记的公开元数据，首次检索近 14 天，后续按登记更新时间增量检索并保留检查点。来源页逐项显示状态与成功时间。无摘要时只按标题筛选并明确标注；接口可能晚于出版商网页。
 
 `build_catalog.py` 将 arXiv 与期刊记录合成 `catalog.json`。相同 DOI、明确的预印本关系优先归并；无 DOI 时，较长标题完全相同且存在共同作者姓氏才自动关联。相似标题不直接合并。各版本来源、首次收录时间与发表时间均保留，可能仍有未识别的重复记录。
 
