@@ -1,10 +1,30 @@
 {
-  "generated_at": "2026-09-24T08:51:14.614730+00:00",
+  "generated_at": "2026-09-24T08:58:07.531315+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
       "status": "partial",
-      "last_rss_success": "2026-09-24T08:51:14.614730+00:00"
+      "last_rss_success": "2026-09-24T08:58:07.531315+00:00",
+      "last_attempt": "2026-09-24T08:58:07.531315+00:00",
+      "error": "HTTPError"
+    },
+    "physics.ao-ph": {
+      "last_attempt": "2026-09-24T08:58:07.531315+00:00",
+      "status": "partial",
+      "error": "HTTPError",
+      "last_rss_success": "2026-09-24T08:58:07.531315+00:00"
+    },
+    "physics.geo-ph": {
+      "last_attempt": "2026-09-24T08:58:07.531315+00:00",
+      "status": "partial",
+      "error": "HTTPError",
+      "last_rss_success": "2026-09-24T08:58:07.531315+00:00"
+    },
+    "physics.flu-dyn": {
+      "last_attempt": "2026-09-24T08:58:07.531315+00:00",
+      "status": "partial",
+      "error": "HTTPError",
+      "last_rss_success": "2026-09-24T08:58:07.531315+00:00"
     }
   },
   "topics": [
@@ -133,13 +153,13 @@
       "url": "https://arxiv.org/abs/2609.26874",
       "pdf": "https://arxiv.org/pdf/2609.26874v1",
       "source": "arXiv",
+      "first_seen": "2026-09-24T08:51:14.614730+00:00",
+      "version_changed": false,
       "topics": [],
       "matches": {},
       "status": "candidate",
       "reason": "行星分类候选，待人工判断",
-      "method": "keyword",
-      "first_seen": "2026-09-24T08:51:14.614730+00:00",
-      "version_changed": false
+      "method": "keyword"
     },
     {
       "id": "2609.26894",
@@ -170,6 +190,8 @@
       "url": "https://arxiv.org/abs/2609.26894",
       "pdf": "https://arxiv.org/pdf/2609.26894v1",
       "source": "arXiv",
+      "first_seen": "2026-09-24T08:51:14.614730+00:00",
+      "version_changed": false,
       "topics": [
         "detection"
       ],
@@ -180,9 +202,7 @@
       },
       "status": "candidate",
       "reason": "命中：exoplanet",
-      "method": "keyword",
-      "first_seen": "2026-09-24T08:51:14.614730+00:00",
-      "version_changed": false
+      "method": "keyword"
     },
     {
       "id": "2609.26917",
@@ -203,6 +223,8 @@
       "url": "https://arxiv.org/abs/2609.26917",
       "pdf": "https://arxiv.org/pdf/2609.26917v1",
       "source": "arXiv",
+      "first_seen": "2026-09-24T08:51:14.614730+00:00",
+      "version_changed": false,
       "topics": [
         "evolution"
       ],
@@ -213,9 +235,7 @@
       },
       "status": "candidate",
       "reason": "命中：habitability",
-      "method": "keyword",
-      "first_seen": "2026-09-24T08:51:14.614730+00:00",
-      "version_changed": false
+      "method": "keyword"
     },
     {
       "id": "2609.27013",
@@ -242,6 +262,8 @@
       "url": "https://arxiv.org/abs/2609.27013",
       "pdf": "https://arxiv.org/pdf/2609.27013v1",
       "source": "arXiv",
+      "first_seen": "2026-09-24T08:51:14.614730+00:00",
+      "version_changed": false,
       "topics": [
         "evolution"
       ],
@@ -252,9 +274,7 @@
       },
       "status": "candidate",
       "reason": "命中：protoplanetary",
-      "method": "keyword",
-      "first_seen": "2026-09-24T08:51:14.614730+00:00",
-      "version_changed": false
+      "method": "keyword"
     },
     {
       "id": "2609.27025",
@@ -277,6 +297,8 @@
       "url": "https://arxiv.org/abs/2609.27025",
       "pdf": "https://arxiv.org/pdf/2609.27025v1",
       "source": "arXiv",
+      "first_seen": "2026-09-24T08:51:14.614730+00:00",
+      "version_changed": false,
       "topics": [
         "dynamics"
       ],
@@ -287,9 +309,7 @@
       },
       "status": "candidate",
       "reason": "命中：instability",
-      "method": "keyword",
-      "first_seen": "2026-09-24T08:51:14.614730+00:00",
-      "version_changed": false
+      "method": "keyword"
     },
     {
       "id": "2609.27415",
@@ -311,13 +331,13 @@
       "url": "https://arxiv.org/abs/2609.27415",
       "pdf": "https://arxiv.org/pdf/2609.27415v1",
       "source": "arXiv",
+      "first_seen": "2026-09-24T08:51:14.614730+00:00",
+      "version_changed": false,
       "topics": [],
       "matches": {},
       "status": "candidate",
       "reason": "行星分类候选，待人工判断",
-      "method": "keyword",
-      "first_seen": "2026-09-24T08:51:14.614730+00:00",
-      "version_changed": false
+      "method": "keyword"
     },
     {
       "id": "2609.27443",
@@ -346,6 +366,8 @@
       "url": "https://arxiv.org/abs/2609.27443",
       "pdf": "https://arxiv.org/pdf/2609.27443v1",
       "source": "arXiv",
+      "first_seen": "2026-09-24T08:51:14.614730+00:00",
+      "version_changed": false,
       "topics": [
         "dynamics"
       ],
@@ -356,9 +378,7 @@
       },
       "status": "candidate",
       "reason": "命中：instability",
-      "method": "keyword",
-      "first_seen": "2026-09-24T08:51:14.614730+00:00",
-      "version_changed": false
+      "method": "keyword"
     },
     {
       "id": "2609.27474",
@@ -387,6 +407,8 @@
       "url": "https://arxiv.org/abs/2609.27474",
       "pdf": "https://arxiv.org/pdf/2609.27474v1",
       "source": "arXiv",
+      "first_seen": "2026-09-24T08:51:14.614730+00:00",
+      "version_changed": false,
       "topics": [
         "dynamics",
         "atmosphere",
@@ -405,9 +427,7 @@
       },
       "status": "candidate",
       "reason": "命中：instability、atmospheric escape、volatile",
-      "method": "keyword",
-      "first_seen": "2026-09-24T08:51:14.614730+00:00",
-      "version_changed": false
+      "method": "keyword"
     },
     {
       "id": "2609.27562",
@@ -429,13 +449,13 @@
       "url": "https://arxiv.org/abs/2609.27562",
       "pdf": "https://arxiv.org/pdf/2609.27562v1",
       "source": "arXiv",
+      "first_seen": "2026-09-24T08:51:14.614730+00:00",
+      "version_changed": false,
       "topics": [],
       "matches": {},
       "status": "candidate",
       "reason": "行星分类候选，待人工判断",
-      "method": "keyword",
-      "first_seen": "2026-09-24T08:51:14.614730+00:00",
-      "version_changed": false
+      "method": "keyword"
     },
     {
       "id": "2609.27569",
@@ -475,13 +495,13 @@
       "url": "https://arxiv.org/abs/2609.27569",
       "pdf": "https://arxiv.org/pdf/2609.27569v1",
       "source": "arXiv",
+      "first_seen": "2026-09-24T08:51:14.614730+00:00",
+      "version_changed": false,
       "topics": [],
       "matches": {},
       "status": "candidate",
       "reason": "行星分类候选，待人工判断",
-      "method": "keyword",
-      "first_seen": "2026-09-24T08:51:14.614730+00:00",
-      "version_changed": false
+      "method": "keyword"
     },
     {
       "id": "2609.27622",
@@ -534,6 +554,8 @@
       "url": "https://arxiv.org/abs/2609.27622",
       "pdf": "https://arxiv.org/pdf/2609.27622v1",
       "source": "arXiv",
+      "first_seen": "2026-09-24T08:51:14.614730+00:00",
+      "version_changed": false,
       "topics": [
         "dynamics",
         "atmosphere",
@@ -556,9 +578,7 @@
       },
       "status": "candidate",
       "reason": "命中：atmospheric circulation、photochemistry、exoplanet、planetary evolution",
-      "method": "keyword",
-      "first_seen": "2026-09-24T08:51:14.614730+00:00",
-      "version_changed": false
+      "method": "keyword"
     },
     {
       "id": "2609.27722",
@@ -585,13 +605,13 @@
       "url": "https://arxiv.org/abs/2609.27722",
       "pdf": "https://arxiv.org/pdf/2609.27722v1",
       "source": "arXiv",
+      "first_seen": "2026-09-24T08:51:14.614730+00:00",
+      "version_changed": false,
       "topics": [],
       "matches": {},
       "status": "candidate",
       "reason": "行星分类候选，待人工判断",
-      "method": "keyword",
-      "first_seen": "2026-09-24T08:51:14.614730+00:00",
-      "version_changed": false
+      "method": "keyword"
     },
     {
       "id": "2609.28166",
@@ -627,6 +647,8 @@
       "url": "https://arxiv.org/abs/2609.28166",
       "pdf": "https://arxiv.org/pdf/2609.28166v1",
       "source": "arXiv",
+      "first_seen": "2026-09-24T08:51:14.614730+00:00",
+      "version_changed": false,
       "topics": [
         "surface"
       ],
@@ -637,9 +659,7 @@
       },
       "status": "candidate",
       "reason": "命中：weathering",
-      "method": "keyword",
-      "first_seen": "2026-09-24T08:51:14.614730+00:00",
-      "version_changed": false
+      "method": "keyword"
     },
     {
       "id": "2609.27031",
@@ -668,13 +688,13 @@
       "url": "https://arxiv.org/abs/2609.27031",
       "pdf": "https://arxiv.org/pdf/2609.27031v1",
       "source": "arXiv",
+      "first_seen": "2026-09-24T08:51:14.614730+00:00",
+      "version_changed": false,
       "topics": [],
       "matches": {},
       "status": "candidate",
       "reason": "行星分类候选，待人工判断",
-      "method": "keyword",
-      "first_seen": "2026-09-24T08:51:14.614730+00:00",
-      "version_changed": false
+      "method": "keyword"
     },
     {
       "id": "2609.27039",
@@ -702,13 +722,13 @@
       "url": "https://arxiv.org/abs/2609.27039",
       "pdf": "https://arxiv.org/pdf/2609.27039v1",
       "source": "arXiv",
+      "first_seen": "2026-09-24T08:51:14.614730+00:00",
+      "version_changed": false,
       "topics": [],
       "matches": {},
       "status": "candidate",
       "reason": "行星分类候选，待人工判断",
-      "method": "keyword",
-      "first_seen": "2026-09-24T08:51:14.614730+00:00",
-      "version_changed": false
+      "method": "keyword"
     },
     {
       "id": "2609.27140",
@@ -730,13 +750,13 @@
       "url": "https://arxiv.org/abs/2609.27140",
       "pdf": "https://arxiv.org/pdf/2609.27140v1",
       "source": "arXiv",
+      "first_seen": "2026-09-24T08:51:14.614730+00:00",
+      "version_changed": false,
       "topics": [],
       "matches": {},
       "status": "candidate",
       "reason": "行星分类候选，待人工判断",
-      "method": "keyword",
-      "first_seen": "2026-09-24T08:51:14.614730+00:00",
-      "version_changed": false
+      "method": "keyword"
     },
     {
       "id": "2609.27997",
@@ -857,6 +877,8 @@
       "url": "https://arxiv.org/abs/2609.27997",
       "pdf": "https://arxiv.org/pdf/2609.27997v1",
       "source": "arXiv",
+      "first_seen": "2026-09-24T08:51:14.614730+00:00",
+      "version_changed": false,
       "topics": [
         "evolution"
       ],
@@ -867,9 +889,7 @@
       },
       "status": "candidate",
       "reason": "命中：protoplanetary",
-      "method": "keyword",
-      "first_seen": "2026-09-24T08:51:14.614730+00:00",
-      "version_changed": false
+      "method": "keyword"
     },
     {
       "id": "2609.28001",
@@ -892,6 +912,8 @@
       "url": "https://arxiv.org/abs/2609.28001",
       "pdf": "https://arxiv.org/pdf/2609.28001v1",
       "source": "arXiv",
+      "first_seen": "2026-09-24T08:51:14.614730+00:00",
+      "version_changed": false,
       "topics": [
         "detection"
       ],
@@ -902,9 +924,7 @@
       },
       "status": "candidate",
       "reason": "命中：exoplanet",
-      "method": "keyword",
-      "first_seen": "2026-09-24T08:51:14.614730+00:00",
-      "version_changed": false
+      "method": "keyword"
     },
     {
       "id": "2509.12737",
@@ -927,6 +947,8 @@
       "url": "https://arxiv.org/abs/2509.12737",
       "pdf": "https://arxiv.org/pdf/2509.12737v2",
       "source": "arXiv",
+      "first_seen": "2026-09-24T08:51:14.614730+00:00",
+      "version_changed": true,
       "topics": [
         "detection"
       ],
@@ -938,9 +960,7 @@
       },
       "status": "candidate",
       "reason": "命中：exoplanet、transmission spectrum",
-      "method": "keyword",
-      "first_seen": "2026-09-24T08:51:14.614730+00:00",
-      "version_changed": true
+      "method": "keyword"
     },
     {
       "id": "2606.14646",
@@ -963,6 +983,8 @@
       "url": "https://arxiv.org/abs/2606.14646",
       "pdf": "https://arxiv.org/pdf/2606.14646v2",
       "source": "arXiv",
+      "first_seen": "2026-09-24T08:51:14.614730+00:00",
+      "version_changed": true,
       "topics": [
         "evolution",
         "surface"
@@ -978,9 +1000,7 @@
       },
       "status": "candidate",
       "reason": "命中：magma ocean、volatile、outgassing",
-      "method": "keyword",
-      "first_seen": "2026-09-24T08:51:14.614730+00:00",
-      "version_changed": true
+      "method": "keyword"
     },
     {
       "id": "2609.08710",
@@ -1001,13 +1021,13 @@
       "url": "https://arxiv.org/abs/2609.08710",
       "pdf": "https://arxiv.org/pdf/2609.08710v3",
       "source": "arXiv",
+      "first_seen": "2026-09-24T08:51:14.614730+00:00",
+      "version_changed": true,
       "topics": [],
       "matches": {},
       "status": "candidate",
       "reason": "行星分类候选，待人工判断",
-      "method": "keyword",
-      "first_seen": "2026-09-24T08:51:14.614730+00:00",
-      "version_changed": true
+      "method": "keyword"
     },
     {
       "id": "2609.24283",
@@ -1029,13 +1049,13 @@
       "url": "https://arxiv.org/abs/2609.24283",
       "pdf": "https://arxiv.org/pdf/2609.24283v2",
       "source": "arXiv",
+      "first_seen": "2026-09-24T08:51:14.614730+00:00",
+      "version_changed": true,
       "topics": [],
       "matches": {},
       "status": "candidate",
       "reason": "行星分类候选，待人工判断",
-      "method": "keyword",
-      "first_seen": "2026-09-24T08:51:14.614730+00:00",
-      "version_changed": true
+      "method": "keyword"
     },
     {
       "id": "2605.14971",
@@ -1058,6 +1078,8 @@
       "url": "https://arxiv.org/abs/2605.14971",
       "pdf": "https://arxiv.org/pdf/2605.14971v2",
       "source": "arXiv",
+      "first_seen": "2026-09-24T08:51:14.614730+00:00",
+      "version_changed": false,
       "topics": [
         "evolution"
       ],
@@ -1068,9 +1090,7 @@
       },
       "status": "candidate",
       "reason": "命中：protoplanetary",
-      "method": "keyword",
-      "first_seen": "2026-09-24T08:51:14.614730+00:00",
-      "version_changed": false
+      "method": "keyword"
     },
     {
       "id": "2606.05237",
@@ -1148,6 +1168,8 @@
       "url": "https://arxiv.org/abs/2606.05237",
       "pdf": "https://arxiv.org/pdf/2606.05237v3",
       "source": "arXiv",
+      "first_seen": "2026-09-24T08:51:14.614730+00:00",
+      "version_changed": false,
       "topics": [
         "detection",
         "evolution"
@@ -1162,9 +1184,7 @@
       },
       "status": "candidate",
       "reason": "命中：exoplanet、protoplanetary",
-      "method": "keyword",
-      "first_seen": "2026-09-24T08:51:14.614730+00:00",
-      "version_changed": false
+      "method": "keyword"
     },
     {
       "id": "2607.24418",
@@ -1187,13 +1207,13 @@
       "url": "https://arxiv.org/abs/2607.24418",
       "pdf": "https://arxiv.org/pdf/2607.24418v2",
       "source": "arXiv",
+      "first_seen": "2026-09-24T08:51:14.614730+00:00",
+      "version_changed": false,
       "topics": [],
       "matches": {},
       "status": "candidate",
       "reason": "行星分类候选，待人工判断",
-      "method": "keyword",
-      "first_seen": "2026-09-24T08:51:14.614730+00:00",
-      "version_changed": false
+      "method": "keyword"
     },
     {
       "id": "2609.15331",
@@ -1219,13 +1239,911 @@
       "url": "https://arxiv.org/abs/2609.15331",
       "pdf": "https://arxiv.org/pdf/2609.15331v2",
       "source": "arXiv",
+      "first_seen": "2026-09-24T08:51:14.614730+00:00",
+      "version_changed": false,
       "topics": [],
       "matches": {},
       "status": "candidate",
       "reason": "行星分类候选，待人工判断",
-      "method": "keyword",
-      "first_seen": "2026-09-24T08:51:14.614730+00:00",
-      "version_changed": false
+      "method": "keyword"
+    },
+    {
+      "id": "2609.26890",
+      "version_id": "2609.26890v1",
+      "title": "PR-Smoother: Simulator-Preserving Non-Gaussian Smoothing for Data Assimilation",
+      "abstract": "Many physical data assimilation (DA) workflows require smoothing methods that represent non-Gaussian posteriors over physical state variables, scale to high-dimensional simulators, train from observation windows alone, and remain compatible with calibration of the prescribed simulator. We introduce PR-Smoother, a simulator-preserving amortized smoother designed for this prescribed-simulator DA regime. Its key design principle is to keep the prescribed simulator explicit in both the evidence lower bound and the variational family: rather than learning replacement dynamics or a learned trajectory prior, PR-Smoother learns only future-conditioned corrections around the prescribed rollout. This yields an explicit non-Gaussian smoothing distribution over physical trajectories and supports joint state, parameter, and sensor-bias learning from observations alone. The variational family contains the exact smoother in deterministic and linear-Gaussian limits. Empirically, PR-Smoother captures multimodal posteriors in 4-dimensional Lorenz-96, remains accurate under ambiguous nonlinear observations and process noise in 40-dimensional Lorenz-96, and scales to joint state-parameter-bias inference in 16,384-dimensional Kolmogorov flow.",
+      "authors": [
+        "Yuta Tarumi"
+      ],
+      "categories": [
+        "cs.LG",
+        "nlin.CD",
+        "physics.ao-ph"
+      ],
+      "published": "2026-09-24T00:00:00-04:00",
+      "updated": "2026-09-24T04:35:50.847535+00:00",
+      "date_kind": "announcement",
+      "announcement_type": "cross",
+      "url": "https://arxiv.org/abs/2609.26890",
+      "pdf": "https://arxiv.org/pdf/2609.26890v1",
+      "source": "arXiv",
+      "first_seen": "2026-09-24T08:58:07.531315+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "未命中当前规则",
+      "method": "keyword"
+    },
+    {
+      "id": "2609.27093",
+      "version_id": "2609.27093v1",
+      "title": "The Localized 12-hour Wave Over Alaska: Leveraging Meridional Wind Measurements From the Sodium Lidar",
+      "abstract": "The 12-h wave in meridional winds in the mesosphere and lower thermosphere (MLT) during the solar minimum 2018-2019 Arctic winter is investigated using sodium lidar observations at Poker Flat Research Range (PFRR), Chatanika, Alaska (64N,147W). Nightly 12-h wave amplitudes increased significantly during December-January, with amplitudes exceeding 130 m/s above 97 km on several days. This was more than double the 12-h wave amplitudes observed outside this time period. Meteor radar winds over Chatanika also showed significant increase in meridional wind 12-h wave amplitudes at altitudes between 82 and 97 km during this time period with lower amplitudes than lidar measurements. The strong variation in 12-h wave amplitudes was not correlated with SME index, though the largest amplitudes coincided with the sudden stratospheric warming (SSW) in early January. Measurements were compared to a seasonal WACCM-X model run and four days of HIAMCM. For the four dates of available HIAMCM data, 12-h wave amplitudes over Chatanika were found to be similar between both HIAMCM and WACCM-X and the lidar below 97 km, with amplitudes measured by lidar exceeding the models at altitudes between 97-105 km. All measurements followed a similar seasonal trend with increasing amplitudes at the end of December/early January. Fits of SW2 from WACCM-X show the SW2 tidal amplitude following similar seasonal trends to 12-h wave measurements. These high-resolution lidar measurements indicate that localized 12-h wave amplitudes are larger than previously reported by studies using meteor radar measurements.",
+      "authors": [
+        "Sophie R. Phillips (Arizona State University)",
+        "Katrina Bossert (Arizona State University)",
+        "Komal Kumari (University of Illinois - Urbana-Champaign)",
+        "Erich Becker (NorthWest Research Associates)",
+        "Richard L. Collins (University of Alaska",
+        "Fairbanks)",
+        "Nicholas Pedatella (National Center for Atmospheric Research)"
+      ],
+      "categories": [
+        "physics.space-ph",
+        "physics.ao-ph"
+      ],
+      "published": "2026-09-24T00:00:00-04:00",
+      "updated": "2026-09-24T04:35:50.847645+00:00",
+      "date_kind": "announcement",
+      "announcement_type": "cross",
+      "url": "https://arxiv.org/abs/2609.27093",
+      "pdf": "https://arxiv.org/pdf/2609.27093v1",
+      "source": "arXiv",
+      "first_seen": "2026-09-24T08:58:07.531315+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "未命中当前规则",
+      "method": "keyword"
+    },
+    {
+      "id": "2609.27769",
+      "version_id": "2609.27769v1",
+      "title": "Surrogate inference for threshold-derived environmental indices depends on null placement and seasonal event concentration",
+      "abstract": "Threshold-derived environmental indices convert native-resolution variables into event indicators and aggregated counts, but surrogate tests may impose their null constraints either before or after this transformation. We show that these choices define different inferential targets. A threshold--copula representation separates temporal dependence from the seasonal event-probability vector and makes seasonal concentration an explicit experimental coordinate. In a prespecified benchmark of 13,500 short-memory monthly trajectories, an index-resolution marginal-and-spectrum surrogate and a constrained native-resolution surrogate produced strongly asymmetric paired conclusions: 1084 trajectories rejected only at index resolution, compared with 16 only at native resolution. Holding the expected annual event count fixed while concentrating event probability within the seasonal cycle increased index-only discordance from 4.4\\% to 16.2\\%. In an independent experiment, equalizing monthly event probability reduced the corresponding rate from 15.9\\% to 3.9\\%; the mitigation persisted when monthly percentiles were estimated from an independent 30-year reference period. Native-resolution inference was calibrated under the benchmark null but had strongly mechanism-dependent sensitivity: the strongest prespecified history-feedback alternative had a 30.7\\% detection rate under the fixed synthetic gate, with substantially lower sensitivity to a persistent-regime alternative. A Coupled Model Intercomparison Project Phase 6 Amazon dry-month case study was non-discriminating, illustrating why null placement and design-specific detectability should be reported together. The results provide a practical framework for surrogate inference on threshold-derived hydroclimatic and environmental indices.",
+      "authors": [
+        "Mauricio Herrera-Mar\\'in"
+      ],
+      "categories": [
+        "stat.AP",
+        "physics.ao-ph",
+        "physics.data-an"
+      ],
+      "published": "2026-09-24T00:00:00-04:00",
+      "updated": "2026-09-24T04:35:50.847702+00:00",
+      "date_kind": "announcement",
+      "announcement_type": "cross",
+      "url": "https://arxiv.org/abs/2609.27769",
+      "pdf": "https://arxiv.org/pdf/2609.27769v1",
+      "source": "arXiv",
+      "first_seen": "2026-09-24T08:58:07.531315+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "未命中当前规则",
+      "method": "keyword"
+    },
+    {
+      "id": "2605.07167",
+      "version_id": "2605.07167v2",
+      "title": "GPROF-IR: An Improved Single-Channel Infrared Precipitation Retrieval for Merged Satellite Precipitation Products",
+      "abstract": "The Integrated Multi-Satellite Retrievals for the Global Precipitation Measurement (IMERG) product combines precipitation estimates from passive microwave (PMW) and infrared (IR) sensors to provide quasi-global precipitation estimates at half-hourly resolution. Because IR observations are primarily sensitive to cloud-top properties, however, IR-based precipitation estimates are generally less accurate than PMW estimates and can introduce artifacts into the merged precipitation fields. We introduce GPROF-IR, a neural-network-based precipitation retrieval designed to provide precipitation estimates from single-channel geostationary IR observations for the upcoming IMERG V08. GPROF-IR uses a convolutional neural network to exploit spatiotemporal information from sequences of half-hourly IR observations. We validate GPROF-IR against independent surface-based precipitation measurements over land and ocean. GPROF-IR substantially improves upon existing single-channel IR retrievals, including the IR retrieval used in IMERG V07 and more recent neural-network-based approaches. During overpasses of flagship PMW sensors, GPROF-IR is more accurate than the corresponding IMERG PMW estimates over CONUS and Austria, but not Korea. Over CONUS, GPROF-IR outperforms the merged IMERG V07 product for hourly and daily precipitation accumulations. Against shipborne disdrometer observations, GPROF-IR is more accurate than IMERG V07 in the tropics but slightly less accurate in the extratropics. Since geostationary IR observations are continuously available across much of the globe since 1983, GPROF-IR provides a promising basis for improving merged precipitation products and developing long-term, temporally consistent precipitation records.",
+      "authors": [
+        "Simon Pfreundschuh",
+        "Christian D. Kummerow",
+        "Jackson Tan",
+        "George J. Huffman"
+      ],
+      "categories": [
+        "physics.ao-ph"
+      ],
+      "published": "2026-09-24T00:00:00-04:00",
+      "updated": "2026-09-24T04:35:50.847756+00:00",
+      "date_kind": "announcement",
+      "announcement_type": "replace",
+      "url": "https://arxiv.org/abs/2605.07167",
+      "pdf": "https://arxiv.org/pdf/2605.07167v2",
+      "source": "arXiv",
+      "first_seen": "2026-09-24T08:58:07.531315+00:00",
+      "version_changed": true,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "未命中当前规则",
+      "method": "keyword"
+    },
+    {
+      "id": "2609.27907",
+      "version_id": "2609.27907v1",
+      "title": "3-D thermomechanical geodynamic modelling of heating and volcanism in the Massif Central (France) and Eifel Volcanic Region (Germany)",
+      "abstract": "The French Massif Central and the Eifel Volcanic Field represent two of the enigmatic features in France and Germany, respectively. Both areas have been affected by Cenozoic volcanism whose origin is still debated. Using 3-D numerical geodynamic modelling of recently developed solid-mechanical constitutive laws including viscoelastic-viscoplastic behaviour, we explored a new hypothesis to highlight the contribution of localised deformational (inelastic) heating towards the evolution of localised volcanism as being due to far-field-induced compressive stresses from the Africa-Eurasia convergence. Our simulations show that variations in crustal thicknesses can help localise inelastic strain near the Moho of relatively thicker crust, which leads to enhanced heating. Localised viscoplastic deformation above the brittle-ductile transition in the crust also formed conjugate deformation bands, resulting in localised changes in the topography which can be compared to present-day topography. The first-order picture that emerges from our simulations shows an association of elevated topography and tectonic structures that localise deformation, with a geothermal anomaly sufficient to explain the elevated heat flow and cause a potential localised zone for partial melting in hydrated or CO\\textsubscript{2}-bearing mantle below the Moho.",
+      "authors": [
+        "E. Momoh",
+        "S. Tait",
+        "H S. Bhat"
+      ],
+      "categories": [
+        "physics.geo-ph"
+      ],
+      "published": "2026-09-24T00:00:00-04:00",
+      "updated": "2026-09-24T04:26:01.476116+00:00",
+      "date_kind": "announcement",
+      "announcement_type": "new",
+      "url": "https://arxiv.org/abs/2609.27907",
+      "pdf": "https://arxiv.org/pdf/2609.27907v1",
+      "source": "arXiv",
+      "first_seen": "2026-09-24T08:58:07.531315+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "未命中当前规则",
+      "method": "keyword"
+    },
+    {
+      "id": "2609.28426",
+      "version_id": "2609.28426v1",
+      "title": "Shape matters: DEM investigation of geometry-controlled mechanical response in irregular rock fragments under static and dynamic loading",
+      "abstract": "Mechanical characterization of subsurface rock formations typically requires standardized cylindrical core specimens, which are often unavailable from fractured or unconventional reservoir sequences. This study uses a Discrete Element Method (DEM) framework calibrated to Sulphur Mountain Formation siltstone to investigate how fragment geometry governs mechanical response in irregular rock particles, which are direct analogues of drill cuttings. Nineteen specimens (18 procedurally generated irregular geometries and one reference Brazilian disk), normalized to a 10 mm bounding sphere radius, were tested under quasi-static (Brazilian-type) and dynamic (Short Impact Load Cell) loading modes. Four mechanical outputs of failure force (Ff), apparent strength ({\\sigma}f), apparent stiffness (Ka), and stiffness (E) were regressed against seven retained shape descriptors. Results show that force-based quantities are strongly controlled by the surface-area-to-volume (SA/V) ratio under static loading (Adj. R2 = 0.69), while area-normalized quantities ({\\sigma}f and E) are geometrically insensitive. Dynamic loading amplifies geometric sensitivity for failure force and introduces an independent role for surface concavity depth. These findings establish a preliminary quantitative framework for interpreting mechanical measurements from irregular rock fragments when a standardized core is unavailable.",
+      "authors": [
+        "Athena Bahramiyarahmadi",
+        "Rick Chalaturnyk"
+      ],
+      "categories": [
+        "physics.geo-ph",
+        "cond-mat.mtrl-sci",
+        "physics.app-ph"
+      ],
+      "published": "2026-09-24T00:00:00-04:00",
+      "updated": "2026-09-24T04:26:01.476229+00:00",
+      "date_kind": "announcement",
+      "announcement_type": "new",
+      "url": "https://arxiv.org/abs/2609.28426",
+      "pdf": "https://arxiv.org/pdf/2609.28426v1",
+      "source": "arXiv",
+      "first_seen": "2026-09-24T08:58:07.531315+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "未命中当前规则",
+      "method": "keyword"
+    },
+    {
+      "id": "2605.13594",
+      "version_id": "2605.13594v3",
+      "title": "Assessing foundational atomistic models for iron alloys under Earth's core conditions",
+      "abstract": "We assess the capability of recently developed foundational atomistic models (FAMs) to simulate iron alloys under the extreme pressures and temperatures of Earth's core. Static equations of state for hexagonal close-packed (hcp) and body-centered cubic (bcc) iron, computed using 17 FAMs, are benchmarked against ab initio calculations. Two representative models, MatterSim and MACE, are further evaluated for their ability to reproduce phonon spectra, liquid structure, and melting relations of iron at core conditions. While both models capture several key properties, MACE substantially overestimates the stability of bcc iron and fails to correctly describe the stability of hcp iron. Their performance is also examined for binary liquids, superionic phases, and a seven-component Fe-Ni-Si-S-O-H-C liquid. Although these FAMs were not explicitly trained on data from core conditions, they can reproduce several structural and dynamical properties across a wide range of compositions. However, none of the tested models consistently reproduces all first-principles benchmarks. By analyzing the origins of these discrepancies, we identify several limitations of current FAMs, particularly the lack of an explicit treatment of thermal electronic excitations, which significantly affect phase stability and thermodynamic properties under core conditions. We further discuss directions for improving FAMs to enable predictive simulations of core-forming materials under extreme conditions.",
+      "authors": [
+        "Tianqi Wan",
+        "Liangrui Wei",
+        "Zepeng Wu",
+        "Renata M. Wentzcovitch",
+        "Yang Sun"
+      ],
+      "categories": [
+        "physics.geo-ph",
+        "cond-mat.mtrl-sci"
+      ],
+      "published": "2026-09-24T00:00:00-04:00",
+      "updated": "2026-09-24T04:26:01.476297+00:00",
+      "date_kind": "announcement",
+      "announcement_type": "replace",
+      "url": "https://arxiv.org/abs/2605.13594",
+      "pdf": "https://arxiv.org/pdf/2605.13594v3",
+      "source": "arXiv",
+      "first_seen": "2026-09-24T08:58:07.531315+00:00",
+      "version_changed": true,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "未命中当前规则",
+      "method": "keyword"
+    },
+    {
+      "id": "2608.21045",
+      "version_id": "2608.21045v3",
+      "title": "Time-Resolved Surface-Fault Displacement During the 2026 Kumamoto Earthquake From Near-Fault Video",
+      "abstract": "Video recordings can reveal how rapidly fault displacement develops at the Earth's surface, but camera motion and recording artifacts can obscure the ground signal. We analyze a secondary copy of security-camera footage that captured surface displacement during the 28 July 2026 Kumamoto earthquake; the native recording was unavailable and could not be recovered. Two independent image-tracking methods were used. Optical flow follows identifiable image features, whereas normalized cross-correlation (NCC) template matching follows fixed image patches by their similarity. Both measured target-region motion relative to spatially separated reference regions while correcting motion shared by the recording. Image displacement was calibrated to the magnitude of the field-measured offset vector: 1.05 m right-lateral and 0.90 m east-side-up, or 1.383 m in total. We characterize the principal rise by the time required for displacement to progress from 20% to 80% of the selected final level. Across prespecified endpoint choices, optical flow gives 0.866-0.901 s and NCC gives 0.910-0.928 s. These durations correspond to average rates of 0.920-0.958 and 0.895-0.912 m/s, respectively. Checks using independently published tracking windows reproduce the displacement scale, although exact timing is more sensitive in spatially restricted tests. The record also shows an early apparent peak and decline followed by renewed apparent horizontal displacement. Because that later motion may represent either continued ground displacement or the geometry of the secondary recording, neither the permanent endpoint nor physical overshoot can be determined. The most robust conclusion is that the central part of the surface displacement developed in approximately 0.9 s at an average rate near 0.9 m/s.",
+      "authors": [
+        "Bogdan Enescu",
+        "Shinji Toda",
+        "Yuji Yagi",
+        "Kazuo Oike",
+        "Yu Xuan Teh",
+        "Shohei Nobuhara"
+      ],
+      "categories": [
+        "physics.geo-ph"
+      ],
+      "published": "2026-09-24T00:00:00-04:00",
+      "updated": "2026-09-24T04:26:01.476358+00:00",
+      "date_kind": "announcement",
+      "announcement_type": "replace",
+      "url": "https://arxiv.org/abs/2608.21045",
+      "pdf": "https://arxiv.org/pdf/2608.21045v3",
+      "source": "arXiv",
+      "first_seen": "2026-09-24T08:58:07.531315+00:00",
+      "version_changed": true,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "未命中当前规则",
+      "method": "keyword"
+    },
+    {
+      "id": "2609.26816",
+      "version_id": "2609.26816v1",
+      "title": "Learning Stiffness Dependent Fluid Structure Dynamics from Coarse Flow Representations",
+      "abstract": "This paper develops a data-driven framework for long-term prediction of fluid--structure interaction (FSI) dynamics, focusing on the flow-induced vibration (FIV) of a flexible plate. A stiffness-conditioned neural evolution operator jointly represents the Eulerian flow field and Lagrangian structural state. The plate is represented by 101 ordered structural tokens carrying nodal coordinates and velocities, with nondimensional bending stiffness as a global conditioning variable. Bidirectional cross-attention couples fluid and structural representations within a hybrid CNN-Transformer architecture. Trained with staged multi-step autoregressive rollouts and symmetry-reflected trajectories, a single operator captures three stiffness-dependent response regimes: deflected--flapping, deflected, and flapping. The predicted trajectories preserve the principal flow structures, structural oscillations, and dominant frequencies, while blind 1000-step rollouts remain bounded. The operator also interpolates to stiffness values excluded from training. To reduce sensitivity to under-resolved near-wall gradients in force reconstruction, we develop a differentiable aerodynamic-force module based on the derivative-moment transformation (DMT). Conventional wall-stress surface integrals are replaced by an enclosed 2D curve integral around the core vortex region, enabling accurate reconstruction of lift and drag. A Signed Distance Function (SDF) and smoothed Dirac-delta formulation make the integration fully differentiable while preserving gradient flow. The proposed framework provides an accurate and differentiable surrogate for stiffness-dependent FSI dynamics, enabling efficient parameter studies and future stiffness optimization for flow-energy-harvesting applications.",
+      "authors": [
+        "Chun-Jun Pu",
+        "Li-Wei Chen",
+        "Hai-Bo Huang"
+      ],
+      "categories": [
+        "physics.flu-dyn",
+        "cs.AI"
+      ],
+      "published": "2026-09-24T00:00:00-04:00",
+      "updated": "2026-09-24T04:40:44.480319+00:00",
+      "date_kind": "announcement",
+      "announcement_type": "new",
+      "url": "https://arxiv.org/abs/2609.26816",
+      "pdf": "https://arxiv.org/pdf/2609.26816v1",
+      "source": "arXiv",
+      "first_seen": "2026-09-24T08:58:07.531315+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "未命中当前规则",
+      "method": "keyword"
+    },
+    {
+      "id": "2609.26833",
+      "version_id": "2609.26833v1",
+      "title": "Probing magnetic correlations in anisotropic turbulence",
+      "abstract": "The topological classes of coherent structures in magnetohydrodynamic turbulence are studied using the irreducible representations of the SO(3) and SO(2) rotation groups. We probe the coherent structures around axisymmetric magnetic fields in the universe. Such axisymmetric fields can be found around filamentary structures as well as cosmic strings. We have considered a Gaussian and a non Gaussian magnetic field. We find that the field distribution leads to different coherent structures for the two cases. Our results show that the scattering of particles from the Gaussian structure depends predominantly on two lengthscales. In the case of the non Gaussian distribution, we can define a third intermediate lengthscale, similar to the Taylor lengthscale. In both the cases, we find that there is a dominance of the polarization anisotropy which indicates that the field gradients are forced into rigid spatial configurations. In the early universe, this will change the mean free path of the baryons and leptons in the coherent structures. Trapping of charged particle as well as their acceleration will be more frequent in the case of a magnetic field with a heavy tailed distribution. The lengthscale of density inhomogeneities close to these structures will thus be determined by the magnetic field distribution of the fields.",
+      "authors": [
+        "Bijita Bose",
+        "Somdeep Dey",
+        "Soma Sanyal"
+      ],
+      "categories": [
+        "physics.flu-dyn",
+        "astro-ph.CO"
+      ],
+      "published": "2026-09-24T00:00:00-04:00",
+      "updated": "2026-09-24T04:40:44.480430+00:00",
+      "date_kind": "announcement",
+      "announcement_type": "new",
+      "url": "https://arxiv.org/abs/2609.26833",
+      "pdf": "https://arxiv.org/pdf/2609.26833v1",
+      "source": "arXiv",
+      "first_seen": "2026-09-24T08:58:07.531315+00:00",
+      "version_changed": false,
+      "topics": [
+        "dynamics"
+      ],
+      "matches": {
+        "dynamics": [
+          "turbulence"
+        ]
+      },
+      "status": "candidate",
+      "reason": "命中：turbulence",
+      "method": "keyword"
+    },
+    {
+      "id": "2609.27062",
+      "version_id": "2609.27062v1",
+      "title": "A catalog of exact steady states in Kolmogorov flow",
+      "abstract": "Two-dimensional Kolmogorov flow is a common proving ground for the dynamical systems picture of turbulence. Hundreds of unstable periodic orbits have been found for this system across many Reynolds numbers and domain sizes, although the most well explored is Re$=40$ on a square $2\\pi\\times 2\\pi$ domain with a forcing wavenumber of $k=4.$ Here I present a catalog of 8952 exact steady states of the flow in this canonical parameter regime. These solutions provide a fixed constellation informing the dynamics of both turbulence and transients.",
+      "authors": [
+        "Matthew Golden"
+      ],
+      "categories": [
+        "physics.flu-dyn",
+        "nlin.CD"
+      ],
+      "published": "2026-09-24T00:00:00-04:00",
+      "updated": "2026-09-24T04:40:44.480493+00:00",
+      "date_kind": "announcement",
+      "announcement_type": "new",
+      "url": "https://arxiv.org/abs/2609.27062",
+      "pdf": "https://arxiv.org/pdf/2609.27062v1",
+      "source": "arXiv",
+      "first_seen": "2026-09-24T08:58:07.531315+00:00",
+      "version_changed": false,
+      "topics": [
+        "dynamics"
+      ],
+      "matches": {
+        "dynamics": [
+          "turbulence"
+        ]
+      },
+      "status": "candidate",
+      "reason": "命中：turbulence",
+      "method": "keyword"
+    },
+    {
+      "id": "2609.27137",
+      "version_id": "2609.27137v1",
+      "title": "Blade secondary vortex interaction noise in hovering rotors",
+      "abstract": "Recent indoor experiments on small-scale hovering rotors have reported mid-frequency quasi-tonal peaks of uncertain origin in the residual (aperiodic) far-field sound spectrum, even without wake recirculation. This study investigates their physical origin using hybrid Reynolds-averaged Navier-Stokes/large-eddy simulations coupled with a Ffowcs Williams-Hawkings acoustic analogy, applied to a four-bladed ideally twisted rotor in hover. The high-resolution simulation reproduces the measured higher-harmonic blade-passage-frequency tones, confirming that they arise from the rotor flow itself and not from the enclosed-chamber test environment. Flow-field analysis attributes the tones to blade secondary vortex interaction (BSVI): the outboard blade sections, between approximately r/R = 0.88 and 0.96, are repeatedly impinged upon by coherent, S-shaped secondary vortex worms formed by entrainment of the wake shear layer into the primary tip vortices of preceding blades. These aperiodic secondary vortices produce blade-to-blade correlated loading, yielding a quasi-tonal signature distinct from both purely periodic blade-vortex interaction and mostly stochastic blade-wake interaction noise. Spectral proper orthogonal decomposition of the zero-mean upwash confirms that the mid-frequency (3-10 kHz) content is dominated by a single, low-rank, spatially coherent mode associated with the braids, whereas a lower-frequency mode near 1 kHz is linked to the primary tip vortex core. BSVI is thus identified as a distinct and previously uncharacterized source of aperiodic tonal noise in hovering rotors, with direct implications for the acoustic design of small- to medium-scale rotorcraft and electric vertical take-off and landing propulsors.",
+      "authors": [
+        "Jordon Won",
+        "Seongkyu Lee"
+      ],
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "published": "2026-09-24T00:00:00-04:00",
+      "updated": "2026-09-24T04:40:44.480551+00:00",
+      "date_kind": "announcement",
+      "announcement_type": "new",
+      "url": "https://arxiv.org/abs/2609.27137",
+      "pdf": "https://arxiv.org/pdf/2609.27137v1",
+      "source": "arXiv",
+      "first_seen": "2026-09-24T08:58:07.531315+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "未命中当前规则",
+      "method": "keyword"
+    },
+    {
+      "id": "2609.27228",
+      "version_id": "2609.27228v1",
+      "title": "Measurement of Nanoscale Surface Disturbances on Liquid Jets Using the Mie Scattering Method",
+      "abstract": "The Plateau--Rayleigh instability of liquid jets governs a wide range of natural and industrial processes. While the classical linear stability theory accurately predicts disturbance growth rates and dominant wavelengths, it cannot quantify the amplitude and frequency spectrum of nanoscale initial surface disturbances. This critical missing information prevents accurate forecasting of breakup lengths and droplet generation. Conventional optical imaging is constrained by the diffraction limit and lacks the capability to resolve such nanoscale surface fluctuations. Here we introduce a Mie-scattering-based measurement technique to characterize nanoscale surface disturbances on liquid jets. The method employs a thin laser sheet to illuminate the jet, with scattered light captured at designated azimuthal observation angles. Based on Lorenz--Mie theory, we develop an inversion algorithm incorporating cosine similarity and cross-correlation to reconstruct jet surface disturbances from measured scattering fringes, achieving a sub-nanometer resolution for detecting diameter variations, with an overall measurement precision limited by a background noise floor of 0.18 nm RMS. Comparative analyses of forward and rainbow scattering signals further confirm that the surface disturbances become axially symmetric as the amplitude reaches a few nanometers, and thus satisfies the assumptions of the scattering model. Synchronous validations against high--speed imaging and scanning electron microscopy corroborate the quantitative accuracy of our scattering method. Applied in the near-nozzle region, the technique identifies two intrinsic signatures of initial perturbations: stochastic pulse-like fluctuations and low-frequency oscillations.",
+      "authors": [
+        "Dingwei Zhang",
+        "Qiyou Liu",
+        "Hu Sun",
+        "Qingfei Fu",
+        "Bingqiang Ji",
+        "Lijun Yang"
+      ],
+      "categories": [
+        "physics.flu-dyn",
+        "physics.optics"
+      ],
+      "published": "2026-09-24T00:00:00-04:00",
+      "updated": "2026-09-24T04:40:44.480604+00:00",
+      "date_kind": "announcement",
+      "announcement_type": "new",
+      "url": "https://arxiv.org/abs/2609.27228",
+      "pdf": "https://arxiv.org/pdf/2609.27228v1",
+      "source": "arXiv",
+      "first_seen": "2026-09-24T08:58:07.531315+00:00",
+      "version_changed": false,
+      "topics": [
+        "dynamics"
+      ],
+      "matches": {
+        "dynamics": [
+          "instability"
+        ]
+      },
+      "status": "candidate",
+      "reason": "命中：instability",
+      "method": "keyword"
+    },
+    {
+      "id": "2609.27292",
+      "version_id": "2609.27292v1",
+      "title": "Transition from a weak-elastic to an elastic-activated regime in two-dimensional polymeric turbulence",
+      "abstract": "We conduct direct numerical simulations to investigate the effects of dilute polymers on flow structure, statistical properties and energy transfer in 2D turbulence. As the Weissenberg number (Wi) increases, the flow undergoes a sharp but continuous crossover between a weak-elastic regime and an elastic-activated regime. In the weak-elastic regime, the flow remains close to its Newtonian counterpart and polymer stresses have weak dynamical effects. In the elastic-activated regime, elastic stresses attenuate vortical motions and promote shear-dominated filaments. Scale-by-scale energy analysis shows that polymer addition weakens both the inverse kinetic-energy cascade and the forward enstrophy cascade in the two regimes, whereas the kinetic--elastic exchange and the inter-scale redistribution of elastic energy differ between them. Kinetic-to-elastic conversion dominates over the analysed range of scales in the weak-elastic regime, whereas a partial transfer from elastic to kinetic energy emerges at small scales in the elastic-activated regime. The inter-scale transfer of elastic energy is dominated by inverse transfer over the large-scale range in the weak-elastic regime but by forward transfer over the small-scale range in the elastic-activated regime. These results link the crossover to the onset of strong elastic feedback from the polymers and the associated reorganisation of the scale-by-scale transfer pathways. Downstream-decay statistics also show the same qualitative two-regime behaviour.",
+      "authors": [
+        "Haoyu Wang",
+        "Hangyu Zhu",
+        "Xiaoqiu He",
+        "Yongliang Xiong"
+      ],
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "published": "2026-09-24T00:00:00-04:00",
+      "updated": "2026-09-24T04:40:44.480656+00:00",
+      "date_kind": "announcement",
+      "announcement_type": "new",
+      "url": "https://arxiv.org/abs/2609.27292",
+      "pdf": "https://arxiv.org/pdf/2609.27292v1",
+      "source": "arXiv",
+      "first_seen": "2026-09-24T08:58:07.531315+00:00",
+      "version_changed": false,
+      "topics": [
+        "dynamics"
+      ],
+      "matches": {
+        "dynamics": [
+          "turbulence"
+        ]
+      },
+      "status": "candidate",
+      "reason": "命中：turbulence",
+      "method": "keyword"
+    },
+    {
+      "id": "2609.27512",
+      "version_id": "2609.27512v1",
+      "title": "Concentration of Stationary Measures onto Large Scales in the Fast-Advection Limit of the Stochastically Forced Two-Dimensional Navier-Stokes Equations",
+      "abstract": "We investigate the fast-advection limit ($\\varepsilon \\to 0$) of the stochastically forced two-dimensional incompressible Navier-Stokes equations on the torus. Numerical simulations are performed at resolution $N = 128$ for four different forcing shells on both the square torus and a thin torus, with the advection parameter $\\varepsilon$ varied over approximately one decade. We find that the stationary distributions become increasingly concentrated on the lowest Fourier modes as $\\varepsilon \\to 0$, with the energy-to-enstrophy ratio $E/\\Omega$ and the fraction $R$ of enstrophy in the lowest modes both increasing monotonically. At finite $\\varepsilon$ the degree of concentration depends on the forcing shell through the effective spectral value $B_1/B_0$, in agreement with the condensation bound of Sznitman and Widmayer. Linear extrapolation to $\\varepsilon = 0$ suggests that the limiting values may be forcing-independent, with $B_1/B_0$ governing only the rate of convergence. The same qualitative behaviour persists on the thin torus.",
+      "authors": [
+        "Tobias Rohner"
+      ],
+      "categories": [
+        "physics.flu-dyn",
+        "cs.NA",
+        "math-ph",
+        "math.MP",
+        "math.NA",
+        "physics.comp-ph"
+      ],
+      "published": "2026-09-24T00:00:00-04:00",
+      "updated": "2026-09-24T04:40:44.480706+00:00",
+      "date_kind": "announcement",
+      "announcement_type": "new",
+      "url": "https://arxiv.org/abs/2609.27512",
+      "pdf": "https://arxiv.org/pdf/2609.27512v1",
+      "source": "arXiv",
+      "first_seen": "2026-09-24T08:58:07.531315+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "未命中当前规则",
+      "method": "keyword"
+    },
+    {
+      "id": "2609.27568",
+      "version_id": "2609.27568v1",
+      "title": "Mechanisms of transonic buffet over supercritical airfoils revealed by direct numerical simulations",
+      "abstract": "We use direct numerical simulations to study the turbulent transonic flow over a supercritical airfoil, spanning the transition from stable conditions to fully developed buffet at chord-based Reynolds numbers of $3\\times10^5$ and $6\\times10^5$. The Reynolds number determines the incoming boundary-layer state, thereby affecting the separation behaviour. Spectral proper orthogonal decomposition reveals a single dominant mode that emerges below onset and persists across the transition to buffet. The energy of this mode increases with the angle of attack while its spatial structure and fundamental frequency remain nearly unchanged, consistent with a global instability that saturates into a nonlinear limit cycle. Geometrical acoustics provides a first-order description of the global mode propagation and identifies two paths connecting the acoustic source, located in the near wake, to the shock. A shorter path impinges on the shock from behind, while a longer one circumvents the shock tip before reaching it from the front. Linearised shock--acoustic interaction theory predicts a stronger shock response to low-frequency, front-impinging acoustic disturbances. Space--time correlations link the establishment of a downstream path to complete boundary-layer separation, which is induced intermittently by the upstream motion of the shock. The sum of the upstream acoustic time along the front-impinging path and the downstream convective time is compatible with the measured buffet period at both Reynolds numbers. Together, these results are consistent with a unified picture of buffet, where an aeroacoustic feedback mechanism provides the physical pathways through which perturbations can sustain the global dynamics.",
+      "authors": [
+        "Giulio Soldati",
+        "Hang Song",
+        "Sergio Pirozzoli",
+        "Sanjiva K. Lele"
+      ],
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "published": "2026-09-24T00:00:00-04:00",
+      "updated": "2026-09-24T04:40:44.480767+00:00",
+      "date_kind": "announcement",
+      "announcement_type": "new",
+      "url": "https://arxiv.org/abs/2609.27568",
+      "pdf": "https://arxiv.org/pdf/2609.27568v1",
+      "source": "arXiv",
+      "first_seen": "2026-09-24T08:58:07.531315+00:00",
+      "version_changed": false,
+      "topics": [
+        "dynamics"
+      ],
+      "matches": {
+        "dynamics": [
+          "instability"
+        ]
+      },
+      "status": "candidate",
+      "reason": "命中：instability",
+      "method": "keyword"
+    },
+    {
+      "id": "2609.27892",
+      "version_id": "2609.27892v1",
+      "title": "What does anti-Fourier heat-flux agreement validate? Observability of the fourth-order closure state in a rarefied lid-driven cavity",
+      "abstract": "Cold-to-hot heat transfer is a conspicuous non-equilibrium feature of rarefied cavity flows and is often used to judge whether a continuum closure captures higher-order transport. We examine what such agreement actually establishes. The exact heat-flux balance shows that the fourth-order contribution enters only through the divergence of the composite tensor (A_{ij}=R^{\\mathrm{cl}}*{ij}+\\Delta\\delta*{ij}/3). A compactly supported Airy construction yields an infinite-dimensional family of symmetric divergence-free perturbations that preserve the flux-side wall trace. A two-dimensional-physical, three-dimensional-velocity (2D3V) description also leaves the transverse component (A_{zz}) unobserved. Heat flux therefore cannot uniquely identify the underlying fourth-order state. We test the consequences using direct simulation Monte Carlo (DSMC) ensembles and independent regularized 13-moment (R13) and regularized 26-moment (R26) solutions at two rarefaction levels. Counter-gradient transport and the dominant tensorial channel persist under changes in grid and particle number, whereas the local scalar fourth moment and the spatial organization of the counter-gradient region are more sensitive. A finite-particle-corrected fourth-moment audit shows that more than 95% of the resolved R26--DSMC composite-tensor discrepancy at the higher rarefaction lies in the discrete divergence-null space, whereas projected sampling noise hides only about half of its energy. R26 captures the circulation and heat-flux direction more closely than R13, yet the remaining differences concentrate in the wall and corner layers.",
+      "authors": [
+        "Ehsan Roohi"
+      ],
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "published": "2026-09-24T00:00:00-04:00",
+      "updated": "2026-09-24T04:40:44.480819+00:00",
+      "date_kind": "announcement",
+      "announcement_type": "new",
+      "url": "https://arxiv.org/abs/2609.27892",
+      "pdf": "https://arxiv.org/pdf/2609.27892v1",
+      "source": "arXiv",
+      "first_seen": "2026-09-24T08:58:07.531315+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "未命中当前规则",
+      "method": "keyword"
+    },
+    {
+      "id": "2609.27943",
+      "version_id": "2609.27943v1",
+      "title": "What We Can Learn From DNS of Turbulence in Porous Media: Modeling Turbulent Flow in Composite Porous/Fluid Domains",
+      "abstract": "Our recently published papers reporting results of Direct Numerical Simulation (DNS) of forced convection flows in porous media suggest that in a porous medium the size of turbulent structures is restricted by the pore scale. Since the turbulent kinetic energy is predominantly contained within large eddies, this suggests that turbulent flow in a porous medium may carry less energy that its counterpart in a clear fluid domain. We use this insight to develop a practical model of turbulent flow in composite porous/fluid domains. In such domains, most of the flow is expected to occur in the clear fluid region; therefore, in most cases the flow in the porous region either remains laminar or starts its transition to turbulence even if the flow in the clear fluid region is fully turbulent. This conclusion is confirmed by comparing appropriate Reynolds numbers with their critical values. Therefore, for most cases, using the Forchheimer term in the momentum equation and the thermal dispersion term in the energy equation may result in a sufficiently good model for the porous region. However, what may really affect turbulent convection in composite domains is the roughness of the porous/fluid interface. If particles or fibers that constitute the porous medium (and the pores) are relatively large, the impact of the roughness on convection heat transfer in composite porous/fluid domains may be much more significant than the impact of possible turbulence in the porous region. We use the above considerations to develop a practical model of turbulent flow in a composite porous/fluid domain, concentrating on the effect of interface roughness on turbulence.",
+      "authors": [
+        "A. V. Kuznetsov"
+      ],
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "published": "2026-09-24T00:00:00-04:00",
+      "updated": "2026-09-24T04:40:44.480896+00:00",
+      "date_kind": "announcement",
+      "announcement_type": "new",
+      "url": "https://arxiv.org/abs/2609.27943",
+      "pdf": "https://arxiv.org/pdf/2609.27943v1",
+      "source": "arXiv",
+      "first_seen": "2026-09-24T08:58:07.531315+00:00",
+      "version_changed": false,
+      "topics": [
+        "dynamics"
+      ],
+      "matches": {
+        "dynamics": [
+          "convection",
+          "turbulence"
+        ]
+      },
+      "status": "candidate",
+      "reason": "命中：convection、turbulence",
+      "method": "keyword"
+    },
+    {
+      "id": "2609.28151",
+      "version_id": "2609.28151v1",
+      "title": "Effects of Corner Radius and Knudsen Number on Rarefied Gas Flow in a Lid-Driven Cavity",
+      "abstract": "Finite corner curvature is commonly omitted when rarefied cavity flows are represented using idealised geometries. This study examines how downstream corner rounding affects lid-driven cavity flow over 0.5 $\\le$ Kn $\\le$ 5. Direct simulation Monte Carlo calculations were performed for normalised corner radii of Rc = 0, 0.10 and 0.20. The model was assessed through published benchmark data and a local grid-sensitivity test. Velocity fields, centreline profiles, area-averaged speed, translational temperature, number density and temperature anisotropy were analysed. A single primary vortex persisted across all cases. Corner rounding modified the local turning of the downstream return flow but caused little change in the wider circulation. The root-mean-square differences between the rounded and sharp-cornered centreline velocity profiles remained below 0.007. The area-averaged normalised speed increased in all rounded configurations, with a maximum change of approximately 2.5%. The thermodynamic response showed a stronger dependence on rarefaction. Corner rounding reduced the mean temperature non-uniformity at Kn = 0.5 and 1, but increased it at Kn = 2 and 5. Changes in the mean density deviation remained within approximately 1.3%, while the mean translational-temperature anisotropy varied from about -3% to 2.4%. The results show that the sharp-corner approximation captures the global velocity structure under the conditions studied, but can omit local flow changes and small thermodynamic responses associated with finite corner curvature.",
+      "authors": [
+        "Peiliang Yan",
+        "Chuang Wen"
+      ],
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "published": "2026-09-24T00:00:00-04:00",
+      "updated": "2026-09-24T04:40:44.480959+00:00",
+      "date_kind": "announcement",
+      "announcement_type": "new",
+      "url": "https://arxiv.org/abs/2609.28151",
+      "pdf": "https://arxiv.org/pdf/2609.28151v1",
+      "source": "arXiv",
+      "first_seen": "2026-09-24T08:58:07.531315+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "未命中当前规则",
+      "method": "keyword"
+    },
+    {
+      "id": "2609.28173",
+      "version_id": "2609.28173v1",
+      "title": "Dynamical and statistical properties of large scales in turbulence",
+      "abstract": "We present a review of results concerning the properties of scales larger than the forcing scale in turbulent flows. In three-dimensional turbulence, when the power driving the flow is injected at a well-defined scale, the injection scale separates the small-scale range, where the Kolmogorov cascade takes place, from the large-scale range across which the mean energy flux is zero, suggesting that these modes are in equilibrium. We show that, in the case of spatially periodic forcing involving only a few modes, an equipartition energy spectrum is generated at large scales, and we discuss the deviations from equipartition observed with more complex forcings. In two-dimensional turbulence, the injection scale separates the direct enstrophy cascade toward small scales from the inverse energy cascade toward large scales. Because of the inverse cascade, one would not expect equilibrium statistical physics tools to be suitable for describing the large-scale structures. Yet this is precisely the situation in which such tools have been most widely used. We indeed show that the bifurcations observed between different largescale regimes of two-dimensional turbulence, both in experiments and in direct numerical simulations, can be qualitatively described by the Truncated Euler equations, whose solutions satisfy statistical equilibrium.",
+      "authors": [
+        "A. Alexakis",
+        "M. E. Brachet",
+        "S. Fauve",
+        "F. P\\'etr\\'elis"
+      ],
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "published": "2026-09-24T00:00:00-04:00",
+      "updated": "2026-09-24T04:40:44.481015+00:00",
+      "date_kind": "announcement",
+      "announcement_type": "new",
+      "url": "https://arxiv.org/abs/2609.28173",
+      "pdf": "https://arxiv.org/pdf/2609.28173v1",
+      "source": "arXiv",
+      "first_seen": "2026-09-24T08:58:07.531315+00:00",
+      "version_changed": false,
+      "topics": [
+        "dynamics"
+      ],
+      "matches": {
+        "dynamics": [
+          "turbulence"
+        ]
+      },
+      "status": "candidate",
+      "reason": "命中：turbulence",
+      "method": "keyword"
+    },
+    {
+      "id": "2609.28355",
+      "version_id": "2609.28355v1",
+      "title": "A partitioned fluid-structure interaction solver for two-phase sloshing and flexible spacecraft dynamics",
+      "abstract": "This paper presents a high-fidelity direct numerical simulation (DNS)-fluid-structure interaction (FSI) framework for rigid-liquid-flexible spacecraft dynamics under microgravity conditions. The liquid-gas flow is simulated with the incompressible two-phase solver implemented in DIVA, validated against FLUIDICS experiments conducted aboard the International Space Station (ISS). The flexible appendages are described by a rotating assumed-mode plate model that accounts for geometric stiffening. The fluid and structural operators are coupled through a Dirichlet-Neumann fixed-point algorithm with Aitken relaxation, and a closed-system mechanical energy balance is used as an a posteriori diagnostic to assess the energy imbalance of the partitioned discretisation. The coupling strategy is validated against an experimental free-decay sloshing benchmark, and its numerical consistency is assessed through spatial sensitivity studies of the energy-balance defect. Prescribed-motion, rigid open-loop, and flexible open-loop simulations of a spin-up manoeuvre are compared to isolate the effect of structural feedback on the sloshing response. Reduced liquid models identified from the different simulation architectures exhibit different predictive capabilities when embedded in the same rigid-flexible plant. A controller synthesized from the reduced model identified from the flexible simulation is replayed in the nonlinear CFD-FSI environment. The reduced model reproduces the principal attitude and actuator responses for the considered manoeuvre but does not recover the detailed nonlinear sloshing-load history. The framework provides a high-fidelity environment for analysing coupled spacecraft dynamics, identifying control-oriented models, and assessing reduced-model-based control strategies beyond their linear design representation.",
+      "authors": [
+        "Umberto Zucchelli",
+        "Miguel Alfonso Mendez",
+        "Annafederica Urbano",
+        "Sebastien Vincent-Bonnieu",
+        "Piotr Wenderski",
+        "Francesco Sanfedino"
+      ],
+      "categories": [
+        "eess.SY",
+        "cs.SY",
+        "physics.flu-dyn"
+      ],
+      "published": "2026-09-24T00:00:00-04:00",
+      "updated": "2026-09-24T04:40:44.481066+00:00",
+      "date_kind": "announcement",
+      "announcement_type": "cross",
+      "url": "https://arxiv.org/abs/2609.28355",
+      "pdf": "https://arxiv.org/pdf/2609.28355v1",
+      "source": "arXiv",
+      "first_seen": "2026-09-24T08:58:07.531315+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "未命中当前规则",
+      "method": "keyword"
+    },
+    {
+      "id": "2605.19796",
+      "version_id": "2605.19796v3",
+      "title": "Kinetic closure of turbulence: collision-side modeling beyond the filtered Boltzmann equation",
+      "abstract": "This article extends a recently introduced kinetic closure of turbulence by developing its theoretical framework, operational realizations, and validation. In contrast with filtered Navier--Stokes formulations, filtering the Boltzmann equation retains subgrid transport under the linear streaming operator, so that unresolved physics is concentrated on the collision side. We show that in dilute-gas large-eddy simulation, the main limitation of Bhatnagar--Gross--Krook (BGK)-type collision models is not the breakdown of molecular chaos, but the retention of a Markovian collision at a scale where filtering can induce finite temporal correlations in the collision product. In a BGK-type framework, the closure problem is dual: one must infer the filtered fine-grained equilibrium, not computable from filtered moments alone, and model the non-Markovian collision dynamics generated by the collision-product covariance. The present framework makes this dual structure explicit and represents the resulting collision-covariance source term through a BGK-like closure built from the equilibrium commutation residual, with the turbulent relaxation frequency given by a first phenomenological realization. The framework relies on a Chapman--Enskog analysis organized by the reference timescale ratio emerging from the nondimensionalization of the kinetic equation, performed in the classical sense, thereby avoiding artificial turbulent scale separations. We show that the Chapman--Enskog structure is not a pure one-parameter Knudsen scaling: the primary ordering is set by the kinetic-to-macroscopic timescale ratio, while higher moments retain an additional Mach dependence through the mixed scaling of particle velocity. The resulting kinetic closures are validated through lattice Boltzmann simulations and compared with the Smagorinsky model and regularization-based collision models.",
+      "authors": [
+        "Francesco Marson",
+        "Orestis Malaspinas"
+      ],
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "published": "2026-09-24T00:00:00-04:00",
+      "updated": "2026-09-24T04:40:44.481120+00:00",
+      "date_kind": "announcement",
+      "announcement_type": "replace",
+      "url": "https://arxiv.org/abs/2605.19796",
+      "pdf": "https://arxiv.org/pdf/2605.19796v3",
+      "source": "arXiv",
+      "first_seen": "2026-09-24T08:58:07.531315+00:00",
+      "version_changed": true,
+      "topics": [
+        "dynamics"
+      ],
+      "matches": {
+        "dynamics": [
+          "turbulence"
+        ]
+      },
+      "status": "candidate",
+      "reason": "命中：turbulence",
+      "method": "keyword"
+    },
+    {
+      "id": "2609.15762",
+      "version_id": "2609.15762v2",
+      "title": "Deep Koopman Sensing",
+      "abstract": "Real-time reconstruction of fluid flows from sparse sensor measurements is important for both physical understanding and flow control. When first-principles models are too expensive for online data assimilation (DA), learned reduced-order models provide an efficient alternative, but are commonly optimized for forward prediction rather than state estimation. We propose Deep Koopman Sensing, a data-driven reduced-order DA framework that combines a nonlinear autoencoder with parameter-conditioned linear latent dynamics approximating the Koopman operator. We compare the proposed model with parametric dynamic mode decomposition (pDMD), a multilayer perceptron (MLP), and xLSTM across four benchmarks: 1D viscous Burgers, 2D flow past a cylinder, 2D dambreak, and 3D flow past a sphere. Our results reveal a marked distinction between forecasting and sensing: open-loop accuracy does not reliably predict assimilation performance, while Deep Koopman Sensing achieves the lowest assimilation error across all four benchmarks. More importantly, with an extended Kalman filter, incorporating sensor measurements improves the estimates of both linear latent models across all four benchmarks, whereas it degrades the nonlinear models, despite their strong open-loop performance. With ensemble filtering, the nonlinear models are no longer degraded by assimilation, while the Koopman model still attains the lowest assimilation error. These results show that latent dynamics should be designed for the downstream estimation task rather than selected solely for forecast accuracy, and demonstrate Koopman-based reduced-order modeling as an effective approach for real-time flow reconstruction from sparse, streaming measurements.",
+      "authors": [
+        "Nithin Somasekharan",
+        "Yadi Cao",
+        "Shaowu Pan"
+      ],
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "published": "2026-09-24T00:00:00-04:00",
+      "updated": "2026-09-24T04:40:44.481170+00:00",
+      "date_kind": "announcement",
+      "announcement_type": "replace",
+      "url": "https://arxiv.org/abs/2609.15762",
+      "pdf": "https://arxiv.org/pdf/2609.15762v2",
+      "source": "arXiv",
+      "first_seen": "2026-09-24T08:58:07.531315+00:00",
+      "version_changed": true,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "未命中当前规则",
+      "method": "keyword"
+    },
+    {
+      "id": "2609.23787",
+      "version_id": "2609.23787v2",
+      "title": "Design of a combined polarimetric and velocimetric measurement for viscoelastic stress, and its constitutive resolving power",
+      "abstract": "A polarimeter does not report stress. It reports a retardance and an azimuth, and converting those to a stress pair fixes both the calibration that is required and the covariance that the subsequent inference must carry. We set out that observation chain for planar viscoelastic flow, combine it with velocimetry, and ask what the combined measurement can resolve. The calibration constant is fixed by three separately measurable quantities (path length, stress-optic coefficient and wavelength) rather than being fitted. Propagating the polarimetric errors to first order gives a stress covariance that is anisotropic and site dependent even for independent homoscedastic inputs, and whose conditioning degrades as the retardance approaches zero, where the linearization itself stops describing the measurement. Wrapping imposes a separate design bound. Two numerical studies follow, both in ideal calibrated stress coordinates under a prescribed covariance rather than the propagated polarimetric one. Holding the total scalar count fixed and varying the split between velocimetric and optical sites, an unequal allocation favoring optical sites outperforms either pure configuration. We then ask what the measurement resolves between constitutive models compatible with the same velocity data. In self-consistent pressure-driven flow of the finitely extensible nonlinear elastic Peterlin model, at extensibility L^2=50 and 3% noise, the optical channel rejects the velocity-compatible Oldroyd-B family in 78.1% of realizations at the Deborah number De=2, the ratio of the relaxation time to the flow timescale, and in 100% at De=4, while rejecting only about 5% below De=0.3. The resolving power of a design is therefore a strong function of Deborah number and must be quoted with it.",
+      "authors": [
+        "Zijian Liu",
+        "Julian Olszewski",
+        "Bruce I. Gaynes",
+        "Jie Xu"
+      ],
+      "categories": [
+        "physics.flu-dyn",
+        "physics.data-an",
+        "physics.optics"
+      ],
+      "published": "2026-09-24T00:00:00-04:00",
+      "updated": "2026-09-24T04:40:44.481232+00:00",
+      "date_kind": "announcement",
+      "announcement_type": "replace",
+      "url": "https://arxiv.org/abs/2609.23787",
+      "pdf": "https://arxiv.org/pdf/2609.23787v2",
+      "source": "arXiv",
+      "first_seen": "2026-09-24T08:58:07.531315+00:00",
+      "version_changed": true,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "未命中当前规则",
+      "method": "keyword"
+    },
+    {
+      "id": "2609.24368",
+      "version_id": "2609.24368v2",
+      "title": "A closed-form solution for streaming and Lagrangian transport in a deforming circular cavity",
+      "abstract": "Streaming from a deforming cavity wall serves micromixing, pumping and particle handling. We solve it in closed form in a two-dimensional circular cavity, for any azimuthal wall mode $m$, as $\\mathrm{Wo}^2 \\to 0$. A biharmonic inversion against the Reynolds stress, corrected by the second-order slip a moving wall imposes, gives the Lagrangian mean a tracer follows for a deforming no-slip wall, $\\psi_L = -[m(5m+4)a_m^2/(128(m+2)(2m+1))]\\,r^{2m}(r^2-1)^2\\sin 2m\\theta$, with a companion form for a shear-free interface. For a single mode the factor $(5m+4)/(m+2)$ relating it to the auxiliary solution $\\psi_2$ is the same for every member of the co-phased prescribed-velocity family; at $m=2$ the physical Eulerian mean peaks an order of magnitude above $\\psi_2$, with opposite sign. The no-slip cell centers lie at $r^2 = m/(m+2)$, and at large $m$ the peak streamfunction falls as $m^{-2}$, the peak speed as $m^{-1}$. At fixed radial wall-velocity amplitude the ranking over $m$ follows the wall kinematics: an externally driven wall peaks at $m=1$, a wall with zero first-order surface strain at $m=3$. Mode superpositions invert without degenerating, each harmonic carrying its own correction. At finite $\\mathrm{Wo}$ the first-order field stays closed form in Bessel functions and the mean flow reduces to quadrature; the construction approaches the $m=2$ Rayleigh limit on a separate tangentially driven boundary problem. An independent finite-element solver, with the closed form withheld, reproduces $\\psi_2$ with quadratic mesh convergence.",
+      "authors": [
+        "Zijian Liu",
+        "Julian Olszewski",
+        "Yang Lin",
+        "Yuan Gao",
+        "Mengren Wu",
+        "Jie Xu"
+      ],
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "published": "2026-09-24T00:00:00-04:00",
+      "updated": "2026-09-24T04:40:44.481304+00:00",
+      "date_kind": "announcement",
+      "announcement_type": "replace",
+      "url": "https://arxiv.org/abs/2609.24368",
+      "pdf": "https://arxiv.org/pdf/2609.24368v2",
+      "source": "arXiv",
+      "first_seen": "2026-09-24T08:58:07.531315+00:00",
+      "version_changed": true,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "未命中当前规则",
+      "method": "keyword"
+    },
+    {
+      "id": "2609.24866",
+      "version_id": "2609.24866v2",
+      "title": "Resolved multiple-droplet evaporation",
+      "abstract": "A simple, accurate asymptotic formula is derived for the spatially resolved evaporative flux from multiple spherical-cap droplets of arbitrary contact angle. Kelvin transforms are used to determine the exact response of a spherical-cap droplet to a point source, with extensions to higher multipoles. This yields explicit formulae for evaporative shielding and reveals a universal spatial structure in the point-source problem. Resolving the spatial variation enables the determination of the associated liquid flow and particle transport. The resulting flux is used to derive an explicit measure of shielding-induced liquid transport.",
+      "authors": [
+        "Alexander W Wray"
+      ],
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "published": "2026-09-24T00:00:00-04:00",
+      "updated": "2026-09-24T04:40:44.481360+00:00",
+      "date_kind": "announcement",
+      "announcement_type": "replace",
+      "url": "https://arxiv.org/abs/2609.24866",
+      "pdf": "https://arxiv.org/pdf/2609.24866v2",
+      "source": "arXiv",
+      "first_seen": "2026-09-24T08:58:07.531315+00:00",
+      "version_changed": true,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "未命中当前规则",
+      "method": "keyword"
+    },
+    {
+      "id": "2510.12203",
+      "version_id": "2510.12203v3",
+      "title": "Computational advances and challenges in simulations of turbulence and star formation",
+      "abstract": "We review recent advances in the numerical modeling of turbulent flows and star formation. An overview of the most widely used simulation codes and their core capabilities is provided. We then examine methods for achieving the highest-resolution magnetohydrodynamical turbulence simulations to date, highlighting challenges related to numerical viscosity and resistivity. State-of-the-art approaches to modeling gravity and star formation are discussed in detail, including implementations of star particles and feedback from jets, winds, heating, ionization, and supernovae. We review the latest techniques for radiation hydrodynamics, including ray tracing, Monte Carlo, and moment methods, with comparisons between the flux-limited diffusion, moment-1, and variable Eddington tensor methods. The final chapter summarizes advances in cosmic-ray transport schemes, emphasizing their growing importance for connecting small-scale star formation physics with galaxy-scale evolution.",
+      "authors": [
+        "Christoph Federrath",
+        "Stella Offner"
+      ],
+      "categories": [
+        "astro-ph.GA",
+        "astro-ph.IM",
+        "astro-ph.SR",
+        "physics.comp-ph",
+        "physics.flu-dyn"
+      ],
+      "published": "2026-09-24T00:00:00-04:00",
+      "updated": "2026-09-24T04:40:44.481411+00:00",
+      "date_kind": "announcement",
+      "announcement_type": "replace-cross",
+      "url": "https://arxiv.org/abs/2510.12203",
+      "pdf": "https://arxiv.org/pdf/2510.12203v3",
+      "source": "arXiv",
+      "first_seen": "2026-09-24T08:58:07.531315+00:00",
+      "version_changed": false,
+      "topics": [
+        "dynamics"
+      ],
+      "matches": {
+        "dynamics": [
+          "turbulence"
+        ]
+      },
+      "status": "candidate",
+      "reason": "命中：turbulence",
+      "method": "keyword"
+    },
+    {
+      "id": "2603.19561",
+      "version_id": "2603.19561v2",
+      "title": "An Adaptive Machine Learning Framework for Fluid Flow in Dual-Network Porous Media",
+      "abstract": "Porous materials -- natural or engineered -- often exhibit dual pore-network structures that govern processes such as mineral exploration and hydrocarbon recovery from tight shales. Double porosity/permeability (DPP) mathematical models describe incompressible fluid flow through two interacting pore networks with inter-network mass exchange. Despite significant advances in numerical methods, there remains a need for computational frameworks that enable rapid forecasting, data assimilation, and reliable inverse analysis. To address this, we present a physics-informed neural network (PINN) framework for forward and inverse modeling of DPP systems. The proposed approach encodes the governing equations in mixed form, along with boundary conditions, directly into the loss function, with adaptive weighting strategies to balance their contributions. Key features of the framework include adaptive weight tuning, dynamic collocation point selection, and the use of shared trunk neural architectures to efficiently capture the coupled behavior of the dual pore networks. It is inherently mesh-free, making it well-suited for complex geometries typical of porous media. It accurately captures discontinuities in solution fields across layered domains without introducing spurious oscillations commonly observed in classical finite element formulations. Importantly, the framework is well-suited for inverse analysis, enabling robust parameter identification in scenarios where key physical quantities -- such as the mass transfer coefficient in DPP models -- are difficult to measure directly. In addition, a systematic convergence analysis is provided to rigorously assess the stability, accuracy, and reliability of the method. The effectiveness and computational advantages of the approach are demonstrated through a series of representative numerical experiments.",
+      "authors": [
+        "V. S. Maduri",
+        "K. B. Nakshatrala"
+      ],
+      "categories": [
+        "math.NA",
+        "cs.LG",
+        "cs.NA",
+        "physics.flu-dyn"
+      ],
+      "published": "2026-09-24T00:00:00-04:00",
+      "updated": "2026-09-24T04:40:44.481468+00:00",
+      "date_kind": "announcement",
+      "announcement_type": "replace-cross",
+      "url": "https://arxiv.org/abs/2603.19561",
+      "pdf": "https://arxiv.org/pdf/2603.19561v2",
+      "source": "arXiv",
+      "first_seen": "2026-09-24T08:58:07.531315+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "未命中当前规则",
+      "method": "keyword"
+    },
+    {
+      "id": "2607.25385",
+      "version_id": "2607.25385v2",
+      "title": "Reciprocal theorem for ion-releasing colloidal particles",
+      "abstract": "We describe a generalization of the reciprocal theorem for particles suspended in electrolyte solutions and subjected to an electric field that could be either applied or emerged spontaneously. Attention is focused on catalytic colloids that release ions. The power of the generalization is to capture the effect of formation of a secondary cloud around a catalytic particle, which is equivalent to accounting for an excess charge $Q$ of a system. Our results show that the propulsion speed of catalytic particles has an extra contribution proportional to $Q$ and an external field $E_{\\infty}$. The derived equation for $Q$ reveals that its sign is defined by the difference in the ion diffusivity and the magnitude is controlled by the average flux of ions from the surface. We demonstrate the application of the generalized theorem to electro- and diffusiophoresis of homogeneously releasing ions passive particles, as well as to a self-propulsion of inhomogeneous active particles (microswimmers). It is shown that whilst in some situations the extra term in the reciprocal theorem vanishes or has a little effect on the particle mobility, in many others it may dramatically change its magnitude, and even sign. In addition, the relevance of our results for microswimmer interactions is discussed briefly.",
+      "authors": [
+        "Evgeny S. Asmolov",
+        "Olga I. Vinogradova"
+      ],
+      "categories": [
+        "cond-mat.soft",
+        "physics.flu-dyn"
+      ],
+      "published": "2026-09-24T00:00:00-04:00",
+      "updated": "2026-09-24T04:40:44.481523+00:00",
+      "date_kind": "announcement",
+      "announcement_type": "replace-cross",
+      "url": "https://arxiv.org/abs/2607.25385",
+      "pdf": "https://arxiv.org/pdf/2607.25385v2",
+      "source": "arXiv",
+      "first_seen": "2026-09-24T08:58:07.531315+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "未命中当前规则",
+      "method": "keyword"
     }
   ]
 }
