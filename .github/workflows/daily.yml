@@ -29,16 +29,23 @@ jobs:
         run: python -m unittest discover -p 'test_*.py' -v
       - name: Update public literature
         id: fetch
+        if: github.event_name != 'push'
         continue-on-error: true
         run: python update.py --days 7
       - name: Update journal metadata
         id: journals
+        if: github.event_name != 'push'
         continue-on-error: true
         run: python update_journals.py --days 14
       - name: Enrich introductions, affiliations and dates
         run: |
-          python enrich.py --limit 60
-          python dates.py --limit 60
+          if [ "${{ github.event_name }}" = "push" ]; then
+            python enrich.py --offline
+            python dates.py --offline
+          else
+            python enrich.py --limit 60
+            python dates.py --limit 60
+          fi
           python build_catalog.py
           python build_network.py
       - name: Save updated records
