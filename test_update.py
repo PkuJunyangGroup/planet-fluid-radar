@@ -11,6 +11,25 @@ class Rules(unittest.TestCase):
   return {'id':'test','title':title,'abstract':abstract,'categories':categories or []}
  def test_mechanism_bridge(self):
   self.assertEqual(update.classify(self.paper('Rossby waves in rotating fluid'),CONFIG)['status'],'candidate')
+ def test_atmospheric_dynamics_separate_from_climate(self):
+  topics=update.classify(self.paper('Atmospheric Rossby waves and jet streams'),CONFIG)['topics']
+  self.assertIn('dynamics',topics);self.assertIn('gfd',topics);self.assertNotIn('climate',topics)
+ def test_climate_dynamics_separate_from_atmospheric(self):
+  topics=update.classify(self.paper('ENSO and coupled climate feedback'),CONFIG)['topics']
+  self.assertIn('climate',topics);self.assertNotIn('dynamics',topics)
+ def test_geophysical_fluid_separate_from_ocean(self):
+  topics=update.classify(self.paper('Quasi-geostrophic rotating stratified flow in a laboratory'),CONFIG)['topics']
+  self.assertIn('gfd',topics);self.assertNotIn('ocean',topics)
+ def test_physical_ocean_and_shared_waves(self):
+  topics=update.classify(self.paper('Ocean heat transport and thermocline changes'),CONFIG)['topics']
+  self.assertIn('ocean',topics);self.assertNotIn('gfd',topics)
+  topics=update.classify(self.paper('Internal waves and ocean mixing'),CONFIG)['topics']
+  self.assertIn('ocean',topics);self.assertIn('gfd',topics)
+ def test_ocean_jet_and_atmospheric_overturning_stay_separate(self):
+  self.assertNotIn('dynamics',update.classify(self.paper('Ocean jet stream and mesoscale eddies'),CONFIG)['topics'])
+  self.assertNotIn('ocean',update.classify(self.paper('Walker overturning circulation with sea surface warming'),CONFIG)['topics'])
+ def test_galactic_turbulence_not_geophysical(self):
+  self.assertNotIn('gfd',update.classify(self.paper('Inverse cascade in interstellar turbulence'),CONFIG)['topics'])
  def test_stellar_radial_velocity_is_not_planet_detection(self):
   self.assertNotIn('detection',update.classify(self.paper('Radial velocity of hypervelocity stars'),CONFIG)['topics'])
  def test_non_atmospheric_precipitation(self):

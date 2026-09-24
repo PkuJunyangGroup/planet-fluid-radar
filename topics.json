@@ -134,31 +134,178 @@
     },
     {
       "id": "dynamics",
-      "name": "大气与气候动力学",
-      "name_en": "Atmospheric & climate dynamics",
+      "name": "大气动力学",
+      "name_en": "Atmospheric dynamics",
       "terms": [
         "atmospheric dynamics",
-        "climate dynamics",
         "general circulation",
         "hadley",
         "walker circulation",
         "rossby",
         "gravity wave",
         "baroclinic",
+        "baroclinicity",
         "superrotation",
         "atmospheric circulation",
+        "atmospheric tide",
+        "polar cyclone",
+        "jet stream",
+        "storm track",
+        "wave mean flow",
+        "stratospheric warming"
+      ],
+      "term_context": {
+        "general circulation": [
+          "atmosphere",
+          "atmospheric",
+          "troposphere",
+          "stratosphere",
+          "tropospheric",
+          "stratospheric",
+          "weather",
+          "monsoon",
+          "atmospheric circulation",
+          "superrotation"
+        ],
+        "rossby": [
+          "atmosphere",
+          "atmospheric",
+          "troposphere",
+          "stratosphere",
+          "tropospheric",
+          "stratospheric",
+          "weather",
+          "monsoon",
+          "atmospheric circulation",
+          "superrotation"
+        ],
+        "gravity wave": [
+          "atmosphere",
+          "atmospheric",
+          "troposphere",
+          "stratosphere",
+          "tropospheric",
+          "stratospheric",
+          "weather",
+          "monsoon",
+          "atmospheric circulation",
+          "superrotation"
+        ],
+        "baroclinic": [
+          "atmosphere",
+          "atmospheric",
+          "troposphere",
+          "stratosphere",
+          "tropospheric",
+          "stratospheric",
+          "weather",
+          "monsoon",
+          "atmospheric circulation",
+          "superrotation"
+        ],
+        "baroclinicity": [
+          "atmosphere",
+          "atmospheric",
+          "troposphere",
+          "stratosphere",
+          "tropospheric",
+          "stratospheric",
+          "weather",
+          "monsoon",
+          "atmospheric circulation",
+          "superrotation"
+        ],
+        "polar cyclone": [
+          "atmosphere",
+          "atmospheric",
+          "troposphere",
+          "stratosphere",
+          "tropospheric",
+          "stratospheric",
+          "weather",
+          "monsoon",
+          "atmospheric circulation",
+          "superrotation"
+        ],
+        "wave mean flow": [
+          "atmosphere",
+          "atmospheric",
+          "troposphere",
+          "stratosphere",
+          "tropospheric",
+          "stratospheric",
+          "weather",
+          "monsoon",
+          "atmospheric circulation",
+          "superrotation"
+        ],
+        "jet stream": [
+          "atmosphere",
+          "atmospheric",
+          "troposphere",
+          "stratosphere",
+          "tropospheric",
+          "stratospheric",
+          "weather",
+          "monsoon",
+          "atmospheric circulation",
+          "superrotation"
+        ]
+      }
+    },
+    {
+      "id": "climate",
+      "name": "气候动力学",
+      "name_en": "Climate dynamics",
+      "terms": [
+        "climate dynamics",
         "climate sensitivity",
+        "climate feedback",
+        "cloud feedback",
+        "radiative feedback",
         "hydrological cycle",
         "water cycle",
         "radiative convective equilibrium",
-        "atmospheric tide",
-        "polar cyclone"
-      ]
+        "climate variability",
+        "climate response",
+        "climate stability",
+        "climate transition",
+        "climate oscillation",
+        "climate tipping",
+        "energy balance",
+        "el nino",
+        "la nina",
+        "enso",
+        "intertropical convergence zone",
+        "ice albedo feedback",
+        "ocean atmosphere coupling",
+        "coupled climate",
+        "paleoclimate dynamics"
+      ],
+      "term_context": {
+        "energy balance": [
+          "climate",
+          "planetary",
+          "atmosphere",
+          "atmospheric",
+          "ocean",
+          "radiative",
+          "greenhouse"
+        ],
+        "water cycle": [
+          "climate",
+          "planet",
+          "planetary",
+          "atmosphere",
+          "atmospheric",
+          "hydrological"
+        ]
+      }
     },
     {
       "id": "ocean",
-      "name": "物理海洋与地球流体",
-      "name_en": "Physical oceanography & GFD",
+      "name": "物理海洋",
+      "name_en": "Physical oceanography",
       "terms": [
         "ocean circulation",
         "ocean heat transport",
@@ -167,18 +314,110 @@
         "ocean mixing",
         "overturning circulation",
         "thermocline",
-        "geophysical fluid",
-        "rotating fluid",
-        "stratified flow",
-        "internal wave",
         "ocean eddy",
         "ocean eddies",
         "air sea interaction",
+        "ocean current",
+        "ocean stratification",
+        "ocean turbulence",
+        "oceanic turbulence",
+        "oceanic circulation",
+        "oceanic mixing",
+        "oceanic heat transport",
+        "mesoscale eddy",
+        "mesoscale eddies",
+        "submesoscale",
+        "internal wave"
+      ],
+      "term_context": {
+        "internal wave": [
+          "ocean",
+          "oceanic",
+          "marine",
+          "sea",
+          "seawater",
+          "abyssal"
+        ],
+        "mesoscale eddy": [
+          "ocean",
+          "oceanic",
+          "marine",
+          "sea",
+          "seawater",
+          "abyssal"
+        ],
+        "mesoscale eddies": [
+          "ocean",
+          "oceanic",
+          "marine",
+          "sea",
+          "seawater",
+          "abyssal"
+        ],
+        "submesoscale": [
+          "ocean",
+          "oceanic",
+          "marine",
+          "sea",
+          "seawater",
+          "abyssal"
+        ],
+        "overturning circulation": [
+          "ocean",
+          "oceanic",
+          "abyssal",
+          "thermohaline",
+          "amoc"
+        ]
+      }
+    },
+    {
+      "id": "gfd",
+      "name": "地球流体力学",
+      "name_en": "Geophysical fluid dynamics",
+      "terms": [
+        "geophysical fluid",
+        "rotating fluid",
+        "stratified flow",
+        "stratified fluid",
+        "rotating stratified",
         "rotating convection",
+        "quasigeostrophic",
+        "quasi geostrophic",
+        "geostrophic",
+        "potential vorticity",
+        "rossby",
+        "baroclinic",
+        "barotropic instability",
+        "shallow water",
+        "internal wave",
+        "inertial wave",
+        "beta plane",
+        "f plane",
+        "thermal wind",
+        "taylor proudman",
+        "ekman",
         "kolmogorov flow",
         "two dimensional turbulence",
         "2d turbulence",
         "inverse cascade"
+      ],
+      "reject_context": [
+        "galaxy",
+        "galaxies",
+        "interstellar",
+        "accretion disk",
+        "accretion disc",
+        "stellar interior",
+        "stellar convection"
+      ],
+      "allow_context": [
+        "geophysical",
+        "ocean",
+        "oceanic",
+        "planetary atmosphere",
+        "atmospheric circulation",
+        "earth atmosphere"
       ]
     },
     {

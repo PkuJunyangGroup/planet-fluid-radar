@@ -9,14 +9,16 @@
 
 ## 学科与内容
 
-- 行星大气与气候
+- 行星大气与气候 · Planetary atmospheres & climate
 - 大气物理：重点为相关的辐射、云、水汽与凝结物理
-- 大气与气候动力学
-- 物理海洋与地球流体
-- 系外行星探测与表征
-- 行星内部与演化
-- 表层过程与古气候
-- 数学物理与数值方法
+- 大气动力学 · Atmospheric dynamics
+- 气候动力学 · Climate dynamics
+- 物理海洋 · Physical oceanography
+- 地球流体力学 · Geophysical fluid dynamics
+- 系外行星探测与表征 · Exoplanet detection & characterization
+- 行星内部与演化 · Planetary interiors & evolution
+- 表层过程与古气候 · Surface processes & paleoclimate
+- 数学物理与数值方法 · Mathematical physics & methods
 
 每篇展示双语导读、学科与机制标签、作者及可核实的机构。首页可按方向、关键词、收录时间筛选，搜索包括作者、机构与双语导读。
 
