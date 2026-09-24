@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T10:04:55.790785+00:00",
+  "generated_at": "2026-09-24T10:11:41.287844+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
@@ -282,22 +282,20 @@
         "rocky planet atmosphere"
       ],
       "context": [
-        "planet",
-        "exoplanet",
-        "rocky",
-        "terrestrial",
-        "tidally locked",
-        "tidal locking",
-        "hot jupiter",
-        "sub neptune",
-        "lava world",
-        "mars",
-        "martian",
-        "venus",
-        "jupiter",
-        "trappist",
-        "hycean",
-        "habitable"
+        "atmosphere",
+        "atmospheric",
+        "climate",
+        "radiative",
+        "radiation",
+        "phase curve",
+        "habitability",
+        "habitable",
+        "heat redistribution",
+        "photochemistry",
+        "cloud",
+        "thermal emission",
+        "escape",
+        "water vapor"
       ]
     },
     {
@@ -327,15 +325,62 @@
         "atmospheric",
         "climate",
         "cloud",
-        "water vapor",
         "greenhouse",
-        "precipitation",
         "planet",
         "radiative convective",
         "troposphere",
         "stratosphere",
         "hydrological"
-      ]
+      ],
+      "reject_context": [
+        "circumgalactic",
+        "quasar",
+        "galaxy",
+        "galaxies",
+        "neutron star",
+        "white dwarf",
+        "stellar atmosphere",
+        "interstellar",
+        "molecular cloud",
+        "electron precipitation",
+        "proton precipitation"
+      ],
+      "allow_context": [
+        "planet",
+        "exoplanet",
+        "planetary",
+        "martian",
+        "mars",
+        "venus",
+        "jupiter"
+      ],
+      "term_context": {
+        "precipitation": [
+          "rainfall",
+          "rain",
+          "snow",
+          "monsoon",
+          "moisture",
+          "hydrological",
+          "water cycle",
+          "climate",
+          "weather",
+          "troposphere",
+          "tropospheric",
+          "cloud microphysics",
+          "convective precipitation"
+        ],
+        "condensation": [
+          "atmosphere",
+          "atmospheric",
+          "climate",
+          "cloud microphysics",
+          "water vapor",
+          "planet",
+          "exoplanet",
+          "troposphere"
+        ]
+      }
     },
     {
       "id": "dynamics",
@@ -644,14 +689,10 @@
       "first_seen": "2026-09-24T08:51:14.614730+00:00",
       "version_changed": false,
       "topics": [
-        "planetary",
         "detection",
         "evolution"
       ],
       "matches": {
-        "planetary": [
-          "hot jupiter"
-        ],
         "detection": [
           "transit timing"
         ],
@@ -660,7 +701,7 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：hot jupiter、transit timing、orbital evolution",
+      "reason": "关联线索：transit timing、orbital evolution",
       "method": "keyword",
       "institutions": [
         "Earth and Planets Laboratory, Carnegie Institution for Science, 5241 Broad Branch Road, NW, Washington, DC 20015, USA",
@@ -1106,16 +1147,10 @@
       "source": "arXiv",
       "first_seen": "2026-09-24T08:51:14.614730+00:00",
       "version_changed": false,
-      "topics": [
-        "planetary"
-      ],
-      "matches": {
-        "planetary": [
-          "sub neptune"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：sub neptune",
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "行星科学拓展阅读",
       "method": "keyword",
       "institutions": [
         "Universidad Autonóma de Nuevo León, Facultad de Ingeniería Mecánica y Eléctrica, San Nicolás de los Garza, 66451, NL, México",
@@ -4103,16 +4138,10 @@
       "source": "arXiv",
       "first_seen": "2026-09-24T08:58:07.531315+00:00",
       "version_changed": true,
-      "topics": [
-        "physics"
-      ],
-      "matches": {
-        "physics": [
-          "precipitation"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
       "method": "keyword",
       "institutions": [
         "Colorado State University, Fort Collins, Colorado, USA",
@@ -6515,8 +6544,8 @@
           "precipitation"
         ]
       },
-      "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
       "tags": [
         "水循环 · Water cycle"
       ],
@@ -8209,16 +8238,10 @@
         "published-online": "2026-09-16",
         "published-print": "2026-09-22"
       },
-      "topics": [
-        "physics"
-      ],
-      "matches": {
-        "physics": [
-          "precipitation"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
       "tags": [
         "水循环 · Water cycle",
         "环流与波动 · Circulation & waves"
@@ -9632,16 +9655,10 @@
       "publication_dates": {
         "published-online": "2026-09-11"
       },
-      "topics": [
-        "physics"
-      ],
-      "matches": {
-        "physics": [
-          "condensation"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：condensation",
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "水循环 · Water cycle",
@@ -12270,16 +12287,10 @@
         "published-online": "2026-09-15",
         "published-print": "2026-09-28"
       },
-      "topics": [
-        "physics"
-      ],
-      "matches": {
-        "physics": [
-          "precipitation"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
       "tags": [
         "水循环 · Water cycle",
         "环流与波动 · Circulation & waves",
@@ -13324,16 +13335,10 @@
         "published-online": "2026-09-21",
         "published-print": "2026-09-28"
       },
-      "topics": [
-        "physics"
-      ],
-      "matches": {
-        "physics": [
-          "precipitation"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
       "tags": [
         "水循环 · Water cycle",
         "环流与波动 · Circulation & waves"
@@ -13808,16 +13813,10 @@
         "published-online": "2026-09-23",
         "published-print": "2026-09-28"
       },
-      "topics": [
-        "physics"
-      ],
-      "matches": {
-        "physics": [
-          "precipitation"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
       "tags": [
         "水循环 · Water cycle",
         "环流与波动 · Circulation & waves"
@@ -15831,16 +15830,10 @@
       "publication_dates": {
         "published-print": "2026-09-15"
       },
-      "topics": [
-        "physics"
-      ],
-      "matches": {
-        "physics": [
-          "precipitation"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
       "tags": [
         "水循环 · Water cycle",
         "海冰与表层 · Ice & surface",
@@ -16000,19 +15993,15 @@
         "published-print": "2026-09-15"
       },
       "topics": [
-        "physics",
         "dynamics"
       ],
       "matches": {
-        "physics": [
-          "precipitation"
-        ],
         "dynamics": [
           "rossby"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：precipitation、rossby",
+      "reason": "关联线索：rossby",
       "tags": [
         "水循环 · Water cycle",
         "环流与波动 · Circulation & waves",
@@ -16569,19 +16558,15 @@
         "published-print": "2026-09-18"
       },
       "topics": [
-        "physics",
         "dynamics"
       ],
       "matches": {
-        "physics": [
-          "precipitation"
-        ],
         "dynamics": [
           "rossby"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：precipitation、rossby",
+      "reason": "关联线索：rossby",
       "tags": [
         "水循环 · Water cycle",
         "环流与波动 · Circulation & waves",
@@ -17141,16 +17126,10 @@
         "published-online": "2026-09-11",
         "published-print": "2026-10"
       },
-      "topics": [
-        "physics"
-      ],
-      "matches": {
-        "physics": [
-          "precipitation"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
       "tags": [
         "水循环 · Water cycle"
       ],
@@ -17255,16 +17234,10 @@
         "published-online": "2026-09-11",
         "published-print": "2026-10"
       },
-      "topics": [
-        "physics"
-      ],
-      "matches": {
-        "physics": [
-          "precipitation"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
       "tags": [
         "水循环 · Water cycle"
       ],
@@ -17375,16 +17348,10 @@
         "published-online": "2026-09-11",
         "published-print": "2026-10"
       },
-      "topics": [
-        "physics"
-      ],
-      "matches": {
-        "physics": [
-          "precipitation"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
       "tags": [
         "水循环 · Water cycle"
       ],
@@ -17471,16 +17438,10 @@
         "published-online": "2026-09-16",
         "published-print": "2026-10"
       },
-      "topics": [
-        "physics"
-      ],
-      "matches": {
-        "physics": [
-          "precipitation"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
       "tags": [
         "水循环 · Water cycle"
       ],
@@ -18014,16 +17975,10 @@
         "published-online": "2026-09-23",
         "published-print": "2026-10"
       },
-      "topics": [
-        "physics"
-      ],
-      "matches": {
-        "physics": [
-          "precipitation"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
       "tags": [
         "水循环 · Water cycle",
         "海冰与表层 · Ice & surface"
@@ -18590,16 +18545,10 @@
       "publication_dates": {
         "published-online": "2026-09-22"
       },
-      "topics": [
-        "physics"
-      ],
-      "matches": {
-        "physics": [
-          "precipitation"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
       "tags": [
         "水循环 · Water cycle",
         "反演与数值方法 · Inverse & numerical methods"
@@ -19760,16 +19709,10 @@
         "published-online": "2026-09-11",
         "published-print": "2026-09-28"
       },
-      "topics": [
-        "physics"
-      ],
-      "matches": {
-        "physics": [
-          "precipitation"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
       "tags": [
         "水循环 · Water cycle"
       ],
@@ -20606,16 +20549,10 @@
         "published-online": "2026-09-12",
         "published-print": "2026-09-28"
       },
-      "topics": [
-        "physics"
-      ],
-      "matches": {
-        "physics": [
-          "precipitation"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "水循环 · Water cycle"
@@ -22053,16 +21990,10 @@
         "published-online": "2026-09-17",
         "published-print": "2026-09-28"
       },
-      "topics": [
-        "physics"
-      ],
-      "matches": {
-        "physics": [
-          "precipitation"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
       "tags": [
         "水循环 · Water cycle",
         "反演与数值方法 · Inverse & numerical methods"
@@ -22336,16 +22267,10 @@
         "published-online": "2026-09-18",
         "published-print": "2026-09-28"
       },
-      "topics": [
-        "physics"
-      ],
-      "matches": {
-        "physics": [
-          "precipitation"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
       "tags": [
         "水循环 · Water cycle"
       ],
@@ -22659,19 +22584,15 @@
         "published-print": "2026-09-28"
       },
       "topics": [
-        "physics",
         "methods"
       ],
       "matches": {
-        "physics": [
-          "precipitation"
-        ],
         "methods": [
           "data assimilation"
         ]
       },
-      "status": "candidate",
-      "reason": "关联线索：precipitation、data assimilation",
+      "status": "unmatched",
+      "reason": "关联线索：data assimilation",
       "tags": [
         "水循环 · Water cycle",
         "反演与数值方法 · Inverse & numerical methods"
@@ -23209,16 +23130,10 @@
         "published-online": "2026-09-22",
         "published-print": "2026-09-28"
       },
-      "topics": [
-        "physics"
-      ],
-      "matches": {
-        "physics": [
-          "precipitation"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
       "tags": [
         "水循环 · Water cycle",
         "反演与数值方法 · Inverse & numerical methods"
@@ -23461,15 +23376,19 @@
         "published-print": "2026-09-28"
       },
       "topics": [
+        "planetary",
         "ocean"
       ],
       "matches": {
+        "planetary": [
+          "heat redistribution"
+        ],
         "ocean": [
           "overturning circulation"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：overturning circulation",
+      "reason": "关联线索：heat redistribution、overturning circulation",
       "tags": [
         "环流与波动 · Circulation & waves",
         "热输送 · Heat transport",
@@ -26216,16 +26135,10 @@
         "published-online": "2026-09-22",
         "published-print": "2026-10-01"
       },
-      "topics": [
-        "physics"
-      ],
-      "matches": {
-        "physics": [
-          "precipitation"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
       "tags": [
         "水循环 · Water cycle"
       ],
@@ -28749,8 +28662,7 @@
       ],
       "matches": {
         "physics": [
-          "water vapor",
-          "precipitation"
+          "water vapor"
         ],
         "methods": [
           "turbulence",
@@ -28758,7 +28670,7 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：water vapor、precipitation、turbulence、direct numerical simulation",
+      "reason": "关联线索：water vapor、turbulence、direct numerical simulation",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "水循环 · Water cycle",
@@ -35041,16 +34953,10 @@
       "publication_dates": {
         "published-online": "2023-02-14"
       },
-      "topics": [
-        "physics"
-      ],
-      "matches": {
-        "physics": [
-          "precipitation"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
       "tags": [
         "水循环 · Water cycle",
         "反演与数值方法 · Inverse & numerical methods"
@@ -38393,20 +38299,16 @@
         "published-print": "2026-02-28"
       },
       "topics": [
-        "physics",
         "dynamics"
       ],
       "matches": {
-        "physics": [
-          "precipitation"
-        ],
         "dynamics": [
           "general circulation",
           "rossby"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：precipitation、general circulation、rossby",
+      "reason": "关联线索：general circulation、rossby",
       "tags": [
         "水循环 · Water cycle",
         "环流与波动 · Circulation & waves",
@@ -38881,16 +38783,10 @@
         "published-online": "2026-02-12",
         "published-print": "2026-02-28"
       },
-      "topics": [
-        "physics"
-      ],
-      "matches": {
-        "physics": [
-          "precipitation"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
       "tags": [
         "水循环 · Water cycle"
       ],
@@ -39845,16 +39741,10 @@
         "published-online": "2026-02-19",
         "published-print": "2026-02-28"
       },
-      "topics": [
-        "physics"
-      ],
-      "matches": {
-        "physics": [
-          "precipitation"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
       "tags": [
         "水循环 · Water cycle",
         "海冰与表层 · Ice & surface",
@@ -41548,16 +41438,10 @@
         "published-online": "2026-08-28",
         "published-print": "2026-09-16"
       },
-      "topics": [
-        "physics"
-      ],
-      "matches": {
-        "physics": [
-          "precipitation"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
       "tags": [
         "水循环 · Water cycle",
         "环流与波动 · Circulation & waves",
@@ -41709,16 +41593,10 @@
         "published-online": "2026-08-28",
         "published-print": "2026-09-16"
       },
-      "topics": [
-        "physics"
-      ],
-      "matches": {
-        "physics": [
-          "precipitation"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
       "tags": [
         "水循环 · Water cycle"
       ],
@@ -42251,16 +42129,10 @@
         "published-online": "2026-09-01",
         "published-print": "2026-09-16"
       },
-      "topics": [
-        "physics"
-      ],
-      "matches": {
-        "physics": [
-          "precipitation"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
       "tags": [
         "水循环 · Water cycle",
         "反演与数值方法 · Inverse & numerical methods"
@@ -43087,16 +42959,10 @@
         "published-online": "2026-09-04",
         "published-print": "2026-09-16"
       },
-      "topics": [
-        "physics"
-      ],
-      "matches": {
-        "physics": [
-          "precipitation"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "水循环 · Water cycle",
@@ -45285,16 +45151,10 @@
         "published-online": "2026-01-30",
         "published-print": "2026-02"
       },
-      "topics": [
-        "physics"
-      ],
-      "matches": {
-        "physics": [
-          "precipitation"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
       "tags": [
         "水循环 · Water cycle",
         "海冰与表层 · Ice & surface"
@@ -45708,19 +45568,15 @@
         "published-print": "2026-02"
       },
       "topics": [
-        "physics",
         "dynamics"
       ],
       "matches": {
-        "physics": [
-          "precipitation"
-        ],
         "dynamics": [
           "atmospheric circulation"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：precipitation、atmospheric circulation",
+      "reason": "关联线索：atmospheric circulation",
       "tags": [
         "水循环 · Water cycle",
         "环流与波动 · Circulation & waves",
@@ -46716,19 +46572,15 @@
         "published-print": "2026-09"
       },
       "topics": [
-        "physics",
         "dynamics"
       ],
       "matches": {
-        "physics": [
-          "precipitation"
-        ],
         "dynamics": [
           "atmospheric circulation"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：precipitation、atmospheric circulation",
+      "reason": "关联线索：atmospheric circulation",
       "tags": [
         "水循环 · Water cycle",
         "环流与波动 · Circulation & waves",
@@ -48121,16 +47973,10 @@
         "published-online": "2025-08-28",
         "published-print": "2025-09"
       },
-      "topics": [
-        "physics"
-      ],
-      "matches": {
-        "physics": [
-          "precipitation"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
       "tags": [
         "水循环 · Water cycle",
         "海冰与表层 · Ice & surface",
@@ -48293,16 +48139,10 @@
         "published-online": "2025-08-29",
         "published-print": "2025-09"
       },
-      "topics": [
-        "physics"
-      ],
-      "matches": {
-        "physics": [
-          "water vapor"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：water vapor",
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
       "tags": [
         "水循环 · Water cycle",
         "反演与数值方法 · Inverse & numerical methods"
