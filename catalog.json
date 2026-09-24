@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T11:33:29.749272+00:00",
+  "generated_at": "2026-09-24T11:57:52.575989+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
@@ -296,6 +296,113 @@
         "thermal emission",
         "escape",
         "water vapor"
+      ]
+    },
+    {
+      "id": "chemistry",
+      "name": "行星大气化学",
+      "name_en": "Planetary atmospheric chemistry",
+      "terms": [
+        "photochemistry",
+        "photochemical",
+        "atmospheric chemistry",
+        "chemical kinetics",
+        "chemical equilibrium",
+        "disequilibrium chemistry",
+        "chemical disequilibrium",
+        "reaction network",
+        "chemical network",
+        "thermochemistry",
+        "thermochemical",
+        "haze formation",
+        "aerosol chemistry"
+      ],
+      "required_context_groups": [
+        [
+          "planet",
+          "planetary",
+          "exoplanet",
+          "exoplanetary",
+          "mars",
+          "martian",
+          "venus",
+          "venusian",
+          "jupiter",
+          "jovian",
+          "saturn",
+          "titan",
+          "neptune",
+          "uranus",
+          "terrestrial",
+          "early earth",
+          "hot jupiter",
+          "sub neptune",
+          "trappist",
+          "wasp"
+        ],
+        [
+          "atmosphere",
+          "atmospheric",
+          "climate",
+          "stratosphere",
+          "troposphere",
+          "atmospheres"
+        ]
+      ]
+    },
+    {
+      "id": "models",
+      "name": "行星大气模式",
+      "name_en": "Planetary atmospheric models",
+      "terms": [
+        "general circulation model",
+        "global circulation model",
+        "climate model",
+        "atmospheric model",
+        "atmosphere model",
+        "gcm",
+        "radiative convective model",
+        "photochemical model",
+        "chemistry model",
+        "dynamical core",
+        "radiative transfer model",
+        "cloud resolving model",
+        "global climate model",
+        "atmospheric modeling",
+        "atmospheric modelling",
+        "climate simulation"
+      ],
+      "required_context_groups": [
+        [
+          "planet",
+          "planetary",
+          "exoplanet",
+          "exoplanetary",
+          "mars",
+          "martian",
+          "venus",
+          "venusian",
+          "jupiter",
+          "jovian",
+          "saturn",
+          "titan",
+          "neptune",
+          "uranus",
+          "terrestrial",
+          "early earth",
+          "hot jupiter",
+          "sub neptune",
+          "trappist",
+          "wasp"
+        ],
+        [
+          "atmosphere",
+          "atmospheric",
+          "climate",
+          "stratosphere",
+          "troposphere",
+          "atmospheres"
+        ]
       ]
     },
     {
@@ -781,8 +888,8 @@
     },
     {
       "id": "methods",
-      "name": "数学物理与数值方法",
-      "name_en": "Mathematical physics & methods",
+      "name": "数学、物理、数值方法",
+      "name_en": "Mathematics, Physics & Numerical Methods",
       "terms": [
         "data assimilation",
         "inverse problem",
@@ -1846,6 +1953,8 @@
       "version_changed": false,
       "topics": [
         "planetary",
+        "chemistry",
+        "models",
         "dynamics",
         "evolution"
       ],
@@ -1855,6 +1964,15 @@
           "exoplanet atmosphere",
           "photochemistry"
         ],
+        "chemistry": [
+          "photochemistry",
+          "atmospheric chemistry",
+          "disequilibrium chemistry",
+          "thermochemical"
+        ],
+        "models": [
+          "atmospheric model"
+        ],
         "dynamics": [
           "atmospheric circulation"
         ],
@@ -1863,7 +1981,7 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：planetary atmosphere、exoplanet atmosphere、photochemistry、atmospheric circulation、planetary evolution",
+      "reason": "关联线索：planetary atmosphere、exoplanet atmosphere、photochemistry、atmospheric chemistry、disequilibrium chemistry、thermochemical",
       "method": "keyword",
       "institutions": [],
       "author_affiliations": [
@@ -10522,15 +10640,19 @@
         "published-online": "2026-09-16"
       },
       "topics": [
+        "models",
         "physics"
       ],
       "matches": {
+        "models": [
+          "radiative transfer model"
+        ],
         "physics": [
           "radiative transfer"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：radiative transfer",
+      "reason": "关联线索：radiative transfer model、radiative transfer",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "反演与数值方法 · Inverse & numerical methods"
@@ -25795,18 +25917,22 @@
       },
       "topics": [
         "planetary",
+        "models",
         "evolution"
       ],
       "matches": {
         "planetary": [
           "habitable zone"
         ],
+        "models": [
+          "climate simulation"
+        ],
         "evolution": [
           "tidal heating"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：habitable zone、tidal heating",
+      "reason": "关联线索：habitable zone、climate simulation、tidal heating",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "热输送 · Heat transport",
@@ -26333,16 +26459,24 @@
         "published-print": "2026-10-01"
       },
       "topics": [
-        "planetary"
+        "planetary",
+        "chemistry",
+        "models"
       ],
       "matches": {
         "planetary": [
           "photochemistry",
           "habitable zone"
+        ],
+        "chemistry": [
+          "photochemistry"
+        ],
+        "models": [
+          "atmosphere model"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：photochemistry、habitable zone",
+      "reason": "关联线索：photochemistry、habitable zone、atmosphere model",
       "tags": [
         "宜居性 · Habitability"
       ],
@@ -27399,10 +27533,14 @@
         "published-print": "2026-10-01"
       },
       "topics": [
+        "chemistry",
         "physics",
         "dynamics"
       ],
       "matches": {
+        "chemistry": [
+          "thermochemistry"
+        ],
         "physics": [
           "radiative transfer"
         ],
@@ -27412,7 +27550,7 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：radiative transfer、superrotation、jet stream",
+      "reason": "关联线索：thermochemistry、radiative transfer、superrotation、jet stream",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "环流与波动 · Circulation & waves",
@@ -27677,16 +27815,21 @@
         "published-print": "2026-10-01"
       },
       "topics": [
-        "planetary"
+        "planetary",
+        "chemistry"
       ],
       "matches": {
         "planetary": [
           "planetary atmosphere",
           "exoplanet atmosphere"
+        ],
+        "chemistry": [
+          "atmospheric chemistry",
+          "chemical kinetics"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：planetary atmosphere、exoplanet atmosphere",
+      "reason": "关联线索：planetary atmosphere、exoplanet atmosphere、atmospheric chemistry、chemical kinetics",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "反演与数值方法 · Inverse & numerical methods"
@@ -28874,18 +29017,24 @@
       },
       "topics": [
         "planetary",
+        "chemistry",
         "physics"
       ],
       "matches": {
         "planetary": [
           "photochemistry"
         ],
+        "chemistry": [
+          "photochemistry",
+          "photochemical",
+          "reaction network"
+        ],
         "physics": [
           "radiative convective"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：photochemistry、radiative convective",
+      "reason": "关联线索：photochemistry、photochemical、reaction network、radiative convective",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "反演与数值方法 · Inverse & numerical methods"
@@ -29131,15 +29280,20 @@
         "published-print": "2026-10-01"
       },
       "topics": [
-        "planetary"
+        "planetary",
+        "chemistry"
       ],
       "matches": {
         "planetary": [
           "exoplanet atmosphere"
+        ],
+        "chemistry": [
+          "photochemical",
+          "thermochemical"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：exoplanet atmosphere",
+      "reason": "关联线索：exoplanet atmosphere、photochemical、thermochemical",
       "tags": [],
       "method": "keyword",
       "intro_zh": "以 TOI-6894 b 为例模拟温凉巨行星的硫化学，分析甲烷和硫化氢储库、热化学及光解共同生成二硫化碳的路径，探索其对金属丰度的诊断作用。",
@@ -36822,11 +36976,20 @@
       },
       "topics": [
         "planetary",
+        "chemistry",
+        "models",
         "physics"
       ],
       "matches": {
         "planetary": [
           "photochemistry"
+        ],
+        "chemistry": [
+          "photochemistry"
+        ],
+        "models": [
+          "climate model",
+          "global climate model"
         ],
         "physics": [
           "outgoing longwave"
@@ -49943,18 +50106,22 @@
       },
       "topics": [
         "planetary",
+        "models",
         "dynamics"
       ],
       "matches": {
         "planetary": [
           "planetary climate"
         ],
+        "models": [
+          "climate model"
+        ],
         "dynamics": [
           "gravity wave"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：planetary climate、gravity wave",
+      "reason": "关联线索：planetary climate、climate model、gravity wave",
       "tags": [
         "环流与波动 · Circulation & waves",
         "流体与不稳定性 · Fluid dynamics",
@@ -50975,12 +51142,16 @@
       },
       "topics": [
         "planetary",
+        "models",
         "dynamics",
         "methods"
       ],
       "matches": {
         "planetary": [
           "planetary climate"
+        ],
+        "models": [
+          "climate model"
         ],
         "dynamics": [
           "gravity wave"
@@ -50990,7 +51161,7 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：planetary climate、gravity wave、turbulence",
+      "reason": "关联线索：planetary climate、climate model、gravity wave、turbulence",
       "tags": [
         "环流与波动 · Circulation & waves",
         "海冰与表层 · Ice & surface",
@@ -51770,10 +51941,20 @@
         "published-print": "2026-09"
       },
       "topics": [
+        "chemistry",
+        "models",
         "physics",
         "dynamics"
       ],
       "matches": {
+        "chemistry": [
+          "photochemical"
+        ],
+        "models": [
+          "general circulation model",
+          "atmospheric model",
+          "photochemical model"
+        ],
         "physics": [
           "radiative cooling"
         ],
@@ -51783,7 +51964,7 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：radiative cooling、general circulation、atmospheric circulation",
+      "reason": "关联线索：photochemical、general circulation model、atmospheric model、photochemical model、radiative cooling、general circulation",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "环流与波动 · Circulation & waves"
@@ -56528,15 +56709,19 @@
         "published-print": "2026-09-01"
       },
       "topics": [
+        "chemistry",
         "detection"
       ],
       "matches": {
+        "chemistry": [
+          "photochemical"
+        ],
         "detection": [
           "biosignature"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：biosignature",
+      "reason": "关联线索：photochemical、biosignature",
       "tags": [
         "宜居性 · Habitability",
         "光谱与相曲线 · Spectra & phase curves"
@@ -56693,12 +56878,17 @@
       },
       "topics": [
         "planetary",
+        "models",
         "dynamics",
         "climate"
       ],
       "matches": {
         "planetary": [
           "tidally locked"
+        ],
+        "models": [
+          "climate model",
+          "climate simulation"
         ],
         "dynamics": [
           "atmospheric dynamics"
@@ -56709,7 +56899,7 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：tidally locked、atmospheric dynamics、climate dynamics、hydrological cycle",
+      "reason": "关联线索：tidally locked、climate model、climate simulation、atmospheric dynamics、climate dynamics、hydrological cycle",
       "tags": [
         "水循环 · Water cycle",
         "宜居性 · Habitability",
