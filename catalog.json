@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T12:54:25.665852+00:00",
+  "generated_at": "2026-09-24T13:14:13.820528+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
@@ -850,6 +850,79 @@
         "core",
         "planetesimal",
         "protoplanetary"
+      ]
+    },
+    {
+      "id": "cryosphere",
+      "name": "行星冰冻圈、冰物理与冰动力",
+      "name_en": "Planetary cryospheres, ice physics & ice dynamics",
+      "terms": [
+        "planetary cryosphere",
+        "cryosphere",
+        "cryospheric",
+        "ice physics",
+        "ice dynamics",
+        "ice rheology",
+        "ice deformation",
+        "ice flow",
+        "ice sheet",
+        "ice shelf",
+        "ice shelves",
+        "sea ice",
+        "sea glacier",
+        "glacier dynamics",
+        "glacial dynamics",
+        "ice shell",
+        "icy shell",
+        "icy moon",
+        "icy satellite",
+        "ice convection",
+        "convection in ice",
+        "convection of ice",
+        "ice ocean interaction",
+        "ice ocean interface",
+        "basal melting",
+        "basal sliding",
+        "ice fracture",
+        "ice tectonics",
+        "high pressure ice",
+        "ice phase transition",
+        "water ice",
+        "carbon dioxide ice",
+        "co2 ice",
+        "nitrogen ice",
+        "methane ice",
+        "polar ice cap",
+        "snowball earth",
+        "ice albedo"
+      ],
+      "reject_context": [
+        "spin ice",
+        "quantum spin ice",
+        "artificial spin ice",
+        "interstellar ice",
+        "molecular cloud",
+        "interstellar medium",
+        "star forming",
+        "icy grain",
+        "grain mantle"
+      ],
+      "allow_context": [
+        "planetary cryosphere",
+        "icy moon",
+        "icy satellite",
+        "europa",
+        "enceladus",
+        "ganymede",
+        "callisto",
+        "titan",
+        "triton",
+        "pluto",
+        "martian",
+        "mars",
+        "sea ice",
+        "ice sheet",
+        "glacier"
       ]
     },
     {
@@ -1828,10 +1901,14 @@
       "first_seen": "2026-09-24T08:51:14.614730+00:00",
       "version_changed": false,
       "topics": [
+        "cryosphere",
         "surface",
         "methods"
       ],
       "matches": {
+        "cryosphere": [
+          "icy moon"
+        ],
         "surface": [
           "cryomagma",
           "cryolava"
@@ -1841,7 +1918,7 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：cryomagma、cryolava、smoothed particle hydrodynamics",
+      "reason": "关联线索：icy moon、cryomagma、cryolava、smoothed particle hydrodynamics",
       "method": "keyword",
       "institutions": [
         "organization=Laboratoire Environnements et Atmosphères Terrestres et Planétaires, Université de Reims Champagne-Ardenne, city=Reims, country=France",
@@ -1929,10 +2006,16 @@
       "source": "arXiv",
       "first_seen": "2026-09-24T08:51:14.614730+00:00",
       "version_changed": false,
-      "topics": [],
-      "matches": {},
-      "status": "unmatched",
-      "reason": "行星科学拓展阅读",
+      "topics": [
+        "cryosphere"
+      ],
+      "matches": {
+        "cryosphere": [
+          "icy moon"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：icy moon",
       "method": "keyword",
       "institutions": [],
       "author_affiliations": [],
@@ -8579,6 +8662,7 @@
         "physics",
         "dynamics",
         "ocean",
+        "cryosphere",
         "surface"
       ],
       "matches": {
@@ -8592,12 +8676,16 @@
           "overturning circulation",
           "oceanic circulation"
         ],
+        "cryosphere": [
+          "cryosphere",
+          "ice sheet"
+        ],
         "surface": [
           "carbon cycle"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：precipitation、general circulation、overturning circulation、oceanic circulation、carbon cycle",
+      "reason": "关联线索：precipitation、general circulation、overturning circulation、oceanic circulation、cryosphere、ice sheet",
       "tags": [
         "水循环 · Water cycle",
         "环流与波动 · Circulation & waves",
@@ -9990,16 +10078,20 @@
         "published-online": "2026-09-18"
       },
       "topics": [
-        "evolution"
+        "evolution",
+        "cryosphere"
       ],
       "matches": {
         "evolution": [
           "planetesimal",
           "volatile"
+        ],
+        "cryosphere": [
+          "water ice"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：planetesimal、volatile",
+      "reason": "关联线索：planetesimal、volatile、water ice",
       "tags": [
         "岩浆与挥发分 · Magma & volatiles"
       ],
@@ -10100,11 +10192,15 @@
       },
       "topics": [
         "dynamics",
+        "cryosphere",
         "surface"
       ],
       "matches": {
         "dynamics": [
           "baroclinicity"
+        ],
+        "cryosphere": [
+          "sea ice"
         ],
         "surface": [
           "sea ice"
@@ -11950,11 +12046,15 @@
       },
       "topics": [
         "dynamics",
+        "cryosphere",
         "surface"
       ],
       "matches": {
         "dynamics": [
           "storm track"
+        ],
+        "cryosphere": [
+          "sea ice"
         ],
         "surface": [
           "sea ice"
@@ -13434,6 +13534,7 @@
       "topics": [
         "dynamics",
         "climate",
+        "cryosphere",
         "surface"
       ],
       "matches": {
@@ -13442,6 +13543,10 @@
         ],
         "climate": [
           "ice albedo feedback"
+        ],
+        "cryosphere": [
+          "sea ice",
+          "ice albedo"
         ],
         "surface": [
           "sea ice",
@@ -15278,9 +15383,13 @@
         "published-print": "2026-09-16"
       },
       "topics": [
+        "cryosphere",
         "surface"
       ],
       "matches": {
+        "cryosphere": [
+          "sea ice"
+        ],
         "surface": [
           "sea ice"
         ]
@@ -19236,9 +19345,13 @@
         "published-online": "2026-09-15"
       },
       "topics": [
+        "cryosphere",
         "surface"
       ],
       "matches": {
+        "cryosphere": [
+          "sea ice"
+        ],
         "surface": [
           "sea ice"
         ]
@@ -19418,7 +19531,8 @@
       },
       "topics": [
         "climate",
-        "ocean"
+        "ocean",
+        "cryosphere"
       ],
       "matches": {
         "climate": [
@@ -19426,10 +19540,13 @@
         ],
         "ocean": [
           "ocean circulation"
+        ],
+        "cryosphere": [
+          "ice sheet"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：intertropical convergence zone、ocean circulation",
+      "reason": "关联线索：intertropical convergence zone、ocean circulation、ice sheet",
       "tags": [
         "环流与波动 · Circulation & waves",
         "反演与数值方法 · Inverse & numerical methods"
@@ -22720,11 +22837,15 @@
       },
       "topics": [
         "evolution",
+        "cryosphere",
         "surface"
       ],
       "matches": {
         "evolution": [
           "radiogenic"
+        ],
+        "cryosphere": [
+          "ice sheet"
         ],
         "surface": [
           "carbon cycle",
@@ -22732,7 +22853,7 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：radiogenic、carbon cycle、weathering",
+      "reason": "关联线索：radiogenic、ice sheet、carbon cycle、weathering",
       "tags": [
         "云与辐射 · Clouds & radiation"
       ],
@@ -24375,9 +24496,13 @@
         "published-print": "2026-09-28"
       },
       "topics": [
+        "cryosphere",
         "surface"
       ],
       "matches": {
+        "cryosphere": [
+          "sea ice"
+        ],
         "surface": [
           "sea ice"
         ]
@@ -30842,11 +30967,15 @@
       },
       "topics": [
         "physics",
+        "cryosphere",
         "surface"
       ],
       "matches": {
         "physics": [
           "radiative forcing"
+        ],
+        "cryosphere": [
+          "sea ice"
         ],
         "surface": [
           "sea ice"
@@ -33332,15 +33461,19 @@
         "published-online": "2018-04-04"
       },
       "topics": [
-        "physics"
+        "physics",
+        "cryosphere"
       ],
       "matches": {
         "physics": [
           "condensation"
+        ],
+        "cryosphere": [
+          "water ice"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：condensation",
+      "reason": "关联线索：condensation、water ice",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "水循环 · Water cycle"
@@ -38594,12 +38727,16 @@
       },
       "topics": [
         "physics",
+        "cryosphere",
         "surface"
       ],
       "matches": {
         "physics": [
           "radiative forcing",
           "condensation"
+        ],
+        "cryosphere": [
+          "sea ice"
         ],
         "surface": [
           "sea ice"
@@ -41487,6 +41624,7 @@
       "topics": [
         "dynamics",
         "gfd",
+        "cryosphere",
         "surface"
       ],
       "matches": {
@@ -41496,6 +41634,9 @@
         ],
         "gfd": [
           "rossby"
+        ],
+        "cryosphere": [
+          "sea ice"
         ],
         "surface": [
           "sea ice"
@@ -43455,6 +43596,7 @@
       "topics": [
         "climate",
         "ocean",
+        "cryosphere",
         "surface"
       ],
       "matches": {
@@ -43464,12 +43606,18 @@
         "ocean": [
           "ocean circulation"
         ],
+        "cryosphere": [
+          "ice sheet",
+          "ice shelf",
+          "sea ice",
+          "ice ocean interaction"
+        ],
         "surface": [
           "sea ice"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：climate variability、ocean circulation、sea ice",
+      "reason": "关联线索：climate variability、ocean circulation、ice sheet、ice shelf、sea ice、ice ocean interaction",
       "tags": [
         "环流与波动 · Circulation & waves",
         "海冰与表层 · Ice & surface"
@@ -44214,12 +44362,16 @@
       },
       "topics": [
         "physics",
+        "cryosphere",
         "surface"
       ],
       "matches": {
         "physics": [
           "water vapor",
           "precipitation"
+        ],
+        "cryosphere": [
+          "sea ice"
         ],
         "surface": [
           "sea ice"
@@ -45250,7 +45402,8 @@
       "topics": [
         "physics",
         "dynamics",
-        "climate"
+        "climate",
+        "cryosphere"
       ],
       "matches": {
         "physics": [
@@ -45263,10 +45416,13 @@
         ],
         "climate": [
           "intertropical convergence zone"
+        ],
+        "cryosphere": [
+          "cryosphere"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：water vapor、precipitation、hadley、atmospheric circulation、intertropical convergence zone",
+      "reason": "关联线索：water vapor、precipitation、hadley、atmospheric circulation、intertropical convergence zone、cryosphere",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "水循环 · Water cycle",
@@ -45674,11 +45830,15 @@
       },
       "topics": [
         "climate",
+        "cryosphere",
         "surface"
       ],
       "matches": {
         "climate": [
           "climate variability"
+        ],
+        "cryosphere": [
+          "sea ice"
         ],
         "surface": [
           "sea ice"
@@ -46407,7 +46567,8 @@
       },
       "topics": [
         "physics",
-        "climate"
+        "climate",
+        "cryosphere"
       ],
       "matches": {
         "physics": [
@@ -46415,10 +46576,13 @@
         ],
         "climate": [
           "hydrological cycle"
+        ],
+        "cryosphere": [
+          "ice sheet"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：precipitation、hydrological cycle",
+      "reason": "关联线索：precipitation、hydrological cycle、ice sheet",
       "tags": [
         "水循环 · Water cycle"
       ],
@@ -46589,16 +46753,21 @@
         "published-print": "2026-02"
       },
       "topics": [
+        "cryosphere",
         "surface"
       ],
       "matches": {
+        "cryosphere": [
+          "ice dynamics",
+          "sea ice"
+        ],
         "surface": [
           "sea ice",
           "paleoclimate"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：sea ice、paleoclimate",
+      "reason": "关联线索：ice dynamics、sea ice、paleoclimate",
       "tags": [
         "海冰与表层 · Ice & surface"
       ],
@@ -46854,15 +47023,19 @@
         "published-print": "2026-02"
       },
       "topics": [
-        "ocean"
+        "ocean",
+        "cryosphere"
       ],
       "matches": {
         "ocean": [
           "overturning circulation"
+        ],
+        "cryosphere": [
+          "ice sheet"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：overturning circulation",
+      "reason": "关联线索：overturning circulation、ice sheet",
       "tags": [
         "环流与波动 · Circulation & waves"
       ],
@@ -47249,15 +47422,19 @@
         "published-print": "2026-02"
       },
       "topics": [
+        "cryosphere",
         "surface"
       ],
       "matches": {
+        "cryosphere": [
+          "ice sheet"
+        ],
         "surface": [
           "weathering"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：weathering",
+      "reason": "关联线索：ice sheet、weathering",
       "tags": [],
       "method": "keyword",
       "intro_zh": "利用斯科舍海海水锇同位素与冰筏碎屑等记录研究中更新世南极冰盖，尝试将区域冰下风化通量和动力变化从全球冰量信号中区分出来。",
@@ -47406,18 +47583,22 @@
       },
       "topics": [
         "ocean",
+        "cryosphere",
         "surface"
       ],
       "matches": {
         "ocean": [
           "ocean circulation"
         ],
+        "cryosphere": [
+          "ice sheet"
+        ],
         "surface": [
           "carbon cycle"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：ocean circulation、carbon cycle",
+      "reason": "关联线索：ocean circulation、ice sheet、carbon cycle",
       "tags": [
         "环流与波动 · Circulation & waves",
         "岩浆与挥发分 · Magma & volatiles"
@@ -48904,15 +49085,20 @@
         "published-print": "2026-09"
       },
       "topics": [
+        "cryosphere",
         "surface"
       ],
       "matches": {
+        "cryosphere": [
+          "cryosphere",
+          "sea ice"
+        ],
         "surface": [
           "sea ice"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：sea ice",
+      "reason": "关联线索：cryosphere、sea ice",
       "tags": [
         "海冰与表层 · Ice & surface"
       ],
@@ -49095,11 +49281,15 @@
       },
       "topics": [
         "gfd",
+        "cryosphere",
         "surface"
       ],
       "matches": {
         "gfd": [
           "baroclinic"
+        ],
+        "cryosphere": [
+          "sea ice"
         ],
         "surface": [
           "sea ice"
@@ -49776,10 +49966,16 @@
         "published-online": "2025-08-29",
         "published-print": "2025-09"
       },
-      "topics": [],
-      "matches": {},
-      "status": "unmatched",
-      "reason": "拓展阅读",
+      "topics": [
+        "cryosphere"
+      ],
+      "matches": {
+        "cryosphere": [
+          "icy moon"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：icy moon",
       "tags": [
         "水循环 · Water cycle",
         "反演与数值方法 · Inverse & numerical methods"
@@ -54530,6 +54726,7 @@
       "topics": [
         "physics",
         "climate",
+        "cryosphere",
         "surface"
       ],
       "matches": {
@@ -54538,6 +54735,9 @@
         ],
         "climate": [
           "hydrological cycle"
+        ],
+        "cryosphere": [
+          "sea ice"
         ],
         "surface": [
           "sea ice"
@@ -55428,6 +55628,7 @@
       "topics": [
         "physics",
         "ocean",
+        "cryosphere",
         "surface"
       ],
       "matches": {
@@ -55436,6 +55637,9 @@
         ],
         "ocean": [
           "overturning circulation"
+        ],
+        "cryosphere": [
+          "sea ice"
         ],
         "surface": [
           "sea ice"
@@ -56403,7 +56607,8 @@
       },
       "topics": [
         "climate",
-        "detection"
+        "detection",
+        "cryosphere"
       ],
       "matches": {
         "climate": [
@@ -56411,10 +56616,14 @@
         ],
         "detection": [
           "biosignature"
+        ],
+        "cryosphere": [
+          "cryosphere",
+          "cryospheric"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：hydrological cycle、biosignature",
+      "reason": "关联线索：hydrological cycle、biosignature、cryosphere、cryospheric",
       "tags": [
         "水循环 · Water cycle",
         "海冰与表层 · Ice & surface"
