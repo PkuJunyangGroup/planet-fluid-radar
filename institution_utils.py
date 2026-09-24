@@ -69,7 +69,7 @@ def verified_hierarchy(root):
   matches+=r.get('reviewed_aliases',[])
   aliases.append({'name':name,'match':matches,'context':r.get('context',[])})
   for child in r['relationships']:
-   if child['type']=='child':units.setdefault(name,[]).append({'name':child['label'],'match':[child['label']],'source':r['source'],'ror':child['id'],'name_zh':han_name(unit_records.get(child['id'],{}).get('names',[]))})
+   if child['type']=='child':units.setdefault(name,[]).append({'name':child['label'],'match':[child['label']],'source':r['source'],'ror':child['id'],'name_zh':han_name(unit_records.get(child['id'],{}).get('names',[])) or chinese.get(child['label'],{}).get('name_zh')})
  for u in official:
   parent=canonical.get(u['parent'])
   if parent:units.setdefault(parent,[]).append(u)

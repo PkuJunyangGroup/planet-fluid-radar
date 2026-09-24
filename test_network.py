@@ -10,6 +10,18 @@ from author_names import chinese_name,publisher_name
 from institution_utils import parents,verified_units,verified_hierarchy,orcid_url
 
 class NetworkRules(unittest.TestCase):
+ def test_doi_is_not_a_shared_person_identity(self):
+  raw='Example University';aliases=[{'name':raw,'match':[raw]}]
+  authors=[{'name':name,'name_zh':zh,'name_source':'https://doi.org/10.1234/test','institutions':[raw]} for name,zh in [('Lile Wang','王力乐'),('Yiren Lin','林伊人')]]
+  paper={'id':'p','status':'candidate','institutions':[raw],'author_affiliations':authors}
+  with tempfile.TemporaryDirectory() as d,patch.object(build_network,'ROOT',Path(d)),patch.object(build_network,'verified_hierarchy',return_value=(aliases,{}, {raw:{}})):
+   result=build_network.build({'generated_at':'test','papers':[paper]})
+  self.assertEqual(len(result['researchers']),2);self.assertEqual(len(result['nodes'][0]['authors']),2)
+ def test_researcher_without_institution_keeps_paper(self):
+  paper={'id':'p','status':'candidate','institutions':[],'author_affiliations':[{'name':'A Researcher','institutions':[]}]}
+  with tempfile.TemporaryDirectory() as d,patch.object(build_network,'ROOT',Path(d)),patch.object(build_network,'verified_hierarchy',return_value=([],{},{})):
+   result=build_network.build({'generated_at':'test','papers':[paper]})
+  self.assertEqual(result['nodes'],[]);self.assertEqual(result['researchers'][0]['papers'],['p']);self.assertIn('p',result['papers'])
  def test_bilingual_publisher_given_family_fields(self):
   self.assertEqual(publisher_name('Lile 力乐','Wang 王'),{'name':'Lile Wang','name_zh':'王力乐'})
   self.assertIsNone(publisher_name('Lile','Wang'))
@@ -47,4 +59,8 @@ class NetworkRules(unittest.TestCase):
   self.assertEqual(len(result['nodes']),1);self.assertEqual(result['edges'],[])
   n=result['nodes'][0];self.assertEqual(n['papers'],['p']);self.assertEqual(len(n['units']),2)
   self.assertEqual(n['authors'][0]['papers'],['p']);self.assertEqual(len(n['authors'][0]['unit_papers']),2)
+ def test_author_footnotes_and_address_fragments(self):
+  self.assertEqual(build_network.researcher_name(r'16 \newauthorSergey N. Yurchenko'),'Sergey N. Yurchenko')
+  for value in ['1049-001 Lisboa','2333 CA Leiden','14 Avenue E. Belin','1Konkoly Observatory','28692']:
+   self.assertEqual(build_network.researcher_name(value),'')
 if __name__=='__main__':unittest.main()
