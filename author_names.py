@@ -53,3 +53,13 @@ if __name__=='__main__':
  import argparse
  parser=argparse.ArgumentParser();parser.add_argument('--limit',type=int,default=60);args=parser.parse_args()
  update_names(json.loads((ROOT/'catalog.json').read_text())['papers'],args.limit)
+
+def publisher_name(given,family):
+ """Recover bilingual names only from explicit publisher given/family fields."""
+ def han(value):return ''.join(re.findall(r'[\u3400-\u9fff]+',value or ''))
+ g,f=han(given),han(family)
+ if not (1<=len(g)<=5 and 1<=len(f)<=3):return None
+ if any(x in g+f for x in ['教授','大学','研究','博士']):return None
+ latin=lambda value:re.sub(r'\s+',' ',re.sub(r'[\u3400-\u9fff()（）]+',' ',value or '')).strip()
+ en=' '.join(filter(None,[latin(given),latin(family)]))
+ return {'name':en or f+g,'name_zh':f+g}

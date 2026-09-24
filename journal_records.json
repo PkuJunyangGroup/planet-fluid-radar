@@ -14394,21 +14394,23 @@
       "title": "Radiation GRMHD Models of Accretion onto Stellar-mass Black Holes. III. Near-Eddington Accretion",
       "abstract": "Abstract We present a comprehensive analysis of four near-Eddington black hole accretion models from GRMHD simulations with full radiation transport. This study investigates the dynamical effects of magnetic field topology and black hole spin using two representative choices of each. Two stable near-Eddington solutions emerge in these models: a thin thermal disk embedded within a magnetic envelope when sufficient net vertical magnetic flux is present (e.g., vertical field ≳5 × 10 5 G at 20 r g ) and a magnetically elevated disk when the net vertical flux is weak or absent. One model initialized without net vertical flux evolves into the thin disk solution, as strong anisotropic radiation feedback at high accretion rates promotes the accumulation of vertical magnetic flux in the inner disk. In the thin thermal disk, accretion is driven primarily by mean-field Maxwell stress and proceeds largely within the magnetic envelope, while heat dissipation is spatially decoupled and concentrated near the midplane. However, in the magnetically elevated disk, accretion occurs throughout the disk body and is comparably driven by mean-field and turbulent stresses; heat dissipation therefore occurs locally through turbulence. Radiation transport is diffusion-dominated, enabling efficient radiative cooling (∼4%–10%). An optically thin wind is launched from the disk surface by combined radiative and magnetic forces, with stronger winds found in models with larger vertical magnetic flux and higher spin. Both strong and weak jets are produced: strong jets are persistent, highly relativistic, and magnetically driven, while weak jets are intermittent, mildly relativistic, and powered by a combination of magnetic and radiative forces.",
       "authors": [
-        "Lizhong 力中 Zhang 张",
+        "Lizhong Zhang",
         "James M. Stone",
         "Shane W. Davis",
-        "Yan-Fei 燕飞 Jiang 姜",
+        "Yan-Fei Jiang",
         "Patrick D. Mullen",
         "Christopher J. White"
       ],
       "author_affiliations": [
         {
-          "name": "Lizhong 力中 Zhang 张",
+          "name": "Lizhong Zhang",
           "institutions": [
             "Center for Computational Astrophysics",
             "School of Natural Sciences"
           ],
-          "orcid": "https://orcid.org/0000-0003-0232-0879"
+          "orcid": "https://orcid.org/0000-0003-0232-0879",
+          "name_zh": "张力中",
+          "name_source": "https://doi.org/10.3847/1538-4357/ae9d58"
         },
         {
           "name": "James M. Stone",
@@ -14425,11 +14427,13 @@
           "orcid": "https://orcid.org/0000-0001-7488-4468"
         },
         {
-          "name": "Yan-Fei 燕飞 Jiang 姜",
+          "name": "Yan-Fei Jiang",
           "institutions": [
             "Center for Computational Astrophysics"
           ],
-          "orcid": "https://orcid.org/0000-0002-2624-3399"
+          "orcid": "https://orcid.org/0000-0002-2624-3399",
+          "name_zh": "姜燕飞",
+          "name_source": "https://doi.org/10.3847/1538-4357/ae9d58"
         },
         {
           "name": "Patrick D. Mullen",
@@ -14500,20 +14504,22 @@
       "title": "X-Ray Variability and Photosphere Evolution during Accretion Disk Formation in Tidal Disruption Events",
       "abstract": "Abstract The early time emission in tidal disruption events (TDEs) originates from both accretion and shocks, producing photons that eventually emerge from an inhomogeneous photosphere. We model disk formation following debris stream self-intersection in a TDE using three-dimensional, frequency-integrated, and multigroup radiation hydrodynamics simulations. We find a more circularized disk forms about 24 days following the stream–stream collision, once the mass fallback rate passes its peak and the debris stream density decreases. Despite the absence of a circularized disk at early times, various shocks and the asymmetric photosphere are sufficient to drive a wide range of X-ray-to-optical ratios and soft X-ray variability. We find that with strong apsidal precession, the first light is from the stream–stream collision. It launches an optically thick outflow, but only produces modest prompt emission. The subsequent optical and UV light-curve rise is mainly powered by shocks in the turbulent accretion flow close to the black hole. The optical–UV luminosity peaks roughly when the disk forms and shock-driven outflows subside. Radiation pressure clears the polar region and creates optically thin channels. We obtain the broadband spectral energy distribution (SED) by postprocessing multigroup simulations with 16–20 frequency groups. The SED has a blackbody component that peaks in the extreme-UV. The soft X-ray component either resembles a thermal tail, or can be described by a power law associated with bulk Compton scattering. The blackbody parameters are broadly consistent with observed optical TDEs and vary weakly with viewing angle, but the soft X-ray emission is highly angle dependent.",
       "authors": [
-        "Xiaoshan 小珊 Huang 黄",
+        "Xiaoshan Huang",
         "Maria Renee Meza",
         "Sol Bin Yun",
         "Brenna Mockler",
         "Shane W. Davis",
-        "Yan-fei 燕飞 Jiang 姜"
+        "Yan-fei Jiang"
       ],
       "author_affiliations": [
         {
-          "name": "Xiaoshan 小珊 Huang 黄",
+          "name": "Xiaoshan Huang",
           "institutions": [
             "California Institute of Technology"
           ],
-          "orcid": "https://orcid.org/0000-0003-2868-489X"
+          "orcid": "https://orcid.org/0000-0003-2868-489X",
+          "name_zh": "黄小珊",
+          "name_source": "https://doi.org/10.3847/1538-4357/ae953e"
         },
         {
           "name": "Maria Renee Meza",
@@ -14545,11 +14551,13 @@
           "orcid": "https://orcid.org/0000-0001-7488-4468"
         },
         {
-          "name": "Yan-fei 燕飞 Jiang 姜",
+          "name": "Yan-fei Jiang",
           "institutions": [
             "Flatiron Institute"
           ],
-          "orcid": "https://orcid.org/0000-0002-2624-3399"
+          "orcid": "https://orcid.org/0000-0002-2624-3399",
+          "name_zh": "姜燕飞",
+          "name_source": "https://doi.org/10.3847/1538-4357/ae953e"
         }
       ],
       "institutions": [
@@ -16249,39 +16257,47 @@
       "title": "Modeling the Dynamics and Thermochemistry for the Outer Atmospheres of the Ultrahot Jupiter WASP-121b",
       "abstract": "Abstract We present three-dimensional simulations of the ultrahot Jupiter (UHJ) WASP-121b from the planetary surface to extended outflows, coupling hydrodynamics with consistent nonequilibrium thermochemistry, ray-tracing radiative transfer, and hydrodynamics using the GPU-accelerated Kratos framework. The fiducial model exhibits several atmospheric layers, including the lower atmospheres controlled by day–night circulation, and transonic photoevaporative outflows at higher altitudes shaped into two spiral arms by the stellar gravity and orbital motion effects. Different species could trace different regions; Fe probes rotation-dominated inner layers, Na maps dense spiral arms where recombination balances photoionization, and H α and He 10830 Å features trace progressively more extended, ionized gas. With spiral arm velocities reaching ∼40 km s −1 projected along the line of sight, this morphology naturally reproduces the velocity pattern of observed high-velocity Na and H α absorption features without requiring significant superrotation jet streams, although the absolute absorption amplitudes could carry uncertainties from stellar UV luminosity and trace elemental abundances. Parametric studies reveal complex dependencies on stellar irradiation; enhanced far-ultraviolet intensifies outflows and extends spiral arms spatially and kinematically, while EUV and X-ray expand spiral structures into attenuated, ionized regions. Stellar wind confinement compresses the dayside outflow and enhances metastable helium absorption. This work demonstrates that current and future transmission spectral observations that probe multiple species can provide important constraints on astrophysical environments of UHJs by comparing state-of-the-art simulations.",
       "authors": [
-        "Lile 力乐 Wang 王",
-        "Yiren 伊人 Lin 林",
-        "Ji 吉 Wang 王",
-        "Fei 飞 Dai 戴"
+        "Lile Wang",
+        "Yiren Lin",
+        "Ji Wang",
+        "Fei Dai"
       ],
       "author_affiliations": [
         {
-          "name": "Lile 力乐 Wang 王",
+          "name": "Lile Wang",
           "institutions": [
             "Peking University"
           ],
-          "orcid": "https://orcid.org/0000-0002-6540-7042"
+          "orcid": "https://orcid.org/0000-0002-6540-7042",
+          "name_zh": "王力乐",
+          "name_source": "https://doi.org/10.3847/1538-4357/ae986b"
         },
         {
-          "name": "Yiren 伊人 Lin 林",
+          "name": "Yiren Lin",
           "institutions": [
             "Peking University"
           ],
-          "orcid": "https://orcid.org/0000-0003-2509-6558"
+          "orcid": "https://orcid.org/0000-0003-2509-6558",
+          "name_zh": "林伊人",
+          "name_source": "https://doi.org/10.3847/1538-4357/ae986b"
         },
         {
-          "name": "Ji 吉 Wang 王",
+          "name": "Ji Wang",
           "institutions": [
             "The Ohio State University"
           ],
-          "orcid": "https://orcid.org/0000-0002-4361-8885"
+          "orcid": "https://orcid.org/0000-0002-4361-8885",
+          "name_zh": "王吉",
+          "name_source": "https://doi.org/10.3847/1538-4357/ae986b"
         },
         {
-          "name": "Fei 飞 Dai 戴",
+          "name": "Fei Dai",
           "institutions": [
             "University of Hawaii"
           ],
-          "orcid": "https://orcid.org/0000-0002-8958-0683"
+          "orcid": "https://orcid.org/0000-0002-8958-0683",
+          "name_zh": "戴飞",
+          "name_source": "https://doi.org/10.3847/1538-4357/ae986b"
         }
       ],
       "institutions": [
@@ -16636,9 +16652,9 @@
       "authors": [
         "Mudit Garg",
         "Lucio Mayer",
-        "Yinhao 寅昊 Wu 吴",
+        "Yinhao Wu",
         "Yacine Ali-Haïmoud",
-        "Douglas N.C. 潮 Lin 林"
+        "Douglas N.C. Lin"
       ],
       "author_affiliations": [
         {
@@ -16656,12 +16672,14 @@
           "orcid": "https://orcid.org/0000-0002-7078-2074"
         },
         {
-          "name": "Yinhao 寅昊 Wu 吴",
+          "name": "Yinhao Wu",
           "institutions": [
             "Chinese Academy of Sciences",
             "National Astronomical Observatory of Japan"
           ],
-          "orcid": "https://orcid.org/0000-0003-3728-8231"
+          "orcid": "https://orcid.org/0000-0003-3728-8231",
+          "name_zh": "吴寅昊",
+          "name_source": "https://doi.org/10.3847/2041-8213/aea0ca"
         },
         {
           "name": "Yacine Ali-Haïmoud",
@@ -16671,12 +16689,14 @@
           "orcid": "https://orcid.org/0000-0003-0533-0319"
         },
         {
-          "name": "Douglas N.C. 潮 Lin 林",
+          "name": "Douglas N.C. Lin",
           "institutions": [
             "University of California",
             "Tsinghua University"
           ],
-          "orcid": "https://orcid.org/0000-0001-5466-4628"
+          "orcid": "https://orcid.org/0000-0001-5466-4628",
+          "name_zh": "林潮",
+          "name_source": "https://doi.org/10.3847/2041-8213/aea0ca"
         }
       ],
       "institutions": [
@@ -16884,63 +16904,77 @@
       "title": "Transiting Planetary Systems with Distant Giant Companions Remain Moderately Coplanar",
       "abstract": "Abstract The mutual inclination between inner planets and distant giant companions provides an important probe of planetary system formation and dynamical evolution, yet direct measurements of this quantity remain scarce. We combine radial velocity (RV) observations with Hipparcos–Gaia astrometry to constrain the orbital architecture of 19 planetary systems hosting at least one transiting inner planet and one outer giant companion. Using a hierarchical Bayesian framework, we infer the population-level distribution of the minimum mutual inclination, Δ I , between the inner and outer planetary orbits. We find that the Δ I distribution is well described by a Rayleigh model with a scale parameter of σ = 15 . 8 − 2.6 + 2.8 deg , which is strongly preferred over an isotropic distribution ( Δ log Z = 5.45 ). This result suggests that transiting systems hosting distant giant companions remain substantially more coplanar than expected for an isotropic population, consistent with the partial preservation of primordial coplanarity. A division by the mass (0.3 M Jup ) of the inner transiting planet suggests that giant-inner-planet systems may have lower Δ I than small-inner-planet systems, with P ( σ giant < σ small ) = 0.952; however, the current data do not significantly favor a model allowing different σ values for the two subsamples over one in which they share a common σ . Future Gaia DR4 astrometry will enable more robust population-level studies of the three-dimensional architectures of systems with distant giant companions.",
       "authors": [
-        "Guang-Yao 光耀 Xiao 肖",
-        "Huan-Yu 环宇 Teng 滕",
-        "Xiumin 秀敏 Huang 黄",
-        "Fabo 发波 Feng 冯",
-        "Dong 东 Lai 赖",
-        "Fei 飞 Dai 戴",
-        "Yu-Juan 玉娟 Liu 刘"
+        "Guang-Yao Xiao",
+        "Huan-Yu Teng",
+        "Xiumin Huang",
+        "Fabo Feng",
+        "Dong Lai",
+        "Fei Dai",
+        "Yu-Juan Liu"
       ],
       "author_affiliations": [
         {
-          "name": "Guang-Yao 光耀 Xiao 肖",
+          "name": "Guang-Yao Xiao",
           "institutions": [
             "Shanghai Jiao Tong University"
           ],
-          "orcid": "https://orcid.org/0000-0001-6753-4611"
+          "orcid": "https://orcid.org/0000-0001-6753-4611",
+          "name_zh": "肖光耀",
+          "name_source": "https://doi.org/10.3847/2041-8213/aea15e"
         },
         {
-          "name": "Huan-Yu 环宇 Teng 滕",
+          "name": "Huan-Yu Teng",
           "institutions": [
             "Chinese Academy of Sciences"
           ],
-          "orcid": "https://orcid.org/0000-0003-3860-6297"
+          "orcid": "https://orcid.org/0000-0003-3860-6297",
+          "name_zh": "滕环宇",
+          "name_source": "https://doi.org/10.3847/2041-8213/aea15e"
         },
         {
-          "name": "Xiumin 秀敏 Huang 黄",
+          "name": "Xiumin Huang",
           "institutions": [
             "Shanghai Jiao Tong University"
           ],
-          "orcid": "https://orcid.org/0000-0002-2546-2012"
+          "orcid": "https://orcid.org/0000-0002-2546-2012",
+          "name_zh": "黄秀敏",
+          "name_source": "https://doi.org/10.3847/2041-8213/aea15e"
         },
         {
-          "name": "Fabo 发波 Feng 冯",
+          "name": "Fabo Feng",
           "institutions": [
             "Shanghai Jiao Tong University"
           ],
-          "orcid": "https://orcid.org/0000-0001-6039-0555"
+          "orcid": "https://orcid.org/0000-0001-6039-0555",
+          "name_zh": "冯发波",
+          "name_source": "https://doi.org/10.3847/2041-8213/aea15e"
         },
         {
-          "name": "Dong 东 Lai 赖",
+          "name": "Dong Lai",
           "institutions": [
             "Shanghai Jiao Tong University"
           ],
-          "orcid": "https://orcid.org/0000-0002-1934-6250"
+          "orcid": "https://orcid.org/0000-0002-1934-6250",
+          "name_zh": "赖东",
+          "name_source": "https://doi.org/10.3847/2041-8213/aea15e"
         },
         {
-          "name": "Fei 飞 Dai 戴",
+          "name": "Fei Dai",
           "institutions": [
             "University of Hawai‘i"
           ],
-          "orcid": "https://orcid.org/0000-0002-8958-0683"
+          "orcid": "https://orcid.org/0000-0002-8958-0683",
+          "name_zh": "戴飞",
+          "name_source": "https://doi.org/10.3847/2041-8213/aea15e"
         },
         {
-          "name": "Yu-Juan 玉娟 Liu 刘",
+          "name": "Yu-Juan Liu",
           "institutions": [
             "Chinese Academy of Sciences"
           ],
-          "orcid": "https://orcid.org/0009-0008-3430-1027"
+          "orcid": "https://orcid.org/0009-0008-3430-1027",
+          "name_zh": "刘玉娟",
+          "name_source": "https://doi.org/10.3847/2041-8213/aea15e"
         }
       ],
       "institutions": [

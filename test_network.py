@@ -6,10 +6,13 @@ from pathlib import Path
 from unittest.mock import patch
 import build_network
 import enrich
-from author_names import chinese_name
+from author_names import chinese_name,publisher_name
 from institution_utils import parents,verified_units,verified_hierarchy,orcid_url
 
 class NetworkRules(unittest.TestCase):
+ def test_bilingual_publisher_given_family_fields(self):
+  self.assertEqual(publisher_name('Lile 力乐','Wang 王'),{'name':'Lile Wang','name_zh':'王力乐'})
+  self.assertIsNone(publisher_name('Lile','Wang'))
  def test_names_require_explicit_unambiguous_hanzi(self):
   self.assertIsNone(chinese_name({'name':{'given-names':{'value':'Minghuai'},'family-name':{'value':'Wang'}}}))
   self.assertEqual(chinese_name({'other-names':{'other-name':[{'content':'汪名怀'}]}}),'汪名怀')

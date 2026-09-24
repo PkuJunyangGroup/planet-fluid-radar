@@ -76,7 +76,7 @@ def build():
   for a in p.get('author_affiliations',[]):
    a['orcid']=orcid_url(a.get('orcid'))
    confirmed=names.get(a['orcid'],{})
-   if confirmed.get('name_zh'):a.update(name_zh=confirmed['name_zh'],name_source=confirmed['source'])
+   if not a.get('name_zh') and confirmed.get('name_zh'):a.update(name_zh=confirmed['name_zh'],name_source=confirmed['source'])
    for item in overrides:
     if normalize(a['name']) in [normalize(n) for n in item['names']] and any(item['institution'] in parent_names(raw) for raw in a.get('institutions',[])):
      a.update(name_zh=item['name_zh'],name_source=item['source'])

@@ -8,6 +8,7 @@ import urllib.request
 from html import unescape
 from pathlib import Path
 from update import classify
+from author_names import publisher_name
 ROOT=Path(__file__).resolve().parent
 
 def plain(s):return ' '.join(unescape(re.sub('<[^>]+>',' ',s or '')).split())
@@ -28,7 +29,11 @@ def parse_record(r,journal,stamp):
  for a in r.get('author',[]):
   name=' '.join(filter(None,[a.get('given'),a.get('family')])) or a.get('name','')
   ins=list(dict.fromkeys(plain(o.get('name','')) for o in a.get('affiliation',[]) if o.get('name')))
-  if name:authors.append(name);mappings.append({'name':name,'institutions':ins,'orcid':a.get('ORCID')})
+  if name:
+   author={'name':name,'institutions':ins,'orcid':a.get('ORCID')}
+   bilingual=publisher_name(a.get('given',''),a.get('family',''))
+   if bilingual:author.update(bilingual,name_source='https://doi.org/'+doi)
+   authors.append(author['name']);mappings.append(author)
   orgs.extend(ins)
  pub=publication(r)
  relation=r.get('relation',{})
