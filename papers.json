@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-09-24T10:01:20.796354+00:00",
+  "generated_at": "2026-09-25T01:23:29.738579+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
       "status": "partial",
-      "last_rss_success": "2026-09-24T10:01:20.796354+00:00",
-      "last_attempt": "2026-09-24T10:01:20.796354+00:00",
+      "last_rss_success": "2026-09-25T01:23:29.738579+00:00",
+      "last_attempt": "2026-09-25T01:23:29.738579+00:00",
       "error": "HTTPError"
     },
     "physics.ao-ph": {
-      "last_attempt": "2026-09-24T10:01:20.796354+00:00",
+      "last_attempt": "2026-09-25T01:23:29.738579+00:00",
       "status": "partial",
       "error": "HTTPError",
-      "last_rss_success": "2026-09-24T10:01:20.796354+00:00"
+      "last_rss_success": "2026-09-25T01:23:29.738579+00:00"
     },
     "physics.geo-ph": {
-      "last_attempt": "2026-09-24T10:01:20.796354+00:00",
+      "last_attempt": "2026-09-25T01:23:29.738579+00:00",
       "status": "partial",
       "error": "HTTPError",
-      "last_rss_success": "2026-09-24T10:01:20.796354+00:00"
+      "last_rss_success": "2026-09-25T01:23:29.738579+00:00"
     },
     "physics.flu-dyn": {
-      "last_attempt": "2026-09-24T10:01:20.796354+00:00",
+      "last_attempt": "2026-09-25T01:23:29.738579+00:00",
       "status": "partial",
       "error": "HTTPError",
-      "last_rss_success": "2026-09-24T10:01:20.796354+00:00"
+      "last_rss_success": "2026-09-25T01:23:29.738579+00:00"
     }
   },
   "topics": [
@@ -52,22 +52,127 @@
         "rocky planet atmosphere"
       ],
       "context": [
-        "planet",
-        "exoplanet",
-        "rocky",
-        "terrestrial",
-        "tidally locked",
-        "tidal locking",
-        "hot jupiter",
-        "sub neptune",
-        "lava world",
-        "mars",
-        "martian",
-        "venus",
-        "jupiter",
-        "trappist",
-        "hycean",
-        "habitable"
+        "atmosphere",
+        "atmospheric",
+        "climate",
+        "radiative",
+        "radiation",
+        "phase curve",
+        "habitability",
+        "habitable",
+        "heat redistribution",
+        "photochemistry",
+        "cloud",
+        "thermal emission",
+        "escape",
+        "water vapor"
+      ]
+    },
+    {
+      "id": "chemistry",
+      "name": "行星大气化学",
+      "name_en": "Planetary atmospheric chemistry",
+      "terms": [
+        "photochemistry",
+        "photochemical",
+        "atmospheric chemistry",
+        "chemical kinetics",
+        "chemical equilibrium",
+        "disequilibrium chemistry",
+        "chemical disequilibrium",
+        "reaction network",
+        "chemical network",
+        "thermochemistry",
+        "thermochemical",
+        "haze formation",
+        "aerosol chemistry"
+      ],
+      "required_context_groups": [
+        [
+          "planet",
+          "planetary",
+          "exoplanet",
+          "exoplanetary",
+          "mars",
+          "martian",
+          "venus",
+          "venusian",
+          "jupiter",
+          "jovian",
+          "saturn",
+          "titan",
+          "neptune",
+          "uranus",
+          "terrestrial",
+          "early earth",
+          "hot jupiter",
+          "sub neptune",
+          "trappist",
+          "wasp"
+        ],
+        [
+          "atmosphere",
+          "atmospheric",
+          "climate",
+          "stratosphere",
+          "troposphere",
+          "atmospheres"
+        ]
+      ]
+    },
+    {
+      "id": "models",
+      "name": "行星大气模式",
+      "name_en": "Planetary atmospheric models",
+      "terms": [
+        "general circulation model",
+        "global circulation model",
+        "climate model",
+        "atmospheric model",
+        "atmosphere model",
+        "gcm",
+        "radiative convective model",
+        "photochemical model",
+        "chemistry model",
+        "dynamical core",
+        "radiative transfer model",
+        "cloud resolving model",
+        "global climate model",
+        "atmospheric modeling",
+        "atmospheric modelling",
+        "climate simulation"
+      ],
+      "required_context_groups": [
+        [
+          "planet",
+          "planetary",
+          "exoplanet",
+          "exoplanetary",
+          "mars",
+          "martian",
+          "venus",
+          "venusian",
+          "jupiter",
+          "jovian",
+          "saturn",
+          "titan",
+          "neptune",
+          "uranus",
+          "terrestrial",
+          "early earth",
+          "hot jupiter",
+          "sub neptune",
+          "trappist",
+          "wasp"
+        ],
+        [
+          "atmosphere",
+          "atmospheric",
+          "climate",
+          "stratosphere",
+          "troposphere",
+          "atmospheres"
+        ]
       ]
     },
     {
@@ -97,43 +202,237 @@
         "atmospheric",
         "climate",
         "cloud",
-        "water vapor",
         "greenhouse",
-        "precipitation",
         "planet",
         "radiative convective",
         "troposphere",
         "stratosphere",
         "hydrological"
-      ]
+      ],
+      "reject_context": [
+        "circumgalactic",
+        "quasar",
+        "galaxy",
+        "galaxies",
+        "neutron star",
+        "white dwarf",
+        "stellar atmosphere",
+        "interstellar",
+        "molecular cloud",
+        "electron precipitation",
+        "proton precipitation"
+      ],
+      "allow_context": [
+        "planet",
+        "exoplanet",
+        "planetary",
+        "martian",
+        "mars",
+        "venus",
+        "jupiter"
+      ],
+      "term_context": {
+        "precipitation": [
+          "rainfall",
+          "rain",
+          "snow",
+          "monsoon",
+          "moisture",
+          "hydrological",
+          "water cycle",
+          "climate",
+          "weather",
+          "troposphere",
+          "tropospheric",
+          "cloud microphysics",
+          "convective precipitation"
+        ],
+        "condensation": [
+          "atmosphere",
+          "atmospheric",
+          "climate",
+          "cloud microphysics",
+          "water vapor",
+          "planet",
+          "exoplanet",
+          "troposphere"
+        ]
+      }
     },
     {
       "id": "dynamics",
-      "name": "大气与气候动力学",
-      "name_en": "Atmospheric & climate dynamics",
+      "name": "大气动力学",
+      "name_en": "Atmospheric dynamics",
       "terms": [
         "atmospheric dynamics",
-        "climate dynamics",
         "general circulation",
         "hadley",
         "walker circulation",
         "rossby",
         "gravity wave",
         "baroclinic",
+        "baroclinicity",
         "superrotation",
         "atmospheric circulation",
+        "atmospheric tide",
+        "polar cyclone",
+        "jet stream",
+        "storm track",
+        "wave mean flow",
+        "stratospheric warming"
+      ],
+      "term_context": {
+        "general circulation": [
+          "atmosphere",
+          "atmospheric",
+          "troposphere",
+          "stratosphere",
+          "tropospheric",
+          "stratospheric",
+          "weather",
+          "monsoon",
+          "atmospheric circulation",
+          "superrotation"
+        ],
+        "rossby": [
+          "atmosphere",
+          "atmospheric",
+          "troposphere",
+          "stratosphere",
+          "tropospheric",
+          "stratospheric",
+          "weather",
+          "monsoon",
+          "atmospheric circulation",
+          "superrotation"
+        ],
+        "gravity wave": [
+          "atmosphere",
+          "atmospheric",
+          "troposphere",
+          "stratosphere",
+          "tropospheric",
+          "stratospheric",
+          "weather",
+          "monsoon",
+          "atmospheric circulation",
+          "superrotation"
+        ],
+        "baroclinic": [
+          "atmosphere",
+          "atmospheric",
+          "troposphere",
+          "stratosphere",
+          "tropospheric",
+          "stratospheric",
+          "weather",
+          "monsoon",
+          "atmospheric circulation",
+          "superrotation"
+        ],
+        "baroclinicity": [
+          "atmosphere",
+          "atmospheric",
+          "troposphere",
+          "stratosphere",
+          "tropospheric",
+          "stratospheric",
+          "weather",
+          "monsoon",
+          "atmospheric circulation",
+          "superrotation"
+        ],
+        "polar cyclone": [
+          "atmosphere",
+          "atmospheric",
+          "troposphere",
+          "stratosphere",
+          "tropospheric",
+          "stratospheric",
+          "weather",
+          "monsoon",
+          "atmospheric circulation",
+          "superrotation"
+        ],
+        "wave mean flow": [
+          "atmosphere",
+          "atmospheric",
+          "troposphere",
+          "stratosphere",
+          "tropospheric",
+          "stratospheric",
+          "weather",
+          "monsoon",
+          "atmospheric circulation",
+          "superrotation"
+        ],
+        "jet stream": [
+          "atmosphere",
+          "atmospheric",
+          "troposphere",
+          "stratosphere",
+          "tropospheric",
+          "stratospheric",
+          "weather",
+          "monsoon",
+          "atmospheric circulation",
+          "superrotation"
+        ]
+      }
+    },
+    {
+      "id": "climate",
+      "name": "气候动力学",
+      "name_en": "Climate dynamics",
+      "terms": [
+        "climate dynamics",
         "climate sensitivity",
+        "climate feedback",
+        "cloud feedback",
+        "radiative feedback",
         "hydrological cycle",
         "water cycle",
         "radiative convective equilibrium",
-        "atmospheric tide",
-        "polar cyclone"
-      ]
+        "climate variability",
+        "climate response",
+        "climate stability",
+        "climate transition",
+        "climate oscillation",
+        "climate tipping",
+        "energy balance",
+        "el nino",
+        "la nina",
+        "enso",
+        "intertropical convergence zone",
+        "ice albedo feedback",
+        "ocean atmosphere coupling",
+        "coupled climate",
+        "paleoclimate dynamics"
+      ],
+      "term_context": {
+        "energy balance": [
+          "climate",
+          "planetary",
+          "atmosphere",
+          "atmospheric",
+          "ocean",
+          "radiative",
+          "greenhouse"
+        ],
+        "water cycle": [
+          "climate",
+          "planet",
+          "planetary",
+          "atmosphere",
+          "atmospheric",
+          "hydrological"
+        ]
+      }
     },
     {
       "id": "ocean",
-      "name": "物理海洋与地球流体",
-      "name_en": "Physical oceanography & GFD",
+      "name": "物理海洋",
+      "name_en": "Physical oceanography",
       "terms": [
         "ocean circulation",
         "ocean heat transport",
@@ -142,18 +441,110 @@
         "ocean mixing",
         "overturning circulation",
         "thermocline",
-        "geophysical fluid",
-        "rotating fluid",
-        "stratified flow",
-        "internal wave",
         "ocean eddy",
         "ocean eddies",
         "air sea interaction",
+        "ocean current",
+        "ocean stratification",
+        "ocean turbulence",
+        "oceanic turbulence",
+        "oceanic circulation",
+        "oceanic mixing",
+        "oceanic heat transport",
+        "mesoscale eddy",
+        "mesoscale eddies",
+        "submesoscale",
+        "internal wave"
+      ],
+      "term_context": {
+        "internal wave": [
+          "ocean",
+          "oceanic",
+          "marine",
+          "sea",
+          "seawater",
+          "abyssal"
+        ],
+        "mesoscale eddy": [
+          "ocean",
+          "oceanic",
+          "marine",
+          "sea",
+          "seawater",
+          "abyssal"
+        ],
+        "mesoscale eddies": [
+          "ocean",
+          "oceanic",
+          "marine",
+          "sea",
+          "seawater",
+          "abyssal"
+        ],
+        "submesoscale": [
+          "ocean",
+          "oceanic",
+          "marine",
+          "sea",
+          "seawater",
+          "abyssal"
+        ],
+        "overturning circulation": [
+          "ocean",
+          "oceanic",
+          "abyssal",
+          "thermohaline",
+          "amoc"
+        ]
+      }
+    },
+    {
+      "id": "gfd",
+      "name": "地球流体力学",
+      "name_en": "Geophysical fluid dynamics",
+      "terms": [
+        "geophysical fluid",
+        "rotating fluid",
+        "stratified flow",
+        "stratified fluid",
+        "rotating stratified",
         "rotating convection",
+        "quasigeostrophic",
+        "quasi geostrophic",
+        "geostrophic",
+        "potential vorticity",
+        "rossby",
+        "baroclinic",
+        "barotropic instability",
+        "shallow water",
+        "internal wave",
+        "inertial wave",
+        "beta plane",
+        "f plane",
+        "thermal wind",
+        "taylor proudman",
+        "ekman",
         "kolmogorov flow",
         "two dimensional turbulence",
         "2d turbulence",
         "inverse cascade"
+      ],
+      "reject_context": [
+        "galaxy",
+        "galaxies",
+        "interstellar",
+        "accretion disk",
+        "accretion disc",
+        "stellar interior",
+        "stellar convection"
+      ],
+      "allow_context": [
+        "geophysical",
+        "ocean",
+        "oceanic",
+        "planetary atmosphere",
+        "atmospheric circulation",
+        "earth atmosphere"
       ]
     },
     {
@@ -232,6 +623,79 @@
       ]
     },
     {
+      "id": "cryosphere",
+      "name": "行星冰冻圈、冰物理与冰动力",
+      "name_en": "Planetary cryospheres, ice physics & ice dynamics",
+      "terms": [
+        "planetary cryosphere",
+        "cryosphere",
+        "cryospheric",
+        "ice physics",
+        "ice dynamics",
+        "ice rheology",
+        "ice deformation",
+        "ice flow",
+        "ice sheet",
+        "ice shelf",
+        "ice shelves",
+        "sea ice",
+        "sea glacier",
+        "glacier dynamics",
+        "glacial dynamics",
+        "ice shell",
+        "icy shell",
+        "icy moon",
+        "icy satellite",
+        "ice convection",
+        "convection in ice",
+        "convection of ice",
+        "ice ocean interaction",
+        "ice ocean interface",
+        "basal melting",
+        "basal sliding",
+        "ice fracture",
+        "ice tectonics",
+        "high pressure ice",
+        "ice phase transition",
+        "water ice",
+        "carbon dioxide ice",
+        "co2 ice",
+        "nitrogen ice",
+        "methane ice",
+        "polar ice cap",
+        "snowball earth",
+        "ice albedo"
+      ],
+      "reject_context": [
+        "spin ice",
+        "quantum spin ice",
+        "artificial spin ice",
+        "interstellar ice",
+        "molecular cloud",
+        "interstellar medium",
+        "star forming",
+        "icy grain",
+        "grain mantle"
+      ],
+      "allow_context": [
+        "planetary cryosphere",
+        "icy moon",
+        "icy satellite",
+        "europa",
+        "enceladus",
+        "ganymede",
+        "callisto",
+        "titan",
+        "triton",
+        "pluto",
+        "martian",
+        "mars",
+        "sea ice",
+        "ice sheet",
+        "glacier"
+      ]
+    },
+    {
       "id": "surface",
       "name": "表层过程与古气候",
       "name_en": "Surface processes & paleoclimate",
@@ -267,8 +731,8 @@
     },
     {
       "id": "methods",
-      "name": "数学物理与数值方法",
-      "name_en": "Mathematical physics & methods",
+      "name": "数学、物理、数值方法",
+      "name_en": "Mathematics, Physics & Numerical Methods",
       "terms": [
         "data assimilation",
         "inverse problem",
@@ -392,14 +856,10 @@
       "first_seen": "2026-09-24T08:51:14.614730+00:00",
       "version_changed": false,
       "topics": [
-        "planetary",
         "detection",
         "evolution"
       ],
       "matches": {
-        "planetary": [
-          "hot jupiter"
-        ],
         "detection": [
           "transit timing"
         ],
@@ -408,7 +868,7 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：hot jupiter、transit timing、orbital evolution",
+      "reason": "关联线索：transit timing、orbital evolution",
       "method": "keyword",
       "institutions": [
         "Earth and Planets Laboratory, Carnegie Institution for Science, 5241 Broad Branch Road, NW, Washington, DC 20015, USA",
@@ -766,16 +1226,10 @@
       "source": "arXiv",
       "first_seen": "2026-09-24T08:51:14.614730+00:00",
       "version_changed": false,
-      "topics": [
-        "planetary"
-      ],
-      "matches": {
-        "planetary": [
-          "sub neptune"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：sub neptune",
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "行星科学拓展阅读",
       "method": "keyword",
       "institutions": [
         "Universidad Autonóma de Nuevo León, Facultad de Ingeniería Mecánica y Eléctrica, San Nicolás de los Garza, 66451, NL, México",
@@ -992,10 +1446,14 @@
       "first_seen": "2026-09-24T08:51:14.614730+00:00",
       "version_changed": false,
       "topics": [
+        "cryosphere",
         "surface",
         "methods"
       ],
       "matches": {
+        "cryosphere": [
+          "icy moon"
+        ],
         "surface": [
           "cryomagma",
           "cryolava"
@@ -1005,7 +1463,7 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：cryomagma、cryolava、smoothed particle hydrodynamics",
+      "reason": "关联线索：icy moon、cryomagma、cryolava、smoothed particle hydrodynamics",
       "method": "keyword",
       "institutions": [
         "organization=Laboratoire Environnements et Atmosphères Terrestres et Planétaires, Université de Reims Champagne-Ardenne, city=Reims, country=France",
@@ -1067,10 +1525,16 @@
       "source": "arXiv",
       "first_seen": "2026-09-24T08:51:14.614730+00:00",
       "version_changed": false,
-      "topics": [],
-      "matches": {},
-      "status": "unmatched",
-      "reason": "行星科学拓展阅读",
+      "topics": [
+        "cryosphere"
+      ],
+      "matches": {
+        "cryosphere": [
+          "icy moon"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：icy moon",
       "method": "keyword",
       "institutions": [],
       "author_affiliations": [],
@@ -1112,6 +1576,8 @@
       "version_changed": false,
       "topics": [
         "planetary",
+        "chemistry",
+        "models",
         "dynamics",
         "evolution"
       ],
@@ -1121,6 +1587,15 @@
           "exoplanet atmosphere",
           "photochemistry"
         ],
+        "chemistry": [
+          "photochemistry",
+          "atmospheric chemistry",
+          "disequilibrium chemistry",
+          "thermochemical"
+        ],
+        "models": [
+          "atmospheric model"
+        ],
         "dynamics": [
           "atmospheric circulation"
         ],
@@ -1129,7 +1604,7 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：planetary atmosphere、exoplanet atmosphere、photochemistry、atmospheric circulation、planetary evolution",
+      "reason": "关联线索：planetary atmosphere、exoplanet atmosphere、photochemistry、atmospheric chemistry、disequilibrium chemistry、thermochemical",
       "method": "keyword",
       "institutions": [],
       "author_affiliations": [
@@ -3115,11 +3590,11 @@
       "first_seen": "2026-09-24T08:58:07.531315+00:00",
       "version_changed": false,
       "topics": [
-        "ocean",
+        "gfd",
         "methods"
       ],
       "matches": {
-        "ocean": [
+        "gfd": [
           "kolmogorov flow"
         ],
         "methods": [
@@ -3180,10 +3655,16 @@
       "source": "arXiv",
       "first_seen": "2026-09-24T08:58:07.531315+00:00",
       "version_changed": false,
-      "topics": [],
-      "matches": {},
-      "status": "unmatched",
-      "reason": "拓展阅读",
+      "topics": [
+        "dynamics"
+      ],
+      "matches": {
+        "dynamics": [
+          "stratospheric warming"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：stratospheric warming",
       "method": "keyword",
       "institutions": [],
       "author_affiliations": [],
@@ -3271,16 +3752,10 @@
       "source": "arXiv",
       "first_seen": "2026-09-24T08:58:07.531315+00:00",
       "version_changed": true,
-      "topics": [
-        "physics"
-      ],
-      "matches": {
-        "physics": [
-          "precipitation"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：precipitation",
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
       "method": "keyword",
       "institutions": [
         "Colorado State University, Fort Collins, Colorado, USA",
@@ -3656,11 +4131,11 @@
       "first_seen": "2026-09-24T08:58:07.531315+00:00",
       "version_changed": false,
       "topics": [
-        "ocean",
+        "gfd",
         "methods"
       ],
       "matches": {
-        "ocean": [
+        "gfd": [
           "kolmogorov flow"
         ],
         "methods": [
@@ -3822,11 +4297,11 @@
       "first_seen": "2026-09-24T08:58:07.531315+00:00",
       "version_changed": false,
       "topics": [
-        "ocean",
+        "gfd",
         "methods"
       ],
       "matches": {
-        "ocean": [
+        "gfd": [
           "2d turbulence"
         ],
         "methods": [
@@ -4175,11 +4650,11 @@
       "first_seen": "2026-09-24T08:58:07.531315+00:00",
       "version_changed": false,
       "topics": [
-        "ocean",
+        "gfd",
         "methods"
       ],
       "matches": {
-        "ocean": [
+        "gfd": [
           "two dimensional turbulence",
           "inverse cascade"
         ],
