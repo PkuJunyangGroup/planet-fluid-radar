@@ -560,6 +560,27 @@
       ]
     },
     {
+      "id": "orbital",
+      "name": "行星轨道动力学",
+      "name_en": "Planetary orbital dynamics",
+      "terms": [
+        "orbital dynamics", "orbital resonance", "mean motion resonance", "secular resonance",
+        "orbital migration", "planetary migration", "orbital stability", "planetary system stability",
+        "planetary system dynamics", "planet-planet scattering", "resonant chain", "orbital architecture",
+        "orbital evolution", "celestial mechanics", "n-body", "transit timing variations",
+        "apsidal precession", "spin-orbit resonance", "tidal orbital evolution", "orbital forcing",
+        "milankovitch cycle", "milankovitch cycles", "milankovitch forcing"
+      ],
+      "required_context_groups": [
+        [
+          "planet", "planetary", "exoplanet", "exoplanetary", "planetary system", "solar system",
+          "terrestrial planet", "hot jupiter", "sub neptune", "mars", "martian", "venus",
+          "jupiter", "jovian", "saturn", "uranus", "neptune", "titan", "europa", "enceladus",
+          "pluto", "asteroid", "hilda asteroid", "main belt", "kuiper belt", "transiting planet", "earth"
+        ]
+      ]
+    },
+    {
       "id": "evolution",
       "name": "行星内部与演化",
       "name_en": "Planetary interiors & evolution",
