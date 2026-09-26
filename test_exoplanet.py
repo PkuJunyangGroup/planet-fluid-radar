@@ -41,4 +41,22 @@ class Exoplanet(unittest.TestCase):
             self.assertEqual(saved['sources']['exoplanet.eu']['coverage_since'], '2026-09-25')
             self.assertEqual(saved['sources']['exoplanet.eu']['status'], 'ok')
 
+    def test_publisher_abstract_supplements_apply_when_feed_fails(self):
+        doi = '10.1038/s41550-026-02984-6'
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            (root / 'topics.json').write_text(Path('topics.json').read_text())
+            (root / 'exoplanet_metadata_overrides.json').write_text(json.dumps({doi: {
+                'abstract': 'Verified publisher abstract', 'source_url': 'https://publisher.example/article'
+            }}))
+            record = {'id': 'doi:' + doi, 'doi': doi, 'title': 'A rocky planet paper', 'abstract': '',
+                      'first_seen': '2026-09-26T00:00:00+08:00'}
+            (root / 'exoplanet_records.json').write_text(json.dumps({'papers': [record], 'sources': {}}))
+            with patch.object(exo, 'ROOT', root), patch.object(exo, 'fetch_page', side_effect=RuntimeError('offline')):
+                self.assertTrue(exo.update(now=exo.dt.datetime(2026, 9, 26, 10, 0, tzinfo=exo.TZ)))
+            saved = json.loads((root / 'exoplanet_records.json').read_text())
+            self.assertEqual(saved['sources']['exoplanet.eu']['status'], 'error')
+            self.assertEqual(saved['papers'][0]['abstract'], 'Verified publisher abstract')
+            self.assertEqual(saved['papers'][0]['abstract_source'], 'https://publisher.example/article')
+
 if __name__ == '__main__': unittest.main()

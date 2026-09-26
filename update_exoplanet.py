@@ -168,6 +168,16 @@ def fetch_page(page):
     return parser.rows
 
 
+def apply_metadata_supplements(records, supplements):
+    for paper in records.values():
+        doi = (paper.get('doi') or '').lower().strip()
+        supplement = supplements.get(doi) or supplements.get('doi:' + doi)
+        if supplement and supplement.get('abstract'):
+            paper['abstract'] = supplement['abstract']
+            paper['abstract_source'] = supplement.get('source_url', '')
+            paper['metadata_limited'] = False
+
+
 def update(days=1, max_pages=20, now=None):
     config = json.loads((ROOT / 'topics.json').read_text())
     supplement_path = ROOT / 'exoplanet_metadata_overrides.json'
@@ -218,17 +228,15 @@ def update(days=1, max_pages=20, now=None):
         source = {**source, 'name': 'Exoplanet.eu bibliography', 'url': BASE, 'status': 'error',
                   'last_attempt': stamp, 'error': type(exc).__name__}
         print('Exoplanet.eu FAILED', type(exc).__name__, flush=True)
+        # Publisher abstracts are local metadata supplements, so apply them even
+        # when the remote bibliography is temporarily unavailable.
+        apply_metadata_supplements(records, supplements)
         old.setdefault('sources', {})['exoplanet.eu'] = source
-        path.write_text(json.dumps({**old, 'generated_at': stamp}, ensure_ascii=False, indent=2) + '\n')
+        old.update(generated_at=stamp, papers=sorted(records.values(), key=lambda p: p.get('first_seen', ''), reverse=True))
+        path.write_text(json.dumps(old, ensure_ascii=False, indent=2) + '\n')
         return True
     old.setdefault('sources', {})['exoplanet.eu'] = source
-    for paper in records.values():
-        doi = (paper.get('doi') or '').lower().strip()
-        supplement = supplements.get(doi) or supplements.get('doi:' + doi)
-        if supplement and supplement.get('abstract'):
-            paper['abstract'] = supplement['abstract']
-            paper['abstract_source'] = supplement.get('source_url', '')
-            paper['metadata_limited'] = False
+    apply_metadata_supplements(records, supplements)
     old.update(generated_at=stamp, papers=sorted(records.values(), key=lambda p: p.get('first_seen', ''), reverse=True))
     path.write_text(json.dumps(old, ensure_ascii=False, indent=2) + '\n')
     print('Exoplanet.eu', fresh, 'recent entries;', retained, 'relevant additions from', pages, 'pages', flush=True)
