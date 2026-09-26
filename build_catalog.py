@@ -73,6 +73,12 @@ def build():
  # Keep provenance in source archives; publish and graph only the narrow,
  # in-scope candidate set. The filter is reversible by changing topics.json.
  papers=[p for p in papers if p.get('status')=='candidate']
+ # Keep broad atmospheric/ocean/climate/method topic codes for transparent
+ # scoring, but show only planetary-domain categories as public tags. The
+ # mechanism vocabulary remains data-driven and can grow with the corpus.
+ display_ids=set(config.get('scope_exclusion_rules',{}).get('public_topic_ids',[]))
+ for p in papers:
+  p['topics']=[topic for topic in p.get('topics',[]) if topic in display_ids]
  names_path=ROOT/'author_names.json';names=json.loads(names_path.read_text()) if names_path.exists() else {}
  overrides_path=ROOT/'author_name_overrides.json';overrides=json.loads(overrides_path.read_text()) if overrides_path.exists() else []
  aliases,_,_=verified_hierarchy(ROOT)
@@ -87,7 +93,7 @@ def build():
     if normalize(a['name']) in [normalize(n) for n in item['names']] and any(item['institution'] in parent_names(raw) for raw in a.get('institutions',[])):
      a.update(name_zh=item['name_zh'],name_source=item['source'])
  sources={**arxiv['sources'],**{'journal:'+k:v for k,v in journal['sources'].items()},**exoplanet.get('sources',{})}
- d={**arxiv,'generated_at':dt.datetime.now(dt.timezone.utc).isoformat(),'papers':papers,'topic_filter_ids':[t['id'] for t in config['topics'] if t['id'] not in config.get('scope_exclusion_rules',{}).get('low_priority_earth_topics',[])],'sources':sources,'journals':registry,'monthly_statistics':journal.get('monthly_statistics',{}),'record_count':len(arxiv['papers'])+len(journal['papers'])+len(exoplanet['papers']),'merged_count':sum(len(p['variants'])-1 for p in papers)}
+ d={**arxiv,'generated_at':dt.datetime.now(dt.timezone.utc).isoformat(),'papers':papers,'topic_filter_ids':[t['id'] for t in config['topics'] if t['id'] in display_ids],'sources':sources,'journals':registry,'monthly_statistics':journal.get('monthly_statistics',{}),'record_count':len(arxiv['papers'])+len(journal['papers'])+len(exoplanet['papers']),'merged_count':sum(len(p['variants'])-1 for p in papers)}
  (ROOT/'catalog.json').write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')
  print(len(papers),'catalog items;',d['merged_count'],'duplicates linked')
  return d

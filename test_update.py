@@ -70,6 +70,12 @@ class Rules(unittest.TestCase):
   self.assertEqual(update.classify(p,CONFIG)['status'],'excluded')
   p=self.paper('Atmospheric Rossby waves on a hot Jupiter')
   self.assertEqual(update.classify(p,CONFIG)['status'],'candidate')
+ def test_broad_topics_do_not_admit_nonplanetary_papers_outside_top_journals(self):
+  paper=self.paper('The Dense MORB Fraction Controls the Dynamic Stability and Hydration Potential of the Mantle Transition Zone', 'Geodynamical modeling examines mantle composition, hydration, density, viscosity and stability.')
+  self.assertIn('evolution',update.classify(paper,CONFIG)['topics'])
+  self.assertEqual(update.classify(paper,CONFIG)['status'],'excluded')
+  paper['journal']='Nature Geoscience'
+  self.assertEqual(update.classify(paper,CONFIG)['status'],'candidate')
  def test_atmospheric_dynamics_separate_from_climate(self):
   topics=update.classify(self.paper('Atmospheric Rossby waves and jet streams'),CONFIG)['topics']
   self.assertIn('dynamics',topics);self.assertIn('gfd',topics);self.assertNotIn('climate',topics)

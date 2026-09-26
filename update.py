@@ -22,6 +22,10 @@ def contains(text, term):
     return bool(re.search(r'(?<!\w)'+re.escape(word)+r'(?:s|es|ies)?(?!\w)', text))
 
 def planetary_context(paper, config):
+    # arXiv's Earth and Planetary Astrophysics category is an explicit planetary
+    # scope signal, although topical matching below is still required.
+    if 'astro-ph.EP' in paper.get('categories', []):
+        return True
     rules=config.get('scope_exclusion_rules',{})
     title=normalize(paper.get('title',''))
     abstract=normalize(paper.get('abstract',''))
@@ -87,6 +91,12 @@ def classify(paper, config):
         excluded.extend('低优先级地球学科：'+topic for topic in sorted(low_matches))
     if 'cryosphere' in matches and not planetary and not priority_journal(paper,rules):
         excluded.append('冰冻圈/冰动力缺少行星语境')
+    # A broad topic hit (for example, mantle dynamics or climate modelling)
+    # cannot by itself make an Earth paper relevant. Keep non-planetary work
+    # only when it appears in the user's specified general-interest journals.
+    focused=any(k!='methods' for k in matches)
+    if focused and not planetary and not priority_journal(paper,rules):
+        excluded.append('缺少明确行星语境，且不属于指定综合顶刊')
     if teacher_author(paper,config):excluded.append('组内教师署名论文')
     direct='astro-ph.EP' in paper.get('categories',[])
     status='candidate' if any(k!='methods' for k in matches) else 'unmatched'
