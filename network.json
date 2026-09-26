@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T07:13:29.751710+00:00",
+  "generated_at": "2026-09-26T07:21:15.233265+00:00",
   "nodes": [
     {
       "id": "96fbf2c8229a4de9",
@@ -4114,8 +4114,8 @@
         {
           "id": "1dfc679a50ae530a",
           "name": "JunFeng Qin",
-          "name_zh": null,
-          "name_source": null,
+          "name_zh": "秦珺峰",
+          "name_source": "https://orcid.org/0000-0002-0015-2835",
           "orcid": "https://orcid.org/0000-0002-0015-2835",
           "papers": [
             "doi:10.1029/2026je009825"
@@ -10512,8 +10512,8 @@
         {
           "id": "1dfc679a50ae530a",
           "name": "JunFeng Qin",
-          "name_zh": null,
-          "name_source": null,
+          "name_zh": "秦珺峰",
+          "name_source": "https://orcid.org/0000-0002-0015-2835",
           "orcid": "https://orcid.org/0000-0002-0015-2835",
           "papers": [
             "doi:10.1029/2026je009825"
@@ -21394,7 +21394,8 @@
       "first_seen": "2026-09-24T09:37:38.049378+00:00",
       "publication_date": "2026-09-24",
       "journals": [
-        "The Astrophysical Journal"
+        "The Astrophysical Journal",
+        "ApJ"
       ],
       "institutions": [
         "264737ef3fba38d4",
@@ -23946,9 +23947,24 @@
         "3b535182cc8b9c8d",
         "78740f94739b5583"
       ]
+    },
+    "exoplanet-bib:33128": {
+      "id": "exoplanet-bib:33128",
+      "title": "Transport and Thermochemical Kinetics of Alkali Species in Hot Jupiter Atmospheres: Implications for Magnetic Models",
+      "url": "https://doi.org/10.1093/mnras/stag1805 ",
+      "topics": [
+        "planetary",
+        "chemistry"
+      ],
+      "first_seen": "2026-09-26T15:19:36.224308+08:00",
+      "publication_date": "2026",
+      "journals": [
+        "MNRAS"
+      ],
+      "institutions": []
     }
   },
-  "omitted_papers": 50,
+  "omitted_papers": 51,
   "level": "parent",
   "researchers": [
     {
@@ -40371,8 +40387,8 @@
     {
       "id": "1dfc679a50ae530a",
       "name": "JunFeng Qin",
-      "name_zh": null,
-      "name_source": "",
+      "name_zh": "秦珺峰",
+      "name_source": "https://orcid.org/0000-0002-0015-2835",
       "orcid": "https://orcid.org/0000-0002-0015-2835",
       "identity_basis": "orcid",
       "papers": [
@@ -46482,6 +46498,81 @@
       ],
       "aliases": [
         "Martin Turbet"
+      ]
+    },
+    {
+      "id": "0c3079a4e1cc5193",
+      "name": "CHRISTIE D.",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": null,
+      "identity_basis": "paper_signature",
+      "papers": [
+        "exoplanet-bib:33128"
+      ],
+      "institutions": [],
+      "aliases": [
+        "CHRISTIE D."
+      ]
+    },
+    {
+      "id": "9c5c3e0faff88589",
+      "name": "EVANS-SOMA T.",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": null,
+      "identity_basis": "paper_signature",
+      "papers": [
+        "exoplanet-bib:33128"
+      ],
+      "institutions": [],
+      "aliases": [
+        "EVANS-SOMA T."
+      ]
+    },
+    {
+      "id": "170d5d03392d885c",
+      "name": "MAYNE N.",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": null,
+      "identity_basis": "paper_signature",
+      "papers": [
+        "exoplanet-bib:33128"
+      ],
+      "institutions": [],
+      "aliases": [
+        "MAYNE N."
+      ]
+    },
+    {
+      "id": "49e9923422f34f02",
+      "name": "HEBRARD E.",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": null,
+      "identity_basis": "paper_signature",
+      "papers": [
+        "exoplanet-bib:33128"
+      ],
+      "institutions": [],
+      "aliases": [
+        "HEBRARD E."
+      ]
+    },
+    {
+      "id": "fd14caa7a14d9284",
+      "name": "ZAMYATINA M.",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": null,
+      "identity_basis": "paper_signature",
+      "papers": [
+        "exoplanet-bib:33128"
+      ],
+      "institutions": [],
+      "aliases": [
+        "ZAMYATINA M."
       ]
     }
   ]

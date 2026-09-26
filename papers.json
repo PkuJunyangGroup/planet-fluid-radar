@@ -1,30 +1,34 @@
 {
-  "generated_at": "2026-09-26T01:23:05.202209+00:00",
+  "generated_at": "2026-09-26T07:17:08.077071+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
       "status": "partial",
-      "last_rss_success": "2026-09-26T01:23:05.202209+00:00",
-      "last_attempt": "2026-09-26T01:23:05.202209+00:00",
-      "error": "HTTPError"
+      "last_rss_success": "2026-09-26T07:17:08.077071+00:00",
+      "last_attempt": "2026-09-26T07:17:08.077071+00:00",
+      "error": "HTTP 406",
+      "last_rss_fetched": 0
     },
     "physics.ao-ph": {
-      "last_attempt": "2026-09-26T01:23:05.202209+00:00",
+      "last_attempt": "2026-09-26T07:17:08.077071+00:00",
       "status": "partial",
-      "error": "HTTPError",
-      "last_rss_success": "2026-09-26T01:23:05.202209+00:00"
+      "error": "HTTP 406",
+      "last_rss_success": "2026-09-26T07:17:08.077071+00:00",
+      "last_rss_fetched": 0
     },
     "physics.geo-ph": {
-      "last_attempt": "2026-09-26T01:23:05.202209+00:00",
+      "last_attempt": "2026-09-26T07:17:08.077071+00:00",
       "status": "partial",
-      "error": "HTTPError",
-      "last_rss_success": "2026-09-26T01:23:05.202209+00:00"
+      "error": "HTTP 406",
+      "last_rss_success": "2026-09-26T07:17:08.077071+00:00",
+      "last_rss_fetched": 0
     },
     "physics.flu-dyn": {
-      "last_attempt": "2026-09-26T01:23:05.202209+00:00",
+      "last_attempt": "2026-09-26T07:17:08.077071+00:00",
       "status": "partial",
-      "error": "HTTPError",
-      "last_rss_success": "2026-09-26T01:23:05.202209+00:00"
+      "error": "HTTP 406",
+      "last_rss_success": "2026-09-26T07:17:08.077071+00:00",
+      "last_rss_fetched": 0
     }
   },
   "topics": [
@@ -580,6 +584,67 @@
       ]
     },
     {
+      "id": "orbital",
+      "name": "行星轨道动力学",
+      "name_en": "Planetary orbital dynamics",
+      "terms": [
+        "orbital dynamics",
+        "orbital resonance",
+        "mean motion resonance",
+        "secular resonance",
+        "orbital migration",
+        "planetary migration",
+        "orbital stability",
+        "planetary system stability",
+        "planetary system dynamics",
+        "planet-planet scattering",
+        "resonant chain",
+        "orbital architecture",
+        "orbital evolution",
+        "celestial mechanics",
+        "n-body",
+        "transit timing variations",
+        "apsidal precession",
+        "spin-orbit resonance",
+        "tidal orbital evolution",
+        "orbital forcing",
+        "milankovitch cycle",
+        "milankovitch cycles",
+        "milankovitch forcing"
+      ],
+      "required_context_groups": [
+        [
+          "planet",
+          "planetary",
+          "exoplanet",
+          "exoplanetary",
+          "planetary system",
+          "solar system",
+          "terrestrial planet",
+          "hot jupiter",
+          "sub neptune",
+          "mars",
+          "martian",
+          "venus",
+          "jupiter",
+          "jovian",
+          "saturn",
+          "uranus",
+          "neptune",
+          "titan",
+          "europa",
+          "enceladus",
+          "pluto",
+          "asteroid",
+          "hilda asteroid",
+          "main belt",
+          "kuiper belt",
+          "transiting planet",
+          "earth"
+        ]
+      ]
+    },
+    {
       "id": "evolution",
       "name": "行星内部与演化",
       "name_en": "Planetary interiors & evolution",
@@ -839,6 +904,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-23",
       "publication_date_source": "https://arxiv.org/abs/2609.28618v1",
+      "fit_score": 20,
+      "fit_matches": [],
       "version_date": "2026-09-23T18:00:00+00:00"
     },
     {
@@ -892,6 +959,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-23",
       "publication_date_source": "https://arxiv.org/abs/2609.28744v1",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-23T19:33:53+00:00"
     },
     {
@@ -914,10 +983,16 @@
       "source": "arXiv",
       "first_seen": "2026-09-26T01:23:05.202209+00:00",
       "version_changed": false,
-      "topics": [],
-      "matches": {},
-      "status": "unmatched",
-      "reason": "行星科学拓展阅读",
+      "topics": [
+        "orbital"
+      ],
+      "matches": {
+        "orbital": [
+          "mean motion resonance"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：mean motion resonance",
       "tags": [
         "反演与数值方法 · Inverse & numerical methods"
       ],
@@ -962,6 +1037,8 @@
       "publication_date_source": "https://arxiv.org/abs/2609.28847v1",
       "intro_source": "https://arxiv.org/abs/2609.28847",
       "intro_version": "2609.28847v1",
+      "fit_score": 40,
+      "fit_matches": [],
       "version_date": "2026-09-23T23:25:12+00:00"
     },
     {
@@ -1011,6 +1088,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-24",
       "publication_date_source": "https://arxiv.org/abs/2609.28948v1",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-24T02:56:55+00:00"
     },
     {
@@ -1052,6 +1131,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-24",
       "publication_date_source": "https://arxiv.org/abs/2609.29003v1",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-24T04:10:25+00:00"
     },
     {
@@ -1113,6 +1194,8 @@
       "publication_date_source": "https://arxiv.org/abs/2609.29378v1",
       "intro_source": "https://arxiv.org/abs/2609.29378",
       "intro_version": "2609.29378v1",
+      "fit_score": 36,
+      "fit_matches": [],
       "version_date": "2026-09-24T11:01:57+00:00"
     },
     {
@@ -1175,6 +1258,10 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-08-26",
       "publication_date_source": "https://arxiv.org/abs/2609.29557v1",
+      "fit_score": 25,
+      "fit_matches": [
+        "理论机制与尺度关系"
+      ],
       "version_date": "2026-08-26T07:20:14+00:00"
     },
     {
@@ -1492,6 +1579,10 @@
       "publication_date": "2026-09-24",
       "publication_date_source": "https://arxiv.org/abs/2609.29783v1",
       "doi": "10.1051/0004-6361/202556746",
+      "fit_score": 0,
+      "fit_matches": [
+        "行星轨道与演化"
+      ],
       "version_date": "2026-09-24T13:24:25+00:00"
     },
     {
@@ -1613,6 +1704,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-24",
       "publication_date_source": "https://arxiv.org/abs/2609.29841v1",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-24T14:09:13+00:00"
     },
     {
@@ -1636,16 +1729,21 @@
       "first_seen": "2026-09-26T01:23:05.202209+00:00",
       "version_changed": false,
       "topics": [
-        "detection"
+        "detection",
+        "orbital"
       ],
       "matches": {
         "detection": [
           "transit timing",
           "radial velocity"
+        ],
+        "orbital": [
+          "n-body",
+          "transit timing variations"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：transit timing、radial velocity",
+      "reason": "关联线索：transit timing、radial velocity、n-body、transit timing variations",
       "tags": [
         "反演与数值方法 · Inverse & numerical methods"
       ],
@@ -1888,6 +1986,10 @@
       "publication_date_source": "https://arxiv.org/abs/2609.30038v1",
       "intro_source": "https://arxiv.org/abs/2609.30038",
       "intro_version": "2609.30038v1",
+      "fit_score": 54,
+      "fit_matches": [
+        "行星轨道与演化"
+      ],
       "version_date": "2026-09-24T16:07:02+00:00"
     },
     {
@@ -2001,6 +2103,10 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-24",
       "publication_date_source": "https://arxiv.org/abs/2609.30111v1",
+      "fit_score": 0,
+      "fit_matches": [
+        "系外行星观测表征"
+      ],
       "version_date": "2026-09-24T16:51:41+00:00"
     },
     {
@@ -2089,6 +2195,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-24",
       "publication_date_source": "https://arxiv.org/abs/2609.30252v1",
+      "fit_score": 20,
+      "fit_matches": [],
       "version_date": "2026-09-24T17:58:45+00:00"
     },
     {
@@ -2130,6 +2238,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-22",
       "publication_date_source": "https://arxiv.org/abs/2609.28532v1",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-22T18:31:09+00:00"
     },
     {
@@ -2290,6 +2400,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-23",
       "publication_date_source": "https://arxiv.org/abs/2609.28648v1",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-23T18:00:37+00:00"
     },
     {
@@ -2478,6 +2590,10 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-23",
       "publication_date_source": "https://arxiv.org/abs/2609.28746v1",
+      "fit_score": 0,
+      "fit_matches": [
+        "系外行星观测表征"
+      ],
       "version_date": "2026-09-23T19:42:32+00:00"
     },
     {
@@ -2518,6 +2634,8 @@
       "publication_date": "2026-09-24",
       "publication_date_source": "https://arxiv.org/abs/2609.29094v1",
       "doi": "10.3389/fenvs.2022.1020137",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-24T06:23:08+00:00"
     },
     {
@@ -2593,6 +2711,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-24",
       "publication_date_source": "https://arxiv.org/abs/2609.29162v1",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-24T07:36:00+00:00"
     },
     {
@@ -2681,6 +2801,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-24",
       "publication_date_source": "https://arxiv.org/abs/2609.29174v1",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-24T07:44:42+00:00"
     },
     {
@@ -2871,6 +2993,10 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-24",
       "publication_date_source": "https://arxiv.org/abs/2609.29365v1",
+      "fit_score": 0,
+      "fit_matches": [
+        "系外行星观测表征"
+      ],
       "version_date": "2026-09-24T10:44:20+00:00"
     },
     {
@@ -2923,6 +3049,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-24",
       "publication_date_source": "https://arxiv.org/abs/2609.30259v1",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-24T17:59:31+00:00"
     },
     {
@@ -3006,6 +3134,8 @@
       "publication_date_source": "https://arxiv.org/abs/2603.20373v2",
       "intro_source": "https://arxiv.org/abs/2603.20373",
       "intro_version": "2603.20373v2",
+      "fit_score": 40,
+      "fit_matches": [],
       "version_date": "2026-09-24T16:25:21+00:00"
     },
     {
@@ -3088,6 +3218,8 @@
       "publication_date_source": "https://arxiv.org/abs/2603.20377v2",
       "intro_source": "https://arxiv.org/abs/2603.20377",
       "intro_version": "2603.20377v2",
+      "fit_score": 40,
+      "fit_matches": [],
       "version_date": "2026-09-24T16:27:17+00:00"
     },
     {
@@ -3465,6 +3597,10 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-08-21",
       "publication_date_source": "https://arxiv.org/abs/2608.21560v3",
+      "fit_score": 0,
+      "fit_matches": [
+        "系外行星观测表征"
+      ],
       "version_date": "2026-09-24T04:43:54+00:00"
     },
     {
@@ -3534,6 +3670,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2024-11-14",
       "publication_date_source": "https://arxiv.org/abs/2411.09634v2",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-23T21:29:49+00:00"
     },
     {
@@ -3616,6 +3754,8 @@
       "publication_date": "2026-02-17",
       "publication_date_source": "https://arxiv.org/abs/2602.15611v2",
       "doi": "10.1103/rqcf-mv2r",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-24T15:32:46+00:00"
     },
     {
@@ -3651,8 +3791,8 @@
           "geostrophic"
         ]
       },
-      "status": "candidate",
-      "reason": "关联线索：mesoscale eddies、geostrophic",
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
       "tags": [
         "海冰与表层 · Ice & surface",
         "反演与数值方法 · Inverse & numerical methods"
@@ -3750,6 +3890,8 @@
       "publication_date_source": "https://arxiv.org/abs/2609.28601v1",
       "intro_source": "https://arxiv.org/abs/2609.28601",
       "intro_version": "2609.28601v1",
+      "fit_score": 40,
+      "fit_matches": [],
       "version_date": "2026-09-23T15:57:35+00:00"
     },
     {
@@ -3791,6 +3933,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-23",
       "publication_date_source": "https://arxiv.org/abs/2609.28749v1",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-23T19:47:31+00:00"
     },
     {
@@ -3858,6 +4002,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-24",
       "publication_date_source": "https://arxiv.org/abs/2609.29027v1",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-24T04:55:37+00:00"
     },
     {
@@ -3928,6 +4074,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-04-15",
       "publication_date_source": "https://arxiv.org/abs/2604.14009v2",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-24T02:47:55+00:00"
     },
     {
@@ -3959,8 +4107,8 @@
           "quasigeostrophic"
         ]
       },
-      "status": "candidate",
-      "reason": "关联线索：quasigeostrophic",
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
       "tags": [
         "海冰与表层 · Ice & surface",
         "反演与数值方法 · Inverse & numerical methods"
@@ -3978,6 +4126,10 @@
       "publication_date_source": "https://arxiv.org/abs/2608.26492v3",
       "intro_source": "https://arxiv.org/abs/2608.26492",
       "intro_version": "2608.26492v3",
+      "fit_score": 35,
+      "fit_matches": [
+        "理论机制与尺度关系"
+      ],
       "version_date": "2026-09-22T00:51:39+00:00"
     },
     {
@@ -4075,6 +4227,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-02",
       "publication_date_source": "https://arxiv.org/abs/2609.03210v3",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-23T19:36:47+00:00"
     },
     {
@@ -4120,6 +4274,10 @@
       "publication_date": "2025-07-12",
       "publication_date_source": "https://arxiv.org/abs/2507.09211v3",
       "doi": "10.1029/2026EF008861",
+      "fit_score": 0,
+      "fit_matches": [
+        "行星气候与模式"
+      ],
       "version_date": "2026-09-24T15:33:14+00:00"
     },
     {
@@ -4182,6 +4340,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-23",
       "publication_date_source": "https://arxiv.org/abs/2609.28745v1",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-23T19:41:36+00:00"
     },
     {
@@ -4274,6 +4434,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-24",
       "publication_date_source": "https://arxiv.org/abs/2609.28925v1",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-24T02:08:48+00:00"
     },
     {
@@ -4312,6 +4474,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-08-24",
       "publication_date_source": "https://arxiv.org/abs/2609.29502v1",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-08-24T15:57:37+00:00"
     },
     {
@@ -4350,6 +4514,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-08-24",
       "publication_date_source": "https://arxiv.org/abs/2609.29503v1",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-08-24T16:00:47+00:00"
     },
     {
@@ -4388,6 +4554,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-08-28",
       "publication_date_source": "https://arxiv.org/abs/2609.29617v1",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-08-28T12:28:04+00:00"
     },
     {
@@ -4455,6 +4623,8 @@
       "publication_date": "2025-11-04",
       "publication_date_source": "https://arxiv.org/abs/2511.02737v2",
       "doi": "10.1109/TGRS.2026.3716672",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-24T16:54:06+00:00"
     },
     {
@@ -4487,8 +4657,8 @@
           "inverse problem"
         ]
       },
-      "status": "unmatched",
-      "reason": "关联线索：inverse problem",
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
       "tags": [
         "反演与数值方法 · Inverse & numerical methods"
       ],
@@ -4513,6 +4683,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-15",
       "publication_date_source": "https://arxiv.org/abs/2609.16536v2",
+      "fit_score": 20,
+      "fit_matches": [],
       "version_date": "2026-09-23T18:52:11+00:00"
     },
     {
@@ -4554,6 +4726,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-23",
       "publication_date_source": "https://arxiv.org/abs/2609.28658v1",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-23T18:04:14+00:00"
     },
     {
@@ -4585,8 +4759,8 @@
           "navier stokes"
         ]
       },
-      "status": "unmatched",
-      "reason": "关联线索：boltzmann、navier stokes",
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
       "tags": [
         "流体与不稳定性 · Fluid dynamics",
         "反演与数值方法 · Inverse & numerical methods"
@@ -4633,6 +4807,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-23",
       "publication_date_source": "https://arxiv.org/abs/2609.28679v1",
+      "fit_score": 20,
+      "fit_matches": [],
       "version_date": "2026-09-23T18:20:11+00:00"
     },
     {
@@ -4664,8 +4840,8 @@
           "reduced order"
         ]
       },
-      "status": "unmatched",
-      "reason": "关联线索：reduced order",
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
       "tags": [
         "海冰与表层 · Ice & surface"
       ],
@@ -4688,6 +4864,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-24",
       "publication_date_source": "https://arxiv.org/abs/2609.28884v1",
+      "fit_score": 20,
+      "fit_matches": [],
       "version_date": "2026-09-24T01:01:32+00:00"
     },
     {
@@ -4745,6 +4923,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-24",
       "publication_date_source": "https://arxiv.org/abs/2609.28885v1",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-24T01:01:48+00:00"
     },
     {
@@ -4781,8 +4961,8 @@
           "navier stokes"
         ]
       },
-      "status": "candidate",
-      "reason": "关联线索：kolmogorov flow、reduced order、turbulence、navier stokes",
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
       "tags": [
         "流体与不稳定性 · Fluid dynamics"
       ],
@@ -4814,6 +4994,8 @@
       "publication_date_source": "https://arxiv.org/abs/2609.28981v1",
       "intro_source": "https://arxiv.org/abs/2609.28981",
       "intro_version": "2609.28981v1",
+      "fit_score": 30,
+      "fit_matches": [],
       "version_date": "2026-09-24T03:48:13+00:00"
     },
     {
@@ -4844,8 +5026,8 @@
           "direct numerical simulation"
         ]
       },
-      "status": "unmatched",
-      "reason": "关联线索：direct numerical simulation",
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
       "tags": [
         "海冰与表层 · Ice & surface",
         "反演与数值方法 · Inverse & numerical methods"
@@ -4881,6 +5063,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-24",
       "publication_date_source": "https://arxiv.org/abs/2609.29201v1",
+      "fit_score": 20,
+      "fit_matches": [],
       "version_date": "2026-09-24T08:13:07+00:00"
     },
     {
@@ -4922,6 +5106,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-08-28",
       "publication_date_source": "https://arxiv.org/abs/2609.29627v1",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-08-28T16:15:40+00:00"
     },
     {
@@ -4953,8 +5139,8 @@
           "direct numerical simulation"
         ]
       },
-      "status": "unmatched",
-      "reason": "关联线索：turbulence、direct numerical simulation",
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
       "tags": [
         "流体与不稳定性 · Fluid dynamics",
         "反演与数值方法 · Inverse & numerical methods"
@@ -4995,6 +5181,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-24",
       "publication_date_source": "https://arxiv.org/abs/2609.29926v1",
+      "fit_score": 20,
+      "fit_matches": [],
       "version_date": "2026-09-24T14:58:10+00:00"
     },
     {
@@ -5066,6 +5254,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-24",
       "publication_date_source": "https://arxiv.org/abs/2609.30116v1",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-24T16:55:19+00:00"
     },
     {
@@ -5125,6 +5315,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-23",
       "publication_date_source": "https://arxiv.org/abs/2609.28849v1",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-23T23:38:19+00:00"
     },
     {
@@ -5157,8 +5349,8 @@
           "physics informed"
         ]
       },
-      "status": "unmatched",
-      "reason": "关联线索：reduced order、physics informed",
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
       "tags": [
         "海冰与表层 · Ice & surface",
         "反演与数值方法 · Inverse & numerical methods"
@@ -5174,6 +5366,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-24",
       "publication_date_source": "https://arxiv.org/abs/2609.29280v1",
+      "fit_score": 20,
+      "fit_matches": [],
       "version_date": "2026-09-24T09:16:21+00:00"
     },
     {
@@ -5266,6 +5460,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-24",
       "publication_date_source": "https://arxiv.org/abs/2609.29904v1",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-24T14:46:24+00:00"
     },
     {
@@ -5296,8 +5492,8 @@
           "direct numerical simulation"
         ]
       },
-      "status": "unmatched",
-      "reason": "关联线索：direct numerical simulation",
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
       "tags": [
         "环流与波动 · Circulation & waves",
         "海冰与表层 · Ice & surface",
@@ -5332,6 +5528,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2025-03-15",
       "publication_date_source": "https://arxiv.org/abs/2503.12039v2",
+      "fit_score": 20,
+      "fit_matches": [],
       "version_date": "2026-09-24T07:45:09+00:00"
     },
     {
@@ -5362,8 +5560,8 @@
           "turbulence"
         ]
       },
-      "status": "unmatched",
-      "reason": "关联线索：turbulence",
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
       "tags": [
         "环流与波动 · Circulation & waves",
         "流体与不稳定性 · Fluid dynamics"
@@ -5403,6 +5601,10 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-07-04",
       "publication_date_source": "https://arxiv.org/abs/2607.04009v2",
+      "fit_score": 25,
+      "fit_matches": [
+        "理论机制与尺度关系"
+      ],
       "version_date": "2026-09-24T17:10:12+00:00"
     },
     {
@@ -5435,8 +5637,8 @@
           "navier stokes"
         ]
       },
-      "status": "unmatched",
-      "reason": "关联线索：boltzmann、navier stokes",
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
       "tags": [
         "流体与不稳定性 · Fluid dynamics",
         "反演与数值方法 · Inverse & numerical methods"
@@ -5474,6 +5676,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-07-16",
       "publication_date_source": "https://arxiv.org/abs/2607.15362v2",
+      "fit_score": 20,
+      "fit_matches": [],
       "version_date": "2026-09-24T00:52:51+00:00"
     },
     {
@@ -5504,8 +5708,8 @@
           "boltzmann"
         ]
       },
-      "status": "unmatched",
-      "reason": "关联线索：boltzmann",
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
       "tags": [],
       "method": "keyword",
       "institutions": [
@@ -5528,6 +5732,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-08-25",
       "publication_date_source": "https://arxiv.org/abs/2608.25056v2",
+      "fit_score": 20,
+      "fit_matches": [],
       "version_date": "2026-09-23T20:02:09+00:00"
     },
     {
@@ -5588,6 +5794,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-07-26",
       "publication_date_source": "https://arxiv.org/abs/2607.23667v2",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-24T11:49:46+00:00"
     },
     {
@@ -5673,6 +5881,8 @@
       ],
       "intro_version": "2609.26874v1",
       "intro_source": "",
+      "fit_score": 48,
+      "fit_matches": [],
       "version_date": "2026-09-22T18:00:00+00:00"
     },
     {
@@ -5697,18 +5907,23 @@
       "version_changed": false,
       "topics": [
         "detection",
+        "orbital",
         "evolution"
       ],
       "matches": {
         "detection": [
           "transit timing"
         ],
+        "orbital": [
+          "orbital evolution",
+          "transit timing variations"
+        ],
         "evolution": [
           "orbital evolution"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：transit timing、orbital evolution",
+      "reason": "关联线索：transit timing、orbital evolution、transit timing variations",
       "method": "keyword",
       "institutions": [
         "Earth and Planets Laboratory, Carnegie Institution for Science, 5241 Broad Branch Road, NW, Washington, DC 20015, USA",
@@ -5808,6 +6023,11 @@
       "tags": [],
       "intro_version": "2609.26894v1",
       "intro_source": "",
+      "fit_score": 64,
+      "fit_matches": [
+        "行星轨道与演化",
+        "系外行星观测表征"
+      ],
       "version_date": "2026-09-22T18:00:33+00:00"
     },
     {
@@ -5876,6 +6096,8 @@
       ],
       "intro_version": "2609.26917v1",
       "intro_source": "",
+      "fit_score": 46,
+      "fit_matches": [],
       "version_date": "2026-09-22T18:12:48+00:00"
     },
     {
@@ -5964,6 +6186,8 @@
       "tags": [],
       "intro_version": "2609.27013v1",
       "intro_source": "",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-22T19:53:00+00:00"
     },
     {
@@ -6044,6 +6268,8 @@
       ],
       "intro_version": "2609.27025v1",
       "intro_source": "",
+      "fit_score": 31,
+      "fit_matches": [],
       "version_date": "2026-09-22T20:08:46+00:00"
     },
     {
@@ -6066,10 +6292,17 @@
       "source": "arXiv",
       "first_seen": "2026-09-24T08:51:14.614730+00:00",
       "version_changed": false,
-      "topics": [],
-      "matches": {},
-      "status": "unmatched",
-      "reason": "行星科学拓展阅读",
+      "topics": [
+        "orbital"
+      ],
+      "matches": {
+        "orbital": [
+          "resonant chain",
+          "n-body"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：resonant chain、n-body",
       "method": "keyword",
       "institutions": [
         "Universidad Autonóma de Nuevo León, Facultad de Ingeniería Mecánica y Eléctrica, San Nicolás de los Garza, 66451, NL, México",
@@ -6108,6 +6341,10 @@
       ],
       "intro_version": "2609.27415v1",
       "intro_source": "",
+      "fit_score": 48,
+      "fit_matches": [
+        "行星轨道与演化"
+      ],
       "version_date": "2026-09-23T06:29:51+00:00"
     },
     {
@@ -6208,6 +6445,8 @@
       ],
       "intro_version": "2609.27443v1",
       "intro_source": "",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-23T07:07:59+00:00"
     },
     {
@@ -6263,6 +6502,8 @@
       ],
       "intro_version": "2609.27474v1",
       "intro_source": "",
+      "fit_score": 46,
+      "fit_matches": [],
       "version_date": "2026-09-23T07:38:34+00:00"
     },
     {
@@ -6342,6 +6583,10 @@
       ],
       "intro_version": "2609.27562v1",
       "intro_source": "",
+      "fit_score": 48,
+      "fit_matches": [
+        "行星海洋与冰"
+      ],
       "version_date": "2026-09-23T08:48:00+00:00"
     },
     {
@@ -6391,6 +6636,10 @@
       ],
       "intro_version": "2609.27569v1",
       "intro_source": "",
+      "fit_score": 45,
+      "fit_matches": [
+        "行星海洋与冰"
+      ],
       "version_date": "2026-09-23T08:49:48+00:00"
     },
     {
@@ -7074,6 +7323,10 @@
       ],
       "intro_version": "2609.27622v1",
       "intro_source": "",
+      "fit_score": 68,
+      "fit_matches": [
+        "行星大气与辐射"
+      ],
       "version_date": "2026-09-23T09:44:21+00:00"
     },
     {
@@ -7169,6 +7422,8 @@
       "tags": [],
       "intro_version": "2609.27722v1",
       "intro_source": "",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-23T11:39:32+00:00"
     },
     {
@@ -7332,6 +7587,8 @@
       "tags": [],
       "intro_version": "2609.28166v1",
       "intro_source": "",
+      "fit_score": 30,
+      "fit_matches": [],
       "version_date": "2026-09-23T14:12:59+00:00"
     },
     {
@@ -7440,6 +7697,8 @@
       ],
       "intro_version": "2609.27031v1",
       "intro_source": "",
+      "fit_score": 34,
+      "fit_matches": [],
       "version_date": "2026-09-22T20:22:26+00:00"
     },
     {
@@ -7536,6 +7795,8 @@
       "tags": [],
       "intro_version": "2609.27039v1",
       "intro_source": "",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-22T20:34:54+00:00"
     },
     {
@@ -7596,6 +7857,10 @@
       ],
       "intro_version": "2609.27140v1",
       "intro_source": "",
+      "fit_score": 0,
+      "fit_matches": [
+        "系外行星观测表征"
+      ],
       "version_date": "2026-09-22T22:59:02+00:00"
     },
     {
@@ -7737,6 +8002,8 @@
       "tags": [],
       "intro_version": "2609.27997v1",
       "intro_source": "",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-23T12:27:17+00:00"
     },
     {
@@ -7876,6 +8143,8 @@
       ],
       "intro_version": "2609.28001v1",
       "intro_source": "",
+      "fit_score": 36,
+      "fit_matches": [],
       "version_date": "2026-09-23T12:30:52+00:00"
     },
     {
@@ -7957,6 +8226,10 @@
       ],
       "intro_version": "2509.12737v2",
       "intro_source": "",
+      "fit_score": 55,
+      "fit_matches": [
+        "系外行星观测表征"
+      ],
       "version_date": "2026-09-23T07:17:28+00:00"
     },
     {
@@ -8041,6 +8314,8 @@
       ],
       "intro_version": "2606.14646v2",
       "intro_source": "",
+      "fit_score": 46,
+      "fit_matches": [],
       "version_date": "2026-09-22T19:33:16+00:00"
     },
     {
@@ -8063,10 +8338,16 @@
       "source": "arXiv",
       "first_seen": "2026-09-24T08:51:14.614730+00:00",
       "version_changed": true,
-      "topics": [],
-      "matches": {},
-      "status": "unmatched",
-      "reason": "行星科学拓展阅读",
+      "topics": [
+        "orbital"
+      ],
+      "matches": {
+        "orbital": [
+          "n-body"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：n-body",
       "method": "keyword",
       "institutions": [
         "Knowledgeum Academy, Bengaluru, 560070, Karnataka, India",
@@ -8097,6 +8378,8 @@
       "tags": [],
       "intro_version": "2609.08710v3",
       "intro_source": "",
+      "fit_score": 40,
+      "fit_matches": [],
       "version_date": "2026-09-23T12:05:37+00:00"
     },
     {
@@ -8158,6 +8441,8 @@
       ],
       "intro_version": "2609.24283v2",
       "intro_source": "",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-23T08:51:21+00:00"
     },
     {
@@ -8199,6 +8484,8 @@
       "tags": [],
       "intro_version": "2605.14971v2",
       "intro_source": "",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-23T11:11:34+00:00"
     },
     {
@@ -8257,6 +8544,11 @@
       ],
       "intro_version": "2606.05237v3",
       "intro_source": "",
+      "fit_score": 58,
+      "fit_matches": [
+        "行星大气与辐射",
+        "行星轨道与演化"
+      ],
       "version_date": "2026-09-23T02:36:17+00:00"
     },
     {
@@ -8313,6 +8605,8 @@
       ],
       "intro_version": "2607.24418v2",
       "intro_source": "",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-23T11:08:25+00:00"
     },
     {
@@ -8405,6 +8699,8 @@
       ],
       "intro_version": "2609.15331v2",
       "intro_source": "",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-23T09:29:25+00:00"
     },
     {
@@ -8441,8 +8737,8 @@
           "data assimilation"
         ]
       },
-      "status": "candidate",
-      "reason": "关联线索：kolmogorov flow、data assimilation",
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
       "method": "keyword",
       "institutions": [
         "iTHEMS",
@@ -8472,6 +8768,8 @@
       ],
       "intro_version": "2609.26890v1",
       "intro_source": "",
+      "fit_score": 30,
+      "fit_matches": [],
       "version_date": "2026-09-22T18:00:06+00:00"
     },
     {
@@ -8503,8 +8801,8 @@
           "stratospheric warming"
         ]
       },
-      "status": "candidate",
-      "reason": "关联线索：stratospheric warming",
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
       "method": "keyword",
       "institutions": [],
       "author_affiliations": [],
@@ -8519,6 +8817,8 @@
       "tags": [],
       "intro_version": "2609.27093v1",
       "intro_source": "",
+      "fit_score": 34,
+      "fit_matches": [],
       "version_date": "2026-09-22T21:51:58+00:00"
     },
     {
@@ -8570,6 +8870,8 @@
       "tags": [],
       "intro_version": "2609.27769v1",
       "intro_source": "",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-08-16T19:26:50+00:00"
     },
     {
@@ -8645,6 +8947,8 @@
       ],
       "intro_version": "2605.07167v2",
       "intro_source": "",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-22T23:38:53+00:00"
     },
     {
@@ -8675,8 +8979,8 @@
           "mantle"
         ]
       },
-      "status": "candidate",
-      "reason": "关联线索：mantle",
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
       "method": "keyword",
       "institutions": [],
       "author_affiliations": [],
@@ -8693,6 +8997,8 @@
       ],
       "intro_version": "2609.27907v1",
       "intro_source": "",
+      "fit_score": 31,
+      "fit_matches": [],
       "version_date": "2026-08-21T12:27:10+00:00"
     },
     {
@@ -8737,6 +9043,8 @@
       ],
       "intro_version": "2609.28426v1",
       "intro_source": "",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-23T17:27:16+00:00"
     },
     {
@@ -8768,8 +9076,8 @@
           "core conditions"
         ]
       },
-      "status": "candidate",
-      "reason": "关联线索：core conditions",
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
       "method": "keyword",
       "institutions": [],
       "author_affiliations": [],
@@ -8786,6 +9094,10 @@
       ],
       "intro_version": "2605.13594v3",
       "intro_source": "",
+      "fit_score": 36,
+      "fit_matches": [
+        "理论机制与尺度关系"
+      ],
       "version_date": "2026-09-23T13:45:26+00:00"
     },
     {
@@ -8810,8 +9122,8 @@
       "version_changed": true,
       "topics": [],
       "matches": {},
-      "status": "unmatched",
-      "reason": "拓展阅读",
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
       "method": "keyword",
       "institutions": [],
       "author_affiliations": [],
@@ -8828,6 +9140,8 @@
       ],
       "intro_version": "2608.21045v3",
       "intro_source": "",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-23T11:46:42+00:00"
     },
     {
@@ -8885,6 +9199,8 @@
       ],
       "intro_version": "2609.26816v1",
       "intro_source": "",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-19T03:04:57+00:00"
     },
     {
@@ -8916,8 +9232,8 @@
           "turbulence"
         ]
       },
-      "status": "unmatched",
-      "reason": "关联线索：turbulence",
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
       "method": "keyword",
       "institutions": [],
       "author_affiliations": [
@@ -8947,6 +9263,8 @@
       ],
       "intro_version": "2609.26833v1",
       "intro_source": "",
+      "fit_score": 20,
+      "fit_matches": [],
       "version_date": "2026-09-21T10:42:31+00:00"
     },
     {
@@ -8982,8 +9300,8 @@
           "turbulence"
         ]
       },
-      "status": "candidate",
-      "reason": "关联线索：kolmogorov flow、turbulence",
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
       "method": "keyword",
       "institutions": [
         "\\aff1Theoretical Division, Los Alamos National Laboratory, Los Alamos, NM 87544, USA \\aff2School of Physics, Georgia Institute of Technology, Atlanta, GA 30318, USA"
@@ -9009,6 +9327,8 @@
       ],
       "intro_version": "2609.27062v1",
       "intro_source": "",
+      "fit_score": 30,
+      "fit_matches": [],
       "version_date": "2026-09-22T21:02:03+00:00"
     },
     {
@@ -9039,8 +9359,8 @@
           "navier stokes"
         ]
       },
-      "status": "unmatched",
-      "reason": "关联线索：navier stokes",
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
       "method": "keyword",
       "institutions": [
         "††affiliation: 1Department of Mechanical and Aerospace Engineering, University of California, Davis, CA 95616, USA"
@@ -9070,6 +9390,8 @@
       ],
       "intro_version": "2609.27137v1",
       "intro_source": "",
+      "fit_score": 20,
+      "fit_matches": [],
       "version_date": "2026-09-22T22:52:33+00:00"
     },
     {
@@ -9114,6 +9436,8 @@
       ],
       "intro_version": "2609.27228v1",
       "intro_source": "",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-23T01:50:34+00:00"
     },
     {
@@ -9149,8 +9473,8 @@
           "direct numerical simulation"
         ]
       },
-      "status": "candidate",
-      "reason": "关联线索：2d turbulence、turbulence、direct numerical simulation",
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
       "method": "keyword",
       "institutions": [
         "\\aff1Department of Mechanics, Huazhong University of Science and Technology, Wuhan 430074, China \\aff2Hubei Key Laboratory of Engineering Structural Analysis and Safety Assessment, Wuhan 430074, China"
@@ -9189,6 +9513,8 @@
       ],
       "intro_version": "2609.27292v1",
       "intro_source": "",
+      "fit_score": 30,
+      "fit_matches": [],
       "version_date": "2026-09-23T03:30:29+00:00"
     },
     {
@@ -9224,8 +9550,8 @@
           "navier stokes"
         ]
       },
-      "status": "unmatched",
-      "reason": "关联线索：navier stokes",
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
       "method": "keyword",
       "institutions": [
         "Seminar for Applied Mathematics, ETH Zurich, CH-8092 Zurich, Switzerland"
@@ -9253,6 +9579,8 @@
       ],
       "intro_version": "2609.27512v1",
       "intro_source": "",
+      "fit_score": 20,
+      "fit_matches": [],
       "version_date": "2026-09-23T08:10:22+00:00"
     },
     {
@@ -9283,8 +9611,8 @@
           "direct numerical simulation"
         ]
       },
-      "status": "unmatched",
-      "reason": "关联线索：direct numerical simulation",
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
       "method": "keyword",
       "institutions": [
         "††affiliation: 1 Dipartimento di Ingegneria Meccanica e Aerospaziale, Sapienza Università di Roma, Rome 00184, Italy 2 Center for Turbulence Research, Stanford University, Stanford, CA, USA"
@@ -9317,6 +9645,8 @@
       ],
       "intro_version": "2609.27568v1",
       "intro_source": "",
+      "fit_score": 20,
+      "fit_matches": [],
       "version_date": "2026-09-23T08:49:40+00:00"
     },
     {
@@ -9374,6 +9704,8 @@
       ],
       "intro_version": "2609.27892v1",
       "intro_source": "",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-08-21T02:22:13+00:00"
     },
     {
@@ -9405,8 +9737,8 @@
           "direct numerical simulation"
         ]
       },
-      "status": "unmatched",
-      "reason": "关联线索：turbulence、direct numerical simulation",
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
       "method": "keyword",
       "institutions": [],
       "author_affiliations": [],
@@ -9424,6 +9756,8 @@
       ],
       "intro_version": "2609.27943v1",
       "intro_source": "",
+      "fit_score": 20,
+      "fit_matches": [],
       "version_date": "2026-08-22T17:16:47+00:00"
     },
     {
@@ -9467,6 +9801,8 @@
       ],
       "intro_version": "2609.28151v1",
       "intro_source": "",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-23T14:07:23+00:00"
     },
     {
@@ -9503,8 +9839,8 @@
           "direct numerical simulation"
         ]
       },
-      "status": "candidate",
-      "reason": "关联线索：two dimensional turbulence、inverse cascade、turbulence、direct numerical simulation",
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
       "method": "keyword",
       "institutions": [],
       "author_affiliations": [
@@ -9535,6 +9871,8 @@
       ],
       "intro_version": "2609.28173v1",
       "intro_source": "",
+      "fit_score": 30,
+      "fit_matches": [],
       "version_date": "2026-09-23T14:17:50+00:00"
     },
     {
@@ -9567,8 +9905,8 @@
           "direct numerical simulation"
         ]
       },
-      "status": "unmatched",
-      "reason": "关联线索：direct numerical simulation",
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
       "method": "keyword",
       "institutions": [],
       "author_affiliations": [
@@ -9610,6 +9948,8 @@
       ],
       "intro_version": "2609.28355v1",
       "intro_source": "",
+      "fit_score": 20,
+      "fit_matches": [],
       "version_date": "2026-09-23T16:28:42+00:00"
     },
     {
@@ -9642,8 +9982,8 @@
           "navier stokes"
         ]
       },
-      "status": "unmatched",
-      "reason": "关联线索：boltzmann、turbulence、navier stokes",
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
       "method": "keyword",
       "institutions": [
         "1Department of Computer Science, University of Geneva",
@@ -9672,6 +10012,10 @@
       ],
       "intro_version": "2605.19796v3",
       "intro_source": "",
+      "fit_score": 25,
+      "fit_matches": [
+        "理论机制与尺度关系"
+      ],
       "version_date": "2026-09-23T11:23:23+00:00"
     },
     {
@@ -9703,8 +10047,8 @@
           "reduced order"
         ]
       },
-      "status": "unmatched",
-      "reason": "关联线索：data assimilation、reduced order",
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
       "method": "keyword",
       "institutions": [
         "Department of Mechanical, Aerospace, and Nuclear Engineering, Rensselaer Polytechnic Institute, 110 8th St, Troy, New York 12180, USA",
@@ -9745,6 +10089,10 @@
       ],
       "intro_version": "2609.15762v2",
       "intro_source": "",
+      "fit_score": 25,
+      "fit_matches": [
+        "理论机制与尺度关系"
+      ],
       "version_date": "2026-09-23T15:57:39+00:00"
     },
     {
@@ -9806,6 +10154,8 @@
       ],
       "intro_version": "2609.23787v2",
       "intro_source": "",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-23T03:34:45+00:00"
     },
     {
@@ -9890,6 +10240,8 @@
       ],
       "intro_version": "2609.24368v2",
       "intro_source": "",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-23T05:23:29+00:00"
     },
     {
@@ -9939,6 +10291,8 @@
       "tags": [],
       "intro_version": "2609.24866v2",
       "intro_source": "",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-23T11:44:27+00:00"
     },
     {
@@ -9974,8 +10328,8 @@
           "turbulence"
         ]
       },
-      "status": "unmatched",
-      "reason": "关联线索：radiation hydrodynamics、turbulence",
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
       "method": "keyword",
       "institutions": [
         "Research School of Astronomy and Astrophysics, Australian National University, Cotter Road, Canberra, 2611, ACT, Australia, ORCID: 0000-0002-0706-2306",
@@ -10009,6 +10363,8 @@
       ],
       "intro_version": "2510.12203v3",
       "intro_source": "",
+      "fit_score": 20,
+      "fit_matches": [],
       "version_date": "2026-09-23T01:11:08+00:00"
     },
     {
@@ -10043,8 +10399,8 @@
           "physics informed"
         ]
       },
-      "status": "unmatched",
-      "reason": "关联线索：data assimilation、physics informed",
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
       "method": "keyword",
       "institutions": [],
       "author_affiliations": [],
@@ -10061,6 +10417,8 @@
       ],
       "intro_version": "2603.19561v2",
       "intro_source": "",
+      "fit_score": 20,
+      "fit_matches": [],
       "version_date": "2026-09-23T11:17:42+00:00"
     },
     {
@@ -10116,6 +10474,8 @@
       ],
       "intro_version": "2607.25385v2",
       "intro_source": "",
+      "fit_score": 0,
+      "fit_matches": [],
       "version_date": "2026-09-23T14:58:34+00:00"
     }
   ]
