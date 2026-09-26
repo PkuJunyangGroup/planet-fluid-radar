@@ -802,6 +802,191 @@
     "cancer",
     "vector borne disease"
   ],
+  "scope_exclusion_rules": {
+    "planetary_context": [
+      "exoplanet",
+      "exoplanets",
+      "planetary",
+      "planet atmosphere",
+      "planetary atmosphere",
+      "mars",
+      "martian",
+      "venus",
+      "venusian",
+      "jupiter",
+      "jovian",
+      "saturn",
+      "titan",
+      "europa",
+      "enceladus",
+      "ganymede",
+      "callisto",
+      "triton",
+      "pluto",
+      "terrestrial planet",
+      "hot jupiter",
+      "sub neptune",
+      "hycean",
+      "rocky planet",
+      "planetary system"
+    ],
+    "hard_earth_scope_terms": [
+      "cmip",
+      "cmip5",
+      "cmip6",
+      "plate tectonic",
+      "plate tectonics",
+      "tectonic reconstruction",
+      "earthquake",
+      "earthquakes",
+      "seismic hazard",
+      "space physics",
+      "space science",
+      "heliophysics",
+      "solar-terrestrial",
+      "solar terrestrial"
+    ],
+    "earth_only_scope_terms": [
+      "geology",
+      "geological",
+      "geologic",
+      "tectonic",
+      "tectonics",
+      "cloud microphysics",
+      "cloud microphysical",
+      "indian monsoon",
+      "south asian monsoon",
+      "arctic",
+      "arctic ocean",
+      "alps",
+      "alpine climate",
+      "regional climate",
+      "regional climatology",
+      "regional oceanography",
+      "regional ocean circulation",
+      "east asian monsoon",
+      "west african monsoon",
+      "australian monsoon",
+      "tibetan plateau",
+      "antarctica",
+      "antarctic peninsula",
+      "greenland",
+      "greenland ice sheet",
+      "laurentide ice sheet",
+      "north atlantic",
+      "north pacific",
+      "indian ocean",
+      "mediterranean sea",
+      "mediterranean climate",
+      "southern ocean",
+      "bering sea",
+      "barents sea",
+      "labrador sea",
+      "arabian sea",
+      "baltic sea",
+      "north sea"
+    ],
+    "excluded_teacher_authors": [
+      "Jun Yang",
+      "Yang Jun",
+      "Feng Ding",
+      "Ding Feng",
+      "Daniel Koll",
+      "Daniel D. B. Koll",
+      "D. D. B. Koll"
+    ]
+  },
+  "relevance_scoring": {
+    "topic_weights": {
+      "planetary": 22,
+      "chemistry": 18,
+      "models": 15,
+      "physics": 12,
+      "dynamics": 14,
+      "climate": 12,
+      "ocean": 16,
+      "gfd": 10,
+      "detection": 16,
+      "orbital": 20,
+      "evolution": 11,
+      "cryosphere": 18,
+      "surface": 10,
+      "methods": 0
+    },
+    "themes": [
+      {
+        "label": "行星大气与辐射",
+        "terms": [
+          "exoplanet atmosphere",
+          "planetary atmosphere",
+          "atmospheric circulation",
+          "radiative transfer",
+          "heat redistribution"
+        ],
+        "weight": 8
+      },
+      {
+        "label": "行星气候与模式",
+        "terms": [
+          "planetary climate",
+          "climate model",
+          "general circulation model",
+          "gcm",
+          "tidally locked",
+          "habitable zone"
+        ],
+        "weight": 8
+      },
+      {
+        "label": "行星海洋与冰",
+        "terms": [
+          "ocean circulation",
+          "ocean heat transport",
+          "sea ice",
+          "ice shell",
+          "icy moon",
+          "ice ocean interaction"
+        ],
+        "weight": 7
+      },
+      {
+        "label": "行星轨道与演化",
+        "terms": [
+          "orbital resonance",
+          "orbital evolution",
+          "orbital stability",
+          "planetary migration",
+          "planetary system"
+        ],
+        "weight": 8
+      },
+      {
+        "label": "系外行星观测表征",
+        "terms": [
+          "thermal phase curve",
+          "secondary eclipse",
+          "transmission spectrum",
+          "jwst",
+          "emission spectrum"
+        ],
+        "weight": 7
+      },
+      {
+        "label": "理论机制与尺度关系",
+        "terms": [
+          "analytical model",
+          "analytic model",
+          "scaling law",
+          "physical mechanism",
+          "fundamental limit",
+          "first principles",
+          "theoretical framework",
+          "bistability"
+        ],
+        "weight": 5
+      }
+    ]
+  },
   "overrides": {
     "doi:10.1038/s41558-026-02737-3": {
       "status": "unmatched",

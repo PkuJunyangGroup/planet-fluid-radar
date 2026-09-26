@@ -6,6 +6,7 @@ import re
 import time
 import urllib.parse
 import urllib.request
+import urllib.error
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
@@ -20,6 +21,37 @@ def contains(text, term):
     word = normalize(term)
     return bool(re.search(r'(?<!\w)'+re.escape(word)+r'(?:s|es|ies)?(?!\w)', text))
 
+def planetary_context(text, config):
+    rules=config.get('scope_exclusion_rules',{})
+    return any(contains(text,w) for w in rules.get('planetary_context',[]))
+
+def teacher_author(paper, config):
+    names={normalize(n) for n in config.get('scope_exclusion_rules',{}).get('excluded_teacher_authors',[])}
+    for author in paper.get('authors',[]):
+        raw=author.strip()
+        candidates={normalize(raw)}
+        if ',' in raw:
+            parts=[x.strip() for x in raw.split(',',1)]
+            candidates.add(normalize(' '.join(parts[::-1])))
+        if candidates & names:return True
+    return False
+
+def is_focus_term(paper, term):
+    title=normalize(paper.get('title',''))
+    abstract=normalize(paper.get('abstract',''))
+    if contains(title,term):return True
+    word=normalize(term)
+    return len(re.findall(r'(?<!\w)'+re.escape(word)+r'(?:s|es|ies)?(?!\w)',abstract))>=2
+
+def relevance(text, topic_ids, config):
+    weights=config.get('relevance_scoring',{}).get('topic_weights',{})
+    ranked=sorted((weights.get(topic,0) for topic in topic_ids),reverse=True)
+    topic_score=(ranked[0] if ranked else 0)+min(18,sum(ranked[1:])*.35)
+    themes=[t for t in config.get('relevance_scoring',{}).get('themes',[]) if any(contains(text,w) for w in t['terms'])]
+    signal_score=min(24,sum(t['weight'] for t in themes)) if topic_ids else 0
+    score=min(100,round(20+topic_score+signal_score)) if topic_ids else 0
+    return score,[t['label'] for t in themes]
+
 def classify(paper, config):
     text = normalize(paper['title']+' '+paper['abstract'])
     matches = {}
@@ -29,7 +61,15 @@ def classify(paper, config):
         if any(contains(text,w) for w in t.get('reject_context',[])) and not any(contains(text,w) for w in t.get('allow_context',[])):continue
         if terms and (not t.get('context') or any(contains(text,w) for w in t['context'])):
             matches[t['id']]=terms
+    rules=config.get('scope_exclusion_rules',{})
+    planetary=planetary_context(text,config)
     excluded=[w for w in config['exclude_terms'] if contains(text,w)]
+    # CMIP papers are Earth-system projections; the other field and regional
+    # exclusions apply only without an explicit planetary target.
+    excluded += [w for w in rules.get('hard_earth_scope_terms',[]) if is_focus_term(paper,w) and (w in {'cmip','cmip5','cmip6'} or not planetary)]
+    excluded += [w for w in rules.get('earth_only_scope_terms',[]) if is_focus_term(paper,w) and not planetary]
+    excluded= list(dict.fromkeys(excluded))
+    if teacher_author(paper,config):excluded.append('组内教师署名论文')
     direct='astro-ph.EP' in paper['categories']
     status='candidate' if any(k!='methods' for k in matches) else 'unmatched'
     if excluded: status='excluded'
@@ -37,8 +77,9 @@ def classify(paper, config):
     if excluded: reason='当前研究范围外的候选，供管理员复核'
     override=config.get('overrides',{}).get(paper['id'])
     if override: status,reason=override['status'],override['reason']
+    fit_score,fit_matches=relevance(text,list(matches),config)
     tags=[m['label'] for m in config.get('mechanisms',[]) if any(contains(text,w) for w in m['terms'])]
-    return {'topics':list(matches),'matches':matches,'status':status,'reason':reason,'tags':tags[:5],'method':'manual' if override else 'keyword'}
+    return {'topics':list(matches),'matches':matches,'status':status,'reason':reason,'tags':tags[:5],'method':'manual' if override else 'keyword','fit_score':fit_score,'fit_matches':fit_matches}
 
 def parse_feed(data):
     root = ET.fromstring(data)
@@ -97,7 +138,18 @@ def parse_rss(data):
             'pdf':'https://arxiv.org/pdf/'+identity,'source':'arXiv'})
     return result
 
-def update(days=7):
+def checkpoint_since(previous, now, days=1):
+    """Use only the normal recent window; never add a multi-day backfill overlap."""
+    if previous.get('last_success'):
+        return dt.datetime.fromisoformat(previous['last_success'])
+    return now - dt.timedelta(days=days)
+
+def error_label(exc):
+    if isinstance(exc, urllib.error.HTTPError):
+        return f'HTTP {exc.code}'
+    return type(exc).__name__
+
+def update(days=1):
     config = json.loads((ROOT/'topics.json').read_text())
     path = ROOT/'papers.json'
     old = json.loads(path.read_text()) if path.exists() else {'papers':[], 'sources':{}}
@@ -108,7 +160,7 @@ def update(days=7):
     failures = []
     for category in config['categories']:
         previous = sources.get(category, {})
-        since = dt.datetime.fromisoformat(previous['last_success']) - dt.timedelta(days=2) if previous.get('last_success') else now-dt.timedelta(days=days)
+        since = checkpoint_since(previous, now, days)
         query = 'cat:'+category
         incoming = []
         try:
@@ -133,9 +185,14 @@ def update(days=7):
             sources[category] = {'last_attempt':stamp,'last_success':stamp,'status':'ok','fetched':len(incoming)}
             print(category, len(incoming), 'records')
         except Exception as e:
-            sources[category] = {**previous,'last_attempt':stamp,'status':'error','error':type(e).__name__}
+            api_error = error_label(e)
+            sources[category] = {**previous,'last_attempt':stamp,'status':'error','error':api_error}
             try:
-                for p in rss_feed(category):
+                rss_items = rss_feed(category)
+                rss_added = 0
+                for p in rss_items:
+                    if dt.datetime.fromisoformat(p['updated'].replace('Z','+00:00')) < since:
+                        continue
                     prior = papers.get(p['id'], {})
                     p['first_seen'] = prior.get('first_seen', stamp)
                     p['version_changed'] = p.get('announcement_type') == 'replace' or bool(prior and prior['version_id'] != p['version_id'])
@@ -143,11 +200,13 @@ def update(days=7):
                         p['published'] = prior['published']
                         p['date_kind'] = 'published'
                     papers[p['id']] = {**prior, **p}
-                sources[category].update(status='partial',last_rss_success=stamp)
-            except Exception:
-                pass
-            failures.append(category)
-            print(category, 'failed:', type(e).__name__)
+                    rss_added += 1
+                sources[category].update(status='partial',last_rss_success=stamp,last_rss_fetched=rss_added,error=api_error)
+                print(category, 'API failed:', api_error, '; RSS fallback:', rss_added, 'records')
+            except Exception as rss_error:
+                failures.append(category)
+                sources[category].update(error=f'{api_error}; RSS {error_label(rss_error)}')
+                print(category, 'API and RSS failed:', api_error, error_label(rss_error))
     for p in papers.values():
         p.update(classify(p,config))
     output = {'generated_at':stamp,'ai_enabled':False,'sources':sources,'topics':config['topics'],
@@ -160,6 +219,6 @@ def update(days=7):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--days',type=int,default=7)
+    parser.add_argument('--days',type=int,default=1)
     args = parser.parse_args()
     raise SystemExit(1 if update(args.days) else 0)

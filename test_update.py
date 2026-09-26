@@ -7,6 +7,32 @@ import update
 
 CONFIG=json.loads(Path('topics.json').read_text())
 class Rules(unittest.TestCase):
+
+ def test_orbital_dynamics_requires_planet_context(self):
+  for title in ['Long-term orbital stability of a resonant planetary system','Mean-motion resonances among exoplanets','Orbital migration of a hot Jupiter']:
+   self.assertIn('orbital',update.classify(self.paper(title),CONFIG)['topics'])
+  for title in ['Orbital dynamics of a stellar binary','Galactic orbital resonances','Celestial mechanics of a spacecraft']:
+   self.assertNotIn('orbital',update.classify(self.paper(title),CONFIG)['topics'])
+ def test_incremental_arxiv_window_starts_at_checkpoint(self):
+  now=update.dt.datetime.fromisoformat('2026-09-26T01:00:00+00:00')
+  previous={'last_success':'2026-09-25T01:17:00+00:00'}
+  self.assertEqual(update.checkpoint_since(previous,now,1).isoformat(),previous['last_success'])
+  self.assertEqual(update.checkpoint_since({},now,1).isoformat(),'2026-09-25T01:00:00+00:00')
+
+ def test_rss_fallback_keeps_only_recent_records_and_is_nonfatal(self):
+  import datetime as dt
+  now=dt.datetime.now(dt.timezone.utc)
+  fresh={'id':'fresh','version_id':'freshv1','title':'Orbital resonance in a planetary system','abstract':'','authors':['A Author'],'categories':['astro-ph.EP'],'published':now.isoformat(),'updated':(now-dt.timedelta(hours=1)).isoformat(),'url':'https://arxiv.org/abs/fresh','pdf':'https://arxiv.org/pdf/freshv1','source':'arXiv'}
+  old={**fresh,'id':'old','version_id':'oldv1','title':'Old planetary orbital stability','updated':(now-dt.timedelta(days=3)).isoformat()}
+  with tempfile.TemporaryDirectory() as d:
+   root=Path(d);(root/'topics.json').write_text(json.dumps({**CONFIG,'categories':['astro-ph.EP']}))
+   (root/'papers.json').write_text(json.dumps({'papers':[],'sources':{}}))
+   with patch.object(update,'ROOT',root),patch.object(update,'request_feed',side_effect=RuntimeError('HTTP 503')),patch.object(update,'rss_feed',return_value=[fresh,old]),patch.object(update.time,'sleep'):
+    self.assertFalse(update.update(days=1))
+   result=json.loads((root/'papers.json').read_text())
+   self.assertEqual(result['sources']['astro-ph.EP']['status'],'partial')
+   self.assertEqual(result['sources']['astro-ph.EP']['last_rss_fetched'],1)
+   self.assertEqual([p['id'] for p in result['papers']],['fresh'])
  def test_cryosphere_primary_and_unrelated_ice(self):
   for title in ['Ice shell convection on Europa','Sea ice rheology and basal melting','High-pressure ice phase transitions','Glacier dynamics and basal sliding']:
    result=update.classify(self.paper(title),CONFIG)
@@ -61,6 +87,24 @@ class Rules(unittest.TestCase):
   self.assertEqual(update.classify(self.paper('Air pollution and convection'),CONFIG)['status'],'excluded')
  def test_no_blanket_aerosol_exclusion(self):
   self.assertEqual(update.classify(self.paper('Aerosol cloud feedback on planets'),CONFIG)['status'],'candidate')
+ def test_new_scope_boundaries_keep_planetary_clouds_and_models(self):
+  self.assertEqual(update.classify(self.paper('Cloud microphysics and aerosol feedback in Earth’s atmosphere'),CONFIG)['status'],'excluded')
+  planet=update.classify(self.paper('Cloud microphysics in the atmosphere of a tidally locked exoplanet'),CONFIG)
+  self.assertEqual(planet['status'],'candidate');self.assertIn('physics',planet['topics'])
+  model=update.classify(self.paper('A general circulation model of the atmosphere of Mars'),CONFIG)
+  self.assertEqual(model['status'],'candidate');self.assertIn('models',model['topics'])
+ def test_earth_specific_science_and_regional_studies_are_excluded(self):
+  for text in ['CMIP6 projections of global temperature','Plate tectonic reconstruction and regional geology','Earthquake hazard in the Himalaya','Space physics observations of the solar wind','Indian monsoon variability','Arctic Ocean circulation','Alpine regional climatology']:
+   self.assertEqual(update.classify(self.paper(text),CONFIG)['status'],'excluded',text)
+  global_theory=update.classify(self.paper('A theoretical scaling law for global ocean heat transport'),CONFIG)
+  self.assertEqual(global_theory['status'],'candidate')
+ def test_teacher_authored_papers_are_not_included_and_score_is_explainable(self):
+  own=self.paper('Planetary atmospheres and climate',categories=['astro-ph.EP']);own['authors']=['Yang, Jun']
+  self.assertEqual(update.classify(own,CONFIG)['status'],'excluded')
+  relevant=update.classify(self.paper('Radiative transfer and ocean heat transport in a tidally locked exoplanet'),CONFIG)
+  generic=update.classify(self.paper('Numerical methods for generic nonlinear equations'),CONFIG)
+  self.assertGreater(relevant['fit_score'],generic['fit_score'])
+  self.assertTrue(relevant['fit_matches'])
  def test_boundary(self):
   self.assertEqual(update.classify(self.paper('Nonvolatile memory'),CONFIG)['status'],'unmatched')
  def test_manual_override(self):

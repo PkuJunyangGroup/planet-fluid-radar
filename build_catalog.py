@@ -49,6 +49,8 @@ def merge_records(records,notes):
   apply_notes(p,notes)
   p['first_seen']=min(r['first_seen'] for r in rows)
   p['topics']=list(dict.fromkeys(t for r in rows for t in r.get('topics',[])))
+  p['fit_score']=max((r.get('fit_score',0) for r in rows),default=0)
+  p['fit_matches']=list(dict.fromkeys(t for r in rows for t in r.get('fit_matches',[])))
   p['tags']=list(dict.fromkeys(t for r in rows for t in r.get('tags',[])))
   p['institutions']=list(dict.fromkeys(t for r in rows for t in r.get('institutions',[])))
   p['author_affiliations']=list({json.dumps(a,sort_keys=True):a for r in rows for a in r.get('author_affiliations',[])}.values())
@@ -67,6 +69,9 @@ def build():
  for p in records:p.update(classify(p,config))
  arxiv['topics']=config['topics']
  papers=merge_records(records,notes)
+ # Keep raw source archives for provenance, while removing explicitly
+ # out-of-scope records from the public catalog and its institution graph.
+ papers=[p for p in papers if p.get('status')!='excluded']
  names_path=ROOT/'author_names.json';names=json.loads(names_path.read_text()) if names_path.exists() else {}
  overrides_path=ROOT/'author_name_overrides.json';overrides=json.loads(overrides_path.read_text()) if overrides_path.exists() else []
  aliases,_,_=verified_hierarchy(ROOT)
