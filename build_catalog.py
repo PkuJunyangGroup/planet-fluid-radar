@@ -25,8 +25,9 @@ def relation_arxiv(p):
 
 def match(a,b):
  da,db=doi_key(a.get('doi')),doi_key(b.get('doi'))
- if da and db:return 'DOI' if da==db else None
+ if da and db and da==db:return 'DOI'
  if a['id'] in relation_arxiv(b) or b['id'] in relation_arxiv(a):return 'publisher relation'
+ if da and db and da!=db:return None
  ta,tb=norm(a['title']),norm(b['title'])
  # Exact substantial title plus a shared author surname; no fuzzy title merging.
  if len(ta)>=40 and ta==tb and author_keys(a)&author_keys(b):return 'exact title + author'
@@ -63,15 +64,15 @@ def merge_records(records,notes):
  return output
 
 def build():
- arxiv=json.loads((ROOT/'papers.json').read_text());jpath=ROOT/'journal_records.json';journal=json.loads(jpath.read_text()) if jpath.exists() else {'papers':[],'sources':{}};notes=json.loads((ROOT/'editorial.json').read_text());registry=json.loads((ROOT/'journals.json').read_text())
+ arxiv=json.loads((ROOT/'papers.json').read_text());jpath=ROOT/'journal_records.json';journal=json.loads(jpath.read_text()) if jpath.exists() else {'papers':[],'sources':{}};epath=ROOT/'exoplanet_records.json';exoplanet=json.loads(epath.read_text()) if epath.exists() else {'papers':[],'sources':{}};notes=json.loads((ROOT/'editorial.json').read_text());registry=json.loads((ROOT/'journals.json').read_text())
  config=json.loads((ROOT/'topics.json').read_text())
- records=arxiv['papers']+journal['papers']
+ records=arxiv['papers']+journal['papers']+exoplanet['papers']
  for p in records:p.update(classify(p,config))
  arxiv['topics']=config['topics']
  papers=merge_records(records,notes)
- # Keep raw source archives for provenance, while removing explicitly
- # out-of-scope records from the public catalog and its institution graph.
- papers=[p for p in papers if p.get('status')!='excluded']
+ # Keep provenance in source archives; publish and graph only the narrow,
+ # in-scope candidate set. The filter is reversible by changing topics.json.
+ papers=[p for p in papers if p.get('status')=='candidate']
  names_path=ROOT/'author_names.json';names=json.loads(names_path.read_text()) if names_path.exists() else {}
  overrides_path=ROOT/'author_name_overrides.json';overrides=json.loads(overrides_path.read_text()) if overrides_path.exists() else []
  aliases,_,_=verified_hierarchy(ROOT)
@@ -85,8 +86,8 @@ def build():
    for item in overrides:
     if normalize(a['name']) in [normalize(n) for n in item['names']] and any(item['institution'] in parent_names(raw) for raw in a.get('institutions',[])):
      a.update(name_zh=item['name_zh'],name_source=item['source'])
- sources={**arxiv['sources'],**{'journal:'+k:v for k,v in journal['sources'].items()}}
- d={**arxiv,'generated_at':dt.datetime.now(dt.timezone.utc).isoformat(),'papers':papers,'sources':sources,'journals':registry,'monthly_statistics':journal.get('monthly_statistics',{}),'record_count':len(arxiv['papers'])+len(journal['papers']),'merged_count':sum(len(p['variants'])-1 for p in papers)}
+ sources={**arxiv['sources'],**{'journal:'+k:v for k,v in journal['sources'].items()},**exoplanet.get('sources',{})}
+ d={**arxiv,'generated_at':dt.datetime.now(dt.timezone.utc).isoformat(),'papers':papers,'topic_filter_ids':[t['id'] for t in config['topics'] if t['id'] not in config.get('scope_exclusion_rules',{}).get('low_priority_earth_topics',[])],'sources':sources,'journals':registry,'monthly_statistics':journal.get('monthly_statistics',{}),'record_count':len(arxiv['papers'])+len(journal['papers'])+len(exoplanet['papers']),'merged_count':sum(len(p['variants'])-1 for p in papers)}
  (ROOT/'catalog.json').write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')
  print(len(papers),'catalog items;',d['merged_count'],'duplicates linked')
  return d

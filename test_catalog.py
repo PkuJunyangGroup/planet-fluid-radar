@@ -10,6 +10,10 @@ class Catalog(unittest.TestCase):
   self.assertIsNone(c.match(self.paper('1'),self.paper('2',authors=['B Jones'])))
   self.assertEqual(c.match(self.paper('1'),self.paper('2')),'exact title + author')
  def test_conflicting_dois_do_not_merge(self):self.assertIsNone(c.match(self.paper('1',doi='10.1/a'),self.paper('2',doi='10.1/b')))
+ def test_conflicting_dois_do_not_merge(self):self.assertIsNone(c.match(self.paper('1',doi='10.1/a'),self.paper('2',doi='10.1/b')))
+ def test_relation_can_resolve_arxiv_doi_difference(self):
+  a=self.paper('2609.12345',doi='10.48550/arxiv.2609.12345');b=self.paper('doi:10.1/a',doi='10.1/a',relations={'has-preprint':[{'id':'https://arxiv.org/abs/2609.12345'}]})
+  self.assertEqual(c.match(a,b),'publisher relation')
  def test_relation_and_variant_dates(self):
   a=self.paper('2609.12345');b=self.paper('doi:10.1/a',title='A different journal title',relations={'has-preprint':[{'id':'https://arxiv.org/abs/2609.12345'}]})
   b['source']='journal';b['first_seen']='2026-09-24T00:00:00Z';b['publication_date']='2026-09-23'

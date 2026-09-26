@@ -63,8 +63,13 @@ def apply_notes(p, notes):
         sentences=re.split(r'(?<=[.!?])\s+(?=[A-Z])',abstract)
         selected=' '.join(sentences[:2])
         p['intro_en']=selected[:650]+('…' if len(selected)>650 else '')
-        p['intro_zh']='中文导读待整理；可展开英文摘要查看研究内容。'
-        p['intro_kind']='abstract_excerpt';p['intro_basis']='英文摘要节选';p.pop('intro_version',None);p.pop('intro_source',None)
+        if abstract:
+            p['intro_zh']='中文导读待整理；可展开英文摘要查看研究内容。'
+            p['intro_kind']='abstract_excerpt';p['intro_basis']='英文摘要节选'
+        else:
+            p['intro_zh']='仅依据标题，待补摘要。'
+            p['intro_kind']='title_only';p['intro_basis']='仅依据标题；未取得摘要或正文'
+        p.pop('intro_version',None);p.pop('intro_source',None)
 
 
 def enrich(fetch=True, max_fetch=60):

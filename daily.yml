@@ -1,0 +1,81 @@
+name: Update literature and publish
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 1 * * *'
+  push:
+    branches: [main]
+    paths-ignore: ['.github/workflows/**']
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: literature-pages
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test filtering and recovery
+        run: python -m unittest discover -p 'test_*.py' -v
+      - name: Update public literature
+        id: fetch
+        if: github.event_name != 'push'
+        continue-on-error: true
+        run: python update.py --days 1
+      - name: Update Exoplanet.eu bibliography
+        id: exoplanet
+        continue-on-error: true
+        run: python update_exoplanet.py --days 1
+      - name: Update journal metadata
+        id: journals
+        if: github.event_name != 'push'
+        continue-on-error: true
+        run: python update_journals.py --days 1
+      - name: Enrich introductions, affiliations and dates
+        run: |
+          if [ "${{ github.event_name }}" = "push" ]; then
+            python enrich.py --offline
+            python dates.py --offline
+          else
+            python enrich.py --limit 60
+            python dates.py --limit 60
+          fi
+          python build_catalog.py
+          python build_network.py
+      - name: Save updated records
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add papers.json affiliations.json dates.json journal_records.json catalog.json network.json
+          if [ -f exoplanet_records.json ]; then git add exoplanet_records.json; fi
+          if [ -f author_names.json ]; then git add author_names.json; fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update literature records'
+            git push
+          fi
+      - name: Prepare public files
+        run: |
+          mkdir -p _site
+          cp index.html app.js style.css favicon.svg catalog.json sources.html sources.js network.html network.js network.json _site/
+      - uses: actions/configure-pages@v4
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Publish
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Report source failures after publishing status
+        if: steps.fetch.outcome == 'failure' || steps.journals.outcome == 'failure' || steps.exoplanet.outcome == 'failure'
+        run: |
+          echo 'One or more sources failed. Website published with accurate source status; next run will retry.'
+          exit 1

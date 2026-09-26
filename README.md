@@ -4,7 +4,7 @@
 
 [浏览网站](https://pkujunyanggroup.github.io/planet-fluid-radar/) · [数据来源与方法](https://pkujunyanggroup.github.io/planet-fluid-radar/sources.html)
 
-研究方向涵盖行星气候与宜居性、云和辐射反馈、水循环、热输送、大气环流、海冰与海洋过程及行星大气观测表征，收录全球相关研究。
+研究方向涵盖行星气候与宜居性、行星轨道动力学、云和辐射反馈、水循环、热输送、大气环流、海冰与海洋过程及行星大气观测表征，收录全球相关研究。
 
 
 ## 学科与内容
@@ -18,6 +18,7 @@
 - 物理海洋 · Physical oceanography
 - 地球流体力学 · Geophysical fluid dynamics
 - 系外行星探测与表征 · Exoplanet detection & characterization
+- 行星轨道动力学 · Planetary orbital dynamics
 - 行星内部与演化 · Planetary interiors & evolution
 - 行星冰冻圈、冰物理与冰动力 · Planetary cryospheres, ice physics & ice dynamics
 - 表层过程与古气候 · Surface processes & paleoclimate
@@ -29,7 +30,7 @@
 
 `first_seen` 是首次进入本站数据的时间，后续抓取不重置；页面以北京时间显示“网站收录”。`publication_date` 是 arXiv 首次提交发布日期，来自原文 citation_date 或 API，不是期刊发表日期。`version_date` 为可核实的修订提交时间。RSS 公告时间单独保存在原始记录中，不能冒充首次发布日期。缺失日期不猜测。
 
-目前接入 arXiv 的 astro-ph.EP、physics.ao-ph、physics.flu-dyn、physics.geo-ph；期刊接入情况见下方扩展版说明与网站来源页。API 查询失败时 RSS 提供当期补充，历史回查状态会公开显示。
+目前接入 arXiv 的 astro-ph.EP、physics.ao-ph、physics.flu-dyn、physics.geo-ph；期刊接入情况见下方扩展版说明与网站来源页。每天按最近更新检查点抓取新发布或新更新的记录，不向更早日期扩展回溯；已收录历史记录与中文导读整理继续保留。API 查询失败时 RSS 提供当期补充，来源状态会公开显示。
 
 ## 自动更新
 
@@ -51,7 +52,7 @@ Python 3.9+，仅使用标准库。
 
 ```sh
 python3 -m unittest discover -p 'test_*.py' -v
-python3 update.py --days 7
+python3 update.py --days 1
 python3 enrich.py --limit 60
 python3 dates.py --limit 60
 python3 -m http.server 8766
@@ -63,9 +64,9 @@ python3 -m http.server 8766
 
 新增 `journals.json`，按综合、大气、海洋、气候、地球与行星分组配置 23 种期刊，包括 Nature、Science、PNAS、Nature Geoscience、Nature Astronomy、Nature Climate Change、JAS、ACP、JGR 各相关刊、JPO、Ocean Modelling、Paleoceanography and Paleoclimatology、Journal of Climate、Climate Dynamics、Climate of the Past、QJRMS、Astrobiology、GRL、ApJ、ApJL、EPSL。
 
-期刊记录使用出版商向 Crossref 登记的公开元数据，首次检索近 14 天，后续按登记更新时间增量检索并保留检查点。来源页逐项显示状态与成功时间。无摘要时只按标题筛选并明确标注；接口可能晚于出版商网页。
+期刊记录使用出版商向 Crossref 登记的公开元数据，每日检查当日新发表记录及自上次成功检查以来登记更新的记录，不批量回查更早月份；后续按登记更新时间增量检索并保留检查点。来源页逐项显示状态与成功时间。无摘要时只按标题筛选并明确标注；接口可能晚于出版商网页。
 
-`build_catalog.py` 将 arXiv 与期刊记录合成 `catalog.json`。相同 DOI、明确的预印本关系优先归并；无 DOI 时，较长标题完全相同且存在共同作者姓氏才自动关联。相似标题不直接合并。各版本来源、首次收录时间与发表时间均保留，可能仍有未识别的重复记录。
+`build_catalog.py` 将 arXiv、启用的期刊及 Exoplanet.eu 近期文献合成 `catalog.json`，公开目录和机构图只展示符合窄范围的相关候选；原始抓取档案保留供来源审计。相同 DOI、明确的预印本关系优先归并；无 DOI 时，较长标题完全相同且存在共同作者姓氏才自动关联。相似标题不直接合并。各版本来源、首次收录时间与发表时间均保留，可能仍有未识别的重复记录。
 
 ## 机构网络
 
@@ -96,3 +97,10 @@ python3 build_network.py
 作者 ORCID 仅使用论文作者区及出版社元数据中的明确对应标识，并校验其格式与校验位。每日更新最多读取 60 个新增或到期 ORCID 的公开姓名；`author_names.json` 只保存确认的汉字署名、来源和检查时间，不保存联系方式或简历。人工核验姓名保存在 `author_name_overrides.json`，按完整署名及机构限定应用，禁止从拼音猜字。
 
 各页底部提供管理员邮件反馈入口，点击打开用户自己的邮件客户端。
+
+
+## 收录范围（2026-09-26 更新）
+
+本站聚焦行星大气、行星大气化学与模式、系外行星探测与表征、行星轨道动力学、行星内部演化、行星冰冻圈与冰动力、行星表层系统及相关理论机制。大气物理、大气动力学、气候动力学、物理海洋、地球流体力学、表层过程与古气候、数学/物理/数值方法等广泛领域不再单独触发收录；只有明确行星语境或发表在 Nature、Science、PNAS 及其子刊时，才作为相关候选保留。公开目录同步移除不符合该边界的历史记录；底层来源档案保留，不向过去扩展抓取。
+
+标签在同一筛选栏中展示。方向标签来自规则分类，机制标签由标题和摘要匹配现有词表；编辑可逐步扩充 `topics.json` 的机制标签。Exoplanet.eu 来源只增量检查今天及最近成功检查日以来的新建/更新书目，并按 DOI、arXiv 关系与已有记录归并。首次运行仅从前一北京时间自然日开始，不导入整站历史书目。Journal of Physical Oceanography、Ocean Modelling、Paleoceanography and Paleoclimatology、Journal of Geophysical Research: Oceans 已暂停抓取与月统计。

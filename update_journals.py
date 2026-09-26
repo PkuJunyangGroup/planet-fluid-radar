@@ -70,16 +70,22 @@ def publisher_abstract(p, prior, stamp):
  p['publisher_checked_at']=stamp
  return p
 
-def update(days=14,only=None,backfill=False):
+def update_filters(now, previous, days=1, backfill=False):
+ today=now.date().isoformat()
+ publication_since=(now-dt.timedelta(days=days if backfill else 0)).date().isoformat()
+ filters=['from-pub-date:'+publication_since+',until-pub-date:'+today+',type:journal-article']
+ if previous.get('last_success') and not backfill:
+  updated_since=dt.datetime.fromisoformat(previous['last_success']).date().isoformat()
+  filters.append('from-update-date:'+updated_since+',until-update-date:'+today+',type:journal-article')
+ return filters
+
+def update(days=1,only=None,backfill=False):
  registry=json.loads((ROOT/'journals.json').read_text());config=json.loads((ROOT/'topics.json').read_text());path=ROOT/'journal_records.json';old=json.loads(path.read_text()) if path.exists() else {'papers':[],'sources':{}}
  papers={p['id']:p for p in old['papers']};sources=old['sources'];now=dt.datetime.now(dt.timezone.utc);stamp=now.isoformat();failures=[]
  for j in registry['journals']:
   if not j['enabled'] or (only and j['id'] not in only):continue
-  prev=sources.get(j['id'],{});since=(now-dt.timedelta(days=days if backfill else max(days,30))).date().replace(day=1).isoformat()
-  filters=['from-pub-date:'+since+',until-pub-date:'+now.date().isoformat()+',type:journal-article']
-  if prev.get('last_success') and not backfill:
-   updated_since=(dt.datetime.fromisoformat(prev['last_success'])-dt.timedelta(days=2)).date().isoformat()
-   filters.append('from-update-date:'+updated_since+',until-pub-date:'+now.date().isoformat()+',type:journal-article')
+  prev=sources.get(j['id'],{});filters=update_filters(now,prev,days,backfill)
+  since=(now-dt.timedelta(days=days if backfill else 0)).date().isoformat()
   fetched=0;kept=0;incoming=[];seen=set()
   cache=old.setdefault('publisher_cache',{})
   try:
@@ -126,6 +132,7 @@ def update_monthly():
  path=ROOT/'journal_records.json';d=json.loads(path.read_text()); registry=json.loads((ROOT/'journals.json').read_text())
  now=dt.datetime.now(dt.timezone.utc); stamp=now.isoformat(); windows=month_windows(now.date()); stats=d.setdefault('monthly_statistics',{})
  for j in registry['journals']:
+  if not j.get('enabled',True):continue
   series=stats.setdefault(j['id'],{})
   for month,start,end in windows:
    prior=series.get(month,{})

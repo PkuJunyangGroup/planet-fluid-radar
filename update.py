@@ -21,9 +21,15 @@ def contains(text, term):
     word = normalize(term)
     return bool(re.search(r'(?<!\w)'+re.escape(word)+r'(?:s|es|ies)?(?!\w)', text))
 
-def planetary_context(text, config):
+def planetary_context(paper, config):
     rules=config.get('scope_exclusion_rules',{})
-    return any(contains(text,w) for w in rules.get('planetary_context',[]))
+    title=normalize(paper.get('title',''))
+    abstract=normalize(paper.get('abstract',''))
+    for term in rules.get('planetary_context',[]):
+        if contains(title,term):return True
+        word=normalize(term)
+        if len(re.findall(r'(?<!\w)'+re.escape(word)+r'(?:s|es|ies)?(?!\w)',abstract))>=2:return True
+    return False
 
 def teacher_author(paper, config):
     names={normalize(n) for n in config.get('scope_exclusion_rules',{}).get('excluded_teacher_authors',[])}
@@ -52,6 +58,12 @@ def relevance(text, topic_ids, config):
     score=min(100,round(20+topic_score+signal_score)) if topic_ids else 0
     return score,[t['label'] for t in themes]
 
+def priority_journal(paper, rules):
+    name=normalize(paper.get('journal',''))
+    prefixes=[normalize(x) for x in rules.get('priority_journal_prefixes',[]) ]
+    exact=[normalize(x) for x in rules.get('priority_journal_names',[]) ]
+    return any(name.startswith(prefix) for prefix in prefixes if prefix) or any(x in name for x in exact)
+
 def classify(paper, config):
     text = normalize(paper['title']+' '+paper['abstract'])
     matches = {}
@@ -62,15 +74,21 @@ def classify(paper, config):
         if terms and (not t.get('context') or any(contains(text,w) for w in t['context'])):
             matches[t['id']]=terms
     rules=config.get('scope_exclusion_rules',{})
-    planetary=planetary_context(text,config)
+    planetary=planetary_context(paper,config)
     excluded=[w for w in config['exclude_terms'] if contains(text,w)]
     # CMIP papers are Earth-system projections; the other field and regional
     # exclusions apply only without an explicit planetary target.
     excluded += [w for w in rules.get('hard_earth_scope_terms',[]) if is_focus_term(paper,w) and (w in {'cmip','cmip5','cmip6'} or not planetary)]
     excluded += [w for w in rules.get('earth_only_scope_terms',[]) if is_focus_term(paper,w) and not planetary]
     excluded= list(dict.fromkeys(excluded))
+    low_priority=set(rules.get('low_priority_earth_topics',[]))
+    low_matches=low_priority.intersection(matches)
+    if low_matches and not planetary and not priority_journal(paper,rules):
+        excluded.extend('低优先级地球学科：'+topic for topic in sorted(low_matches))
+    if 'cryosphere' in matches and not planetary and not priority_journal(paper,rules):
+        excluded.append('冰冻圈/冰动力缺少行星语境')
     if teacher_author(paper,config):excluded.append('组内教师署名论文')
-    direct='astro-ph.EP' in paper['categories']
+    direct='astro-ph.EP' in paper.get('categories',[])
     status='candidate' if any(k!='methods' for k in matches) else 'unmatched'
     if excluded: status='excluded'
     reason='关联线索：'+'、'.join(list(dict.fromkeys(w for terms in matches.values() for w in terms))[:6]) if matches else ('行星科学拓展阅读' if direct else '拓展阅读')
@@ -79,7 +97,7 @@ def classify(paper, config):
     if override: status,reason=override['status'],override['reason']
     fit_score,fit_matches=relevance(text,list(matches),config)
     tags=[m['label'] for m in config.get('mechanisms',[]) if any(contains(text,w) for w in m['terms'])]
-    return {'topics':list(matches),'matches':matches,'status':status,'reason':reason,'tags':tags[:5],'method':'manual' if override else 'keyword','fit_score':fit_score,'fit_matches':fit_matches}
+    return {'topics':list(matches),'matches':matches,'status':status,'reason':reason,'tags':tags,'method':'manual' if override else 'keyword','fit_score':fit_score,'fit_matches':fit_matches}
 
 def parse_feed(data):
     root = ET.fromstring(data)

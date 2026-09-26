@@ -13,3 +13,5 @@
 footer{flex-wrap:wrap;gap:12px}.graph-detail h2{overflow-wrap:anywhere}
 
 .researcher-toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:12px 0 18px;padding:14px 0;border-top:1px solid #e5e7eb;border-bottom:1px solid #e5e7eb}.researcher-toolbar label{font-size:13px;color:#555}.researcher-toolbar input,.researcher-toolbar select{padding:9px;border:1px solid #ddd;background:white;font:inherit;min-width:0}.researcher-toolbar input{width:240px}.researcher-toolbar select{max-width:100%;flex:1;min-width:220px}.researcher-toolbar small{flex-basis:100%;color:#777}.researcher-toolbar button{padding:8px 12px;border:1px solid #ddd;background:#fafafa}.researcher-toolbar [hidden]{display:none}@media(max-width:640px){.researcher-toolbar input,.researcher-toolbar select{width:100%;flex-basis:100%}}
+
+.tag-intro{font-size:.84rem;color:var(--muted);margin:.25rem 0 .75rem}

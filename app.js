@@ -1,4 +1,4 @@
-let data,topic='all',status='candidate',limit=30,keyword='',extensionTags=[],sortOrder='recent';
+let data,status='candidate',limit=30,keyword='topic:all',allTags=[],sortOrder='recent';
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safe=s=>/^https?:\/\//i.test(s||'')?esc(s):'#';
@@ -7,11 +7,11 @@ const orcidLink=a=>/^https:\/\/orcid\.org\/\d{4}-\d{4}-\d{4}-\d{3}[\dX]$/.test(a
 const date=s=>!s?'待核实':/^\d{4}(-\d{2})?$/.test(s)?s.replace('-','/')+'（日期精度有限）':new Date(s).toLocaleDateString('zh-CN',{year:'numeric',month:'2-digit',day:'2-digit',timeZone:'Asia/Shanghai'});
 function render(){
  const query=$('#search').value.trim().toLowerCase(),days=Number($('#period').value),source=$('#source-filter').value;
- const base=data.papers.filter(p=>(topic==='all'||p.topics.includes(topic))&&(status==='all'||p.status===status)&&(!days||Date.now()-Date.parse(p.first_seen)<=days*86400000)&&(source==='all'||source==='linked'&&p.variants.length>1||p.source_types.includes(source)||p.variants.some(v=>'journal:'+v.journal_id===source))&&(!query||[p.title,p.abstract,...p.authors,...(p.author_affiliations||[]).map(a=>a.name_zh||''),p.reason,p.intro_zh,p.intro_en,...p.institutions,...p.tags,...p.journals].join(' ').toLowerCase().includes(query)));
- const filtered=base.filter(p=>!keyword||(p.tags||[]).includes(keyword)).sort((a,b)=>(sortOrder==='relevance'?Number(b.fit_score||0)-Number(a.fit_score||0):0)||String(b.first_seen||'').localeCompare(a.first_seen||'')||String(b.publication_date||'').localeCompare(a.publication_date||''));
- $('#extension-tags').innerHTML=extensionTags.map(tag=>{const count=base.filter(p=>(p.tags||[]).includes(tag)).length,parts=tag.split(' · ');return `<button type="button" data-keyword="${esc(tag)}" aria-pressed="${keyword===tag}" class="${keyword===tag?'active':''}"><span>${esc(parts[0])}<small lang="en">${esc(parts.slice(1).join(' · '))}</small></span><span>${count}</span></button>`}).join('');
- $('#keyword-filter').hidden=!keyword;
- $('#keyword-label').textContent=keyword?'扩展关键词：'+keyword:'';
+ const base=data.papers.filter(p=>(status==='all'||p.status===status)&&(!days||Date.now()-Date.parse(p.first_seen)<=days*86400000)&&(source==='all'||source==='linked'&&p.variants.length>1||p.source_types.includes(source)||p.variants.some(v=>'journal:'+v.journal_id===source))&&(!query||[p.title,p.abstract,...p.authors,...(p.author_affiliations||[]).map(a=>a.name_zh||''),p.reason,p.intro_zh,p.intro_en,...p.institutions,...p.tags,...p.journals].join(' ').toLowerCase().includes(query)));
+ const filtered=base.filter(p=>!keyword||keyword==='topic:all'||(keyword.startsWith('topic:')?p.topics.includes(keyword.slice(6)):(p.tags||[]).includes(keyword))).sort((a,b)=>(sortOrder==='relevance'?Number(b.fit_score||0)-Number(a.fit_score||0):0)||String(b.first_seen||'').localeCompare(a.first_seen||'')||String(b.publication_date||'').localeCompare(a.publication_date||''));
+ $('#research-tags').innerHTML=allTags.map(item=>{const key=item.topic?'topic:'+item.id:item.label;const count=item.topic&&item.id==='all'?base.length:base.filter(p=>item.topic?p.topics.includes(item.id):(p.tags||[]).includes(item.label)).length;return `<button type="button" data-keyword="${esc(key)}" aria-pressed="${keyword===key}" class="${keyword===key?'active':''}"><span>${esc(item.name)}<small lang="en">${esc(item.name_en||'')}</small></span><span>${count}</span></button>`}).join('');
+ $('#keyword-filter').hidden=!keyword||keyword==='topic:all';
+ $('#keyword-label').textContent=keyword?(allTags.find(t=>(t.topic?'topic:'+t.id:t.label)===keyword)?.name||keyword):'';
  $('#count').textContent=`${filtered.length} 篇`;
  $('#papers').innerHTML=filtered.slice(0,limit).map(p=>{
  const mapped=p.author_affiliations||[],authors=[...new Set(mapped.length?mapped.map(authorText):p.authors)],orgs=p.institutions||[],variants=p.variants||[];
@@ -23,16 +23,15 @@ function render(){
 }
 async function init(){try{
  const response=await fetch('./catalog.json');if(!response.ok)throw Error();data=await response.json();
- extensionTags=[...new Set(data.papers.flatMap(p=>p.tags||[]))];
- const pickKeyword=e=>{const b=e.target.closest('button[data-keyword]');if(!b)return;keyword=keyword===b.dataset.keyword?'':b.dataset.keyword;limit=30;render()};
- $('#extension-tags').addEventListener('click',pickKeyword);$('#papers').addEventListener('click',pickKeyword);
- $('#clear-keyword').addEventListener('click',()=>{keyword='';limit=30;render()});
- $('#topics').innerHTML=[{id:'all',name:'全部方向',name_en:'All research areas'},...data.topics].map(t=>`<button data-topic="${esc(t.id)}" class="${t.id==='all'?'active':''}"><span class="topic-label">${esc(t.name)}<small lang="en">${esc(t.name_en)}</small></span><span>${data.papers.filter(p=>t.id==='all'||p.topics.includes(t.id)).length}</span></button>`).join('');
- $('#topics').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;topic=b.dataset.topic;$('#topics .active')?.classList.remove('active');b.classList.add('active');limit=30;render()});
+ allTags=[{id:'all',name:'全部标签',name_en:'All tags',topic:true},...data.topics.filter(t=>!data.topic_filter_ids||data.topic_filter_ids.includes(t.id)).map(t=>({...t,topic:true})),...([...new Set(data.papers.flatMap(p=>p.tags||[]))].sort().map(label=>({label,name:label.split(' · ')[0],name_en:label.split(' · ').slice(1).join(' · ')})))];
+ const pickKeyword=e=>{const b=e.target.closest('button[data-keyword]');if(!b)return;keyword=keyword===b.dataset.keyword?'topic:all':b.dataset.keyword;limit=30;render()};
+ $('#research-tags').addEventListener('click',pickKeyword);$('#papers').addEventListener('click',pickKeyword);
+ $('#clear-keyword').addEventListener('click',()=>{keyword='topic:all';limit=30;render()});
  $('.segments').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;status=b.dataset.status;$('.segments .active')?.classList.remove('active');b.classList.add('active');limit=30;render()});
- for(const j of data.journals.journals){const opt=document.createElement('option');opt.value='journal:'+j.id;opt.textContent=j.name;$('#source-filter').append(opt)}
- const requestedJournal=new URLSearchParams(location.search).get('journal');if(data.journals.journals.some(j=>j.id===requestedJournal))$('#source-filter').value='journal:'+requestedJournal;
- const entries=Object.values(data.sources),success=entries.map(s=>s.last_rss_success||s.last_success).filter(Boolean).sort();
+ for(const j of data.journals.journals.filter(j=>j.enabled!==false)){const opt=document.createElement('option');opt.value='journal:'+j.id;opt.textContent=j.name;$('#source-filter').append(opt)}
+ if(data.sources['exoplanet.eu']){const opt=document.createElement('option');opt.value='exoplanet.eu';opt.textContent='Exoplanet.eu';$('#source-filter').append(opt)}
+ const requestedJournal=new URLSearchParams(location.search).get('journal');if(data.journals.journals.some(j=>j.enabled!==false&&j.id===requestedJournal))$('#source-filter').value='journal:'+requestedJournal;
+ const inactiveJournalKeys=new Set(data.journals.journals.filter(j=>j.enabled===false).map(j=>'journal:'+j.id));const entries=Object.entries(data.sources).filter(([k])=>!inactiveJournalKeys.has(k)).map(([,v])=>v),success=entries.map(s=>s.last_rss_success||s.last_success).filter(Boolean).sort();
  $('#updated').textContent=success.length?`最近成功抓取 ${new Date(success.at(-1)).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai'})} · 北京时间`:'尚未完成首次抓取';
  const failed=entries.filter(s=>s.status!=='ok').length;
  $('#notice').textContent=failed?`${failed} 个来源有补抓或连接问题，已保留历史文献；详情见文献来源页。`:'';

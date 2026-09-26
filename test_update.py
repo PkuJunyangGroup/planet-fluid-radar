@@ -34,10 +34,16 @@ class Rules(unittest.TestCase):
    self.assertEqual(result['sources']['astro-ph.EP']['last_rss_fetched'],1)
    self.assertEqual([p['id'] for p in result['papers']],['fresh'])
  def test_cryosphere_primary_and_unrelated_ice(self):
-  for title in ['Ice shell convection on Europa','Sea ice rheology and basal melting','High-pressure ice phase transitions','Glacier dynamics and basal sliding']:
+  for title in ['Ice shell convection on Europa','High-pressure ice phase transitions on Ganymede']:
    result=update.classify(self.paper(title),CONFIG)
    self.assertIn('cryosphere',result['topics'])
    self.assertEqual(result['status'],'candidate')
+  earth_ice=update.classify(self.paper('Sea ice rheology and basal melting'),CONFIG)
+  self.assertEqual(earth_ice['status'],'excluded')
+  glacier=update.classify(self.paper('Glacier dynamics and basal sliding'),CONFIG)
+  self.assertEqual(glacier['status'],'excluded')
+  major={**self.paper('Sea ice rheology and basal melting'),'journal':'Science'}
+  self.assertEqual(update.classify(major,CONFIG)['status'],'candidate')
   for title in ['Quantum spin ice dynamics','Water ice in interstellar molecular clouds']:
    self.assertNotIn('cryosphere',update.classify(self.paper(title),CONFIG)['topics'])
  def paper(self,title,abstract='',categories=None):
@@ -52,8 +58,18 @@ class Rules(unittest.TestCase):
    result=update.classify(self.paper(text),CONFIG)
    self.assertNotIn('chemistry',result['topics'])
    self.assertNotIn('models',result['topics'])
- def test_mechanism_bridge(self):
-  self.assertEqual(update.classify(self.paper('Rossby waves in rotating fluid'),CONFIG)['status'],'candidate')
+ def test_low_priority_earth_topics_need_planetary_context_or_top_journal(self):
+  generic=self.paper('Atmospheric Rossby waves and jet streams')
+  self.assertEqual(update.classify(generic,CONFIG)['status'],'excluded')
+  top={**generic,'journal':'Nature Climate Change'}
+  self.assertEqual(update.classify(top,CONFIG)['status'],'candidate')
+  planet=self.paper('Atmospheric circulation and Rossby waves on a hot Jupiter')
+  self.assertEqual(update.classify(planet,CONFIG)['status'],'candidate')
+ def test_single_incidental_planet_mention_does_not_rescue_earth_topic(self):
+  p=self.paper('Atmospheric Rossby wave dynamics','We compare one case with conditions around an exoplanet.')
+  self.assertEqual(update.classify(p,CONFIG)['status'],'excluded')
+  p=self.paper('Atmospheric Rossby waves on a hot Jupiter')
+  self.assertEqual(update.classify(p,CONFIG)['status'],'candidate')
  def test_atmospheric_dynamics_separate_from_climate(self):
   topics=update.classify(self.paper('Atmospheric Rossby waves and jet streams'),CONFIG)['topics']
   self.assertIn('dynamics',topics);self.assertIn('gfd',topics);self.assertNotIn('climate',topics)
@@ -97,7 +113,9 @@ class Rules(unittest.TestCase):
   for text in ['CMIP6 projections of global temperature','Plate tectonic reconstruction and regional geology','Earthquake hazard in the Himalaya','Space physics observations of the solar wind','Indian monsoon variability','Arctic Ocean circulation','Alpine regional climatology']:
    self.assertEqual(update.classify(self.paper(text),CONFIG)['status'],'excluded',text)
   global_theory=update.classify(self.paper('A theoretical scaling law for global ocean heat transport'),CONFIG)
-  self.assertEqual(global_theory['status'],'candidate')
+  self.assertEqual(global_theory['status'],'excluded')
+  nature={**self.paper('A theoretical scaling law for global ocean heat transport'),'journal':'Nature'}
+  self.assertEqual(update.classify(nature,CONFIG)['status'],'candidate')
  def test_teacher_authored_papers_are_not_included_and_score_is_explainable(self):
   own=self.paper('Planetary atmospheres and climate',categories=['astro-ph.EP']);own['authors']=['Yang, Jun']
   self.assertEqual(update.classify(own,CONFIG)['status'],'excluded')
