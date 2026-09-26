@@ -564,19 +564,59 @@
       "name": "行星轨道动力学",
       "name_en": "Planetary orbital dynamics",
       "terms": [
-        "orbital dynamics", "orbital resonance", "mean motion resonance", "secular resonance",
-        "orbital migration", "planetary migration", "orbital stability", "planetary system stability",
-        "planetary system dynamics", "planet-planet scattering", "resonant chain", "orbital architecture",
-        "orbital evolution", "celestial mechanics", "n-body", "transit timing variations",
-        "apsidal precession", "spin-orbit resonance", "tidal orbital evolution", "orbital forcing",
-        "milankovitch cycle", "milankovitch cycles", "milankovitch forcing"
+        "orbital dynamics",
+        "orbital resonance",
+        "mean motion resonance",
+        "secular resonance",
+        "orbital migration",
+        "planetary migration",
+        "orbital stability",
+        "planetary system stability",
+        "planetary system dynamics",
+        "planet-planet scattering",
+        "resonant chain",
+        "orbital architecture",
+        "orbital evolution",
+        "celestial mechanics",
+        "n-body",
+        "transit timing variations",
+        "apsidal precession",
+        "spin-orbit resonance",
+        "tidal orbital evolution",
+        "orbital forcing",
+        "milankovitch cycle",
+        "milankovitch cycles",
+        "milankovitch forcing"
       ],
       "required_context_groups": [
         [
-          "planet", "planetary", "exoplanet", "exoplanetary", "planetary system", "solar system",
-          "terrestrial planet", "hot jupiter", "sub neptune", "mars", "martian", "venus",
-          "jupiter", "jovian", "saturn", "uranus", "neptune", "titan", "europa", "enceladus",
-          "pluto", "asteroid", "hilda asteroid", "main belt", "kuiper belt", "transiting planet", "earth"
+          "planet",
+          "planetary",
+          "exoplanet",
+          "exoplanetary",
+          "planetary system",
+          "solar system",
+          "terrestrial planet",
+          "hot jupiter",
+          "sub neptune",
+          "mars",
+          "martian",
+          "venus",
+          "jupiter",
+          "jovian",
+          "saturn",
+          "uranus",
+          "neptune",
+          "titan",
+          "europa",
+          "enceladus",
+          "pluto",
+          "asteroid",
+          "hilda asteroid",
+          "main belt",
+          "kuiper belt",
+          "transiting planet",
+          "earth"
         ]
       ]
     },
@@ -774,6 +814,14 @@
     "doi:10.1038/s41561-026-02095-x": {
       "status": "unmatched",
       "reason": "人工复核：侧重生态系统或农业影响，暂列拓展阅读。"
+    },
+    "doi:10.3847/1538-4357/ae9940": {
+      "status": "unmatched",
+      "reason": "人工复核：白矮星—褐矮星双星大气研究，不属于行星大气及行星动力学范围。"
+    },
+    "doi:10.3847/1538-4357/ae99e0": {
+      "status": "unmatched",
+      "reason": "人工复核：高红移类星体与星系核研究，不属于本站行星与地球流体方向。"
     }
   },
   "mechanisms": [
@@ -880,6 +928,7 @@
     "辐射反馈与能量收支",
     "热再分配与相曲线",
     "岩石行星大气探测",
-    "行星冰冻圈、冰物理与冰动力"
+    "行星冰冻圈、冰物理与冰动力",
+    "行星轨道动力学：轨道演化、稳定性、共振与迁移"
   ]
 }

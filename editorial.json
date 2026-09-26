@@ -3563,5 +3563,266 @@
     "basis": "public abstract",
     "source_url": "https://doi.org/10.1029/2026gl122785",
     "created_at": "2026-09-25"
+  },
+  "2609.29378": {
+    "version_id": "2609.29378v1",
+    "abstract_sha256": "6e62b0cd754bd1f11504f9c4b95533d2c14968942ac594f568f6be91b7e8b814",
+    "zh": "这篇综述介绍以恒星径向速度变化探测系外行星的方法，包括精密测量、小信号识别的限制，以及双星系统中行星探测的难点和进展。文章梳理该方法如何从早期发现扩展到更小质量行星的搜寻。",
+    "en": "This review surveys radial-velocity measurements, limits on detecting small signals, and recent progress toward finding planets in circumbinary systems.",
+    "basis": "public abstract",
+    "created_at": "2026-09-26",
+    "source_url": "https://arxiv.org/abs/2609.29378"
+  },
+  "2609.30038": {
+    "version_id": "2609.30038v1",
+    "abstract_sha256": "655d4ae7d71c66f961640cc9ced493cae603d3a99b23832df0644598f72bc68c",
+    "zh": "研究利用 HARPS-N 的长期高分辨率光谱约束年轻 V1298 Tau 系统四颗凌星行星的动力学质量。作者结合不同径向速度提取方法、恒星活动诊断、多行星 N 体模拟与高斯过程回归，以区分行星相互作用和恒星活动对测量的影响。",
+    "en": "Long-term HARPS-N velocities, activity diagnostics, N-body simulations and Gaussian-process regression are combined to constrain the masses of four young planets in V1298 Tau.",
+    "basis": "public abstract",
+    "created_at": "2026-09-26",
+    "source_url": "https://arxiv.org/abs/2609.30038"
+  },
+  "2603.20373": {
+    "version_id": "2603.20373v2",
+    "abstract_sha256": "7c45f164349cfedecc91cfb53221f5b45d11a8cffb294e8d68980d9ffb186d51",
+    "zh": "本文建立含辐射加热与冷却的球对称 Bondi 吸积模型，并在恒定不透明度假设下系统扫描无量纲参数空间。计算显示，辐射反馈通常抑制气体吸积，在光学深度、辐射强度或冷却时间较高时尤为明显。",
+    "en": "A dimensionless model of radiative Bondi accretion shows that radiative feedback generally suppresses inflow, especially at high optical depth, luminosity or cooling time.",
+    "basis": "public abstract",
+    "created_at": "2026-09-26",
+    "source_url": "https://arxiv.org/abs/2603.20373"
+  },
+  "2603.20377": {
+    "version_id": "2603.20377v2",
+    "abstract_sha256": "422fe4415ab9edcd93f799a91fadd75eeffdfa1ee5b953ab14a7731cb29c27b3",
+    "zh": "本文将辐射反馈纳入巨行星形成阶段的气体吸积估算，并在更现实的行星—盘条件下量化其影响。结果显示，吸积可被抑制约 1–2 个数量级，且效应随行星质量、盘条件和辐射冷却而变化；这会影响巨行星增长速率的估计。",
+    "en": "Applying radiative feedback to giant-planet formation models yields accretion rates lower by roughly one to two orders of magnitude, with the effect depending on planet and disk conditions.",
+    "basis": "public abstract",
+    "created_at": "2026-09-26",
+    "source_url": "https://arxiv.org/abs/2603.20377"
+  },
+  "2609.28601": {
+    "version_id": "2609.28601v1",
+    "abstract_sha256": "777e5ee09288e13c73a56f910e5b8fcdc3c18fa9cb31935710dc21cbdbacdf00",
+    "zh": "HClimRep-Ocean 是直接运行于非结构网格的全球海洋模拟器，针对涡旋、狭窄海峡、复杂海岸线和海冰区等难以用规则经纬网格表示的过程。研究评估它从海表信息重建海洋内部流速、浮力和涡旋统计特征的能力。",
+    "en": "HClimRep-Ocean operates on unstructured meshes and uses surface information to emulate subsurface circulation and eddy statistics across complex ocean boundaries.",
+    "basis": "public abstract",
+    "created_at": "2026-09-26",
+    "source_url": "https://arxiv.org/abs/2609.28601"
+  },
+  "2608.26492": {
+    "version_id": "2608.26492v3",
+    "abstract_sha256": "1db386830785003ccf6165389575f934ddb54fcced37930b0c7ebfa7e068e445",
+    "zh": "文章在双线性谱交换模型中推导误差增长呈逻辑斯蒂曲线的条件，并检验这种整体曲线与各尺度谱演化之间的关系。研究指出，只有参与尺度共享同一正增长率时，逻辑斯蒂增长才对应形状保持；仅观察到整体逻辑斯蒂曲线，不能反推出各尺度具有相同演化。",
+    "en": "Within a bilinear spectral-exchange model, logistic growth preserves spectral shape only when participating scales share a common positive growth rate; an aggregate logistic curve alone does not establish that condition.",
+    "basis": "public abstract",
+    "created_at": "2026-09-26",
+    "source_url": "https://arxiv.org/abs/2608.26492"
+  },
+  "2609.28981": {
+    "version_id": "2609.28981v1",
+    "abstract_sha256": "cf5ca3d070d423fae606ae24cda32340d3e0e92c58240b4857104a5ca834e738",
+    "zh": "研究把局地降阶模型与全状态 Navier–Stokes 求解结合，用于寻找空间延展 Kolmogorov 湍流中的相对周期轨道。最终得到 14 个轨道解，既包括覆盖全域的重复态，也包括活动局限于部分横向区域的解，为分析湍流中的可重复动力结构提供了新途径。",
+    "en": "A patch-based reduced model helps identify 14 relative periodic orbits in extended Kolmogorov flow, including both domain-filling and spatially localized recurrent states.",
+    "basis": "public abstract",
+    "created_at": "2026-09-26",
+    "source_url": "https://arxiv.org/abs/2609.28981"
+  },
+  "doi:10.1038/s41550-026-02984-6": {
+    "version_id": "doi:10.1038/s41550-026-02984-6",
+    "abstract_sha256": "b879f8665271baaffd2b18219b276efcc6a302d3573179e9cc09b8c78e1fceb2",
+    "zh": "仅根据题名判断，该文研究岩石行星挥发分亏损能否作为混合吸积过程的化学指纹。目前元数据未提供摘要，因此具体样品、分析方法和结论仍待核实。",
+    "en": "Title-only note: the paper concerns volatile depletion in rocky planets as a chemical fingerprint of hybrid accretion; methods and findings await an abstract.",
+    "basis": "title only",
+    "created_at": "2026-09-26",
+    "source_url": "https://doi.org/10.1038/s41550-026-02984-6"
+  },
+  "doi:10.1175/jas-d-26-0024.1": {
+    "version_id": "doi:10.1175/jas-d-26-0024.1",
+    "abstract_sha256": "5e9b3b36804614ad92393c7b3a52733e8a1eff249659cd4314b8b6f9bdb6e563",
+    "zh": "研究分析日本海海效云带出现的日周期与半日周期振荡，结合真实天气个例的 WRF 模拟和线性浅水模型，考察陆地边界层热量及动量周期变化的作用。两种分析均识别出约 24 小时和 12 小时的信号，说明边界层强迫可调制云带振荡。",
+    "en": "WRF simulations and a linear shallow-water model identify 24- and 12-hour oscillations in Japan Sea-effect cloud bands and examine periodic boundary-layer forcing as a mechanism.",
+    "basis": "public abstract",
+    "created_at": "2026-09-26",
+    "source_url": "https://doi.org/10.1175/jas-d-26-0024.1"
+  },
+  "doi:10.5194/acp-24-8865-2024": {
+    "version_id": "doi:10.5194/acp-24-8865-2024",
+    "abstract_sha256": "9bab2e00bba7e15f4176b19ae06abae254c54c2544fb00f1677c91db27ebab61",
+    "zh": "HALO–(AC)³ 飞行观测计划追踪暖湿空气入侵和冷空气爆发进出北极时的气团转化，并覆盖开阔海面、海冰边缘和中央北冰洋。该观测为评估大气模式中的水汽、云和海冰边界层过程提供了现场资料。",
+    "en": "The HALO–(AC)³ campaign observed warm-air intrusions and cold-air outbreaks across Arctic ocean and sea-ice regions, providing data to evaluate modelled air-mass transformations.",
+    "basis": "public abstract",
+    "created_at": "2026-09-26",
+    "source_url": "https://doi.org/10.5194/acp-24-8865-2024"
+  },
+  "doi:10.1029/2026jd046968": {
+    "version_id": "doi:10.1029/2026jd046968",
+    "abstract_sha256": "13b05f21de36b1416e60a6469b8cab62ff82b60785cefcbcd3eef21faf4ba539",
+    "zh": "研究结合地震台站垂直地面运动、122 个 GNSS 接收机的总电子含量和 DART 浮标海啸观测，分析 2024 年花莲地震触发的电离层扰动。作者识别出不同传播速度的声波与重力波模式，并将其分别联系到地震地面振动和海啸强迫。",
+    "en": "Seismic, GNSS and tsunami observations reveal ionospheric disturbance modes following the 2024 Hualien earthquake, linking their propagation speeds to ground motion and tsunami forcing.",
+    "basis": "public abstract",
+    "created_at": "2026-09-26",
+    "source_url": "https://doi.org/10.1029/2026jd046968"
+  },
+  "doi:10.1029/2026jd046954": {
+    "version_id": "doi:10.1029/2026jd046954",
+    "abstract_sha256": "c074ae556b3157998d9b838c7af352449e6d935f1eea902dae130778ea8189a8",
+    "zh": "研究将风云四号 B 星红外窗区云分析与水汽辐射资料同化结合，用于改进云初始场和太阳辐照度预报。作者扩展云分析中的水凝物种类，并以卫星资料和预报试验评估云场初始化对辐照度预测的影响。",
+    "en": "The study combines FY-4B infrared-window cloud analysis with water-vapour radiance assimilation, expanding hydrometeor categories to improve cloud initialization for solar-irradiance forecasts.",
+    "basis": "public abstract",
+    "created_at": "2026-09-26",
+    "source_url": "https://doi.org/10.1029/2026jd046954"
+  },
+  "doi:10.1175/jpo-d-25-0093.1": {
+    "version_id": "doi:10.1175/jpo-d-25-0093.1",
+    "abstract_sha256": "d744b0df02536748dc924d2586f06a5c763efda821a09a5b58637f990bc6f7c1",
+    "zh": "研究以海表高度、温度和盐度等资料为条件，使用基于 score 的扩散模型重建海洋内部三维流速和浮力场。理想化双环流原始方程模拟显示，概率生成框架能够估计平均环流与中尺度涡旋，并可比较不同海表信息量下的重建能力。",
+    "en": "A score-based diffusion model reconstructs subsurface velocity and buoyancy from sea-surface observations, with tests on an idealized double-gyre simulation.",
+    "basis": "public abstract",
+    "created_at": "2026-09-26",
+    "source_url": "https://doi.org/10.1175/jpo-d-25-0093.1"
+  },
+  "doi:10.1029/2026pa005546": {
+    "version_id": "doi:10.1029/2026pa005546",
+    "abstract_sha256": "f564da4fa7316bf3e66e161266adf7723263e084544c9bc5f66ed4d751856b29",
+    "zh": "研究用东沙环礁 10 根 Porites 珊瑚岩芯的 CT 扫描资料，比较 12 位观察者判读年密度带的差异，并评估重复岩芯和观察者数量对气候重建一致性的影响。结果显示，单个观察者得到的生长速率可相差约一倍，增加独立岩芯有助于提高序列可靠性。",
+    "en": "CT scans of ten Dongsha Atoll coral cores, interpreted by twelve observers, show that observer and core replication affect climate-record consistency; individual growth estimates can differ by about a factor of two.",
+    "basis": "public abstract",
+    "created_at": "2026-09-26",
+    "source_url": "https://doi.org/10.1029/2026pa005546"
+  },
+  "doi:10.1029/2026jc024329": {
+    "version_id": "doi:10.1029/2026jc024329",
+    "abstract_sha256": "dd860d9c78e1754f3de0d79c413a4dacff94c4fa165f8ad086a6a626bb8fa581",
+    "zh": "研究利用 2002–2022 年 Argo 气候态资料追踪阿古拉斯泄漏穿越开普盆地进入南大西洋的路径，并量化沿途水团转化。分析显示，强烈的侧向混合使流入的印度洋水冷却、淡化，说明该通道的输运和性质变化与局地湍混密切相关。",
+    "en": "A 20-year Argo climatology traces Agulhas Leakage into the South Atlantic and quantifies cooling and freshening caused by strong lateral mixing along the pathway.",
+    "basis": "public abstract",
+    "created_at": "2026-09-26",
+    "source_url": "https://doi.org/10.1029/2026jc024329"
+  },
+  "doi:10.1175/jcli-d-26-0257.1": {
+    "version_id": "doi:10.1175/jcli-d-26-0257.1",
+    "abstract_sha256": "5a5753ba05aea069f134cbcdbd25280dc5dc3d77fbe36a1a5f207f9a50e3c16c",
+    "zh": "研究比较水汽收支分析与环流类比两种方法，分解智利中部降水变化中的动力和热力贡献，并使用 CESM2 大集合及再分析资料进行检验。两种方法给出的动力趋势存在显著差异，差值可与集合平均趋势相当，提示归因结果依赖所采用的分析框架。",
+    "en": "Comparing moisture-budget and circulation-analogue methods for central Chile shows that estimated dynamic precipitation trends can differ by amounts comparable to the ensemble-mean trend.",
+    "basis": "public abstract",
+    "created_at": "2026-09-26",
+    "source_url": "https://doi.org/10.1175/jcli-d-26-0257.1"
+  },
+  "doi:10.1007/s00382-026-08367-x": {
+    "version_id": "doi:10.1007/s00382-026-08367-x",
+    "abstract_sha256": "1066b6edbac2bb624ef6b259135f4d650e69bbfc3fc5d4f7b5b29f8ebe89af99",
+    "zh": "仅根据题名判断，该文比较多模式对东亚冬季风的预测，并关注 ENSO 影响的对流层高、低层路径。当前未取得摘要，具体模式、分析方法和结论待核实。",
+    "en": "Title-only note: the paper assesses multimodel prediction of the East Asian winter monsoon and upper- and lower-tropospheric ENSO pathways; details await an abstract.",
+    "basis": "title only",
+    "created_at": "2026-09-26",
+    "source_url": "https://doi.org/10.1007/s00382-026-08367-x"
+  },
+  "doi:10.5194/cp-22-1729-2026": {
+    "version_id": "doi:10.5194/cp-22-1729-2026",
+    "abstract_sha256": "73103a07591e00ecc5c266dc79d070acf40eac4c18f7189e5c208357419a7e60",
+    "zh": "研究结合新的北大西洋中纬度海表温度代用指标序列、浮游有孔虫组合和环流代用指标，分析全新世中晚期的区域冷却。重建结果显示西部冷却强于东部、东西向温度梯度增强，作者将其与副极地环流区的海洋环流重组联系起来。",
+    "en": "New alkenone SST records and circulation proxies indicate stronger late-Holocene cooling in the western than eastern mid-latitude North Atlantic, consistent with circulation reorganization.",
+    "basis": "public abstract",
+    "created_at": "2026-09-26",
+    "source_url": "https://doi.org/10.5194/cp-22-1729-2026"
+  },
+  "doi:10.1002/qj.70301": {
+    "version_id": "doi:10.1002/qj.70301",
+    "abstract_sha256": "0ab0b1446323a0ebbfd6a0348d6e9b7ad548c5ddf069f62d33284f5e03533272",
+    "zh": "研究评估 HRRR 对 2024 年印度季风期间强降雨个例的预报，并用多目标大气现象分析识别同时发生的多尺度天气系统。20 个个例中共划分 87 个强降雨子区域，结果呈现多个大气现象共同出现的频率结构，可用于检查高分辨率预报中的复合过程表现。",
+    "en": "The study evaluates HRRR forecasts for 20 heavy-rainfall cases during the 2024 Indian monsoon and classifies concurrent atmospheric phenomena across 87 subregions.",
+    "basis": "public abstract",
+    "created_at": "2026-09-26",
+    "source_url": "https://doi.org/10.1002/qj.70301"
+  },
+  "doi:10.1029/2025gl121594": {
+    "version_id": "doi:10.1029/2025gl121594",
+    "abstract_sha256": "746c0ad89eb6b7480a439f15be8c75cf844ffd76b56f79680f292e31062b3af6",
+    "zh": "研究用地球动力学模型考察地幔转换带中致密洋中脊玄武岩组分与含水量如何共同影响密度、黏度和动力稳定性。模拟显示，转换带稳定只出现在有限的组分比例范围内；超出该范围会发生浮力不稳定和脱水，提示区域水储量也受动力稳定性制约。",
+    "en": "Geodynamic simulations show that mantle-transition-zone stability and hydration depend jointly on water content and dense MORB fraction, with instability and dehydration outside a limited compositional range.",
+    "basis": "public abstract",
+    "created_at": "2026-09-26",
+    "source_url": "https://doi.org/10.1029/2025gl121594"
+  },
+  "doi:10.1029/2026gl125625": {
+    "version_id": "doi:10.1029/2026gl125625",
+    "abstract_sha256": "22aeb8b2cb567172fab6b7732c9be266c259137eb76d8ef075a4cc0c521e8e46",
+    "zh": "研究结合最佳路径资料和再分析，发现 1980–2024 年西北太平洋快速扩张热带气旋的移动速度显著下降。合成分析将变化与快速扩张事件更多出现在慢移气旋中联系起来，并指出中层湿度梯度、低层径向入流和相对海温等因素可能参与这一分布变化。",
+    "en": "Best-track and reanalysis data show declining translation speeds for rapidly expanding western North Pacific tropical cyclones during 1980–2024, associated with a shift toward slower-moving cases.",
+    "basis": "public abstract",
+    "created_at": "2026-09-26",
+    "source_url": "https://doi.org/10.1029/2026gl125625"
+  },
+  "doi:10.1029/2025gl120974": {
+    "version_id": "doi:10.1029/2025gl120974",
+    "abstract_sha256": "96aaefd14815feba8968dcd650b9a29cac35190da739db58250406301f8e9491",
+    "zh": "研究比较 55 个 CMIP6 模式对沿岸厄尔尼诺事件的模拟，并区分事件停留在东太平洋或向盆地尺度发展的两条路径。仅 16% 的模式再现观测频率；偏差与热带太平洋平均态以及降水结构有关，反映背景态误差会影响沿岸增暖触发及其发展。",
+    "en": "Across 55 CMIP6 models, only 16% reproduce observed coastal El Niño frequency; errors in the tropical Pacific mean state and precipitation structure help explain biases in the two event pathways.",
+    "basis": "public abstract",
+    "created_at": "2026-09-26",
+    "source_url": "https://doi.org/10.1029/2025gl120974"
+  },
+  "doi:10.1029/2026gl122766": {
+    "version_id": "doi:10.1029/2026gl122766",
+    "abstract_sha256": "c9e8160e3669dc61feaf60dd74bfbf0439e803b45543a910bf0ae3d1da304d8d",
+    "zh": "研究使用格点资料和复杂网络方法评估全球年峰值径流同步，并检验 13 个 CMIP6 模式。模式大体再现主要同步热点，但多数区域的连通性与局地聚类偏高、连边距离偏短，说明模拟的远距离洪水同步网络过度局地化且连接过密。",
+    "en": "A complex-network analysis finds that 13 CMIP6 models generally capture runoff-synchronization hotspots but overestimate connectivity and clustering while underestimating link length.",
+    "basis": "public abstract",
+    "created_at": "2026-09-26",
+    "source_url": "https://doi.org/10.1029/2026gl122766"
+  },
+  "doi:10.1029/2025je009457": {
+    "version_id": "doi:10.1029/2025je009457",
+    "abstract_sha256": "31dafa216f186782d742ae2f73c80785d4293c3a7571e0fa7e5170da64ca9d08",
+    "zh": "研究在 93 bar、733 K 的模拟金星表面环境中，将含铁氧化物、硫化物和金属暴露 60 天，测量矿物转化及气体组分变化。铁、磁黄铁矿和陨硫铁发生转化，气体观测还显示含硫气体可能与样品及实验容器发生快速反应，为理解金星表面—大气化学提供实验约束。",
+    "en": "A 60-day experiment under simulated Venus surface conditions documents transformations of iron-bearing minerals and changes in sulfur gases, constraining surface–atmosphere chemistry.",
+    "basis": "public abstract",
+    "created_at": "2026-09-26",
+    "source_url": "https://doi.org/10.1029/2025je009457"
+  },
+  "doi:10.1029/2026je009760": {
+    "version_id": "doi:10.1029/2026je009760",
+    "abstract_sha256": "99ba065cd9e24d5b482ff213237e8283068d7ca4513efc1aed308e63029afae3",
+    "zh": "研究利用 HiRISE 火星沙丘影像，将季节性冰的形态分组，并检验沙丘表面纹理能否指示冰的组成及覆盖情况。作者把形态判读与已有冰组成资料比较，评估高分辨率地貌特征作为区域冰环境“传感器”的可行性。",
+    "en": "HiRISE observations are used to test whether seasonal ice morphologies on Martian dunes can indicate local ice composition and coverage.",
+    "basis": "public abstract",
+    "created_at": "2026-09-26",
+    "source_url": "https://doi.org/10.1029/2026je009760"
+  },
+  "doi:10.1029/2025je009573": {
+    "version_id": "doi:10.1029/2025je009573",
+    "abstract_sha256": "494f14d4fdc6a1bdbc0105de3942540499260fd8e9706d6bf8d3e28cb1de61ed",
+    "zh": "研究结合 MAVEN 原位观测与数值模型，评估火星地壳磁场对中性氧冠的影响。强磁场区的电子密度和温度条件有利于解离复合产生热氧，模型显示这些区域的氧冠密度约高 36%，提示地壳磁异常会影响高层大气逃逸环境。",
+    "en": "MAVEN observations and modelling indicate that crustal magnetic regions favour hot-oxygen production and have an oxygen corona about 36% denser than weak-field regions.",
+    "basis": "public abstract",
+    "created_at": "2026-09-26",
+    "source_url": "https://doi.org/10.1029/2025je009573"
+  },
+  "doi:10.3847/1538-4357/ae9d6f": {
+    "version_id": "doi:10.3847/1538-4357/ae9d6f",
+    "abstract_sha256": "5efbb9e178871708535598f051ca9ef8543db7aca663363ac478a95c5fe0e55c",
+    "zh": "研究报告 JWST/NIRCam 对五个碎屑盘系统的多波段日冕成像观测，利用可见光至近红外散射光约束微米级尘埃。多波段成像可补充已有短波长资料，帮助比较盘内尘埃分布及其可能受到的行星动力学影响。",
+    "en": "JWST/NIRCam coronagraphic images of five debris-disk systems probe micron-sized dust through multi-filter scattered light, complementing shorter-wavelength observations.",
+    "basis": "public abstract",
+    "created_at": "2026-09-26",
+    "source_url": "https://doi.org/10.3847/1538-4357/ae9d6f"
+  },
+  "doi:10.3847/1538-4357/ae9869": {
+    "version_id": "doi:10.3847/1538-4357/ae9869",
+    "abstract_sha256": "2f5741a73ce548c6ed94c33831743b6abf5201bb5b531b643674964b71d38aa2",
+    "zh": "研究使用三维行星气候模式系统考察外宜居带中高二氧化碳行星的气候，并模拟其可观测光谱。结果将三维计算与既有一维预测进行比较，指出较高 CO₂ 背景会改变远程识别宜居性的光谱信号。",
+    "en": "A 3D planetary climate model examines high-CO₂ outer-habitable-zone planets and their spectra, showing how thick CO₂ atmospheres alter remote habitability signatures.",
+    "basis": "public abstract",
+    "created_at": "2026-09-26",
+    "source_url": "https://doi.org/10.3847/1538-4357/ae9869"
+  },
+  "2609.28847": {
+    "version_id": "2609.28847v1",
+    "abstract_sha256": "4c4bd58d688d837c3df3fb65266485c7baad4200f4e73bbc1253a8462c870987",
+    "zh": "通过对 2,699 颗希尔达小行星开展最长 10 亿年的数值积分，研究木星 3:2 平均运动共振区的长期稳定性。约 54.7% 的样本在全部模拟时段内保持共振，为太阳系小天体轨道演化和共振结构提供了定量约束。",
+    "en": "Long-term integrations of 2,699 Hilda asteroids show that 54.7% remain in Jupiter’s 3:2 resonance throughout simulations lasting up to 1 Gyr, quantifying the region’s dynamical stability.",
+    "basis": "public abstract",
+    "created_at": "2026-09-26",
+    "source_url": "https://arxiv.org/abs/2609.28847"
   }
 }
