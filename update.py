@@ -66,7 +66,12 @@ def priority_journal(paper, rules):
     name=normalize(paper.get('journal',''))
     prefixes=[normalize(x) for x in rules.get('priority_journal_prefixes',[]) ]
     exact=[normalize(x) for x in rules.get('priority_journal_names',[]) ]
-    return any(name.startswith(prefix) for prefix in prefixes if prefix) or any(x in name for x in exact)
+    venue=any(name.startswith(prefix) for prefix in prefixes if prefix) or any(x in name for x in exact)
+    if not venue:return False
+    # A prestigious venue is not enough by itself: the exception is only for
+    # work with a clear planetary/exoplanet signal, not unrelated ecology or
+    # broad Earth climate/ocean papers that happen to match generic keywords.
+    return any(is_focus_term(paper,term) for term in rules.get('priority_exception_terms',[]))
 
 def classify(paper, config):
     text = normalize(paper['title']+' '+paper['abstract'])

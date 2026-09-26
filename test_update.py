@@ -42,7 +42,7 @@ class Rules(unittest.TestCase):
   self.assertEqual(earth_ice['status'],'excluded')
   glacier=update.classify(self.paper('Glacier dynamics and basal sliding'),CONFIG)
   self.assertEqual(glacier['status'],'excluded')
-  major={**self.paper('Sea ice rheology and basal melting'),'journal':'Science'}
+  major={**self.paper('Ice shell rheology and basal melting on Europa'),'journal':'Science'}
   self.assertEqual(update.classify(major,CONFIG)['status'],'candidate')
   for title in ['Quantum spin ice dynamics','Water ice in interstellar molecular clouds']:
    self.assertNotIn('cryosphere',update.classify(self.paper(title),CONFIG)['topics'])
@@ -62,7 +62,7 @@ class Rules(unittest.TestCase):
   generic=self.paper('Atmospheric Rossby waves and jet streams')
   self.assertEqual(update.classify(generic,CONFIG)['status'],'excluded')
   top={**generic,'journal':'Nature Climate Change'}
-  self.assertEqual(update.classify(top,CONFIG)['status'],'candidate')
+  self.assertEqual(update.classify(top,CONFIG)['status'],'excluded')
   planet=self.paper('Atmospheric circulation and Rossby waves on a hot Jupiter')
   self.assertEqual(update.classify(planet,CONFIG)['status'],'candidate')
  def test_single_incidental_planet_mention_does_not_rescue_earth_topic(self):
@@ -75,7 +75,7 @@ class Rules(unittest.TestCase):
   self.assertIn('evolution',update.classify(paper,CONFIG)['topics'])
   self.assertEqual(update.classify(paper,CONFIG)['status'],'excluded')
   paper['journal']='Nature Geoscience'
-  self.assertEqual(update.classify(paper,CONFIG)['status'],'candidate')
+  self.assertEqual(update.classify(paper,CONFIG)['status'],'excluded')
  def test_atmospheric_dynamics_separate_from_climate(self):
   topics=update.classify(self.paper('Atmospheric Rossby waves and jet streams'),CONFIG)['topics']
   self.assertIn('dynamics',topics);self.assertIn('gfd',topics);self.assertNotIn('climate',topics)
@@ -108,7 +108,7 @@ class Rules(unittest.TestCase):
  def test_pollution_review(self):
   self.assertEqual(update.classify(self.paper('Air pollution and convection'),CONFIG)['status'],'excluded')
  def test_no_blanket_aerosol_exclusion(self):
-  self.assertEqual(update.classify(self.paper('Aerosol cloud feedback on planets'),CONFIG)['status'],'candidate')
+  self.assertEqual(update.classify(self.paper('Aerosol cloud feedback in a tidally locked exoplanet'),CONFIG)['status'],'candidate')
  def test_new_scope_boundaries_keep_planetary_clouds_and_models(self):
   self.assertEqual(update.classify(self.paper('Cloud microphysics and aerosol feedback in Earth’s atmosphere'),CONFIG)['status'],'excluded')
   planet=update.classify(self.paper('Cloud microphysics in the atmosphere of a tidally locked exoplanet'),CONFIG)
@@ -121,7 +121,12 @@ class Rules(unittest.TestCase):
   global_theory=update.classify(self.paper('A theoretical scaling law for global ocean heat transport'),CONFIG)
   self.assertEqual(global_theory['status'],'excluded')
   nature={**self.paper('A theoretical scaling law for global ocean heat transport'),'journal':'Nature'}
-  self.assertEqual(update.classify(nature,CONFIG)['status'],'candidate')
+  self.assertEqual(update.classify(nature,CONFIG)['status'],'excluded')
+ def test_top_journal_requires_specific_planetary_relevance(self):
+  irrelevant={**self.paper('Climate mitigation helps persistence of a seabird population', 'Ecological effects of climate change in a long-lived seabird.'),'journal':'PNAS'}
+  self.assertNotEqual(update.classify(irrelevant,CONFIG)['status'],'candidate')
+  planetary={**self.paper('Photochemical haze formation in the atmosphere of Venus'),'journal':'Nature'}
+  self.assertEqual(update.classify(planetary,CONFIG)['status'],'candidate')
  def test_teacher_authored_papers_are_not_included_and_score_is_explainable(self):
   own=self.paper('Planetary atmospheres and climate',categories=['astro-ph.EP']);own['authors']=['Yang, Jun']
   self.assertEqual(update.classify(own,CONFIG)['status'],'excluded')
