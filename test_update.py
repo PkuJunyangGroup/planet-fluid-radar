@@ -116,8 +116,11 @@ class Rules(unittest.TestCase):
   model=update.classify(self.paper('A general circulation model of the atmosphere of Mars'),CONFIG)
   self.assertEqual(model['status'],'candidate');self.assertIn('models',model['topics'])
  def test_earth_specific_science_and_regional_studies_are_excluded(self):
-  for text in ['CMIP6 projections of global temperature','Plate tectonic reconstruction and regional geology','Earthquake hazard in the Himalaya','Space physics observations of the solar wind','Indian monsoon variability','Arctic Ocean circulation','Alpine regional climatology']:
+  for text in ['CMIP6 projections of global temperature','Plate tectonic reconstruction and regional geology','Earthquake hazard in the Himalaya','Space physics observations of the solar wind','Indian monsoon variability','Arctic Ocean circulation','Alpine regional climatology','Atmospheric rivers and Pacific Northwest surface temperatures','Early-Middle Miocene pelagic sedimentation']:
    self.assertEqual(update.classify(self.paper(text),CONFIG)['status'],'excluded',text)
+  regional=self.paper('The Influence of Atmospheric River Seasonality and Orientation on Pacific Northwest Surface Temperatures','Summer MARs induce warming across the region.')
+  self.assertFalse(update.planetary_context(regional,CONFIG))
+  self.assertEqual(update.classify(regional,CONFIG)['status'],'excluded')
   global_theory=update.classify(self.paper('A theoretical scaling law for global ocean heat transport'),CONFIG)
   self.assertEqual(global_theory['status'],'excluded')
   nature={**self.paper('A theoretical scaling law for global ocean heat transport'),'journal':'Nature'}

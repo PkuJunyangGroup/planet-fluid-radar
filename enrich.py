@@ -54,8 +54,14 @@ def affiliations(html):
 
 def digest(p):return hashlib.sha256((p['title']+'\n'+p['abstract']).encode()).hexdigest()
 def apply_notes(p, notes):
+    doi=re.sub(r'^https?://(?:dx\.)?doi\.org/','',p.get('doi') or '',flags=re.I).lower().strip()
     n=notes.get(p['id'])
-    if n and n.get('version_id')==p['version_id'] and n.get('abstract_sha256')==digest(p):
+    if n:
+        version_matches=n.get('version_id')==p.get('version_id')
+    else:
+        n=notes.get('doi:'+doi) if doi else None
+        version_matches=n and (n.get('doi','').lower()==doi or n.get('version_id')=='doi:'+doi)
+    if n and version_matches and n.get('abstract_sha256')==digest(p):
         p['intro_zh']=n['zh'];p['intro_en']=n['en'];p['intro_kind']='bilingual_editorial';p['intro_basis']=({'title only':'仅依据标题整理；未取得摘要或正文','publisher text':'基于出版社正文／研究简报整理','publisher abstract':'基于出版社页面摘要整理'}.get(n.get('basis'),'基于公开摘要整理') + (' · 英文为摘要节选' if n.get('english_basis')=='abstract excerpt' and n.get('en') else ''));p['intro_source']=n.get('source_url','');p['intro_version']=n['version_id']
         p['tags']=list(dict.fromkeys(p.get('tags',[])+n.get('tags',[])))
     else:

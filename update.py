@@ -27,12 +27,8 @@ def planetary_context(paper, config):
     if 'astro-ph.EP' in paper.get('categories', []):
         return True
     rules=config.get('scope_exclusion_rules',{})
-    title=normalize(paper.get('title',''))
-    abstract=normalize(paper.get('abstract',''))
     for term in rules.get('planetary_context',[]):
-        if contains(title,term):return True
-        word=normalize(term)
-        if len(re.findall(r'(?<!\w)'+re.escape(word)+r'(?:s|es|ies)?(?!\w)',abstract))>=2:return True
+        if is_focus_term(paper,term):return True
     return False
 
 def teacher_author(paper, config):
@@ -47,6 +43,11 @@ def teacher_author(paper, config):
     return False
 
 def is_focus_term(paper, term):
+    if normalize(term)=='mars':
+        raw_title=paper.get('title','')
+        raw_abstract=paper.get('abstract','')
+        if re.search(r'(?<!\w)Mars(?!\w)',raw_title):return True
+        return len(re.findall(r'(?<!\w)Mars(?!\w)',raw_abstract))>=2
     title=normalize(paper.get('title',''))
     abstract=normalize(paper.get('abstract',''))
     if contains(title,term):return True

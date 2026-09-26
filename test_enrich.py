@@ -14,6 +14,13 @@ class Enrichment(unittest.TestCase):
   enrich.apply_notes(p,notes);self.assertEqual(p['intro_kind'],'bilingual_editorial')
   p['abstract']='Changed abstract.';enrich.apply_notes(p,notes);self.assertEqual(p['intro_kind'],'abstract_excerpt')
   p['abstract']='An abstract.';p['version_id']='1v2';enrich.apply_notes(p,notes);self.assertEqual(p['intro_kind'],'abstract_excerpt')
+ def test_doi_editorial_override_matches_publisher_abstract(self):
+  p={'id':'exoplanet-bib:42','version_id':'exoplanet-bib:42','doi':'10.1093/mnras/stag1805','title':'Title','abstract':'Publisher abstract.'}
+  n={'doi':'10.1093/mnras/stag1805','version_id':'doi:10.1093/mnras/stag1805','abstract_sha256':enrich.digest(p),'zh':'热木星中文导读','en':'Hot Jupiter guide'}
+  enrich.apply_notes(p,{'doi:10.1093/mnras/stag1805':n})
+  self.assertEqual(p['intro_zh'],'热木星中文导读')
+  p['abstract']='Changed publisher abstract.';enrich.apply_notes(p,{'doi:10.1093/mnras/stag1805':n})
+  self.assertEqual(p['intro_kind'],'abstract_excerpt')
  def test_note_basis_and_source(self):
   p={'id':'1','version_id':'v1','title':'Title','abstract':''}
   n={'version_id':'v1','abstract_sha256':enrich.digest(p),'zh':'标题介绍','en':'','basis':'title only'}

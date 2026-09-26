@@ -170,6 +170,8 @@ def fetch_page(page):
 
 def update(days=1, max_pages=20, now=None):
     config = json.loads((ROOT / 'topics.json').read_text())
+    supplement_path = ROOT / 'exoplanet_metadata_overrides.json'
+    supplements = json.loads(supplement_path.read_text()) if supplement_path.exists() else {}
     path = ROOT / 'exoplanet_records.json'
     old = json.loads(path.read_text()) if path.exists() else {'papers': [], 'sources': {}}
     source = old.get('sources', {}).get('exoplanet.eu', {})
@@ -220,6 +222,13 @@ def update(days=1, max_pages=20, now=None):
         path.write_text(json.dumps({**old, 'generated_at': stamp}, ensure_ascii=False, indent=2) + '\n')
         return True
     old.setdefault('sources', {})['exoplanet.eu'] = source
+    for paper in records.values():
+        doi = (paper.get('doi') or '').lower().strip()
+        supplement = supplements.get(doi) or supplements.get('doi:' + doi)
+        if supplement and supplement.get('abstract'):
+            paper['abstract'] = supplement['abstract']
+            paper['abstract_source'] = supplement.get('source_url', '')
+            paper['metadata_limited'] = False
     old.update(generated_at=stamp, papers=sorted(records.values(), key=lambda p: p.get('first_seen', ''), reverse=True))
     path.write_text(json.dumps(old, ensure_ascii=False, indent=2) + '\n')
     print('Exoplanet.eu', fresh, 'recent entries;', retained, 'relevant additions from', pages, 'pages', flush=True)
