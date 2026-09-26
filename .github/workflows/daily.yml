@@ -31,12 +31,16 @@ jobs:
         id: fetch
         if: github.event_name != 'push'
         continue-on-error: true
-        run: python update.py --days 7
+        run: python update.py --days 1
+      - name: Update Exoplanet.eu bibliography
+        id: exoplanet
+        continue-on-error: true
+        run: python update_exoplanet.py --days 1
       - name: Update journal metadata
         id: journals
         if: github.event_name != 'push'
         continue-on-error: true
-        run: python update_journals.py --days 14
+        run: python update_journals.py --days 1
       - name: Enrich introductions, affiliations and dates
         run: |
           if [ "${{ github.event_name }}" = "push" ]; then
@@ -53,6 +57,7 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add papers.json affiliations.json dates.json journal_records.json catalog.json network.json
+          if [ -f exoplanet_records.json ]; then git add exoplanet_records.json; fi
           if [ -f author_names.json ]; then git add author_names.json; fi
           if ! git diff --cached --quiet; then
             git commit -m 'Update literature records'
@@ -70,7 +75,7 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
       - name: Report source failures after publishing status
-        if: steps.fetch.outcome == 'failure' || steps.journals.outcome == 'failure'
+        if: steps.fetch.outcome == 'failure' || steps.journals.outcome == 'failure' || steps.exoplanet.outcome == 'failure'
         run: |
           echo 'One or more sources failed. Website published with accurate source status; next run will retry.'
           exit 1
