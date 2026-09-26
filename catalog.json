@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T01:36:23.672687+00:00",
+  "generated_at": "2026-09-26T05:42:17.738562+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
@@ -810,6 +810,67 @@
       ]
     },
     {
+      "id": "orbital",
+      "name": "行星轨道动力学",
+      "name_en": "Planetary orbital dynamics",
+      "terms": [
+        "orbital dynamics",
+        "orbital resonance",
+        "mean motion resonance",
+        "secular resonance",
+        "orbital migration",
+        "planetary migration",
+        "orbital stability",
+        "planetary system stability",
+        "planetary system dynamics",
+        "planet-planet scattering",
+        "resonant chain",
+        "orbital architecture",
+        "orbital evolution",
+        "celestial mechanics",
+        "n-body",
+        "transit timing variations",
+        "apsidal precession",
+        "spin-orbit resonance",
+        "tidal orbital evolution",
+        "orbital forcing",
+        "milankovitch cycle",
+        "milankovitch cycles",
+        "milankovitch forcing"
+      ],
+      "required_context_groups": [
+        [
+          "planet",
+          "planetary",
+          "exoplanet",
+          "exoplanetary",
+          "planetary system",
+          "solar system",
+          "terrestrial planet",
+          "hot jupiter",
+          "sub neptune",
+          "mars",
+          "martian",
+          "venus",
+          "jupiter",
+          "jovian",
+          "saturn",
+          "uranus",
+          "neptune",
+          "titan",
+          "europa",
+          "enceladus",
+          "pluto",
+          "asteroid",
+          "hilda asteroid",
+          "main belt",
+          "kuiper belt",
+          "transiting planet",
+          "earth"
+        ]
+      ]
+    },
+    {
       "id": "evolution",
       "name": "行星内部与演化",
       "name_en": "Planetary interiors & evolution",
@@ -1190,10 +1251,16 @@
       "source": "arXiv",
       "first_seen": "2026-09-26T01:23:05.202209+00:00",
       "version_changed": false,
-      "topics": [],
-      "matches": {},
-      "status": "unmatched",
-      "reason": "行星科学拓展阅读",
+      "topics": [
+        "orbital"
+      ],
+      "matches": {
+        "orbital": [
+          "mean motion resonance"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：mean motion resonance",
       "tags": [
         "反演与数值方法 · Inverse & numerical methods"
       ],
@@ -1878,8 +1945,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-24",
       "publication_date_source": "https://arxiv.org/abs/2609.29783v1",
-      "version_date": "2026-09-24T13:24:25+00:00",
       "doi": "10.1051/0004-6361/202556746",
+      "version_date": "2026-09-24T13:24:25+00:00",
       "variants": [
         {
           "id": "2609.29783",
@@ -2069,16 +2136,21 @@
       "first_seen": "2026-09-26T01:23:05.202209+00:00",
       "version_changed": false,
       "topics": [
-        "detection"
+        "detection",
+        "orbital"
       ],
       "matches": {
         "detection": [
           "transit timing",
           "radial velocity"
+        ],
+        "orbital": [
+          "n-body",
+          "transit timing variations"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：transit timing、radial velocity",
+      "reason": "关联线索：transit timing、radial velocity、n-body、transit timing variations",
       "tags": [
         "反演与数值方法 · Inverse & numerical methods"
       ],
@@ -3086,8 +3158,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-24",
       "publication_date_source": "https://arxiv.org/abs/2609.29094v1",
-      "version_date": "2026-09-24T06:23:08+00:00",
       "doi": "10.3389/fenvs.2022.1020137",
+      "version_date": "2026-09-24T06:23:08+00:00",
       "variants": [
         {
           "id": "2609.29094",
@@ -4387,8 +4459,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-02-17",
       "publication_date_source": "https://arxiv.org/abs/2602.15611v2",
-      "version_date": "2026-09-24T15:32:46+00:00",
       "doi": "10.1103/rqcf-mv2r",
+      "version_date": "2026-09-24T15:32:46+00:00",
       "variants": [
         {
           "id": "2602.15611",
@@ -5048,8 +5120,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2025-07-12",
       "publication_date_source": "https://arxiv.org/abs/2507.09211v3",
-      "version_date": "2026-09-24T15:33:14+00:00",
       "doi": "10.1029/2026EF008861",
+      "version_date": "2026-09-24T15:33:14+00:00",
       "variants": [
         {
           "id": "2507.09211",
@@ -5521,8 +5593,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2025-11-04",
       "publication_date_source": "https://arxiv.org/abs/2511.02737v2",
-      "version_date": "2026-09-24T16:54:06+00:00",
       "doi": "10.1109/TGRS.2026.3716672",
+      "version_date": "2026-09-24T16:54:06+00:00",
       "variants": [
         {
           "id": "2511.02737",
@@ -7226,18 +7298,23 @@
       "version_changed": false,
       "topics": [
         "detection",
+        "orbital",
         "evolution"
       ],
       "matches": {
         "detection": [
           "transit timing"
         ],
+        "orbital": [
+          "orbital evolution",
+          "transit timing variations"
+        ],
         "evolution": [
           "orbital evolution"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：transit timing、orbital evolution",
+      "reason": "关联线索：transit timing、orbital evolution、transit timing variations",
       "method": "keyword",
       "institutions": [
         "Earth and Planets Laboratory, Carnegie Institution for Science, 5241 Broad Branch Road, NW, Washington, DC 20015, USA",
@@ -7747,10 +7824,17 @@
       "source": "arXiv",
       "first_seen": "2026-09-24T08:51:14.614730+00:00",
       "version_changed": false,
-      "topics": [],
-      "matches": {},
-      "status": "unmatched",
-      "reason": "行星科学拓展阅读",
+      "topics": [
+        "orbital"
+      ],
+      "matches": {
+        "orbital": [
+          "resonant chain",
+          "n-body"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：resonant chain、n-body",
       "method": "keyword",
       "institutions": [
         "Universidad Autonóma de Nuevo León, Facultad de Ingeniería Mecánica y Eléctrica, San Nicolás de los Garza, 66451, NL, México",
@@ -10297,10 +10381,16 @@
       "source": "arXiv",
       "first_seen": "2026-09-24T08:51:14.614730+00:00",
       "version_changed": true,
-      "topics": [],
-      "matches": {},
-      "status": "unmatched",
-      "reason": "行星科学拓展阅读",
+      "topics": [
+        "orbital"
+      ],
+      "matches": {
+        "orbital": [
+          "n-body"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：n-body",
       "method": "keyword",
       "institutions": [
         "Knowledgeum Academy, Bengaluru, 560070, Karnataka, India",
@@ -25868,10 +25958,16 @@
       "publication_dates": {
         "published-online": "2026-09-22"
       },
-      "topics": [],
-      "matches": {},
-      "status": "unmatched",
-      "reason": "拓展阅读",
+      "topics": [
+        "orbital"
+      ],
+      "matches": {
+        "orbital": [
+          "orbital forcing"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：orbital forcing",
       "tags": [
         "水循环 · Water cycle",
         "反演与数值方法 · Inverse & numerical methods"
@@ -35063,15 +35159,19 @@
         "published-print": "2026-09-20"
       },
       "topics": [
-        "detection"
+        "detection",
+        "orbital"
       ],
       "matches": {
         "detection": [
           "radial velocity"
+        ],
+        "orbital": [
+          "orbital architecture"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：radial velocity",
+      "reason": "关联线索：radial velocity、orbital architecture",
       "tags": [],
       "method": "keyword",
       "intro_zh": "联合径向速度与 Hipparcos–Gaia 天体测量研究凌日内行星和外侧巨行星的轨道结构，通过层级贝叶斯推断检验总体共面程度。",
@@ -111666,6 +111766,7 @@
         "physics",
         "dynamics",
         "climate",
+        "orbital",
         "cryosphere"
       ],
       "matches": {
@@ -111679,12 +111780,15 @@
         "climate": [
           "intertropical convergence zone"
         ],
+        "orbital": [
+          "orbital forcing"
+        ],
         "cryosphere": [
           "ice sheet"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：radiative cooling、hadley、atmospheric circulation、intertropical convergence zone、ice sheet",
+      "reason": "关联线索：radiative cooling、hadley、atmospheric circulation、intertropical convergence zone、orbital forcing、ice sheet",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "环流与波动 · Circulation & waves",
@@ -133593,9 +133697,13 @@
         "published-print": "2026-08-10"
       },
       "topics": [
+        "orbital",
         "evolution"
       ],
       "matches": {
+        "orbital": [
+          "orbital evolution"
+        ],
         "evolution": [
           "orbital evolution"
         ]
@@ -134987,7 +135095,8 @@
       },
       "topics": [
         "planetary",
-        "detection"
+        "detection",
+        "orbital"
       ],
       "matches": {
         "planetary": [
@@ -134995,10 +135104,13 @@
         ],
         "detection": [
           "exomoon"
+        ],
+        "orbital": [
+          "n-body"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：habitable zone、exomoon",
+      "reason": "关联线索：habitable zone、exomoon、n-body",
       "tags": [
         "宜居性 · Habitability"
       ],
@@ -140245,9 +140357,13 @@
         "published-print": "2026-09-10"
       },
       "topics": [
+        "orbital",
         "evolution"
       ],
       "matches": {
+        "orbital": [
+          "orbital evolution"
+        ],
         "evolution": [
           "magma ocean",
           "mantle",
@@ -140255,7 +140371,7 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：magma ocean、mantle、orbital evolution",
+      "reason": "关联线索：orbital evolution、magma ocean、mantle",
       "tags": [
         "岩浆与挥发分 · Magma & volatiles"
       ],
@@ -142830,15 +142946,19 @@
         "published-print": "2026-08-20"
       },
       "topics": [
-        "detection"
+        "detection",
+        "orbital"
       ],
       "matches": {
         "detection": [
           "radial velocity"
+        ],
+        "orbital": [
+          "planet-planet scattering"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：radial velocity",
+      "reason": "关联线索：radial velocity、planet-planet scattering",
       "tags": [],
       "method": "keyword",
       "intro_en": "Abstract Warm Jupiters—giant planets with orbital periods of ∼10–365 days—exhibit a positive correlation between mass and eccentricity. We interpret this trend as the outcome of planet–planet scattering, representing a transition from collision-dominated interactions among low-mass planets to ejection-dominated interactions among high-mass planets.",
@@ -142926,15 +143046,20 @@
         "published-print": "2026-08-20"
       },
       "topics": [
+        "orbital",
         "evolution"
       ],
       "matches": {
+        "orbital": [
+          "orbital evolution",
+          "apsidal precession"
+        ],
         "evolution": [
           "orbital evolution"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：orbital evolution",
+      "reason": "关联线索：orbital evolution、apsidal precession",
       "tags": [],
       "method": "keyword",
       "intro_en": "Abstract Hierarchical triples are promising environments for producing exotica such as black hole mergers and hot Jupiters, because of the von Zeipel–Lidov–Kozai (ZLK) effect, whereby a distant tertiary can torque an inner binary to high eccentricity over secular timescales. In the double-averaged (DA) approximation to ZLK, this eccentricity excitation is suppressed by apsidal precession due to “short-range forces” (SRFs) like relativity and tidal/rotational bulges.",
