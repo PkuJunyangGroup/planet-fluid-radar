@@ -11,9 +11,10 @@
   const number = value => Number.isSafeInteger(Number(value)) && Number(value) >= 0
     ? Number(value).toLocaleString('zh-CN') : '—';
 
-  fetch(`${endpoint}/visit`, { method: 'POST', mode: 'cors', cache: 'no-store', credentials: 'omit' })
-    .then(response => { if (!response.ok) throw Error('Statistics unavailable'); return response.json(); })
-    .then(data => {
+  const request = fetch(`${endpoint}/visit`, { method: 'POST', mode: 'cors', cache: 'no-store', credentials: 'omit' })
+    .then(response => { if (!response.ok) throw Error('Statistics unavailable'); return response.json(); });
+  window.PLANET_FLUID_STATS_PROMISE = request;
+  request.then(data => {
       const summary = document.createElement('summary');
       summary.textContent = `访问统计 · 今日 ${number(data.today_views)} · 累计 ${number(data.total_views)}`;
       const detail = document.createElement('div');
@@ -29,7 +30,10 @@
       const policy = document.createElement('a');
       policy.href = 'sources.html#visitor-privacy';
       policy.textContent = '统计方式与隐私说明';
-      detail.append(own, unique, recent, policy);
+      const map = document.createElement('a');
+      map.href = 'visitors.html';
+      map.textContent = '查看访客地图';
+      detail.append(own, unique, recent, map, document.createTextNode(' · '), policy);
       box.replaceChildren(summary, detail);
       box.hidden = false;
     })

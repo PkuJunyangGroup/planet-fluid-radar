@@ -100,7 +100,7 @@ python3 build_network.py
 
 ## 访问统计
 
-页脚预留低调的访问统计：今日访问次数、今日按 IP 估算的独立访客、累计访问次数与近期国家分布。展开后只向当前访客显示其自己的 IP 和大致地区。GitHub Pages 无法保存请求日志，因此统计接口由独立的 Cloudflare Worker 和 D1 数据库提供；部署方式见 [visitor-stats/README.md](visitor-stats/README.md)。在 `stats-config.js` 填入已部署接口地址后，三个页面会自动启用统计。原始 IP 由每日任务定期删除，按日期及国家汇总的数字不含 IP；具体说明见网站“文献来源”页的访问统计与隐私段落。
+页脚预留低调的访问统计：今日访问次数、今日按 IP 估算的独立访客、累计访问次数与近期国家分布。页脚的“访客地图”进入 `visitors.html`，按国家或地区展示近 30 天的汇总访问量和访客日数，不公开个人位置。展开页脚统计后只向当前访客显示其自己的 IP 和大致地区。GitHub Pages 无法保存请求日志，因此统计接口由独立的 Cloudflare Worker 和 D1 数据库提供；部署方式见 [visitor-stats/README.md](visitor-stats/README.md)。在 `stats-config.js` 填入已部署接口地址后，四个页面会自动启用统计。原始 IP 由每日任务定期删除，按日期及国家汇总的数字不含 IP；具体说明见网站“文献来源”页的访问统计与隐私段落。
 
 
 ## 收录范围（2026-09-26 更新）
