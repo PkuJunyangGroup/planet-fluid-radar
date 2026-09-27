@@ -43,6 +43,10 @@ test('counts page views and distinct IPs; only returns the current visitor addre
   assert.equal(body.today_views, 3);
   assert.equal(body.today_visitors, 2);
   assert.equal(body.total_views, 3);
+  assert.deepEqual(body.country_totals, [
+    { country: 'CN', views: 2, visitor_days: 1 },
+    { country: 'US', views: 1, visitor_days: 1 },
+  ]);
   assert.equal(body.you.ip, '2001:db8::1');
   assert.equal(JSON.stringify(body).includes('192.0.2.10'), false);
   assert.equal(sqlite.prepare('SELECT COUNT(*) AS n FROM visits').get().n, 2);
