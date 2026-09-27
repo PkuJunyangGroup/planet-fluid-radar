@@ -69,3 +69,15 @@ footer{flex-wrap:wrap;gap:12px}.graph-detail h2{overflow-wrap:anywhere}
   #research-tags button { min-height: 48px; padding: 8px 10px; }
   #research-tags button>span:last-child { min-width: 25px; }
 }
+
+/* Quiet footer counter; private address details remain collapsed by default. */
+.visitor-privacy-link{color:var(--muted);white-space:nowrap}
+.visitor-stats{margin-left:auto;max-width:100%;font-size:10px;color:var(--muted)}
+.visitor-stats[hidden]{display:none}
+.visitor-stats summary{cursor:pointer;white-space:nowrap;list-style:none}
+.visitor-stats summary::-webkit-details-marker{display:none}
+.visitor-stats summary::before{content:'◌';margin-right:6px;color:#8a98a5}
+.visitor-stats[open]{flex-basis:100%;margin-top:4px}
+.visitor-stats-detail{padding:9px 0 0;line-height:1.6}
+.visitor-stats-detail p{margin:3px 0;overflow-wrap:anywhere}
+.visitor-stats-detail a{color:var(--accent)}
