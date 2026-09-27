@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T08:45:58.136263+00:00",
+  "generated_at": "2026-09-27T01:28:23.456977+00:00",
   "nodes": [
     {
       "id": "96fbf2c8229a4de9",
@@ -945,6 +945,7 @@
         "2609.28166",
         "doi:10.1029/2025je009008",
         "doi:10.1029/2025je009242",
+        "doi:10.1029/2026je009891",
         "doi:10.1126/science.aea9708",
         "doi:10.3847/1538-4357/ae8ae3",
         "doi:10.3847/2041-8213/ae9b0a",
@@ -1107,6 +1108,28 @@
             "doi:10.3847/2041-8213/ae9b0a"
           ],
           "unit_papers": {}
+        },
+        {
+          "id": "2943f5691b19a9df",
+          "name": "Todd C. Hufnagel",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "doi:10.1029/2026je009891"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "cf396b1f56585813",
+          "name": "June K. Wicks",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "doi:10.1029/2026je009891"
+          ],
+          "unit_papers": {}
         }
       ],
       "units": [
@@ -1136,6 +1159,8 @@
         }
       ],
       "raw": [
+        "Department of Earth and Planetary Sciences Johns Hopkins University Baltimore MD USA",
+        "Department of Materials Science and Engineering Johns Hopkins University Baltimore MD USA",
         "Department of Physics & Astronomy, Johns Hopkins University, Baltimore, MD, USA.",
         "Department of Physics and Astronomy, Johns Hopkins University, Baltimore, MD, USA",
         "Johns Hopkins University",
@@ -14845,6 +14870,22 @@
       "institutions": [
         "3afb6cc453e0a8d9",
         "5c85faa51cc57a24"
+      ]
+    },
+    "doi:10.1029/2026je009891": {
+      "id": "doi:10.1029/2026je009891",
+      "title": "Phase Stability of Fe–Si Alloy at Super‐Earth Core Conditions",
+      "url": "https://doi.org/10.1029/2026je009891",
+      "topics": [
+        "evolution"
+      ],
+      "first_seen": "2026-09-27T01:26:11.248150+00:00",
+      "publication_date": "2026-09",
+      "journals": [
+        "Journal of Geophysical Research: Planets"
+      ],
+      "institutions": [
+        "c952a08fdb0ff916"
       ]
     },
     "exoplanet-bib:33128": {
@@ -28630,6 +28671,115 @@
       ],
       "aliases": [
         "Lei Li"
+      ]
+    },
+    {
+      "id": "67e900723c4340a4",
+      "name": "Vinay Rastogi",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0002-3988-6908",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.1029/2026je009891"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Vinay Rastogi"
+      ]
+    },
+    {
+      "id": "3cb64c7162d9a2ee",
+      "name": "Raymond F. Smith",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": null,
+      "identity_basis": "paper_signature",
+      "papers": [
+        "doi:10.1029/2026je009891"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Raymond F. Smith"
+      ]
+    },
+    {
+      "id": "ea1e5ae6a1734608",
+      "name": "Melissa Sims",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": null,
+      "identity_basis": "paper_signature",
+      "papers": [
+        "doi:10.1029/2026je009891"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Melissa Sims"
+      ]
+    },
+    {
+      "id": "243aa64eb30fb06c",
+      "name": "Martin G. Gorman",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": null,
+      "identity_basis": "paper_signature",
+      "papers": [
+        "doi:10.1029/2026je009891"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Martin G. Gorman"
+      ]
+    },
+    {
+      "id": "a4c4805d0bed1613",
+      "name": "Marius Millot",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0003-4414-3532",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.1029/2026je009891"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Marius Millot"
+      ]
+    },
+    {
+      "id": "2943f5691b19a9df",
+      "name": "Todd C. Hufnagel",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": null,
+      "identity_basis": "name_and_institution",
+      "papers": [
+        "doi:10.1029/2026je009891"
+      ],
+      "institutions": [
+        "c952a08fdb0ff916"
+      ],
+      "aliases": [
+        "Todd C. Hufnagel"
+      ]
+    },
+    {
+      "id": "cf396b1f56585813",
+      "name": "June K. Wicks",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": null,
+      "identity_basis": "name_and_institution",
+      "papers": [
+        "doi:10.1029/2026je009891"
+      ],
+      "institutions": [
+        "c952a08fdb0ff916"
+      ],
+      "aliases": [
+        "June K. Wicks"
       ]
     },
     {
