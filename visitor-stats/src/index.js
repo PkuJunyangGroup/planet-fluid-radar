@@ -32,7 +32,7 @@ async function summary(db, day) {
   const [today, total, countries] = await Promise.all([
     db.prepare('SELECT views, visitors FROM daily_totals WHERE day = ?').bind(day).first(),
     db.prepare('SELECT COALESCE(SUM(views), 0) AS views FROM daily_totals').first(),
-    db.prepare('SELECT country, SUM(views) AS views FROM daily_countries WHERE day >= ? GROUP BY country ORDER BY views DESC, country LIMIT 5')
+    db.prepare('SELECT country, SUM(views) AS views, SUM(visitors) AS visitor_days FROM daily_countries WHERE day >= ? GROUP BY country ORDER BY views DESC, country')
       .bind(beijingDay(new Date(Date.now() - 29 * 86400000))).all(),
   ]);
   return {
@@ -40,7 +40,10 @@ async function summary(db, day) {
     today_views: Number(today?.views || 0),
     today_visitors: Number(today?.visitors || 0),
     total_views: Number(total?.views || 0),
-    recent_countries: (countries.results || []).map(row => ({ country: row.country, views: Number(row.views) })),
+    country_totals: (countries.results || []).map(row => ({
+      country: row.country, views: Number(row.views), visitor_days: Number(row.visitor_days),
+    })),
+    recent_countries: (countries.results || []).slice(0, 5).map(row => ({ country: row.country, views: Number(row.views) })),
   };
 }
 
