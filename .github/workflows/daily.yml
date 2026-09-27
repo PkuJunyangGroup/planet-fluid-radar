@@ -66,7 +66,7 @@ jobs:
       - name: Prepare public files
         run: |
           mkdir -p _site
-          cp index.html app.js style.css favicon.svg catalog.json sources.html sources.js network.html network.js network.json _site/
+          cp index.html app.js style.css favicon.svg catalog.json sources.html sources.js network.html network.js network.json stats-config.js visitor-stats.js _site/
       - uses: actions/configure-pages@v4
       - uses: actions/upload-pages-artifact@v3
         with:
