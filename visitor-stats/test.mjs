@@ -24,11 +24,11 @@ function database() {
   return { sqlite, db };
 }
 
-function visit(ip, country = 'CN', origin = 'https://pkujunyanggroup.github.io') {
+function visit(ip, country = 'CN', origin = 'https://pkujunyanggroup.github.io', location = {}) {
   const request = new Request('https://stats.example.workers.dev/visit', {
     method: 'POST', headers: { Origin: origin, 'CF-Connecting-IP': ip },
   });
-  Object.defineProperty(request, 'cf', { value: { country, region: 'Beijing', city: 'Beijing' } });
+  Object.defineProperty(request, 'cf', { value: { country, region: 'Beijing', city: 'Beijing', ...location } });
   return request;
 }
 
@@ -57,6 +57,31 @@ test('rejects foreign origins and missing visitor addresses', async () => {
   assert.equal((await worker.fetch(visit('192.0.2.1', 'CN', 'https://other.example'), { DB: db })).status, 403);
   assert.equal((await worker.fetch(visit('not-an-ip'), { DB: db })).status, 503);
   assert.equal(sqlite.prepare('SELECT COUNT(*) AS n FROM visits').get().n, 0);
+});
+
+test('shows approximate city totals while merging Taiwan, Hong Kong and Macau into China', async () => {
+  const { sqlite, db } = database();
+  const env = { DB: db };
+  await worker.fetch(visit('192.0.2.1', 'CN', undefined, { city: 'Beijing', latitude: '39.9042', longitude: '116.4074' }), env);
+  await worker.fetch(visit('192.0.2.2', 'TW', undefined, { city: 'Taipei', latitude: '25.033', longitude: '121.565' }), env);
+  const response = await worker.fetch(visit('192.0.2.2', 'TW', undefined, { city: 'Taipei', latitude: '25.033', longitude: '121.565' }), env);
+  await worker.fetch(visit('192.0.2.3', 'HK', undefined, { city: 'Hong Kong', latitude: '22.3', longitude: '114.2' }), env);
+  await worker.fetch(visit('192.0.2.4', 'MO', undefined, { city: '', latitude: '22.2', longitude: '113.5' }), env);
+  const latest = await (await worker.fetch(visit('192.0.2.4', 'MO', undefined, { city: '' }), env)).json();
+  const data = await response.json();
+  assert.deepEqual(latest.country_totals, [{ country: 'CN', views: 6, visitor_days: 4 }]);
+  assert.equal(data.you.country, 'CN');
+  assert.equal(data.you.region, '台湾地区');
+  assert.deepEqual(data.city_totals, [
+    { country: 'CN', region: '台湾地区', city: 'Taipei', latitude: 25, longitude: 121.6, views: 2, visitor_days: 1 },
+    { country: 'CN', region: 'Beijing', city: 'Beijing', latitude: 39.9, longitude: 116.4, views: 1, visitor_days: 1 },
+  ]);
+  assert.deepEqual(latest.city_totals.map(row => [row.region, row.city, row.views]), [
+    ['台湾地区', 'Taipei', 2], ['澳门特别行政区', '澳门', 2],
+    ['Beijing', 'Beijing', 1], ['香港特别行政区', 'Hong Kong', 1],
+  ]);
+  assert.equal(sqlite.prepare("SELECT COUNT(*) AS n FROM visits WHERE country IN ('TW', 'HK', 'MO')").get().n, 0);
+  assert.equal(JSON.stringify(data).includes('192.0.2.1'), false);
 });
 
 test('caps repeated hits and purges raw addresses while preserving aggregates', async () => {
