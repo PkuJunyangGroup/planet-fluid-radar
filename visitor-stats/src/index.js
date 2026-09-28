@@ -21,7 +21,13 @@ function json(body, status = 200, origin = null) {
 }
 
 function locationPart(value, maxLength = 70) {
-  return typeof value === 'string' ? value.replace(/[<>\r\n\t]/g, '').slice(0, maxLength) : '';
+  return typeof value === 'string' ? value.replace(/[<>\r\n\t]/g, '').trim().slice(0, maxLength) : '';
+}
+
+function coordinate(value, limit) {
+  if ((typeof value !== 'string' && typeof value !== 'number') || String(value).trim() === '') return null;
+  const number = Number(value);
+  return Number.isFinite(number) && Math.abs(number) <= limit ? Math.round(number * 10) / 10 : null;
 }
 
 function validIp(ip) {
@@ -29,11 +35,16 @@ function validIp(ip) {
 }
 
 async function summary(db, day) {
-  const [today, total, countries] = await Promise.all([
+  const since = beijingDay(new Date(Date.now() - 29 * 86400000));
+  const countryGroup = "CASE WHEN country IN ('TW', 'HK', 'MO') THEN 'CN' ELSE country END";
+  const regionGroup = "CASE country WHEN 'TW' THEN '台湾地区' WHEN 'HK' THEN '香港特别行政区' WHEN 'MO' THEN '澳门特别行政区' ELSE region END";
+  const [today, total, countries, cities] = await Promise.all([
     db.prepare('SELECT views, visitors FROM daily_totals WHERE day = ?').bind(day).first(),
     db.prepare('SELECT COALESCE(SUM(views), 0) AS views FROM daily_totals').first(),
-    db.prepare('SELECT country, SUM(views) AS views, SUM(visitors) AS visitor_days FROM daily_countries WHERE day >= ? GROUP BY country ORDER BY views DESC, country')
-      .bind(beijingDay(new Date(Date.now() - 29 * 86400000))).all(),
+    db.prepare(`SELECT ${countryGroup} AS country, SUM(views) AS views, SUM(visitors) AS visitor_days FROM daily_countries WHERE day >= ? GROUP BY ${countryGroup} ORDER BY views DESC, country`)
+      .bind(since).all(),
+    db.prepare(`SELECT ${countryGroup} AS country, ${regionGroup} AS region, city, MAX(latitude) AS latitude, MAX(longitude) AS longitude, SUM(views) AS views, SUM(visitors) AS visitor_days FROM daily_cities WHERE day >= ? GROUP BY ${countryGroup}, ${regionGroup}, city ORDER BY views DESC, country, region, city`)
+      .bind(since).all(),
   ]);
   return {
     day,
@@ -42,6 +53,11 @@ async function summary(db, day) {
     total_views: Number(total?.views || 0),
     country_totals: (countries.results || []).map(row => ({
       country: row.country, views: Number(row.views), visitor_days: Number(row.visitor_days),
+    })),
+    city_totals: (cities.results || []).map(row => ({
+      country: row.country, region: row.region, city: row.city,
+      latitude: row.latitude, longitude: row.longitude,
+      views: Number(row.views), visitor_days: Number(row.visitor_days),
     })),
     recent_countries: (countries.results || []).slice(0, 5).map(row => ({ country: row.country, views: Number(row.views) })),
   };
@@ -66,15 +82,19 @@ export default {
     if (!validIp(ip)) return json({ error: 'Visitor address unavailable' }, 503, origin);
 
     const day = beijingDay(new Date());
-    const country = /^[A-Z]{2}$/.test(request.cf?.country || '') ? request.cf.country : 'XX';
-    const region = locationPart(request.cf?.region);
-    const city = locationPart(request.cf?.city);
+    const rawCountry = /^[A-Z]{2}$/.test(request.cf?.country || '') ? request.cf.country : 'XX';
+    const chinaRegion = { TW: '台湾地区', HK: '香港特别行政区', MO: '澳门特别行政区' }[rawCountry];
+    const country = chinaRegion ? 'CN' : rawCountry;
+    const region = chinaRegion || locationPart(request.cf?.region);
+    const city = locationPart(request.cf?.city) || ({ HK: '香港', MO: '澳门' }[rawCountry] || '');
+    const latitude = coordinate(request.cf?.latitude, 90);
+    const longitude = coordinate(request.cf?.longitude, 180);
     try {
-      await env.DB.prepare(`INSERT INTO visits (day, ip, country, region, city, views, last_seen)
-        VALUES (?, ?, ?, ?, ?, 1, ?)
+      await env.DB.prepare(`INSERT INTO visits (day, ip, country, region, city, latitude, longitude, views, last_seen)
+        VALUES (?, ?, ?, ?, ?, ?, ?, 1, ?)
         ON CONFLICT(day, ip) DO UPDATE SET views = visits.views + 1, last_seen = excluded.last_seen
         WHERE visits.views < ?`)
-        .bind(day, ip, country, region, city, new Date().toISOString(), MAX_VIEWS_PER_IP_DAY).run();
+        .bind(day, ip, country, region, city, latitude, longitude, new Date().toISOString(), MAX_VIEWS_PER_IP_DAY).run();
       const stats = await summary(env.DB, day);
       return json({ ...stats, you: { ip, country, region, city } }, 200, origin);
     } catch (_) {
