@@ -33,14 +33,16 @@
     const cities = Array.isArray(data?.city_totals) ? data.city_totals : [];
     const max = Math.max(1, ...rows.map(row => Number(row.views) || 0));
     for (const shape of shapes) {
-      const row = byCountry.get(['TW', 'HK', 'MO'].includes(shape.code) ? 'CN' : shape.code);
+      const aggregateCode = ['TW', 'HK', 'MO'].includes(shape.code) ? 'CN' : shape.code;
+      const row = byCountry.get(aggregateCode);
       const views = Number(row?.views || 0);
       const level = views ? Math.max(1, Math.ceil(4 * Math.log1p(views) / Math.log1p(max))) : 0;
       const path = document.createElementNS(ns, 'path');
       path.setAttribute('d', shape.path);
       path.setAttribute('class', `map-country map-level-${level}`);
       path.setAttribute('tabindex', '0');
-      const label = `${countryName(shape.code)}：${count(views)} 次访问${row ? `，${count(row.visitor_days)} 个访客日` : ''}`;
+      const regionNote = shape.code === 'TW' ? '（台湾地区）' : '';
+      const label = `${countryName(aggregateCode)}${regionNote}：${count(views)} 次访问${row ? `，${count(row.visitor_days)} 个访客日` : ''}`;
       path.setAttribute('aria-label', label);
       const title = document.createElementNS(ns, 'title');
       title.textContent = label;
