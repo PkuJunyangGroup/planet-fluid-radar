@@ -6,7 +6,7 @@
   <meta name="description" content="行星与流体文献雷达的访客地区统计。">
   <title>访客地图 · 行星与流体</title>
   <link rel="icon" href="favicon.svg">
-  <link rel="stylesheet" href="style.css?v=20260928-city-map">
+  <link rel="stylesheet" href="style.css?v=20260928-china-focus">
 </head>
 <body>
   <header>
@@ -17,14 +17,15 @@
     <section class="intro-header">
       <div class="eyebrow">VISITOR GEOGRAPHY</div>
       <h1>访客地图</h1>
-      <p>近 30 天的访问地区概览。地图显示国家汇总和城市级访问标点，不显示个人 IP 或精确位置。</p>
+      <p>近 30 天的访问分布。</p>
     </section>
     <div class="visitor-map-stats" aria-live="polite"><span id="map-total">近 30 天访问 · —</span><span id="map-countries">访问国家 · —</span><span id="map-cities">访问城市 · —</span><span id="map-day">截至 · —</span></div>
     <section class="visitor-map-layout" aria-label="访客地区统计">
       <div class="visitor-map-panel">
         <svg id="visitor-map" viewBox="0 0 900 450" role="img" aria-label="世界地图，国家按近 30 天访问量着色，城市以圆点标记"></svg>
+        <button id="map-reset" class="visitor-map-reset" type="button" hidden>返回世界地图</button>
         <div class="visitor-map-legend"><span>访问量</span><i class="map-level-0"></i><i class="map-level-1"></i><i class="map-level-2"></i><i class="map-level-3"></i><i class="map-level-4"></i><span>较多</span></div>
-        <p id="map-focus" class="visitor-map-focus" aria-live="polite">将指针移至地图中的国家或城市，查看访问量。</p>
+        <p id="map-focus" class="visitor-map-focus" aria-live="polite">点击地图查看访问量。</p>
       </div>
       <aside class="visitor-map-aside">
         <h2>国家汇总</h2>
@@ -34,11 +35,11 @@
         <ol id="visitor-city-list"></ol>
       </aside>
     </section>
-    <p class="visitor-map-note">城市标点按访问 IP 的网络出口粗略定位，不代表个人具体位置；校园网与 VPN 可能使位置偏离实际。中国大陆及台湾、香港、澳门地区计入同一中国汇总，城市仍分别展示。访问量为页面打开次数；“访客日数”按每天不同 IP 合计，同一人跨日可能重复。<a href="sources.html#visitor-privacy">统计方式与隐私说明 ↗</a> · 地图底图来自 <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>（公共领域）。</p>
+    <p class="visitor-map-note">城市位置按网络出口估算，可能与实际位置不同。<a href="sources.html#visitor-privacy">统计与隐私 ↗</a> · 底图：<a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>。</p>
   </main>
   <footer><span>PLANET / FLUID</span><span>访客地区 · 汇总视图</span><a href="mailto:pku_junyang_group@163.com?subject=%E6%96%87%E7%8C%AE%E9%9B%B7%E8%BE%BE%EF%BC%9A%E9%97%AE%E9%A2%98%E5%8F%8D%E9%A6%88%E4%B8%8E%E5%BB%BA%E8%AE%AE" aria-label="给管理员发邮件：pku_junyang_group@163.com">反馈问题 / 提建议 ↗</a><a class="visitor-privacy-link" href="sources.html#visitor-privacy">访问统计说明</a><details class="visitor-stats" data-visitor-stats hidden></details></footer>
   <script src="stats-config.js?v=20260927" defer></script>
-  <script src="visitor-stats.js?v=20260927-map" defer></script>
-  <script src="visitors.js?v=20260928-china" defer></script>
+  <script src="visitor-stats.js?v=20260928-china-focus" defer></script>
+  <script src="visitors.js?v=20260928-china-focus" defer></script>
 </body>
 </html>

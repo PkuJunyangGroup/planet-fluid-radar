@@ -4,17 +4,25 @@
   const cityList = document.querySelector('#visitor-city-list');
   const status = document.querySelector('#map-status');
   const focus = document.querySelector('#map-focus');
-  if (!svg || !list || !cityList || !status || !focus) return;
+  const reset = document.querySelector('#map-reset');
+  if (!svg || !list || !cityList || !status || !focus || !reset) return;
 
   const ns = 'http://www.w3.org/2000/svg';
+  const worldView = svg.getAttribute('viewBox');
   const count = value => Number(value || 0).toLocaleString('zh-CN');
+  const chinaCity = { Taipei: '台北', 'Hong Kong': '香港', Macau: '澳门', Macao: '澳门' };
+  const normalizedCountry = code => ['TW', 'HK', 'MO'].includes(code) ? 'CN' : code;
   const countryName = code => {
     if (code === 'XX') return '未知地区';
     try { return new Intl.DisplayNames(['zh-CN'], { type: 'region' }).of(code) || code; }
     catch (_) { return code; }
   };
   const setText = (selector, value) => { document.querySelector(selector).textContent = value; };
-  const cityLabel = row => [...new Set([countryName(row.country), row.region, row.city].filter(Boolean))].join(' · ');
+  const cityLabel = row => {
+    const code = normalizedCountry(row.country);
+    const city = code === 'CN' ? (chinaCity[row.city] || row.city) : row.city;
+    return [...new Set([countryName(code), code === 'CN' ? '' : row.region, city].filter(Boolean))].join(' · ');
+  };
 
   Promise.all([
     fetch('world-map.json').then(response => { if (!response.ok) throw Error('Map unavailable'); return response.json(); }),
@@ -23,7 +31,7 @@
     const originalRows = Array.isArray(data?.country_totals) ? data.country_totals : [];
     const byCountry = new Map();
     for (const row of originalRows) {
-      const code = ['TW', 'HK', 'MO'].includes(row.country) ? 'CN' : row.country;
+      const code = normalizedCountry(row.country);
       const prior = byCountry.get(code) || { country: code, views: 0, visitor_days: 0 };
       prior.views += Number(row.views || 0);
       prior.visitor_days += Number(row.visitor_days || 0);
@@ -32,23 +40,71 @@
     const rows = [...byCountry.values()].sort((a, b) => b.views - a.views || a.country.localeCompare(b.country));
     const cities = Array.isArray(data?.city_totals) ? data.city_totals : [];
     const max = Math.max(1, ...rows.map(row => Number(row.views) || 0));
+    const countryPaths = new Map();
+    let selectedCountry = null;
+    let hoveredCountry = null;
+    const highlightCountry = () => {
+      const active = hoveredCountry || selectedCountry;
+      for (const [code, paths] of countryPaths) {
+        for (const path of paths) path.classList.toggle('map-active', code === active);
+      }
+    };
+    const showChina = () => {
+      const paths = countryPaths.get('CN') || [];
+      if (!paths.length) return;
+      const boxes = paths.map(path => path.getBBox());
+      const left = Math.min(...boxes.map(box => box.x));
+      const right = Math.max(...boxes.map(box => box.x + box.width));
+      const top = Math.min(...boxes.map(box => box.y));
+      const bottom = Math.max(...boxes.map(box => box.y + box.height));
+      const width = Math.max(right - left + 36, (bottom - top + 28) * 2);
+      const height = width / 2;
+      svg.setAttribute('viewBox', `${(left + right - width) / 2} ${(top + bottom - height) / 2} ${width} ${height}`);
+      reset.hidden = false;
+    };
+    const selectCountry = (code, label) => {
+      selectedCountry = code;
+      hoveredCountry = null;
+      highlightCountry();
+      focus.textContent = label;
+      if (code === 'CN') showChina();
+      else { svg.setAttribute('viewBox', worldView); reset.hidden = true; }
+    };
+    reset.addEventListener('click', () => {
+      selectedCountry = null;
+      hoveredCountry = null;
+      highlightCountry();
+      svg.setAttribute('viewBox', worldView);
+      reset.hidden = true;
+      focus.textContent = '点击地图查看访问量。';
+    });
     for (const shape of shapes) {
-      const aggregateCode = ['TW', 'HK', 'MO'].includes(shape.code) ? 'CN' : shape.code;
+      const aggregateCode = normalizedCountry(shape.code);
       const row = byCountry.get(aggregateCode);
       const views = Number(row?.views || 0);
       const level = views ? Math.max(1, Math.ceil(4 * Math.log1p(views) / Math.log1p(max))) : 0;
       const path = document.createElementNS(ns, 'path');
       path.setAttribute('d', shape.path);
       path.setAttribute('class', `map-country map-level-${level}`);
+      path.dataset.country = aggregateCode;
+      path.dataset.region = shape.code;
       path.setAttribute('tabindex', '0');
-      const regionNote = shape.code === 'TW' ? '（台湾地区）' : '';
-      const label = `${countryName(aggregateCode)}${regionNote}：${count(views)} 次访问${row ? `，${count(row.visitor_days)} 个访客日` : ''}`;
+      const label = `${countryName(aggregateCode)}：${count(views)} 次访问${row ? `，${count(row.visitor_days)} 个访客日` : ''}`;
       path.setAttribute('aria-label', label);
       const title = document.createElementNS(ns, 'title');
       title.textContent = label;
       path.append(title);
-      path.addEventListener('mouseenter', () => { focus.textContent = label; });
-      path.addEventListener('focus', () => { focus.textContent = label; });
+      const paths = countryPaths.get(aggregateCode) || [];
+      paths.push(path);
+      countryPaths.set(aggregateCode, paths);
+      path.addEventListener('mouseenter', () => { hoveredCountry = aggregateCode; highlightCountry(); focus.textContent = label; });
+      path.addEventListener('mouseleave', () => { hoveredCountry = null; highlightCountry(); });
+      path.addEventListener('focus', () => { hoveredCountry = aggregateCode; highlightCountry(); focus.textContent = label; });
+      path.addEventListener('blur', () => { hoveredCountry = null; highlightCountry(); });
+      path.addEventListener('click', () => { selectCountry(aggregateCode, label); });
+      path.addEventListener('keydown', event => {
+        if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); selectCountry(aggregateCode, label); }
+      });
       svg.append(path);
     }
     for (const row of cities) {
@@ -70,6 +126,10 @@
       marker.append(title);
       marker.addEventListener('mouseenter', () => { focus.textContent = label; });
       marker.addEventListener('focus', () => { focus.textContent = label; });
+      marker.addEventListener('click', () => { selectCountry(normalizedCountry(row.country), label); });
+      marker.addEventListener('keydown', event => {
+        if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); selectCountry(normalizedCountry(row.country), label); }
+      });
       svg.append(marker);
     }
     if (!data) {
