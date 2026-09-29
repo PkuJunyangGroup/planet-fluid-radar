@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T02:44:14.032318+00:00",
+  "generated_at": "2026-09-29T02:53:08.794656+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
@@ -260,8 +260,8 @@
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-09-29T10:40:42.259841+08:00",
-      "last_success": "2026-09-29T10:40:42.259841+08:00",
+      "last_attempt": "2026-09-29T10:52:42.290097+08:00",
+      "last_success": "2026-09-29T10:52:42.290097+08:00",
       "coverage_since": "2026-09-25",
       "pages_checked": 1,
       "fetched": 0,
@@ -20568,10 +20568,12 @@
         "行星轨道与演化",
         "系外行星观测表征"
       ],
-      "intro_en": "Abstract With the operation of JWST, atmospheric characterization has now extended to low-mass exoplanets. In compact multiplanetary systems, secular spin-orbital resonance may preserve high obliquities and asynchronous rotation even for tidally despinning, low-mass planets, potentially leading to unique atmospheric circulation patterns.",
-      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
-      "intro_kind": "abstract_excerpt",
-      "intro_basis": "英文摘要节选",
+      "intro_zh": "研究以可能具有高倾角的迷你海王星 K2-290 b 为例，模拟同步与非同步自转下的三维大气环流。行星总体处于水平温差较弱的状态；非同步自转时，高倾角引发季节循环及由波—平均流相互作用驱动的准周期振荡。模型预测其热辐射和透射光谱信号约为 100 ppm，其中高倾角造成的差异约为 10 ppm。",
+      "intro_en": "Three-dimensional simulations of K2-290 b find weak horizontal temperature gradients, while high obliquity and nonsynchronous rotation create seasonal and wave-driven circulation changes with potentially detectable spectral signatures.",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "intro_source": "https://doi.org/10.3847/1538-4357/ae3d35",
+      "intro_version": "doi:10.3847/1538-4357/ae3d35",
       "variants": [
         {
           "id": "doi:10.3847/1538-4357/ae3d35",
@@ -20708,10 +20710,12 @@
         "行星大气与辐射",
         "系外行星观测表征"
       ],
-      "intro_en": "Abstract Thermal emission spectra provide key insights into the atmospheric composition and especially the temperature structure of an exoplanet. With broader wavelength coverage, sensitivity, and higher resolution, JWST has enabled robust constraints on these properties, including detections of photochemical products.",
-      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
-      "intro_kind": "abstract_excerpt",
-      "intro_basis": "英文摘要节选",
+      "intro_zh": "研究提出面向系外行星热发射光谱的 NEXOTRANS 反演模块，结合辐射传输、贝叶斯与机器学习方法，并纳入近似非平衡化学。将其用于 JWST 对 WASP-69 b 的近红外和中红外观测后，作者约束了水、二氧化碳等分子的丰度，并报告二氧化硫可能在 7–8 微米附近留下吸收特征；结果显示非均匀气溶胶覆盖会影响最佳拟合。",
+      "intro_en": "NEXOTRANS combines radiative transfer, statistical retrieval and approximate disequilibrium chemistry to interpret JWST emission spectra of WASP-69 b, constraining several molecules and suggesting possible sulfur dioxide absorption.",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "intro_source": "https://doi.org/10.3847/1538-4357/ae1cc5",
+      "intro_version": "doi:10.3847/1538-4357/ae1cc5",
       "variants": [
         {
           "id": "doi:10.3847/1538-4357/ae1cc5",
@@ -20849,10 +20853,12 @@
       "fit_matches": [
         "行星气候与模式"
       ],
-      "intro_en": "Abstract Past work has shown that ocean salinity and planetary obliquity both influence the climates of Earth-like exoplanets throughout the habitable zone of Sun-like stars. The effects of salinity and obliquity can be profound, with low versus high salinity or obliquity resulting in distinct climate states in some scenarios.",
-      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
-      "intro_kind": "abstract_excerpt",
-      "intro_basis": "英文摘要节选",
+      "intro_zh": "研究用 ROCKE-3D 耦合海洋—大气环流模式，考察海水盐度与行星倾角如何共同改变寒冷类地系外行星的气候。两者通过冰—反照率反馈产生强于各自效应相加的作用；在相同初始大气与恒星辐照下，模拟可出现从无冰到全球冰封的不同状态，并改变海洋及陆地的宜居面积。",
+      "intro_en": "Coupled ocean–atmosphere simulations show that ocean salinity and planetary obliquity reinforce each other through ice–albedo feedback, producing sharply different climates and habitability outcomes under otherwise identical conditions.",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "intro_source": "https://doi.org/10.3847/1538-4357/ae63b8",
+      "intro_version": "doi:10.3847/1538-4357/ae63b8",
       "variants": [
         {
           "id": "doi:10.3847/1538-4357/ae63b8",
