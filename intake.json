@@ -1,10 +1,26 @@
 {
-  "approved": [],
-  "kinds": {},
+  "approved": [
+    "doi:10.3847/1538-4357/ae1cc5",
+    "doi:10.3847/1538-4357/ae3d35",
+    "doi:10.3847/1538-4357/ae63b8"
+  ],
+  "kinds": {
+    "doi:10.3847/1538-4357/ae3d35": "one_year_fallback",
+    "doi:10.3847/1538-4357/ae1cc5": "one_year_fallback",
+    "doi:10.3847/1538-4357/ae63b8": "one_year_fallback"
+  },
   "policy": {
     "recent_days": 2,
     "fallback_days": 365,
     "min_fallback_score": 65,
     "max_fallback": 3
-  }
+  },
+  "last_run": "2026-09-29",
+  "mode": "one_year_fallback",
+  "selected": [
+    "doi:10.3847/1538-4357/ae3d35",
+    "doi:10.3847/1538-4357/ae1cc5",
+    "doi:10.3847/1538-4357/ae63b8"
+  ],
+  "search_errors": []
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T02:35:57.955908+00:00",
+  "generated_at": "2026-09-29T02:44:14.032318+00:00",
   "nodes": [
     {
       "id": "96fbf2c8229a4de9",
@@ -6105,6 +6105,7 @@
         "doi:10.1177/15311074261477497",
         "doi:10.1177/15311074261484811",
         "doi:10.1177/15311074261485884",
+        "doi:10.3847/1538-4357/ae63b8",
         "doi:10.3847/2041-8213/ae9305"
       ],
       "authors": [
@@ -6796,6 +6797,39 @@
               "doi:10.1029/2025je009457"
             ]
           }
+        },
+        {
+          "id": "a16a69ba5962093a",
+          "name": "Kyle Batra",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0003-2090-4958",
+          "papers": [
+            "doi:10.3847/1538-4357/ae63b8"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "7cdee9f41b652f3c",
+          "name": "Stephanie Olson",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-3249-6739",
+          "papers": [
+            "doi:10.3847/1538-4357/ae63b8"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "ed2f3f45210e289f",
+          "name": "Edward W. Schwieterman",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-2949-2163",
+          "papers": [
+            "doi:10.3847/1538-4357/ae63b8"
+          ],
+          "unit_papers": {}
         }
       ],
       "units": [
@@ -6869,6 +6903,7 @@
         }
       ],
       "raw": [
+        "Alternative Earths NASA ICAR Team",
         "Amentum, Astromaterials Research and Exploration Science Division, NASA Johnson Space Center, Houston, TX, USA.",
         "Amentum, NASA Johnson Space Center, Houston, Texas, USA.",
         "Center for Isotope Cosmochemistry and Geochronology Astromaterials Research and Exploration Science NASA Johnson Space Center Houston TX USA",
@@ -6885,6 +6920,7 @@
         "NASA Jet Propulsion Laboratory California Institute of Technology Altadena CA USA",
         "NASA Jet Propulsion Laboratory California Institute of Technology Pasadena CA USA",
         "NASA NExSS Virtual Planetary Laboratory, University of Washington, Seattle, Washington, USA.",
+        "NASA Network for Ocean Worlds Exo-oceanography Team",
         "Planetary Systems Branch, Space Science Division, NASA Ames Research Center, Moffett Field, California, USA.",
         "Texas State University Amentum JETSII Contract at NASA Johnson Space Center Houston TX USA",
         "Texas State University, Astromaterials Research and Exploration Science Division, NASA Johnson Space Center, Houston, TX, USA."
@@ -8528,6 +8564,7 @@
       "name_zh": "蓝色弹珠空间科学研究所",
       "papers": [
         "doi:10.1029/2026je009730",
+        "doi:10.3847/1538-4357/ae63b8",
         "doi:10.3847/1538-4357/ae89b5"
       ],
       "authors": [
@@ -8549,6 +8586,7 @@
           "name_source": null,
           "orcid": "https://orcid.org/0000-0002-2949-2163",
           "papers": [
+            "doi:10.3847/1538-4357/ae63b8",
             "doi:10.3847/1538-4357/ae89b5"
           ],
           "unit_papers": {}
@@ -12835,6 +12873,14 @@
         "doi:10.1029/2025je009573"
       ],
       "weight": 1
+    },
+    {
+      "source": "017ead064adca5f2",
+      "target": "78740f94739b5583",
+      "papers": [
+        "doi:10.3847/1538-4357/ae63b8"
+      ],
+      "weight": 1
     }
   ],
   "papers": {
@@ -14969,6 +15015,57 @@
         "6f4241a7694672b8"
       ]
     },
+    "doi:10.3847/1538-4357/ae3d35": {
+      "id": "doi:10.3847/1538-4357/ae3d35",
+      "title": "Atmospheric Circulation of High-obliquity Mini-Neptunes",
+      "url": "https://doi.org/10.3847/1538-4357/ae3d35",
+      "topics": [
+        "detection",
+        "orbital"
+      ],
+      "first_seen": "2026-09-29T02:43:35.182381+00:00",
+      "publication_date": "2026-02-23",
+      "journals": [
+        "The Astrophysical Journal"
+      ],
+      "institutions": []
+    },
+    "doi:10.3847/1538-4357/ae1cc5": {
+      "id": "doi:10.3847/1538-4357/ae1cc5",
+      "title": "A Next-generation Exoplanet Atmospheric Retrieval Framework NEXOTRANS for Emission Spectroscopy: New Constraints and Atmospheric Characterization of WASP-69 b Using JWST NIRCam and MIRI Observations",
+      "url": "https://doi.org/10.3847/1538-4357/ae1cc5",
+      "topics": [
+        "planetary",
+        "chemistry",
+        "models"
+      ],
+      "first_seen": "2026-09-29T02:43:35.182381+00:00",
+      "publication_date": "2026-01-05",
+      "journals": [
+        "The Astrophysical Journal"
+      ],
+      "institutions": []
+    },
+    "doi:10.3847/1538-4357/ae63b8": {
+      "id": "doi:10.3847/1538-4357/ae63b8",
+      "title": "Synergistic Effects of Ocean Salinity and Planetary Obliquity Enhance Habitability of Cold Exo-Earths",
+      "url": "https://doi.org/10.3847/1538-4357/ae63b8",
+      "topics": [
+        "planetary",
+        "models",
+        "cryosphere",
+        "surface"
+      ],
+      "first_seen": "2026-09-29T02:43:35.182381+00:00",
+      "publication_date": "2026-05-28",
+      "journals": [
+        "The Astrophysical Journal"
+      ],
+      "institutions": [
+        "017ead064adca5f2",
+        "78740f94739b5583"
+      ]
+    },
     "exoplanet-bib:33128": {
       "id": "exoplanet-bib:33128",
       "title": "Transport and Thermochemical Kinetics of Alkali Species in Hot Jupiter Atmospheres: Implications for Magnetic Models",
@@ -14985,7 +15082,7 @@
       "institutions": []
     }
   },
-  "omitted_papers": 28,
+  "omitted_papers": 30,
   "level": "parent",
   "researchers": [
     {
@@ -27132,10 +27229,12 @@
       "orcid": "https://orcid.org/0000-0002-2949-2163",
       "identity_basis": "orcid",
       "papers": [
+        "doi:10.3847/1538-4357/ae63b8",
         "doi:10.3847/1538-4357/ae89b5"
       ],
       "institutions": [
-        "017ead064adca5f2"
+        "017ead064adca5f2",
+        "78740f94739b5583"
       ],
       "aliases": [
         "Edward W. Schwieterman"
@@ -27698,6 +27797,7 @@
       "orcid": "https://orcid.org/0000-0003-2278-6932",
       "identity_basis": "orcid",
       "papers": [
+        "doi:10.3847/1538-4357/ae3d35",
         "doi:10.3847/1538-4357/ae96aa"
       ],
       "institutions": [
@@ -28462,8 +28562,8 @@
     {
       "id": "2c4c8818f4cc5f6c",
       "name": "Chao-Chin Yang",
-      "name_zh": null,
-      "name_source": "",
+      "name_zh": "楊朝欽",
+      "name_source": "https://orcid.org/0000-0003-2589-5034",
       "orcid": "https://orcid.org/0000-0003-2589-5034",
       "identity_basis": "orcid",
       "papers": [
@@ -28949,6 +29049,7 @@
       "orcid": "https://orcid.org/0000-0001-8283-3425",
       "identity_basis": "orcid",
       "papers": [
+        "doi:10.3847/1538-4357/ae3d35",
         "doi:10.3847/2041-8213/aea405"
       ],
       "institutions": [
@@ -28973,6 +29074,160 @@
       ],
       "aliases": [
         "Joshua N. Winn"
+      ]
+    },
+    {
+      "id": "816e3f8d2280644b",
+      "name": "Yanhong Lai",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0001-9700-9121",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/1538-4357/ae3d35"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Yanhong Lai"
+      ]
+    },
+    {
+      "id": "86fb13c4bf6fa088",
+      "name": "Tonmoy Deka",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0009-0007-7880-0250",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/1538-4357/ae1cc5"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Tonmoy Deka"
+      ]
+    },
+    {
+      "id": "f726230cb5f33cef",
+      "name": "Liton Majumdar",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0001-7031-8039",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/1538-4357/ae1cc5"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Liton Majumdar"
+      ]
+    },
+    {
+      "id": "6775a30b25564675",
+      "name": "Tasneem Basra Khan",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0009-0001-3342-3996",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/1538-4357/ae1cc5"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Tasneem Basra Khan"
+      ]
+    },
+    {
+      "id": "8c6308be73a1e0f7",
+      "name": "Swastik Dewan",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0009-0002-6571-9406",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/1538-4357/ae1cc5"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Swastik Dewan"
+      ]
+    },
+    {
+      "id": "2f9cc05d23dedace",
+      "name": "Priyankush Ghosh",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0009-0002-4995-9346",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/1538-4357/ae1cc5"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Priyankush Ghosh"
+      ]
+    },
+    {
+      "id": "24924935914a59be",
+      "name": "Debayan Das",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0009-0001-4100-9218",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/1538-4357/ae1cc5"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Debayan Das"
+      ]
+    },
+    {
+      "id": "ccacc0ec8e9c1208",
+      "name": "Mithun Patra",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": null,
+      "identity_basis": "paper_signature",
+      "papers": [
+        "doi:10.3847/1538-4357/ae1cc5"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Mithun Patra"
+      ]
+    },
+    {
+      "id": "a16a69ba5962093a",
+      "name": "Kyle Batra",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0003-2090-4958",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/1538-4357/ae63b8"
+      ],
+      "institutions": [
+        "78740f94739b5583"
+      ],
+      "aliases": [
+        "Kyle Batra"
+      ]
+    },
+    {
+      "id": "7cdee9f41b652f3c",
+      "name": "Stephanie Olson",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0002-3249-6739",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/1538-4357/ae63b8"
+      ],
+      "institutions": [
+        "78740f94739b5583"
+      ],
+      "aliases": [
+        "Stephanie Olson"
       ]
     },
     {
