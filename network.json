@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T03:42:31.286780+00:00",
+  "generated_at": "2026-09-29T01:27:37.819569+00:00",
   "nodes": [
     {
       "id": "96fbf2c8229a4de9",
@@ -7617,6 +7617,7 @@
         "doi:10.1029/2024je008875",
         "doi:10.1029/2025je009120",
         "doi:10.1029/2026je009749",
+        "doi:10.1177/15311074261446502",
         "doi:10.1177/15311074261470203"
       ],
       "authors": [
@@ -7627,6 +7628,7 @@
           "name_source": null,
           "orcid": null,
           "papers": [
+            "doi:10.1177/15311074261446502",
             "doi:10.1177/15311074261470203"
           ],
           "unit_papers": {}
@@ -8193,7 +8195,8 @@
       "name_zh": "普林斯顿大学",
       "papers": [
         "doi:10.1029/2026je009724",
-        "doi:10.1073/pnas.2615884123"
+        "doi:10.1073/pnas.2615884123",
+        "doi:10.3847/2041-8213/aea405"
       ],
       "authors": [
         {
@@ -8250,11 +8253,45 @@
             "doi:10.1029/2026je009724"
           ],
           "unit_papers": {}
+        },
+        {
+          "id": "1f771b88ba239754",
+          "name": "Caleb Lammers",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0001-9985-0643",
+          "papers": [
+            "doi:10.3847/2041-8213/aea405"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "fd847f0ddfa413d1",
+          "name": "Yubo Su",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0001-8283-3425",
+          "papers": [
+            "doi:10.3847/2041-8213/aea405"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "6a38c61d82463fe5",
+          "name": "Joshua N. Winn",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-4265-047X",
+          "papers": [
+            "doi:10.3847/2041-8213/aea405"
+          ],
+          "unit_papers": {}
         }
       ],
       "units": [],
       "raw": [
         "Department of Geosciences, Princeton University",
+        "Princeton University",
         "Princeton University Princeton NJ USA"
       ],
       "verification": {
@@ -9123,8 +9160,8 @@
         {
           "id": "7201d4487a50b9ea",
           "name": "Fei Yan",
-          "name_zh": null,
-          "name_source": null,
+          "name_zh": "严飞",
+          "name_source": "https://orcid.org/0000-0001-9585-9034",
           "orcid": "https://orcid.org/0000-0001-9585-9034",
           "papers": [
             "doi:10.3847/1538-4357/ae96aa"
@@ -14888,6 +14925,50 @@
         "c952a08fdb0ff916"
       ]
     },
+    "doi:10.1177/15311074261446502": {
+      "id": "doi:10.1177/15311074261446502",
+      "title": "Astrobiological Implications of Lava Flows Superposed on Martian Glaciers: Assessment of Formation and Fate of Meltwater, Moulin Formation, Induced Transition to Wet-Based Glacial Conditions, and Ice-Flow Velocity Enhancements",
+      "url": "https://doi.org/10.1177/15311074261446502",
+      "topics": [
+        "cryosphere"
+      ],
+      "first_seen": "2026-09-29T01:25:15.982384+00:00",
+      "publication_date": "2026-04-30",
+      "journals": [
+        "Astrobiology"
+      ],
+      "institutions": [
+        "9bfd678a766e8b50"
+      ]
+    },
+    "doi:10.3847/2041-8213/ae21c5": {
+      "id": "doi:10.3847/2041-8213/ae21c5",
+      "title": "Unified Kraft Break at ∼6500 K: A Newly Identified Single-star Obliquity Transition Matches the Classical Rotation Break",
+      "url": "https://doi.org/10.3847/2041-8213/ae21c5",
+      "topics": [],
+      "first_seen": "2026-09-29T01:25:15.982384+00:00",
+      "publication_date": "2025-12-24",
+      "journals": [
+        "The Astrophysical Journal Letters"
+      ],
+      "institutions": []
+    },
+    "doi:10.3847/2041-8213/aea405": {
+      "id": "doi:10.3847/2041-8213/aea405",
+      "title": "The Mysterious Inspiral of WASP-12 b: Why Obliquity Tides Cannot Drive Orbital Decay",
+      "url": "https://doi.org/10.3847/2041-8213/aea405",
+      "topics": [
+        "detection"
+      ],
+      "first_seen": "2026-09-29T01:25:15.982384+00:00",
+      "publication_date": "2026-09-28",
+      "journals": [
+        "The Astrophysical Journal Letters"
+      ],
+      "institutions": [
+        "6f4241a7694672b8"
+      ]
+    },
     "exoplanet-bib:33128": {
       "id": "exoplanet-bib:33128",
       "title": "Transport and Thermochemical Kinetics of Alkali Species in Hot Jupiter Atmospheres: Implications for Magnetic Models",
@@ -14904,7 +14985,7 @@
       "institutions": []
     }
   },
-  "omitted_papers": 27,
+  "omitted_papers": 28,
   "level": "parent",
   "researchers": [
     {
@@ -21609,6 +21690,7 @@
       "orcid": null,
       "identity_basis": "name_and_institution",
       "papers": [
+        "doi:10.1177/15311074261446502",
         "doi:10.1177/15311074261470203"
       ],
       "institutions": [
@@ -22606,8 +22688,8 @@
       ]
     },
     {
-      "id": "fac153dd546ba2cb",
-      "name": "Mathilde Musetta",
+      "id": "20b8ea2581e330cd",
+      "name": "Mathilde Mussetta",
       "name_zh": null,
       "name_source": "",
       "orcid": null,
@@ -22617,7 +22699,7 @@
       ],
       "institutions": [],
       "aliases": [
-        "Mathilde Musetta"
+        "Mathilde Mussetta"
       ]
     },
     {
@@ -27660,8 +27742,8 @@
     {
       "id": "7201d4487a50b9ea",
       "name": "Fei Yan",
-      "name_zh": null,
-      "name_source": "",
+      "name_zh": "严飞",
+      "name_source": "https://orcid.org/0000-0001-9585-9034",
       "orcid": "https://orcid.org/0000-0001-9585-9034",
       "identity_basis": "orcid",
       "papers": [
@@ -28780,6 +28862,117 @@
       ],
       "aliases": [
         "June K. Wicks"
+      ]
+    },
+    {
+      "id": "8bd1197eaeeb0526",
+      "name": "James L. Fastook",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": null,
+      "identity_basis": "paper_signature",
+      "papers": [
+        "doi:10.1177/15311074261446502"
+      ],
+      "institutions": [],
+      "aliases": [
+        "James L. Fastook"
+      ]
+    },
+    {
+      "id": "51dc05c6cd0f724b",
+      "name": "Xian-Yu Wang",
+      "name_zh": "汪宪钰",
+      "name_source": "https://doi.org/10.3847/2041-8213/ae21c5",
+      "orcid": "https://orcid.org/0000-0002-0376-6365",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/2041-8213/ae21c5"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Xian-Yu Wang"
+      ]
+    },
+    {
+      "id": "95b67ee48b91a2f2",
+      "name": "Songhu Wang",
+      "name_zh": "王松虎",
+      "name_source": "https://doi.org/10.3847/2041-8213/ae21c5",
+      "orcid": "https://orcid.org/0000-0002-7846-6981",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/2041-8213/ae21c5"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Songhu Wang"
+      ]
+    },
+    {
+      "id": "1f522b1653ed845a",
+      "name": "J. M. Joel Ong",
+      "name_zh": "王加冕",
+      "name_source": "https://doi.org/10.3847/2041-8213/ae21c5",
+      "orcid": "https://orcid.org/0000-0001-7664-648X",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/2041-8213/ae21c5"
+      ],
+      "institutions": [],
+      "aliases": [
+        "J. M. Joel Ong"
+      ]
+    },
+    {
+      "id": "1f771b88ba239754",
+      "name": "Caleb Lammers",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0001-9985-0643",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/2041-8213/aea405"
+      ],
+      "institutions": [
+        "6f4241a7694672b8"
+      ],
+      "aliases": [
+        "Caleb Lammers"
+      ]
+    },
+    {
+      "id": "fd847f0ddfa413d1",
+      "name": "Yubo Su",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0001-8283-3425",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/2041-8213/aea405"
+      ],
+      "institutions": [
+        "6f4241a7694672b8"
+      ],
+      "aliases": [
+        "Yubo Su"
+      ]
+    },
+    {
+      "id": "6a38c61d82463fe5",
+      "name": "Joshua N. Winn",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0002-4265-047X",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/2041-8213/aea405"
+      ],
+      "institutions": [
+        "6f4241a7694672b8"
+      ],
+      "aliases": [
+        "Joshua N. Winn"
       ]
     },
     {

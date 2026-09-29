@@ -1,41 +1,37 @@
 {
-  "generated_at": "2026-09-28T03:42:31.286780+00:00",
+  "generated_at": "2026-09-29T01:27:37.819569+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
-      "status": "partial",
-      "last_rss_success": "2026-09-28T01:25:15.906459+00:00",
-      "last_attempt": "2026-09-28T01:25:15.906459+00:00",
-      "error": "HTTP 406",
-      "last_rss_fetched": 0
+      "last_attempt": "2026-09-29T01:24:55.501610+00:00",
+      "last_success": "2026-09-29T01:24:55.501610+00:00",
+      "status": "ok",
+      "fetched": 0
     },
     "physics.ao-ph": {
-      "last_attempt": "2026-09-28T01:25:15.906459+00:00",
-      "status": "partial",
-      "error": "HTTP 406",
-      "last_rss_success": "2026-09-28T01:25:15.906459+00:00",
-      "last_rss_fetched": 0
+      "last_attempt": "2026-09-29T01:24:55.501610+00:00",
+      "last_success": "2026-09-29T01:24:55.501610+00:00",
+      "status": "ok",
+      "fetched": 0
     },
     "physics.geo-ph": {
-      "last_attempt": "2026-09-28T01:25:15.906459+00:00",
-      "status": "partial",
-      "error": "HTTP 406",
-      "last_rss_success": "2026-09-28T01:25:15.906459+00:00",
-      "last_rss_fetched": 0
+      "last_attempt": "2026-09-29T01:24:55.501610+00:00",
+      "last_success": "2026-09-29T01:24:55.501610+00:00",
+      "status": "ok",
+      "fetched": 0
     },
     "physics.flu-dyn": {
-      "last_attempt": "2026-09-28T01:25:15.906459+00:00",
-      "status": "partial",
-      "error": "HTTP 406",
-      "last_rss_success": "2026-09-28T01:25:15.906459+00:00",
-      "last_rss_fetched": 0
+      "last_attempt": "2026-09-29T01:24:55.501610+00:00",
+      "last_success": "2026-09-29T01:24:55.501610+00:00",
+      "status": "ok",
+      "fetched": 0
     },
     "journal:1476-4687": {
       "name": "Nature",
       "status": "ok",
-      "last_attempt": "2026-09-28T01:27:47.910065+00:00",
-      "last_success": "2026-09-28T01:27:47.910065+00:00",
-      "fetched": 0,
+      "last_attempt": "2026-09-29T01:25:15.982384+00:00",
+      "last_success": "2026-09-29T01:25:15.982384+00:00",
+      "fetched": 28,
       "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
@@ -43,8 +39,8 @@
     "journal:1095-9203": {
       "name": "Science",
       "status": "ok",
-      "last_attempt": "2026-09-28T01:27:47.910065+00:00",
-      "last_success": "2026-09-28T01:27:47.910065+00:00",
+      "last_attempt": "2026-09-29T01:25:15.982384+00:00",
+      "last_success": "2026-09-29T01:25:15.982384+00:00",
       "fetched": 0,
       "retained": 0,
       "method": "Crossref publisher metadata",
@@ -53,29 +49,29 @@
     "journal:1091-6490": {
       "name": "PNAS",
       "status": "ok",
-      "last_attempt": "2026-09-28T01:27:47.910065+00:00",
-      "last_success": "2026-09-28T01:27:47.910065+00:00",
-      "fetched": 0,
-      "retained": 0,
+      "last_attempt": "2026-09-29T01:25:15.982384+00:00",
+      "last_success": "2026-09-29T01:25:15.982384+00:00",
+      "fetched": 31,
+      "retained": 1,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1752-0908": {
       "name": "Nature Geoscience",
       "status": "ok",
-      "last_attempt": "2026-09-28T01:27:47.910065+00:00",
-      "last_success": "2026-09-28T01:27:47.910065+00:00",
-      "fetched": 0,
-      "retained": 0,
+      "last_attempt": "2026-09-29T01:25:15.982384+00:00",
+      "last_success": "2026-09-29T01:25:15.982384+00:00",
+      "fetched": 4,
+      "retained": 1,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-07-26"
     },
     "journal:2397-3366": {
       "name": "Nature Astronomy",
       "status": "ok",
-      "last_attempt": "2026-09-28T01:27:47.910065+00:00",
-      "last_success": "2026-09-28T01:27:47.910065+00:00",
-      "fetched": 0,
+      "last_attempt": "2026-09-29T01:25:15.982384+00:00",
+      "last_success": "2026-09-29T01:25:15.982384+00:00",
+      "fetched": 2,
       "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-07-26"
@@ -83,8 +79,8 @@
     "journal:1758-6798": {
       "name": "Nature Climate Change",
       "status": "ok",
-      "last_attempt": "2026-09-28T01:27:47.910065+00:00",
-      "last_success": "2026-09-28T01:27:47.910065+00:00",
+      "last_attempt": "2026-09-29T01:25:15.982384+00:00",
+      "last_success": "2026-09-29T01:25:15.982384+00:00",
       "fetched": 0,
       "retained": 0,
       "method": "Crossref publisher metadata",
@@ -93,30 +89,30 @@
     "journal:1520-0469": {
       "name": "Journal of the Atmospheric Sciences",
       "status": "ok",
-      "last_attempt": "2026-09-28T01:27:47.910065+00:00",
-      "last_success": "2026-09-28T01:27:47.910065+00:00",
-      "fetched": 0,
-      "retained": 0,
+      "last_attempt": "2026-09-29T01:25:15.982384+00:00",
+      "last_success": "2026-09-29T01:25:15.982384+00:00",
+      "fetched": 2,
+      "retained": 2,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1680-7324": {
       "name": "Atmospheric Chemistry and Physics",
       "status": "ok",
-      "last_attempt": "2026-09-28T01:27:47.910065+00:00",
-      "last_success": "2026-09-28T01:27:47.910065+00:00",
-      "fetched": 4,
-      "retained": 3,
+      "last_attempt": "2026-09-29T01:25:15.982384+00:00",
+      "last_success": "2026-09-29T01:25:15.982384+00:00",
+      "fetched": 5,
+      "retained": 4,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:2169-8996": {
       "name": "Journal of Geophysical Research: Atmospheres",
       "status": "ok",
-      "last_attempt": "2026-09-28T01:27:47.910065+00:00",
-      "last_success": "2026-09-28T01:27:47.910065+00:00",
-      "fetched": 0,
-      "retained": 0,
+      "last_attempt": "2026-09-29T01:25:15.982384+00:00",
+      "last_success": "2026-09-29T01:25:15.982384+00:00",
+      "fetched": 54,
+      "retained": 32,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
@@ -163,19 +159,19 @@
     "journal:1520-0442": {
       "name": "Journal of Climate",
       "status": "ok",
-      "last_attempt": "2026-09-28T01:27:47.910065+00:00",
-      "last_success": "2026-09-28T01:27:47.910065+00:00",
-      "fetched": 0,
-      "retained": 0,
+      "last_attempt": "2026-09-29T01:25:15.982384+00:00",
+      "last_success": "2026-09-29T01:25:15.982384+00:00",
+      "fetched": 14,
+      "retained": 12,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1432-0894": {
       "name": "Climate Dynamics",
       "status": "ok",
-      "last_attempt": "2026-09-28T01:27:47.910065+00:00",
-      "last_success": "2026-09-28T01:27:47.910065+00:00",
-      "fetched": 0,
+      "last_attempt": "2026-09-29T01:25:15.982384+00:00",
+      "last_success": "2026-09-29T01:25:15.982384+00:00",
+      "fetched": 2,
       "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
@@ -183,80 +179,80 @@
     "journal:1814-9332": {
       "name": "Climate of the Past",
       "status": "ok",
-      "last_attempt": "2026-09-28T01:27:47.910065+00:00",
-      "last_success": "2026-09-28T01:27:47.910065+00:00",
-      "fetched": 0,
-      "retained": 0,
+      "last_attempt": "2026-09-29T01:25:15.982384+00:00",
+      "last_success": "2026-09-29T01:25:15.982384+00:00",
+      "fetched": 2,
+      "retained": 2,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1477-870X": {
       "name": "Quarterly Journal of the Royal Meteorological Society",
       "status": "ok",
-      "last_attempt": "2026-09-28T01:27:47.910065+00:00",
-      "last_success": "2026-09-28T01:27:47.910065+00:00",
-      "fetched": 0,
-      "retained": 0,
+      "last_attempt": "2026-09-29T01:25:15.982384+00:00",
+      "last_success": "2026-09-29T01:25:15.982384+00:00",
+      "fetched": 2,
+      "retained": 1,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1557-8070": {
       "name": "Astrobiology",
       "status": "ok",
-      "last_attempt": "2026-09-28T01:27:47.910065+00:00",
-      "last_success": "2026-09-28T01:27:47.910065+00:00",
-      "fetched": 0,
-      "retained": 0,
+      "last_attempt": "2026-09-29T01:25:15.982384+00:00",
+      "last_success": "2026-09-29T01:25:15.982384+00:00",
+      "fetched": 8,
+      "retained": 6,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-07-26"
     },
     "journal:1944-8007": {
       "name": "Geophysical Research Letters",
       "status": "ok",
-      "last_attempt": "2026-09-28T01:27:47.910065+00:00",
-      "last_success": "2026-09-28T01:27:47.910065+00:00",
-      "fetched": 0,
-      "retained": 0,
+      "last_attempt": "2026-09-29T01:25:15.982384+00:00",
+      "last_success": "2026-09-29T01:25:15.982384+00:00",
+      "fetched": 112,
+      "retained": 54,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:2169-9100": {
       "name": "Journal of Geophysical Research: Planets",
       "status": "ok",
-      "last_attempt": "2026-09-28T01:27:47.910065+00:00",
-      "last_success": "2026-09-28T01:27:47.910065+00:00",
-      "fetched": 0,
-      "retained": 0,
+      "last_attempt": "2026-09-29T01:25:15.982384+00:00",
+      "last_success": "2026-09-29T01:25:15.982384+00:00",
+      "fetched": 42,
+      "retained": 26,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1538-4357": {
       "name": "The Astrophysical Journal",
       "status": "ok",
-      "last_attempt": "2026-09-28T01:27:47.910065+00:00",
-      "last_success": "2026-09-28T01:27:47.910065+00:00",
-      "fetched": 0,
-      "retained": 0,
+      "last_attempt": "2026-09-29T01:25:15.982384+00:00",
+      "last_success": "2026-09-29T01:25:15.982384+00:00",
+      "fetched": 22,
+      "retained": 1,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:2041-8213": {
       "name": "The Astrophysical Journal Letters",
       "status": "ok",
-      "last_attempt": "2026-09-28T01:27:47.910065+00:00",
-      "last_success": "2026-09-28T01:27:47.910065+00:00",
-      "fetched": 0,
-      "retained": 0,
+      "last_attempt": "2026-09-29T01:25:15.982384+00:00",
+      "last_success": "2026-09-29T01:25:15.982384+00:00",
+      "fetched": 9,
+      "retained": 3,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:0012-821X": {
       "name": "Earth and Planetary Science Letters",
       "status": "ok",
-      "last_attempt": "2026-09-28T01:27:47.910065+00:00",
-      "last_success": "2026-09-28T01:27:47.910065+00:00",
-      "fetched": 3,
-      "retained": 2,
+      "last_attempt": "2026-09-29T01:25:15.982384+00:00",
+      "last_success": "2026-09-29T01:25:15.982384+00:00",
+      "fetched": 0,
+      "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
@@ -264,11 +260,11 @@
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-09-28T11:42:09.607929+08:00",
-      "last_success": "2026-09-28T11:42:09.607929+08:00",
+      "last_attempt": "2026-09-29T09:25:12.378047+08:00",
+      "last_success": "2026-09-29T09:25:12.378047+08:00",
       "coverage_since": "2026-09-25",
-      "pages_checked": 1,
-      "fetched": 0,
+      "pages_checked": 2,
+      "fetched": 13,
       "retained": 0,
       "method": "daily incremental bibliography page scan; candidate-only"
     }
@@ -8558,7 +8554,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-24T10:03:48.460729+00:00",
-      "updated": "2026-09-22T10:05:05Z",
+      "updated": "2026-09-28T18:01:42Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2026je009948",
       "relations": {},
       "metadata_limited": false,
@@ -8677,7 +8673,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-24T10:03:48.460729+00:00",
-      "updated": "2026-09-23T08:01:00Z",
+      "updated": "2026-09-28T17:59:49Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2026je009892",
       "relations": {},
       "metadata_limited": false,
@@ -9284,12 +9280,13 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-24T11:06:27.450209+00:00",
-      "updated": "2026-09-02T13:07:24Z",
+      "updated": "2026-09-28T11:06:19Z",
       "metadata_source": "https://api.crossref.org/works/10.1177%2F15311074261470203",
       "relations": {},
       "metadata_limited": false,
       "publication_dates": {
-        "published-online": "2026-08-04"
+        "published-online": "2026-08-04",
+        "published-print": "2026-10-01"
       },
       "topics": [
         "detection",
@@ -9472,12 +9469,13 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-24T11:06:27.450209+00:00",
-      "updated": "2026-09-02T13:07:26Z",
+      "updated": "2026-09-28T03:55:11Z",
       "metadata_source": "https://api.crossref.org/works/10.1177%2F15311074261475054",
       "relations": {},
       "metadata_limited": false,
       "publication_dates": {
-        "published-online": "2026-08-05"
+        "published-online": "2026-08-05",
+        "published-print": "2026-10-01"
       },
       "topics": [
         "planetary"
@@ -10394,7 +10392,7 @@
       "authors": [
         "Dina M. Bower",
         "Maëva Millan",
-        "Mathilde Musetta",
+        "Mathilde Mussetta",
         "Clara Christiann",
         "Amy C. McAdam",
         "Christine A. Knudson",
@@ -10422,7 +10420,7 @@
           "orcid": null
         },
         {
-          "name": "Mathilde Musetta",
+          "name": "Mathilde Mussetta",
           "institutions": [
             "Laboratoire Atmospheres Observations Spatiales, Guyancourt, France."
           ],
@@ -10513,12 +10511,13 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-24T11:06:27.450209+00:00",
-      "updated": "2026-09-02T15:13:18Z",
+      "updated": "2026-09-28T14:47:26Z",
       "metadata_source": "https://api.crossref.org/works/10.1177%2F15311074261484811",
       "relations": {},
       "metadata_limited": false,
       "publication_dates": {
-        "published-online": "2026-08-31"
+        "published-online": "2026-08-31",
+        "published-print": "2026-10-01"
       },
       "topics": [
         "detection"
@@ -10643,12 +10642,13 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-24T11:06:27.450209+00:00",
-      "updated": "2026-09-08T02:08:19Z",
+      "updated": "2026-09-28T11:06:15Z",
       "metadata_source": "https://api.crossref.org/works/10.1177%2F15311074261485884",
       "relations": {},
       "metadata_limited": true,
       "publication_dates": {
-        "published-online": "2026-09-01"
+        "published-online": "2026-09-01",
+        "published-print": "2026-10-01"
       },
       "topics": [
         "detection"
@@ -13556,7 +13556,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-25T01:25:56.188355+00:00",
-      "updated": "2026-08-29T06:17:37Z",
+      "updated": "2026-09-28T18:01:42Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2026je009764",
       "relations": {},
       "metadata_limited": false,
@@ -13689,7 +13689,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-25T01:25:56.188355+00:00",
-      "updated": "2026-09-01T11:20:50Z",
+      "updated": "2026-09-28T18:00:40Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2025je009550",
       "relations": {},
       "metadata_limited": false,
@@ -13831,7 +13831,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-25T01:25:56.188355+00:00",
-      "updated": "2026-09-04T06:14:31Z",
+      "updated": "2026-09-28T18:00:49Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2026je009803",
       "relations": {},
       "metadata_limited": false,
@@ -14017,7 +14017,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-25T01:25:56.188355+00:00",
-      "updated": "2026-09-04T07:13:55Z",
+      "updated": "2026-09-28T18:01:42Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2026je009944",
       "relations": {},
       "metadata_limited": false,
@@ -14166,7 +14166,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-25T01:25:56.188355+00:00",
-      "updated": "2026-09-09T09:06:54Z",
+      "updated": "2026-09-28T18:00:48Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2026je009660",
       "relations": {},
       "metadata_limited": false,
@@ -14287,7 +14287,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-25T01:25:56.188355+00:00",
-      "updated": "2026-09-09T09:09:08Z",
+      "updated": "2026-09-28T18:01:05Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2025je009441",
       "relations": {},
       "metadata_limited": false,
@@ -14439,7 +14439,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-25T01:25:56.188355+00:00",
-      "updated": "2026-09-10T09:07:12Z",
+      "updated": "2026-09-28T17:58:31Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2026je009855",
       "relations": {},
       "metadata_limited": false,
@@ -14565,7 +14565,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-25T01:25:56.188355+00:00",
-      "updated": "2026-09-11T08:24:12Z",
+      "updated": "2026-09-28T18:00:28Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2026je009749",
       "relations": {},
       "metadata_limited": false,
@@ -14733,9 +14733,17 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-25T01:25:56.188355+00:00",
-      "updated": "2026-09-11T08:31:06Z",
+      "updated": "2026-09-28T18:01:42Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2025je009634",
-      "relations": {},
+      "relations": {
+        "has-preprint": [
+          {
+            "id-type": "doi",
+            "id": "10.22541/essoar.176840811.14859582/v1",
+            "asserted-by": "object"
+          }
+        ]
+      },
       "metadata_limited": false,
       "publication_dates": {
         "published-online": "2026-09-11",
@@ -14847,7 +14855,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-25T01:25:56.188355+00:00",
-      "updated": "2026-09-11T10:33:29Z",
+      "updated": "2026-09-28T18:01:28Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2026je009719",
       "relations": {},
       "metadata_limited": false,
@@ -14949,7 +14957,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-25T01:25:56.188355+00:00",
-      "updated": "2026-09-11T10:42:52Z",
+      "updated": "2026-09-28T17:58:30Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2025je009493",
       "relations": {},
       "metadata_limited": false,
@@ -15089,7 +15097,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-25T01:25:56.188355+00:00",
-      "updated": "2026-09-13T03:10:08Z",
+      "updated": "2026-09-28T17:58:33Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2026je009865",
       "relations": {},
       "metadata_limited": false,
@@ -15306,7 +15314,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-25T01:25:56.188355+00:00",
-      "updated": "2026-09-17T12:03:56Z",
+      "updated": "2026-09-28T18:01:29Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2026je009913",
       "relations": {},
       "metadata_limited": false,
@@ -15426,7 +15434,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-25T01:25:56.188355+00:00",
-      "updated": "2026-09-17T12:02:02Z",
+      "updated": "2026-09-28T18:00:42Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2026je009726",
       "relations": {},
       "metadata_limited": false,
@@ -15549,9 +15557,17 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-25T01:25:56.188355+00:00",
-      "updated": "2026-09-22T10:01:07Z",
+      "updated": "2026-09-28T17:59:49Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2025je009518",
-      "relations": {},
+      "relations": {
+        "has-preprint": [
+          {
+            "id-type": "doi",
+            "id": "10.22541/essoar.173325053.38882658/v2",
+            "asserted-by": "object"
+          }
+        ]
+      },
       "metadata_limited": false,
       "publication_dates": {
         "published-online": "2026-09-22",
@@ -18025,7 +18041,9 @@
           "institutions": [
             "University of Science and Technology of China"
           ],
-          "orcid": "https://orcid.org/0000-0001-9585-9034"
+          "orcid": "https://orcid.org/0000-0001-9585-9034",
+          "name_zh": "严飞",
+          "name_source": "https://orcid.org/0000-0001-9585-9034"
         },
         {
           "name": "Chengzi Jiang",
@@ -19540,7 +19558,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-26T01:25:33.356830+00:00",
-      "updated": "2026-09-25T08:07:00Z",
+      "updated": "2026-09-28T18:00:42Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2025je009457",
       "relations": {},
       "metadata_limited": false,
@@ -19653,7 +19671,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-26T01:25:33.356830+00:00",
-      "updated": "2026-09-25T09:02:06Z",
+      "updated": "2026-09-28T18:01:46Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2026je009760",
       "relations": {},
       "metadata_limited": false,
@@ -19803,7 +19821,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-26T01:25:33.356830+00:00",
-      "updated": "2026-09-25T11:58:46Z",
+      "updated": "2026-09-28T18:01:03Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2025je009573",
       "relations": {},
       "metadata_limited": false,
@@ -19949,7 +19967,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-27T01:26:11.248150+00:00",
-      "updated": "2026-09-26T09:00:29Z",
+      "updated": "2026-09-28T18:00:12Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2026je009891",
       "relations": {},
       "metadata_limited": false,
@@ -20002,6 +20020,332 @@
       ],
       "journals": [
         "Journal of Geophysical Research: Planets"
+      ],
+      "source_groups": [
+        "planet"
+      ]
+    },
+    {
+      "id": "doi:10.1177/15311074261446502",
+      "doi": "10.1177/15311074261446502",
+      "version_id": "doi:10.1177/15311074261446502",
+      "title": "Astrobiological Implications of Lava Flows Superposed on Martian Glaciers: Assessment of Formation and Fate of Meltwater, Moulin Formation, Induced Transition to Wet-Based Glacial Conditions, and Ice-Flow Velocity Enhancements",
+      "abstract": "Volcanic eruptions and glacial ice have occurred at virtually all latitudes and altitudes throughout Mars history. To assess the astrobiological potential of processes and microenvironments associated with lava flows onto glacial ice, we explore: (1) the influence of lava flow loading on the flow behavior of underlying ice, (2) whether, and for how long, wet-based conditions might occur and be sustained in otherwise cold-based glacial environments, and (3) the immediate fate of the meltwater generated, whether moulins can be generated, and whether and for how long wet-based conditions are generated by such processes. We employ a 1D time-dependent solution of the heat-flow equation to solve for the transient temperature field within a column of ice subjected to instantaneous deposition of a hot lava layer, exploring the parameter space by examining six different initial surface temperatures and three potential geothermal fluxes to characterize a range of past climates/geological regimes. We observe an initial pulse of accelerated flow due to the increased loading by the lava and consequent increase in the driving stress. A secondary pulse of acceleration occurs as the temperature wave from the lava penetrates the ice and reaches the bed, where the bulk of the deformation occurs in response to the warmer, softer ice. We observe basal melting as the bed briefly reaches the melting point and characterize the amounts of water produced during such brief basal melting intervals. Examination of the meltwater generated below, and in moats adjacent to the superposed lava, shows that completely full moats can propagate cracks through km-thick ice, and such crevasses can remain open (moulins) if they are at least 90% full. The greatest volume of drained water is produced by thin lava over thick ice, but the longest duration draining events occur for moderate lava thicknesses over thinner ice. Locally wet-based glacial conditions could persist below the superposed lava flow for durations well over ∼10 3 years. We explore the detailed consequences of lava flow/ice interaction, highlighting those most important for the formation and dispersal of potential cryophilic microbiota on Mars, opening new windows of Mars history for astrobiological research and exploration.",
+      "authors": [
+        "James L. Fastook",
+        "James W. Head"
+      ],
+      "author_affiliations": [
+        {
+          "name": "James L. Fastook",
+          "institutions": [
+            "Climate Change Institute, University of Maine, Orono, Maine, USA."
+          ],
+          "orcid": null
+        },
+        {
+          "name": "James W. Head",
+          "institutions": [
+            "Department of Earth, Environmental and Planetary Sciences, Brown University, Providence, Rhode Island, USA."
+          ],
+          "orcid": null
+        }
+      ],
+      "institutions": [
+        "Climate Change Institute, University of Maine, Orono, Maine, USA.",
+        "Department of Earth, Environmental and Planetary Sciences, Brown University, Providence, Rhode Island, USA."
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://api.crossref.org/works/10.1177%2F15311074261446502",
+      "source": "journal",
+      "journal": "Astrobiology",
+      "journal_id": "1557-8070",
+      "source_group": "planet",
+      "categories": [],
+      "url": "https://doi.org/10.1177/15311074261446502",
+      "published": "2026-04-30",
+      "publication_date": "2026-04-30",
+      "publication_date_source": "Crossref publisher metadata",
+      "date_kind": "journal",
+      "first_seen": "2026-09-29T01:25:15.982384+00:00",
+      "updated": "2026-09-28T11:06:15Z",
+      "metadata_source": "https://api.crossref.org/works/10.1177%2F15311074261446502",
+      "relations": {},
+      "metadata_limited": false,
+      "publication_dates": {
+        "published-online": "2026-04-30",
+        "published-print": "2026-10-01"
+      },
+      "topics": [
+        "cryosphere"
+      ],
+      "matches": {
+        "cryosphere": [
+          "ice flow",
+          "basal melting"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：ice flow、basal melting",
+      "tags": [
+        "岩浆与挥发分 · Magma & volatiles",
+        "海冰与表层 · Ice & surface"
+      ],
+      "method": "keyword",
+      "fit_score": 38,
+      "fit_matches": [],
+      "intro_en": "Volcanic eruptions and glacial ice have occurred at virtually all latitudes and altitudes throughout Mars history. To assess the astrobiological potential of processes and microenvironments associated with lava flows onto glacial ice, we explore: (1) the influence of lava flow loading on the flow behavior of underlying ice, (2) whether, and for how long, wet-based conditions might occur and be sustained in otherwise cold-based glacial environments, and (3) the immediate fate of the meltwater generated, whether moulins can be generated, and whether and for how long wet-based conditions are generated by such processes.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "variants": [
+        {
+          "id": "doi:10.1177/15311074261446502",
+          "source": "journal",
+          "journal": "Astrobiology",
+          "journal_id": "1557-8070",
+          "title": "Astrobiological Implications of Lava Flows Superposed on Martian Glaciers: Assessment of Formation and Fate of Meltwater, Moulin Formation, Induced Transition to Wet-Based Glacial Conditions, and Ice-Flow Velocity Enhancements",
+          "url": "https://doi.org/10.1177/15311074261446502",
+          "doi": "10.1177/15311074261446502",
+          "version_id": "doi:10.1177/15311074261446502",
+          "first_seen": "2026-09-29T01:25:15.982384+00:00",
+          "publication_date": "2026-04-30",
+          "version_date": null,
+          "metadata_source": "https://api.crossref.org/works/10.1177%2F15311074261446502",
+          "affiliation_source": "https://api.crossref.org/works/10.1177%2F15311074261446502"
+        }
+      ],
+      "match_basis": [],
+      "source_types": [
+        "journal"
+      ],
+      "journals": [
+        "Astrobiology"
+      ],
+      "source_groups": [
+        "planet"
+      ]
+    },
+    {
+      "id": "doi:10.3847/2041-8213/ae21c5",
+      "doi": "10.3847/2041-8213/ae21c5",
+      "version_id": "doi:10.3847/2041-8213/ae21c5",
+      "title": "Unified Kraft Break at ∼6500 K: A Newly Identified Single-star Obliquity Transition Matches the Classical Rotation Break",
+      "abstract": "Abstract The stellar obliquity transition, defined by a T eff cut separating aligned from misaligned hot Jupiter systems, has long been assumed to coincide with the rotational Kraft break. Yet the commonly quoted obliquity transition (6100 or 6250 K) sits a few hundred kelvins cooler than the rotational break (∼6500 K), posing a fundamental inconsistency. We show this offset arises primarily from binaries/multiple-star systems , which drive the cooler stellar obliquity transition ( 610 5 − 133 + 123 K), although the underlying cause remains ambiguous. After removing binaries and higher-order multiples, the single-star stellar obliquity transition shifts upward to 644 7 − 119 + 85 K, in excellent agreement with the single-star rotation break ( 65 10 − 127 + 97 K). This revision has two immediate consequences for understanding the origin and evolution of spin–orbit misalignment. First, the upward shift reclassifies some hosts previously labeled “hot” into the cooler regime; consequently, there are very few Rossiter–McLaughlin measurements of non-hot-Jupiter planets around genuinely hot stars ( T eff ≳ 6500 K), and previously reported alignment trends for these classes of systems (e.g., warm Jupiters and compact multiplanet systems) are insufficient to dispute central question: Are large misalignments unique to hot-Jupiter-like planets that can be delivered by high- e migration, or are hot stars intrinsically more misaligned across architectures? Second, a single-star stellar obliquity transition near 6500 K, coincident with the rotational break, favors tidal dissipation in outer convective envelopes; as these envelopes thin with increasing T eff , inertial-wave damping and magnetic braking weaken in tandem.",
+      "authors": [
+        "Xian-Yu Wang",
+        "Songhu Wang",
+        "J. M. Joel Ong"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Xian-Yu Wang",
+          "institutions": [
+            "Indiana University"
+          ],
+          "orcid": "https://orcid.org/0000-0002-0376-6365",
+          "name_zh": "汪宪钰",
+          "name_source": "https://doi.org/10.3847/2041-8213/ae21c5"
+        },
+        {
+          "name": "Songhu Wang",
+          "institutions": [
+            "Indiana University"
+          ],
+          "orcid": "https://orcid.org/0000-0002-7846-6981",
+          "name_zh": "王松虎",
+          "name_source": "https://doi.org/10.3847/2041-8213/ae21c5"
+        },
+        {
+          "name": "J. M. Joel Ong",
+          "institutions": [
+            "University of Sydney",
+            "University of Hawai‘i"
+          ],
+          "orcid": "https://orcid.org/0000-0001-7664-648X",
+          "name_zh": "王加冕",
+          "name_source": "https://doi.org/10.3847/2041-8213/ae21c5"
+        }
+      ],
+      "institutions": [
+        "Indiana University",
+        "University of Sydney",
+        "University of Hawai‘i"
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://api.crossref.org/works/10.3847%2F2041-8213%2Fae21c5",
+      "source": "journal",
+      "journal": "The Astrophysical Journal Letters",
+      "journal_id": "2041-8213",
+      "source_group": "planet",
+      "categories": [],
+      "url": "https://doi.org/10.3847/2041-8213/ae21c5",
+      "published": "2025-12-24",
+      "publication_date": "2025-12-24",
+      "publication_date_source": "Crossref publisher metadata",
+      "date_kind": "journal",
+      "first_seen": "2026-09-29T01:25:15.982384+00:00",
+      "updated": "2026-09-28T15:58:27Z",
+      "metadata_source": "https://api.crossref.org/works/10.3847%2F2041-8213%2Fae21c5",
+      "relations": {
+        "is-supplemented-by": [
+          {
+            "id-type": "doi",
+            "id": "10.5281/zenodo.17470968",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "metadata_limited": false,
+      "publication_dates": {
+        "published-online": "2025-12-24",
+        "published-print": "2026-01-01"
+      },
+      "topics": [],
+      "matches": {
+        "gfd": [
+          "inertial wave"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：inertial wave",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 30,
+      "fit_matches": [],
+      "intro_en": "Abstract The stellar obliquity transition, defined by a T eff cut separating aligned from misaligned hot Jupiter systems, has long been assumed to coincide with the rotational Kraft break. Yet the commonly quoted obliquity transition (6100 or 6250 K) sits a few hundred kelvins cooler than the rotational break (∼6500 K), posing a fundamental inconsistency.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "variants": [
+        {
+          "id": "doi:10.3847/2041-8213/ae21c5",
+          "source": "journal",
+          "journal": "The Astrophysical Journal Letters",
+          "journal_id": "2041-8213",
+          "title": "Unified Kraft Break at ∼6500 K: A Newly Identified Single-star Obliquity Transition Matches the Classical Rotation Break",
+          "url": "https://doi.org/10.3847/2041-8213/ae21c5",
+          "doi": "10.3847/2041-8213/ae21c5",
+          "version_id": "doi:10.3847/2041-8213/ae21c5",
+          "first_seen": "2026-09-29T01:25:15.982384+00:00",
+          "publication_date": "2025-12-24",
+          "version_date": null,
+          "metadata_source": "https://api.crossref.org/works/10.3847%2F2041-8213%2Fae21c5",
+          "affiliation_source": "https://api.crossref.org/works/10.3847%2F2041-8213%2Fae21c5"
+        }
+      ],
+      "match_basis": [],
+      "source_types": [
+        "journal"
+      ],
+      "journals": [
+        "The Astrophysical Journal Letters"
+      ],
+      "source_groups": [
+        "planet"
+      ]
+    },
+    {
+      "id": "doi:10.3847/2041-8213/aea405",
+      "doi": "10.3847/2041-8213/aea405",
+      "version_id": "doi:10.3847/2041-8213/aea405",
+      "title": "The Mysterious Inspiral of WASP-12 b: Why Obliquity Tides Cannot Drive Orbital Decay",
+      "abstract": "Abstract WASP-12 b’s orbit is decaying, for unknown reasons. The planet’s period is shrinking more rapidly than can be attributed to equilibrium tides or dynamical tides in a main-sequence star. Planetary obliquity tides could be sufficiently dissipative to drive WASP-12 b’s inspiral, but would also damp the planet’s obliquity, halting the decay. Millholland & Laughlin proposed that a nearby, low-mass planet (∼10 M ⊕ ) is maintaining a large obliquity for WASP-12 b, sustaining the dissipation. We reevaluated this hypothesis, finding that the companion must be more massive than originally proposed (≳65 M ⊕ ) to absorb WASP-12 b’s orbital angular momentum. Radial velocity data allowed us to rule out a companion of this type. Any companions within 3 au have K ≲ 14 m s −1 at 95% confidence.",
+      "authors": [
+        "Caleb Lammers",
+        "Yubo Su",
+        "Joshua N. Winn"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Caleb Lammers",
+          "institutions": [
+            "Princeton University"
+          ],
+          "orcid": "https://orcid.org/0000-0001-9985-0643"
+        },
+        {
+          "name": "Yubo Su",
+          "institutions": [
+            "Princeton University",
+            "University of Toronto"
+          ],
+          "orcid": "https://orcid.org/0000-0001-8283-3425"
+        },
+        {
+          "name": "Joshua N. Winn",
+          "institutions": [
+            "Princeton University"
+          ],
+          "orcid": "https://orcid.org/0000-0002-4265-047X"
+        }
+      ],
+      "institutions": [
+        "Princeton University",
+        "University of Toronto"
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://api.crossref.org/works/10.3847%2F2041-8213%2Faea405",
+      "source": "journal",
+      "journal": "The Astrophysical Journal Letters",
+      "journal_id": "2041-8213",
+      "source_group": "planet",
+      "categories": [],
+      "url": "https://doi.org/10.3847/2041-8213/aea405",
+      "published": "2026-09-28",
+      "publication_date": "2026-09-28",
+      "publication_date_source": "Crossref publisher metadata",
+      "date_kind": "journal",
+      "first_seen": "2026-09-29T01:25:15.982384+00:00",
+      "updated": "2026-09-28T12:00:17Z",
+      "metadata_source": "https://api.crossref.org/works/10.3847%2F2041-8213%2Faea405",
+      "relations": {},
+      "metadata_limited": false,
+      "publication_dates": {
+        "published-online": "2026-09-28",
+        "published-print": "2026-10-01"
+      },
+      "topics": [
+        "detection"
+      ],
+      "matches": {
+        "detection": [
+          "radial velocity"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：radial velocity",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 36,
+      "fit_matches": [],
+      "intro_en": "Abstract WASP-12 b’s orbit is decaying, for unknown reasons. The planet’s period is shrinking more rapidly than can be attributed to equilibrium tides or dynamical tides in a main-sequence star.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "variants": [
+        {
+          "id": "doi:10.3847/2041-8213/aea405",
+          "source": "journal",
+          "journal": "The Astrophysical Journal Letters",
+          "journal_id": "2041-8213",
+          "title": "The Mysterious Inspiral of WASP-12 b: Why Obliquity Tides Cannot Drive Orbital Decay",
+          "url": "https://doi.org/10.3847/2041-8213/aea405",
+          "doi": "10.3847/2041-8213/aea405",
+          "version_id": "doi:10.3847/2041-8213/aea405",
+          "first_seen": "2026-09-29T01:25:15.982384+00:00",
+          "publication_date": "2026-09-28",
+          "version_date": null,
+          "metadata_source": "https://api.crossref.org/works/10.3847%2F2041-8213%2Faea405",
+          "affiliation_source": "https://api.crossref.org/works/10.3847%2F2041-8213%2Faea405"
+        }
+      ],
+      "match_basis": [],
+      "source_types": [
+        "journal"
+      ],
+      "journals": [
+        "The Astrophysical Journal Letters"
       ],
       "source_groups": [
         "planet"
@@ -21323,6 +21667,6 @@
       }
     }
   },
-  "record_count": 1071,
+  "record_count": 1096,
   "merged_count": 3
 }
