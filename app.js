@@ -25,7 +25,7 @@ function render(){
  $('#more').hidden=filtered.length<=limit;
 }
 async function init(){try{
- const response=await fetch('./catalog.json');if(!response.ok)throw Error();data=await response.json();
+ const response=await fetch('./catalog.json',{cache:'no-store'});if(!response.ok)throw Error();data=await response.json();
  allTags=[{id:'all',name:'全部标签',name_en:'All tags',topic:true},...data.topics.filter(t=>!data.topic_filter_ids||data.topic_filter_ids.includes(t.id)).map(t=>({...t,topic:true})),...([...new Set(data.papers.flatMap(p=>p.tags||[]))].sort().map(label=>({label,name:label.split(' · ')[0],name_en:label.split(' · ').slice(1).join(' · ')})))];
  const pickKeyword=e=>{const b=e.target.closest('button[data-keyword]');if(!b)return;keyword=keyword===b.dataset.keyword?'topic:all':b.dataset.keyword;limit=30;render()};
  $('#research-tags').addEventListener('click',pickKeyword);$('#papers').addEventListener('click',pickKeyword);
