@@ -63,16 +63,44 @@ def merge_records(records,notes):
   output.append(p)
  return output
 
+def apply_publisher_supplements(records, supplements):
+ """Apply verified DOI-keyed publisher abstracts across all source archives."""
+ for p in records:
+  doi=doi_key(p.get('doi'))
+  supplement=supplements.get(doi) if doi else None
+  if not supplement or not supplement.get('abstract'):
+   continue
+  p['abstract']=supplement['abstract']
+  p['abstract_source']=supplement.get('source_url','')
+  p['metadata_limited']=False
+ return records
+
 def build():
  arxiv=json.loads((ROOT/'papers.json').read_text());jpath=ROOT/'journal_records.json';journal=json.loads(jpath.read_text()) if jpath.exists() else {'papers':[],'sources':{}};epath=ROOT/'exoplanet_records.json';exoplanet=json.loads(epath.read_text()) if epath.exists() else {'papers':[],'sources':{}};notes=json.loads((ROOT/'editorial.json').read_text());registry=json.loads((ROOT/'journals.json').read_text())
  config=json.loads((ROOT/'topics.json').read_text())
  records=arxiv['papers']+journal['papers']+exoplanet['papers']
+ supplement_path=ROOT/'exoplanet_metadata_overrides.json'
+ supplements=json.loads(supplement_path.read_text()) if supplement_path.exists() else {}
+ apply_publisher_supplements(records,supplements)
  for p in records:p.update(classify(p,config))
  arxiv['topics']=config['topics']
  papers=merge_records(records,notes)
  # Keep provenance in source archives; publish and graph only the narrow,
  # in-scope candidate set. The filter is reversible by changing topics.json.
  papers=[p for p in papers if p.get('status')=='candidate']
+ intake_path=ROOT/'intake.json'
+ intake=json.loads(intake_path.read_text()) if intake_path.exists() else None
+ if intake is not None:
+  previous_path=ROOT/'catalog.json'
+  previous=json.loads(previous_path.read_text()).get('papers',[]) if previous_path.exists() else []
+  approved=set(intake.get('approved',[]))
+  kinds=intake.get('kinds',{})
+  def admitted(p):
+   ids={p['id']}|{v['id'] for v in p.get('variants',[])}
+   return bool(ids&approved) or any(p['id']==old['id'] or match(p,old) for old in previous)
+  papers=[p for p in papers if admitted(p)]
+  for p in papers:
+   p['intake_kind']=next((kinds[v] for v in [p['id']]+[v['id'] for v in p.get('variants',[])] if v in kinds),None)
  # Keep broad atmospheric/ocean/climate/method topic codes for transparent
  # scoring, but show only planetary-domain categories as public tags. The
  # mechanism vocabulary remains data-driven and can grow with the corpus.
@@ -93,7 +121,7 @@ def build():
     if normalize(a['name']) in [normalize(n) for n in item['names']] and any(item['institution'] in parent_names(raw) for raw in a.get('institutions',[])):
      a.update(name_zh=item['name_zh'],name_source=item['source'])
  sources={**arxiv['sources'],**{'journal:'+k:v for k,v in journal['sources'].items()},**exoplanet.get('sources',{})}
- d={**arxiv,'generated_at':dt.datetime.now(dt.timezone.utc).isoformat(),'papers':papers,'topic_filter_ids':[t['id'] for t in config['topics'] if t['id'] in display_ids],'sources':sources,'journals':registry,'monthly_statistics':journal.get('monthly_statistics',{}),'record_count':len(arxiv['papers'])+len(journal['papers'])+len(exoplanet['papers']),'merged_count':sum(len(p['variants'])-1 for p in papers)}
+ d={**arxiv,'generated_at':dt.datetime.now(dt.timezone.utc).isoformat(),'papers':papers,'intake':intake,'topic_filter_ids':[t['id'] for t in config['topics'] if t['id'] in display_ids],'sources':sources,'journals':registry,'monthly_statistics':journal.get('monthly_statistics',{}),'record_count':len(arxiv['papers'])+len(journal['papers'])+len(exoplanet['papers']),'merged_count':sum(len(p['variants'])-1 for p in papers)}
  (ROOT/'catalog.json').write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')
  print(len(papers),'catalog items;',d['merged_count'],'duplicates linked')
  return d

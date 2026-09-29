@@ -30,7 +30,7 @@
 
 `first_seen` 是首次进入本站数据的时间，后续抓取不重置；页面以北京时间显示“网站收录”。`publication_date` 是 arXiv 首次提交发布日期，来自原文 citation_date 或 API，不是期刊发表日期。`version_date` 为可核实的修订提交时间。RSS 公告时间单独保存在原始记录中，不能冒充首次发布日期。缺失日期不猜测。
 
-目前接入 arXiv 的 astro-ph.EP、physics.ao-ph、physics.flu-dyn、physics.geo-ph；期刊接入情况见下方扩展版说明与网站来源页。每天按最近更新检查点抓取新发布或新更新的记录，不向更早日期扩展回溯；已收录历史记录与中文导读整理继续保留。API 查询失败时 RSS 提供当期补充，来源状态会公开显示。
+目前接入 arXiv 的 astro-ph.EP、physics.ao-ph、physics.flu-dyn、physics.geo-ph；期刊接入情况见下方扩展版说明与网站来源页。每日优先收录北京时间今天或昨天发表、或 arXiv 版本更新的相关论文。若两天内没有这类新文献，才从过去 365 天已发现的候选中补入最多 3 篇相关度至少 65/100 的论文；不足时使用最多五个定向 Crossref 检索补充，仅接受启用期刊中有摘要的论文。Crossref 的登记更新时间不当作论文更新日。历史记录与中文导读整理继续保留，旧文补入会明确标记。API 查询失败时 RSS 提供当期补充，来源状态会公开显示。
 
 ## 自动更新
 
@@ -39,7 +39,7 @@ GitHub Actions 每日北京时间约 09:17 运行，也支持手动启动；平�
 1. `update.py` 抓取、去重、按 `topics.json` 分类，保留首次收录时间和历史记录。
 2. `enrich.py` 从 arXiv HTML 提取作者机构，应用与版本及摘要校验值匹配的 `editorial.json` 双语导读。
 3. `dates.py` 核实首次发布日期与版本日期。
-4. `update_journals.py` 更新期刊元数据，`build_catalog.py` 归并来源，`build_network.py` 生成机构网络。
+4. `update_journals.py` 更新期刊元数据，`daily_intake.py` 按新文优先规则决定当天收录，`build_catalog.py` 归并来源，`build_network.py` 生成机构网络。
 5. 提交数据文件，并通过 GitHub Pages 发布静态网站。
 
 无需 API 密钥。现有双语导读由 AI 辅助根据公开摘要整理；新文章尚无中文导读时自动显示英文摘要节选及待整理提示。**当前并未接入每日自动生成中文导读的服务。** 筛选使用可解释规则，不等同于 AI 相关性判断。机构只采用明确的来源字段；缺失信息不根据姓名推断。
