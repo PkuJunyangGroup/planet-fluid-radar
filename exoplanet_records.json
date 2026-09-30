@@ -1,20 +1,377 @@
 {
-  "generated_at": "2026-09-29T11:02:08.693668+08:00",
+  "generated_at": "2026-09-30T09:27:24.952438+08:00",
   "sources": {
     "exoplanet.eu": {
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-09-29T11:02:08.693668+08:00",
-      "last_success": "2026-09-29T11:02:08.693668+08:00",
+      "last_attempt": "2026-09-30T09:27:24.952438+08:00",
+      "last_success": "2026-09-30T09:27:24.952438+08:00",
       "coverage_since": "2026-09-25",
-      "pages_checked": 1,
-      "fetched": 0,
-      "retained": 0,
+      "pages_checked": 2,
+      "fetched": 18,
+      "retained": 7,
       "method": "daily incremental bibliography page scan; candidate-only"
     }
   },
   "papers": [
+    {
+      "id": "exoplanet-bib:32952",
+      "version_id": "exoplanet-bib:32952",
+      "exoplanet_id": "32952",
+      "title": "Volatile depletion in rocky planets as a chemical fingerprint of hybrid accretion",
+      "abstract": "Volatile depletion in rocky planets relative to their host stars is commonplace in both the Solar System and exoplanetary systems, yet the connections between planet formation and composition remain elusive. Here we model devolatilization during pebble accretion in combination with collisional growth from volatile-depleted planetesimals to explore the formation pathways of Earth and Mars. Using Bayesian inference, we found that bulk silicate Earth is best reproduced by ≳75% contribution from two protoplanets formed via pebble accretion, supplemented by up to ~25% material from planetesimals that are compositionally akin to the asteroid Vesta. Using instead a planetesimal volatile-depletion curve that is not observed among known meteorite parent bodies would allow the planetesimal contribution to reach 40−14+15%. In comparison, bulk silicate Mars reflects 27 ± 5% pebble-accreted material and 73 ± 5% Vesta-like planetesimals. We identified volatile depletion as a chemical fingerprint of hybrid accretion, in which both pebble accretion and collisional assembly contribute to terrestrial planet growth. By quantitatively linking formation pathways to volatile budgets, our findings demonstrate how planetary accretion histories can be inferred from elemental signatures, with broad implications for interpreting the chemical diversity of rocky exoplanets.",
+      "authors": [
+        "WANG H.",
+        "JOHANSEN A.",
+        "XU Z.",
+        "STEINMEYER M.-L.",
+        "LAMBRECHTS M."
+      ],
+      "source": "exoplanet.eu",
+      "source_group": "exoplanet bibliography",
+      "journal": "Nature Astronomy",
+      "url": "https://doi.org/10.1038/s41550-026-02984-6 ",
+      "doi": "10.1038/s41550-026-02984-6",
+      "publication_date": "2026",
+      "published": "2026",
+      "publication_date_source": "Exoplanet.eu bibliography",
+      "date_kind": "bibliography",
+      "first_seen": "2026-09-30T09:27:24.952438+08:00",
+      "updated": "2026-09-29",
+      "metadata_source": "https://exoplanet.eu/bibliography/all/#publication_32952",
+      "affiliation_status": "unavailable",
+      "metadata_limited": false,
+      "categories": [],
+      "exoplanet_update_date": "2026-09-29",
+      "relations": {
+        "preprint": [
+          {
+            "id": "https://arxiv.org/abs/2608.24407"
+          }
+        ]
+      },
+      "arxiv_id": "2608.24407",
+      "topics": [
+        "evolution"
+      ],
+      "matches": {
+        "evolution": [
+          "volatile"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：volatile",
+      "tags": [
+        "岩浆与挥发分 · Magma & volatiles"
+      ],
+      "method": "keyword",
+      "fit_score": 31,
+      "fit_matches": [],
+      "abstract_source": "https://www.nature.com/articles/s41550-026-02984-6"
+    },
+    {
+      "id": "exoplanet-bib:33164",
+      "version_id": "exoplanet-bib:33164",
+      "exoplanet_id": "33164",
+      "title": "Inhomogeneous Cloud Coverage and Altitude-dependent Heat Transport on the Hot-Jupiter NGTS-10 Ab from its Optical-to-infrared Phase Curve",
+      "abstract": "",
+      "authors": [],
+      "source": "exoplanet.eu",
+      "source_group": "exoplanet bibliography",
+      "journal": "",
+      "url": "https://dx.doi.org/10.1088/1538-3873/aea59a ",
+      "doi": "10.1088/1538-3873/aea59a",
+      "publication_date": "2026",
+      "published": "2026",
+      "publication_date_source": "Exoplanet.eu bibliography",
+      "date_kind": "bibliography",
+      "first_seen": "2026-09-30T09:27:24.952438+08:00",
+      "updated": "2026-09-29",
+      "metadata_source": "https://exoplanet.eu/bibliography/all/#publication_33164",
+      "affiliation_status": "unavailable",
+      "metadata_limited": true,
+      "categories": [],
+      "exoplanet_update_date": "2026-09-29",
+      "topics": [
+        "planetary",
+        "detection"
+      ],
+      "matches": {
+        "planetary": [
+          "hot jupiter"
+        ],
+        "detection": [
+          "phase curve"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：hot jupiter、phase curve",
+      "tags": [
+        "云与辐射 · Clouds & radiation",
+        "热输送 · Heat transport",
+        "光谱与相曲线 · Spectra & phase curves"
+      ],
+      "method": "keyword",
+      "fit_score": 48,
+      "fit_matches": []
+    },
+    {
+      "id": "exoplanet-bib:33162",
+      "version_id": "exoplanet-bib:33162",
+      "exoplanet_id": "33162",
+      "title": "The Effects of M Star Age-dependent Ultraviolet Emission on Detecting and Interpreting Exoplanet Biosignatures",
+      "abstract": "",
+      "authors": [
+        "DAVIS E.",
+        "MEADOWS V.",
+        "SHKOLNIK E.",
+        "LINCOWSKI A.",
+        "PEACOCK S."
+      ],
+      "source": "exoplanet.eu",
+      "source_group": "exoplanet bibliography",
+      "journal": "ApJ",
+      "url": "https://dx.doi.org/10.3847/1538-4357/ae994a ",
+      "doi": "10.3847/1538-4357/ae994a",
+      "publication_date": "2026",
+      "published": "2026",
+      "publication_date_source": "Exoplanet.eu bibliography",
+      "date_kind": "bibliography",
+      "first_seen": "2026-09-30T09:27:24.952438+08:00",
+      "updated": "2026-09-29",
+      "metadata_source": "https://exoplanet.eu/bibliography/all/#publication_33162",
+      "affiliation_status": "unavailable",
+      "metadata_limited": true,
+      "categories": [],
+      "exoplanet_update_date": "2026-09-29",
+      "topics": [
+        "detection"
+      ],
+      "matches": {
+        "detection": [
+          "biosignature"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：biosignature",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 36,
+      "fit_matches": []
+    },
+    {
+      "id": "exoplanet-bib:32968",
+      "version_id": "exoplanet-bib:32968",
+      "exoplanet_id": "32968",
+      "title": "ExoMOD II. A Statistical Model of Transit Timing Variations in Kepler Multi-Planet Systems",
+      "abstract": "",
+      "authors": [
+        "NESVORNY D.",
+        "YAHALOMI D.",
+        "KIPPING D.",
+        "BEAUGE C.",
+        "LILLHOLLAND S."
+      ],
+      "source": "exoplanet.eu",
+      "source_group": "exoplanet bibliography",
+      "journal": "ApJ",
+      "url": "https://dx.doi.org/10.3847/1538-4357/ae9fe5 ",
+      "doi": "10.3847/1538-4357/ae9fe5",
+      "publication_date": "2026",
+      "published": "2026",
+      "publication_date_source": "Exoplanet.eu bibliography",
+      "date_kind": "bibliography",
+      "first_seen": "2026-09-30T09:27:24.952438+08:00",
+      "updated": "2026-09-29",
+      "metadata_source": "https://exoplanet.eu/bibliography/all/#publication_32968",
+      "affiliation_status": "unavailable",
+      "metadata_limited": true,
+      "categories": [],
+      "exoplanet_update_date": "2026-09-29",
+      "relations": {
+        "preprint": [
+          {
+            "id": "https://arxiv.org/abs/2608.28550"
+          }
+        ]
+      },
+      "arxiv_id": "2608.28550",
+      "topics": [
+        "detection",
+        "orbital"
+      ],
+      "matches": {
+        "detection": [
+          "transit timing"
+        ],
+        "orbital": [
+          "transit timing variations"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：transit timing、transit timing variations",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 46,
+      "fit_matches": []
+    },
+    {
+      "id": "exoplanet-bib:33161",
+      "version_id": "exoplanet-bib:33161",
+      "exoplanet_id": "33161",
+      "title": "Variable X-ray flux may explain variable helium escape from the habitable-zone exoplanet LHS 1140b",
+      "abstract": "",
+      "authors": [
+        "CHERUBIM C.",
+        "CUNNIGHAM T.",
+        "DITTMANN J."
+      ],
+      "source": "exoplanet.eu",
+      "source_group": "exoplanet bibliography",
+      "journal": "ApJ Letters",
+      "url": "https://doi.org/10.48550/arXiv.2609.31859",
+      "doi": null,
+      "publication_date": "2026",
+      "published": "2026",
+      "publication_date_source": "Exoplanet.eu bibliography",
+      "date_kind": "bibliography",
+      "first_seen": "2026-09-30T09:27:24.952438+08:00",
+      "updated": "2026-09-29",
+      "metadata_source": "https://exoplanet.eu/bibliography/all/#publication_33161",
+      "affiliation_status": "unavailable",
+      "metadata_limited": true,
+      "categories": [],
+      "exoplanet_update_date": "2026-09-29",
+      "relations": {
+        "preprint": [
+          {
+            "id": "https://arxiv.org/abs/2609.31859"
+          }
+        ]
+      },
+      "arxiv_id": "2609.31859",
+      "topics": [
+        "planetary"
+      ],
+      "matches": {
+        "planetary": [
+          "habitable zone"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：habitable zone",
+      "tags": [
+        "宜居性 · Habitability"
+      ],
+      "method": "keyword",
+      "fit_score": 50,
+      "fit_matches": [
+        "行星气候与模式"
+      ]
+    },
+    {
+      "id": "exoplanet-bib:33160",
+      "version_id": "exoplanet-bib:33160",
+      "exoplanet_id": "33160",
+      "title": "The First Hubble Detection of a Secondary Eclipse from a Rocky Exoplanet: the 5.4-hour planet TOI-2431 b",
+      "abstract": "",
+      "authors": [
+        "ZIEBA S.",
+        "EDWARDS B.",
+        "QUINN S.",
+        "JANSSEN L.",
+        "COWAN N."
+      ],
+      "source": "exoplanet.eu",
+      "source_group": "exoplanet bibliography",
+      "journal": "ApJ Letters",
+      "url": "https://doi.org/10.48550/arXiv.2609.31966 ",
+      "doi": null,
+      "publication_date": "2026",
+      "published": "2026",
+      "publication_date_source": "Exoplanet.eu bibliography",
+      "date_kind": "bibliography",
+      "first_seen": "2026-09-30T09:27:24.952438+08:00",
+      "updated": "2026-09-29",
+      "metadata_source": "https://exoplanet.eu/bibliography/all/#publication_33160",
+      "affiliation_status": "unavailable",
+      "metadata_limited": true,
+      "categories": [],
+      "exoplanet_update_date": "2026-09-29",
+      "relations": {
+        "preprint": [
+          {
+            "id": "https://arxiv.org/abs/2609.31966"
+          }
+        ]
+      },
+      "arxiv_id": "2609.31966",
+      "topics": [
+        "detection"
+      ],
+      "matches": {
+        "detection": [
+          "secondary eclipse"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：secondary eclipse",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 43,
+      "fit_matches": [
+        "系外行星观测表征"
+      ]
+    },
+    {
+      "id": "exoplanet-bib:33154",
+      "version_id": "exoplanet-bib:33154",
+      "exoplanet_id": "33154",
+      "title": "JWST NIRSpec G395H Transmission Spectra of Two Similar Sub-Neptunes in the TOI-125 System",
+      "abstract": "",
+      "authors": [],
+      "source": "exoplanet.eu",
+      "source_group": "exoplanet bibliography",
+      "journal": "",
+      "url": "https://doi.org/10.48550/arXiv.2609.35607 ",
+      "doi": null,
+      "publication_date": "2026",
+      "published": "2026",
+      "publication_date_source": "Exoplanet.eu bibliography",
+      "date_kind": "bibliography",
+      "first_seen": "2026-09-30T09:27:24.952438+08:00",
+      "updated": "2026-09-29",
+      "metadata_source": "https://exoplanet.eu/bibliography/all/#publication_33154",
+      "affiliation_status": "unavailable",
+      "metadata_limited": true,
+      "categories": [],
+      "exoplanet_update_date": "2026-09-29",
+      "relations": {
+        "preprint": [
+          {
+            "id": "https://arxiv.org/abs/2609.35607"
+          }
+        ]
+      },
+      "arxiv_id": "2609.35607",
+      "topics": [
+        "detection"
+      ],
+      "matches": {
+        "detection": [
+          "transmission spectra"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：transmission spectra",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 43,
+      "fit_matches": [
+        "系外行星观测表征"
+      ]
+    },
     {
       "id": "exoplanet-bib:33128",
       "version_id": "exoplanet-bib:33128",

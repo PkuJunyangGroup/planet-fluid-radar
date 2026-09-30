@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-09-29T02:40:26.267071+00:00",
+  "generated_at": "2026-09-30T01:27:08.555929+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
-      "last_attempt": "2026-09-29T02:40:26.267071+00:00",
-      "last_success": "2026-09-29T02:40:26.267071+00:00",
+      "last_attempt": "2026-09-30T01:27:08.555929+00:00",
+      "last_success": "2026-09-30T01:27:08.555929+00:00",
       "status": "ok",
-      "fetched": 0
+      "fetched": 3
     },
     "physics.ao-ph": {
-      "last_attempt": "2026-09-29T02:40:26.267071+00:00",
-      "last_success": "2026-09-29T02:40:26.267071+00:00",
+      "last_attempt": "2026-09-30T01:27:08.555929+00:00",
+      "last_success": "2026-09-30T01:27:08.555929+00:00",
       "status": "ok",
-      "fetched": 0
+      "fetched": 3
     },
     "physics.geo-ph": {
-      "last_attempt": "2026-09-29T02:40:26.267071+00:00",
-      "last_success": "2026-09-29T02:40:26.267071+00:00",
+      "last_attempt": "2026-09-30T01:27:08.555929+00:00",
+      "last_success": "2026-09-30T01:27:08.555929+00:00",
       "status": "ok",
-      "fetched": 0
+      "fetched": 2
     },
     "physics.flu-dyn": {
-      "last_attempt": "2026-09-29T02:40:26.267071+00:00",
-      "last_success": "2026-09-29T02:40:26.267071+00:00",
+      "last_attempt": "2026-09-30T01:27:08.555929+00:00",
+      "last_success": "2026-09-30T01:27:08.555929+00:00",
       "status": "ok",
-      "fetched": 0
+      "fetched": 3
     }
   },
   "topics": [
@@ -811,6 +811,689 @@
   ],
   "repository": "https://github.com/PkuJunyangGroup/planet-fluid-radar",
   "papers": [
+    {
+      "id": "2609.36831",
+      "version_id": "2609.36831v1",
+      "title": "Radial flow of an Oldroyd-B fluid: theoretical and simulation results in the ultra-dilute limit",
+      "abstract": "Pressure-driven radial flows of viscoelastic fluids are common in various industrial applications, such as injection molding and extrusion. It is well known that viscoelastic rheology can significantly impact the hydrodynamic features of non-Newtonian flows. However, these hydrodynamic features remain not fully understood compared to those observed in Newtonian flows. We analyze the pressure-driven radial flow of an Oldroyd-B fluid between parallel plates and present a theoretical framework together with finite-element numerical simulations for determining the flow rate-pressure drop relation. Unlike previous theoretical studies restricted to the weakly viscoelastic limit of low Deborah ($De$) numbers, we apply lubrication theory and consider the ultra-dilute limit, which allows us to study viscoelastic radial flows at order-one Deborah numbers. Using the one-way coupling between the Newtonian velocity profile and elastic stresses, we derive closed-form expressions for the conformation tensor and pressure drop in the ultra-dilute limit. We show that the pressure drop monotonically increases with $De$, identify the physical mechanisms governing this increase, and delineate the range of validity of the ultra-dilute approximation. We further reveal that the low-$De$ asymptotic analysis of the pressure drop may fail to accurately capture finite-element simulation results, even at low Deborah numbers, owing to its inability to satisfy the inlet elastic stresses. In contrast, our theoretical predictions based on the ultra-dilute limit are in excellent agreement with the finite-element simulation results, enabling us to elucidate the pressure drop behavior for order-one Deborah numbers.",
+      "published": "2026-09-29T06:39:37Z",
+      "updated": "2026-09-29T06:39:37Z",
+      "authors": [
+        "Ron Lottem",
+        "Evgeniy Boyko"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2609.36831",
+      "pdf": "https://arxiv.org/pdf/2609.36831v1",
+      "source": "arXiv",
+      "first_seen": "2026-09-30T01:27:08.555929+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [
+        "理论机制与尺度关系"
+      ],
+      "institutions": [
+        "††affiliation: 1Faculty of Mechanical Engineering, Technion – Israel Institute of Technology, Haifa 3200003, Israel"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Ron Lottem1",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Evgeniy Boyko1",
+          "institutions": [],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.36831v1",
+      "intro_en": "Pressure-driven radial flows of viscoelastic fluids are common in various industrial applications, such as injection molding and extrusion. It is well known that viscoelastic rheology can significantly impact the hydrodynamic features of non-Newtonian flows.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-09-29",
+      "publication_date_source": "https://arxiv.org/abs/2609.36831v1",
+      "version_date": "2026-09-29T06:39:37+00:00"
+    },
+    {
+      "id": "2609.36768",
+      "version_id": "2609.36768v1",
+      "title": "Testing KMTNet--PRIME Optical--Near-Infrared Source-Color Constraints in KMT-2024-BLG-0211 and KMT-2024-BLG-1522",
+      "abstract": "We present analyses of two 2024 microlensing events, KMT-2024-BLG-0211 and KMT-2024-BLG-1522, jointly observed by KMTNet in the optical and PRIME in the near-infrared. For KMT-2024-BLG-0211, the KMTNet--PRIME $I-H$ color provides a useful constraint on the angular source radius for a short-timescale finite-source event with a giant source. The event is consistent with a low-mass stellar lens, although the weak parallax constraint leaves the lens mass and distance uncertain. For KMT-2024-BLG-1522, we compare the results obtained from $V-I$, $I-H$, $V-H$, and $J-H$ color constraints. The microlensing parameters are nearly identical among the four analyses, yielding a robust binary-lens solution with nearly equal masses. However, the inferred source properties and lens physical parameters depend on the adopted source color because the different color estimates imply different angular source radii. Comparing the $(V-I)_{\\rm KMT}$ versus $(I-H)_{\\rm KMT,PRIME}$ plane shows that the inferred source colors lie off empirical color--color relations but within the scatter of observed stars. The prevalence of such deviations should be tested with a larger sample of KMTNet--PRIME events and this specific case can be further tested with future adaptive-optics follow-up, which can directly measure the lens--source relative proper motion and lens flux.",
+      "published": "2026-09-29T05:42:03Z",
+      "updated": "2026-09-29T05:42:03Z",
+      "authors": [
+        "Kansuke Nunota",
+        "Jennifer C. Yee",
+        "Takahiro Sumi",
+        "Ryusei Hamada",
+        "Ian A. Bond",
+        "Andrew Gould",
+        "Weicheng Zang",
+        "David P. Bennett",
+        "Aparna Bhattacharya",
+        "Kotaro Daimon",
+        "Yuki Hirao",
+        "Stela Ishitani Silva",
+        "Shuma Makida",
+        "Shota Miyazaki",
+        "Tutumi Nagai",
+        "Seiya Nakayama",
+        "Ryo Ogawa",
+        "Ryunosuke Oishi",
+        "Hideaki Ose",
+        "Nicholas J. Rattenbury",
+        "Yuki K. Satoh",
+        "Daisuke Suzuki",
+        "Takuto Tamaoki",
+        "Motohide Tamura",
+        "Sean K. Terry",
+        "Chihiro Ueda",
+        "Aikaterini Vandorou",
+        "Hibiki Yama",
+        "Michael D. Albrow",
+        "Sun-Ju Chung",
+        "Cheongho Han",
+        "Kyu-Ha Hwang",
+        "Youn Kil Jung",
+        "Yoon-Hyun Ryu",
+        "In-Gu Shin",
+        "Yossi Shvartzvald",
+        "Hongjing Yang",
+        "Dong-Jin Kim",
+        "Chung-Uk Lee",
+        "Byeong-Gon Park"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.GA",
+        "astro-ph.EP",
+        "astro-ph.SR"
+      ],
+      "url": "https://arxiv.org/abs/2609.36768",
+      "pdf": "https://arxiv.org/pdf/2609.36768v1",
+      "source": "arXiv",
+      "first_seen": "2026-09-30T01:27:08.555929+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "行星科学拓展阅读",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Department of Earth and Space Science, Graduate School of Science, The University of Osaka, Toyonaka, Osaka 560-0043, Japan",
+        "Center for Astrophysics || Harvard & Smithsonian, 60 Garden St., Cambridge, MA 02138, USA",
+        "School of Mathematical and Computational Sciences, Massey University, Auckland 0745, New Zealand",
+        "Department of Astronomy, Ohio State University, 140 W. 18th Ave., Columbus, OH 43210, USA",
+        "Department of Astronomy, Westlake University, Hangzhou 310030, Zhejiang Province, China",
+        "Code 667, NASA Goddard Space Flight Center, Greenbelt, MD 20771, USA",
+        "Department of Astronomy, University of Maryland, College Park, MD 20742, USA",
+        "Institute of Astronomy, Graduate School of Science, The University of Tokyo, 2-21-1 Osawa, Mitaka, Tokyo 181-0015, Japan",
+        "Department of Physics, The Catholic University of America, Washington, DC 20064, USA",
+        "Institute of Space and Astronautical Science, Japan Aerospace Exploration Agency, 3-1-1 Yoshinodai, Chuo, Sagamihara, Kanagawa 252-5210, Japan",
+        "Department of Physics, University of Auckland, Private Bag 92019, Auckland, New Zealand",
+        "Department of Electrical and Information Engineering, Nippon Institute of Technology, Shiraoka, Saitama, Japan",
+        "Astrobiology Center, 2-21-1 Osawa, Mitaka-shi, Tokyo 181-8588, Japan",
+        "Department of Astronomy, University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan",
+        "Department of Astronomy, Graduate School of Science, Kyoto University, Kitashirakawa Oiwake-cho, Sakyo-ku, Kyoto 606-8502, Japan",
+        "University of Canterbury, School of Physical and Chemical Sciences, Private Bag 4800, Christchurch 8020, New Zealand",
+        "Korea Astronomy and Space Science Institute, Daejeon 34055, Republic of Korea",
+        "Department of Physics, Chungbuk National University, Cheongju 28644, Republic of Korea",
+        "National University of Science and Technology (UST), Daejeon 34113, Republic of Korea",
+        "School of Science, Westlake University, Hangzhou, Zhejiang 310030, China",
+        "Department of Particle Physics and Astrophysics, Weizmann Institute of Science, Rehovot 7610001, Israel",
+        "Department of Astronomy, Tsinghua University, Beijing 100084, China"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Kansuke Nunota",
+          "institutions": [
+            "Department of Earth and Space Science, Graduate School of Science, The University of Osaka, Toyonaka, Osaka 560-0043, Japan"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Jennifer C. Yee",
+          "institutions": [
+            "Center for Astrophysics || Harvard & Smithsonian, 60 Garden St., Cambridge, MA 02138, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0001-9481-7123"
+        },
+        {
+          "name": "Takahiro Sumi",
+          "institutions": [
+            "Department of Earth and Space Science, Graduate School of Science, The University of Osaka, Toyonaka, Osaka 560-0043, Japan"
+          ],
+          "orcid": "https://orcid.org/0000-0002-4035-5012"
+        },
+        {
+          "name": "Ryusei Hamada",
+          "institutions": [
+            "Department of Earth and Space Science, Graduate School of Science, The University of Osaka, Toyonaka, Osaka 560-0043, Japan"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Ian A. Bond",
+          "institutions": [
+            "School of Mathematical and Computational Sciences, Massey University, Auckland 0745, New Zealand"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Andrew Gould",
+          "institutions": [
+            "Department of Astronomy, Ohio State University, 140 W. 18th Ave., Columbus, OH 43210, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Weicheng Zang",
+          "institutions": [
+            "Department of Astronomy, Westlake University, Hangzhou 310030, Zhejiang Province, China",
+            "Center for Astrophysics || Harvard & Smithsonian, 60 Garden St., Cambridge, MA 02138, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0001-6000-3463"
+        },
+        {
+          "name": "David P. Bennett",
+          "institutions": [
+            "Code 667, NASA Goddard Space Flight Center, Greenbelt, MD 20771, USA",
+            "Department of Astronomy, University of Maryland, College Park, MD 20742, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Aparna Bhattacharya",
+          "institutions": [
+            "Code 667, NASA Goddard Space Flight Center, Greenbelt, MD 20771, USA",
+            "Department of Astronomy, University of Maryland, College Park, MD 20742, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Kotaro Daimon",
+          "institutions": [
+            "Department of Earth and Space Science, Graduate School of Science, The University of Osaka, Toyonaka, Osaka 560-0043, Japan"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Yuki Hirao",
+          "institutions": [
+            "Institute of Astronomy, Graduate School of Science, The University of Tokyo, 2-21-1 Osawa, Mitaka, Tokyo 181-0015, Japan"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Stela Ishitani Silva",
+          "institutions": [
+            "Department of Physics, The Catholic University of America, Washington, DC 20064, USA",
+            "Code 667, NASA Goddard Space Flight Center, Greenbelt, MD 20771, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Shuma Makida",
+          "institutions": [
+            "Department of Earth and Space Science, Graduate School of Science, The University of Osaka, Toyonaka, Osaka 560-0043, Japan"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Shota Miyazaki",
+          "institutions": [
+            "Institute of Space and Astronautical Science, Japan Aerospace Exploration Agency, 3-1-1 Yoshinodai, Chuo, Sagamihara, Kanagawa 252-5210, Japan"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Tutumi Nagai",
+          "institutions": [
+            "Department of Earth and Space Science, Graduate School of Science, The University of Osaka, Toyonaka, Osaka 560-0043, Japan"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Seiya Nakayama",
+          "institutions": [
+            "Department of Earth and Space Science, Graduate School of Science, The University of Osaka, Toyonaka, Osaka 560-0043, Japan"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Ryo Ogawa",
+          "institutions": [
+            "Department of Earth and Space Science, Graduate School of Science, The University of Osaka, Toyonaka, Osaka 560-0043, Japan"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Ryunosuke Oishi",
+          "institutions": [
+            "Department of Earth and Space Science, Graduate School of Science, The University of Osaka, Toyonaka, Osaka 560-0043, Japan"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Hideaki Ose",
+          "institutions": [
+            "Department of Earth and Space Science, Graduate School of Science, The University of Osaka, Toyonaka, Osaka 560-0043, Japan"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Nicholas J. Rattenbury",
+          "institutions": [
+            "Department of Physics, University of Auckland, Private Bag 92019, Auckland, New Zealand"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Yuki K. Satoh",
+          "institutions": [
+            "Department of Electrical and Information Engineering, Nippon Institute of Technology, Shiraoka, Saitama, Japan"
+          ],
+          "orcid": "https://orcid.org/0000-0002-1228-4122"
+        },
+        {
+          "name": "Daisuke Suzuki",
+          "institutions": [
+            "Department of Earth and Space Science, Graduate School of Science, The University of Osaka, Toyonaka, Osaka 560-0043, Japan"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Takuto Tamaoki",
+          "institutions": [
+            "Department of Earth and Space Science, Graduate School of Science, The University of Osaka, Toyonaka, Osaka 560-0043, Japan"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Motohide Tamura",
+          "institutions": [
+            "Astrobiology Center, 2-21-1 Osawa, Mitaka-shi, Tokyo 181-8588, Japan",
+            "Department of Astronomy, University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan"
+          ],
+          "orcid": "https://orcid.org/0000-0002-6510-0681"
+        },
+        {
+          "name": "Sean K. Terry",
+          "institutions": [
+            "Code 667, NASA Goddard Space Flight Center, Greenbelt, MD 20771, USA",
+            "Department of Astronomy, University of Maryland, College Park, MD 20742, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Chihiro Ueda",
+          "institutions": [
+            "Department of Earth and Space Science, Graduate School of Science, The University of Osaka, Toyonaka, Osaka 560-0043, Japan"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Aikaterini Vandorou",
+          "institutions": [
+            "Code 667, NASA Goddard Space Flight Center, Greenbelt, MD 20771, USA",
+            "Department of Astronomy, University of Maryland, College Park, MD 20742, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Hibiki Yama",
+          "institutions": [
+            "Department of Astronomy, Graduate School of Science, Kyoto University, Kitashirakawa Oiwake-cho, Sakyo-ku, Kyoto 606-8502, Japan"
+          ],
+          "orcid": "https://orcid.org/0000-0001-7692-0581"
+        },
+        {
+          "name": "Michael D. Albrow",
+          "institutions": [
+            "University of Canterbury, School of Physical and Chemical Sciences, Private Bag 4800, Christchurch 8020, New Zealand"
+          ],
+          "orcid": "https://orcid.org/0000-0003-3316-4012"
+        },
+        {
+          "name": "Sun-Ju Chung",
+          "institutions": [
+            "Korea Astronomy and Space Science Institute, Daejeon 34055, Republic of Korea"
+          ],
+          "orcid": "https://orcid.org/0000-0001-6285-4528"
+        },
+        {
+          "name": "Cheongho Han",
+          "institutions": [
+            "Department of Physics, Chungbuk National University, Cheongju 28644, Republic of Korea"
+          ],
+          "orcid": "https://orcid.org/0000-0002-2641-9964"
+        },
+        {
+          "name": "Kyu-Ha Hwang",
+          "institutions": [
+            "Korea Astronomy and Space Science Institute, Daejeon 34055, Republic of Korea"
+          ],
+          "orcid": "https://orcid.org/0000-0002-9241-4117"
+        },
+        {
+          "name": "Youn Kil Jung",
+          "institutions": [
+            "Korea Astronomy and Space Science Institute, Daejeon 34055, Republic of Korea",
+            "National University of Science and Technology (UST), Daejeon 34113, Republic of Korea"
+          ],
+          "orcid": "https://orcid.org/0000-0002-0314-6000"
+        },
+        {
+          "name": "Yoon-Hyun Ryu",
+          "institutions": [
+            "Korea Astronomy and Space Science Institute, Daejeon 34055, Republic of Korea"
+          ],
+          "orcid": "https://orcid.org/0000-0001-9823-2907"
+        },
+        {
+          "name": "In-Gu Shin",
+          "institutions": [
+            "School of Science, Westlake University, Hangzhou, Zhejiang 310030, China"
+          ],
+          "orcid": "https://orcid.org/0000-0002-4355-9838"
+        },
+        {
+          "name": "Yossi Shvartzvald",
+          "institutions": [
+            "Department of Particle Physics and Astrophysics, Weizmann Institute of Science, Rehovot 7610001, Israel"
+          ],
+          "orcid": "https://orcid.org/0000-0003-1525-5041"
+        },
+        {
+          "name": "Hongjing Yang",
+          "institutions": [
+            "School of Science, Westlake University, Hangzhou, Zhejiang 310030, China",
+            "Department of Astronomy, Tsinghua University, Beijing 100084, China"
+          ],
+          "orcid": "https://orcid.org/0000-0003-0626-8465"
+        },
+        {
+          "name": "Dong-Jin Kim",
+          "institutions": [
+            "Korea Astronomy and Space Science Institute, Daejeon 34055, Republic of Korea"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Chung-Uk Lee",
+          "institutions": [
+            "Korea Astronomy and Space Science Institute, Daejeon 34055, Republic of Korea"
+          ],
+          "orcid": "https://orcid.org/0000-0003-0043-3925"
+        },
+        {
+          "name": "Byeong-Gon Park",
+          "institutions": [
+            "Korea Astronomy and Space Science Institute, Daejeon 34055, Republic of Korea"
+          ],
+          "orcid": "https://orcid.org/0000-0002-6982-7722"
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.36768v1",
+      "intro_en": "We present analyses of two 2024 microlensing events, KMT-2024-BLG-0211 and KMT-2024-BLG-1522, jointly observed by KMTNet in the optical and PRIME in the near-infrared. For KMT-2024-BLG-0211, the KMTNet--PRIME $I-H$ color provides a useful constraint on the angular source radius for a short-timescale finite-source event with a giant source.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-09-29",
+      "publication_date_source": "https://arxiv.org/abs/2609.36768v1",
+      "version_date": "2026-09-29T05:42:03+00:00"
+    },
+    {
+      "id": "2609.36697",
+      "version_id": "2609.36697v1",
+      "title": "High-CO2 Climates and Observables in the Outer Habitable Zone",
+      "abstract": "The habitable zone (HZ) is a fundamental concept used to guide our search for temperate exoplanets with stable surface liquid water that would sustain remotely detectable biosignatures. So far, most advanced 3D climate studies and prospective spectral simulations of HZ planets have focused on inner HZ planets that receive stellar radiation similar to Earth and would consequently maintain relatively low (e.g., hundreds of parts per million) atmospheric CO2. Here, we present a systematic investigation of outer HZ (OHZ) planets, which require high CO2 for habitability, using the 3D Generic Planetary Climate Model (PCM). Our 3D climate results are compared with previous 1D predictions that show strong agreement between models. Simulated spectra of the modeled planets indicate that high overlying CO2 levels affect remote signatures of habitability. We also determine substantial spectral differences that would distinguish habitable versus nonhabitable high-CO2 worlds with future direct-imaging observations for solar analogs and with transmission and emission spectroscopy for M dwarfs. Our results demonstrate that 3D models that include CO2 condensation are necessary to understand the potential planetary habitability and spectral impacts of clouds on terrestrial worlds in the OHZ.",
+      "published": "2026-09-29T04:37:26Z",
+      "updated": "2026-09-29T04:37:26Z",
+      "authors": [
+        "Daria Pidhorodetska",
+        "Edward W. Schwieterman",
+        "Thomas J. Fauchez",
+        "Martin Turbet"
+      ],
+      "doi": "10.3847/1538-4357/ae9869",
+      "categories": [
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2609.36697",
+      "pdf": "https://arxiv.org/pdf/2609.36697v1",
+      "source": "arXiv",
+      "first_seen": "2026-09-30T01:27:08.555929+00:00",
+      "version_changed": false,
+      "topics": [
+        "planetary",
+        "models",
+        "physics",
+        "detection"
+      ],
+      "matches": {
+        "planetary": [
+          "habitable zone",
+          "planetary climate"
+        ],
+        "models": [
+          "climate model"
+        ],
+        "physics": [
+          "condensation"
+        ],
+        "detection": [
+          "biosignature",
+          "direct imaging"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：habitable zone、planetary climate、climate model、condensation、biosignature、direct imaging",
+      "tags": [
+        "云与辐射 · Clouds & radiation",
+        "水循环 · Water cycle",
+        "宜居性 · Habitability",
+        "光谱与相曲线 · Spectra & phase curves",
+        "海冰与表层 · Ice & surface",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 65,
+      "fit_matches": [
+        "行星气候与模式"
+      ],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2609.36697v1",
+      "intro_en": "The habitable zone (HZ) is a fundamental concept used to guide our search for temperate exoplanets with stable surface liquid water that would sustain remotely detectable biosignatures. So far, most advanced 3D climate studies and prospective spectral simulations of HZ planets have focused on inner HZ planets that receive stellar radiation similar to Earth and would consequently maintain relatively low (e.g., hundreds of parts per million) atmospheric CO2.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-09-29",
+      "publication_date_source": "https://arxiv.org/abs/2609.36697v1",
+      "version_date": "2026-09-29T04:37:26+00:00"
+    },
+    {
+      "id": "2609.36673",
+      "version_id": "2609.36673v1",
+      "title": "A Bayesian Inference Framework for Binary Lens Events Fully Incorporating Higher-Order Effects",
+      "abstract": "Higher-order effects, such as microlensing parallax and lens orbital motion, are essential for characterizing the physical properties of microlensing planetary systems including their masses and distances. In practice, higher-order effects are often included in light-curve modeling only when their signals are strong, because their inclusion in weakly constrained cases tends to drive the inferred parameters toward regions of parameter space that are disfavored by standard Galactic models. This binary choice over physically continuous effects introduces an event-dependent selection function that complicates population-level interpretation and prevents strong and weak detections from being combined within a single uniform framework. In this work, we investigate the origin of instabilities associated with higher-order effects, and show that such instabilities can arise from a mismatch between commonly adopted uninformative priors in the light-curve parameter space and the distributions predicted by Galactic models. Motivated by this, we develop a new Bayesian framework that enables higher-order effects to be incorporated in a stable and uniform manner. As part of this framework, we introduce Galactic Prior Modeling Engine (gapmoe), a dedicated tool that enables efficient evaluation of the Galactic prior density and allows it to be incorporated directly into the light-curve inference. Using simulated events, we demonstrate that our framework robustly recovers the true physical parameters while fully accounting for microlensing parallax and lens orbital motion. This framework eliminates the need for ad-hoc model selection and provides a scalable and statistically consistent pathway for analyzing the large samples expected from next-generation surveys such as the Roman Space Telescope.",
+      "published": "2026-09-29T04:12:17Z",
+      "updated": "2026-09-29T04:12:17Z",
+      "authors": [
+        "Kansuke Nunota",
+        "Kento Masuda"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP",
+        "astro-ph.GA",
+        "astro-ph.IM"
+      ],
+      "url": "https://arxiv.org/abs/2609.36673",
+      "pdf": "https://arxiv.org/pdf/2609.36673v1",
+      "source": "arXiv",
+      "first_seen": "2026-09-30T01:27:08.555929+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "行星科学拓展阅读",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [
+        "行星轨道与演化"
+      ],
+      "institutions": [
+        "Department of Earth and Space Science, Graduate School of Science, Osaka University, Toyonaka, Osaka 560-0043, Japan"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Kansuke Nunota",
+          "institutions": [
+            "Department of Earth and Space Science, Graduate School of Science, Osaka University, Toyonaka, Osaka 560-0043, Japan"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Kento Masuda",
+          "institutions": [
+            "Department of Earth and Space Science, Graduate School of Science, Osaka University, Toyonaka, Osaka 560-0043, Japan"
+          ],
+          "orcid": "https://orcid.org/0000-0003-1298-9699"
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.36673v1",
+      "intro_en": "Higher-order effects, such as microlensing parallax and lens orbital motion, are essential for characterizing the physical properties of microlensing planetary systems including their masses and distances. In practice, higher-order effects are often included in light-curve modeling only when their signals are strong, because their inclusion in weakly constrained cases tends to drive the inferred parameters toward regions of parameter space that are disfavored by standard Galactic models.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-09-29",
+      "publication_date_source": "https://arxiv.org/abs/2609.36673v1",
+      "version_date": "2026-09-29T04:12:17+00:00"
+    },
+    {
+      "id": "2609.36669",
+      "version_id": "2609.36669v1",
+      "title": "Leading-edge noise reduction by perforated and porous inserts: a compressible finite-chord prediction without fitted constants",
+      "abstract": "Porous and perforated leading edges reduce turbulence-interaction noise, but predictions of the reduction have relied on material impedances adjusted to the acoustic data. This paper removes that adjustment. The finite-chord scattering problem is solved in compressible subsonic flow for an arbitrary chordwise admittance, with the shed wake, the Kutta condition and permeability-dependent edge singularities, and closed to the far field with the finite span and the array aperture represented. The admittance of a perforated insert is derived from the Rayleigh conductivity of one aperture with three computed corrections: plate thickness, interaction between neighbouring apertures, and Howe's grazing-flow blockage evaluated at the aperture-averaged velocity of the boundary layer. A bulk porous insert is represented by its measured permeability and pore-fluid inertia. For three perforates at four flow conditions the prediction agrees with measurements to 2.5 dB rms over 84 comparisons, against 4.4 dB with the unscaled impedance used previously. Although the Mach number is 0.05, the chord is acoustically non-compact, and an incompressible solution rises where the measurement falls. Two of three bulk porous inserts are predicted to within 1.7 dB rms where interaction noise dominates. Narrow, equally spaced peaks measured on perforated plates are reproduced by none of the admittances tested; their spacing implies a source convecting at 0.62 of the free-stream speed, absent from a frozen-gust model. A parameter study shows that the perforate geometry acts almost entirely through one low-frequency admittance group, in which the hole radius cancels for holes buried in the laminar boundary layer.",
+      "published": "2026-09-29T04:09:58Z",
+      "updated": "2026-09-29T04:09:58Z",
+      "authors": [
+        "Seongkyu Lee"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2609.36669",
+      "pdf": "https://arxiv.org/pdf/2609.36669v1",
+      "source": "arXiv",
+      "first_seen": "2026-09-30T01:27:08.555929+00:00",
+      "version_changed": false,
+      "topics": [
+        "methods"
+      ],
+      "matches": {
+        "methods": [
+          "turbulence"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "流体与不稳定性 · Fluid dynamics"
+      ],
+      "method": "keyword",
+      "fit_score": 20,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [
+        {
+          "name": "Seongkyu Lee",
+          "institutions": [],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2609.36669v1",
+      "intro_en": "Porous and perforated leading edges reduce turbulence-interaction noise, but predictions of the reduction have relied on material impedances adjusted to the acoustic data. This paper removes that adjustment.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-09-29",
+      "publication_date_source": "https://arxiv.org/abs/2609.36669v1",
+      "version_date": "2026-09-29T04:09:58+00:00"
+    },
+    {
+      "id": "2609.36623",
+      "version_id": "2609.36623v1",
+      "title": "Anomalous pressure-dependent viscosity of basaltic melts and its role in asthenosphere melt accumulation",
+      "abstract": "The asthenosphere's mechanical weakness enables plate tectonics, but its origin is debated. Partial melt has been proposed to cause this softening, yet recent studies suggest that the measured viscosity minimum in basaltic melts, an essential control on melt mobility, is an experimental artifact. Using quantum mechanics-based, machine learning-accelerated molecular dynamics, we extend simulation timescales by more than a factor of 1000 and achieve percent-level precision. We show that basaltic melt exhibits a robust viscosity minimum (approximately 20% below 1-bar values) at approximately 3 GPa, driven by pressure-induced reorganization of aluminum coordination that facilitates shear relaxation while silicon-oxygen polyhedra remain structurally rigid. Our results reveal a depth-dependent rheological transition: melt mobility peaks below approximately 150 km, promoting efficient extraction, but declines sharply during ascent, causing melt to stagnate beneath the lithosphere. This mechanism provides a physical basis for the dual seismic signatures of a melt-depleted deep asthenosphere and a melt-enriched layer near the lithosphere-asthenosphere boundary.",
+      "published": "2026-09-29T03:33:17Z",
+      "updated": "2026-09-29T03:33:17Z",
+      "authors": [
+        "Hongkun Zeng",
+        "Peiyu Zhang",
+        "Liang Yuan",
+        "Youjun Zhang",
+        "Xiang Wu",
+        "Junfeng Zhang"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.chem-ph",
+        "physics.comp-ph",
+        "physics.geo-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.36623",
+      "pdf": "https://arxiv.org/pdf/2609.36623v1",
+      "source": "arXiv",
+      "first_seen": "2026-09-30T01:27:08.555929+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2609.36623v1",
+      "intro_en": "The asthenosphere's mechanical weakness enables plate tectonics, but its origin is debated. Partial melt has been proposed to cause this softening, yet recent studies suggest that the measured viscosity minimum in basaltic melts, an essential control on melt mobility, is an experimental artifact.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-09-29",
+      "publication_date_source": "https://arxiv.org/abs/2609.36623v1",
+      "version_date": "2026-09-29T03:33:17+00:00"
+    },
     {
       "id": "2609.28618",
       "version_id": "2609.28618v1",
@@ -3932,75 +4615,6 @@
       "version_date": "2026-09-23T19:47:31+00:00"
     },
     {
-      "id": "2609.29027",
-      "version_id": "2609.29027v1",
-      "title": "Generative Atmospheric Super-Resolution from Heterogeneous In Situ Observations through Composable Interfaces",
-      "abstract": "Atmospheric observations are sparse, heterogeneous, and unevenly distributed, whereas many generative atmospheric models learn distributions over regularly gridded multivariate states. Once pretrained, diffusion models can supply atmospheric priors that can be combined with observation-derived likelihood factors in a Bayesian formulation. However, these observation sources differ substantially in geometry and sampling density, complicating the consistent use of their observations within a common inference framework. Here, we formulate this reconstruction problem as generative atmospheric super-resolution and introduce composable observation interfaces for conditioning a single pretrained 13-variable atmospheric diffusion model. The interfaces convert sparse radiosonde (R), clustered aircraft (A), and dense irregular surface-station (S) observations into source-specific likelihood factors that specify where observations constrain the gridded state, how residuals are counted under uneven sampling, and how strongly each source guides posterior sampling. We developed the aircraft and surface observation interfaces using 2019 observations and evaluated the selected interfaces throughout 2020 without further tuning. Compared with reconstructions conditioned only on radiosonde observations, the composed R+A+S interface reduces RMSE evaluated against ERA5 by $9.24\\%$ across all 13 state variables over the CONUS domain. The aircraft and surface factors provide complementary improvements in upper-air and surface variables. The R+A+S combination also lowers the Continuous Ranked Probability Score (CRPS), while evaluations at held-out aircraft and surface-station observations show reduced prediction errors. Together, these results demonstrate a modular route for conditioning a pretrained atmospheric generative prior on heterogeneous in situ observations without retraining the underlying model.",
-      "authors": [
-        "Yang Xu, Dibyajyoti Chakraborty, Haiwen Guan, Sen Wang, Romit Maulik"
-      ],
-      "categories": [
-        "cs.LG",
-        "physics.ao-ph"
-      ],
-      "published": "2026-09-25T00:00:00-04:00",
-      "updated": "2026-09-25T04:36:01.809082+00:00",
-      "date_kind": "announcement",
-      "announcement_type": "cross",
-      "url": "https://arxiv.org/abs/2609.29027",
-      "pdf": "https://arxiv.org/pdf/2609.29027v1",
-      "source": "arXiv",
-      "first_seen": "2026-09-26T01:23:05.202209+00:00",
-      "version_changed": false,
-      "topics": [],
-      "matches": {},
-      "status": "unmatched",
-      "reason": "拓展阅读",
-      "tags": [
-        "海冰与表层 · Ice & surface"
-      ],
-      "method": "keyword",
-      "institutions": [],
-      "author_affiliations": [
-        {
-          "name": "Yang Xu",
-          "institutions": [],
-          "orcid": null
-        },
-        {
-          "name": "Dibyajyoti Chakraborty",
-          "institutions": [],
-          "orcid": null
-        },
-        {
-          "name": "Haiwen Guan",
-          "institutions": [],
-          "orcid": null
-        },
-        {
-          "name": "Sen Wang",
-          "institutions": [],
-          "orcid": null
-        },
-        {
-          "name": "Romit Maulik",
-          "institutions": [],
-          "orcid": null
-        }
-      ],
-      "affiliation_status": "unavailable",
-      "affiliation_source": "https://arxiv.org/html/2609.29027v1",
-      "intro_en": "Atmospheric observations are sparse, heterogeneous, and unevenly distributed, whereas many generative atmospheric models learn distributions over regularly gridded multivariate states. Once pretrained, diffusion models can supply atmospheric priors that can be combined with observation-derived likelihood factors in a Bayesian formulation.",
-      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
-      "intro_kind": "abstract_excerpt",
-      "intro_basis": "英文摘要节选",
-      "publication_date": "2026-09-24",
-      "publication_date_source": "https://arxiv.org/abs/2609.29027v1",
-      "fit_score": 0,
-      "fit_matches": [],
-      "version_date": "2026-09-24T04:55:37+00:00"
-    },
-    {
       "id": "2604.14009",
       "version_id": "2604.14009v2",
       "title": "The impact of two-dimensional filtering on SWOT observations with white noise",
@@ -5787,6 +6401,80 @@
       "fit_score": 0,
       "fit_matches": [],
       "version_date": "2026-09-24T11:49:46+00:00"
+    },
+    {
+      "id": "2609.29027",
+      "version_id": "2609.29027v2",
+      "title": "Generative Atmospheric Super-Resolution from Heterogeneous In Situ Observations through Composable Interfaces",
+      "abstract": "Atmospheric observations are sparse, heterogeneous, and unevenly distributed, whereas many generative atmospheric models learn distributions over regularly gridded multivariate states. Once pretrained, diffusion models can supply atmospheric priors that can be combined with observation-derived likelihood factors in a Bayesian formulation. However, these observation sources differ substantially in geometry and sampling density, complicating the consistent use of their observations within a common inference framework. Here, we formulate this reconstruction problem as generative atmospheric super-resolution and introduce composable observation interfaces for conditioning a single pretrained 13-variable atmospheric diffusion model. The interfaces convert sparse radiosonde (R), clustered aircraft (A), and dense irregular surface-station (S) observations into source-specific likelihood factors that specify where observations constrain the gridded state, how residuals are counted under uneven sampling, and how strongly each source guides posterior sampling. We developed the aircraft and surface observation interfaces using 2019 observations and evaluated the selected interfaces throughout 2020 without further tuning. Compared with reconstructions conditioned only on radiosonde observations, the composed R+A+S interface reduces RMSE evaluated against ERA5 by $9.24\\%$ across all 13 state variables over the CONUS domain. The aircraft and surface factors provide complementary improvements in upper-air and surface variables. The R+A+S combination also lowers the Continuous Ranked Probability Score (CRPS), while evaluations at held-out aircraft and surface-station observations show reduced prediction errors. Together, these results demonstrate a modular route for conditioning a pretrained atmospheric generative prior on heterogeneous in situ observations without retraining the underlying model.",
+      "authors": [
+        "Yang Xu",
+        "Dibyajyoti Chakraborty",
+        "Haiwen Guan",
+        "Sen Wang",
+        "Romit Maulik"
+      ],
+      "categories": [
+        "cs.LG",
+        "physics.ao-ph"
+      ],
+      "published": "2026-09-24T04:55:37Z",
+      "updated": "2026-09-29T03:12:08Z",
+      "date_kind": "announcement",
+      "announcement_type": "cross",
+      "url": "https://arxiv.org/abs/2609.29027",
+      "pdf": "https://arxiv.org/pdf/2609.29027v2",
+      "source": "arXiv",
+      "first_seen": "2026-09-26T01:23:05.202209+00:00",
+      "version_changed": true,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "海冰与表层 · Ice & surface"
+      ],
+      "method": "keyword",
+      "institutions": [],
+      "author_affiliations": [
+        {
+          "name": "Yang Xu",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Dibyajyoti Chakraborty",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Haiwen Guan",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Sen Wang",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Romit Maulik",
+          "institutions": [],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2609.29027v2",
+      "intro_en": "Atmospheric observations are sparse, heterogeneous, and unevenly distributed, whereas many generative atmospheric models learn distributions over regularly gridded multivariate states. Once pretrained, diffusion models can supply atmospheric priors that can be combined with observation-derived likelihood factors in a Bayesian formulation.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-09-24",
+      "publication_date_source": "https://arxiv.org/abs/2609.29027v2",
+      "fit_score": 0,
+      "fit_matches": [],
+      "doi": "",
+      "version_date": "2026-09-29T03:12:08+00:00"
     },
     {
       "id": "2609.26874",
@@ -10467,6 +11155,223 @@
       "fit_score": 0,
       "fit_matches": [],
       "version_date": "2026-09-23T14:58:34+00:00"
+    },
+    {
+      "id": "2609.25505",
+      "version_id": "2609.25505v2",
+      "title": "FAST-ML: A Hybrid Physics-Machine Learning Framework for Tropical Cyclone Intensity Forecasting",
+      "abstract": "Rapid intensification (RI) remains one of the most consequential and difficult aspects of tropical cyclone (TC) forecasting. Although full-physics numerical weather prediction models can represent the processes governing RI, resolving storm-environment interactions remains computationally expensive, while purely data-driven approaches often lack physical interpretability. We present FAST-ML, a hybrid framework that bridges data-driven efficiency with physical constraints. A physically informed dual-stream neural parameterization ingests 3D ERA5 fields to diagnose ventilation controls---environmental wind shear and mid-level entropy deficit. By optimizing these parameters end-to-end through a differentiable FAST intensity model, this architecture establishes a robust new paradigm for observation-driven parameter optimization, ensuring storm evolution remains strictly governed by thermodynamic principles. By better capturing the storm's continuous intensity evolution, FAST-ML improves upon its physical baseline, reducing ensemble CRPS across forecast lead times, with a reduction of approximately 31% at 60 h and nearly halving the RI false alarm ratio without sacrificing detection skill. In a 100-member ensemble configuration, FAST-ML produces intensity forecasts comparable to FNV3 for selected storms under the evaluated input configurations. Furthermore, zero-shot tests on selected Eastern Pacific storms provide encouraging evidence of cross-basin transferability. FAST-ML provides a modular intensity forecasting framework that can be coupled with externally supplied storm tracks and environmental fields. It demonstrates that observation-driven parameter learning within physically constrained dynamics simultaneously enhances accuracy, interpretability, and computational efficiency.",
+      "published": "2026-09-22T00:02:24Z",
+      "updated": "2026-09-29T03:55:05Z",
+      "authors": [
+        "Shijie Xiao",
+        "Jonathan Lin",
+        "Thomas Ehrmann",
+        "Ali Sarhadi"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.ao-ph",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2609.25505",
+      "pdf": "https://arxiv.org/pdf/2609.25505v2",
+      "source": "arXiv",
+      "first_seen": "2026-09-30T01:27:08.555929+00:00",
+      "version_changed": false,
+      "topics": [
+        "dynamics"
+      ],
+      "matches": {
+        "dynamics": [
+          "storm track"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 34,
+      "fit_matches": [],
+      "institutions": [
+        "1,4",
+        "Department of Earth and Atmospheric Sciences, Cornell University, Ithaca, NY, USA",
+        "Sandia National Laboratories, Albuquerque, NM, USA",
+        "School of Earth and Atmospheric Sciences, Georgia Institute of Technology, Atlanta, GA, USA",
+        "School of Interactive Computing, Georgia Institute of Technology, Atlanta, GA, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Shijie Xiao",
+          "institutions": [
+            "1,4"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Jonathan Lin",
+          "institutions": [
+            "Department of Earth and Atmospheric Sciences, Cornell University, Ithaca, NY, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Thomas Ehrmann",
+          "institutions": [
+            "Sandia National Laboratories, Albuquerque, NM, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Ali Sarhadi",
+          "institutions": [
+            "1,4"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.25505v2",
+      "intro_en": "Rapid intensification (RI) remains one of the most consequential and difficult aspects of tropical cyclone (TC) forecasting. Although full-physics numerical weather prediction models can represent the processes governing RI, resolving storm-environment interactions remains computationally expensive, while purely data-driven approaches often lack physical interpretability.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-09-22",
+      "publication_date_source": "https://arxiv.org/abs/2609.25505v2",
+      "version_date": "2026-09-29T03:55:05+00:00"
+    },
+    {
+      "id": "2605.23166",
+      "version_id": "2605.23166v3",
+      "title": "Free surfaces in turbulence - A unified framework from water surfaces to elastic solids",
+      "abstract": "What do the ocean surface and a swaying flag have in common? Both are deformable surfaces exhibiting chaotic motion when exposed to turbulent flows. Whether such motion is primarily driven by flow turbulence or by nonlinear dynamics intrinsic to the surface remains debated. Surface waves can interact nonlinearly and transfer energy across scales through the cascade of wave turbulence, a behaviour observed at interfaces between otherwise quiescent fluids and in controlled laboratory experiments. They can as well induce turbulent motions in the neighbouring fluids (wave-induced-turbulence), provided the local Reynolds number is large enough. Realistic environments, however, are more complex and typically involve the simultaneous presence of wave turbulence and wave-induced-turbulence with turbulence-induced-waves, the dynamic relevance of which remains unclear. Here we develop a theoretical framework describing the response of a deformable surface to pressure fluctuations generated by a turbulent flow, and validate it using numerical simulations of the air-water interface in quasi-realistic conditions, complemented by simulations of a deformable rubber layer. Our linear theory, which excludes nonlinear wave-wave interactions, predicts distinct dynamical regimes depending on whether intrinsic surface dynamics emerge or whether the interface is enslaved by flow turbulence. Remarkably, although our fully resolved and nonlinear simulations do not inhibit the onset of wave turbulence, interface spectra measured in the configurations studied here are controlled at leading order by turbulent pressure forcing and linear surface response, in strong agreement with our theoretical assumptions. Our predictions appear compatible with aerial surveys of the ocean surface, highlighting the need for further measurements to distinguish among wave turbulence and turbulence-induced-waves.",
+      "published": "2026-05-22T02:34:28Z",
+      "updated": "2026-09-29T06:31:03Z",
+      "authors": [
+        "Giulio Foggi Rota",
+        "Andrea Mazzino",
+        "Marco Edoardo Rosti"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn",
+        "physics.geo-ph"
+      ],
+      "url": "https://arxiv.org/abs/2605.23166",
+      "pdf": "https://arxiv.org/pdf/2605.23166v3",
+      "source": "arXiv",
+      "first_seen": "2026-09-30T01:27:08.555929+00:00",
+      "version_changed": false,
+      "topics": [
+        "methods"
+      ],
+      "matches": {
+        "methods": [
+          "turbulence"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "海冰与表层 · Ice & surface",
+        "流体与不稳定性 · Fluid dynamics",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 25,
+      "fit_matches": [
+        "理论机制与尺度关系"
+      ],
+      "institutions": [
+        "\\aff1Complex Fluids and Flows Unit, Okinawa Institute of Science and Technology Graduate University (OIST), 1919-1 Tancha, Onna, Okinawa, 904-0495, JP. \\aff2Department of Civil, Chemical and Environmental Engineering (DICCA), University of Genova, Via Montallegro 1, Genova, 16145, IT. \\aff3 National Institute for Nuclear Physics (INFN), Section of Genova, Via Dodecaneso 33, Genova, 16146, IT."
+      ],
+      "author_affiliations": [
+        {
+          "name": "Giulio Foggi Rota \\aff1 ID",
+          "institutions": [],
+          "orcid": "https://orcid.org/0000-0002-4361-6521"
+        },
+        {
+          "name": "Andrea Mazzino \\aff2,3 ID",
+          "institutions": [],
+          "orcid": "https://orcid.org/0000-0003-0170-2891"
+        },
+        {
+          "name": "Marco Edoardo Rosti \\aff1 ID",
+          "institutions": [
+            "\\aff1Complex Fluids and Flows Unit, Okinawa Institute of Science and Technology Graduate University (OIST), 1919-1 Tancha, Onna, Okinawa, 904-0495, JP. \\aff2Department of Civil, Chemical and Environmental Engineering (DICCA), University of Genova, Via Montallegro 1, Genova, 16145, IT. \\aff3 National Institute for Nuclear Physics (INFN), Section of Genova, Via Dodecaneso 33, Genova, 16146, IT."
+          ],
+          "orcid": "https://orcid.org/0000-0002-9004-2292"
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2605.23166v3",
+      "intro_en": "What do the ocean surface and a swaying flag have in common? Both are deformable surfaces exhibiting chaotic motion when exposed to turbulent flows.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-05-22",
+      "publication_date_source": "https://arxiv.org/abs/2605.23166v3",
+      "version_date": "2026-09-29T06:31:03+00:00"
+    },
+    {
+      "id": "2512.18289",
+      "version_id": "2512.18289v3",
+      "title": "A Neural-Network Model-Measurement-Based Observation Operator For Weather Radar Reflectivity Assimilation",
+      "abstract": "In three-dimensional variational data assimilation (3DVar) for numerical weather prediction (NWP), the observation operator $\\mathcal{H}$ plays a central role by mapping model state variables to an observation equivalent. For weather radar, however, specifying $\\mathcal{H}$ is particularly challenging: reflectivity is a nonlinear, microphysics-dependent diagnostic quantity that only indirectly relates to the model's prognostic variables, making traditional parameterised radar operators complex, regime-dependent and difficult to tune. In this study, we propose a neural-network (NN)-based observation operator for radar reflectivity and apply it within a 3DVar framework. Using five years (2019-2023) of radar reflectivity data from the Lisca radar and 4.4 km-resolution short-range forecasts from ALADIN model over Slovenia, we train a convolutional encoder-decoder neural network to map model temperature, humidity, horizontal wind components and surface pressure fields to radar reflectivity. Across independent test cases spanning clear-sky, stratiform, and convective regimes, the NN-based operator accurately reproduces the spatial structure and intensity of observed reflectivity, relying primarily on the model state near the observation point. In the extreme precipitation case, which caused widespread floods in Slovenia on August 4, 2023, assimilating the full radar disc reduces the domain-averaged reflectivity root-mean-square error from 5.99 dBZ to 3.47 dBZ and improves the alignment between the analysed and observed convective bands. Embedded within 3DVar, the Jacobian of the NN observation operator allows radar reflectivity observations to inform model state variables, producing corresponding analysis increments. The proposed NN radar observation operator offers a flexible alternative to traditional parameterised radar operators for improving convective-storm forecasts.",
+      "published": "2025-12-20T09:29:08Z",
+      "updated": "2026-09-29T06:13:25Z",
+      "authors": [
+        "Marco Stefanelli",
+        "Žiga Zaplotnik",
+        "Gregor Skok"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.ao-ph"
+      ],
+      "url": "https://arxiv.org/abs/2512.18289",
+      "pdf": "https://arxiv.org/pdf/2512.18289v3",
+      "source": "arXiv",
+      "first_seen": "2026-09-30T01:27:08.555929+00:00",
+      "version_changed": false,
+      "topics": [
+        "methods"
+      ],
+      "matches": {
+        "methods": [
+          "data assimilation"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "水循环 · Water cycle",
+        "海冰与表层 · Ice & surface",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 20,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [
+        {
+          "name": "Marco Stefanelli1, Žiga Zaplotnik2,1, Gregor Skok1 1University of Ljubljana, Faculty of Mathematics and Physics, Jadranska Cesta 19, 1000 Ljubljana, Slovenia 2European Centre for Medium-Range Weather Forecasts, Robert-Schuman-Platz 3, 53175 Bonn, Germany Corresponding author: Marco Stefanelli marco.stefanelli@fmf.uni-lj.si",
+          "institutions": [],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2512.18289v3",
+      "intro_en": "In three-dimensional variational data assimilation (3DVar) for numerical weather prediction (NWP), the observation operator $\\mathcal{H}$ plays a central role by mapping model state variables to an observation equivalent. For weather radar, however, specifying $\\mathcal{H}$ is particularly challenging: reflectivity is a nonlinear, microphysics-dependent diagnostic quantity that only indirectly relates to the model's prognostic variables, making traditional parameterised radar operators complex, regime-dependent and difficult to tune.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2025-12-20",
+      "publication_date_source": "https://arxiv.org/abs/2512.18289v3",
+      "version_date": "2026-09-29T06:13:25+00:00"
     }
   ]
 }
