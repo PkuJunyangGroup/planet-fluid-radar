@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-09-30T01:27:08.555929+00:00",
+  "generated_at": "2026-10-01T01:27:47.512416+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
-      "last_attempt": "2026-09-30T01:27:08.555929+00:00",
-      "last_success": "2026-09-30T01:27:08.555929+00:00",
+      "last_attempt": "2026-10-01T01:27:47.512416+00:00",
+      "last_success": "2026-10-01T01:27:47.512416+00:00",
       "status": "ok",
-      "fetched": 3
+      "fetched": 1
     },
     "physics.ao-ph": {
-      "last_attempt": "2026-09-30T01:27:08.555929+00:00",
-      "last_success": "2026-09-30T01:27:08.555929+00:00",
+      "last_attempt": "2026-10-01T01:27:47.512416+00:00",
+      "last_success": "2026-10-01T01:27:47.512416+00:00",
       "status": "ok",
-      "fetched": 3
+      "fetched": 1
     },
     "physics.geo-ph": {
-      "last_attempt": "2026-09-30T01:27:08.555929+00:00",
-      "last_success": "2026-09-30T01:27:08.555929+00:00",
+      "last_attempt": "2026-10-01T01:27:47.512416+00:00",
+      "last_success": "2026-10-01T01:27:47.512416+00:00",
       "status": "ok",
-      "fetched": 2
+      "fetched": 1
     },
     "physics.flu-dyn": {
-      "last_attempt": "2026-09-30T01:27:08.555929+00:00",
-      "last_success": "2026-09-30T01:27:08.555929+00:00",
+      "last_attempt": "2026-10-01T01:27:47.512416+00:00",
+      "last_success": "2026-10-01T01:27:47.512416+00:00",
       "status": "ok",
-      "fetched": 3
+      "fetched": 2
     }
   },
   "topics": [
@@ -811,6 +811,168 @@
   ],
   "repository": "https://github.com/PkuJunyangGroup/planet-fluid-radar",
   "papers": [
+    {
+      "id": "2609.39187",
+      "version_id": "2609.39187v1",
+      "title": "A limit theorem linking continuous plate models to the topology of the plate boundary network",
+      "abstract": "Plate tectonics is described in two registers: a discrete one, in which rigid plates tile the sphere and meet at trivalent junctions, and a continuous one, in which Bercovici and Wessel (1994) replace hard plate outlines by smooth shape functions of finite boundary half-width $δ^*$. We prove that the two registers are connected by a limit theorem. Generalizing the shape functions to a signed-geodesic-distance construction, we show that they converge almost everywhere, exponentially in $1/δ^*$, to the plate indicator functions; that the sharp plate mosaic is a finite regular trivalent CW decomposition of the sphere under an explicit structural hypothesis; and that a component-counted weighted Euler characteristic $χ_w^{δ^*}(τ)$, built from the super-level sets of the shape functions, equals $V-E+F=2$ for all $δ^*$ below an explicit threshold $δ_0(τ)$, with its face, edge and vertex terms converging separately to the numbers of plates, boundary arcs and triple junctions. The theorem is proved unconditionally on the signed-distance offset cover under positive-reach, separation and bounded-sector hypotheses, and transferred to the normalized partition-of-unity field for thresholds $τ<1/3$ by a comparison lemma whose junction-ball step, a planar single-crossing property, is certified numerically. The residual $|χ_w-2|$ defines a topological diffuseness index for diffuse plate boundaries. For the present-day PB2002 network the hypotheses are measured to be non-vacuous, with $δ_0(0.15)\\approx2.8$ km. The theorem is the mathematical foundation of the topological audit of plate reconstructions presented in a companion paper (Kim, 2026, submitted to Geoscience Frontiers).",
+      "published": "2026-09-30T07:42:33Z",
+      "updated": "2026-09-30T07:42:33Z",
+      "authors": [
+        "Seung-Sep Kim"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.geo-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.39187",
+      "pdf": "https://arxiv.org/pdf/2609.39187v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-01T01:27:47.512416+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Department of Geological Sciences, Chungnam National University,",
+        "99 Daehak-ro, Yuseong-gu, Daejeon 34134, Republic of Korea"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Seung-Sep Kim",
+          "institutions": [
+            "Department of Geological Sciences, Chungnam National University,",
+            "99 Daehak-ro, Yuseong-gu, Daejeon 34134, Republic of Korea"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.39187v1",
+      "intro_en": "Plate tectonics is described in two registers: a discrete one, in which rigid plates tile the sphere and meet at trivalent junctions, and a continuous one, in which Bercovici and Wessel (1994) replace hard plate outlines by smooth shape functions of finite boundary half-width $δ^*$. We prove that the two registers are connected by a limit theorem.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-09-30",
+      "publication_date_source": "https://arxiv.org/abs/2609.39187v1",
+      "version_date": "2026-09-30T07:42:33+00:00"
+    },
+    {
+      "id": "2609.38921",
+      "version_id": "2609.38921v1",
+      "title": "Planetesimal Formation under Realistic Gas Dynamics: Dust Concentration in Turbulent and Windy Protoplanetary Disks",
+      "abstract": "Planetesimals are a key intermediate stage of planet formation and originate from dust concentration in protoplanetary disks, which is strongly regulated by gas dynamics. In this study, we use the multifluid dust module of Athena++ to investigate dust concentration in 2D axisymmetric global non-ideal MHD (ambipolar diffusion, AD) simulations of outer disks. Our simulations simultaneously launch large-scale MHD disk winds and resolve both streaming instability (SI) and vertical shear instability (VSI). We systematically explore the effects of magnetic field strength, cooling timescale, ambipolar Elsasser number, and dust size on dust concentration. We find that strong dust clumping persists across a broad range of magnetized and wind-launching disk conditions. MHD winds also enhance dust clumping by modifying background conditions in the following ways: (1) secular gas depletion by MHD wind mass loss, and (2) dust trapping in zonal flows as a result of magnetic flux concentration (which occurs in more strongly magnetized cases). Overall, our results demonstrate that strong dust clumping can persist in global magnetized disks with AD and large-scale MHD winds, leading to conditions favorable for planetesimal formation.",
+      "published": "2026-09-30T04:07:00Z",
+      "updated": "2026-09-30T04:07:00Z",
+      "authors": [
+        "Pinghui Huang",
+        "Xue-Ning Bai"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2609.38921",
+      "pdf": "https://arxiv.org/pdf/2609.38921v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-01T01:27:47.512416+00:00",
+      "version_changed": false,
+      "topics": [
+        "evolution"
+      ],
+      "matches": {
+        "evolution": [
+          "planet formation",
+          "planetesimal"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：planet formation、planetesimal",
+      "tags": [
+        "流体与不稳定性 · Fluid dynamics",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 31,
+      "fit_matches": [],
+      "institutions": [
+        "CAS Key Laboratory of Planetary Sciences, Purple Mountain Observatory, Chinese Academy of Sciences, Nanjing 210023, People’s Republic of China",
+        "Institute for Advanced Study, Tsinghua University, Beijing 100084, People’s Republic of China",
+        "Department of Astronomy, Tsinghua University, Beijing 100084, People’s Republic of China"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Pinghui Huang",
+          "institutions": [
+            "CAS Key Laboratory of Planetary Sciences, Purple Mountain Observatory, Chinese Academy of Sciences, Nanjing 210023, People’s Republic of China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Xue-Ning Bai",
+          "institutions": [
+            "Institute for Advanced Study, Tsinghua University, Beijing 100084, People’s Republic of China",
+            "Department of Astronomy, Tsinghua University, Beijing 100084, People’s Republic of China"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.38921v1",
+      "intro_en": "Planetesimals are a key intermediate stage of planet formation and originate from dust concentration in protoplanetary disks, which is strongly regulated by gas dynamics. In this study, we use the multifluid dust module of Athena++ to investigate dust concentration in 2D axisymmetric global non-ideal MHD (ambipolar diffusion, AD) simulations of outer disks.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-09-30",
+      "publication_date_source": "https://arxiv.org/abs/2609.38921v1",
+      "version_date": "2026-09-30T04:07:00+00:00"
+    },
+    {
+      "id": "2609.38763",
+      "version_id": "2609.38763v1",
+      "title": "Long-term Variations of Cyclone-Influenced Exchange Flows in the Coastal Arctic in 2000-2025",
+      "abstract": "Summertime synoptic weather regulates Arctic land-ocean exchange through meteorological tides during the ice-free period, when the predominantly easterly regime of the Beaufort High is punctuated by episodic Arctic cyclones, changing coastal winds to westerlies. We analyze wind-driven exchange flows in a northern Alaska lagoon using a 26-year reconstruction (2000-2025) validated by new in situ observations and FVCOM simulations. Phase-space EOF analysis of ERA5 data links deep cyclonic anomalies to 89% of Extreme Eastward Throughflow (EET) events (24 of 27). Coastal easterly occurrence frequencies show a consistent decrease (up to 38.3% at > 10 m/s) while low-to-moderate westerly occurrence frequencies increase by up to 30.9% but decrease by 40.6% at extreme westerly wind speeds (>10 m/s). Offshore ERA5 wind occurrence frequencies increased, with extreme offshore events (> 10 m/s) increasing by 82.4%. Local ASOS observations reveal a near-monotonic ~88% reduction in atmospheric forcing variability (East-West Wind Excursion variability drops from 2.98X10^4 to 0.35X10^4 km). The In-Out Flow Excursion variability declines steadily by 70% from 1.40X10^3 to <0.40X10^3 km, while the positive (outward) flow ratio variability contracts steadily from 7.4% to below 2.2%. Extreme Westward Throughflow (EWT) events were infrequent, but were concentrated in the most recent period, with five of six events occurring in 2022-2024 and one in 2013. These results indicate that the summertime coastal regime remains predominantly easterly, but exhibits progressively lower variability, while the wind distribution shifts toward more frequent low-to-moderate westerlies. This evolution of weather-forcing state may impact flushing and biogeochemical connectivity of Arctic lagoon ecosystems.",
+      "published": "2026-09-30T01:46:37Z",
+      "updated": "2026-09-30T01:46:37Z",
+      "authors": [
+        "Chunyan Li"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.ao-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.38763",
+      "pdf": "https://arxiv.org/pdf/2609.38763v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-01T01:27:47.512416+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2609.38763v1",
+      "intro_en": "Summertime synoptic weather regulates Arctic land-ocean exchange through meteorological tides during the ice-free period, when the predominantly easterly regime of the Beaufort High is punctuated by episodic Arctic cyclones, changing coastal winds to westerlies. We analyze wind-driven exchange flows in a northern Alaska lagoon using a 26-year reconstruction (2000-2025) validated by new in situ observations and FVCOM simulations.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-09-30",
+      "publication_date_source": "https://arxiv.org/abs/2609.38763v1",
+      "version_date": "2026-09-30T01:46:37+00:00"
+    },
     {
       "id": "2609.36831",
       "version_id": "2609.36831v1",
@@ -11245,6 +11407,56 @@
       "version_date": "2026-09-29T03:55:05+00:00"
     },
     {
+      "id": "2606.27296",
+      "version_id": "2606.27296v2",
+      "title": "Weak-Flow Induced Dielectric Axes Rotation in Dipolar Suspensions",
+      "abstract": "Conventional rheodielectric studies of dipolar suspensions primarily examine flow-induced variations in the principal permittivity components. In contrast, an asymptotic solution of the perturbed Fokker--Planck equation for orientable Brownian dipoles under weak flow predicts the emergence of off-diagonal permittivity components that are linear in the relative flow strength. For planar shear flow, these terms exceed the corresponding higher-order diagonal corrections, leading to a rotation of the principal dielectric axes. This previously unrecognized rheodielectric response suggests new possibilities for flow-controlled dielectric and electro-optical functionalities.",
+      "published": "2026-06-25T17:13:09Z",
+      "updated": "2026-09-30T06:06:38Z",
+      "authors": [
+        "Pramodt Srinivasula"
+      ],
+      "doi": "10.1016/j.molliq.2026.129946",
+      "categories": [
+        "cond-mat.soft",
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2606.27296",
+      "pdf": "https://arxiv.org/pdf/2606.27296v2",
+      "source": "arXiv",
+      "first_seen": "2026-10-01T01:27:47.512416+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "organization=Department of Mechanical Engineering, TU Darmstadt, city=Darmstadt, country=Germany"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Pramodt Srinivasula",
+          "institutions": [
+            "organization=Department of Mechanical Engineering, TU Darmstadt, city=Darmstadt, country=Germany"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2606.27296v2",
+      "intro_en": "Conventional rheodielectric studies of dipolar suspensions primarily examine flow-induced variations in the principal permittivity components. In contrast, an asymptotic solution of the perturbed Fokker--Planck equation for orientable Brownian dipoles under weak flow predicts the emergence of off-diagonal permittivity components that are linear in the relative flow strength.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-06-25",
+      "publication_date_source": "https://arxiv.org/abs/2606.27296v2",
+      "version_date": "2026-09-30T06:06:38+00:00"
+    },
+    {
       "id": "2605.23166",
       "version_id": "2605.23166v3",
       "title": "Free surfaces in turbulence - A unified framework from water surfaces to elastic solids",
@@ -11374,6 +11586,56 @@
       "publication_date": "2025-12-20",
       "publication_date_source": "https://arxiv.org/abs/2512.18289v3",
       "version_date": "2026-09-29T06:13:25+00:00"
+    },
+    {
+      "id": "2410.08573",
+      "version_id": "2410.08573v4",
+      "title": "Boundary conditions for SPH through energy conservation",
+      "abstract": "Dealing with boundary conditions in Smoothed Particle Hydrodynamics (SPH) poses significant difficulties, indeed being one of the SPHERIC Grand Challenges. In particular, wall boundary conditions have been pivotal in SPH model development since it evolved from astrophysics to more generic fluid dynamics simulations. Despite considerable attention from researchers and numerous publications dedicated to formulating and assessing wall boundary conditions, few of them have addressed the crucial aspect of energy conservation. This work introduces a novel boundary condition designed with energy conservation as a primary consideration, effectively extending the unconditional stability of SPH to problems involving wall boundary conditions. The result is formulated within the framework of the Boundary Integrals technique. The proposal is tested on a number of cases: normal impact against a wall, adiabatic oscillations of a piston, dam break, and the water landing of a spacecraft.",
+      "published": "2024-10-11T06:59:45Z",
+      "updated": "2026-09-30T07:22:03Z",
+      "authors": [
+        "Jose Luis Cercos-Pita",
+        "Daniel Duque",
+        "Pablo Eleazar Merino-Alonso",
+        "Javier Calderon-Sanchez"
+      ],
+      "doi": "10.1016/j.compfluid.2024.106454",
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2410.08573",
+      "pdf": "https://arxiv.org/pdf/2410.08573v4",
+      "source": "arXiv",
+      "first_seen": "2026-10-01T01:27:47.512416+00:00",
+      "version_changed": false,
+      "topics": [
+        "methods"
+      ],
+      "matches": {
+        "methods": [
+          "smoothed particle hydrodynamics"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 20,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2410.08573v4",
+      "intro_en": "Dealing with boundary conditions in Smoothed Particle Hydrodynamics (SPH) poses significant difficulties, indeed being one of the SPHERIC Grand Challenges. In particular, wall boundary conditions have been pivotal in SPH model development since it evolved from astrophysics to more generic fluid dynamics simulations.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2024-10-11",
+      "publication_date_source": "https://arxiv.org/abs/2410.08573v4",
+      "version_date": "2026-09-30T07:22:03+00:00"
     }
   ]
 }
