@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T01:40:05.533968+00:00",
+  "generated_at": "2026-10-02T02:08:01.013387+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
@@ -269,12 +269,12 @@
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-10-02T09:33:19.805374+08:00",
-      "last_success": "2026-10-02T09:33:19.805374+08:00",
+      "last_attempt": "2026-10-02T10:07:21.405595+08:00",
+      "last_success": "2026-10-02T10:07:21.405595+08:00",
       "coverage_since": "2026-09-25",
-      "pages_checked": 2,
-      "fetched": 11,
-      "retained": 1,
+      "pages_checked": 1,
+      "fetched": 0,
+      "retained": 0,
       "method": "daily incremental bibliography page scan; candidate-only"
     }
   },
@@ -1138,12 +1138,14 @@
       ],
       "affiliation_status": "verified",
       "affiliation_source": "https://arxiv.org/html/2609.40058v1",
-      "intro_en": "Titan, a unique body in the solar system, resembles a life-size Miller-Urey experiment where pockets of liquid water might interact with abundant organic matter. Its young surface (less than a billion years) shows signs of material exchange with the interior, and an isotopic signature is detected in the atmosphere.",
-      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
-      "intro_kind": "abstract_excerpt",
-      "intro_basis": "英文摘要节选",
+      "intro_en": "A cellular-automata model examines the flow and cooling of water-rich cryolava or impact melt on Titan. The simulated flows can extend tens of kilometres, with volume and topography shaping their reach and possible hydrolysis of surface organics.",
+      "intro_zh": "研究用元胞自动机模型模拟土卫六表面含水冰熔流或撞击熔体的流动、冷却及其与有机物的接触。在所考察的参数范围内，模型可产生延伸数十千米、厚约一米的流体；流动范围主要受喷出体积和地形控制，含水熔流还可能促成表面有机物的水解。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
       "publication_date": "2026-09-30",
       "publication_date_source": "https://arxiv.org/abs/2609.40058v1",
+      "intro_source": "https://arxiv.org/abs/2609.40058v1",
+      "intro_version": "2609.40058v1",
       "version_date": "2026-09-30T16:20:26+00:00",
       "variants": [
         {
@@ -1160,101 +1162,6 @@
           "version_date": "2026-09-30T16:20:26+00:00",
           "metadata_source": null,
           "affiliation_source": "https://arxiv.org/html/2609.40058v1"
-        }
-      ],
-      "match_basis": [],
-      "source_types": [
-        "arXiv"
-      ],
-      "journals": [],
-      "source_groups": [],
-      "intake_kind": "recent"
-    },
-    {
-      "id": "2609.38921",
-      "version_id": "2609.38921v1",
-      "title": "Planetesimal Formation under Realistic Gas Dynamics: Dust Concentration in Turbulent and Windy Protoplanetary Disks",
-      "abstract": "Planetesimals are a key intermediate stage of planet formation and originate from dust concentration in protoplanetary disks, which is strongly regulated by gas dynamics. In this study, we use the multifluid dust module of Athena++ to investigate dust concentration in 2D axisymmetric global non-ideal MHD (ambipolar diffusion, AD) simulations of outer disks. Our simulations simultaneously launch large-scale MHD disk winds and resolve both streaming instability (SI) and vertical shear instability (VSI). We systematically explore the effects of magnetic field strength, cooling timescale, ambipolar Elsasser number, and dust size on dust concentration. We find that strong dust clumping persists across a broad range of magnetized and wind-launching disk conditions. MHD winds also enhance dust clumping by modifying background conditions in the following ways: (1) secular gas depletion by MHD wind mass loss, and (2) dust trapping in zonal flows as a result of magnetic flux concentration (which occurs in more strongly magnetized cases). Overall, our results demonstrate that strong dust clumping can persist in global magnetized disks with AD and large-scale MHD winds, leading to conditions favorable for planetesimal formation.",
-      "published": "2026-09-30T04:07:00Z",
-      "updated": "2026-10-01T04:13:01.367338+00:00",
-      "authors": [
-        "Pinghui Huang, Xue-Ning Bai"
-      ],
-      "doi": "",
-      "categories": [
-        "astro-ph.EP"
-      ],
-      "url": "https://arxiv.org/abs/2609.38921",
-      "pdf": "https://arxiv.org/pdf/2609.38921v1",
-      "source": "arXiv",
-      "first_seen": "2026-10-01T01:27:47.512416+00:00",
-      "version_changed": false,
-      "topics": [
-        "evolution"
-      ],
-      "matches": {
-        "evolution": [
-          "planet formation",
-          "planetesimal"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：planet formation、planetesimal",
-      "tags": [
-        "流体与不稳定性 · Fluid dynamics",
-        "反演与数值方法 · Inverse & numerical methods"
-      ],
-      "method": "keyword",
-      "fit_score": 31,
-      "fit_matches": [],
-      "institutions": [
-        "CAS Key Laboratory of Planetary Sciences, Purple Mountain Observatory, Chinese Academy of Sciences, Nanjing 210023, People’s Republic of China",
-        "Institute for Advanced Study, Tsinghua University, Beijing 100084, People’s Republic of China",
-        "Department of Astronomy, Tsinghua University, Beijing 100084, People’s Republic of China"
-      ],
-      "author_affiliations": [
-        {
-          "name": "Pinghui Huang",
-          "institutions": [
-            "CAS Key Laboratory of Planetary Sciences, Purple Mountain Observatory, Chinese Academy of Sciences, Nanjing 210023, People’s Republic of China"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "Xue-Ning Bai",
-          "institutions": [
-            "Institute for Advanced Study, Tsinghua University, Beijing 100084, People’s Republic of China",
-            "Department of Astronomy, Tsinghua University, Beijing 100084, People’s Republic of China"
-          ],
-          "orcid": null
-        }
-      ],
-      "affiliation_status": "verified",
-      "affiliation_source": "https://arxiv.org/html/2609.38921v1",
-      "intro_en": "Planetesimals are a key intermediate stage of planet formation and originate from dust concentration in protoplanetary disks, which is strongly regulated by gas dynamics. In this study, we use the multifluid dust module of Athena++ to investigate dust concentration in 2D axisymmetric global non-ideal MHD (ambipolar diffusion, AD) simulations of outer disks.",
-      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
-      "intro_kind": "abstract_excerpt",
-      "intro_basis": "英文摘要节选",
-      "publication_date": "2026-09-30",
-      "publication_date_source": "https://arxiv.org/abs/2609.38921v1",
-      "date_kind": "published",
-      "announcement_type": "new",
-      "version_date": "2026-09-30T04:07:00+00:00",
-      "variants": [
-        {
-          "id": "2609.38921",
-          "source": "arXiv",
-          "journal": null,
-          "journal_id": null,
-          "title": "Planetesimal Formation under Realistic Gas Dynamics: Dust Concentration in Turbulent and Windy Protoplanetary Disks",
-          "url": "https://arxiv.org/abs/2609.38921",
-          "doi": "",
-          "version_id": "2609.38921v1",
-          "first_seen": "2026-10-01T01:27:47.512416+00:00",
-          "publication_date": "2026-09-30",
-          "version_date": "2026-09-30T04:07:00+00:00",
-          "metadata_source": null,
-          "affiliation_source": "https://arxiv.org/html/2609.38921v1"
         }
       ],
       "match_basis": [],
@@ -21776,128 +21683,6 @@
       "intake_kind": "recent"
     },
     {
-      "id": "doi:10.1029/2026je009882",
-      "doi": "10.1029/2026je009882",
-      "version_id": "doi:10.1029/2026je009882",
-      "title": "3D Architecture of Kodiak Butte as Evidence of Fluvial or Shoal‐Water Environments in Jezero Crater, Mars",
-      "abstract": "Abstract The Mars 2020 mission has explored depositional environments recorded in a fan‐shaped deposit on the western side of Jezero crater. Kodiak butte is an isolated outcrop of sedimentary rock ∼1 km south of the western fan scarp and may be an erosional remnant of said fan. Sedimentary strata of Kodiak butte were first interpreted to represent Gilbert delta foresets and a lake depth of at least 10 m. Subsequent closer‐range images of the northern face of Kodiak have resolved additional details of stratal geometries, permitting alternative interpretations of depositional environments. Rover visible‐wavelength images, a three‐dimensional digital outcrop model, and principal component analysis‐based plane‐fitting allow detailed facies mapping and measurements of stratal geometries in Kodiak. We observed three sets of gravel‐bearing, steeply inclined beds ∼3, ∼7, and ∼10 m thick with local accretion directions ranging from ∼NW clockwise to ∼SW (covering ∼230° azimuth). These sets are interpreted as deposits from downstream‐migrating bars with lobate geometries, consistent with mid‐channel bars in a braided river or mouth bars in a shoal‐water delta. The geometry of the inclined beds indicate channelized bankfull flow ∼4.2 m deep under persistent currents flowing south‐southeast to south‐southwest. The proposed hydrodynamic conditions, potentially continuous with the rest of the western fan succession, are high energy with limited settling of fine‐grained sediment from suspension in a quiescent setting, indicating a lower biosignature preservation potential than previously hypothesized.",
-      "authors": [
-        "O. A. Kanine",
-        "M. P. Lamb",
-        "B. L. Ehlmann",
-        "J. P. Grotzinger",
-        "C. D. Tate"
-      ],
-      "author_affiliations": [
-        {
-          "name": "O. A. Kanine",
-          "institutions": [
-            "Division of Geological and Planetary Sciences California Institute of Technology Pasadena CA USA"
-          ],
-          "orcid": "https://orcid.org/0000-0002-9204-6107"
-        },
-        {
-          "name": "M. P. Lamb",
-          "institutions": [
-            "Division of Geological and Planetary Sciences California Institute of Technology Pasadena CA USA"
-          ],
-          "orcid": "https://orcid.org/0000-0002-5701-0504"
-        },
-        {
-          "name": "B. L. Ehlmann",
-          "institutions": [
-            "Division of Geological and Planetary Sciences California Institute of Technology Pasadena CA USA"
-          ],
-          "orcid": "https://orcid.org/0000-0002-2745-3240"
-        },
-        {
-          "name": "J. P. Grotzinger",
-          "institutions": [
-            "Division of Geological and Planetary Sciences California Institute of Technology Pasadena CA USA"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "C. D. Tate",
-          "institutions": [
-            "Malin Space Science Systems San Diego CA USA"
-          ],
-          "orcid": "https://orcid.org/0000-0003-3467-0099"
-        }
-      ],
-      "institutions": [
-        "Division of Geological and Planetary Sciences California Institute of Technology Pasadena CA USA",
-        "Malin Space Science Systems San Diego CA USA"
-      ],
-      "affiliation_status": "verified",
-      "affiliation_source": "https://api.crossref.org/works/10.1029%2F2026je009882",
-      "source": "journal",
-      "journal": "Journal of Geophysical Research: Planets",
-      "journal_id": "2169-9100",
-      "source_group": "planet",
-      "categories": [],
-      "url": "https://doi.org/10.1029/2026je009882",
-      "published": "2026-09-30",
-      "publication_date": "2026-09-30",
-      "publication_date_source": "Crossref publisher metadata",
-      "date_kind": "journal",
-      "first_seen": "2026-10-01T01:28:08.170699+00:00",
-      "updated": "2026-09-30T11:05:18Z",
-      "metadata_source": "https://api.crossref.org/works/10.1029%2F2026je009882",
-      "relations": {},
-      "metadata_limited": false,
-      "publication_dates": {
-        "published-online": "2026-09-30",
-        "published-print": "2026-10"
-      },
-      "topics": [
-        "detection"
-      ],
-      "matches": {
-        "detection": [
-          "biosignature"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：biosignature",
-      "tags": [],
-      "method": "keyword",
-      "fit_score": 36,
-      "fit_matches": [],
-      "intro_en": "Abstract The Mars 2020 mission has explored depositional environments recorded in a fan‐shaped deposit on the western side of Jezero crater. Kodiak butte is an isolated outcrop of sedimentary rock ∼1 km south of the western fan scarp and may be an erosional remnant of said fan.",
-      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
-      "intro_kind": "abstract_excerpt",
-      "intro_basis": "英文摘要节选",
-      "variants": [
-        {
-          "id": "doi:10.1029/2026je009882",
-          "source": "journal",
-          "journal": "Journal of Geophysical Research: Planets",
-          "journal_id": "2169-9100",
-          "title": "3D Architecture of Kodiak Butte as Evidence of Fluvial or Shoal‐Water Environments in Jezero Crater, Mars",
-          "url": "https://doi.org/10.1029/2026je009882",
-          "doi": "10.1029/2026je009882",
-          "version_id": "doi:10.1029/2026je009882",
-          "first_seen": "2026-10-01T01:28:08.170699+00:00",
-          "publication_date": "2026-09-30",
-          "version_date": null,
-          "metadata_source": "https://api.crossref.org/works/10.1029%2F2026je009882",
-          "affiliation_source": "https://api.crossref.org/works/10.1029%2F2026je009882"
-        }
-      ],
-      "match_basis": [],
-      "source_types": [
-        "journal"
-      ],
-      "journals": [
-        "Journal of Geophysical Research: Planets"
-      ],
-      "source_groups": [
-        "planet"
-      ],
-      "intake_kind": "recent"
-    },
-    {
       "id": "doi:10.3847/1538-4357/aea293",
       "doi": "10.3847/1538-4357/aea293",
       "version_id": "doi:10.3847/1538-4357/aea293",
@@ -21975,11 +21760,11 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：habitable zone",
+      "reason": "人工复核：主要测定系外行星宿主恒星年龄并编制宜居带停留时间目录，缺少直接的行星大气、海洋、冰、表层过程或轨道动力研究。",
       "tags": [
         "宜居性 · Habitability"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 50,
       "fit_matches": [
         "行星气候与模式"
@@ -22033,160 +21818,6 @@
       "source_groups": [
         "planet",
         "exoplanet bibliography"
-      ],
-      "intake_kind": "recent"
-    },
-    {
-      "id": "doi:10.3847/1538-4357/aea13e",
-      "doi": "10.3847/1538-4357/aea13e",
-      "version_id": "doi:10.3847/1538-4357/aea13e",
-      "title": "Multiviewpoint Tracking of a Coronal Mass Ejection Driven Shock Propagating to Mars: Implications for Space Weather Forecasting",
-      "abstract": "Abstract We present a case study of a coronal mass ejection (CME) that was associated with in situ signatures at Mars and erupted on 2025 March 28. We estimate the time of arrival (ToA) of its associated shock at Mars, focusing on the role of remote sensing observations in improving forecast accuracy. The CME shock is tracked from the middle corona to approximately 150 R ⊙ using all available viewpoints. This CME was observed by multiple instruments on board three spacecraft, including LASCO/C2 and C3, STEREO-A/HI1A and HI2A, and SolO/SoloHI. A semiautomatic, minimization-based fitting technique, adapted to work with heliospheric imager data for the first time, is employed to reconstruct the 3D shock geometry and to quantify event-specific fitting uncertainties. These reconstructions are then used as input to a data-driven two-phase kinematics model to predict the ToA at Mars. Predictions are validated using in situ measurements from the Mars Atmosphere and Volatile EvolutioN (MAVEN) spacecraft. By including heliospheric imager data in our analysis, we are able to determine the shock arrival at Mars within 3.1 hr of the observed shock in MAVEN. We also test different combinations of remote sensing datasets to assess how data coverage influences arrival-time estimates. We find that in this case observations from heliospheric imagers at larger heliocentric distances are essential for capturing the CME deceleration and avoiding early-arrival predictions. Finally, we highlight the importance of realistic, event-specific uncertainty estimates for space weather forecasting at multiple locations, particularly in the context of ongoing space exploration and future human missions.",
-      "authors": [
-        "Eleni Nikou",
-        "Evangelos Paouris",
-        "Norberto Romanelli",
-        "Robin Colaninno",
-        "Phillip Hess",
-        "Christina O. Lee",
-        "Cecilia Mac Cormack",
-        "Teresa Nieves-Chinchilla"
-      ],
-      "author_affiliations": [
-        {
-          "name": "Eleni Nikou",
-          "institutions": [
-            "U.S. Naval Research Laboratory"
-          ],
-          "orcid": "https://orcid.org/0000-0002-5807-821X"
-        },
-        {
-          "name": "Evangelos Paouris",
-          "institutions": [
-            "The Johns Hopkins University Applied Physics Laboratory"
-          ],
-          "orcid": "https://orcid.org/0000-0002-8387-5202"
-        },
-        {
-          "name": "Norberto Romanelli",
-          "institutions": [
-            "University of Maryland",
-            "NASA Goddard Space Flight Center"
-          ],
-          "orcid": "https://orcid.org/0000-0001-9210-0284"
-        },
-        {
-          "name": "Robin Colaninno",
-          "institutions": [
-            "U.S. Naval Research Laboratory"
-          ],
-          "orcid": "https://orcid.org/0000-0002-3253-4205"
-        },
-        {
-          "name": "Phillip Hess",
-          "institutions": [
-            "U.S. Naval Research Laboratory"
-          ],
-          "orcid": "https://orcid.org/0000-0003-1377-6353"
-        },
-        {
-          "name": "Christina O. Lee",
-          "institutions": [
-            "University of California Berkeley"
-          ],
-          "orcid": "https://orcid.org/0000-0002-1604-3326"
-        },
-        {
-          "name": "Cecilia Mac Cormack",
-          "institutions": [
-            "NASA Goddard Space Flight Center",
-            "The Catholic University of America"
-          ],
-          "orcid": "https://orcid.org/0009-0009-9799-979X"
-        },
-        {
-          "name": "Teresa Nieves-Chinchilla",
-          "institutions": [
-            "NASA Goddard Space Flight Center"
-          ],
-          "orcid": "https://orcid.org/0000-0003-0565-4890"
-        }
-      ],
-      "institutions": [
-        "U.S. Naval Research Laboratory",
-        "The Johns Hopkins University Applied Physics Laboratory",
-        "University of Maryland",
-        "NASA Goddard Space Flight Center",
-        "University of California Berkeley",
-        "The Catholic University of America"
-      ],
-      "affiliation_status": "verified",
-      "affiliation_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faea13e",
-      "source": "journal",
-      "journal": "The Astrophysical Journal",
-      "journal_id": "1538-4357",
-      "source_group": "planet",
-      "categories": [],
-      "url": "https://doi.org/10.3847/1538-4357/aea13e",
-      "published": "2026-09-30",
-      "publication_date": "2026-09-30",
-      "publication_date_source": "Crossref publisher metadata",
-      "date_kind": "journal",
-      "first_seen": "2026-10-01T01:28:08.170699+00:00",
-      "updated": "2026-09-30T12:02:19Z",
-      "metadata_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faea13e",
-      "relations": {},
-      "metadata_limited": false,
-      "publication_dates": {
-        "published-online": "2026-09-30",
-        "published-print": "2026-10-01"
-      },
-      "topics": [
-        "evolution"
-      ],
-      "matches": {
-        "evolution": [
-          "volatile"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：volatile",
-      "tags": [
-        "岩浆与挥发分 · Magma & volatiles"
-      ],
-      "method": "keyword",
-      "fit_score": 31,
-      "fit_matches": [],
-      "intro_en": "Abstract We present a case study of a coronal mass ejection (CME) that was associated with in situ signatures at Mars and erupted on 2025 March 28. We estimate the time of arrival (ToA) of its associated shock at Mars, focusing on the role of remote sensing observations in improving forecast accuracy.",
-      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
-      "intro_kind": "abstract_excerpt",
-      "intro_basis": "英文摘要节选",
-      "variants": [
-        {
-          "id": "doi:10.3847/1538-4357/aea13e",
-          "source": "journal",
-          "journal": "The Astrophysical Journal",
-          "journal_id": "1538-4357",
-          "title": "Multiviewpoint Tracking of a Coronal Mass Ejection Driven Shock Propagating to Mars: Implications for Space Weather Forecasting",
-          "url": "https://doi.org/10.3847/1538-4357/aea13e",
-          "doi": "10.3847/1538-4357/aea13e",
-          "version_id": "doi:10.3847/1538-4357/aea13e",
-          "first_seen": "2026-10-01T01:28:08.170699+00:00",
-          "publication_date": "2026-09-30",
-          "version_date": null,
-          "metadata_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faea13e",
-          "affiliation_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faea13e"
-        }
-      ],
-      "match_basis": [],
-      "source_types": [
-        "journal"
-      ],
-      "journals": [
-        "The Astrophysical Journal"
-      ],
-      "source_groups": [
-        "planet"
       ],
       "intake_kind": "recent"
     },
@@ -22304,10 +21935,12 @@
       "fit_matches": [
         "系外行星观测表征"
       ],
-      "intro_en": "Abstract Over the past three decades, hundreds of rocky exoplanets have been discovered. Some of these show atmospheric signatures indicative of diverse chemical compositions.",
-      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
-      "intro_kind": "abstract_excerpt",
-      "intro_basis": "英文摘要节选",
+      "intro_zh": "研究把宿主恒星的元素丰度、挥发分损失、行星内部结构计算和热力学平衡模型连接起来，推断岩质系外行星 GJ 486b 的地幔成分与矿物相。结果表明，其地幔相对地球可能更富铁、贫硅，而主要矿物相变仍然存在；该框架可为解释次生大气提供内部组成约束。",
+      "intro_en": "A coupled abundance, devolatilization, interior-structure and equilibrium-mineralogy framework predicts an iron-rich, silica-poor mantle for GJ 486b relative to Earth, linking rocky-planet interiors to atmospheric interpretation.",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "intro_source": "https://doi.org/10.3847/1538-4357/ae9ba8",
+      "intro_version": "doi:10.3847/1538-4357/ae9ba8",
       "variants": [
         {
           "id": "doi:10.3847/1538-4357/ae9ba8",
