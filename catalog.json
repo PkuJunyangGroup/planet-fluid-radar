@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T02:13:37.960347+00:00",
+  "generated_at": "2026-10-02T02:17:05.768312+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
@@ -269,8 +269,8 @@
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-10-02T10:12:58.383457+08:00",
-      "last_success": "2026-10-02T10:12:58.383457+08:00",
+      "last_attempt": "2026-10-02T10:16:25.798656+08:00",
+      "last_success": "2026-10-02T10:16:25.798656+08:00",
       "coverage_since": "2026-09-25",
       "pages_checked": 1,
       "fetched": 0,
@@ -21687,145 +21687,6 @@
       "intake_kind": "recent"
     },
     {
-      "id": "doi:10.3847/1538-4357/aea293",
-      "doi": "10.3847/1538-4357/aea293",
-      "version_id": "doi:10.3847/1538-4357/aea293",
-      "title": "Precise Stellar Age Constraints and Habitable Zone Evolution in Exoplanet Systems",
-      "abstract": "Abstract Accurate stellar ages are fundamental to interpreting the evolutionary histories of habitable zone (HZ) planets. Because stellar luminosity evolves over time, HZ boundaries migrate outward, meaning that present-day HZ planets may have experienced different irradiation environments earlier in their evolution. Accurate ages are therefore required to estimate HZ residence times and place planetary habitability in an evolutionary context. We use the Bayesian Analysis of Stellar Evolution with Nine Parameters (BASE-9) code to constrain ages and masses for exoplanet host stars with planets located in the HZ. Our sample includes single stars with effective temperatures of 4475–7200 K that host planets within their calculated HZ boundaries. We fit isochrones to broadband photometry from Gaia DR3, Pan-STARRS, and 2MASS jointly with Gaia parallaxes, spectroscopic metallicities, and extinction estimates, and assess the resulting age posterior distributions. Using these age constraints, we track HZ migration along stellar evolutionary sequences to estimate continuous HZ residence times, allowing us to identify ideal targets for follow-up high-resolution characterization. Because isochrones separate most strongly near and beyond the main-sequence turnoff, our analysis emphasizes evolved and turnoff hosts, where BASE-9 produces the tightest constraints. We quantify age precision across the sample, yielding highly precise ages for subgiants and evolved main-sequence or turnoff stars, and less precise but measurable ages for lower main-sequence hosts. The final catalog provides our age constraints for 149 HZ planets around 146 host stars and supports evolutionary interpretations of planetary histories.",
-      "authors": [
-        "Grace A. Henry",
-        "Ted von Hippel",
-        "Anna C. Childs"
-      ],
-      "author_affiliations": [
-        {
-          "name": "Grace A. Henry",
-          "institutions": [
-            "Embry-Riddle Aeronautical University"
-          ],
-          "orcid": "https://orcid.org/0009-0005-9786-0166"
-        },
-        {
-          "name": "Ted von Hippel",
-          "institutions": [
-            "Embry-Riddle Aeronautical University"
-          ],
-          "orcid": "https://orcid.org/0000-0002-5775-2866"
-        },
-        {
-          "name": "Anna C. Childs",
-          "institutions": [
-            "Northwestern University",
-            "The University of Alabama"
-          ],
-          "orcid": "https://orcid.org/0000-0002-9343-8612"
-        }
-      ],
-      "institutions": [
-        "Embry-Riddle Aeronautical University",
-        "Northwestern University",
-        "The University of Alabama"
-      ],
-      "affiliation_status": "verified",
-      "affiliation_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faea293",
-      "source": "journal",
-      "journal": "The Astrophysical Journal",
-      "journal_id": "1538-4357",
-      "source_group": "planet",
-      "categories": [],
-      "url": "https://doi.org/10.3847/1538-4357/aea293",
-      "published": "2026-09-30",
-      "publication_date": "2026-09-30",
-      "publication_date_source": "Crossref publisher metadata",
-      "date_kind": "journal",
-      "first_seen": "2026-10-01T01:28:08.170699+00:00",
-      "updated": "2026-09-30T11:55:31Z",
-      "metadata_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faea293",
-      "relations": {
-        "is-supplemented-by": [
-          {
-            "id-type": "doi",
-            "id": "10.5281/zenodo.22212897",
-            "asserted-by": "subject"
-          }
-        ]
-      },
-      "metadata_limited": false,
-      "publication_dates": {
-        "published-online": "2026-09-30",
-        "published-print": "2026-10-01"
-      },
-      "topics": [
-        "planetary"
-      ],
-      "matches": {
-        "planetary": [
-          "habitable zone"
-        ]
-      },
-      "status": "candidate",
-      "reason": "人工复核：主要测定系外行星宿主恒星年龄并编制宜居带停留时间目录，缺少直接的行星大气、海洋、冰、表层过程或轨道动力研究。",
-      "tags": [
-        "宜居性 · Habitability"
-      ],
-      "method": "manual",
-      "fit_score": 50,
-      "fit_matches": [
-        "行星气候与模式"
-      ],
-      "intro_en": "Abstract Accurate stellar ages are fundamental to interpreting the evolutionary histories of habitable zone (HZ) planets. Because stellar luminosity evolves over time, HZ boundaries migrate outward, meaning that present-day HZ planets may have experienced different irradiation environments earlier in their evolution.",
-      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
-      "intro_kind": "abstract_excerpt",
-      "intro_basis": "英文摘要节选",
-      "variants": [
-        {
-          "id": "doi:10.3847/1538-4357/aea293",
-          "source": "journal",
-          "journal": "The Astrophysical Journal",
-          "journal_id": "1538-4357",
-          "title": "Precise Stellar Age Constraints and Habitable Zone Evolution in Exoplanet Systems",
-          "url": "https://doi.org/10.3847/1538-4357/aea293",
-          "doi": "10.3847/1538-4357/aea293",
-          "version_id": "doi:10.3847/1538-4357/aea293",
-          "first_seen": "2026-10-01T01:28:08.170699+00:00",
-          "publication_date": "2026-09-30",
-          "version_date": null,
-          "metadata_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faea293",
-          "affiliation_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faea293"
-        },
-        {
-          "id": "exoplanet-bib:33002",
-          "source": "exoplanet.eu",
-          "journal": "",
-          "journal_id": null,
-          "title": "Precise Stellar Age Constraints and Habitable Zone Evolution in Exoplanet Systems",
-          "url": "https://dx.doi.org/10.3847/1538-4357/aea293 ",
-          "doi": "10.3847/1538-4357/aea293",
-          "version_id": "exoplanet-bib:33002",
-          "first_seen": "2026-10-02T09:33:19.805374+08:00",
-          "publication_date": "2026",
-          "version_date": null,
-          "metadata_source": "https://exoplanet.eu/bibliography/all/#publication_33002",
-          "affiliation_source": null
-        }
-      ],
-      "match_basis": [
-        "DOI"
-      ],
-      "source_types": [
-        "journal",
-        "exoplanet.eu"
-      ],
-      "journals": [
-        "The Astrophysical Journal"
-      ],
-      "source_groups": [
-        "planet",
-        "exoplanet bibliography"
-      ],
-      "intake_kind": "recent"
-    },
-    {
       "id": "doi:10.3847/1538-4357/ae9ba8",
       "doi": "10.3847/1538-4357/ae9ba8",
       "version_id": "doi:10.3847/1538-4357/ae9ba8",
@@ -23470,5 +23331,5 @@
     }
   },
   "record_count": 1221,
-  "merged_count": 8
+  "merged_count": 7
 }
