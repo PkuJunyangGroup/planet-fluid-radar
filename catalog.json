@@ -1,46 +1,37 @@
 {
-  "generated_at": "2026-10-02T02:17:05.768312+00:00",
+  "generated_at": "2026-10-03T01:30:09.994105+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
-      "last_attempt": "2026-10-02T01:27:10.366082+00:00",
-      "last_success": "2026-10-01T01:27:47.512416+00:00",
-      "status": "partial",
-      "fetched": 1,
-      "error": "HTTP 429",
-      "last_rss_success": "2026-10-02T01:27:10.366082+00:00",
-      "last_rss_fetched": 11
+      "last_attempt": "2026-10-03T01:25:34.124406+00:00",
+      "last_success": "2026-10-03T01:25:34.124406+00:00",
+      "status": "ok",
+      "fetched": 6
     },
     "physics.ao-ph": {
-      "last_attempt": "2026-10-02T01:27:10.366082+00:00",
-      "last_success": "2026-10-01T01:27:47.512416+00:00",
-      "status": "partial",
-      "fetched": 1,
-      "error": "HTTP 429",
-      "last_rss_success": "2026-10-02T01:27:10.366082+00:00",
-      "last_rss_fetched": 8
+      "last_attempt": "2026-10-03T01:25:34.124406+00:00",
+      "last_success": "2026-10-03T01:25:34.124406+00:00",
+      "status": "ok",
+      "fetched": 11
     },
     "physics.geo-ph": {
-      "last_attempt": "2026-10-02T01:27:10.366082+00:00",
-      "last_success": "2026-10-01T01:27:47.512416+00:00",
-      "status": "partial",
-      "fetched": 1,
-      "error": "HTTP 429",
-      "last_rss_success": "2026-10-02T01:27:10.366082+00:00",
-      "last_rss_fetched": 10
+      "last_attempt": "2026-10-03T01:25:34.124406+00:00",
+      "last_success": "2026-10-03T01:25:34.124406+00:00",
+      "status": "ok",
+      "fetched": 8
     },
     "physics.flu-dyn": {
-      "last_attempt": "2026-10-02T01:27:10.366082+00:00",
-      "last_success": "2026-10-02T01:27:10.366082+00:00",
+      "last_attempt": "2026-10-03T01:25:34.124406+00:00",
+      "last_success": "2026-10-03T01:25:34.124406+00:00",
       "status": "ok",
-      "fetched": 2
+      "fetched": 0
     },
     "journal:1476-4687": {
       "name": "Nature",
       "status": "ok",
-      "last_attempt": "2026-10-02T01:33:23.891076+00:00",
-      "last_success": "2026-10-02T01:33:23.891076+00:00",
-      "fetched": 41,
+      "last_attempt": "2026-10-03T01:25:54.341655+00:00",
+      "last_success": "2026-10-03T01:25:54.341655+00:00",
+      "fetched": 1,
       "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
@@ -48,29 +39,29 @@
     "journal:1095-9203": {
       "name": "Science",
       "status": "ok",
-      "last_attempt": "2026-10-02T01:33:23.891076+00:00",
-      "last_success": "2026-10-02T01:33:23.891076+00:00",
-      "fetched": 48,
-      "retained": 3,
+      "last_attempt": "2026-10-03T01:25:54.341655+00:00",
+      "last_success": "2026-10-03T01:25:54.341655+00:00",
+      "fetched": 1,
+      "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-07-26"
     },
     "journal:1091-6490": {
       "name": "PNAS",
       "status": "ok",
-      "last_attempt": "2026-10-02T01:33:23.891076+00:00",
-      "last_success": "2026-10-02T01:33:23.891076+00:00",
-      "fetched": 9,
-      "retained": 1,
+      "last_attempt": "2026-10-03T01:25:54.341655+00:00",
+      "last_success": "2026-10-03T01:25:54.341655+00:00",
+      "fetched": 8,
+      "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1752-0908": {
       "name": "Nature Geoscience",
       "status": "ok",
-      "last_attempt": "2026-10-02T01:33:23.891076+00:00",
-      "last_success": "2026-10-02T01:33:23.891076+00:00",
-      "fetched": 2,
+      "last_attempt": "2026-10-03T01:25:54.341655+00:00",
+      "last_success": "2026-10-03T01:25:54.341655+00:00",
+      "fetched": 0,
       "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-07-26"
@@ -78,9 +69,9 @@
     "journal:2397-3366": {
       "name": "Nature Astronomy",
       "status": "ok",
-      "last_attempt": "2026-10-02T01:33:23.891076+00:00",
-      "last_success": "2026-10-02T01:33:23.891076+00:00",
-      "fetched": 0,
+      "last_attempt": "2026-10-03T01:25:54.341655+00:00",
+      "last_success": "2026-10-03T01:25:54.341655+00:00",
+      "fetched": 1,
       "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-07-26"
@@ -88,8 +79,8 @@
     "journal:1758-6798": {
       "name": "Nature Climate Change",
       "status": "ok",
-      "last_attempt": "2026-10-02T01:33:23.891076+00:00",
-      "last_success": "2026-10-02T01:33:23.891076+00:00",
+      "last_attempt": "2026-10-03T01:25:54.341655+00:00",
+      "last_success": "2026-10-03T01:25:54.341655+00:00",
       "fetched": 0,
       "retained": 0,
       "method": "Crossref publisher metadata",
@@ -98,9 +89,9 @@
     "journal:1520-0469": {
       "name": "Journal of the Atmospheric Sciences",
       "status": "ok",
-      "last_attempt": "2026-10-02T01:33:23.891076+00:00",
-      "last_success": "2026-10-02T01:33:23.891076+00:00",
-      "fetched": 1,
+      "last_attempt": "2026-10-03T01:25:54.341655+00:00",
+      "last_success": "2026-10-03T01:25:54.341655+00:00",
+      "fetched": 0,
       "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
@@ -108,20 +99,20 @@
     "journal:1680-7324": {
       "name": "Atmospheric Chemistry and Physics",
       "status": "ok",
-      "last_attempt": "2026-10-02T01:33:23.891076+00:00",
-      "last_success": "2026-10-02T01:33:23.891076+00:00",
-      "fetched": 13,
-      "retained": 6,
+      "last_attempt": "2026-10-03T01:25:54.341655+00:00",
+      "last_success": "2026-10-03T01:25:54.341655+00:00",
+      "fetched": 9,
+      "retained": 5,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:2169-8996": {
       "name": "Journal of Geophysical Research: Atmospheres",
       "status": "ok",
-      "last_attempt": "2026-10-02T01:33:23.891076+00:00",
-      "last_success": "2026-10-02T01:33:23.891076+00:00",
-      "fetched": 5,
-      "retained": 3,
+      "last_attempt": "2026-10-03T01:25:54.341655+00:00",
+      "last_success": "2026-10-03T01:25:54.341655+00:00",
+      "fetched": 0,
+      "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
@@ -168,9 +159,9 @@
     "journal:1520-0442": {
       "name": "Journal of Climate",
       "status": "ok",
-      "last_attempt": "2026-10-02T01:33:23.891076+00:00",
-      "last_success": "2026-10-02T01:33:23.891076+00:00",
-      "fetched": 3,
+      "last_attempt": "2026-10-03T01:25:54.341655+00:00",
+      "last_success": "2026-10-03T01:25:54.341655+00:00",
+      "fetched": 2,
       "retained": 1,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
@@ -178,9 +169,9 @@
     "journal:1432-0894": {
       "name": "Climate Dynamics",
       "status": "ok",
-      "last_attempt": "2026-10-02T01:33:23.891076+00:00",
-      "last_success": "2026-10-02T01:33:23.891076+00:00",
-      "fetched": 2,
+      "last_attempt": "2026-10-03T01:25:54.341655+00:00",
+      "last_success": "2026-10-03T01:25:54.341655+00:00",
+      "fetched": 0,
       "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
@@ -188,19 +179,19 @@
     "journal:1814-9332": {
       "name": "Climate of the Past",
       "status": "ok",
-      "last_attempt": "2026-10-02T01:33:23.891076+00:00",
-      "last_success": "2026-10-02T01:33:23.891076+00:00",
-      "fetched": 1,
-      "retained": 1,
+      "last_attempt": "2026-10-03T01:25:54.341655+00:00",
+      "last_success": "2026-10-03T01:25:54.341655+00:00",
+      "fetched": 0,
+      "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1477-870X": {
       "name": "Quarterly Journal of the Royal Meteorological Society",
       "status": "ok",
-      "last_attempt": "2026-10-02T01:33:23.891076+00:00",
-      "last_success": "2026-10-02T01:33:23.891076+00:00",
-      "fetched": 0,
+      "last_attempt": "2026-10-03T01:25:54.341655+00:00",
+      "last_success": "2026-10-03T01:25:54.341655+00:00",
+      "fetched": 2,
       "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
@@ -208,8 +199,8 @@
     "journal:1557-8070": {
       "name": "Astrobiology",
       "status": "ok",
-      "last_attempt": "2026-10-02T01:33:23.891076+00:00",
-      "last_success": "2026-10-02T01:33:23.891076+00:00",
+      "last_attempt": "2026-10-03T01:25:54.341655+00:00",
+      "last_success": "2026-10-03T01:25:54.341655+00:00",
       "fetched": 0,
       "retained": 0,
       "method": "Crossref publisher metadata",
@@ -218,39 +209,39 @@
     "journal:1944-8007": {
       "name": "Geophysical Research Letters",
       "status": "ok",
-      "last_attempt": "2026-10-02T01:33:23.891076+00:00",
-      "last_success": "2026-10-02T01:33:23.891076+00:00",
-      "fetched": 7,
-      "retained": 2,
+      "last_attempt": "2026-10-03T01:25:54.341655+00:00",
+      "last_success": "2026-10-03T01:25:54.341655+00:00",
+      "fetched": 0,
+      "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:2169-9100": {
       "name": "Journal of Geophysical Research: Planets",
       "status": "ok",
-      "last_attempt": "2026-10-02T01:33:23.891076+00:00",
-      "last_success": "2026-10-02T01:33:23.891076+00:00",
-      "fetched": 3,
-      "retained": 2,
+      "last_attempt": "2026-10-03T01:25:54.341655+00:00",
+      "last_success": "2026-10-03T01:25:54.341655+00:00",
+      "fetched": 0,
+      "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1538-4357": {
       "name": "The Astrophysical Journal",
       "status": "ok",
-      "last_attempt": "2026-10-02T01:33:23.891076+00:00",
-      "last_success": "2026-10-02T01:33:23.891076+00:00",
-      "fetched": 26,
-      "retained": 6,
+      "last_attempt": "2026-10-03T01:25:54.341655+00:00",
+      "last_success": "2026-10-03T01:25:54.341655+00:00",
+      "fetched": 0,
+      "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:2041-8213": {
       "name": "The Astrophysical Journal Letters",
       "status": "ok",
-      "last_attempt": "2026-10-02T01:33:23.891076+00:00",
-      "last_success": "2026-10-02T01:33:23.891076+00:00",
-      "fetched": 3,
+      "last_attempt": "2026-10-03T01:25:54.341655+00:00",
+      "last_success": "2026-10-03T01:25:54.341655+00:00",
+      "fetched": 0,
       "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
@@ -258,10 +249,10 @@
     "journal:0012-821X": {
       "name": "Earth and Planetary Science Letters",
       "status": "ok",
-      "last_attempt": "2026-10-02T01:33:23.891076+00:00",
-      "last_success": "2026-10-02T01:33:23.891076+00:00",
-      "fetched": 12,
-      "retained": 2,
+      "last_attempt": "2026-10-03T01:25:54.341655+00:00",
+      "last_success": "2026-10-03T01:25:54.341655+00:00",
+      "fetched": 2,
+      "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
@@ -269,12 +260,12 @@
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-10-02T10:16:25.798656+08:00",
-      "last_success": "2026-10-02T10:16:25.798656+08:00",
+      "last_attempt": "2026-10-03T09:25:50.550900+08:00",
+      "last_success": "2026-10-03T09:25:50.550900+08:00",
       "coverage_since": "2026-09-25",
-      "pages_checked": 1,
-      "fetched": 0,
-      "retained": 0,
+      "pages_checked": 2,
+      "fetched": 2,
+      "retained": 1,
       "method": "daily incremental bibliography page scan; candidate-only"
     }
   },
@@ -1173,6 +1164,202 @@
       "intake_kind": "recent"
     },
     {
+      "id": "2609.39501",
+      "version_id": "2609.39501v2",
+      "title": "Early Planet Formation in Embedded Disks (eDisk). XXV. Inclination-Induced Minor-Axis Brightness Asymmetries Reveal Limited Dust Settling in Embedded Protostellar Disks",
+      "abstract": "How and when dust settles in young protostellar disks is a key open question for the dust concentration needed to form planetesimals and, ultimately, planets. However, directly measuring the vertical dust distribution in embedded (Class 0/I) systems remains challenging. We show that brightness asymmetry along the minor axis of highly inclined disks provides a simple, powerful geometric diagnostic of vertical dust structure. Using radiative transfer modeling with RADMC-3D, we generate synthetic continuum images showing that the observed asymmetry arises naturally from disk inclination, optical depth, and dust scale height. We apply this framework to nine Class 0 and I disks from the ALMA Large Program, Early Planet Formation in Embedded Disks (eDisk), using Markov Chain Monte Carlo (MCMC) fitting. Outflow observations independently validate the inferred near- and far-side geometries: all eight sources with useful outflow constraints agree with the orientations predicted by the dust continuum modeling. Our results indicate that most embedded disks show no strong evidence of significant dust settling, with dust scale heights comparable to the gas scale height. Given that the literature indicates Class II disks tend to be well settled, our results reinforce the notion that significant dust settling occurs during the Class I phase, when deeply embedded Class 0 disks transition to their more revealed Class II counterparts. Intriguingly, the timing of dust settling appears to broadly coincide with the development of widespread dust substructures, suggesting that gravitationally driven vertical dust concentration may have triggered substructure formation.",
+      "authors": [
+        "Sidhant Kumar Suar",
+        "Zhe-Yu Daniel Lin",
+        "Zhi-Yun Li",
+        "Nagayoshi Ohashi",
+        "Shigehisa Takakuwa",
+        "John Tobin",
+        "Leslie Looney",
+        "Mayank Narang",
+        "Youngwoo Choi",
+        "Woojin Kwon",
+        "Patrick Sheehan",
+        "Ilseung Han"
+      ],
+      "categories": [
+        "astro-ph.EP",
+        "astro-ph.SR"
+      ],
+      "published": "2026-09-30T11:03:49Z",
+      "updated": "2026-10-01T17:54:03Z",
+      "date_kind": "announcement",
+      "announcement_type": "new",
+      "url": "https://arxiv.org/abs/2609.39501",
+      "pdf": "https://arxiv.org/pdf/2609.39501v2",
+      "source": "arXiv",
+      "first_seen": "2026-10-02T01:27:10.366082+00:00",
+      "version_changed": true,
+      "topics": [
+        "evolution"
+      ],
+      "matches": {
+        "physics": [
+          "radiative transfer"
+        ],
+        "evolution": [
+          "planet formation",
+          "planetesimal"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：radiative transfer、planet formation、planetesimal",
+      "tags": [
+        "云与辐射 · Clouds & radiation"
+      ],
+      "method": "keyword",
+      "fit_score": 44,
+      "fit_matches": [
+        "行星大气与辐射"
+      ],
+      "institutions": [
+        "Department of Astronomy, University of Virginia, Charlottesville, VA 22904, USA",
+        "Virginia Institute of Theoretical Astronomy, University of Virginia, Charlottesville, VA 22904, USA",
+        "National Radio Astronomy Observatory, 520 Edgemont Road, Charlottesville, VA 22903, USA",
+        "Academia Sinica Institute of Astronomy &\\& Astrophysics, 11F of Astronomy-Mathematics Building, AS/NTU, No.1, Sec. 4, Roosevelt Rd, Taipei 10617, Taiwan",
+        "Department of Physics and Astronomy, Graduate School of Science and Engineering, Kagoshima University, 1-21-35 Korimoto, Kagoshima, Kagoshima 890-0065, Japan",
+        "Department of Astronomy, University of Illinois, 1002 West Green St, Urbana, IL 61801, USA",
+        "Department of Physics and Astronomy, Seoul National University, Gwanak-ro 1, Gwanak-gu, Seoul, 08826, Korea",
+        "Department of Earth Science Education, Seoul National University, Gwanak-ro 1, Gwanak-gu, Seoul, 08826, Korea",
+        "SNU Astronomy Research Center, Seoul National University, Gwanak-ro 1, Gwanak-gu, Seoul, 08826, Korea",
+        "The Center for Educational Research, Seoul National University, 1 Gwanak-ro, Gwanak-gu, Seoul 08826, Republic of Korea",
+        "Institut de Ciències de l’Espai (ICE-CSIC), Campus UAB, Can Magrans S/N, E-08193 Cerdanyola del Vallès, Catalonia, Spain"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Sidhant Kumar Suar",
+          "institutions": [
+            "Department of Astronomy, University of Virginia, Charlottesville, VA 22904, USA",
+            "Virginia Institute of Theoretical Astronomy, University of Virginia, Charlottesville, VA 22904, USA"
+          ],
+          "orcid": "https://orcid.org/0009-0000-3694-8993"
+        },
+        {
+          "name": "Zhe-Yu Daniel Lin",
+          "institutions": [
+            "National Radio Astronomy Observatory, 520 Edgemont Road, Charlottesville, VA 22903, USA",
+            "Department of Astronomy, University of Virginia, Charlottesville, VA 22904, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0001-7233-4171",
+          "name_zh": "林哲宇",
+          "name_source": "https://orcid.org/0000-0001-7233-4171"
+        },
+        {
+          "name": "Zhi-Yun Li",
+          "institutions": [
+            "Department of Astronomy, University of Virginia, Charlottesville, VA 22904, USA",
+            "Virginia Institute of Theoretical Astronomy, University of Virginia, Charlottesville, VA 22904, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-7402-6487"
+        },
+        {
+          "name": "Nagayoshi Ohashi",
+          "institutions": [
+            "Academia Sinica Institute of Astronomy &\\& Astrophysics, 11F of Astronomy-Mathematics Building, AS/NTU, No.1, Sec. 4, Roosevelt Rd, Taipei 10617, Taiwan"
+          ],
+          "orcid": "https://orcid.org/0000-0003-0998-5064"
+        },
+        {
+          "name": "Shigehisa Takakuwa",
+          "institutions": [
+            "Department of Physics and Astronomy, Graduate School of Science and Engineering, Kagoshima University, 1-21-35 Korimoto, Kagoshima, Kagoshima 890-0065, Japan",
+            "Academia Sinica Institute of Astronomy &\\& Astrophysics, 11F of Astronomy-Mathematics Building, AS/NTU, No.1, Sec. 4, Roosevelt Rd, Taipei 10617, Taiwan"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "John Tobin",
+          "institutions": [
+            "National Radio Astronomy Observatory, 520 Edgemont Road, Charlottesville, VA 22903, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-6195-0152"
+        },
+        {
+          "name": "Leslie Looney",
+          "institutions": [
+            "Department of Astronomy, University of Illinois, 1002 West Green St, Urbana, IL 61801, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-4540-6587"
+        },
+        {
+          "name": "Mayank Narang",
+          "institutions": [
+            "Academia Sinica Institute of Astronomy &\\& Astrophysics, 11F of Astronomy-Mathematics Building, AS/NTU, No.1, Sec. 4, Roosevelt Rd, Taipei 10617, Taiwan"
+          ],
+          "orcid": "https://orcid.org/0000-0002-0554-1151"
+        },
+        {
+          "name": "Youngwoo Choi",
+          "institutions": [
+            "Department of Physics and Astronomy, Seoul National University, Gwanak-ro 1, Gwanak-gu, Seoul, 08826, Korea"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Woojin Kwon",
+          "institutions": [
+            "Department of Earth Science Education, Seoul National University, Gwanak-ro 1, Gwanak-gu, Seoul, 08826, Korea",
+            "SNU Astronomy Research Center, Seoul National University, Gwanak-ro 1, Gwanak-gu, Seoul, 08826, Korea",
+            "The Center for Educational Research, Seoul National University, 1 Gwanak-ro, Gwanak-gu, Seoul 08826, Republic of Korea"
+          ],
+          "orcid": "https://orcid.org/0000-0003-4022-4132"
+        },
+        {
+          "name": "Patrick Sheehan",
+          "institutions": [
+            "National Radio Astronomy Observatory, 520 Edgemont Road, Charlottesville, VA 22903, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-9209-8708"
+        },
+        {
+          "name": "Ilseung Han",
+          "institutions": [
+            "Institut de Ciències de l’Espai (ICE-CSIC), Campus UAB, Can Magrans S/N, E-08193 Cerdanyola del Vallès, Catalonia, Spain"
+          ],
+          "orcid": "https://orcid.org/0000-0002-9143-1433"
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.39501v2",
+      "intro_en": "How and when dust settles in young protostellar disks is a key open question for the dust concentration needed to form planetesimals and, ultimately, planets. However, directly measuring the vertical dust distribution in embedded (Class 0/I) systems remains challenging.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-09-30",
+      "publication_date_source": "https://arxiv.org/abs/2609.39501v2",
+      "doi": "",
+      "version_date": "2026-10-01T17:54:03+00:00",
+      "variants": [
+        {
+          "id": "2609.39501",
+          "source": "arXiv",
+          "journal": null,
+          "journal_id": null,
+          "title": "Early Planet Formation in Embedded Disks (eDisk). XXV. Inclination-Induced Minor-Axis Brightness Asymmetries Reveal Limited Dust Settling in Embedded Protostellar Disks",
+          "url": "https://arxiv.org/abs/2609.39501",
+          "doi": "",
+          "version_id": "2609.39501v2",
+          "first_seen": "2026-10-02T01:27:10.366082+00:00",
+          "publication_date": "2026-09-30",
+          "version_date": "2026-10-01T17:54:03+00:00",
+          "metadata_source": null,
+          "affiliation_source": "https://arxiv.org/html/2609.39501v2"
+        }
+      ],
+      "match_basis": [],
+      "source_types": [
+        "arXiv"
+      ],
+      "journals": [],
+      "source_groups": [],
+      "intake_kind": "recent"
+    },
+    {
       "id": "2609.36697",
       "version_id": "2609.36697v1",
       "title": "High-CO2 Climates and Observables in the Outer Habitable Zone",
@@ -1455,7 +1642,8 @@
       "first_seen": "2026-09-26T01:23:05.202209+00:00",
       "version_changed": false,
       "topics": [
-        "detection"
+        "detection",
+        "evolution"
       ],
       "matches": {
         "detection": [
@@ -1464,7 +1652,9 @@
       },
       "status": "candidate",
       "reason": "关联线索：radial velocity",
-      "tags": [],
+      "tags": [
+        "岩浆与挥发分 · Magma & volatiles"
+      ],
       "method": "keyword",
       "institutions": [
         "Instituto de Astrofísica de Andalucía (IAA-CSIC), Granada, Spain",
@@ -1492,8 +1682,11 @@
       "publication_date_source": "https://arxiv.org/abs/2609.29378v1",
       "intro_source": "https://arxiv.org/abs/2609.29378",
       "intro_version": "2609.29378v1",
-      "fit_score": 36,
-      "fit_matches": [],
+      "fit_score": 55,
+      "fit_matches": [
+        "行星轨道与演化",
+        "系外行星观测表征"
+      ],
       "version_date": "2026-09-24T11:01:57+00:00",
       "variants": [
         {
@@ -1514,11 +1707,11 @@
         {
           "id": "exoplanet-bib:33138",
           "source": "exoplanet.eu",
-          "journal": "",
+          "journal": "a target= \"_blank\" href=\" https://doi.org/10.1016/bs.spadv.2026.08.001\">full text arxiv Prehistory of Transit Searches",
           "journal_id": null,
-          "title": "Exoplanet Detection Techniques: Radial Velocity",
-          "url": "https://doi.org/10.48550/arXiv.2609.29378",
-          "doi": null,
+          "title": "Exoplanet Detection Techniques: Radial Velocity Prehistory of Transit Searches JWST/MIRI coronagraphic search for planets in systems with gapped exoKuiper belts and proper motion anomalies Detection of cool dust around the G2V star HD 107146. Planet engulfment in the chemically anomalous HD 129171/HD 129209 pair Incorporation of atmospheric components in planetary magma oceans through bubble–metal compounds Tracing outer planetary systems through white dwarf pollution in wide binaries Stellar Abundances as Probes of Rocky Exoplanet Interiors: The Mantle Composition and Mineralogy of GJ 486b A Newly Identified Degeneracy Keeps the Planetary Interpretation Viable for OGLE-2011-BLG-0950 The γ Cephei System: Updated Orbits, Dynamical Architecture, and Limits on Additional Companions Planet populations inferred from debris discs: insights from 178 debris systems in the ISPY, LEECH and LIStEN planet-hunting surveys Correlations between the Carbon-to-Oxygen Ratio and the Orbital and Physical Properties of Exoplanets Searching for substellar companion candidates with Gaia. IV. New planetary-mass companions found in debris disks No statistically significant evidence for a correlation between stellar and planetary composition Radiating Bondi Flows II: Giant Planet Accretion Models Radiating Bondi Flows I: Dimensionless Framework and Constant Opacity Solutions Sky-Plane Velocity Distributions of Interstellar Objects and Implications for Their Detection Phase-dependent chemistry of WASP-43 b revealed with a suite of one-, two-, and three-dimensional models There is No Analytic Solution to Optimize Phase Observations in Multi-planet Systems",
+          "url": "https://doi.org/10.1007/978-3-319-30648-3_169-1",
+          "doi": "10.1007/978-3-319-30648-3_169-1",
           "version_id": "exoplanet-bib:33138",
           "first_seen": "2026-09-26T15:19:36.224308+08:00",
           "publication_date": "2026",
@@ -1534,7 +1727,9 @@
         "arXiv",
         "exoplanet.eu"
       ],
-      "journals": [],
+      "journals": [
+        "a target= \"_blank\" href=\" https://doi.org/10.1016/bs.spadv.2026.08.001\">full text arxiv Prehistory of Transit Searches"
+      ],
       "source_groups": [
         "exoplanet bibliography"
       ],
@@ -21936,6 +22131,7 @@
     "approved": [
       "2609.36697",
       "2609.38921",
+      "2609.39501",
       "2609.40058",
       "doi:10.1029/2026je009882",
       "doi:10.3847/1538-4357/ae1cc5",
@@ -21961,7 +22157,8 @@
       "doi:10.3847/1538-4357/aea293": "recent",
       "doi:10.3847/1538-4357/aea13e": "recent",
       "2609.40058": "recent",
-      "doi:10.3847/1538-4357/ae9ba8": "recent"
+      "doi:10.3847/1538-4357/ae9ba8": "recent",
+      "2609.39501": "recent"
     },
     "policy": {
       "recent_days": 2,
@@ -21969,11 +22166,10 @@
       "min_fallback_score": 65,
       "max_fallback": 3
     },
-    "last_run": "2026-10-02",
+    "last_run": "2026-10-03",
     "mode": "recent",
     "selected": [
-      "2609.40058",
-      "doi:10.3847/1538-4357/ae9ba8"
+      "2609.39501"
     ],
     "search_errors": []
   },
@@ -23330,6 +23526,6 @@
       }
     }
   },
-  "record_count": 1221,
+  "record_count": 1245,
   "merged_count": 7
 }
