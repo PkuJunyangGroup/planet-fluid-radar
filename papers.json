@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-03T01:25:34.124406+00:00",
+  "generated_at": "2026-10-03T02:09:12.410482+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
-      "last_attempt": "2026-10-03T01:25:34.124406+00:00",
-      "last_success": "2026-10-03T01:25:34.124406+00:00",
+      "last_attempt": "2026-10-03T02:09:12.410482+00:00",
+      "last_success": "2026-10-03T02:09:12.410482+00:00",
       "status": "ok",
-      "fetched": 6
+      "fetched": 0
     },
     "physics.ao-ph": {
-      "last_attempt": "2026-10-03T01:25:34.124406+00:00",
-      "last_success": "2026-10-03T01:25:34.124406+00:00",
+      "last_attempt": "2026-10-03T02:09:12.410482+00:00",
+      "last_success": "2026-10-03T02:09:12.410482+00:00",
       "status": "ok",
-      "fetched": 11
+      "fetched": 0
     },
     "physics.geo-ph": {
-      "last_attempt": "2026-10-03T01:25:34.124406+00:00",
-      "last_success": "2026-10-03T01:25:34.124406+00:00",
+      "last_attempt": "2026-10-03T02:09:12.410482+00:00",
+      "last_success": "2026-10-03T02:09:12.410482+00:00",
       "status": "ok",
-      "fetched": 8
+      "fetched": 0
     },
     "physics.flu-dyn": {
-      "last_attempt": "2026-10-03T01:25:34.124406+00:00",
-      "last_success": "2026-10-03T01:25:34.124406+00:00",
+      "last_attempt": "2026-10-03T02:09:12.410482+00:00",
+      "last_success": "2026-10-03T02:09:12.410482+00:00",
       "status": "ok",
       "fetched": 0
     }
@@ -3989,12 +3989,12 @@
           "planetesimal"
         ]
       },
-      "status": "candidate",
-      "reason": "关联线索：radiative transfer、planet formation、planetesimal",
+      "status": "unmatched",
+      "reason": "人工复核：研究嵌入式原恒星盘的尘埃沉降与星子形成；不直接涉及本站优先的行星大气、海洋、冰、表层系统或轨道动力。",
       "tags": [
         "云与辐射 · Clouds & radiation"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 44,
       "fit_matches": [
         "行星大气与辐射"
