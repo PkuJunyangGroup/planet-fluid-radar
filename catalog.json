@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T01:30:09.994105+00:00",
+  "generated_at": "2026-10-03T02:06:56.204330+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
@@ -260,12 +260,12 @@
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-10-03T09:25:50.550900+08:00",
-      "last_success": "2026-10-03T09:25:50.550900+08:00",
+      "last_attempt": "2026-10-03T10:06:17.361852+08:00",
+      "last_success": "2026-10-03T10:06:17.361852+08:00",
       "coverage_since": "2026-09-25",
-      "pages_checked": 2,
-      "fetched": 2,
-      "retained": 1,
+      "pages_checked": 1,
+      "fetched": 0,
+      "retained": 0,
       "method": "daily incremental bibliography page scan; candidate-only"
     }
   },
@@ -1153,202 +1153,6 @@
           "version_date": "2026-09-30T16:20:26+00:00",
           "metadata_source": null,
           "affiliation_source": "https://arxiv.org/html/2609.40058v1"
-        }
-      ],
-      "match_basis": [],
-      "source_types": [
-        "arXiv"
-      ],
-      "journals": [],
-      "source_groups": [],
-      "intake_kind": "recent"
-    },
-    {
-      "id": "2609.39501",
-      "version_id": "2609.39501v2",
-      "title": "Early Planet Formation in Embedded Disks (eDisk). XXV. Inclination-Induced Minor-Axis Brightness Asymmetries Reveal Limited Dust Settling in Embedded Protostellar Disks",
-      "abstract": "How and when dust settles in young protostellar disks is a key open question for the dust concentration needed to form planetesimals and, ultimately, planets. However, directly measuring the vertical dust distribution in embedded (Class 0/I) systems remains challenging. We show that brightness asymmetry along the minor axis of highly inclined disks provides a simple, powerful geometric diagnostic of vertical dust structure. Using radiative transfer modeling with RADMC-3D, we generate synthetic continuum images showing that the observed asymmetry arises naturally from disk inclination, optical depth, and dust scale height. We apply this framework to nine Class 0 and I disks from the ALMA Large Program, Early Planet Formation in Embedded Disks (eDisk), using Markov Chain Monte Carlo (MCMC) fitting. Outflow observations independently validate the inferred near- and far-side geometries: all eight sources with useful outflow constraints agree with the orientations predicted by the dust continuum modeling. Our results indicate that most embedded disks show no strong evidence of significant dust settling, with dust scale heights comparable to the gas scale height. Given that the literature indicates Class II disks tend to be well settled, our results reinforce the notion that significant dust settling occurs during the Class I phase, when deeply embedded Class 0 disks transition to their more revealed Class II counterparts. Intriguingly, the timing of dust settling appears to broadly coincide with the development of widespread dust substructures, suggesting that gravitationally driven vertical dust concentration may have triggered substructure formation.",
-      "authors": [
-        "Sidhant Kumar Suar",
-        "Zhe-Yu Daniel Lin",
-        "Zhi-Yun Li",
-        "Nagayoshi Ohashi",
-        "Shigehisa Takakuwa",
-        "John Tobin",
-        "Leslie Looney",
-        "Mayank Narang",
-        "Youngwoo Choi",
-        "Woojin Kwon",
-        "Patrick Sheehan",
-        "Ilseung Han"
-      ],
-      "categories": [
-        "astro-ph.EP",
-        "astro-ph.SR"
-      ],
-      "published": "2026-09-30T11:03:49Z",
-      "updated": "2026-10-01T17:54:03Z",
-      "date_kind": "announcement",
-      "announcement_type": "new",
-      "url": "https://arxiv.org/abs/2609.39501",
-      "pdf": "https://arxiv.org/pdf/2609.39501v2",
-      "source": "arXiv",
-      "first_seen": "2026-10-02T01:27:10.366082+00:00",
-      "version_changed": true,
-      "topics": [
-        "evolution"
-      ],
-      "matches": {
-        "physics": [
-          "radiative transfer"
-        ],
-        "evolution": [
-          "planet formation",
-          "planetesimal"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：radiative transfer、planet formation、planetesimal",
-      "tags": [
-        "云与辐射 · Clouds & radiation"
-      ],
-      "method": "keyword",
-      "fit_score": 44,
-      "fit_matches": [
-        "行星大气与辐射"
-      ],
-      "institutions": [
-        "Department of Astronomy, University of Virginia, Charlottesville, VA 22904, USA",
-        "Virginia Institute of Theoretical Astronomy, University of Virginia, Charlottesville, VA 22904, USA",
-        "National Radio Astronomy Observatory, 520 Edgemont Road, Charlottesville, VA 22903, USA",
-        "Academia Sinica Institute of Astronomy &\\& Astrophysics, 11F of Astronomy-Mathematics Building, AS/NTU, No.1, Sec. 4, Roosevelt Rd, Taipei 10617, Taiwan",
-        "Department of Physics and Astronomy, Graduate School of Science and Engineering, Kagoshima University, 1-21-35 Korimoto, Kagoshima, Kagoshima 890-0065, Japan",
-        "Department of Astronomy, University of Illinois, 1002 West Green St, Urbana, IL 61801, USA",
-        "Department of Physics and Astronomy, Seoul National University, Gwanak-ro 1, Gwanak-gu, Seoul, 08826, Korea",
-        "Department of Earth Science Education, Seoul National University, Gwanak-ro 1, Gwanak-gu, Seoul, 08826, Korea",
-        "SNU Astronomy Research Center, Seoul National University, Gwanak-ro 1, Gwanak-gu, Seoul, 08826, Korea",
-        "The Center for Educational Research, Seoul National University, 1 Gwanak-ro, Gwanak-gu, Seoul 08826, Republic of Korea",
-        "Institut de Ciències de l’Espai (ICE-CSIC), Campus UAB, Can Magrans S/N, E-08193 Cerdanyola del Vallès, Catalonia, Spain"
-      ],
-      "author_affiliations": [
-        {
-          "name": "Sidhant Kumar Suar",
-          "institutions": [
-            "Department of Astronomy, University of Virginia, Charlottesville, VA 22904, USA",
-            "Virginia Institute of Theoretical Astronomy, University of Virginia, Charlottesville, VA 22904, USA"
-          ],
-          "orcid": "https://orcid.org/0009-0000-3694-8993"
-        },
-        {
-          "name": "Zhe-Yu Daniel Lin",
-          "institutions": [
-            "National Radio Astronomy Observatory, 520 Edgemont Road, Charlottesville, VA 22903, USA",
-            "Department of Astronomy, University of Virginia, Charlottesville, VA 22904, USA"
-          ],
-          "orcid": "https://orcid.org/0000-0001-7233-4171",
-          "name_zh": "林哲宇",
-          "name_source": "https://orcid.org/0000-0001-7233-4171"
-        },
-        {
-          "name": "Zhi-Yun Li",
-          "institutions": [
-            "Department of Astronomy, University of Virginia, Charlottesville, VA 22904, USA",
-            "Virginia Institute of Theoretical Astronomy, University of Virginia, Charlottesville, VA 22904, USA"
-          ],
-          "orcid": "https://orcid.org/0000-0002-7402-6487"
-        },
-        {
-          "name": "Nagayoshi Ohashi",
-          "institutions": [
-            "Academia Sinica Institute of Astronomy &\\& Astrophysics, 11F of Astronomy-Mathematics Building, AS/NTU, No.1, Sec. 4, Roosevelt Rd, Taipei 10617, Taiwan"
-          ],
-          "orcid": "https://orcid.org/0000-0003-0998-5064"
-        },
-        {
-          "name": "Shigehisa Takakuwa",
-          "institutions": [
-            "Department of Physics and Astronomy, Graduate School of Science and Engineering, Kagoshima University, 1-21-35 Korimoto, Kagoshima, Kagoshima 890-0065, Japan",
-            "Academia Sinica Institute of Astronomy &\\& Astrophysics, 11F of Astronomy-Mathematics Building, AS/NTU, No.1, Sec. 4, Roosevelt Rd, Taipei 10617, Taiwan"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "John Tobin",
-          "institutions": [
-            "National Radio Astronomy Observatory, 520 Edgemont Road, Charlottesville, VA 22903, USA"
-          ],
-          "orcid": "https://orcid.org/0000-0002-6195-0152"
-        },
-        {
-          "name": "Leslie Looney",
-          "institutions": [
-            "Department of Astronomy, University of Illinois, 1002 West Green St, Urbana, IL 61801, USA"
-          ],
-          "orcid": "https://orcid.org/0000-0002-4540-6587"
-        },
-        {
-          "name": "Mayank Narang",
-          "institutions": [
-            "Academia Sinica Institute of Astronomy &\\& Astrophysics, 11F of Astronomy-Mathematics Building, AS/NTU, No.1, Sec. 4, Roosevelt Rd, Taipei 10617, Taiwan"
-          ],
-          "orcid": "https://orcid.org/0000-0002-0554-1151"
-        },
-        {
-          "name": "Youngwoo Choi",
-          "institutions": [
-            "Department of Physics and Astronomy, Seoul National University, Gwanak-ro 1, Gwanak-gu, Seoul, 08826, Korea"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "Woojin Kwon",
-          "institutions": [
-            "Department of Earth Science Education, Seoul National University, Gwanak-ro 1, Gwanak-gu, Seoul, 08826, Korea",
-            "SNU Astronomy Research Center, Seoul National University, Gwanak-ro 1, Gwanak-gu, Seoul, 08826, Korea",
-            "The Center for Educational Research, Seoul National University, 1 Gwanak-ro, Gwanak-gu, Seoul 08826, Republic of Korea"
-          ],
-          "orcid": "https://orcid.org/0000-0003-4022-4132"
-        },
-        {
-          "name": "Patrick Sheehan",
-          "institutions": [
-            "National Radio Astronomy Observatory, 520 Edgemont Road, Charlottesville, VA 22903, USA"
-          ],
-          "orcid": "https://orcid.org/0000-0002-9209-8708"
-        },
-        {
-          "name": "Ilseung Han",
-          "institutions": [
-            "Institut de Ciències de l’Espai (ICE-CSIC), Campus UAB, Can Magrans S/N, E-08193 Cerdanyola del Vallès, Catalonia, Spain"
-          ],
-          "orcid": "https://orcid.org/0000-0002-9143-1433"
-        }
-      ],
-      "affiliation_status": "verified",
-      "affiliation_source": "https://arxiv.org/html/2609.39501v2",
-      "intro_en": "How and when dust settles in young protostellar disks is a key open question for the dust concentration needed to form planetesimals and, ultimately, planets. However, directly measuring the vertical dust distribution in embedded (Class 0/I) systems remains challenging.",
-      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
-      "intro_kind": "abstract_excerpt",
-      "intro_basis": "英文摘要节选",
-      "publication_date": "2026-09-30",
-      "publication_date_source": "https://arxiv.org/abs/2609.39501v2",
-      "doi": "",
-      "version_date": "2026-10-01T17:54:03+00:00",
-      "variants": [
-        {
-          "id": "2609.39501",
-          "source": "arXiv",
-          "journal": null,
-          "journal_id": null,
-          "title": "Early Planet Formation in Embedded Disks (eDisk). XXV. Inclination-Induced Minor-Axis Brightness Asymmetries Reveal Limited Dust Settling in Embedded Protostellar Disks",
-          "url": "https://arxiv.org/abs/2609.39501",
-          "doi": "",
-          "version_id": "2609.39501v2",
-          "first_seen": "2026-10-02T01:27:10.366082+00:00",
-          "publication_date": "2026-09-30",
-          "version_date": "2026-10-01T17:54:03+00:00",
-          "metadata_source": null,
-          "affiliation_source": "https://arxiv.org/html/2609.39501v2"
         }
       ],
       "match_basis": [],
