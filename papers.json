@@ -1,30 +1,42 @@
 {
-  "generated_at": "2026-10-04T02:15:18.996920+00:00",
+  "generated_at": "2026-10-04T04:01:14.679600+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
-      "last_attempt": "2026-10-04T02:15:18.996920+00:00",
+      "last_attempt": "2026-10-04T04:01:14.679600+00:00",
       "last_success": "2026-10-04T02:15:18.996920+00:00",
-      "status": "ok",
-      "fetched": 0
+      "status": "partial",
+      "fetched": 0,
+      "error": "HTTP 429",
+      "last_rss_success": "2026-10-04T04:01:14.679600+00:00",
+      "last_rss_fetched": 0
     },
     "physics.ao-ph": {
-      "last_attempt": "2026-10-04T02:15:18.996920+00:00",
+      "last_attempt": "2026-10-04T04:01:14.679600+00:00",
       "last_success": "2026-10-04T02:15:18.996920+00:00",
-      "status": "ok",
-      "fetched": 0
+      "status": "partial",
+      "fetched": 0,
+      "error": "HTTP 429",
+      "last_rss_success": "2026-10-04T04:01:14.679600+00:00",
+      "last_rss_fetched": 0
     },
     "physics.geo-ph": {
-      "last_attempt": "2026-10-04T02:15:18.996920+00:00",
+      "last_attempt": "2026-10-04T04:01:14.679600+00:00",
       "last_success": "2026-10-04T02:15:18.996920+00:00",
-      "status": "ok",
-      "fetched": 0
+      "status": "partial",
+      "fetched": 0,
+      "error": "HTTP 429",
+      "last_rss_success": "2026-10-04T04:01:14.679600+00:00",
+      "last_rss_fetched": 0
     },
     "physics.flu-dyn": {
-      "last_attempt": "2026-10-04T02:15:18.996920+00:00",
+      "last_attempt": "2026-10-04T04:01:14.679600+00:00",
       "last_success": "2026-10-04T02:15:18.996920+00:00",
-      "status": "ok",
-      "fetched": 0
+      "status": "partial",
+      "fetched": 0,
+      "error": "HTTP 429",
+      "last_rss_success": "2026-10-04T04:01:14.679600+00:00",
+      "last_rss_fetched": 0
     }
   },
   "topics": [
