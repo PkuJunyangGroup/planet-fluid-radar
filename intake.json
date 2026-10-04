@@ -5,6 +5,7 @@
     "2609.39501",
     "2609.40058",
     "doi:10.1029/2026je009882",
+    "doi:10.1177/15311074261493349",
     "doi:10.3847/1538-4357/ae1cc5",
     "doi:10.3847/1538-4357/ae3d35",
     "doi:10.3847/1538-4357/ae63b8",
@@ -29,7 +30,8 @@
     "doi:10.3847/1538-4357/aea13e": "recent",
     "2609.40058": "recent",
     "doi:10.3847/1538-4357/ae9ba8": "recent",
-    "2609.39501": "recent"
+    "2609.39501": "recent",
+    "doi:10.1177/15311074261493349": "one_year_fallback"
   },
   "policy": {
     "recent_days": 2,
@@ -37,8 +39,10 @@
     "min_fallback_score": 65,
     "max_fallback": 3
   },
-  "last_run": "2026-10-03",
+  "last_run": "2026-10-04",
   "mode": "one_year_fallback",
-  "selected": [],
+  "selected": [
+    "doi:10.1177/15311074261493349"
+  ],
   "search_errors": []
 }
