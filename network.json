@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T01:30:08.745127+00:00",
+  "generated_at": "2026-10-06T01:31:20.129302+00:00",
   "nodes": [
     {
       "id": "ff044959654646c7",
@@ -3259,6 +3259,7 @@
         "2609.26894",
         "2609.28166",
         "doi:10.1126/science.aea9708",
+        "doi:10.3847/1538-4357/ae9bbc",
         "doi:10.3847/2041-8213/ae8c2d",
         "doi:10.3847/2041-8213/ae9305",
         "doi:10.3847/2041-8213/ae9b0a"
@@ -3360,6 +3361,17 @@
           "orcid": "https://orcid.org/0000-0003-3305-6281",
           "papers": [
             "doi:10.3847/2041-8213/ae9b0a"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "b8a9d0d6b56eba6f",
+          "name": "Joshua Lothringer",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "doi:10.3847/1538-4357/ae9bbc"
           ],
           "unit_papers": {}
         }
@@ -4616,6 +4628,72 @@
           "unit_papers": {}
         },
         {
+          "id": "0cf4a5504fb540ad",
+          "name": "Rachel E. Gross",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-0477-6047",
+          "papers": [
+            "2609.27031"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "ceb483db03133f57",
+          "name": "L. Ilsedore Cleeves",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0003-2076-8001",
+          "papers": [
+            "2609.27031"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "00361db1bdd8214f",
+          "name": "Catherine A. Dukes",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-4549-7204",
+          "papers": [
+            "2609.27031"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "6084a6d89b064b5d",
+          "name": "Robin T. Garrod",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0001-7723-8955",
+          "papers": [
+            "2609.27031"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "6baecec01ba04868",
+          "name": "Alexia Simon",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-5061-3054",
+          "papers": [
+            "2609.27031"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "b408d4af0783139b",
+          "name": "Adam Woodson",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-6112-7502",
+          "papers": [
+            "2609.27031"
+          ],
+          "unit_papers": {}
+        },
+        {
           "id": "5e9a9d5e63f7a89a",
           "name": "Robert E. Johnson",
           "name_zh": null,
@@ -4629,6 +4707,7 @@
       ],
       "units": [],
       "raw": [
+        "University of Virginia",
         "University of Virginia Charlottesville VA USA",
         "University of Virginia, Department of Astronomy, Charlottesville, VA 22904, USA",
         "University of Virginia, Laboratory for Astrophysics & Surface Physics, Dept. Materials Science & Engineering, Charlottesville, VA 22904, USA"
@@ -9845,6 +9924,48 @@
         "source": "https://api.ror.org/v2/organizations/00djv2c17",
         "checked_at": "2026-09-24"
       }
+    },
+    {
+      "id": "6e4ecf74923d4163",
+      "label": "University of Kansas",
+      "name_zh": "堪萨斯大学",
+      "papers": [
+        "doi:10.3847/1538-4357/ae9bbc"
+      ],
+      "authors": [
+        {
+          "id": "f0a97d8c905f6f0d",
+          "name": "Ian J. M. Crossfield",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "doi:10.3847/1538-4357/ae9bbc"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "1c57edaae955e11a",
+          "name": "Elisabeth A. C. Mills",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0001-8782-1992",
+          "papers": [
+            "doi:10.3847/1538-4357/ae9bbc"
+          ],
+          "unit_papers": {}
+        }
+      ],
+      "units": [],
+      "raw": [
+        "University of Kansas"
+      ],
+      "verification": {
+        "ror": "https://ror.org/001tmjg57",
+        "website": "https://ku.edu",
+        "source": "https://api.ror.org/v2/organizations/001tmjg57",
+        "checked_at": "2026-09-24"
+      }
     }
   ],
   "edges": [
@@ -13621,6 +13742,14 @@
         "doi:10.3847/1538-4357/ae9ba8"
       ],
       "weight": 1
+    },
+    {
+      "source": "6e4ecf74923d4163",
+      "target": "f0a42ba5624748d4",
+      "papers": [
+        "doi:10.3847/1538-4357/ae9bbc"
+      ],
+      "weight": 1
     }
   ],
   "papers": {
@@ -13908,7 +14037,9 @@
       ],
       "first_seen": "2026-09-24T08:51:14.614730+00:00",
       "publication_date": "2026-09-22",
-      "journals": [],
+      "journals": [
+        "The Astrophysical Journal"
+      ],
       "institutions": [
         "43da693b4fa6eed4"
       ]
@@ -15941,6 +16072,24 @@
         "29645bb566fcd576",
         "3b535182cc8b9c8d",
         "8cac5405c6c846a1"
+      ]
+    },
+    "doi:10.3847/1538-4357/ae9bbc": {
+      "id": "doi:10.3847/1538-4357/ae9bbc",
+      "title": "The Isotopic and Elemental Abundances of Planet-host-star TRAPPIST-1",
+      "url": "https://doi.org/10.3847/1538-4357/ae9bbc",
+      "topics": [
+        "models",
+        "evolution"
+      ],
+      "first_seen": "2026-10-06T01:27:42.840753+00:00",
+      "publication_date": "2026-10-05",
+      "journals": [
+        "The Astrophysical Journal"
+      ],
+      "institutions": [
+        "6e4ecf74923d4163",
+        "f0a42ba5624748d4"
       ]
     },
     "exoplanet-bib:33128": {
@@ -18728,6 +18877,123 @@
       "name_source": "",
       "orcid": null,
       "identity_basis": "name_and_institution",
+      "papers": [
+        "2609.27031"
+      ],
+      "institutions": [
+        "43da693b4fa6eed4"
+      ],
+      "aliases": [
+        "Adam Woodson"
+      ]
+    },
+    {
+      "id": "0cf4a5504fb540ad",
+      "name": "Rachel E. Gross",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0002-0477-6047",
+      "identity_basis": "orcid",
+      "papers": [
+        "2609.27031"
+      ],
+      "institutions": [
+        "43da693b4fa6eed4"
+      ],
+      "aliases": [
+        "Rachel E. Gross"
+      ]
+    },
+    {
+      "id": "e8e8234be1864d1e",
+      "name": "Jeroen Terwisscha van Scheltinga",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0002-3800-9639",
+      "identity_basis": "orcid",
+      "papers": [
+        "2609.27031"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Jeroen Terwisscha van Scheltinga"
+      ]
+    },
+    {
+      "id": "ceb483db03133f57",
+      "name": "L. Ilsedore Cleeves",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0003-2076-8001",
+      "identity_basis": "orcid",
+      "papers": [
+        "2609.27031"
+      ],
+      "institutions": [
+        "43da693b4fa6eed4"
+      ],
+      "aliases": [
+        "L. Ilsedore Cleeves"
+      ]
+    },
+    {
+      "id": "00361db1bdd8214f",
+      "name": "Catherine A. Dukes",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0002-4549-7204",
+      "identity_basis": "orcid",
+      "papers": [
+        "2609.27031"
+      ],
+      "institutions": [
+        "43da693b4fa6eed4"
+      ],
+      "aliases": [
+        "Catherine A. Dukes"
+      ]
+    },
+    {
+      "id": "6084a6d89b064b5d",
+      "name": "Robin T. Garrod",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0001-7723-8955",
+      "identity_basis": "orcid",
+      "papers": [
+        "2609.27031"
+      ],
+      "institutions": [
+        "43da693b4fa6eed4"
+      ],
+      "aliases": [
+        "Robin T. Garrod"
+      ]
+    },
+    {
+      "id": "6baecec01ba04868",
+      "name": "Alexia Simon",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0002-5061-3054",
+      "identity_basis": "orcid",
+      "papers": [
+        "2609.27031"
+      ],
+      "institutions": [
+        "43da693b4fa6eed4"
+      ],
+      "aliases": [
+        "Alexia Simon"
+      ]
+    },
+    {
+      "id": "b408d4af0783139b",
+      "name": "Adam Woodson",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0002-6112-7502",
+      "identity_basis": "orcid",
       "papers": [
         "2609.27031"
       ],
@@ -30720,6 +30986,147 @@
       ],
       "aliases": [
         "Nathalie Carrasco"
+      ]
+    },
+    {
+      "id": "bf6cfe074d39f831",
+      "name": "Darío González Picos",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0001-9282-9462",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/1538-4357/ae9bbc"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Darío González Picos"
+      ]
+    },
+    {
+      "id": "f0a97d8c905f6f0d",
+      "name": "Ian J. M. Crossfield",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": null,
+      "identity_basis": "name_and_institution",
+      "papers": [
+        "doi:10.3847/1538-4357/ae9bbc"
+      ],
+      "institutions": [
+        "6e4ecf74923d4163"
+      ],
+      "aliases": [
+        "Ian J. M. Crossfield"
+      ]
+    },
+    {
+      "id": "dae2b4a705444dab",
+      "name": "David Coria",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0002-1221-5346",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/1538-4357/ae9bbc"
+      ],
+      "institutions": [],
+      "aliases": [
+        "David Coria"
+      ]
+    },
+    {
+      "id": "b8a9d0d6b56eba6f",
+      "name": "Joshua Lothringer",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": null,
+      "identity_basis": "name_and_institution",
+      "papers": [
+        "doi:10.3847/1538-4357/ae9bbc"
+      ],
+      "institutions": [
+        "f0a42ba5624748d4"
+      ],
+      "aliases": [
+        "Joshua Lothringer"
+      ]
+    },
+    {
+      "id": "46266c02a5e0de85",
+      "name": "Eric Gaidos",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0002-5258-6846",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/1538-4357/ae9bbc"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Eric Gaidos"
+      ]
+    },
+    {
+      "id": "1c57edaae955e11a",
+      "name": "Elisabeth A. C. Mills",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0001-8782-1992",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/1538-4357/ae9bbc"
+      ],
+      "institutions": [
+        "6e4ecf74923d4163"
+      ],
+      "aliases": [
+        "Elisabeth A. C. Mills"
+      ]
+    },
+    {
+      "id": "f58b15882de08622",
+      "name": "Sam de Regt",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0003-4760-6168",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/1538-4357/ae9bbc"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Sam de Regt"
+      ]
+    },
+    {
+      "id": "d9034190109c70ce",
+      "name": "Donatella Romano",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0002-0845-6171",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/1538-4357/ae9bbc"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Donatella Romano"
+      ]
+    },
+    {
+      "id": "19e1c4540e84542c",
+      "name": "Ignas Snellen",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0003-1624-3667",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/1538-4357/ae9bbc"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Ignas Snellen"
       ]
     },
     {
