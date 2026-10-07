@@ -1,20 +1,78 @@
 {
-  "generated_at": "2026-10-06T09:27:38.692544+08:00",
+  "generated_at": "2026-10-07T09:28:13.232460+08:00",
   "sources": {
     "exoplanet.eu": {
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-10-06T09:27:38.692544+08:00",
-      "last_success": "2026-10-06T09:27:38.692544+08:00",
+      "last_attempt": "2026-10-07T09:28:13.232460+08:00",
+      "last_success": "2026-10-07T09:28:13.232460+08:00",
       "coverage_since": "2026-09-25",
-      "pages_checked": 2,
-      "fetched": 4,
-      "retained": 0,
+      "pages_checked": 3,
+      "fetched": 22,
+      "retained": 1,
       "method": "daily incremental bibliography page scan; candidate-only"
     }
   },
   "papers": [
+    {
+      "id": "exoplanet-bib:32825",
+      "version_id": "exoplanet-bib:32825",
+      "exoplanet_id": "32825",
+      "title": "Phase-curve approach to study atmospheric flows in hot Jupiters",
+      "abstract": "",
+      "authors": [
+        "SHULYAK D.",
+        "DIETRICH W.",
+        "PARMENTIER V.",
+        "CONT D.",
+        "LARA L-M."
+      ],
+      "source": "exoplanet.eu",
+      "source_group": "exoplanet bibliography",
+      "journal": "Astron. & Astrophys.",
+      "url": "https://doi.org/10.1051/0004-6361/202659817 ",
+      "doi": "10.1051/0004-6361/202659817",
+      "publication_date": "2026",
+      "published": "2026",
+      "publication_date_source": "Exoplanet.eu bibliography",
+      "date_kind": "bibliography",
+      "first_seen": "2026-10-07T09:28:13.232460+08:00",
+      "updated": "2026-10-06",
+      "metadata_source": "https://exoplanet.eu/bibliography/all/#publication_32825",
+      "affiliation_status": "unavailable",
+      "metadata_limited": true,
+      "categories": [],
+      "exoplanet_update_date": "2026-10-06",
+      "relations": {
+        "preprint": [
+          {
+            "id": "https://arxiv.org/abs/2608.03406"
+          }
+        ]
+      },
+      "arxiv_id": "2608.03406",
+      "topics": [
+        "planetary",
+        "detection"
+      ],
+      "matches": {
+        "planetary": [
+          "hot jupiter"
+        ],
+        "detection": [
+          "phase curve"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：hot jupiter、phase curve",
+      "tags": [
+        "光谱与相曲线 · Spectra & phase curves"
+      ],
+      "method": "keyword",
+      "fit_score": 48,
+      "fit_matches": []
+    },
     {
       "id": "exoplanet-bib:33002",
       "version_id": "exoplanet-bib:33002",

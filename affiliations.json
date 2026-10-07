@@ -5257,7 +5257,7 @@
     "author_affiliations": [],
     "status": "unavailable",
     "source_url": "https://arxiv.org/html/2609.36697v1",
-    "checked_at": "2026-09-30T01:28:51.433139+00:00"
+    "checked_at": "2026-10-07T01:30:25.569540+00:00"
   },
   "2609.36831v1": {
     "institutions": [
@@ -5634,7 +5634,7 @@
     ],
     "status": "unavailable",
     "source_url": "https://arxiv.org/html/2609.36669v1",
-    "checked_at": "2026-09-30T01:28:51.433139+00:00"
+    "checked_at": "2026-10-07T01:30:25.569540+00:00"
   },
   "2609.36623v1": {
     "institutions": [],
@@ -5674,7 +5674,7 @@
     ],
     "status": "unavailable",
     "source_url": "https://arxiv.org/html/2609.29027v2",
-    "checked_at": "2026-09-30T01:28:51.433139+00:00"
+    "checked_at": "2026-10-07T01:30:25.569540+00:00"
   },
   "2609.25505v2": {
     "institutions": [
@@ -5756,7 +5756,7 @@
     ],
     "status": "unavailable",
     "source_url": "https://arxiv.org/html/2512.18289v3",
-    "checked_at": "2026-09-30T01:28:51.433139+00:00"
+    "checked_at": "2026-10-07T01:30:25.569540+00:00"
   },
   "2609.38921v1": {
     "institutions": [
@@ -8040,5 +8040,879 @@
     "status": "unavailable",
     "source_url": "https://arxiv.org/html/2510.14769v3",
     "checked_at": "2026-10-03T01:26:54.587935+00:00"
+  },
+  "2610.08065v1": {
+    "institutions": [
+      "Max Planck Institute for Astronomy, 69117 Heidelberg, Germany",
+      "Centre for Astrophysics, University of Southern Queensland, Toowoomba, QLD 4350, Australia",
+      "Center for Astrophysics, Harvard & Smithsonian, Cambridge, MA 02138, USA",
+      "Department of Astronomy & Astrophysics, University of Chicago, Chicago, IL 60637, USA",
+      "Sydney Institute for Astronomy (SIfA), School of Physics, University of Sydney, NSW 2006, Australia",
+      "Department of Physics and Astronomy, University of Alabama, Tuscaloosa, AL 35487-0324, USA",
+      "Department of Physics and Kavli Institute for Astrophysics and Space Research, Massachusetts Institute of Technology, Cambridge, MA 02139, USA",
+      "Earth and Planets Laboratory, Carnegie Institution for Science, Washington, DC 20015",
+      "The Observatories of the Carnegie Institution for Science, Pasadena, CA 91101, USA",
+      "Departamento de Astronomía, Universidad de Concepción, Casilla 160-C, Concepción, Chile",
+      "NASA Ames Research Center, Moffett Field, CA 94035, USA",
+      "Citizen Scientist, Zooniverse c/o University of Oxford, Keble Road, Oxford OX1 3RH, UK",
+      "Department of Earth and Planetary Sciences, University of California, Riverside, CA 92521, USA",
+      "Las Campanas Observatory, Carnegie Institution for Science, Casilla 601 La Serena, Chile",
+      "Department of Astronomy, Ohio State Univesity, McPherson Laboratory, Columbus, OH 43210, USA"
+    ],
+    "author_affiliations": [
+      {
+        "name": "Alexander Venner",
+        "institutions": [
+          "Max Planck Institute for Astronomy, 69117 Heidelberg, Germany",
+          "Centre for Astrophysics, University of Southern Queensland, Toowoomba, QLD 4350, Australia"
+        ],
+        "orcid": "https://orcid.org/0000-0002-8400-1646"
+      },
+      {
+        "name": "Robert A. Wittenmyer",
+        "institutions": [
+          "Centre for Astrophysics, University of Southern Queensland, Toowoomba, QLD 4350, Australia"
+        ],
+        "orcid": "https://orcid.org/0000-0001-9957-9304"
+      },
+      {
+        "name": "Andrew Vanderburg",
+        "institutions": [
+          "Center for Astrophysics, Harvard & Smithsonian, Cambridge, MA 02138, USA"
+        ],
+        "orcid": "https://orcid.org/0000-0001-7246-5438"
+      },
+      {
+        "name": "Karen A. Collins",
+        "institutions": [
+          "Center for Astrophysics, Harvard & Smithsonian, Cambridge, MA 02138, USA"
+        ],
+        "orcid": "https://orcid.org/0000-0001-6588-9574"
+      },
+      {
+        "name": "David W. Latham",
+        "institutions": [
+          "Center for Astrophysics, Harvard & Smithsonian, Cambridge, MA 02138, USA"
+        ],
+        "orcid": "https://orcid.org/0000-0001-9911-7388"
+      },
+      {
+        "name": "Allyson Bieryla",
+        "institutions": [
+          "Center for Astrophysics, Harvard & Smithsonian, Cambridge, MA 02138, USA",
+          "Centre for Astrophysics, University of Southern Queensland, Toowoomba, QLD 4350, Australia"
+        ],
+        "orcid": "https://orcid.org/0000-0001-6637-5401"
+      },
+      {
+        "name": "Tyler R. Fairnington",
+        "institutions": [
+          "Department of Astronomy & Astrophysics, University of Chicago, Chicago, IL 60637, USA",
+          "Centre for Astrophysics, University of Southern Queensland, Toowoomba, QLD 4350, Australia"
+        ],
+        "orcid": "https://orcid.org/0000-0002-0692-7822"
+      },
+      {
+        "name": "Chelsea X. Huang",
+        "institutions": [
+          "Centre for Astrophysics, University of Southern Queensland, Toowoomba, QLD 4350, Australia"
+        ],
+        "orcid": "https://orcid.org/0000-0003-0918-7484"
+      },
+      {
+        "name": "Timothy R. Bedding",
+        "institutions": [
+          "Sydney Institute for Astronomy (SIfA), School of Physics, University of Sydney, NSW 2006, Australia"
+        ],
+        "orcid": "https://orcid.org/0000-0001-5222-4661"
+      },
+      {
+        "name": "Samuel Grunblatt",
+        "institutions": [
+          "Department of Physics and Astronomy, University of Alabama, Tuscaloosa, AL 35487-0324, USA"
+        ],
+        "orcid": "https://orcid.org/0000-0003-4976-9980"
+      },
+      {
+        "name": "Sydney Jenkins",
+        "institutions": [
+          "Department of Physics and Kavli Institute for Astrophysics and Space Research, Massachusetts Institute of Technology, Cambridge, MA 02139, USA"
+        ],
+        "orcid": "https://orcid.org/0000-0001-9827-1463"
+      },
+      {
+        "name": "R. Paul Butler",
+        "institutions": [
+          "Earth and Planets Laboratory, Carnegie Institution for Science, Washington, DC 20015"
+        ],
+        "orcid": "https://orcid.org/0000-0003-1305-3761"
+      },
+      {
+        "name": "Jeffrey D. Crane",
+        "institutions": [
+          "The Observatories of the Carnegie Institution for Science, Pasadena, CA 91101, USA"
+        ],
+        "orcid": null
+      },
+      {
+        "name": "Jhon Yana Galarza",
+        "institutions": [
+          "Departamento de Astronomía, Universidad de Concepción, Casilla 160-C, Concepción, Chile"
+        ],
+        "orcid": "https://orcid.org/0000-0001-9261-8366"
+      },
+      {
+        "name": "Jonathan Horner",
+        "institutions": [
+          "Centre for Astrophysics, University of Southern Queensland, Toowoomba, QLD 4350, Australia"
+        ],
+        "orcid": "https://orcid.org/0000-0002-1160-7970"
+      },
+      {
+        "name": "Steve B. Howell",
+        "institutions": [
+          "NASA Ames Research Center, Moffett Field, CA 94035, USA"
+        ],
+        "orcid": "https://orcid.org/0000-0002-2532-2853"
+      },
+      {
+        "name": "Marc Huten",
+        "institutions": [
+          "Citizen Scientist, Zooniverse c/o University of Oxford, Keble Road, Oxford OX1 3RH, UK"
+        ],
+        "orcid": null
+      },
+      {
+        "name": "Stephen R. Kane",
+        "institutions": [
+          "Department of Earth and Planetary Sciences, University of California, Riverside, CA 92521, USA"
+        ],
+        "orcid": "https://orcid.org/0000-0002-7084-0529"
+      },
+      {
+        "name": "David Osip",
+        "institutions": [
+          "Las Campanas Observatory, Carnegie Institution for Science, Casilla 601 La Serena, Chile"
+        ],
+        "orcid": "https://orcid.org/0000-0003-0412-9664"
+      },
+      {
+        "name": "Marcelo Said Tala Pinto",
+        "institutions": [
+          "Department of Astronomy, Ohio State Univesity, McPherson Laboratory, Columbus, OH 43210, USA"
+        ],
+        "orcid": "https://orcid.org/0009-0004-8891-4057"
+      },
+      {
+        "name": "Samuel N. Quinn",
+        "institutions": [
+          "Center for Astrophysics, Harvard & Smithsonian, Cambridge, MA 02138, USA"
+        ],
+        "orcid": "https://orcid.org/0000-0002-8964-8377"
+      },
+      {
+        "name": "Johanna Teske",
+        "institutions": [
+          "Earth and Planets Laboratory, Carnegie Institution for Science, Washington, DC 20015",
+          "The Observatories of the Carnegie Institution for Science, Pasadena, CA 91101, USA"
+        ],
+        "orcid": "https://orcid.org/0009-0008-2801-5040"
+      },
+      {
+        "name": "Steve Shectman",
+        "institutions": [
+          "The Observatories of the Carnegie Institution for Science, Pasadena, CA 91101, USA"
+        ],
+        "orcid": "https://orcid.org/0000-0002-8681-6136"
+      },
+      {
+        "name": "Shreyas Vissapragada",
+        "institutions": [
+          "The Observatories of the Carnegie Institution for Science, Pasadena, CA 91101, USA"
+        ],
+        "orcid": "https://orcid.org/0000-0003-2527-1475"
+      },
+      {
+        "name": "Duncan Wright",
+        "institutions": [
+          "Centre for Astrophysics, University of Southern Queensland, Toowoomba, QLD 4350, Australia"
+        ],
+        "orcid": "https://orcid.org/0000-0001-7294-5386"
+      },
+      {
+        "name": "George Zhou",
+        "institutions": [
+          "Centre for Astrophysics, University of Southern Queensland, Toowoomba, QLD 4350, Australia"
+        ],
+        "orcid": "https://orcid.org/0000-0002-4891-3517"
+      }
+    ],
+    "status": "verified",
+    "source_url": "https://arxiv.org/html/2610.08065v1",
+    "checked_at": "2026-10-07T01:30:25.569540+00:00"
+  },
+  "2610.07861v1": {
+    "institutions": [
+      "Institute of Astronomy, National Tsing Hua University, Hsinchu, Taiwan",
+      "School of Mathematical and Physical Sciences, Macquarie University, Sydney, NSW 2109, Australia",
+      "Astrophysics and Space Technologies Research Centre, Macquarie University, Sydney, NSW 2109, Australia",
+      "Center for Theoretical Physics, Polish Academy of Sciences, Al. Lotników 32/46, 02-668, Warsaw, Poland",
+      "Department of Physics, National Tsing Hua University, Hsinchu, Taiwan",
+      "Institute of Astronomy, National Chung Hsing University, Taichung, Taiwan",
+      "Department of Astronomy, University of Michigan, Ann Arbor, MI, USA",
+      "Cosmic Dawn Center (DAWN), Niels Bohr Institute, University of Copenhagen, Jagtvej 128, DK-2200 Copenhagen N, Denmark",
+      "Department of Astronomy and Space Sciences, Science Faculty, İstanbul University, Beyazıt 34119, İstanbul, Türkiye",
+      "Department of Astronomy, University of Geneva, Chemin Pegasi 51, 1290 Versoix, Switzerland",
+      "IPAC, California Institute of Technology, 1200 E. California Blvd. Pasadena, CA 91125, USA",
+      "University of Geneva, 24 rue du Général-Dufour, 1211 Genève 4, Switzerland",
+      "Department of Astronomy, The University of Texas at Austin, 2515 Speedway Blvd Stop C1400, Austin, TX 78712, USA"
+    ],
+    "author_affiliations": [
+      {
+        "name": "Bahareh S. Salmasi",
+        "institutions": [
+          "Institute of Astronomy, National Tsing Hua University, Hsinchu, Taiwan",
+          "School of Mathematical and Physical Sciences, Macquarie University, Sydney, NSW 2109, Australia",
+          "Astrophysics and Space Technologies Research Centre, Macquarie University, Sydney, NSW 2109, Australia"
+        ],
+        "orcid": null
+      },
+      {
+        "name": "Priyanka Jalan",
+        "institutions": [
+          "Institute of Astronomy, National Tsing Hua University, Hsinchu, Taiwan",
+          "Center for Theoretical Physics, Polish Academy of Sciences, Al. Lotników 32/46, 02-668, Warsaw, Poland"
+        ],
+        "orcid": null
+      },
+      {
+        "name": "Tomotsugu Goto",
+        "institutions": [
+          "Institute of Astronomy, National Tsing Hua University, Hsinchu, Taiwan",
+          "Department of Physics, National Tsing Hua University, Hsinchu, Taiwan"
+        ],
+        "orcid": null
+      },
+      {
+        "name": "Tetsuya Hashimoto",
+        "institutions": [
+          "Institute of Astronomy, National Chung Hsing University, Taichung, Taiwan"
+        ],
+        "orcid": null
+      },
+      {
+        "name": "Feige Wang",
+        "institutions": [
+          "Department of Astronomy, University of Michigan, Ann Arbor, MI, USA"
+        ],
+        "orcid": null
+      },
+      {
+        "name": "Tayyaba Zafar",
+        "institutions": [
+          "School of Mathematical and Physical Sciences, Macquarie University, Sydney, NSW 2109, Australia",
+          "Astrophysics and Space Technologies Research Centre, Macquarie University, Sydney, NSW 2109, Australia"
+        ],
+        "orcid": null
+      },
+      {
+        "name": "Koki Kakiichi",
+        "institutions": [
+          "Cosmic Dawn Center (DAWN), Niels Bohr Institute, University of Copenhagen, Jagtvej 128, DK-2200 Copenhagen N, Denmark"
+        ],
+        "orcid": null
+      },
+      {
+        "name": "Ece Kilerci",
+        "institutions": [
+          "Department of Astronomy and Space Sciences, Science Faculty, İstanbul University, Beyazıt 34119, İstanbul, Türkiye"
+        ],
+        "orcid": null
+      },
+      {
+        "name": "Srivardini Ayyappan",
+        "institutions": [
+          "Institute of Astronomy, National Tsing Hua University, Hsinchu, Taiwan",
+          "School of Mathematical and Physical Sciences, Macquarie University, Sydney, NSW 2109, Australia",
+          "Astrophysics and Space Technologies Research Centre, Macquarie University, Sydney, NSW 2109, Australia"
+        ],
+        "orcid": null
+      },
+      {
+        "name": "Romain A. Meyer",
+        "institutions": [
+          "Department of Astronomy, University of Geneva, Chemin Pegasi 51, 1290 Versoix, Switzerland"
+        ],
+        "orcid": null
+      },
+      {
+        "name": "Anilkumar Mailvaganam",
+        "institutions": [
+          "School of Mathematical and Physical Sciences, Macquarie University, Sydney, NSW 2109, Australia",
+          "Astrophysics and Space Technologies Research Centre, Macquarie University, Sydney, NSW 2109, Australia"
+        ],
+        "orcid": null
+      },
+      {
+        "name": "Tamal Mukherjee",
+        "institutions": [
+          "School of Mathematical and Physical Sciences, Macquarie University, Sydney, NSW 2109, Australia",
+          "Astrophysics and Space Technologies Research Centre, Macquarie University, Sydney, NSW 2109, Australia"
+        ],
+        "orcid": null
+      },
+      {
+        "name": "Xuanyi Lyu",
+        "institutions": [
+          "School of Mathematical and Physical Sciences, Macquarie University, Sydney, NSW 2109, Australia"
+        ],
+        "orcid": null
+      },
+      {
+        "name": "Imam Uzma Aalia",
+        "institutions": [
+          "School of Mathematical and Physical Sciences, Macquarie University, Sydney, NSW 2109, Australia",
+          "Astrophysics and Space Technologies Research Centre, Macquarie University, Sydney, NSW 2109, Australia"
+        ],
+        "orcid": null
+      },
+      {
+        "name": "Arihant Raidani",
+        "institutions": [
+          "School of Mathematical and Physical Sciences, Macquarie University, Sydney, NSW 2109, Australia",
+          "Astrophysics and Space Technologies Research Centre, Macquarie University, Sydney, NSW 2109, Australia"
+        ],
+        "orcid": null
+      },
+      {
+        "name": "Samuel Carlson",
+        "institutions": [
+          "School of Mathematical and Physical Sciences, Macquarie University, Sydney, NSW 2109, Australia",
+          "Astrophysics and Space Technologies Research Centre, Macquarie University, Sydney, NSW 2109, Australia"
+        ],
+        "orcid": null
+      },
+      {
+        "name": "Jose Luis Carrillo Martinez",
+        "institutions": [
+          "School of Mathematical and Physical Sciences, Macquarie University, Sydney, NSW 2109, Australia",
+          "Astrophysics and Space Technologies Research Centre, Macquarie University, Sydney, NSW 2109, Australia"
+        ],
+        "orcid": null
+      },
+      {
+        "name": "Andreas L. Faisst",
+        "institutions": [
+          "IPAC, California Institute of Technology, 1200 E. California Blvd. Pasadena, CA 91125, USA"
+        ],
+        "orcid": null
+      },
+      {
+        "name": "Marko Shuntov",
+        "institutions": [
+          "Cosmic Dawn Center (DAWN), Niels Bohr Institute, University of Copenhagen, Jagtvej 128, DK-2200 Copenhagen N, Denmark",
+          "University of Geneva, 24 rue du Général-Dufour, 1211 Genève 4, Switzerland"
+        ],
+        "orcid": null
+      },
+      {
+        "name": "Hollis B. Akins",
+        "institutions": [
+          "Department of Astronomy, The University of Texas at Austin, 2515 Speedway Blvd Stop C1400, Austin, TX 78712, USA"
+        ],
+        "orcid": null
+      },
+      {
+        "name": "Zihao Li",
+        "institutions": [
+          "Cosmic Dawn Center (DAWN), Niels Bohr Institute, University of Copenhagen, Jagtvej 128, DK-2200 Copenhagen N, Denmark"
+        ],
+        "orcid": null
+      }
+    ],
+    "status": "verified",
+    "source_url": "https://arxiv.org/html/2610.07861v1",
+    "checked_at": "2026-10-07T01:30:25.569540+00:00"
+  },
+  "2610.05287v2": {
+    "institutions": [
+      "Institute of Science and Technology for Deep Space Exploration, Nanjing University, Suzhou, 215163, PR China",
+      "School of Physics and Astronomy, Sun Yat-Sen University, Zhuhai, 519082, PR China",
+      "CSST Science Center for the Guangdong-Hong Kong-Macau Greater Bay Area, Zhuhai, 519082, PR China",
+      "State Key Laboratory of Lunar and Planetary Sciences, Macau University of Science and Technology, Macau, PR China",
+      "Atmospheric, Oceanic, and Planetary Physics Department, University of Oxford, OX1 3PU, UK",
+      "Department of Physics and Astronomy, University of Exeter, Exeter EX4 4QL, UK",
+      "Tsung-Dao Lee Institute & School of Physics and Astronomy, Shanghai Jiao Tong University, Shanghai 201210, PR China",
+      "International Centre of Supernovae, Yunnan Key Laboratory, Kunming 650216, PR China",
+      "Shishan Laboratory, Nanjing University, Suzhou 215000, PR China",
+      "Jiangsu Key Laboratory of Quantum Information Science and Technology, Nanjing University, Suzhou, 215163, PR China"
+    ],
+    "author_affiliations": [
+      {
+        "name": "Wei Zhong",
+        "institutions": [
+          "Institute of Science and Technology for Deep Space Exploration, Nanjing University, Suzhou, 215163, PR China"
+        ],
+        "orcid": "https://orcid.org/0000-0002-0447-7207"
+      },
+      {
+        "name": "Zhen-Tai Zhang",
+        "institutions": [
+          "School of Physics and Astronomy, Sun Yat-Sen University, Zhuhai, 519082, PR China",
+          "CSST Science Center for the Guangdong-Hong Kong-Macau Greater Bay Area, Zhuhai, 519082, PR China",
+          "State Key Laboratory of Lunar and Planetary Sciences, Macau University of Science and Technology, Macau, PR China"
+        ],
+        "orcid": "https://orcid.org/0009-0004-1986-2185"
+      },
+      {
+        "name": "Mei Ting Mak",
+        "institutions": [
+          "Atmospheric, Oceanic, and Planetary Physics Department, University of Oxford, OX1 3PU, UK",
+          "Department of Physics and Astronomy, University of Exeter, Exeter EX4 4QL, UK"
+        ],
+        "orcid": "https://orcid.org/0000-0002-1624-3360"
+      },
+      {
+        "name": "Xiang-Xing Chen",
+        "institutions": [
+          "Institute of Science and Technology for Deep Space Exploration, Nanjing University, Suzhou, 215163, PR China"
+        ],
+        "orcid": "https://orcid.org/0009-0009-1023-1041"
+      },
+      {
+        "name": "Bo Ma",
+        "institutions": [
+          "School of Physics and Astronomy, Sun Yat-Sen University, Zhuhai, 519082, PR China",
+          "CSST Science Center for the Guangdong-Hong Kong-Macau Greater Bay Area, Zhuhai, 519082, PR China"
+        ],
+        "orcid": "https://orcid.org/0000-0002-0378-2023"
+      },
+      {
+        "name": "Xian-Yu Tan",
+        "institutions": [
+          "Tsung-Dao Lee Institute & School of Physics and Astronomy, Shanghai Jiao Tong University, Shanghai 201210, PR China"
+        ],
+        "orcid": "https://orcid.org/0000-0003-2278-6932"
+      },
+      {
+        "name": "Cong Yu",
+        "institutions": [
+          "School of Physics and Astronomy, Sun Yat-Sen University, Zhuhai, 519082, PR China",
+          "CSST Science Center for the Guangdong-Hong Kong-Macau Greater Bay Area, Zhuhai, 519082, PR China",
+          "State Key Laboratory of Lunar and Planetary Sciences, Macau University of Science and Technology, Macau, PR China",
+          "International Centre of Supernovae, Yunnan Key Laboratory, Kunming 650216, PR China"
+        ],
+        "orcid": "https://orcid.org/0000-0003-0454-7890"
+      },
+      {
+        "name": "Dong-dong Ni",
+        "institutions": [
+          "Institute of Science and Technology for Deep Space Exploration, Nanjing University, Suzhou, 215163, PR China",
+          "State Key Laboratory of Lunar and Planetary Sciences, Macau University of Science and Technology, Macau, PR China",
+          "Shishan Laboratory, Nanjing University, Suzhou 215000, PR China",
+          "Jiangsu Key Laboratory of Quantum Information Science and Technology, Nanjing University, Suzhou, 215163, PR China"
+        ],
+        "orcid": "https://orcid.org/0000-0002-0483-0445"
+      }
+    ],
+    "status": "verified",
+    "source_url": "https://arxiv.org/html/2610.05287v2",
+    "checked_at": "2026-10-07T01:30:25.569540+00:00"
+  },
+  "2610.08128v1": {
+    "institutions": [],
+    "author_affiliations": [
+      {
+        "name": "Alexandra H. Thompson",
+        "institutions": [],
+        "orcid": null
+      },
+      {
+        "name": "1,2 Quentin Changeat",
+        "institutions": [],
+        "orcid": null
+      },
+      {
+        "name": "3 Theresa Luftinger",
+        "institutions": [],
+        "orcid": null
+      },
+      {
+        "name": "4 and Giovanna Tinetti5 1INAF-Osservatorio Astronomico di Palermo",
+        "institutions": [],
+        "orcid": null
+      },
+      {
+        "name": "Piazza del Parlamento",
+        "institutions": [],
+        "orcid": null
+      },
+      {
+        "name": "1",
+        "institutions": [],
+        "orcid": null
+      },
+      {
+        "name": "90134 Palermo",
+        "institutions": [],
+        "orcid": null
+      },
+      {
+        "name": "Italy 2Department of Physics and Astronomy",
+        "institutions": [],
+        "orcid": null
+      },
+      {
+        "name": "University College London",
+        "institutions": [],
+        "orcid": null
+      },
+      {
+        "name": "Gower Street",
+        "institutions": [],
+        "orcid": null
+      },
+      {
+        "name": "WC1E 6BT",
+        "institutions": [],
+        "orcid": null
+      },
+      {
+        "name": "London",
+        "institutions": [],
+        "orcid": null
+      },
+      {
+        "name": "UK 3Kapteyn Institute",
+        "institutions": [],
+        "orcid": null
+      },
+      {
+        "name": "University of Groningen",
+        "institutions": [],
+        "orcid": null
+      },
+      {
+        "name": "9747 AD Groningen",
+        "institutions": [],
+        "orcid": null
+      },
+      {
+        "name": "The Netherlands 4ESA/ESTEC",
+        "institutions": [],
+        "orcid": null
+      },
+      {
+        "name": "Science Engagement and Oversight Office (SCI-E)",
+        "institutions": [],
+        "orcid": null
+      },
+      {
+        "name": "Directorate of Science (SCI) 5Department of Physics",
+        "institutions": [],
+        "orcid": null
+      },
+      {
+        "name": "King’s College London",
+        "institutions": [],
+        "orcid": null
+      },
+      {
+        "name": "Strand",
+        "institutions": [],
+        "orcid": null
+      },
+      {
+        "name": "London WC2R 2LS",
+        "institutions": [],
+        "orcid": null
+      },
+      {
+        "name": "UK",
+        "institutions": [],
+        "orcid": null
+      }
+    ],
+    "status": "unavailable",
+    "source_url": "https://arxiv.org/html/2610.08128v1",
+    "checked_at": "2026-10-07T01:30:25.569540+00:00"
+  },
+  "2610.08035v1": {
+    "institutions": [],
+    "author_affiliations": [
+      {
+        "name": "Zifei Li",
+        "institutions": [],
+        "orcid": null
+      },
+      {
+        "name": "Shaohuan Zu",
+        "institutions": [],
+        "orcid": null
+      },
+      {
+        "name": "Zhengyu Tang",
+        "institutions": [],
+        "orcid": null
+      }
+    ],
+    "status": "unavailable",
+    "source_url": "https://arxiv.org/html/2610.08035v1",
+    "checked_at": "2026-10-07T01:30:25.569540+00:00"
+  },
+  "2610.08024v1": {
+    "institutions": [
+      "Departament de Matemàtiques, Universitat Politècnica de Catalunya, Barcelona 08028, Spain",
+      "Centre de Recerca Matemàtica, Campus de Bellaterra, Edifici C, Bellaterra 08193, Barcelona, Spain",
+      "Institute of Mathematics and its Didactics, Leuphana Universität Lüneburg, Lüneburg 21335, Germany"
+    ],
+    "author_affiliations": [
+      {
+        "name": "Luis Álamo",
+        "institutions": [
+          "Departament de Matemàtiques, Universitat Politècnica de Catalunya, Barcelona 08028, Spain"
+        ],
+        "orcid": null
+      },
+      {
+        "name": "Jezabel Curbelo",
+        "institutions": [
+          "Departament de Matemàtiques, Universitat Politècnica de Catalunya, Barcelona 08028, Spain",
+          "Centre de Recerca Matemàtica, Campus de Bellaterra, Edifici C, Bellaterra 08193, Barcelona, Spain"
+        ],
+        "orcid": null
+      },
+      {
+        "name": "Kathrin Padberg-Gehle",
+        "institutions": [
+          "Institute of Mathematics and its Didactics, Leuphana Universität Lüneburg, Lüneburg 21335, Germany"
+        ],
+        "orcid": null
+      }
+    ],
+    "status": "verified",
+    "source_url": "https://arxiv.org/html/2610.08024v1",
+    "checked_at": "2026-10-07T01:30:25.569540+00:00"
+  },
+  "2610.07952v1": {
+    "institutions": [],
+    "author_affiliations": [
+      {
+        "name": "Sihong Shao",
+        "institutions": [],
+        "orcid": null
+      },
+      {
+        "name": "Yanli Wang",
+        "institutions": [],
+        "orcid": null
+      },
+      {
+        "name": "Zhongwei Xu",
+        "institutions": [],
+        "orcid": null
+      }
+    ],
+    "status": "unavailable",
+    "source_url": "https://arxiv.org/html/2610.07952v1",
+    "checked_at": "2026-10-07T01:30:25.569540+00:00"
+  },
+  "2610.07811v1": {
+    "institutions": [
+      "CSIRO Environment, Hobart, Australia",
+      "CSIRO Technology, Sydney, Australia"
+    ],
+    "author_affiliations": [
+      {
+        "name": "Michael Groom",
+        "institutions": [
+          "CSIRO Environment, Hobart, Australia"
+        ],
+        "orcid": null
+      },
+      {
+        "name": "Rafael Oliveira",
+        "institutions": [
+          "CSIRO Technology, Sydney, Australia"
+        ],
+        "orcid": null
+      }
+    ],
+    "status": "verified",
+    "source_url": "https://arxiv.org/html/2610.07811v1",
+    "checked_at": "2026-10-07T01:30:25.569540+00:00"
+  },
+  "2610.07714v1": {
+    "institutions": [
+      "Department of Mechanical Engineering, Indian Institute of Technology Dhanbad, Jharkhand-826 004, India.",
+      "George W. Woodruff School of Mechanical Engineering, Georgia Institute of Technology, Atlanta, GA, 30332, USA"
+    ],
+    "author_affiliations": [
+      {
+        "name": "Abhijeet Guha",
+        "institutions": [
+          "Department of Mechanical Engineering, Indian Institute of Technology Dhanbad, Jharkhand-826 004, India."
+        ],
+        "orcid": null
+      },
+      {
+        "name": "Prasoon Suchandra",
+        "institutions": [
+          "George W. Woodruff School of Mechanical Engineering, Georgia Institute of Technology, Atlanta, GA, 30332, USA"
+        ],
+        "orcid": null
+      },
+      {
+        "name": "Aditi Sengupta",
+        "institutions": [
+          "Department of Mechanical Engineering, Indian Institute of Technology Dhanbad, Jharkhand-826 004, India."
+        ],
+        "orcid": null
+      }
+    ],
+    "status": "verified",
+    "source_url": "https://arxiv.org/html/2610.07714v1",
+    "checked_at": "2026-10-07T01:30:25.569540+00:00"
+  },
+  "2610.07703v1": {
+    "institutions": [],
+    "author_affiliations": [],
+    "status": "unavailable",
+    "source_url": "https://arxiv.org/html/2610.07703v1",
+    "checked_at": "2026-10-07T01:30:25.569540+00:00"
+  },
+  "2610.07664v1": {
+    "institutions": [
+      "School of Mathematics and Statistics, Huazhong University of Science and Technology, Wuhan, 430074, China",
+      "State Key Laboratory of Coal Combustion, School of Energy and Power Engineering, Huazhong University of Science and Technology, Wuhan, 430074, China",
+      "Institute of Interdisciplinary Research for Mathematics and Applied Science, Huazhong University of Science and Technology, Wuhan, 430074, China"
+    ],
+    "author_affiliations": [
+      {
+        "name": "Yinghao Ma",
+        "institutions": [
+          "School of Mathematics and Statistics, Huazhong University of Science and Technology, Wuhan, 430074, China"
+        ],
+        "orcid": null
+      },
+      {
+        "name": "Ziyang Xin",
+        "institutions": [
+          "State Key Laboratory of Coal Combustion, School of Energy and Power Engineering, Huazhong University of Science and Technology, Wuhan, 430074, China"
+        ],
+        "orcid": null
+      },
+      {
+        "name": "Zhaoli Guo",
+        "institutions": [
+          "Institute of Interdisciplinary Research for Mathematics and Applied Science, Huazhong University of Science and Technology, Wuhan, 430074, China"
+        ],
+        "orcid": null
+      }
+    ],
+    "status": "verified",
+    "source_url": "https://arxiv.org/html/2610.07664v1",
+    "checked_at": "2026-10-07T01:30:25.569540+00:00"
+  },
+  "2610.07636v1": {
+    "institutions": [
+      "1Department of Earth, Planetary and Space Sciences, UCLA, 595 Charles Young Drive, Los Angeles, CA 90095",
+      "2Space Telescope Science Institute, Baltimore, MD 21218"
+    ],
+    "author_affiliations": [
+      {
+        "name": "David Jewitt1, Max Mutchler2, and Yoonyoung Kim1",
+        "institutions": [
+          "1Department of Earth, Planetary and Space Sciences, UCLA, 595 Charles Young Drive, Los Angeles, CA 90095",
+          "2Space Telescope Science Institute, Baltimore, MD 21218"
+        ],
+        "orcid": null
+      }
+    ],
+    "status": "verified",
+    "source_url": "https://arxiv.org/html/2610.07636v1",
+    "checked_at": "2026-10-07T01:30:25.569540+00:00"
+  },
+  "2610.07605v1": {
+    "institutions": [],
+    "author_affiliations": [],
+    "status": "unavailable",
+    "source_url": "https://arxiv.org/html/2610.07605v1",
+    "checked_at": "2026-10-07T01:30:25.569540+00:00"
+  },
+  "2607.09451v3": {
+    "institutions": [
+      "Universitäts-Sternwarte München, Fakultät für Physik, Ludwig-Maximilians-Universität München, Scheinerstr. 1, 81679 München, Germany",
+      "Max-Planck-Institut für extraterrestrische Physik, Gießenbachstraße 1, 85748 Garching, Germany",
+      "European Southern Observatory (ESO), Karl-Schwarzschild-Str. 2, 85748 Garching bei München, Germany"
+    ],
+    "author_affiliations": [
+      {
+        "name": "Luis Thomas",
+        "institutions": [
+          "Universitäts-Sternwarte München, Fakultät für Physik, Ludwig-Maximilians-Universität München, Scheinerstr. 1, 81679 München, Germany",
+          "Max-Planck-Institut für extraterrestrische Physik, Gießenbachstraße 1, 85748 Garching, Germany"
+        ],
+        "orcid": "https://orcid.org/0009-0006-1571-0306"
+      },
+      {
+        "name": "Louise D. Nielsen",
+        "institutions": [
+          "Universitäts-Sternwarte München, Fakultät für Physik, Ludwig-Maximilians-Universität München, Scheinerstr. 1, 81679 München, Germany"
+        ],
+        "orcid": "https://orcid.org/0000-0002-5254-2499"
+      },
+      {
+        "name": "Alex J. Cridland",
+        "institutions": [
+          "Universitäts-Sternwarte München, Fakultät für Physik, Ludwig-Maximilians-Universität München, Scheinerstr. 1, 81679 München, Germany"
+        ],
+        "orcid": "https://orcid.org/0000-0003-1777-9930"
+      },
+      {
+        "name": "Martin Schlecker",
+        "institutions": [
+          "European Southern Observatory (ESO), Karl-Schwarzschild-Str. 2, 85748 Garching bei München, Germany"
+        ],
+        "orcid": "https://orcid.org/0000-0001-8355-2107"
+      },
+      {
+        "name": "Sydney Vach",
+        "institutions": [
+          "European Southern Observatory (ESO), Karl-Schwarzschild-Str. 2, 85748 Garching bei München, Germany"
+        ],
+        "orcid": "https://orcid.org/0000-0001-9158-9276"
+      }
+    ],
+    "status": "verified",
+    "source_url": "https://arxiv.org/html/2607.09451v3",
+    "checked_at": "2026-10-07T01:30:25.569540+00:00"
+  },
+  "2606.28580v2": {
+    "institutions": [
+      "\\aff1 Department of Mathematics, University of British Columbia, 1984 Mathematics Road, Vancouver, BC, V6T 1Z2, Canada \\aff2DAMTP, Centre for Mathematical Sciences, Wilberforce Road, Cambridge CB3 0WA, UK"
+    ],
+    "author_affiliations": [
+      {
+        "name": "James D. Shemilt\\aff1",
+        "institutions": [],
+        "orcid": null
+      },
+      {
+        "name": "Neil J. Balmforth\\aff1",
+        "institutions": [],
+        "orcid": null
+      },
+      {
+        "name": "Duncan R. Hewitt\\aff2",
+        "institutions": [
+          "\\aff1 Department of Mathematics, University of British Columbia, 1984 Mathematics Road, Vancouver, BC, V6T 1Z2, Canada \\aff2DAMTP, Centre for Mathematical Sciences, Wilberforce Road, Cambridge CB3 0WA, UK"
+        ],
+        "orcid": null
+      }
+    ],
+    "status": "verified",
+    "source_url": "https://arxiv.org/html/2606.28580v2",
+    "checked_at": "2026-10-07T01:30:25.569540+00:00"
   }
 }
