@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T01:36:02.159068+00:00",
+  "generated_at": "2026-10-08T04:18:12.043449+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
@@ -260,11 +260,11 @@
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-10-08T09:28:40.923161+08:00",
-      "last_success": "2026-10-08T09:28:40.923161+08:00",
+      "last_attempt": "2026-10-08T12:17:37.742314+08:00",
+      "last_success": "2026-10-08T12:17:37.742314+08:00",
       "coverage_since": "2026-09-25",
-      "pages_checked": 2,
-      "fetched": 17,
+      "pages_checked": 1,
+      "fetched": 0,
       "retained": 0,
       "method": "daily incremental bibliography page scan; candidate-only"
     }
@@ -1053,133 +1053,6 @@
   ],
   "repository": "https://github.com/PkuJunyangGroup/planet-fluid-radar",
   "papers": [
-    {
-      "id": "2610.09575",
-      "version_id": "2610.09575v1",
-      "title": "A comparison between particle and fluid approaches for streaming instability in global patch simulations",
-      "abstract": "Identifying the process relevant to planet formation is still a major task. Mechanisms have been identified that can trap dust, preventing it from migrating inwards. A particular hydrodynamic instability, known as the streaming instability, is of high interest because it may be responsible for the formation of dust clumps from which the first planetesimals form. We aim to compare the outcome of non-linear streaming instability simulations using both fundamental approaches in a more realistic global disk model. The results will not be used to identify or disentangle the effect of, e.g., numerical diffusion in fluid simulations or the possibility of having crossing particle streams. Instead, they will enable us to determine whether the Lagrangian particle approach is the most suitable for numerical studies of the streaming instability. Methods: We perform 2D, axisymmetric, global, and isothermal hydrodynamic simulations using the two codes FARGO3D (dust fluid) and PLUTO (fluid, particles) to investigate the temporal evolution of dust scale height, midplane dust-to-gas ratio, and maximum dust density as well as to study velocity distributions and vorticities. For PLUTO particle simulations, we also investigate the influence of the gas Riemann solver and spatial reconstruction orders. Our results from a resolution study up to 5120 cells per gas scale height indicate convergence between PLUTO fluid and FARGO3D. Both yield a Gaussian profile dominated by small-scale, dust-depleted voids. Particle simulations with PLUTO have not yet converged, as a transient midplane dust component persists, indicating the need for even higher resolution or more particles. Using a more accurate Riemann solver or a higher-order spatial reconstruction scheme helps to bring the dust density profile closer to the converged structure.",
-      "published": "2026-10-07T07:17:49Z",
-      "updated": "2026-10-07T07:17:49Z",
-      "authors": [
-        "Dominik Hetzel Ostertag",
-        "Mario Flock",
-        "Paul Rosendahl",
-        "Andrea Mignone",
-        "Jeonghoon Lim",
-        "Jacob B. Simon"
-      ],
-      "doi": "",
-      "categories": [
-        "astro-ph.EP",
-        "astro-ph.IM"
-      ],
-      "url": "https://arxiv.org/abs/2610.09575",
-      "pdf": "https://arxiv.org/pdf/2610.09575v1",
-      "source": "arXiv",
-      "first_seen": "2026-10-08T01:28:21.610616+00:00",
-      "version_changed": false,
-      "topics": [
-        "evolution"
-      ],
-      "matches": {
-        "evolution": [
-          "planet formation",
-          "planetesimal"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：planet formation、planetesimal",
-      "tags": [
-        "流体与不稳定性 · Fluid dynamics",
-        "反演与数值方法 · Inverse & numerical methods"
-      ],
-      "method": "keyword",
-      "fit_score": 31,
-      "fit_matches": [],
-      "institutions": [
-        "Fakultät für Physik und Astronomie, Universität Heidelberg, Im Neuenheimer Feld 226, 69120 Heidelberg, Germany",
-        "Dipartimento di Fisica, Università degli Studi di Torino, Via Pietro Giuria 1, I-10125 Torino, Italy",
-        "Department of Physics and Astronomy, Iowa State University, Ames, IA 50010, USA",
-        "Nevada Center for Astrophysics, University of Nevada, Las Vegas, 4505 South Maryland Parkway, Las Vegas, NV 89154, USA",
-        "Department of Physics and Astronomy, University of Nevada, Las Vegas, 4505 South Maryland Parkway, Las Vegas, NV 89154, USA",
-        "Max-Planck-Institut für Astronomie, Königstuhl 17, 69117 Heidelberg, Germany"
-      ],
-      "author_affiliations": [
-        {
-          "name": "Dominik Hetzel Ostertag \\corrauthostertag@mpia.de",
-          "institutions": [
-            "Fakultät für Physik und Astronomie, Universität Heidelberg, Im Neuenheimer Feld 226, 69120 Heidelberg, Germany"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "Mario Flock",
-          "institutions": [],
-          "orcid": null
-        },
-        {
-          "name": "Paul Rosendahl",
-          "institutions": [],
-          "orcid": null
-        },
-        {
-          "name": "Andrea Mignone",
-          "institutions": [
-            "Dipartimento di Fisica, Università degli Studi di Torino, Via Pietro Giuria 1, I-10125 Torino, Italy"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "Jeonghoon Lim (임정훈)",
-          "institutions": [
-            "Department of Physics and Astronomy, Iowa State University, Ames, IA 50010, USA",
-            "Nevada Center for Astrophysics, University of Nevada, Las Vegas, 4505 South Maryland Parkway, Las Vegas, NV 89154, USA",
-            "Department of Physics and Astronomy, University of Nevada, Las Vegas, 4505 South Maryland Parkway, Las Vegas, NV 89154, USA"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "Jacob B. Simon",
-          "institutions": [
-            "Department of Physics and Astronomy, Iowa State University, Ames, IA 50010, USA"
-          ],
-          "orcid": null
-        }
-      ],
-      "affiliation_status": "verified",
-      "affiliation_source": "https://arxiv.org/html/2610.09575v1",
-      "intro_en": "Identifying the process relevant to planet formation is still a major task. Mechanisms have been identified that can trap dust, preventing it from migrating inwards.",
-      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
-      "intro_kind": "abstract_excerpt",
-      "intro_basis": "英文摘要节选",
-      "publication_date": "2026-10-07",
-      "publication_date_source": "https://arxiv.org/abs/2610.09575v1",
-      "version_date": "2026-10-07T07:17:49+00:00",
-      "variants": [
-        {
-          "id": "2610.09575",
-          "source": "arXiv",
-          "journal": null,
-          "journal_id": null,
-          "title": "A comparison between particle and fluid approaches for streaming instability in global patch simulations",
-          "url": "https://arxiv.org/abs/2610.09575",
-          "doi": "",
-          "version_id": "2610.09575v1",
-          "first_seen": "2026-10-08T01:28:21.610616+00:00",
-          "publication_date": "2026-10-07",
-          "version_date": "2026-10-07T07:17:49+00:00",
-          "metadata_source": null,
-          "affiliation_source": "https://arxiv.org/html/2610.09575v1"
-        }
-      ],
-      "match_basis": [],
-      "source_types": [
-        "arXiv"
-      ],
-      "journals": [],
-      "source_groups": [],
-      "intake_kind": "recent"
-    },
     {
       "id": "2610.05287",
       "version_id": "2610.05287v2",
@@ -5203,12 +5076,14 @@
       ],
       "affiliation_status": "verified",
       "affiliation_source": "https://arxiv.org/html/2411.16879v3",
-      "intro_en": "The nature of sub-Neptunes remains unknown due to degeneracies in interior structure solutions. However, a statistical set of small planets with measured masses and radii can be used to test the planet formation theory prediction of large water reservoirs on sub-Neptunes.",
-      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
-      "intro_kind": "abstract_excerpt",
-      "intro_basis": "英文摘要节选",
+      "intro_en": "Coupled formation and evolution models compare water-rich sub-Neptunes with rocky super-Earths. Water dissolution into a magma ocean and core affects predicted radii; a layered hydrogen-helium envelope above water fits the observed mass–radius relation less well.",
+      "intro_zh": "研究富水亚海王星和岩质超级地球的质量—半径关系，比较水与氢氦混合或分层的大气结构，并在形成—演化耦合模型中加入光致蒸发及水向岩浆海、金属核的溶解。结果显示，除“上层氢氦、下层水”的分层情景外，多种情景都能较好符合观测；水向内部溶解会明显影响预测半径，而所设初始条件下的蒸发分馏影响较小。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
       "publication_date": "2024-11-25",
       "publication_date_source": "https://arxiv.org/abs/2411.16879v3",
+      "intro_source": "https://arxiv.org/abs/2411.16879v3",
+      "intro_version": "2411.16879v3",
       "version_date": "2026-10-07T12:14:38+00:00",
       "variants": [
         {

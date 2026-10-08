@@ -1,97 +1,6 @@
 {
-  "generated_at": "2026-10-08T01:36:02.159068+00:00",
+  "generated_at": "2026-10-08T04:18:12.043449+00:00",
   "nodes": [
-    {
-      "id": "6be66a5d1c865f00",
-      "label": "Iowa State University",
-      "name_zh": "爱荷华州立大学",
-      "papers": [
-        "2609.27025",
-        "2610.09575"
-      ],
-      "authors": [
-        {
-          "id": "e1a38197953e687e",
-          "name": "Jeonghoon Lim (임정훈)",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "2609.27025",
-            "2610.09575"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "73262038c8776cde",
-          "name": "Jacob B. Simon",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "2609.27025",
-            "2610.09575"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "778bd53936a092f4",
-          "name": "Daniel Carrera",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "2609.27025"
-          ],
-          "unit_papers": {}
-        }
-      ],
-      "units": [],
-      "raw": [
-        "Department of Physics and Astronomy, Iowa State University, Ames, IA 50010",
-        "Department of Physics and Astronomy, Iowa State University, Ames, IA 50010, USA"
-      ],
-      "verification": {
-        "ror": "https://ror.org/04rswrd78",
-        "website": "https://www.iastate.edu",
-        "source": "https://api.ror.org/v2/organizations/04rswrd78",
-        "checked_at": "2026-09-24"
-      }
-    },
-    {
-      "id": "77b905f3c7de8ae1",
-      "label": "University of Nevada, Las Vegas",
-      "name_zh": "内华达大学拉斯维加斯分校",
-      "papers": [
-        "2609.27025",
-        "2610.09575"
-      ],
-      "authors": [
-        {
-          "id": "e1a38197953e687e",
-          "name": "Jeonghoon Lim (임정훈)",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "2609.27025",
-            "2610.09575"
-          ],
-          "unit_papers": {}
-        }
-      ],
-      "units": [],
-      "raw": [
-        "Department of Physics and Astronomy, University of Nevada, Las Vegas, 4505 South Maryland Parkway, Las Vegas, NV 89154, USA",
-        "Nevada Center for Astrophysics, University of Nevada, Las Vegas, 4505 South Maryland Parkway, Las Vegas, NV 89154, USA"
-      ],
-      "verification": {
-        "ror": "https://ror.org/0406gha72",
-        "website": "https://www.unlv.edu",
-        "source": "https://api.ror.org/v2/organizations/0406gha72",
-        "checked_at": "2026-09-24"
-      }
-    },
     {
       "id": "323e7eabc230aa6a",
       "label": "Nanjing University",
@@ -4356,6 +4265,59 @@
       }
     },
     {
+      "id": "6be66a5d1c865f00",
+      "label": "Iowa State University",
+      "name_zh": "爱荷华州立大学",
+      "papers": [
+        "2609.27025"
+      ],
+      "authors": [
+        {
+          "id": "73262038c8776cde",
+          "name": "Jacob B Simon",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "2609.27025"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "778bd53936a092f4",
+          "name": "Daniel Carrera",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "2609.27025"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "e1a38197953e687e",
+          "name": "Jeonghoon Lim (임정훈)",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "2609.27025"
+          ],
+          "unit_papers": {}
+        }
+      ],
+      "units": [],
+      "raw": [
+        "Department of Physics and Astronomy, Iowa State University, Ames, IA 50010"
+      ],
+      "verification": {
+        "ror": "https://ror.org/04rswrd78",
+        "website": "https://www.iastate.edu",
+        "source": "https://api.ror.org/v2/organizations/04rswrd78",
+        "checked_at": "2026-09-24"
+      }
+    },
+    {
       "id": "2b060591e7ddb7b6",
       "label": "New Mexico State University",
       "name_zh": "新墨西哥州立大学",
@@ -4383,6 +4345,38 @@
         "ror": "https://ror.org/00hpz7z43",
         "website": "https://www.nmsu.edu/",
         "source": "https://api.ror.org/v2/organizations/00hpz7z43",
+        "checked_at": "2026-09-24"
+      }
+    },
+    {
+      "id": "77b905f3c7de8ae1",
+      "label": "University of Nevada, Las Vegas",
+      "name_zh": "内华达大学拉斯维加斯分校",
+      "papers": [
+        "2609.27025"
+      ],
+      "authors": [
+        {
+          "id": "e1a38197953e687e",
+          "name": "Jeonghoon Lim (임정훈)",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "2609.27025"
+          ],
+          "unit_papers": {}
+        }
+      ],
+      "units": [],
+      "raw": [
+        "Department of Physics and Astronomy, University of Nevada, Las Vegas, 4505 South Maryland Parkway, Las Vegas, NV 89154, USA",
+        "Nevada Center for Astrophysics, University of Nevada, Las Vegas, 4505 South Maryland Parkway, Las Vegas, NV 89154, USA"
+      ],
+      "verification": {
+        "ror": "https://ror.org/0406gha72",
+        "website": "https://www.unlv.edu",
+        "source": "https://api.ror.org/v2/organizations/0406gha72",
         "checked_at": "2026-09-24"
       }
     },
@@ -10124,15 +10118,6 @@
   ],
   "edges": [
     {
-      "source": "6be66a5d1c865f00",
-      "target": "77b905f3c7de8ae1",
-      "papers": [
-        "2609.27025",
-        "2610.09575"
-      ],
-      "weight": 2
-    },
-    {
       "source": "323e7eabc230aa6a",
       "target": "5c85faa51cc57a24",
       "papers": [
@@ -10490,6 +10475,14 @@
     },
     {
       "source": "2b060591e7ddb7b6",
+      "target": "77b905f3c7de8ae1",
+      "papers": [
+        "2609.27025"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "6be66a5d1c865f00",
       "target": "77b905f3c7de8ae1",
       "papers": [
         "2609.27025"
@@ -13965,21 +13958,6 @@
     }
   ],
   "papers": {
-    "2610.09575": {
-      "id": "2610.09575",
-      "title": "A comparison between particle and fluid approaches for streaming instability in global patch simulations",
-      "url": "https://arxiv.org/abs/2610.09575",
-      "topics": [
-        "evolution"
-      ],
-      "first_seen": "2026-10-08T01:28:21.610616+00:00",
-      "publication_date": "2026-10-07",
-      "journals": [],
-      "institutions": [
-        "6be66a5d1c865f00",
-        "77b905f3c7de8ae1"
-      ]
-    },
     "2610.05287": {
       "id": "2610.05287",
       "title": "Irradiated Atmospheres VII. Effect of Mixing Energy Flux on Atmosphere-Interior Coupling",
@@ -16375,89 +16353,6 @@
   "level": "parent",
   "researchers": [
     {
-      "id": "9eaa6210fc5f3482",
-      "name": "Mario Flock",
-      "name_zh": null,
-      "name_source": "",
-      "orcid": null,
-      "identity_basis": "paper_signature",
-      "papers": [
-        "2610.09575"
-      ],
-      "institutions": [],
-      "aliases": [
-        "Mario Flock"
-      ]
-    },
-    {
-      "id": "28957377738ede94",
-      "name": "Paul Rosendahl",
-      "name_zh": null,
-      "name_source": "",
-      "orcid": null,
-      "identity_basis": "paper_signature",
-      "papers": [
-        "2610.09575"
-      ],
-      "institutions": [],
-      "aliases": [
-        "Paul Rosendahl"
-      ]
-    },
-    {
-      "id": "d4c3d0bda6e77300",
-      "name": "Andrea Mignone",
-      "name_zh": null,
-      "name_source": "",
-      "orcid": null,
-      "identity_basis": "paper_signature",
-      "papers": [
-        "2610.09575"
-      ],
-      "institutions": [],
-      "aliases": [
-        "Andrea Mignone"
-      ]
-    },
-    {
-      "id": "e1a38197953e687e",
-      "name": "Jeonghoon Lim (임정훈)",
-      "name_zh": null,
-      "name_source": "",
-      "orcid": null,
-      "identity_basis": "name_and_institution",
-      "papers": [
-        "2609.27025",
-        "2610.09575"
-      ],
-      "institutions": [
-        "6be66a5d1c865f00",
-        "77b905f3c7de8ae1"
-      ],
-      "aliases": [
-        "Jeonghoon Lim (임정훈)"
-      ]
-    },
-    {
-      "id": "73262038c8776cde",
-      "name": "Jacob B. Simon",
-      "name_zh": null,
-      "name_source": "",
-      "orcid": null,
-      "identity_basis": "name_and_institution",
-      "papers": [
-        "2609.27025",
-        "2610.09575"
-      ],
-      "institutions": [
-        "6be66a5d1c865f00"
-      ],
-      "aliases": [
-        "Jacob B Simon",
-        "Jacob B. Simon"
-      ]
-    },
-    {
       "id": "cab4037026926097",
       "name": "Wei Zhong",
       "name_zh": null,
@@ -17628,6 +17523,23 @@
       ]
     },
     {
+      "id": "73262038c8776cde",
+      "name": "Jacob B Simon",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": null,
+      "identity_basis": "name_and_institution",
+      "papers": [
+        "2609.27025"
+      ],
+      "institutions": [
+        "6be66a5d1c865f00"
+      ],
+      "aliases": [
+        "Jacob B Simon"
+      ]
+    },
+    {
       "id": "778bd53936a092f4",
       "name": "Daniel Carrera",
       "name_zh": null,
@@ -17643,6 +17555,24 @@
       ],
       "aliases": [
         "Daniel Carrera"
+      ]
+    },
+    {
+      "id": "e1a38197953e687e",
+      "name": "Jeonghoon Lim (임정훈)",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": null,
+      "identity_basis": "name_and_institution",
+      "papers": [
+        "2609.27025"
+      ],
+      "institutions": [
+        "6be66a5d1c865f00",
+        "77b905f3c7de8ae1"
+      ],
+      "aliases": [
+        "Jeonghoon Lim (임정훈)"
       ]
     },
     {
