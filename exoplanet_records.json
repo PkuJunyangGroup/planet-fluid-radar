@@ -1,20 +1,70 @@
 {
-  "generated_at": "2026-10-08T12:17:37.742314+08:00",
+  "generated_at": "2026-10-09T09:29:48.432111+08:00",
   "sources": {
     "exoplanet.eu": {
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-10-08T12:17:37.742314+08:00",
-      "last_success": "2026-10-08T12:17:37.742314+08:00",
+      "last_attempt": "2026-10-09T09:29:48.432111+08:00",
+      "last_success": "2026-10-09T09:29:48.432111+08:00",
       "coverage_since": "2026-09-25",
-      "pages_checked": 1,
-      "fetched": 0,
-      "retained": 0,
+      "pages_checked": 2,
+      "fetched": 9,
+      "retained": 1,
       "method": "daily incremental bibliography page scan; candidate-only"
     }
   },
   "papers": [
+    {
+      "id": "exoplanet-bib:33017",
+      "version_id": "exoplanet-bib:33017",
+      "exoplanet_id": "33017",
+      "title": "JWST Excludes Exomoons Down to 0.1 Earth Radii Around a Rocky, Temperate Exoplanet",
+      "abstract": "",
+      "authors": [
+        "KIPPING D."
+      ],
+      "source": "exoplanet.eu",
+      "source_group": "exoplanet bibliography",
+      "journal": "Astron. J.",
+      "url": "https://dx.doi.org/10.3847/1538-3881/aea21d ",
+      "doi": "10.3847/1538-3881/aea21d",
+      "publication_date": "2026",
+      "published": "2026",
+      "publication_date_source": "Exoplanet.eu bibliography",
+      "date_kind": "bibliography",
+      "first_seen": "2026-10-09T09:29:48.432111+08:00",
+      "updated": "2026-10-08",
+      "metadata_source": "https://exoplanet.eu/bibliography/all/#publication_33017",
+      "affiliation_status": "unavailable",
+      "metadata_limited": true,
+      "categories": [],
+      "exoplanet_update_date": "2026-10-08",
+      "relations": {
+        "preprint": [
+          {
+            "id": "https://arxiv.org/abs/2609.05301"
+          }
+        ]
+      },
+      "arxiv_id": "2609.05301",
+      "topics": [
+        "detection"
+      ],
+      "matches": {
+        "detection": [
+          "exomoon"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：exomoon",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 43,
+      "fit_matches": [
+        "系外行星观测表征"
+      ]
+    },
     {
       "id": "exoplanet-bib:32825",
       "version_id": "exoplanet-bib:32825",
