@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T01:34:21.645750+00:00",
+  "generated_at": "2026-10-10T02:07:24.447615+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
@@ -260,12 +260,12 @@
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-10-10T09:28:52.826134+08:00",
-      "last_success": "2026-10-10T09:28:52.826134+08:00",
+      "last_attempt": "2026-10-10T10:06:35.599452+08:00",
+      "last_success": "2026-10-10T10:06:35.599452+08:00",
       "coverage_since": "2026-09-25",
-      "pages_checked": 3,
-      "fetched": 14,
-      "retained": 2,
+      "pages_checked": 1,
+      "fetched": 0,
+      "retained": 0,
       "method": "daily incremental bibliography page scan; candidate-only"
     }
   },
@@ -23156,10 +23156,12 @@
       "fit_matches": [
         "系外行星观测表征"
       ],
-      "intro_en": "Abstract We present the discovery of RX J0534.0-0221 b, a giant planet orbiting an M dwarf star in the β Pictoris moving group. RX J0534 was originally observed with JWST/NIRCam in the F444W and F200W filters.",
-      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
-      "intro_kind": "abstract_excerpt",
-      "intro_basis": "英文摘要节选",
+      "intro_zh": "JWST/NIRCam 在年轻 M 型星 RX J0534.0−0221 附近发现一个候选巨行星，16 个月后的地面望远镜复测显示它与宿主星共同运动，支持其为真实伴星而非背景天体。测光与大气模型给出约 2.8 个木星质量、约 674 K 的估计；颜色提示大气可能存在非平衡化学或较高金属丰度，但目前数据尚不能区分两者。研究还发现与该系统碎屑盘相符的延展结构。",
+      "intro_en": "JWST imaging and a later ground-based observation support a comoving giant planet around the young M dwarf RX J0534.0−0221. Photometric atmosphere models suggest a low mass and cool temperature; its colors are consistent with either disequilibrium chemistry or enhanced metallicity, pending further characterization.",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "intro_source": "https://doi.org/10.3847/2041-8213/aea906",
+      "intro_version": "doi:10.3847/2041-8213/aea906",
       "variants": [
         {
           "id": "doi:10.3847/2041-8213/aea906",
