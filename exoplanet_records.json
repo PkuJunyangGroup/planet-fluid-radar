@@ -1,20 +1,137 @@
 {
-  "generated_at": "2026-10-09T10:10:23.520720+08:00",
+  "generated_at": "2026-10-10T09:28:52.826134+08:00",
   "sources": {
     "exoplanet.eu": {
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-10-09T10:10:23.520720+08:00",
-      "last_success": "2026-10-09T10:10:23.520720+08:00",
+      "last_attempt": "2026-10-10T09:28:52.826134+08:00",
+      "last_success": "2026-10-10T09:28:52.826134+08:00",
       "coverage_since": "2026-09-25",
-      "pages_checked": 1,
-      "fetched": 0,
-      "retained": 0,
+      "pages_checked": 3,
+      "fetched": 14,
+      "retained": 2,
       "method": "daily incremental bibliography page scan; candidate-only"
     }
   },
   "papers": [
+    {
+      "id": "exoplanet-bib:32521",
+      "version_id": "exoplanet-bib:32521",
+      "exoplanet_id": "32521",
+      "title": "Atmospheric asymmetries in WASP-121 b revealed by rotational transits detected with JWST A framework for evaluating biosignature potential against the abiotic baseline on ocean worlds Post-perihelion Photometric and Spectroscopic Monitoring of the Interstellar Comet 3I/ATLAS Gaseous SiO and Silicate Clouds in Three Benchmark Early-L Dwarfs Deep radiative zones affect the planetary cooling and internal structure: implications for exoplanet characterisation A Census of Free-floating Planet Candidates and the Prospects for Roman HD 148797: A bright F-type star with two moderate-period low-density sub-Jovian planets. Compact multi-planet architectures are common in the Neptunian savanna The Highly Unusual Behavior and Chemical Composition of Interstellar Comet 2I/Borisov Hybrid Spin-Orbit Tomography for Earth-like Planets: Simultaneous Mapping of Static Surfaces and Dynamic Clouds from Multicolor Light Curves A Stellar-Type Dependence in the Rocky and Volatile Composition of Small Exoplanets",
+      "abstract": "",
+      "authors": [
+        "HIGGINS P.",
+        "CHEN W.",
+        "WARR O.",
+        "FIFER L.",
+        "KANG W."
+      ],
+      "source": "exoplanet.eu",
+      "source_group": "exoplanet bibliography",
+      "journal": "Nature Astronomy",
+      "url": "https://doi.org/10.1038/s41550-026-02893-8 ",
+      "doi": "10.1038/s41550-026-02893-8",
+      "publication_date": "2026",
+      "published": "2026",
+      "publication_date_source": "Exoplanet.eu bibliography",
+      "date_kind": "bibliography",
+      "first_seen": "2026-10-10T09:28:52.826134+08:00",
+      "updated": "2026-10-09",
+      "metadata_source": "https://exoplanet.eu/bibliography/all/#publication_32521",
+      "affiliation_status": "unavailable",
+      "metadata_limited": true,
+      "categories": [],
+      "exoplanet_update_date": "2026-10-09",
+      "relations": {
+        "preprint": [
+          {
+            "id": "https://arxiv.org/abs/2606.19487"
+          }
+        ]
+      },
+      "arxiv_id": "2606.19487",
+      "topics": [
+        "detection",
+        "evolution"
+      ],
+      "matches": {
+        "detection": [
+          "biosignature"
+        ],
+        "evolution": [
+          "volatile"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：biosignature、volatile",
+      "tags": [
+        "云与辐射 · Clouds & radiation",
+        "岩浆与挥发分 · Magma & volatiles",
+        "海冰与表层 · Ice & surface"
+      ],
+      "method": "keyword",
+      "fit_score": 47,
+      "fit_matches": [
+        "系外行星观测表征"
+      ]
+    },
+    {
+      "id": "exoplanet-bib:33223",
+      "version_id": "exoplanet-bib:33223",
+      "exoplanet_id": "33223",
+      "title": "Gen-EBM: an energy balance model for terrestrial planets. Climate multistability from snowball to post-runaway greenhouse climates",
+      "abstract": "",
+      "authors": [
+        "BHATNAGAR S.",
+        "BELMONT E.",
+        "BRUNETTI M.",
+        "KASPARIAN G.",
+        "KALLIOINEN T."
+      ],
+      "source": "exoplanet.eu",
+      "source_group": "exoplanet bibliography",
+      "journal": "Astron. & Astrophys.",
+      "url": "https://doi.org/10.48550/arXiv.2610.12267",
+      "doi": null,
+      "publication_date": "2026",
+      "published": "2026",
+      "publication_date_source": "Exoplanet.eu bibliography",
+      "date_kind": "bibliography",
+      "first_seen": "2026-10-10T09:28:52.826134+08:00",
+      "updated": "2026-10-09",
+      "metadata_source": "https://exoplanet.eu/bibliography/all/#publication_33223",
+      "affiliation_status": "unavailable",
+      "metadata_limited": true,
+      "categories": [],
+      "exoplanet_update_date": "2026-10-09",
+      "relations": {
+        "preprint": [
+          {
+            "id": "https://arxiv.org/abs/2610.12267"
+          }
+        ]
+      },
+      "arxiv_id": "2610.12267",
+      "topics": [
+        "climate"
+      ],
+      "matches": {
+        "climate": [
+          "energy balance"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：energy balance",
+      "tags": [
+        "云与辐射 · Clouds & radiation",
+        "宜居性 · Habitability"
+      ],
+      "method": "keyword",
+      "fit_score": 32,
+      "fit_matches": []
+    },
     {
       "id": "exoplanet-bib:33017",
       "version_id": "exoplanet-bib:33017",
