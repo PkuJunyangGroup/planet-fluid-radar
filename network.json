@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T01:34:37.478066+00:00",
+  "generated_at": "2026-10-13T01:34:44.099859+00:00",
   "nodes": [
     {
       "id": "323e7eabc230aa6a",
@@ -5356,6 +5356,39 @@
           "unit_papers": {}
         },
         {
+          "id": "c1000c7669abdb06",
+          "name": "Nikolai Piskunov",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0001-5742-7767",
+          "papers": [
+            "2509.12737"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "8889cfcf657788d8",
+          "name": "Adam D. Rains",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0003-3486-853X",
+          "papers": [
+            "2509.12737"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "63cc9f0e143ae7e9",
+          "name": "Linn Boldt-Christmas",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0003-1739-3827",
+          "papers": [
+            "2509.12737"
+          ],
+          "unit_papers": {}
+        },
+        {
           "id": "9daba5d620003523",
           "name": "Michael J. Way",
           "name_zh": null,
@@ -5370,7 +5403,8 @@
       "units": [],
       "raw": [
         "Astronomy Division, Dept. of Physics and Astronomy, Uppsala University, Box 516, 75120 Uppsala, Sweden",
-        "Theoretical Astrophysics, Department of Physics and Astronomy, Uppsala University, Uppsala, Sweden."
+        "Theoretical Astrophysics, Department of Physics and Astronomy, Uppsala University, Uppsala, Sweden.",
+        "Uppsala University"
       ],
       "verification": {
         "ror": "https://ror.org/048a87296",
@@ -14776,7 +14810,9 @@
       ],
       "first_seen": "2026-09-24T08:51:14.614730+00:00",
       "publication_date": "2025-09-16",
-      "journals": [],
+      "journals": [
+        "The Astrophysical Journal"
+      ],
       "institutions": [
         "8ae22c258f1b2514"
       ]
@@ -16848,7 +16884,8 @@
       "first_seen": "2026-10-10T01:28:59.464410+00:00",
       "publication_date": "2026-10-09",
       "journals": [
-        "The Astrophysical Journal Letters"
+        "The Astrophysical Journal Letters",
+        "ApJ. Letters"
       ],
       "institutions": [
         "4d3dd6848c184118",
@@ -20059,6 +20096,57 @@
       "name_source": "",
       "orcid": null,
       "identity_basis": "name_and_institution",
+      "papers": [
+        "2509.12737"
+      ],
+      "institutions": [
+        "8ae22c258f1b2514"
+      ],
+      "aliases": [
+        "Linn Boldt-Christmas"
+      ]
+    },
+    {
+      "id": "c1000c7669abdb06",
+      "name": "Nikolai Piskunov",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0001-5742-7767",
+      "identity_basis": "orcid",
+      "papers": [
+        "2509.12737"
+      ],
+      "institutions": [
+        "8ae22c258f1b2514"
+      ],
+      "aliases": [
+        "Nikolai Piskunov"
+      ]
+    },
+    {
+      "id": "8889cfcf657788d8",
+      "name": "Adam D. Rains",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0003-3486-853X",
+      "identity_basis": "orcid",
+      "papers": [
+        "2509.12737"
+      ],
+      "institutions": [
+        "8ae22c258f1b2514"
+      ],
+      "aliases": [
+        "Adam D. Rains"
+      ]
+    },
+    {
+      "id": "63cc9f0e143ae7e9",
+      "name": "Linn Boldt-Christmas",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0003-1739-3827",
+      "identity_basis": "orcid",
       "papers": [
         "2509.12737"
       ],
