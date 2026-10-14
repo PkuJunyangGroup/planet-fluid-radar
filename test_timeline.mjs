@@ -1,0 +1,31 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import vm from 'node:vm';
+
+const context=vm.createContext({Date,Intl,Map,console});
+vm.runInContext(fs.readFileSync(new URL('./app.js',import.meta.url),'utf8').replace(/\ninit\(\);\s*$/,''),context);
+const day=vm.runInContext('publicationDay',context);
+const count=vm.runInContext('publicationCounts',context);
+const level=vm.runInContext('heatLevel',context);
+const matches=vm.runInContext('PublicationTimeline.prototype.matches',context);
+const number=vm.runInContext('dayNumber',context);
+const string=vm.runInContext('dayString',context);
+
+assert.equal(day({publication_date:'2026-10-13'}),'2026-10-13');
+assert.equal(day({publication_date:'2026-10'}),null);
+assert.equal(day({publication_date:'2026'}),null);
+assert.equal(day({publication_date:'2026-02-29'}),null);
+assert.equal(day({publication_date:'2028-02-29'}),'2028-02-29');
+assert.equal(day({first_seen:'2026-10-14T01:00:00Z'}),null);
+assert.equal(string(number('2026-10-01')-1),'2026-09-30');
+const papers=['2026-10-12','2026-10-13','2026-10-13','2026-10-14','2026-10'].map(publication_date=>({publication_date}));
+const counts=count(papers);
+assert.equal(counts.counts.get('2026-10-13'),2);
+assert.equal(counts.undated,1);
+const selected={range:['2026-10-12','2026-10-13']};
+assert.equal(papers.filter(p=>matches.call(selected,p)).length,3);
+assert.equal(matches.call({range:null},papers.at(-1)),true);
+assert.equal(papers.filter(p=>matches.call({range:['2026-10-13','2026-10-13']},p)).length,2);
+assert.deepEqual([0,1,2,3,4,7,8,100].map(level),[0,1,2,2,3,3,4,4]);
+assert.equal(vm.runInContext('beijingToday()',context),new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date()));
+console.log('Publication timeline: date precision, inclusive range, calendar boundaries and heat scale passed.');
