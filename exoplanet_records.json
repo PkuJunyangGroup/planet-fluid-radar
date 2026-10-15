@@ -1,20 +1,67 @@
 {
-  "generated_at": "2026-10-14T14:47:30.413574+08:00",
+  "generated_at": "2026-10-15T09:38:42.023371+08:00",
   "sources": {
     "exoplanet.eu": {
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-10-14T14:47:30.413574+08:00",
-      "last_success": "2026-10-14T14:47:30.413574+08:00",
+      "last_attempt": "2026-10-15T09:38:42.023371+08:00",
+      "last_success": "2026-10-15T09:38:42.023371+08:00",
       "coverage_since": "2026-09-25",
       "pages_checked": 2,
-      "fetched": 3,
-      "retained": 1,
+      "fetched": 13,
+      "retained": 2,
       "method": "daily incremental bibliography page scan; candidate-only"
     }
   },
   "papers": [
+    {
+      "id": "exoplanet-bib:33252",
+      "version_id": "exoplanet-bib:33252",
+      "exoplanet_id": "33252",
+      "title": "Wet Removal and Cloud Enhancement: The Microphysics of Cloud–Haze Interactions on Sub-Neptunes",
+      "abstract": "",
+      "authors": [
+        "NAGPAL V.",
+        "STEINRUECK M.",
+        "POWELL D.",
+        "GAO P.",
+        "SAMRA D.",
+        "CUKIER W."
+      ],
+      "source": "exoplanet.eu",
+      "source_group": "exoplanet bibliography",
+      "journal": "ApJ",
+      "url": "https://dx.doi.org/10.3847/1538-4357/ae9a84 ",
+      "doi": "10.3847/1538-4357/ae9a84",
+      "publication_date": "2026",
+      "published": "2026",
+      "publication_date_source": "Exoplanet.eu bibliography",
+      "date_kind": "bibliography",
+      "first_seen": "2026-10-15T09:38:42.023371+08:00",
+      "updated": "2026-10-14",
+      "metadata_source": "https://exoplanet.eu/bibliography/all/#publication_33252",
+      "affiliation_status": "unavailable",
+      "metadata_limited": true,
+      "categories": [],
+      "exoplanet_update_date": "2026-10-14",
+      "topics": [
+        "planetary"
+      ],
+      "matches": {
+        "planetary": [
+          "sub neptune"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：sub neptune",
+      "tags": [
+        "云与辐射 · Clouds & radiation"
+      ],
+      "method": "keyword",
+      "fit_score": 42,
+      "fit_matches": []
+    },
     {
       "id": "exoplanet-bib:33248",
       "version_id": "exoplanet-bib:33248",

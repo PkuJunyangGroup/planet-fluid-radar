@@ -1,40 +1,37 @@
 {
-  "generated_at": "2026-10-14T06:48:23.157478+00:00",
+  "generated_at": "2026-10-15T01:47:47.683716+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
-      "last_attempt": "2026-10-14T01:37:25.723657+00:00",
-      "last_success": "2026-10-13T01:30:36.130590+00:00",
-      "status": "partial",
-      "fetched": 0,
-      "error": "HTTP 429",
-      "last_rss_success": "2026-10-14T01:37:25.723657+00:00",
-      "last_rss_fetched": 0
+      "last_attempt": "2026-10-15T01:38:21.320708+00:00",
+      "last_success": "2026-10-15T01:38:21.320708+00:00",
+      "status": "ok",
+      "fetched": 35
     },
     "physics.ao-ph": {
-      "last_attempt": "2026-10-14T01:37:25.723657+00:00",
-      "last_success": "2026-10-14T01:37:25.723657+00:00",
+      "last_attempt": "2026-10-15T01:38:21.320708+00:00",
+      "last_success": "2026-10-15T01:38:21.320708+00:00",
       "status": "ok",
-      "fetched": 0
+      "fetched": 3
     },
     "physics.geo-ph": {
-      "last_attempt": "2026-10-14T01:37:25.723657+00:00",
-      "last_success": "2026-10-14T01:37:25.723657+00:00",
+      "last_attempt": "2026-10-15T01:38:21.320708+00:00",
+      "last_success": "2026-10-15T01:38:21.320708+00:00",
       "status": "ok",
-      "fetched": 0
+      "fetched": 1
     },
     "physics.flu-dyn": {
-      "last_attempt": "2026-10-14T01:37:25.723657+00:00",
-      "last_success": "2026-10-14T01:37:25.723657+00:00",
+      "last_attempt": "2026-10-15T01:38:21.320708+00:00",
+      "last_success": "2026-10-15T01:38:21.320708+00:00",
       "status": "ok",
-      "fetched": 0
+      "fetched": 5
     },
     "journal:1476-4687": {
       "name": "Nature",
       "status": "ok",
-      "last_attempt": "2026-10-14T01:45:19.529168+00:00",
-      "last_success": "2026-10-14T01:45:19.529168+00:00",
-      "fetched": 29,
+      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
+      "last_success": "2026-10-15T01:38:46.773639+00:00",
+      "fetched": 55,
       "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
@@ -42,8 +39,8 @@
     "journal:1095-9203": {
       "name": "Science",
       "status": "ok",
-      "last_attempt": "2026-10-14T01:45:19.529168+00:00",
-      "last_success": "2026-10-14T01:45:19.529168+00:00",
+      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
+      "last_success": "2026-10-15T01:38:46.773639+00:00",
       "fetched": 0,
       "retained": 0,
       "method": "Crossref publisher metadata",
@@ -52,9 +49,9 @@
     "journal:1091-6490": {
       "name": "PNAS",
       "status": "ok",
-      "last_attempt": "2026-10-14T01:45:19.529168+00:00",
-      "last_success": "2026-10-14T01:45:19.529168+00:00",
-      "fetched": 0,
+      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
+      "last_success": "2026-10-15T01:38:46.773639+00:00",
+      "fetched": 4,
       "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
@@ -62,19 +59,19 @@
     "journal:1752-0908": {
       "name": "Nature Geoscience",
       "status": "ok",
-      "last_attempt": "2026-10-14T01:45:19.529168+00:00",
-      "last_success": "2026-10-14T01:45:19.529168+00:00",
-      "fetched": 0,
-      "retained": 0,
+      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
+      "last_success": "2026-10-15T01:38:46.773639+00:00",
+      "fetched": 2,
+      "retained": 1,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-07-26"
     },
     "journal:2397-3366": {
       "name": "Nature Astronomy",
       "status": "ok",
-      "last_attempt": "2026-10-14T01:45:19.529168+00:00",
-      "last_success": "2026-10-14T01:45:19.529168+00:00",
-      "fetched": 2,
+      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
+      "last_success": "2026-10-15T01:38:46.773639+00:00",
+      "fetched": 1,
       "retained": 1,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-07-26"
@@ -82,9 +79,9 @@
     "journal:1758-6798": {
       "name": "Nature Climate Change",
       "status": "ok",
-      "last_attempt": "2026-10-14T01:45:19.529168+00:00",
-      "last_success": "2026-10-14T01:45:19.529168+00:00",
-      "fetched": 1,
+      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
+      "last_success": "2026-10-15T01:38:46.773639+00:00",
+      "fetched": 4,
       "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-07-26"
@@ -92,30 +89,30 @@
     "journal:1520-0469": {
       "name": "Journal of the Atmospheric Sciences",
       "status": "ok",
-      "last_attempt": "2026-10-14T01:45:19.529168+00:00",
-      "last_success": "2026-10-14T01:45:19.529168+00:00",
-      "fetched": 0,
-      "retained": 0,
+      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
+      "last_success": "2026-10-15T01:38:46.773639+00:00",
+      "fetched": 3,
+      "retained": 2,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1680-7324": {
       "name": "Atmospheric Chemistry and Physics",
       "status": "ok",
-      "last_attempt": "2026-10-14T01:45:19.529168+00:00",
-      "last_success": "2026-10-14T01:45:19.529168+00:00",
-      "fetched": 13,
-      "retained": 8,
+      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
+      "last_success": "2026-10-15T01:38:46.773639+00:00",
+      "fetched": 9,
+      "retained": 5,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:2169-8996": {
       "name": "Journal of Geophysical Research: Atmospheres",
       "status": "ok",
-      "last_attempt": "2026-10-14T01:45:19.529168+00:00",
-      "last_success": "2026-10-14T01:45:19.529168+00:00",
-      "fetched": 62,
-      "retained": 36,
+      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
+      "last_success": "2026-10-15T01:38:46.773639+00:00",
+      "fetched": 5,
+      "retained": 3,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
@@ -162,99 +159,99 @@
     "journal:1520-0442": {
       "name": "Journal of Climate",
       "status": "ok",
-      "last_attempt": "2026-10-14T01:45:19.529168+00:00",
-      "last_success": "2026-10-14T01:45:19.529168+00:00",
-      "fetched": 1,
-      "retained": 1,
+      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
+      "last_success": "2026-10-15T01:38:46.773639+00:00",
+      "fetched": 27,
+      "retained": 22,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1432-0894": {
       "name": "Climate Dynamics",
       "status": "ok",
-      "last_attempt": "2026-10-14T01:45:19.529168+00:00",
-      "last_success": "2026-10-14T01:45:19.529168+00:00",
-      "fetched": 6,
-      "retained": 1,
+      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
+      "last_success": "2026-10-15T01:38:46.773639+00:00",
+      "fetched": 3,
+      "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1814-9332": {
       "name": "Climate of the Past",
       "status": "ok",
-      "last_attempt": "2026-10-14T01:45:19.529168+00:00",
-      "last_success": "2026-10-14T01:45:19.529168+00:00",
-      "fetched": 1,
-      "retained": 1,
+      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
+      "last_success": "2026-10-15T01:38:46.773639+00:00",
+      "fetched": 0,
+      "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1477-870X": {
       "name": "Quarterly Journal of the Royal Meteorological Society",
       "status": "ok",
-      "last_attempt": "2026-10-14T01:45:19.529168+00:00",
-      "last_success": "2026-10-14T01:45:19.529168+00:00",
-      "fetched": 1,
-      "retained": 1,
+      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
+      "last_success": "2026-10-15T01:38:46.773639+00:00",
+      "fetched": 5,
+      "retained": 4,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1557-8070": {
       "name": "Astrobiology",
       "status": "ok",
-      "last_attempt": "2026-10-14T01:45:19.529168+00:00",
-      "last_success": "2026-10-14T01:45:19.529168+00:00",
-      "fetched": 1,
-      "retained": 1,
+      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
+      "last_success": "2026-10-15T01:38:46.773639+00:00",
+      "fetched": 7,
+      "retained": 5,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-07-26"
     },
     "journal:1944-8007": {
       "name": "Geophysical Research Letters",
       "status": "ok",
-      "last_attempt": "2026-10-14T01:45:19.529168+00:00",
-      "last_success": "2026-10-14T01:45:19.529168+00:00",
-      "fetched": 122,
-      "retained": 59,
+      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
+      "last_success": "2026-10-15T01:38:46.773639+00:00",
+      "fetched": 89,
+      "retained": 40,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:2169-9100": {
       "name": "Journal of Geophysical Research: Planets",
       "status": "ok",
-      "last_attempt": "2026-10-14T01:45:19.529168+00:00",
-      "last_success": "2026-10-14T01:45:19.529168+00:00",
-      "fetched": 2,
-      "retained": 0,
+      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
+      "last_success": "2026-10-15T01:38:46.773639+00:00",
+      "fetched": 1,
+      "retained": 1,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1538-4357": {
       "name": "The Astrophysical Journal",
       "status": "ok",
-      "last_attempt": "2026-10-14T01:45:19.529168+00:00",
-      "last_success": "2026-10-14T01:45:19.529168+00:00",
-      "fetched": 25,
-      "retained": 2,
+      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
+      "last_success": "2026-10-15T01:38:46.773639+00:00",
+      "fetched": 22,
+      "retained": 1,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:2041-8213": {
       "name": "The Astrophysical Journal Letters",
       "status": "ok",
-      "last_attempt": "2026-10-14T01:45:19.529168+00:00",
-      "last_success": "2026-10-14T01:45:19.529168+00:00",
-      "fetched": 5,
-      "retained": 2,
+      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
+      "last_success": "2026-10-15T01:38:46.773639+00:00",
+      "fetched": 10,
+      "retained": 3,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:0012-821X": {
       "name": "Earth and Planetary Science Letters",
       "status": "ok",
-      "last_attempt": "2026-10-14T01:45:19.529168+00:00",
-      "last_success": "2026-10-14T01:45:19.529168+00:00",
-      "fetched": 3,
+      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
+      "last_success": "2026-10-15T01:38:46.773639+00:00",
+      "fetched": 9,
       "retained": 2,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
@@ -263,12 +260,12 @@
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-10-14T14:47:30.413574+08:00",
-      "last_success": "2026-10-14T14:47:30.413574+08:00",
+      "last_attempt": "2026-10-15T09:38:42.023371+08:00",
+      "last_success": "2026-10-15T09:38:42.023371+08:00",
       "coverage_since": "2026-09-25",
       "pages_checked": 2,
-      "fetched": 3,
-      "retained": 1,
+      "fetched": 13,
+      "retained": 2,
       "method": "daily incremental bibliography page scan; candidate-only"
     }
   },
@@ -1056,6 +1053,1610 @@
   ],
   "repository": "https://github.com/PkuJunyangGroup/planet-fluid-radar",
   "papers": [
+    {
+      "id": "2610.19377",
+      "version_id": "2610.19377v1",
+      "title": "Emission spectroscopy of KELT-2A b with Gemini-North/IGRINS-2: hints of a stellar C/O ratio and sub-stellar metallicity",
+      "abstract": "We present the results of high-resolution emission spectroscopy of the hot Jupiter KELT-2A~b using IGRINS-2 on the Gemini-North telescope, covering the $H$- and $K$-bands at a spectral resolution of $R \\sim 45{,}000$. Observations were carried out over five nights, covering both pre- and post-eclipse orbital phases. Stellar and telluric contaminations are removed via singular value decomposition. We detect $\\rm H_2O$ at a signal-to-noise ratio of {6.57}, confirming the previous result at a higher significance. While $\\rm ^{12}CO$ is identified in the log-likelihood map near the expected planetary velocity, a definitive detection of $\\rm ^{12}CO$ remains elusive given the current data quality. We perform atmospheric retrieval both with IGRINS-2 data alone and jointly with archival \\textit{Spitzer}/IRAC photometric data points. The retrieved temperature--pressure profile is non-inverted, consistent with prior observations. {From the joint fit we constrain the water abundance to} $\\rm log(H_2O) = {-3.78^{+0.27}_{-0.20}}$ {with the free chemistry model}. {The chemical equilibrium model yields} $\\rm C/O={ 0.19^{+0.12}_{-0.07}}$, $\\rm [C/H]=-0.81^{+0.41}_{-0.34}$, and $\\rm [O/H] = -0.37^{+0.27}_{-0.17}${: the C/O ratio agrees with the stellar value, while the carbon and oxygen abundances are moderately depleted relative to the host star, though still consistent at the $\\sim2σ$ level.} If confirmed, {this combination of a stellar C/O ratio with a sub-stellar metallicity is difficult to reconcile with gas accretion between the $\\rm{H_2O}$ and CO snowlines, which predicts a super-stellar C/O. It instead points to the accretion of metal-depleted gas outside the CO snowline with only limited planetesimal enrichment, and hence to a disk-free, high-eccentricity migration history.}",
+      "published": "2026-10-14T01:24:35Z",
+      "updated": "2026-10-14T01:24:35Z",
+      "authors": [
+        "Yuya Hayashi",
+        "Stevanus K. Nugroho",
+        "Shota Notsu",
+        "Changeat Quentin",
+        "Peter C. B. Smith",
+        "Krishna Kanumalla",
+        "Michael R. Line",
+        "Jorge A. Sanchez",
+        "Tomohiro C. Yoshida",
+        "Kazumasa Ohno",
+        "Hideko Nomura",
+        "Taiki Kagetani",
+        "Norio Narita",
+        "Kiyoe Kawauchi",
+        "Akihiko Fukui",
+        "Enric Palle"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2610.19377",
+      "pdf": "https://arxiv.org/pdf/2610.19377v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-15T01:38:21.320708+00:00",
+      "version_changed": false,
+      "topics": [
+        "planetary",
+        "chemistry",
+        "models",
+        "evolution"
+      ],
+      "matches": {
+        "planetary": [
+          "hot jupiter"
+        ],
+        "chemistry": [
+          "chemical equilibrium"
+        ],
+        "models": [
+          "chemistry model"
+        ],
+        "evolution": [
+          "planetesimal"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：hot jupiter、chemical equilibrium、chemistry model、planetesimal",
+      "tags": [
+        "光谱与相曲线 · Spectra & phase curves",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 57,
+      "fit_matches": [],
+      "institutions": [
+        "Department of Multi-Disciplinary Sciences, Graduate School of Arts and Sciences, The University of Tokyo, 3-8-1 Komaba, Meguro, Tokyo 153-8902, Japan",
+        "Department of Earth and Planetary Sciences, Institute of Science Tokyo, 2-12-1 Ookayama, Meguro, Tokyo 152-8551, Japan",
+        "Astrobiology Center, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan",
+        "National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan",
+        "Department of Earth and Planetary Science, Graduate School of Science, The University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan",
+        "Star and Planet Formation Laboratory, Pioneering Research Institute, RIKEN, 2-1 Hirosawa, Wako, Saitama 351-0198, Japan",
+        "Kapteyn Institute, University of Groningen, 9747 AD Groningen, NL",
+        "School of Earth and Space Exploration, Arizona State University, 781 Terrace Mall, Tempe, AZ, 85287, USA",
+        "Dipartimento di Fisica, Università degli Studi di Milano, Via Celoria 16, 20133 Milano, Italy",
+        "Department of Astronomical Science, The Graduate University for Advanced Studies, SOKENDAI, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan",
+        "Komaba Institute for Science, The University of Tokyo, 3-8-1 Komaba, Meguro, Tokyo 153-8902, Japan",
+        "Instituto de Astrofísica de Canarias (IAC), E-38200 La Laguna, Tenerife, Spain",
+        "Department of Physical Sciences, Ritsumeikan University, Kusatsu, Shiga 525-8577, Japan",
+        "Departamento de Astrofísica, Universidad de La Laguna (ULL), E-38206 La Laguna, Tenerife, Spain"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Yuya Hayashi",
+          "institutions": [
+            "Department of Multi-Disciplinary Sciences, Graduate School of Arts and Sciences, The University of Tokyo, 3-8-1 Komaba, Meguro, Tokyo 153-8902, Japan"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Stevanus K. Nugroho",
+          "institutions": [
+            "Department of Earth and Planetary Sciences, Institute of Science Tokyo, 2-12-1 Ookayama, Meguro, Tokyo 152-8551, Japan",
+            "Astrobiology Center, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan",
+            "National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Shota Notsu",
+          "institutions": [
+            "Department of Earth and Planetary Science, Graduate School of Science, The University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan",
+            "Star and Planet Formation Laboratory, Pioneering Research Institute, RIKEN, 2-1 Hirosawa, Wako, Saitama 351-0198, Japan"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Quentin Changeat",
+          "institutions": [
+            "Kapteyn Institute, University of Groningen, 9747 AD Groningen, NL"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Peter C. B. Smith",
+          "institutions": [
+            "School of Earth and Space Exploration, Arizona State University, 781 Terrace Mall, Tempe, AZ, 85287, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-9946-5259"
+        },
+        {
+          "name": "Krishna Kanumalla",
+          "institutions": [
+            "School of Earth and Space Exploration, Arizona State University, 781 Terrace Mall, Tempe, AZ, 85287, USA"
+          ],
+          "orcid": "https://orcid.org/0009-0005-4890-3326"
+        },
+        {
+          "name": "Michael R. Line",
+          "institutions": [
+            "School of Earth and Space Exploration, Arizona State University, 781 Terrace Mall, Tempe, AZ, 85287, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Jorge A. Sanchez",
+          "institutions": [
+            "School of Earth and Space Exploration, Arizona State University, 781 Terrace Mall, Tempe, AZ, 85287, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-9142-6378"
+        },
+        {
+          "name": "Tomohiro C. Yoshida",
+          "institutions": [
+            "Dipartimento di Fisica, Università degli Studi di Milano, Via Celoria 16, 20133 Milano, Italy",
+            "National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Kazumasa Ohno",
+          "institutions": [
+            "National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Hideko Nomura",
+          "institutions": [
+            "National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan",
+            "Department of Astronomical Science, The Graduate University for Advanced Studies, SOKENDAI, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Taiki Kagetani",
+          "institutions": [
+            "Department of Multi-Disciplinary Sciences, Graduate School of Arts and Sciences, The University of Tokyo, 3-8-1 Komaba, Meguro, Tokyo 153-8902, Japan",
+            "National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Norio Narita",
+          "institutions": [
+            "Astrobiology Center, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan",
+            "Komaba Institute for Science, The University of Tokyo, 3-8-1 Komaba, Meguro, Tokyo 153-8902, Japan",
+            "Instituto de Astrofísica de Canarias (IAC), E-38200 La Laguna, Tenerife, Spain"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Kiyoe Kawauchi",
+          "institutions": [
+            "Department of Physical Sciences, Ritsumeikan University, Kusatsu, Shiga 525-8577, Japan"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Akihiko Fukui",
+          "institutions": [
+            "Komaba Institute for Science, The University of Tokyo, 3-8-1 Komaba, Meguro, Tokyo 153-8902, Japan",
+            "Instituto de Astrofísica de Canarias (IAC), E-38200 La Laguna, Tenerife, Spain"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Enric Palle",
+          "institutions": [
+            "Instituto de Astrofísica de Canarias (IAC), E-38200 La Laguna, Tenerife, Spain",
+            "Departamento de Astrofísica, Universidad de La Laguna (ULL), E-38206 La Laguna, Tenerife, Spain"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.19377v1",
+      "intro_en": "We present the results of high-resolution emission spectroscopy of the hot Jupiter KELT-2A~b using IGRINS-2 on the Gemini-North telescope, covering the $H$- and $K$-bands at a spectral resolution of $R \\sim 45{,}000$. Observations were carried out over five nights, covering both pre- and post-eclipse orbital phases.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-14",
+      "publication_date_source": "https://arxiv.org/abs/2610.19377v1",
+      "version_date": "2026-10-14T01:24:35+00:00",
+      "variants": [
+        {
+          "id": "2610.19377",
+          "source": "arXiv",
+          "journal": null,
+          "journal_id": null,
+          "title": "Emission spectroscopy of KELT-2A b with Gemini-North/IGRINS-2: hints of a stellar C/O ratio and sub-stellar metallicity",
+          "url": "https://arxiv.org/abs/2610.19377",
+          "doi": "",
+          "version_id": "2610.19377v1",
+          "first_seen": "2026-10-15T01:38:21.320708+00:00",
+          "publication_date": "2026-10-14",
+          "version_date": "2026-10-14T01:24:35+00:00",
+          "metadata_source": null,
+          "affiliation_source": "https://arxiv.org/html/2610.19377v1"
+        }
+      ],
+      "match_basis": [],
+      "source_types": [
+        "arXiv"
+      ],
+      "journals": [],
+      "source_groups": [],
+      "intake_kind": "recent"
+    },
+    {
+      "id": "2610.19328",
+      "version_id": "2610.19328v1",
+      "title": "ExoEcho: Exoplanet Ephemerides Change Observations. III. A JWST Survey for Transit Timing Variations of 37 Exoplanets",
+      "abstract": "Transit timing variations (TTVs) provide a powerful probe of planetary dynamics and orbital evolution. We extend the ExoEcho project by incorporating James Webb Space Telescope (JWST) transit observations and analyze 84 light curves of 37 exoplanets, including 20 hot Jupiters, 11 Neptune-like planets, and 6 super-Earths. We derive updated transit ephemerides and conduct a systematic search for long-term and periodic TTV signals. We identify two strong TTV candidates, including HATS-6~b and HAT-P-18~b. The hot Jupiter HATS-6~b exhibits a long-term trend with $\\dot{P} = 230.5 \\pm 46.8\\ \\mathrm{ms\\ yr^{-1}}$, potentially driven by tidal interactions with its host star. In addition, the Neptune-like planet HAT-P-18~b shows periodic TTV signal with amplitude of $92.9 \\pm 13.7$~s. We also show that the previously claimed positive period derivative in WASP-121~b is inconsistent with our new transit timing data. Although continued monitoring is required to confirm these findings, our results demonstrate the potential of JWST for high-precision transit timing and extend TTV studies beyond the traditional hot-Jupiter population to lower-mass exoplanets.",
+      "published": "2026-10-14T00:07:28Z",
+      "updated": "2026-10-14T00:07:28Z",
+      "authors": [
+        "Yunke Wu",
+        "Zixin Zhang",
+        "Xinyue Ma",
+        "Wenqin Wang",
+        "Siqi Guo",
+        "Cong Yu",
+        "Shang-Fei Liu",
+        "DiChang Chen",
+        "Bo Ma"
+      ],
+      "doi": "10.3847/1538-4365/aea075",
+      "categories": [
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2610.19328",
+      "pdf": "https://arxiv.org/pdf/2610.19328v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-15T01:38:21.320708+00:00",
+      "version_changed": false,
+      "topics": [
+        "detection",
+        "orbital",
+        "evolution"
+      ],
+      "matches": {
+        "detection": [
+          "transit timing"
+        ],
+        "orbital": [
+          "orbital evolution",
+          "transit timing variations"
+        ],
+        "evolution": [
+          "orbital evolution"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：transit timing、orbital evolution、transit timing variations",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 64,
+      "fit_matches": [
+        "行星轨道与演化",
+        "系外行星观测表征"
+      ],
+      "institutions": [
+        "School of Physics and Astronomy, Sun Yat-sen University, Zhuhai 519082, China; mabo8@mail.sysu.edu.cn",
+        "CSST Science Center for the Guangdong-Hong Kong-Macau Great Bay Area, Sun Yat-sen University, Zhuhai 519082, China"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Yunke Wu",
+          "institutions": [
+            "School of Physics and Astronomy, Sun Yat-sen University, Zhuhai 519082, China; mabo8@mail.sysu.edu.cn",
+            "CSST Science Center for the Guangdong-Hong Kong-Macau Great Bay Area, Sun Yat-sen University, Zhuhai 519082, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Zixin Zhang",
+          "institutions": [
+            "School of Physics and Astronomy, Sun Yat-sen University, Zhuhai 519082, China; mabo8@mail.sysu.edu.cn",
+            "CSST Science Center for the Guangdong-Hong Kong-Macau Great Bay Area, Sun Yat-sen University, Zhuhai 519082, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Xinyue Ma",
+          "institutions": [
+            "School of Physics and Astronomy, Sun Yat-sen University, Zhuhai 519082, China; mabo8@mail.sysu.edu.cn",
+            "CSST Science Center for the Guangdong-Hong Kong-Macau Great Bay Area, Sun Yat-sen University, Zhuhai 519082, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Wenqin Wang",
+          "institutions": [
+            "School of Physics and Astronomy, Sun Yat-sen University, Zhuhai 519082, China; mabo8@mail.sysu.edu.cn",
+            "CSST Science Center for the Guangdong-Hong Kong-Macau Great Bay Area, Sun Yat-sen University, Zhuhai 519082, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Siqi Guo",
+          "institutions": [
+            "School of Physics and Astronomy, Sun Yat-sen University, Zhuhai 519082, China; mabo8@mail.sysu.edu.cn",
+            "CSST Science Center for the Guangdong-Hong Kong-Macau Great Bay Area, Sun Yat-sen University, Zhuhai 519082, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Cong Yu",
+          "institutions": [
+            "School of Physics and Astronomy, Sun Yat-sen University, Zhuhai 519082, China; mabo8@mail.sysu.edu.cn",
+            "CSST Science Center for the Guangdong-Hong Kong-Macau Great Bay Area, Sun Yat-sen University, Zhuhai 519082, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Shangfei Liu",
+          "institutions": [
+            "School of Physics and Astronomy, Sun Yat-sen University, Zhuhai 519082, China; mabo8@mail.sysu.edu.cn",
+            "CSST Science Center for the Guangdong-Hong Kong-Macau Great Bay Area, Sun Yat-sen University, Zhuhai 519082, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Dichang Chen",
+          "institutions": [
+            "School of Physics and Astronomy, Sun Yat-sen University, Zhuhai 519082, China; mabo8@mail.sysu.edu.cn",
+            "CSST Science Center for the Guangdong-Hong Kong-Macau Great Bay Area, Sun Yat-sen University, Zhuhai 519082, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Bo Ma",
+          "institutions": [
+            "School of Physics and Astronomy, Sun Yat-sen University, Zhuhai 519082, China; mabo8@mail.sysu.edu.cn",
+            "CSST Science Center for the Guangdong-Hong Kong-Macau Great Bay Area, Sun Yat-sen University, Zhuhai 519082, China"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.19328v1",
+      "intro_en": "Transit timing variations (TTVs) provide a powerful probe of planetary dynamics and orbital evolution. We extend the ExoEcho project by incorporating James Webb Space Telescope (JWST) transit observations and analyze 84 light curves of 37 exoplanets, including 20 hot Jupiters, 11 Neptune-like planets, and 6 super-Earths.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-14",
+      "publication_date_source": "https://arxiv.org/abs/2610.19328v1",
+      "version_date": "2026-10-14T00:07:28+00:00",
+      "variants": [
+        {
+          "id": "2610.19328",
+          "source": "arXiv",
+          "journal": null,
+          "journal_id": null,
+          "title": "ExoEcho: Exoplanet Ephemerides Change Observations. III. A JWST Survey for Transit Timing Variations of 37 Exoplanets",
+          "url": "https://arxiv.org/abs/2610.19328",
+          "doi": "10.3847/1538-4365/aea075",
+          "version_id": "2610.19328v1",
+          "first_seen": "2026-10-15T01:38:21.320708+00:00",
+          "publication_date": "2026-10-14",
+          "version_date": "2026-10-14T00:07:28+00:00",
+          "metadata_source": null,
+          "affiliation_source": "https://arxiv.org/html/2610.19328v1"
+        }
+      ],
+      "match_basis": [],
+      "source_types": [
+        "arXiv"
+      ],
+      "journals": [],
+      "source_groups": [],
+      "intake_kind": "recent"
+    },
+    {
+      "id": "2610.19280",
+      "version_id": "2610.19280v1",
+      "title": "The Limits of Tidal Circularization and Atmospheric Escape for Mini-Neptunes and Super-Earths: The Case of TOI-2257 b",
+      "abstract": "With a 35-day orbital period and $\\sim$0.5 eccentricity, TOI-2257 b occupies a sparsely populated corner of transiting mini-Neptune parameter space and may lie near the orbital distance at which tidal and atmospheric escape process become negligible. To test this hypothesis, we performed simulations of the combined stellar, tidal, and atmospheric evolution and confirmed that TOI-2257 b does lie near this boundary, regardless of whether it formed with or without a primordial hydrogen envelope. In the mini-Neptune scenario, we find that all cases retain an envelope of at least 0.02 M$_\\oplus$ for 8 Gyr, but that the envelope mass can be halved if it was initially larger than 0.2 M$_\\oplus$. We find that tidal evolution only occurs for cases with initial envelope masses larger than 0.02 M$_\\oplus$ because their radii are large enough to generate significant torques. In the super-Earth scenario, the planet could lose $\\sim$10 Earth ocean masses of surface water during the $\\sim$75 Myr pre-main sequence and therefore could be habitable if it formed with $\\gtrsim$2x Earth's surface water mass. The predicted tidal heating surface flux tends to be similar to Io, with no cases approaching the flux required to drive a runaway greenhouse. We find that if the planet is rocky, then eccentricities larger than 0.62 today are strongly disfavored, implying that larger eccentricities could confirm the gaseous nature of the planet. These results suggest that TOI-2257 b could provide valuable constraints on mini-Neptune properties and new insight into the radius valley shape as a function of eccentricity.",
+      "published": "2026-10-13T23:01:21Z",
+      "updated": "2026-10-13T23:01:21Z",
+      "authors": [
+        "M. K. A. Olohoy",
+        "Y. A. D. Gelani",
+        "R. Barnes"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2610.19280",
+      "pdf": "https://arxiv.org/pdf/2610.19280v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-15T01:38:21.320708+00:00",
+      "version_changed": false,
+      "topics": [
+        "planetary",
+        "evolution"
+      ],
+      "matches": {
+        "planetary": [
+          "atmospheric escape"
+        ],
+        "evolution": [
+          "tidal heating"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：atmospheric escape、tidal heating",
+      "tags": [
+        "云与辐射 · Clouds & radiation",
+        "宜居性 · Habitability",
+        "海冰与表层 · Ice & surface",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 46,
+      "fit_matches": [],
+      "institutions": [
+        "Department of Physics, De La Salle University, 2401 Taft Avenue, Malate, Manila, 1004 Metro Manila, Philippines",
+        "Department of Earth and Space Sciences, Rizal Technological University, Boni Avenue, Mandaluyong, 1550 Metro Manila, Philippines",
+        "Department of Astronomy, University of Washington, Seattle, WA 98105, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Michael Kent A. Olohoy",
+          "institutions": [
+            "Department of Physics, De La Salle University, 2401 Taft Avenue, Malate, Manila, 1004 Metro Manila, Philippines",
+            "Department of Earth and Space Sciences, Rizal Technological University, Boni Avenue, Mandaluyong, 1550 Metro Manila, Philippines"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Yukari Aubrey D. Gelani",
+          "institutions": [
+            "Department of Earth and Space Sciences, Rizal Technological University, Boni Avenue, Mandaluyong, 1550 Metro Manila, Philippines"
+          ],
+          "orcid": "https://orcid.org/0009-0006-6305-0699"
+        },
+        {
+          "name": "Rory Barnes",
+          "institutions": [
+            "Department of Astronomy, University of Washington, Seattle, WA 98105, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0001-6487-5445"
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.19280v1",
+      "intro_en": "With a 35-day orbital period and $\\sim$0.5 eccentricity, TOI-2257 b occupies a sparsely populated corner of transiting mini-Neptune parameter space and may lie near the orbital distance at which tidal and atmospheric escape process become negligible. To test this hypothesis, we performed simulations of the combined stellar, tidal, and atmospheric evolution and confirmed that TOI-2257 b does lie near this boundary, regardless of whether it formed with or without a primordial hydrogen envelope.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-13",
+      "publication_date_source": "https://arxiv.org/abs/2610.19280v1",
+      "version_date": "2026-10-13T23:01:21+00:00",
+      "variants": [
+        {
+          "id": "2610.19280",
+          "source": "arXiv",
+          "journal": null,
+          "journal_id": null,
+          "title": "The Limits of Tidal Circularization and Atmospheric Escape for Mini-Neptunes and Super-Earths: The Case of TOI-2257 b",
+          "url": "https://arxiv.org/abs/2610.19280",
+          "doi": "",
+          "version_id": "2610.19280v1",
+          "first_seen": "2026-10-15T01:38:21.320708+00:00",
+          "publication_date": "2026-10-13",
+          "version_date": "2026-10-13T23:01:21+00:00",
+          "metadata_source": null,
+          "affiliation_source": "https://arxiv.org/html/2610.19280v1"
+        }
+      ],
+      "match_basis": [],
+      "source_types": [
+        "arXiv"
+      ],
+      "journals": [],
+      "source_groups": [],
+      "intake_kind": "recent"
+    },
+    {
+      "id": "2610.19242",
+      "version_id": "2610.19242v1",
+      "title": "Paleo-heat flux estimates across Enceladus derived from flexural response of the ice shell",
+      "abstract": "Saturn's moon Enceladus has active plumes suggestive of locally high heat fluxes at present, and the present-day heating is reasonably well characterized. However, the moon's thermal history is not well understood. In this study, we model flexural deformation of chasmata and dorsae in various regions of Enceladus to find the effective elastic thickness of the ice shell and constrain temporal and spatial variations in heat flux. We find paleo-heat fluxes of 60-$\\geq$350 mWm$^{-2}$, with most clustered around 125-200 mWm$^{-2}$. Present day measured heat fluxes at the South Polar Terrain (SPT) are comparable to our estimated paleo-heat fluxes in non-SPT regions. Our paleo-heat fluxes, however, are significantly higher than the corresponding present day heat fluxes for the same locations inferred from shell thickness maps. This suggests that regions outside the SPT experienced a past episode of heating (heat fluxes in excess of 100mWm$^{-2}$) followed by a cooling and thickening ice shell. A relatively constant paleo-heat flux for terrains of different ages (determined from crater densities) supports the \"resonance locking\" hypothesis of dissipation in Saturn and might imply a long-lived resonance between Enceladus and Dione. Our results suggest that Enceladus's tidal heating appears to have been consistent over time. Consistent peak heating at Enceladus could support a long-lived subsurface ocean, which has important consequences for astrobiology and the habitability of the outer solar system.",
+      "published": "2026-10-13T21:58:39Z",
+      "updated": "2026-10-13T21:58:39Z",
+      "authors": [
+        "Chelsea Eakins",
+        "Francis Nimmo",
+        "Paul Schenk"
+      ],
+      "doi": "10.1016/j.icarus.2026.117324",
+      "categories": [
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2610.19242",
+      "pdf": "https://arxiv.org/pdf/2610.19242v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-15T01:38:21.320708+00:00",
+      "version_changed": false,
+      "topics": [
+        "cryosphere"
+      ],
+      "matches": {
+        "cryosphere": [
+          "ice shell"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：ice shell",
+      "tags": [
+        "热输送 · Heat transport",
+        "宜居性 · Habitability"
+      ],
+      "method": "keyword",
+      "fit_score": 45,
+      "fit_matches": [
+        "行星海洋与冰"
+      ],
+      "institutions": [
+        "University of California, Santa Cruz",
+        "Lunar and Planetary Institute"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Chelsea Eakins",
+          "institutions": [
+            "University of California, Santa Cruz"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Francis Nimmo",
+          "institutions": [
+            "University of California, Santa Cruz"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Paul Schenk",
+          "institutions": [
+            "Lunar and Planetary Institute"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.19242v1",
+      "intro_en": "Saturn's moon Enceladus has active plumes suggestive of locally high heat fluxes at present, and the present-day heating is reasonably well characterized. However, the moon's thermal history is not well understood.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-13",
+      "publication_date_source": "https://arxiv.org/abs/2610.19242v1",
+      "version_date": "2026-10-13T21:58:39+00:00",
+      "variants": [
+        {
+          "id": "2610.19242",
+          "source": "arXiv",
+          "journal": null,
+          "journal_id": null,
+          "title": "Paleo-heat flux estimates across Enceladus derived from flexural response of the ice shell",
+          "url": "https://arxiv.org/abs/2610.19242",
+          "doi": "10.1016/j.icarus.2026.117324",
+          "version_id": "2610.19242v1",
+          "first_seen": "2026-10-15T01:38:21.320708+00:00",
+          "publication_date": "2026-10-13",
+          "version_date": "2026-10-13T21:58:39+00:00",
+          "metadata_source": null,
+          "affiliation_source": "https://arxiv.org/html/2610.19242v1"
+        }
+      ],
+      "match_basis": [],
+      "source_types": [
+        "arXiv"
+      ],
+      "journals": [],
+      "source_groups": [],
+      "intake_kind": "recent"
+    },
+    {
+      "id": "2610.19228",
+      "version_id": "2610.19228v1",
+      "title": "Chandra-JWST Probing the Effects of Moderate X-Ray Superflares on Protoplanetary Disks",
+      "abstract": "Powerful X-ray flares from young stars may rapidly alter the physical and chemical conditions of their planet-forming disks, but direct observational tests remain scarce. We present a Chandra-JWST/NIRSpec study of infrared spectral variability associated with pre-main-sequence (PMS) X-ray flares in the Orion Nebula. Combining six Chandra/ACIS-I observations with three NIRSpec-MOS visits, we analyze two-epoch spectra of 10 X-ray Flare stars and 12 matched non-flaring Controls among 84 observed disk-bearing PMS stars. We investigate three diagnostics: narrow 2.8-4.3 micron features, HI Br-alpha, and the CO fundamental band. Flare stars show tentative evidence for relatively fewer variable narrow features at longer wavelengths than Controls, while feature incidence decreases strongly with projected distance from the dominant ionizing O star Theta1 Ori C. Most classifiable features appear in absorption. These properties suggest that at least some features may arise in externally irradiated disk atmospheres and/or associated photoevaporative flows, with their apparent epoch-to-epoch variability potentially reflecting spatial sampling of such locally structured material rather than intrinsic temporal changes. Br-alpha behaves differently: flare stars show systematically stronger variability and uniquely exhibit absorption-core profiles, suggesting control by magnetospheric accretion and stellar magnetic processes rather than disk irradiation. The CO fundamental band shows no significant flare-associated variability, consistent with thermochemical models predicting weak responses to moderate X-ray superflares. This pilot study demonstrates the potential of coordinated Chandra-JWST observations to probe how young stellar magnetic activity affects planet-forming environments, motivating future monitoring to build larger superflare samples and extend them into the rare X-ray mega-flare regime.",
+      "published": "2026-10-13T21:45:27Z",
+      "updated": "2026-10-13T21:45:27Z",
+      "authors": [
+        "Konstantin V. Getman",
+        "Kevin L. Luhman",
+        "Bayron Portilla-Revelo",
+        "Christian Rab",
+        "Valentin Brunn",
+        "Eric D. Feigelson",
+        "Arjan Bik",
+        "Jan Forbrich",
+        "Jenny Frediani",
+        "Thomas J. Haworth",
+        "Charles J. Law",
+        "Marco Padovani",
+        "Maria Claudia Ramirez-Tannus",
+        "Andrew J. Winter",
+        "Vladimir S. Airapetian",
+        "L. Ilsedore Cleeves",
+        "Sergio A. Dzib",
+        "Michael A. Kuhn",
+        "Abygail R. Waggoner",
+        "Rens Waters"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.SR",
+        "astro-ph.EP",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.19228",
+      "pdf": "https://arxiv.org/pdf/2610.19228v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-15T01:38:21.320708+00:00",
+      "version_changed": false,
+      "topics": [
+        "chemistry"
+      ],
+      "matches": {
+        "chemistry": [
+          "thermochemical"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：thermochemical",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 45,
+      "fit_matches": [
+        "系外行星观测表征"
+      ],
+      "institutions": [
+        "Department of Astronomy & Astrophysics Pennsylvania State University 525 Davey Laboratory University Park, PA 16802, USA",
+        "Center for Exoplanets and Habitable Worlds 525 Davey Laboratory The Pennsylvania State University University Park, PA 16802, USA",
+        "University Observatory, Faculty of Physics Ludwig-Maximilians-Universität München Scheinerstr. 1 D-81679 Munich, Germany",
+        "Max-Planck-Institut für extraterrestrische Physik Giessenbachstrasse 1 D-85748 Garching, Germany",
+        "INAF–Osservatorio Astrofisico di Arcetri Largo E. Fermi 5 50125 Firenze, Italy",
+        "Department of Astronomy, Stockholm University AlbaNova University Centre 106 91 Stockholm, Sweden",
+        "Centre for Astrophysics Research Department of Physics, Astronomy and Mathematics University of Hertfordshire Hatfield, AL10 9UW, UK",
+        "Astronomy Unit, School of Physics and Astronomy, Queen Mary University of London, London E1 4NS, UK",
+        "Minnesota Institute for Astrophysics, University of Minnesota, 116 Church St. SE, Minneapolis, MN 55455, USA",
+        "Max-Planck-Institut für Astronomie Königstuhl 17 D-69117 Heidelberg, Germany",
+        "American University 4400 Massachusetts Avenue NW Washington, DC 20016 USA",
+        "NASA/GSFC/SEEC Greenbelt, MD, 20771, USA",
+        "University of Virginia, Charlottesville, VA 22904, USA",
+        "Max-Planck-Institut fur Radioastronomie (MPIfR), Auf dem Hugel 69, 53121 Bonn, Germany",
+        "Department of Astronomy, University of Wisconsin-Madison, 475 N Charter St, Madison, WI 53706",
+        "Department of Astrophysics/IMAPP, Radboud University, PO Box 9010, 6500 GL Nijmegen, The Netherlands",
+        "SRON Netherlands Institute for Space Research, Niels Bohrweg 4, NL-2333 CA Leiden, the Netherlands"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Konstantin V. Getman",
+          "institutions": [
+            "Department of Astronomy & Astrophysics Pennsylvania State University 525 Davey Laboratory University Park, PA 16802, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-6137-8280"
+        },
+        {
+          "name": "Kevin L. Luhman",
+          "institutions": [
+            "Department of Astronomy & Astrophysics Pennsylvania State University 525 Davey Laboratory University Park, PA 16802, USA",
+            "Center for Exoplanets and Habitable Worlds 525 Davey Laboratory The Pennsylvania State University University Park, PA 16802, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0003-2822-2951"
+        },
+        {
+          "name": "Bayron Portilla-Revelo",
+          "institutions": [
+            "Department of Astronomy & Astrophysics Pennsylvania State University 525 Davey Laboratory University Park, PA 16802, USA",
+            "Center for Exoplanets and Habitable Worlds 525 Davey Laboratory The Pennsylvania State University University Park, PA 16802, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-6278-9006"
+        },
+        {
+          "name": "Christian Rab",
+          "institutions": [
+            "University Observatory, Faculty of Physics Ludwig-Maximilians-Universität München Scheinerstr. 1 D-81679 Munich, Germany",
+            "Max-Planck-Institut für extraterrestrische Physik Giessenbachstrasse 1 D-85748 Garching, Germany"
+          ],
+          "orcid": "https://orcid.org/0000-0003-1817-6576"
+        },
+        {
+          "name": "Valentin Brunn",
+          "institutions": [
+            "INAF–Osservatorio Astrofisico di Arcetri Largo E. Fermi 5 50125 Firenze, Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Eric D. Feigelson",
+          "institutions": [
+            "Department of Astronomy & Astrophysics Pennsylvania State University 525 Davey Laboratory University Park, PA 16802, USA",
+            "Center for Exoplanets and Habitable Worlds 525 Davey Laboratory The Pennsylvania State University University Park, PA 16802, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-5077-6734"
+        },
+        {
+          "name": "Arjan Bik",
+          "institutions": [
+            "Department of Astronomy, Stockholm University AlbaNova University Centre 106 91 Stockholm, Sweden"
+          ],
+          "orcid": "https://orcid.org/0000-0001-8068-0891"
+        },
+        {
+          "name": "Jan Forbrich",
+          "institutions": [
+            "Centre for Astrophysics Research Department of Physics, Astronomy and Mathematics University of Hertfordshire Hatfield, AL10 9UW, UK"
+          ],
+          "orcid": "https://orcid.org/0000-0001-8694-4966"
+        },
+        {
+          "name": "Jenny Frediani",
+          "institutions": [
+            "Department of Astronomy, Stockholm University AlbaNova University Centre 106 91 Stockholm, Sweden"
+          ],
+          "orcid": "https://orcid.org/0009-0003-7663-5280"
+        },
+        {
+          "name": "Thomas J. Haworth",
+          "institutions": [
+            "Astronomy Unit, School of Physics and Astronomy, Queen Mary University of London, London E1 4NS, UK"
+          ],
+          "orcid": "https://orcid.org/0000-0002-9593-7618"
+        },
+        {
+          "name": "Charles J. Law",
+          "institutions": [
+            "Minnesota Institute for Astrophysics, University of Minnesota, 116 Church St. SE, Minneapolis, MN 55455, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0003-1413-1776"
+        },
+        {
+          "name": "Marco Padovani",
+          "institutions": [
+            "INAF–Osservatorio Astrofisico di Arcetri Largo E. Fermi 5 50125 Firenze, Italy"
+          ],
+          "orcid": "https://orcid.org/0000-0003-2303-0096"
+        },
+        {
+          "name": "María Claudia Ramírez-Tannus",
+          "institutions": [
+            "Max-Planck-Institut für Astronomie Königstuhl 17 D-69117 Heidelberg, Germany"
+          ],
+          "orcid": "https://orcid.org/0000-0001-9698-4080"
+        },
+        {
+          "name": "Andrew J. Winter",
+          "institutions": [
+            "Astronomy Unit, School of Physics and Astronomy, Queen Mary University of London, London E1 4NS, UK"
+          ],
+          "orcid": "https://orcid.org/0000-0002-7501-9801"
+        },
+        {
+          "name": "Vladimir S. Airapetian",
+          "institutions": [
+            "American University 4400 Massachusetts Avenue NW Washington, DC 20016 USA",
+            "NASA/GSFC/SEEC Greenbelt, MD, 20771, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0003-4452-0588"
+        },
+        {
+          "name": "L. Ilsedore Cleeves",
+          "institutions": [
+            "University of Virginia, Charlottesville, VA 22904, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0003-2076-8001"
+        },
+        {
+          "name": "Sergio A. Dzib",
+          "institutions": [
+            "Max-Planck-Institut fur Radioastronomie (MPIfR), Auf dem Hugel 69, 53121 Bonn, Germany"
+          ],
+          "orcid": "https://orcid.org/0000-0001-6010-6200"
+        },
+        {
+          "name": "Michael A. Kuhn",
+          "institutions": [
+            "Centre for Astrophysics Research Department of Physics, Astronomy and Mathematics University of Hertfordshire Hatfield, AL10 9UW, UK"
+          ],
+          "orcid": "https://orcid.org/0000-0002-0631-7514"
+        },
+        {
+          "name": "Abygail R. Waggoner",
+          "institutions": [
+            "Department of Astronomy, University of Wisconsin-Madison, 475 N Charter St, Madison, WI 53706"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Rens Waters",
+          "institutions": [
+            "Department of Astrophysics/IMAPP, Radboud University, PO Box 9010, 6500 GL Nijmegen, The Netherlands",
+            "SRON Netherlands Institute for Space Research, Niels Bohrweg 4, NL-2333 CA Leiden, the Netherlands"
+          ],
+          "orcid": "https://orcid.org/0000-0002-5462-9387"
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.19228v1",
+      "intro_en": "Powerful X-ray flares from young stars may rapidly alter the physical and chemical conditions of their planet-forming disks, but direct observational tests remain scarce. We present a Chandra-JWST/NIRSpec study of infrared spectral variability associated with pre-main-sequence (PMS) X-ray flares in the Orion Nebula.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-13",
+      "publication_date_source": "https://arxiv.org/abs/2610.19228v1",
+      "version_date": "2026-10-13T21:45:27+00:00",
+      "variants": [
+        {
+          "id": "2610.19228",
+          "source": "arXiv",
+          "journal": null,
+          "journal_id": null,
+          "title": "Chandra-JWST Probing the Effects of Moderate X-Ray Superflares on Protoplanetary Disks",
+          "url": "https://arxiv.org/abs/2610.19228",
+          "doi": "",
+          "version_id": "2610.19228v1",
+          "first_seen": "2026-10-15T01:38:21.320708+00:00",
+          "publication_date": "2026-10-13",
+          "version_date": "2026-10-13T21:45:27+00:00",
+          "metadata_source": null,
+          "affiliation_source": "https://arxiv.org/html/2610.19228v1"
+        }
+      ],
+      "match_basis": [],
+      "source_types": [
+        "arXiv"
+      ],
+      "journals": [],
+      "source_groups": [],
+      "intake_kind": "recent"
+    },
+    {
+      "id": "2610.19081",
+      "version_id": "2610.19081v1",
+      "title": "Science-Driven Performance Requirements for UV Coronagraph Design: Implications for O$_3$ Detection in Earth-like Atmospheres",
+      "abstract": "Detecting biosignatures on Earth-like exoplanets from the Proterozoic era requires instrumentation capable of probing near-ultraviolet (NUV) spectral features, particularly ozone (\\ce{O3}), which serves as an indirect proxy for molecular oxygen (\\ce{O2}) when direct detection is challenging. Using a combination of photochemical-climate modeling and atmospheric retrieval simulations, we quantify fiducial instrument performance requirements for robust \\ce{O3} detection and assess the risk of spectral false positives from sulfur dioxide (\\ce{SO2}). Our analysis demonstrates the \\ce{O3} abundances for Proterozoic Earth-like planets with \\ce{O2} as low as 0.1\\% the present atmospheric level, can be constrained to within an order of magnitude at 1\\,$σ$ confidence using three adjacent photometric bandpasses at a signal-to-noise ratio of 10 at 0.366\\,$\\upmu$m, each with a 15\\% width, and a short wavelength cutoff for those observations near 0.26\\,$\\upmu$m. The self-consistent steady state atmospheric modeling results show that \\ce{SO2} buildup is difficult in a habitable environment with appreciable amounts of water vapor in its atmosphere and would require volcanic outgassing rates at least two orders of magnitude above present-day Earth to reach surface abundance levels comparable to Proterozoic Earth-like abundances of \\ce{O3}. Even under these high \\ce{SO2} flux scenarios, \\ce{SO2} remains largely unconstrained with the recommended observational configuration, reinforcing the need for NUV coverage in coronagraphic instruments. Our findings support the inclusion of UV-optimized optics and detectors on the Habitable Worlds Observatory (HWO) to enable biosignature detection strategies sensitive to atmospheric conditions across key phases of Earth's geological history.",
+      "published": "2026-10-13T19:12:46Z",
+      "updated": "2026-10-13T19:12:46Z",
+      "authors": [
+        "Amber V. Young",
+        "Giada Arney",
+        "Shawn Domagal-Goldman",
+        "Tyler D. Robinson",
+        "Roser Juanola-Parramon",
+        "Christopher Stark",
+        "Renyu Hu",
+        "Armen Tokadjian",
+        "Mario Damiano"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP",
+        "astro-ph.IM"
+      ],
+      "url": "https://arxiv.org/abs/2610.19081",
+      "pdf": "https://arxiv.org/pdf/2610.19081v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-15T01:38:21.320708+00:00",
+      "version_changed": false,
+      "topics": [
+        "chemistry",
+        "models",
+        "detection",
+        "evolution"
+      ],
+      "matches": {
+        "chemistry": [
+          "photochemical"
+        ],
+        "models": [
+          "atmospheric modeling"
+        ],
+        "physics": [
+          "water vapor"
+        ],
+        "detection": [
+          "biosignature"
+        ],
+        "evolution": [
+          "outgassing"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：photochemical、atmospheric modeling、water vapor、biosignature、outgassing",
+      "tags": [
+        "水循环 · Water cycle",
+        "宜居性 · Habitability",
+        "岩浆与挥发分 · Magma & volatiles",
+        "海冰与表层 · Ice & surface",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 56,
+      "fit_matches": [],
+      "institutions": [
+        "Mary W. Jackson NASA Headquarters, Washington, DC, USA",
+        "NASA Goddard Space Flight Center, Greenbelt, MD, 20771",
+        "Habitability, Atmospheres, and Biosignatures Laboratory, University of Arizona, Tucson, AZ 85721, USA",
+        "NASA Nexus for Exoplanet System Science Virtual Planetary Laboratory, SETI Institute, Mountain View, CA 94043, USA",
+        "Lunar & Planetary Laboratory, University of Arizona, Tucson, AZ 85721 USA",
+        "Department of Astronomy & Astrophysics, The Pennsylvania State University, University Park, PA 16802, USA",
+        "Center for Exoplanets and Habitable Worlds, The Pennsylvania State University, University Park, PA 16802, USA",
+        "Institute for Computational and Data Science, The Pennsylvania State University, University Park, PA 16802, USA",
+        "Jet Propulsion Laboratory, California Institute of Technology, Pasadena, CA 91109, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Amber V. Young",
+          "institutions": [
+            "Mary W. Jackson NASA Headquarters, Washington, DC, USA",
+            "NASA Goddard Space Flight Center, Greenbelt, MD, 20771"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Giada Arney",
+          "institutions": [
+            "NASA Goddard Space Flight Center, Greenbelt, MD, 20771"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Shawn Domagal-Goldman",
+          "institutions": [
+            "Mary W. Jackson NASA Headquarters, Washington, DC, USA",
+            "NASA Goddard Space Flight Center, Greenbelt, MD, 20771"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Tyler D. Robinson",
+          "institutions": [
+            "Habitability, Atmospheres, and Biosignatures Laboratory, University of Arizona, Tucson, AZ 85721, USA",
+            "NASA Nexus for Exoplanet System Science Virtual Planetary Laboratory, SETI Institute, Mountain View, CA 94043, USA",
+            "Lunar & Planetary Laboratory, University of Arizona, Tucson, AZ 85721 USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Roser Juanola-Parramon",
+          "institutions": [
+            "NASA Goddard Space Flight Center, Greenbelt, MD, 20771"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Christopher Stark",
+          "institutions": [
+            "NASA Goddard Space Flight Center, Greenbelt, MD, 20771"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Renyu Hu",
+          "institutions": [
+            "Department of Astronomy & Astrophysics, The Pennsylvania State University, University Park, PA 16802, USA",
+            "Center for Exoplanets and Habitable Worlds, The Pennsylvania State University, University Park, PA 16802, USA",
+            "Institute for Computational and Data Science, The Pennsylvania State University, University Park, PA 16802, USA",
+            "Jet Propulsion Laboratory, California Institute of Technology, Pasadena, CA 91109, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Armen Tokadjian",
+          "institutions": [
+            "Jet Propulsion Laboratory, California Institute of Technology, Pasadena, CA 91109, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Mario Damiano",
+          "institutions": [
+            "Jet Propulsion Laboratory, California Institute of Technology, Pasadena, CA 91109, USA"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.19081v1",
+      "intro_en": "Detecting biosignatures on Earth-like exoplanets from the Proterozoic era requires instrumentation capable of probing near-ultraviolet (NUV) spectral features, particularly ozone (\\ce{O3}), which serves as an indirect proxy for molecular oxygen (\\ce{O2}) when direct detection is challenging. Using a combination of photochemical-climate modeling and atmospheric retrieval simulations, we quantify fiducial instrument performance requirements for robust \\ce{O3} detection and assess the risk of spectral false positives from sulfur dioxide (\\ce{SO2}).",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-13",
+      "publication_date_source": "https://arxiv.org/abs/2610.19081v1",
+      "version_date": "2026-10-13T19:12:46+00:00",
+      "variants": [
+        {
+          "id": "2610.19081",
+          "source": "arXiv",
+          "journal": null,
+          "journal_id": null,
+          "title": "Science-Driven Performance Requirements for UV Coronagraph Design: Implications for O$_3$ Detection in Earth-like Atmospheres",
+          "url": "https://arxiv.org/abs/2610.19081",
+          "doi": "",
+          "version_id": "2610.19081v1",
+          "first_seen": "2026-10-15T01:38:21.320708+00:00",
+          "publication_date": "2026-10-13",
+          "version_date": "2026-10-13T19:12:46+00:00",
+          "metadata_source": null,
+          "affiliation_source": "https://arxiv.org/html/2610.19081v1"
+        }
+      ],
+      "match_basis": [],
+      "source_types": [
+        "arXiv"
+      ],
+      "journals": [],
+      "source_groups": [],
+      "intake_kind": "recent"
+    },
+    {
+      "id": "2610.18864",
+      "version_id": "2610.18864v1",
+      "title": "Simulations of the Evolving Ozone Layer: Implications for the Early Earth, Exoplanets, and the Search For Life",
+      "abstract": "Over 4 billion years, Earth's atmosphere has been transformed from a composition devoid of molecular oxygen (O$_2$) to one where O$_2$ is now 21% of our modern atmosphere by volume. With high quantities of O$_2$, an ozone (O$_3$) layer can form and partially shield the surface from biologically harmful ultraviolet radiation (UV). The evolution of the O$_3$ layer has previously been simulated under the modern Sun by independent groups with separate models. Here, we present simulations of Earth's atmosphere from four open-source one-dimensional (1D) photochemical models and a 3D chemistry-climate model, focussing on O$_3$. We find that the O$_3$ layer thickness exhibits a clear deviation between the 1D models and the 3D model due to several factors, including treatments of O$_2$ photolysis, chemical networks, H$_2$O microphysics and 3D transport. We find that 1D models introduce a bias for unobserved climate states and show how these biases may propagate to calculations of biological UV damage and surface habitability. We show that when applied to specific exoplanet atmospheres, these discrepancies can become more pronounced, propagating through to observational predictions for the next generation of telescopes, such as HWO and LIFE, that will search for habitable and inhabited exoplanets.",
+      "published": "2026-10-13T17:59:34Z",
+      "updated": "2026-10-13T17:59:34Z",
+      "authors": [
+        "Akhil Kumar",
+        "Gregory J. Cooke"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP",
+        "physics.ao-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.18864",
+      "pdf": "https://arxiv.org/pdf/2610.18864v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-15T01:38:21.320708+00:00",
+      "version_changed": false,
+      "topics": [
+        "planetary",
+        "chemistry",
+        "models"
+      ],
+      "matches": {
+        "planetary": [
+          "exoplanet atmosphere"
+        ],
+        "chemistry": [
+          "photochemical",
+          "chemical network"
+        ],
+        "models": [
+          "climate model",
+          "photochemical model"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：exoplanet atmosphere、photochemical、chemical network、climate model、photochemical model",
+      "tags": [
+        "宜居性 · Habitability",
+        "海冰与表层 · Ice & surface",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 70,
+      "fit_matches": [
+        "行星大气与辐射",
+        "行星气候与模式"
+      ],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2610.18864v1",
+      "intro_en": "Over 4 billion years, Earth's atmosphere has been transformed from a composition devoid of molecular oxygen (O$_2$) to one where O$_2$ is now 21% of our modern atmosphere by volume. With high quantities of O$_2$, an ozone (O$_3$) layer can form and partially shield the surface from biologically harmful ultraviolet radiation (UV).",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-13",
+      "publication_date_source": "https://arxiv.org/abs/2610.18864v1",
+      "version_date": "2026-10-13T17:59:34+00:00",
+      "variants": [
+        {
+          "id": "2610.18864",
+          "source": "arXiv",
+          "journal": null,
+          "journal_id": null,
+          "title": "Simulations of the Evolving Ozone Layer: Implications for the Early Earth, Exoplanets, and the Search For Life",
+          "url": "https://arxiv.org/abs/2610.18864",
+          "doi": "",
+          "version_id": "2610.18864v1",
+          "first_seen": "2026-10-15T01:38:21.320708+00:00",
+          "publication_date": "2026-10-13",
+          "version_date": "2026-10-13T17:59:34+00:00",
+          "metadata_source": null,
+          "affiliation_source": "https://arxiv.org/html/2610.18864v1"
+        }
+      ],
+      "match_basis": [],
+      "source_types": [
+        "arXiv"
+      ],
+      "journals": [],
+      "source_groups": [],
+      "intake_kind": "recent"
+    },
+    {
+      "id": "2610.18806",
+      "version_id": "2610.18806v1",
+      "title": "A Spatial Map of the Atmospheric Limb of a Hot Jupiter",
+      "abstract": "Planets are inherently three-dimensional objects shaped by their thermal structure and dynamics. Observations of transiting exoplanets have begun to uncover this three-dimensional nature, with JWST measuring their dayside atmosphere structure with eclipse mapping, and exploring spectroscopic asymmetries in the limbs of planets during transit. We apply the novel mapping method of transmission strings to the hot Jupiter WASP-17b. With this method, we are not only able to extract hemispheric limb asymmetries from east-to-west, but can map equator-to-pole variations around the transmitting atmosphere as a function of angle, spanning 0.6-12$μ$m. We find a clear transition in the thermal scale height around the limb of the atmosphere, with a $\\sim$650K temperature difference between the morning (T=858$^{+434}_{-233}$K) and evening (T=1522$^{+116}_{-114}$K). These results are consistent with both nightside emission and dayside eclipse mapping measurements, and represent a fully comprehensive set of observations for a transiting exoplanet. We are also able to constrain the abundances of H$_2$O and CO$_2$ to constant values around the limb, providing observational constraints to results from global circulation models. The transmission string technique combined with the outstanding observability of WASP-17b pushes the study of exoplanet atmospheres further into a three-dimensional understanding of hot Jupiter dynamics and chemistry",
+      "published": "2026-10-13T17:46:20Z",
+      "updated": "2026-10-13T17:46:20Z",
+      "authors": [
+        "Lili Alderson",
+        "Hannah R. Wakeford",
+        "David Grant",
+        "Nikole K. Lewis",
+        "Avinash Verma",
+        "Jayesh Goyal",
+        "Mark Hammond",
+        "Daniel Valentine",
+        "Natalie H. Allen",
+        "Ana Glidden",
+        "Amélie Gressier",
+        "Jingcheng Huang",
+        "Maura Lally",
+        "Dana R. Louie",
+        "Jacob Lustig-Yaeger",
+        "Cathal Maguire",
+        "Elijah Mullens",
+        "Kristen S. Sotzen",
+        "Jeff A. Valenti",
+        "Roeland P. van der Marel",
+        "Tiffany Kataria"
+      ],
+      "doi": "10.1038/s41550-026-02986-4",
+      "categories": [
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2610.18806",
+      "pdf": "https://arxiv.org/pdf/2610.18806v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-14T14:47:30.413574+08:00",
+      "version_changed": false,
+      "topics": [
+        "planetary",
+        "models"
+      ],
+      "matches": {
+        "planetary": [
+          "exoplanet atmosphere",
+          "hot jupiter"
+        ],
+        "models": [
+          "global circulation model"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：exoplanet atmosphere、hot jupiter、global circulation model",
+      "tags": [
+        "环流与波动 · Circulation & waves"
+      ],
+      "method": "keyword",
+      "fit_score": 62,
+      "fit_matches": [
+        "行星大气与辐射",
+        "系外行星观测表征"
+      ],
+      "institutions": [
+        "Department of Physics, University of Oxford, Oxford, OX1 3PU, Oxfordshire, UK",
+        "William H. Miller III Department of Physics and Astronomy, Johns Hopkins University, Baltimore, 21218, MD, USA",
+        "Department of Earth, Atmospheric and Planetary Sciences, Massachusetts Institute of Technology, Cambridge, 02139, MA, USA",
+        "Kavli Institute for Astrophysics and Space Research, Massachusetts Institute of Technology, Cambridge, 02139, MA, USA",
+        "Institut Trottier de recherche sur les exoplanètes (iREx), Département de Physique, Université de Montréal, Montréal, Québec, Canada",
+        "Department of Physics, Catholic University of America, Washington DC, 20064, DC, USA",
+        "Exoplanets and Stellar Astrophysics Laboratory (Code 667), NASA Goddard Space Flight Center, Greenbelt, 20771, MD, USA",
+        "Center for Research and Exploration in Space Science and Technology II, NASA Goddard Space Flight Center, Greenbelt, 20771, MD, USA",
+        "JHU Applied Physics Laboratory, 11100 Johns Hopkins Road, Laurel, 20723, MD, USA",
+        "Space Telescope Science Institute, 3700 San Martin Drive, Baltimore, 21218, MD, USA",
+        "NASA Jet Propulsion Laboratory, 4800 Oak Grove Drive, Pasadena, 91109, CA, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Lili Alderson",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Hannah R. Wakeford",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "David Grant",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Nikole K. Lewis",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Avinash Verma",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Jayesh Goyal",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Mark Hammond",
+          "institutions": [
+            "Department of Physics, University of Oxford, Oxford, OX1 3PU, Oxfordshire, UK"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Daniel Valentine",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Natalie H. Allen",
+          "institutions": [
+            "William H. Miller III Department of Physics and Astronomy, Johns Hopkins University, Baltimore, 21218, MD, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Ana Glidden",
+          "institutions": [
+            "Department of Earth, Atmospheric and Planetary Sciences, Massachusetts Institute of Technology, Cambridge, 02139, MA, USA",
+            "Kavli Institute for Astrophysics and Space Research, Massachusetts Institute of Technology, Cambridge, 02139, MA, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Amélie Gressier",
+          "institutions": [
+            "Institut Trottier de recherche sur les exoplanètes (iREx), Département de Physique, Université de Montréal, Montréal, Québec, Canada"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Jingcheng Huang",
+          "institutions": [
+            "Department of Earth, Atmospheric and Planetary Sciences, Massachusetts Institute of Technology, Cambridge, 02139, MA, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Maura Lally",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Dana R. Louie",
+          "institutions": [
+            "Department of Physics, Catholic University of America, Washington DC, 20064, DC, USA",
+            "Exoplanets and Stellar Astrophysics Laboratory (Code 667), NASA Goddard Space Flight Center, Greenbelt, 20771, MD, USA",
+            "Center for Research and Exploration in Space Science and Technology II, NASA Goddard Space Flight Center, Greenbelt, 20771, MD, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Jacob Lustig-Yaeger",
+          "institutions": [
+            "JHU Applied Physics Laboratory, 11100 Johns Hopkins Road, Laurel, 20723, MD, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Cathal Maguire",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Elijah Mullens",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Kristin S. Sotzen",
+          "institutions": [
+            "JHU Applied Physics Laboratory, 11100 Johns Hopkins Road, Laurel, 20723, MD, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Jeff A. Valenti",
+          "institutions": [
+            "Space Telescope Science Institute, 3700 San Martin Drive, Baltimore, 21218, MD, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Roeland P. van der Marel",
+          "institutions": [
+            "William H. Miller III Department of Physics and Astronomy, Johns Hopkins University, Baltimore, 21218, MD, USA",
+            "Space Telescope Science Institute, 3700 San Martin Drive, Baltimore, 21218, MD, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Tiffany Kataria",
+          "institutions": [
+            "NASA Jet Propulsion Laboratory, 4800 Oak Grove Drive, Pasadena, 91109, CA, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Lili Alderson",
+          "institutions": [],
+          "orcid": "https://orcid.org/0000-0001-8703-7751"
+        },
+        {
+          "name": "Hannah R. Wakeford",
+          "institutions": [],
+          "orcid": "https://orcid.org/0000-0003-4328-3867"
+        },
+        {
+          "name": "Jayesh Goyal",
+          "institutions": [],
+          "orcid": "https://orcid.org/0000-0002-8515-7204"
+        },
+        {
+          "name": "Mark Hammond",
+          "institutions": [],
+          "orcid": "https://orcid.org/0000-0002-6893-522X"
+        },
+        {
+          "name": "Daniel Valentine",
+          "institutions": [],
+          "orcid": "https://orcid.org/0000-0002-2643-6836"
+        },
+        {
+          "name": "Natalie H. Allen",
+          "institutions": [],
+          "orcid": "https://orcid.org/0000-0002-0832-710X"
+        },
+        {
+          "name": "Ana Glidden",
+          "institutions": [],
+          "orcid": "https://orcid.org/0000-0002-5322-2315"
+        },
+        {
+          "name": "Amélie Gressier",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Jingcheng Huang",
+          "institutions": [],
+          "orcid": "https://orcid.org/0000-0001-5732-8531"
+        },
+        {
+          "name": "Maura Lally",
+          "institutions": [],
+          "orcid": "https://orcid.org/0000-0002-4443-6725"
+        },
+        {
+          "name": "Dana R. Louie",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Jacob Lustig-Yaeger",
+          "institutions": [],
+          "orcid": "https://orcid.org/0000-0002-0746-1980"
+        },
+        {
+          "name": "Cathal Maguire",
+          "institutions": [],
+          "orcid": "https://orcid.org/0000-0002-9061-780X"
+        },
+        {
+          "name": "Elijah Mullens",
+          "institutions": [],
+          "orcid": "https://orcid.org/0000-0003-0814-7923"
+        },
+        {
+          "name": "Kristin S. Sotzen",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Jeff A. Valenti",
+          "institutions": [],
+          "orcid": "https://orcid.org/0000-0003-3305-6281"
+        },
+        {
+          "name": "Roeland P. van der Marel",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Tiffany Kataria",
+          "institutions": [],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.18806v1",
+      "intro_en": "Planets are inherently three-dimensional objects shaped by their thermal structure and dynamics. Observations of transiting exoplanets have begun to uncover this three-dimensional nature, with JWST measuring their dayside atmosphere structure with eclipse mapping, and exploring spectroscopic asymmetries in the limbs of planets during transit.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-13",
+      "publication_date_source": "https://arxiv.org/abs/2610.18806v1",
+      "version_date": "2026-10-13T17:46:20+00:00",
+      "variants": [
+        {
+          "id": "2610.18806",
+          "source": "arXiv",
+          "journal": null,
+          "journal_id": null,
+          "title": "A Spatial Map of the Atmospheric Limb of a Hot Jupiter",
+          "url": "https://arxiv.org/abs/2610.18806",
+          "doi": "10.1038/s41550-026-02986-4",
+          "version_id": "2610.18806v1",
+          "first_seen": "2026-10-15T01:38:21.320708+00:00",
+          "publication_date": "2026-10-13",
+          "version_date": "2026-10-13T17:46:20+00:00",
+          "metadata_source": null,
+          "affiliation_source": "https://arxiv.org/html/2610.18806v1"
+        },
+        {
+          "id": "doi:10.1038/s41550-026-02986-4",
+          "source": "journal",
+          "journal": "Nature Astronomy",
+          "journal_id": "2397-3366",
+          "title": "A spatial map of the atmospheric limb of a hot Jupiter",
+          "url": "https://doi.org/10.1038/s41550-026-02986-4",
+          "doi": "10.1038/s41550-026-02986-4",
+          "version_id": "doi:10.1038/s41550-026-02986-4",
+          "first_seen": "2026-10-15T01:38:46.773639+00:00",
+          "publication_date": "2026-10-14",
+          "version_date": null,
+          "metadata_source": "https://api.crossref.org/works/10.1038%2Fs41550-026-02986-4",
+          "affiliation_source": "https://api.crossref.org/works/10.1038%2Fs41550-026-02986-4"
+        },
+        {
+          "id": "exoplanet-bib:33248",
+          "source": "exoplanet.eu",
+          "journal": "Nature Astronomy",
+          "journal_id": null,
+          "title": "A Spatial Map of the Atmospheric Limb of a Hot Jupiter",
+          "url": "https://doi.org/10.1038/s41550-026-02986-4 ",
+          "doi": "10.1038/s41550-026-02986-4",
+          "version_id": "exoplanet-bib:33248",
+          "first_seen": "2026-10-14T14:47:30.413574+08:00",
+          "publication_date": "2026",
+          "version_date": null,
+          "metadata_source": "https://exoplanet.eu/bibliography/all/#publication_33248",
+          "affiliation_source": null
+        }
+      ],
+      "match_basis": [
+        "DOI",
+        "DOI"
+      ],
+      "source_types": [
+        "arXiv",
+        "journal",
+        "exoplanet.eu"
+      ],
+      "journals": [
+        "Nature Astronomy"
+      ],
+      "source_groups": [
+        "general",
+        "exoplanet bibliography"
+      ],
+      "intake_kind": "recent"
+    },
+    {
+      "id": "2610.18114",
+      "version_id": "2610.18114v2",
+      "title": "3D Global Climate Simulations of Synthetic Mars Warming",
+      "abstract": "Artificial warming via engineered aerosols presents a novel pathway to bypass volatile scarcity on modern Mars. Utilizing the Generic Planetary Climate Model, we evaluate the physical feasibility of aerosol-induced terraforming over a full Martian year (669 Sols). Unlike previous approaches that added aerosols to background dust or assumed continuous nanoparticle injection, we simulate the complete substitution of natural dust with a single-injection profile of radiatively active aluminium nanoparticles without continuous dumping. This tests whether initial infrared greenhouse forcing can overcome the severe ice-albedo cooling induced by a massive regional water-ice sheet ($3400 \\text{ kg/m}^2$) localized in the Hellas Basin. Comparing this scenario against an unperturbed control run, we analyze surface temperature dynamics, sublimation fluxes, and water vapour concentration. Our 3D global climate simulations quantify the radiative-dynamical feedback thresholds and determine whether engineered aerosol forcing can trigger a self-sustaining water-vapour greenhouse effect or remains fundamentally limited by regional ice-albedo suppression in Hellas.",
+      "published": "2026-10-13T10:27:02Z",
+      "updated": "2026-10-14T08:28:00Z",
+      "authors": [
+        "Tom N. Landefeld",
+        "Harald Lesch"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2610.18114",
+      "pdf": "https://arxiv.org/pdf/2610.18114v2",
+      "source": "arXiv",
+      "first_seen": "2026-10-15T01:38:21.320708+00:00",
+      "version_changed": false,
+      "topics": [
+        "planetary",
+        "models",
+        "evolution",
+        "cryosphere",
+        "surface"
+      ],
+      "matches": {
+        "planetary": [
+          "planetary climate"
+        ],
+        "models": [
+          "climate model",
+          "climate simulation"
+        ],
+        "evolution": [
+          "volatile"
+        ],
+        "cryosphere": [
+          "ice sheet",
+          "water ice",
+          "ice albedo"
+        ],
+        "surface": [
+          "ice albedo"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：planetary climate、climate model、climate simulation、volatile、ice sheet、water ice",
+      "tags": [
+        "云与辐射 · Clouds & radiation",
+        "岩浆与挥发分 · Magma & volatiles",
+        "海冰与表层 · Ice & surface",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 68,
+      "fit_matches": [
+        "行星气候与模式"
+      ],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2610.18114v2",
+      "intro_en": "Artificial warming via engineered aerosols presents a novel pathway to bypass volatile scarcity on modern Mars. Utilizing the Generic Planetary Climate Model, we evaluate the physical feasibility of aerosol-induced terraforming over a full Martian year (669 Sols).",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-13",
+      "publication_date_source": "https://arxiv.org/abs/2610.18114v2",
+      "version_date": "2026-10-14T08:28:00+00:00",
+      "variants": [
+        {
+          "id": "2610.18114",
+          "source": "arXiv",
+          "journal": null,
+          "journal_id": null,
+          "title": "3D Global Climate Simulations of Synthetic Mars Warming",
+          "url": "https://arxiv.org/abs/2610.18114",
+          "doi": "",
+          "version_id": "2610.18114v2",
+          "first_seen": "2026-10-15T01:38:21.320708+00:00",
+          "publication_date": "2026-10-13",
+          "version_date": "2026-10-14T08:28:00+00:00",
+          "metadata_source": null,
+          "affiliation_source": "https://arxiv.org/html/2610.18114v2"
+        }
+      ],
+      "match_basis": [],
+      "source_types": [
+        "arXiv"
+      ],
+      "journals": [],
+      "source_groups": [],
+      "intake_kind": "recent"
+    },
     {
       "id": "2610.05287",
       "version_id": "2610.05287v2",
@@ -4777,7 +6378,10 @@
       "institutions": [
         "Department of Astronomy and Astrophysics, University of California, Santa Cruz 1156 High Street, Santa Cruz, CA 95064, USA",
         "Department of Earth and Planetary Sciences, Stanford University, Stanford, CA 94305, USA",
-        "Earth and Planets Laboratory, Carnegie Institution for Science, Washington DC, USA"
+        "Earth and Planets Laboratory, Carnegie Institution for Science, Washington DC, USA",
+        "University of California",
+        "Stanford University",
+        "Carnegie Institution for Science"
       ],
       "author_affiliations": [
         {
@@ -4807,6 +6411,34 @@
             "Earth and Planets Laboratory, Carnegie Institution for Science, Washington DC, USA"
           ],
           "orcid": null
+        },
+        {
+          "name": "Yao Tang",
+          "institutions": [
+            "University of California"
+          ],
+          "orcid": "https://orcid.org/0000-0003-3980-7808"
+        },
+        {
+          "name": "Jonathan J. Fortney",
+          "institutions": [
+            "University of California"
+          ],
+          "orcid": "https://orcid.org/0000-0002-9843-4354"
+        },
+        {
+          "name": "Laura K. Schaefer",
+          "institutions": [
+            "Stanford University"
+          ],
+          "orcid": "https://orcid.org/0000-0003-2915-5025"
+        },
+        {
+          "name": "Peter Gao",
+          "institutions": [
+            "Carnegie Institution for Science"
+          ],
+          "orcid": "https://orcid.org/0000-0002-8518-9601"
         }
       ],
       "affiliation_status": "verified",
@@ -4840,14 +6472,36 @@
           "version_date": "2026-09-22T19:33:16+00:00",
           "metadata_source": null,
           "affiliation_source": "https://arxiv.org/html/2606.14646v2"
+        },
+        {
+          "id": "doi:10.3847/1538-4357/ae8f2a",
+          "source": "journal",
+          "journal": "The Astrophysical Journal",
+          "journal_id": "1538-4357",
+          "title": "Hydrogen and Helium Dissolution, Outgassing, and Loss in Evolving Sub-Neptune Magma Oceans: Examining Demographic Features and Radius Evolution",
+          "url": "https://doi.org/10.3847/1538-4357/ae8f2a",
+          "doi": "10.3847/1538-4357/ae8f2a",
+          "version_id": "doi:10.3847/1538-4357/ae8f2a",
+          "first_seen": "2026-10-15T01:38:46.773639+00:00",
+          "publication_date": "2026-10-14",
+          "version_date": null,
+          "metadata_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Fae8f2a",
+          "affiliation_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Fae8f2a"
         }
       ],
-      "match_basis": [],
-      "source_types": [
-        "arXiv"
+      "match_basis": [
+        "exact title + author"
       ],
-      "journals": [],
-      "source_groups": [],
+      "source_types": [
+        "arXiv",
+        "journal"
+      ],
+      "journals": [
+        "The Astrophysical Journal"
+      ],
+      "source_groups": [
+        "planet"
+      ],
       "intake_kind": null
     },
     {
@@ -10047,7 +11701,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-24T11:06:27.450209+00:00",
-      "updated": "2026-09-28T11:06:19Z",
+      "updated": "2026-10-14T05:47:42Z",
       "metadata_source": "https://api.crossref.org/works/10.1177%2F15311074261470203",
       "relations": {},
       "metadata_limited": false,
@@ -10237,7 +11891,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-24T11:06:27.450209+00:00",
-      "updated": "2026-09-29T14:09:40Z",
+      "updated": "2026-10-14T05:47:44Z",
       "metadata_source": "https://api.crossref.org/works/10.1177%2F15311074261475054",
       "relations": {},
       "metadata_limited": false,
@@ -11285,7 +12939,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-24T11:06:27.450209+00:00",
-      "updated": "2026-09-28T14:47:26Z",
+      "updated": "2026-10-14T05:47:44Z",
       "metadata_source": "https://api.crossref.org/works/10.1177%2F15311074261484811",
       "relations": {},
       "metadata_limited": false,
@@ -11417,7 +13071,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-24T11:06:27.450209+00:00",
-      "updated": "2026-09-28T11:06:15Z",
+      "updated": "2026-10-14T05:47:43Z",
       "metadata_source": "https://api.crossref.org/works/10.1177%2F15311074261485884",
       "relations": {},
       "metadata_limited": true,
@@ -20934,7 +22588,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-29T01:25:15.982384+00:00",
-      "updated": "2026-09-28T11:06:15Z",
+      "updated": "2026-10-14T05:47:44Z",
       "metadata_source": "https://api.crossref.org/works/10.1177%2F15311074261446502",
       "relations": {},
       "metadata_limited": false,
@@ -23161,7 +24815,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-10-10T01:28:59.464410+00:00",
-      "updated": "2026-10-09T18:48:52Z",
+      "updated": "2026-10-14T13:50:24Z",
       "metadata_source": "https://api.crossref.org/works/10.3847%2F2041-8213%2Faea906",
       "relations": {
         "is-supplemented-by": [
@@ -23400,17 +25054,37 @@
           "version_date": null,
           "metadata_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Fae9a84",
           "affiliation_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Fae9a84"
+        },
+        {
+          "id": "exoplanet-bib:33252",
+          "source": "exoplanet.eu",
+          "journal": "ApJ",
+          "journal_id": null,
+          "title": "Wet Removal and Cloud Enhancement: The Microphysics of Cloud–Haze Interactions on Sub-Neptunes",
+          "url": "https://dx.doi.org/10.3847/1538-4357/ae9a84 ",
+          "doi": "10.3847/1538-4357/ae9a84",
+          "version_id": "exoplanet-bib:33252",
+          "first_seen": "2026-10-15T09:38:42.023371+08:00",
+          "publication_date": "2026",
+          "version_date": null,
+          "metadata_source": "https://exoplanet.eu/bibliography/all/#publication_33252",
+          "affiliation_source": null
         }
       ],
-      "match_basis": [],
+      "match_basis": [
+        "DOI"
+      ],
       "source_types": [
-        "journal"
+        "journal",
+        "exoplanet.eu"
       ],
       "journals": [
-        "The Astrophysical Journal"
+        "The Astrophysical Journal",
+        "ApJ"
       ],
       "source_groups": [
-        "planet"
+        "planet",
+        "exoplanet bibliography"
       ],
       "intake_kind": "recent"
     },
@@ -23524,6 +25198,15 @@
       "2610.09575",
       "2610.11530",
       "2610.11637",
+      "2610.18114",
+      "2610.18806",
+      "2610.18864",
+      "2610.19081",
+      "2610.19228",
+      "2610.19242",
+      "2610.19280",
+      "2610.19328",
+      "2610.19377",
       "doi:10.1029/2026je009882",
       "doi:10.1177/15311074261493349",
       "doi:10.3847/1538-4357/ae1cc5",
@@ -23570,7 +25253,16 @@
       "doi:10.3847/1538-4357/aea407": "recent",
       "doi:10.3847/2041-8213/aea906": "recent",
       "doi:10.3847/1538-4357/ae9a84": "recent",
-      "doi:10.3847/1538-4357/aea090": "recent"
+      "doi:10.3847/1538-4357/aea090": "recent",
+      "2610.19377": "recent",
+      "2610.19328": "recent",
+      "2610.19280": "recent",
+      "2610.19242": "recent",
+      "2610.19228": "recent",
+      "2610.19081": "recent",
+      "2610.18864": "recent",
+      "2610.18806": "recent",
+      "2610.18114": "recent"
     },
     "policy": {
       "recent_days": 2,
@@ -23578,11 +25270,18 @@
       "min_fallback_score": 65,
       "max_fallback": 3
     },
-    "last_run": "2026-10-14",
+    "last_run": "2026-10-15",
     "mode": "recent",
     "selected": [
-      "doi:10.3847/1538-4357/ae9a84",
-      "doi:10.3847/1538-4357/aea090"
+      "2610.19377",
+      "2610.19328",
+      "2610.19280",
+      "2610.19242",
+      "2610.19228",
+      "2610.19081",
+      "2610.18864",
+      "2610.18806",
+      "2610.18114"
     ],
     "search_errors": []
   },
@@ -24939,6 +26638,6 @@
       }
     }
   },
-  "record_count": 1545,
-  "merged_count": 10
+  "record_count": 1646,
+  "merged_count": 14
 }
