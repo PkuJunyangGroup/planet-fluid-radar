@@ -146,7 +146,7 @@ function abstractHTML(value){
  const escapedAt=i=>{let n=0;while(i>0&&text[--i]==='\\')n++;return n%2===1};
  const renderMath=(tex,raw,display)=>{
   if(!renderer)return esc(raw);
-  try{return `<span class="abstract-math${display?' abstract-math-display':''}">${renderer.renderToString(tex,{displayMode:display,throwOnError:true,trust:false,strict:'ignore',output:'htmlAndMathml',maxExpand:200,maxSize:20})}</span>`}
+  try{return `<span class="abstract-math${display?' abstract-math-display':''}">${renderer.renderToString(tex,{displayMode:display,throwOnError:true,trust:false,strict:'ignore',output:'htmlAndMathml',maxExpand:200,maxSize:20,macros:{'\\upmu':'\\mathrm{\\mu}'}})}</span>`}
   catch{return esc(raw)}
  };
  let html='',plain='',i=0;
@@ -155,6 +155,15 @@ function abstractHTML(value){
   // Common JATS publisher TeX wrappers, not arbitrary publisher HTML.
   const xml=text.slice(i).match(/^<(?:jats:)?(inline-formula|disp-formula)>\s*<(?:jats:)?tex-math>([\s\S]*?)<\/(?:jats:)?tex-math>\s*<\/(?:jats:)?\1>/);
   if(xml){let tex=xml[2].replace(/^<!\[CDATA\[([\s\S]*)\]\]>$/,'$1').trim();tex=tex.replace(/^\$\$([\s\S]*)\$\$$/,'$1').replace(/^\$([\s\S]*)\$$/,'$1');flush();html+=renderMath(tex,xml[0],xml[1]==='disp-formula');i+=xml[0].length;continue}
+  // arXiv prose can contain simple chemistry and text commands outside $...$.
+  // Only a small explicit allowlist is interpreted; arbitrary TeX/HTML stays escaped.
+  if(text[i]==='\\'&&!escapedAt(i)){
+   const chemistry=text.slice(i).match(/^\\ce\{([A-Za-z][A-Za-z0-9]*)\}/);
+   if(chemistry){const tex=chemistry[1].replace(/([A-Za-z]+)|(\d+)/g,(_,letters,digits)=>letters?`\\mathrm{${letters}}`:`_{${digits}}`);flush();html+=renderMath(tex,chemistry[0],false);i+=chemistry[0].length;continue}
+   const prose=text.slice(i).match(/^\\textit\{([^{}]*)\}/);
+   if(prose){flush();html+=`<em>${esc(prose[1])}</em>`;i+=prose[0].length;continue}
+   if(text.startsWith('\\%',i)||text.startsWith('\\,',i)){plain+=text[i+1]==='%'?'%':'\u2009';i+=2;continue}
+  }
   let open='',close='',display=false;
   if(!escapedAt(i)){
    if(text.startsWith('$$',i)){open=close='$$';display=true}
@@ -171,7 +180,7 @@ function abstractHTML(value){
    if(end!==-1){
     const tex=text.slice(i+open.length,end),raw=text.slice(i,end+close.length);
     // Single-dollar prose across a paragraph is almost always monetary text.
-    if(tex.trim()&&(open!=='$'||(!tex.includes('\n')&&!/\$/.test(tex)))){
+    if(tex.trim()&&(open!=='$'||(!tex.includes('\n')&&!/\$/.test(tex)&&!/^\d+(?:[.,]\d+)*\s+(?:and|to|million|billion|dollars)\b/i.test(tex)))){
      flush();html+=renderMath(tex,raw,display);i=end+close.length;continue;
     }
    }
