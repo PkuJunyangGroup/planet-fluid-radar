@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T01:47:47.683716+00:00",
+  "generated_at": "2026-10-15T02:17:13.790085+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
@@ -260,12 +260,12 @@
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-10-15T09:38:42.023371+08:00",
-      "last_success": "2026-10-15T09:38:42.023371+08:00",
+      "last_attempt": "2026-10-15T10:16:19.850295+08:00",
+      "last_success": "2026-10-15T10:16:19.850295+08:00",
       "coverage_since": "2026-09-25",
-      "pages_checked": 2,
-      "fetched": 13,
-      "retained": 2,
+      "pages_checked": 1,
+      "fetched": 0,
+      "retained": 0,
       "method": "daily incremental bibliography page scan; candidate-only"
     }
   },
@@ -1108,12 +1108,12 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：hot jupiter、chemical equilibrium、chemistry model、planetesimal",
+      "reason": "人工阅读摘要复核：热木星大气发射光谱、化学丰度反演及迁移线索，符合行星大气与表征方向。",
       "tags": [
         "光谱与相曲线 · Spectra & phase curves",
         "反演与数值方法 · Inverse & numerical methods"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 57,
       "fit_matches": [],
       "institutions": [
@@ -1258,12 +1258,14 @@
       ],
       "affiliation_status": "verified",
       "affiliation_source": "https://arxiv.org/html/2610.19377v1",
-      "intro_en": "We present the results of high-resolution emission spectroscopy of the hot Jupiter KELT-2A~b using IGRINS-2 on the Gemini-North telescope, covering the $H$- and $K$-bands at a spectral resolution of $R \\sim 45{,}000$. Observations were carried out over five nights, covering both pre- and post-eclipse orbital phases.",
-      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
-      "intro_kind": "abstract_excerpt",
-      "intro_basis": "英文摘要节选",
+      "intro_en": "High-resolution IGRINS-2 emission spectra, combined with Spitzer photometry, constrain the atmosphere of KELT-2A b. Water is detected and the retrieved temperature profile is non-inverted; possible carbon and oxygen depletion remains tentative, so the proposed formation and migration interpretation needs confirmation.",
+      "intro_zh": "研究利用 Gemini-North/IGRINS-2 的五夜高分辨率热发射光谱，并结合 Spitzer 测光反演热木星 KELT-2A b 的大气。水汽信号达到 6.57 的信噪比，温压结构未见逆温；平衡化学反演提示碳氧比与宿主星相近、碳氧丰度偏低，但差异仍在约两个标准差内。作者据此讨论吸积与高偏心率迁移情景，相关形成历史判断仍需更高质量数据确认。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
       "publication_date": "2026-10-14",
       "publication_date_source": "https://arxiv.org/abs/2610.19377v1",
+      "intro_source": "https://arxiv.org/abs/2610.19377v1",
+      "intro_version": "2610.19377v1",
       "version_date": "2026-10-14T01:24:35+00:00",
       "variants": [
         {
@@ -1335,9 +1337,9 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：transit timing、orbital evolution、transit timing variations",
+      "reason": "人工阅读摘要复核：系外行星凌星时间变化和轨道演化的观测约束，符合行星轨道动力学方向。",
       "tags": [],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 64,
       "fit_matches": [
         "行星轨道与演化",
@@ -1423,12 +1425,14 @@
       ],
       "affiliation_status": "verified",
       "affiliation_source": "https://arxiv.org/html/2610.19328v1",
-      "intro_en": "Transit timing variations (TTVs) provide a powerful probe of planetary dynamics and orbital evolution. We extend the ExoEcho project by incorporating James Webb Space Telescope (JWST) transit observations and analyze 84 light curves of 37 exoplanets, including 20 hot Jupiters, 11 Neptune-like planets, and 6 super-Earths.",
-      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
-      "intro_kind": "abstract_excerpt",
-      "intro_basis": "英文摘要节选",
+      "intro_en": "A JWST survey of 84 light curves updates the ephemerides of 37 exoplanets and searches for transit-timing variations. HATS-6 b and HAT-P-18 b emerge as strong candidates, while the new timing data challenge an earlier claim for WASP-121 b; continued monitoring is required.",
+      "intro_zh": "研究分析 JWST 对 37 颗系外行星取得的 84 条光变曲线，更新凌星历表并系统搜寻长期和周期性凌星时间变化。HATS-6 b 出现长期趋势，HAT-P-18 b 显示周期性候选信号；新数据也不支持先前对 WASP-121 b 正周期变化率的报告。这些候选仍需持续观测确认，可用于约束行星系统的动力学与轨道演化。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
       "publication_date": "2026-10-14",
       "publication_date_source": "https://arxiv.org/abs/2610.19328v1",
+      "intro_source": "https://arxiv.org/abs/2610.19328v1",
+      "intro_version": "2610.19328v1",
       "version_date": "2026-10-14T00:07:28+00:00",
       "variants": [
         {
@@ -1489,14 +1493,14 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：atmospheric escape、tidal heating",
+      "reason": "人工阅读摘要复核：行星大气逃逸、潮汐演化和表面水保留的耦合，符合行星大气及轨道动力学方向。",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "宜居性 · Habitability",
         "海冰与表层 · Ice & surface",
         "反演与数值方法 · Inverse & numerical methods"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 46,
       "fit_matches": [],
       "institutions": [
@@ -1530,12 +1534,14 @@
       ],
       "affiliation_status": "verified",
       "affiliation_source": "https://arxiv.org/html/2610.19280v1",
-      "intro_en": "With a 35-day orbital period and $\\sim$0.5 eccentricity, TOI-2257 b occupies a sparsely populated corner of transiting mini-Neptune parameter space and may lie near the orbital distance at which tidal and atmospheric escape process become negligible. To test this hypothesis, we performed simulations of the combined stellar, tidal, and atmospheric evolution and confirmed that TOI-2257 b does lie near this boundary, regardless of whether it formed with or without a primordial hydrogen envelope.",
-      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
-      "intro_kind": "abstract_excerpt",
-      "intro_basis": "英文摘要节选",
-      "publication_date": "2026-10-13",
+      "intro_en": "Coupled stellar, tidal and atmospheric evolution places TOI-2257 b near the boundary where circularization and escape weaken. Gas-envelope and rocky scenarios predict different volatile retention histories; a sufficiently high present eccentricity would disfavor the rocky interpretation.",
+      "intro_zh": "研究将恒星、潮汐和大气演化耦合，检验偏心轨道行星 TOI-2257 b 是否处于潮汐作用与大气逃逸趋弱的边界。含原初氢包层的模拟可长期保留气体；岩质行星情景则可能在恒星主序前阶段损失大量表面水，但模拟潮汐热流不足以触发失控温室。模型还表明，若当前偏心率高于约 0.62，将明显不利于其为岩质行星的解释。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-10-14",
       "publication_date_source": "https://arxiv.org/abs/2610.19280v1",
+      "intro_source": "https://arxiv.org/abs/2610.19280v1",
+      "intro_version": "2610.19280v1",
       "version_date": "2026-10-13T23:01:21+00:00",
       "variants": [
         {
@@ -1548,7 +1554,7 @@
           "doi": "",
           "version_id": "2610.19280v1",
           "first_seen": "2026-10-15T01:38:21.320708+00:00",
-          "publication_date": "2026-10-13",
+          "publication_date": "2026-10-14",
           "version_date": "2026-10-13T23:01:21+00:00",
           "metadata_source": null,
           "affiliation_source": "https://arxiv.org/html/2610.19280v1"
@@ -1592,12 +1598,12 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：ice shell",
+      "reason": "人工阅读摘要复核：土卫二冰壳力学、潮汐热史及地下海洋，符合行星冰与海洋系统方向。",
       "tags": [
         "热输送 · Heat transport",
         "宜居性 · Habitability"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 45,
       "fit_matches": [
         "行星海洋与冰"
@@ -1631,12 +1637,14 @@
       ],
       "affiliation_status": "verified",
       "affiliation_source": "https://arxiv.org/html/2610.19242v1",
-      "intro_en": "Saturn's moon Enceladus has active plumes suggestive of locally high heat fluxes at present, and the present-day heating is reasonably well characterized. However, the moon's thermal history is not well understood.",
-      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
-      "intro_kind": "abstract_excerpt",
-      "intro_basis": "英文摘要节选",
-      "publication_date": "2026-10-13",
+      "intro_en": "Flexural models of Enceladus terrain constrain past ice-shell thickness and heat flux. Similar paleo-heat fluxes across terrains of different ages support sustained tidal heating and are consistent with a long-lived subsurface ocean, while individual regions subsequently cooled and thickened.",
+      "intro_zh": "研究通过土卫二沟槽与脊状地形的冰壳挠曲模型，反演有效弹性厚度及过去的热通量。多数估计集中在每平方米 125–200 毫瓦，高于相同区域今天由冰壳厚度推断的热通量，提示这些地区经历过较强加热后冷却增厚。不同年龄地形的相近古热通量支持持续潮汐加热与共振锁定情景，并为地下海洋长期存在提供线索。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-10-14",
       "publication_date_source": "https://arxiv.org/abs/2610.19242v1",
+      "intro_source": "https://arxiv.org/abs/2610.19242v1",
+      "intro_version": "2610.19242v1",
       "version_date": "2026-10-13T21:58:39+00:00",
       "variants": [
         {
@@ -1649,267 +1657,10 @@
           "doi": "10.1016/j.icarus.2026.117324",
           "version_id": "2610.19242v1",
           "first_seen": "2026-10-15T01:38:21.320708+00:00",
-          "publication_date": "2026-10-13",
+          "publication_date": "2026-10-14",
           "version_date": "2026-10-13T21:58:39+00:00",
           "metadata_source": null,
           "affiliation_source": "https://arxiv.org/html/2610.19242v1"
-        }
-      ],
-      "match_basis": [],
-      "source_types": [
-        "arXiv"
-      ],
-      "journals": [],
-      "source_groups": [],
-      "intake_kind": "recent"
-    },
-    {
-      "id": "2610.19228",
-      "version_id": "2610.19228v1",
-      "title": "Chandra-JWST Probing the Effects of Moderate X-Ray Superflares on Protoplanetary Disks",
-      "abstract": "Powerful X-ray flares from young stars may rapidly alter the physical and chemical conditions of their planet-forming disks, but direct observational tests remain scarce. We present a Chandra-JWST/NIRSpec study of infrared spectral variability associated with pre-main-sequence (PMS) X-ray flares in the Orion Nebula. Combining six Chandra/ACIS-I observations with three NIRSpec-MOS visits, we analyze two-epoch spectra of 10 X-ray Flare stars and 12 matched non-flaring Controls among 84 observed disk-bearing PMS stars. We investigate three diagnostics: narrow 2.8-4.3 micron features, HI Br-alpha, and the CO fundamental band. Flare stars show tentative evidence for relatively fewer variable narrow features at longer wavelengths than Controls, while feature incidence decreases strongly with projected distance from the dominant ionizing O star Theta1 Ori C. Most classifiable features appear in absorption. These properties suggest that at least some features may arise in externally irradiated disk atmospheres and/or associated photoevaporative flows, with their apparent epoch-to-epoch variability potentially reflecting spatial sampling of such locally structured material rather than intrinsic temporal changes. Br-alpha behaves differently: flare stars show systematically stronger variability and uniquely exhibit absorption-core profiles, suggesting control by magnetospheric accretion and stellar magnetic processes rather than disk irradiation. The CO fundamental band shows no significant flare-associated variability, consistent with thermochemical models predicting weak responses to moderate X-ray superflares. This pilot study demonstrates the potential of coordinated Chandra-JWST observations to probe how young stellar magnetic activity affects planet-forming environments, motivating future monitoring to build larger superflare samples and extend them into the rare X-ray mega-flare regime.",
-      "published": "2026-10-13T21:45:27Z",
-      "updated": "2026-10-13T21:45:27Z",
-      "authors": [
-        "Konstantin V. Getman",
-        "Kevin L. Luhman",
-        "Bayron Portilla-Revelo",
-        "Christian Rab",
-        "Valentin Brunn",
-        "Eric D. Feigelson",
-        "Arjan Bik",
-        "Jan Forbrich",
-        "Jenny Frediani",
-        "Thomas J. Haworth",
-        "Charles J. Law",
-        "Marco Padovani",
-        "Maria Claudia Ramirez-Tannus",
-        "Andrew J. Winter",
-        "Vladimir S. Airapetian",
-        "L. Ilsedore Cleeves",
-        "Sergio A. Dzib",
-        "Michael A. Kuhn",
-        "Abygail R. Waggoner",
-        "Rens Waters"
-      ],
-      "doi": "",
-      "categories": [
-        "astro-ph.SR",
-        "astro-ph.EP",
-        "hep-ph"
-      ],
-      "url": "https://arxiv.org/abs/2610.19228",
-      "pdf": "https://arxiv.org/pdf/2610.19228v1",
-      "source": "arXiv",
-      "first_seen": "2026-10-15T01:38:21.320708+00:00",
-      "version_changed": false,
-      "topics": [
-        "chemistry"
-      ],
-      "matches": {
-        "chemistry": [
-          "thermochemical"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：thermochemical",
-      "tags": [],
-      "method": "keyword",
-      "fit_score": 45,
-      "fit_matches": [
-        "系外行星观测表征"
-      ],
-      "institutions": [
-        "Department of Astronomy & Astrophysics Pennsylvania State University 525 Davey Laboratory University Park, PA 16802, USA",
-        "Center for Exoplanets and Habitable Worlds 525 Davey Laboratory The Pennsylvania State University University Park, PA 16802, USA",
-        "University Observatory, Faculty of Physics Ludwig-Maximilians-Universität München Scheinerstr. 1 D-81679 Munich, Germany",
-        "Max-Planck-Institut für extraterrestrische Physik Giessenbachstrasse 1 D-85748 Garching, Germany",
-        "INAF–Osservatorio Astrofisico di Arcetri Largo E. Fermi 5 50125 Firenze, Italy",
-        "Department of Astronomy, Stockholm University AlbaNova University Centre 106 91 Stockholm, Sweden",
-        "Centre for Astrophysics Research Department of Physics, Astronomy and Mathematics University of Hertfordshire Hatfield, AL10 9UW, UK",
-        "Astronomy Unit, School of Physics and Astronomy, Queen Mary University of London, London E1 4NS, UK",
-        "Minnesota Institute for Astrophysics, University of Minnesota, 116 Church St. SE, Minneapolis, MN 55455, USA",
-        "Max-Planck-Institut für Astronomie Königstuhl 17 D-69117 Heidelberg, Germany",
-        "American University 4400 Massachusetts Avenue NW Washington, DC 20016 USA",
-        "NASA/GSFC/SEEC Greenbelt, MD, 20771, USA",
-        "University of Virginia, Charlottesville, VA 22904, USA",
-        "Max-Planck-Institut fur Radioastronomie (MPIfR), Auf dem Hugel 69, 53121 Bonn, Germany",
-        "Department of Astronomy, University of Wisconsin-Madison, 475 N Charter St, Madison, WI 53706",
-        "Department of Astrophysics/IMAPP, Radboud University, PO Box 9010, 6500 GL Nijmegen, The Netherlands",
-        "SRON Netherlands Institute for Space Research, Niels Bohrweg 4, NL-2333 CA Leiden, the Netherlands"
-      ],
-      "author_affiliations": [
-        {
-          "name": "Konstantin V. Getman",
-          "institutions": [
-            "Department of Astronomy & Astrophysics Pennsylvania State University 525 Davey Laboratory University Park, PA 16802, USA"
-          ],
-          "orcid": "https://orcid.org/0000-0002-6137-8280"
-        },
-        {
-          "name": "Kevin L. Luhman",
-          "institutions": [
-            "Department of Astronomy & Astrophysics Pennsylvania State University 525 Davey Laboratory University Park, PA 16802, USA",
-            "Center for Exoplanets and Habitable Worlds 525 Davey Laboratory The Pennsylvania State University University Park, PA 16802, USA"
-          ],
-          "orcid": "https://orcid.org/0000-0003-2822-2951"
-        },
-        {
-          "name": "Bayron Portilla-Revelo",
-          "institutions": [
-            "Department of Astronomy & Astrophysics Pennsylvania State University 525 Davey Laboratory University Park, PA 16802, USA",
-            "Center for Exoplanets and Habitable Worlds 525 Davey Laboratory The Pennsylvania State University University Park, PA 16802, USA"
-          ],
-          "orcid": "https://orcid.org/0000-0002-6278-9006"
-        },
-        {
-          "name": "Christian Rab",
-          "institutions": [
-            "University Observatory, Faculty of Physics Ludwig-Maximilians-Universität München Scheinerstr. 1 D-81679 Munich, Germany",
-            "Max-Planck-Institut für extraterrestrische Physik Giessenbachstrasse 1 D-85748 Garching, Germany"
-          ],
-          "orcid": "https://orcid.org/0000-0003-1817-6576"
-        },
-        {
-          "name": "Valentin Brunn",
-          "institutions": [
-            "INAF–Osservatorio Astrofisico di Arcetri Largo E. Fermi 5 50125 Firenze, Italy"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "Eric D. Feigelson",
-          "institutions": [
-            "Department of Astronomy & Astrophysics Pennsylvania State University 525 Davey Laboratory University Park, PA 16802, USA",
-            "Center for Exoplanets and Habitable Worlds 525 Davey Laboratory The Pennsylvania State University University Park, PA 16802, USA"
-          ],
-          "orcid": "https://orcid.org/0000-0002-5077-6734"
-        },
-        {
-          "name": "Arjan Bik",
-          "institutions": [
-            "Department of Astronomy, Stockholm University AlbaNova University Centre 106 91 Stockholm, Sweden"
-          ],
-          "orcid": "https://orcid.org/0000-0001-8068-0891"
-        },
-        {
-          "name": "Jan Forbrich",
-          "institutions": [
-            "Centre for Astrophysics Research Department of Physics, Astronomy and Mathematics University of Hertfordshire Hatfield, AL10 9UW, UK"
-          ],
-          "orcid": "https://orcid.org/0000-0001-8694-4966"
-        },
-        {
-          "name": "Jenny Frediani",
-          "institutions": [
-            "Department of Astronomy, Stockholm University AlbaNova University Centre 106 91 Stockholm, Sweden"
-          ],
-          "orcid": "https://orcid.org/0009-0003-7663-5280"
-        },
-        {
-          "name": "Thomas J. Haworth",
-          "institutions": [
-            "Astronomy Unit, School of Physics and Astronomy, Queen Mary University of London, London E1 4NS, UK"
-          ],
-          "orcid": "https://orcid.org/0000-0002-9593-7618"
-        },
-        {
-          "name": "Charles J. Law",
-          "institutions": [
-            "Minnesota Institute for Astrophysics, University of Minnesota, 116 Church St. SE, Minneapolis, MN 55455, USA"
-          ],
-          "orcid": "https://orcid.org/0000-0003-1413-1776"
-        },
-        {
-          "name": "Marco Padovani",
-          "institutions": [
-            "INAF–Osservatorio Astrofisico di Arcetri Largo E. Fermi 5 50125 Firenze, Italy"
-          ],
-          "orcid": "https://orcid.org/0000-0003-2303-0096"
-        },
-        {
-          "name": "María Claudia Ramírez-Tannus",
-          "institutions": [
-            "Max-Planck-Institut für Astronomie Königstuhl 17 D-69117 Heidelberg, Germany"
-          ],
-          "orcid": "https://orcid.org/0000-0001-9698-4080"
-        },
-        {
-          "name": "Andrew J. Winter",
-          "institutions": [
-            "Astronomy Unit, School of Physics and Astronomy, Queen Mary University of London, London E1 4NS, UK"
-          ],
-          "orcid": "https://orcid.org/0000-0002-7501-9801"
-        },
-        {
-          "name": "Vladimir S. Airapetian",
-          "institutions": [
-            "American University 4400 Massachusetts Avenue NW Washington, DC 20016 USA",
-            "NASA/GSFC/SEEC Greenbelt, MD, 20771, USA"
-          ],
-          "orcid": "https://orcid.org/0000-0003-4452-0588"
-        },
-        {
-          "name": "L. Ilsedore Cleeves",
-          "institutions": [
-            "University of Virginia, Charlottesville, VA 22904, USA"
-          ],
-          "orcid": "https://orcid.org/0000-0003-2076-8001"
-        },
-        {
-          "name": "Sergio A. Dzib",
-          "institutions": [
-            "Max-Planck-Institut fur Radioastronomie (MPIfR), Auf dem Hugel 69, 53121 Bonn, Germany"
-          ],
-          "orcid": "https://orcid.org/0000-0001-6010-6200"
-        },
-        {
-          "name": "Michael A. Kuhn",
-          "institutions": [
-            "Centre for Astrophysics Research Department of Physics, Astronomy and Mathematics University of Hertfordshire Hatfield, AL10 9UW, UK"
-          ],
-          "orcid": "https://orcid.org/0000-0002-0631-7514"
-        },
-        {
-          "name": "Abygail R. Waggoner",
-          "institutions": [
-            "Department of Astronomy, University of Wisconsin-Madison, 475 N Charter St, Madison, WI 53706"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "Rens Waters",
-          "institutions": [
-            "Department of Astrophysics/IMAPP, Radboud University, PO Box 9010, 6500 GL Nijmegen, The Netherlands",
-            "SRON Netherlands Institute for Space Research, Niels Bohrweg 4, NL-2333 CA Leiden, the Netherlands"
-          ],
-          "orcid": "https://orcid.org/0000-0002-5462-9387"
-        }
-      ],
-      "affiliation_status": "verified",
-      "affiliation_source": "https://arxiv.org/html/2610.19228v1",
-      "intro_en": "Powerful X-ray flares from young stars may rapidly alter the physical and chemical conditions of their planet-forming disks, but direct observational tests remain scarce. We present a Chandra-JWST/NIRSpec study of infrared spectral variability associated with pre-main-sequence (PMS) X-ray flares in the Orion Nebula.",
-      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
-      "intro_kind": "abstract_excerpt",
-      "intro_basis": "英文摘要节选",
-      "publication_date": "2026-10-13",
-      "publication_date_source": "https://arxiv.org/abs/2610.19228v1",
-      "version_date": "2026-10-13T21:45:27+00:00",
-      "variants": [
-        {
-          "id": "2610.19228",
-          "source": "arXiv",
-          "journal": null,
-          "journal_id": null,
-          "title": "Chandra-JWST Probing the Effects of Moderate X-Ray Superflares on Protoplanetary Disks",
-          "url": "https://arxiv.org/abs/2610.19228",
-          "doi": "",
-          "version_id": "2610.19228v1",
-          "first_seen": "2026-10-15T01:38:21.320708+00:00",
-          "publication_date": "2026-10-13",
-          "version_date": "2026-10-13T21:45:27+00:00",
-          "metadata_source": null,
-          "affiliation_source": "https://arxiv.org/html/2610.19228v1"
         }
       ],
       "match_basis": [],
@@ -1972,7 +1723,7 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：photochemical、atmospheric modeling、water vapor、biosignature、outgassing",
+      "reason": "人工阅读摘要复核：针对类地系外行星臭氧、生物标志物及大气反演的具体模型结果，不属于泛用望远镜架构。",
       "tags": [
         "水循环 · Water cycle",
         "宜居性 · Habitability",
@@ -1980,7 +1731,7 @@
         "海冰与表层 · Ice & surface",
         "反演与数值方法 · Inverse & numerical methods"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 56,
       "fit_matches": [],
       "institutions": [
@@ -2068,12 +1819,14 @@
       ],
       "affiliation_status": "verified",
       "affiliation_source": "https://arxiv.org/html/2610.19081v1",
-      "intro_en": "Detecting biosignatures on Earth-like exoplanets from the Proterozoic era requires instrumentation capable of probing near-ultraviolet (NUV) spectral features, particularly ozone (\\ce{O3}), which serves as an indirect proxy for molecular oxygen (\\ce{O2}) when direct detection is challenging. Using a combination of photochemical-climate modeling and atmospheric retrieval simulations, we quantify fiducial instrument performance requirements for robust \\ce{O3} detection and assess the risk of spectral false positives from sulfur dioxide (\\ce{SO2}).",
-      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
-      "intro_kind": "abstract_excerpt",
-      "intro_basis": "英文摘要节选",
-      "publication_date": "2026-10-13",
+      "intro_en": "Photochemical-climate and retrieval simulations translate ozone detection goals for low-oxygen Earth-like planets into near-UV instrumental requirements. The work also evaluates sulfur-dioxide confusion and emphasizes UV coverage when interpreting possible biosignatures.",
+      "intro_zh": "研究结合光化学—气候模型与大气反演模拟，评估低氧类地行星的臭氧信号对近紫外观测的要求，并检验二氧化硫的混淆风险。模拟表明，合适的三个相邻波段可在所设信噪比下约束低氧大气中的臭氧；在含有明显水汽的宜居环境中，二氧化硫要大量积累需要远高于现代地球的火山供给。结果强调紫外覆盖对解释潜在生物标志物的作用，而非已观测到生物活动。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-10-14",
       "publication_date_source": "https://arxiv.org/abs/2610.19081v1",
+      "intro_source": "https://arxiv.org/abs/2610.19081v1",
+      "intro_version": "2610.19081v1",
       "version_date": "2026-10-13T19:12:46+00:00",
       "variants": [
         {
@@ -2086,7 +1839,7 @@
           "doi": "",
           "version_id": "2610.19081v1",
           "first_seen": "2026-10-15T01:38:21.320708+00:00",
-          "publication_date": "2026-10-13",
+          "publication_date": "2026-10-14",
           "version_date": "2026-10-13T19:12:46+00:00",
           "metadata_source": null,
           "affiliation_source": "https://arxiv.org/html/2610.19081v1"
@@ -2140,13 +1893,13 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：exoplanet atmosphere、photochemical、chemical network、climate model、photochemical model",
+      "reason": "人工阅读摘要复核：有明确系外行星应用的一维／三维光化学与气候模式比较，符合行星大气化学和模式方向。",
       "tags": [
         "宜居性 · Habitability",
         "海冰与表层 · Ice & surface",
         "反演与数值方法 · Inverse & numerical methods"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 70,
       "fit_matches": [
         "行星大气与辐射",
@@ -2156,12 +1909,14 @@
       "author_affiliations": [],
       "affiliation_status": "unavailable",
       "affiliation_source": "https://arxiv.org/html/2610.18864v1",
-      "intro_en": "Over 4 billion years, Earth's atmosphere has been transformed from a composition devoid of molecular oxygen (O$_2$) to one where O$_2$ is now 21% of our modern atmosphere by volume. With high quantities of O$_2$, an ozone (O$_3$) layer can form and partially shield the surface from biologically harmful ultraviolet radiation (UV).",
-      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
-      "intro_kind": "abstract_excerpt",
-      "intro_basis": "英文摘要节选",
-      "publication_date": "2026-10-13",
+      "intro_en": "Comparisons of four 1D photochemical models with a 3D chemistry-climate model reveal substantial differences in ozone-layer predictions. Photolysis, chemistry, water microphysics and transport choices propagate into exoplanet observables and surface-habitability estimates.",
+      "intro_zh": "研究比较四套开源一维光化学模型与一套三维化学—气候模型，考察不同含氧量下臭氧层的演化。氧气光解、化学网络、水的微物理及三维输送处理不同，会使模拟臭氧层厚度明显偏离；这类差异在特定系外行星大气中可能更加突出。作者指出，模型偏差会继续传递到表面紫外损伤、宜居性和未来观测信号的预测。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-10-14",
       "publication_date_source": "https://arxiv.org/abs/2610.18864v1",
+      "intro_source": "https://arxiv.org/abs/2610.18864v1",
+      "intro_version": "2610.18864v1",
       "version_date": "2026-10-13T17:59:34+00:00",
       "variants": [
         {
@@ -2174,7 +1929,7 @@
           "doi": "",
           "version_id": "2610.18864v1",
           "first_seen": "2026-10-15T01:38:21.320708+00:00",
-          "publication_date": "2026-10-13",
+          "publication_date": "2026-10-14",
           "version_date": "2026-10-13T17:59:34+00:00",
           "metadata_source": null,
           "affiliation_source": "https://arxiv.org/html/2610.18864v1"
@@ -2241,11 +1996,11 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：exoplanet atmosphere、hot jupiter、global circulation model",
+      "reason": "人工阅读摘要复核：热木星三维大气结构、晨昏差异和分子丰度观测，符合行星大气环流与表征方向。",
       "tags": [
         "环流与波动 · Circulation & waves"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 62,
       "fit_matches": [
         "行星大气与辐射",
@@ -2489,12 +2244,14 @@
       ],
       "affiliation_status": "verified",
       "affiliation_source": "https://arxiv.org/html/2610.18806v1",
-      "intro_en": "Planets are inherently three-dimensional objects shaped by their thermal structure and dynamics. Observations of transiting exoplanets have begun to uncover this three-dimensional nature, with JWST measuring their dayside atmosphere structure with eclipse mapping, and exploring spectroscopic asymmetries in the limbs of planets during transit.",
-      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
-      "intro_kind": "abstract_excerpt",
-      "intro_basis": "英文摘要节选",
-      "publication_date": "2026-10-13",
+      "intro_en": "Transmission-string mapping resolves spatial variations around WASP-17b’s atmospheric limb over 0.6–12 microns. A roughly 650 K morning–evening contrast, alongside approximately uniform limb water and carbon-dioxide abundances, provides constraints for three-dimensional circulation and chemistry models.",
+      "intro_zh": "研究将 transmission strings 映射方法用于 WASP-17b，在 0.6–12 微米波段重建大气边缘由赤道到极区的空间变化。晨昏两侧的热标高对应约 650 K 的温差，与既有昼夜侧观测相容；水和二氧化碳丰度则可用沿边缘恒定的数值约束。这些结果为热木星三维环流和化学模式提供了直接的空间观测约束。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
+      "publication_date": "2026-10-14",
       "publication_date_source": "https://arxiv.org/abs/2610.18806v1",
+      "intro_source": "https://arxiv.org/abs/2610.18806v1",
+      "intro_version": "2610.18806v1",
       "version_date": "2026-10-13T17:46:20+00:00",
       "variants": [
         {
@@ -2507,7 +2264,7 @@
           "doi": "10.1038/s41550-026-02986-4",
           "version_id": "2610.18806v1",
           "first_seen": "2026-10-15T01:38:21.320708+00:00",
-          "publication_date": "2026-10-13",
+          "publication_date": "2026-10-14",
           "version_date": "2026-10-13T17:46:20+00:00",
           "metadata_source": null,
           "affiliation_source": "https://arxiv.org/html/2610.18806v1"
@@ -2609,14 +2366,14 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：planetary climate、climate model、climate simulation、volatile、ice sheet、water ice",
+      "reason": "人工阅读摘要复核：明确火星语境的三维行星气候与气溶胶辐射反馈模拟，按用户保留模式研究的要求收录；摘要结论有限。",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "岩浆与挥发分 · Magma & volatiles",
         "海冰与表层 · Ice & surface",
         "反演与数值方法 · Inverse & numerical methods"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 68,
       "fit_matches": [
         "行星气候与模式"
@@ -2625,12 +2382,14 @@
       "author_affiliations": [],
       "affiliation_status": "unavailable",
       "affiliation_source": "https://arxiv.org/html/2610.18114v2",
-      "intro_en": "Artificial warming via engineered aerosols presents a novel pathway to bypass volatile scarcity on modern Mars. Utilizing the Generic Planetary Climate Model, we evaluate the physical feasibility of aerosol-induced terraforming over a full Martian year (669 Sols).",
-      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
-      "intro_kind": "abstract_excerpt",
-      "intro_basis": "英文摘要节选",
+      "intro_en": "A 3D planetary climate model tests a single-injection aluminum-aerosol scenario over a full Martian year, balancing infrared warming against regional ice-albedo cooling. The abstract describes the diagnostic framework but does not state a definitive result on sustained warming or feasibility.",
+      "intro_zh": "研究利用通用行星气候模式，模拟以单次注入的铝纳米粒子替换火星自然尘埃后，一个完整火星年的气候响应。计算比较红外增温与希腊盆地区域冰盖的反照率冷却，并跟踪地表温度、升华和水汽变化。摘要未给出是否形成自持水汽温室的明确结论，不能据此宣称该增温方案已被证实可行。",
+      "intro_kind": "bilingual_editorial",
+      "intro_basis": "基于公开摘要整理",
       "publication_date": "2026-10-13",
       "publication_date_source": "https://arxiv.org/abs/2610.18114v2",
+      "intro_source": "https://arxiv.org/abs/2610.18114v2",
+      "intro_version": "2610.18114v2",
       "version_date": "2026-10-14T08:28:00+00:00",
       "variants": [
         {
@@ -6784,7 +6543,7 @@
       "intro_zh": "研究富水亚海王星和岩质超级地球的质量—半径关系，比较水与氢氦混合或分层的大气结构，并在形成—演化耦合模型中加入光致蒸发及水向岩浆海、金属核的溶解。结果显示，除“上层氢氦、下层水”的分层情景外，多种情景都能较好符合观测；水向内部溶解会明显影响预测半径，而所设初始条件下的蒸发分馏影响较小。",
       "intro_kind": "bilingual_editorial",
       "intro_basis": "基于公开摘要整理",
-      "publication_date": "2024-11-25",
+      "publication_date": "2024-11-26",
       "publication_date_source": "https://arxiv.org/abs/2411.16879v3",
       "intro_source": "https://arxiv.org/abs/2411.16879v3",
       "intro_version": "2411.16879v3",
@@ -6800,7 +6559,7 @@
           "doi": "",
           "version_id": "2411.16879v3",
           "first_seen": "2026-10-08T01:28:21.610616+00:00",
-          "publication_date": "2024-11-25",
+          "publication_date": "2024-11-26",
           "version_date": "2026-10-07T12:14:38+00:00",
           "metadata_source": null,
           "affiliation_source": "https://arxiv.org/html/2411.16879v3"
