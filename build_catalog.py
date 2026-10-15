@@ -107,6 +107,10 @@ def build():
  display_ids=set(config.get('scope_exclusion_rules',{}).get('public_topic_ids',[]))
  for p in papers:
   p['topics']=[topic for topic in p.get('topics',[]) if topic in display_ids]
+  # Keep historical editorial notes in the source archive, but publish only
+  # the original abstract. The reading list no longer offers AI summaries.
+  for key in list(p):
+   if key.startswith('intro_'):p.pop(key)
  names_path=ROOT/'author_names.json';names=json.loads(names_path.read_text()) if names_path.exists() else {}
  overrides_path=ROOT/'author_name_overrides.json';overrides=json.loads(overrides_path.read_text()) if overrides_path.exists() else []
  aliases,_,_=verified_hierarchy(ROOT)

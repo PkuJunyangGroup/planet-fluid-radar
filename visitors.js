@@ -9,12 +9,12 @@
 
   const ns = 'http://www.w3.org/2000/svg';
   const worldView = svg.getAttribute('viewBox');
-  const count = value => Number(value || 0).toLocaleString('zh-CN');
-  const chinaCity = { Taipei: '台北', 'Hong Kong': '香港', Macau: '澳门', Macao: '澳门' };
+  const count = value => Number(value || 0).toLocaleString('en');
+  const chinaCity = {};
   const normalizedCountry = code => ['TW', 'HK', 'MO'].includes(code) ? 'CN' : code;
   const countryName = code => {
-    if (code === 'XX') return '未知地区';
-    try { return new Intl.DisplayNames(['zh-CN'], { type: 'region' }).of(code) || code; }
+    if (code === 'XX') return 'Unknown region';
+    try { return new Intl.DisplayNames(['en'], { type: 'region' }).of(code) || code; }
     catch (_) { return code; }
   };
   const setText = (selector, value) => { document.querySelector(selector).textContent = value; };
@@ -76,7 +76,7 @@
       highlightCountry();
       svg.setAttribute('viewBox', worldView);
       reset.hidden = true;
-      focus.textContent = '点击地图查看访问量。';
+      focus.textContent = 'Click the map to explore visits.';
     });
     for (const shape of shapes) {
       const aggregateCode = normalizedCountry(shape.code);
@@ -89,7 +89,7 @@
       path.dataset.country = aggregateCode;
       path.dataset.region = shape.code;
       path.setAttribute('tabindex', '0');
-      const label = `${countryName(aggregateCode)}：${count(views)} 次访问${row ? `，${count(row.visitor_days)} 个访客日` : ''}`;
+      const label = `${countryName(aggregateCode)}: ${count(views)} views${row ? `, ${count(row.visitor_days)} visitor-days` : ''}`;
       path.setAttribute('aria-label', label);
       const title = document.createElementNS(ns, 'title');
       title.textContent = label;
@@ -113,7 +113,7 @@
       if (row.latitude == null || row.longitude == null || !Number.isFinite(latitude) || !Number.isFinite(longitude)
         || Math.abs(latitude) > 90 || Math.abs(longitude) > 180) continue;
       const views = Number(row.views || 0);
-      const label = `${cityLabel(row)}：${count(views)} 次访问，${count(row.visitor_days)} 个访客日`;
+      const label = `${cityLabel(row)}: ${count(views)} views, ${count(row.visitor_days)} visitor-days`;
       const marker = document.createElementNS(ns, 'circle');
       marker.setAttribute('cx', String((longitude + 180) * 2.5));
       marker.setAttribute('cy', String((90 - latitude) * 2.5));
@@ -133,23 +133,23 @@
       svg.append(marker);
     }
     if (!data) {
-      status.textContent = '访问统计尚未启用；地图将在统计接口部署后自动显示数据。';
-      focus.textContent = '目前没有可展示的访问数据。';
+      status.textContent = 'Visitor statistics are temporarily unavailable.';
+      focus.textContent = 'No visitor data is currently available.';
       return;
     }
-    setText('#map-total', `近 30 天访问 · ${count(rows.reduce((sum, row) => sum + Number(row.views || 0), 0))}`);
-    setText('#map-countries', `访问国家 · ${count(rows.filter(row => row.country !== 'XX').length)}`);
-    setText('#map-cities', `访问城市 · ${count(cities.length)}`);
-    setText('#map-day', `截至 · ${data.day || '—'}（北京时间）`);
-    status.textContent = rows.length ? '按近 30 天访问量排序' : '近 30 天暂无访问记录。';
+    setText('#map-total', `Views in the last 30 days · ${count(rows.reduce((sum, row) => sum + Number(row.views || 0), 0))}`);
+    setText('#map-countries', `Countries · ${count(rows.filter(row => row.country !== 'XX').length)}`);
+    setText('#map-cities', `Cities · ${count(cities.length)}`);
+    setText('#map-day', `Through · ${data.day || '—'} (Beijing time)`);
+    status.textContent = rows.length ? 'Sorted by views in the last 30 days' : 'No visits recorded in the last 30 days.';
     for (const row of rows) {
       const item = document.createElement('li');
       const name = document.createElement('span');
       name.textContent = countryName(row.country);
       const amount = document.createElement('strong');
-      amount.textContent = `${count(row.views)} 次`;
+      amount.textContent = `${count(row.views)} views`;
       const days = document.createElement('small');
-      days.textContent = `${count(row.visitor_days)} 个访客日`;
+      days.textContent = `${count(row.visitor_days)} visitor-days`;
       item.append(name, amount, days);
       list.append(item);
     }
@@ -158,14 +158,14 @@
       const name = document.createElement('span');
       name.textContent = cityLabel(row);
       const amount = document.createElement('strong');
-      amount.textContent = `${count(row.views)} 次`;
+      amount.textContent = `${count(row.views)} views`;
       const days = document.createElement('small');
-      days.textContent = `${count(row.visitor_days)} 个访客日`;
+      days.textContent = `${count(row.visitor_days)} visitor-days`;
       item.append(name, amount, days);
       cityList.append(item);
     }
   }).catch(() => {
-    status.textContent = '地图或统计接口暂时不可用，请稍后再试。';
-    focus.textContent = '无法读取地图数据。';
+    status.textContent = 'Map or statistics are temporarily unavailable. Please try again later.';
+    focus.textContent = 'Map data could not be loaded.';
   });
 })();

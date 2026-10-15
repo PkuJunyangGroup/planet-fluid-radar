@@ -1,45 +1,42 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="行星与流体文献雷达的访客地区统计。">
-  <title>访客地图 · 行星与流体</title>
+  <meta name="description" content="Visitor geography for Literature Radar.">
+  <title>Visitor map · Literature Radar</title>
   <link rel="icon" href="favicon.svg">
-  <link rel="stylesheet" href="style.css?v=20260928-china-focus">
+  <link rel="stylesheet" href="style.css?v=20261015">
 </head>
 <body>
-  <header>
-    <a class="brand" href="./">PLANET / FLUID <small>文献索引</small></a>
-    <nav aria-label="主导航"><a href="./">文献</a><a href="network.html">机构网络</a><a href="sources.html">文献来源</a><a href="sources.html#statistics">月度统计</a></nav>
-  </header>
+<header><a class="brand" href="./">PLANETARY ATMOSPHERES <small>Literature Radar</small></a><nav aria-label="Main navigation"><a href="./">Papers</a><a href="network.html">Institutions</a><a href="sources.html">Sources &amp; statistics</a></nav></header>
   <main class="visitor-map-page">
     <section class="intro-header">
       <div class="eyebrow">VISITOR GEOGRAPHY</div>
-      <h1>访客地图</h1>
-      <p>近 30 天的访问分布。</p>
+      <h1>Visitor map</h1>
+      <p>Visits in the last 30 days.</p>
     </section>
-    <div class="visitor-map-stats" aria-live="polite"><span id="map-total">近 30 天访问 · —</span><span id="map-countries">访问国家 · —</span><span id="map-cities">访问城市 · —</span><span id="map-day">截至 · —</span></div>
-    <section class="visitor-map-layout" aria-label="访客地区统计">
+    <div class="visitor-map-stats" aria-live="polite"><span id="map-total">Views in the last 30 days · —</span><span id="map-countries">Countries · —</span><span id="map-cities">Cities · —</span><span id="map-day">Through · —</span></div>
+    <section class="visitor-map-layout" aria-label="Visitor geography">
       <div class="visitor-map-panel">
-        <svg id="visitor-map" viewBox="0 0 900 450" role="img" aria-label="世界地图，国家按近 30 天访问量着色，城市以圆点标记"></svg>
-        <button id="map-reset" class="visitor-map-reset" type="button" hidden>返回世界地图</button>
-        <div class="visitor-map-legend"><span>访问量</span><i class="map-level-0"></i><i class="map-level-1"></i><i class="map-level-2"></i><i class="map-level-3"></i><i class="map-level-4"></i><span>较多</span></div>
-        <p id="map-focus" class="visitor-map-focus" aria-live="polite">点击地图查看访问量。</p>
+        <svg id="visitor-map" viewBox="0 0 900 450" role="img" aria-label="World map; countries shaded by views, cities shown as dots"></svg>
+        <button id="map-reset" class="visitor-map-reset" type="button" hidden>World map</button>
+        <div class="visitor-map-legend"><span>Views</span><i class="map-level-0"></i><i class="map-level-1"></i><i class="map-level-2"></i><i class="map-level-3"></i><i class="map-level-4"></i><span>More</span></div>
+        <p id="map-focus" class="visitor-map-focus" aria-live="polite">Click the map to explore visits.</p>
       </div>
       <aside class="visitor-map-aside">
-        <h2>国家汇总</h2>
-        <p id="map-status" role="status">正在读取访问统计…</p>
+        <h2>Countries</h2>
+        <p id="map-status" role="status">Loading visitor statistics…</p>
         <ol id="visitor-country-list"></ol>
-        <h2>城市分布</h2>
+        <h2>Cities</h2>
         <ol id="visitor-city-list"></ol>
       </aside>
     </section>
-    <p class="visitor-map-note">城市位置按网络出口估算，可能与实际位置不同。<a href="sources.html#visitor-privacy">统计与隐私 ↗</a> · 底图：<a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>。</p>
+    <p class="visitor-map-note">Locations are approximate and may reflect network gateways. <a href="sources.html#visitor-privacy">Statistics & privacy ↗</a> · Map: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a></p>
   </main>
-  <footer><span>PLANET / FLUID</span><span>访客地区 · 汇总视图</span><a href="mailto:pku_junyang_group@163.com?subject=%E6%96%87%E7%8C%AE%E9%9B%B7%E8%BE%BE%EF%BC%9A%E9%97%AE%E9%A2%98%E5%8F%8D%E9%A6%88%E4%B8%8E%E5%BB%BA%E8%AE%AE" aria-label="给管理员发邮件：pku_junyang_group@163.com">反馈问题 / 提建议 ↗</a><a class="visitor-privacy-link" href="sources.html#visitor-privacy">访问统计说明</a><details class="visitor-stats" data-visitor-stats hidden></details></footer>
+<footer><span>Literature Radar · Peking University</span><a href="mailto:pku_junyang_group@163.com?subject=Literature%20Radar%20feedback">Feedback ↗</a><a href="visitors.html">Visitor map</a><a href="sources.html#visitor-privacy">Privacy</a><details class="visitor-stats" data-visitor-stats hidden></details></footer>
   <script src="stats-config.js?v=20260927" defer></script>
-  <script src="visitor-stats.js?v=20260928-china-focus" defer></script>
-  <script src="visitors.js?v=20260928-china-focus" defer></script>
+  <script src="visitor-stats.js?v=20261015" defer></script>
+  <script src="visitors.js?v=20261015" defer></script>
 </body>
 </html>
