@@ -22,6 +22,17 @@ def apply_dates(p, entry):
   p['publication_date']=entry['published'];p['publication_date_source']=entry['source']
  elif p.get('date_kind')!='announcement':
   p['publication_date']=p.get('published');p['publication_date_source']='arXiv API'
+ # API submission timestamps are UTC. Keep the original timestamp in published,
+ # but group dated records by the Beijing calendar used by the website.
+ # RSS announcement times and date-only metadata cannot establish this shift.
+ if p.get('date_kind')!='announcement':
+  raw=p.get('published') or ''
+  try:
+   first=dt.datetime.fromisoformat(raw.replace('Z','+00:00')) if 'T' in raw else None
+   verified=p.get('publication_date')
+   if first and first.tzinfo and (not entry or verified==first.astimezone(dt.timezone.utc).date().isoformat()):
+    p['publication_date']=first.astimezone(dt.timezone(dt.timedelta(hours=8))).date().isoformat()
+  except (ValueError,TypeError):pass
  if entry and entry.get('version_date'):p['version_date']=entry['version_date']
  if entry and entry.get('doi'):p['doi']=entry['doi']
 
