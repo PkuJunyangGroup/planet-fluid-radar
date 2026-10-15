@@ -119,3 +119,10 @@ python3 build_network.py
 文献右侧 ☆ / ★ 可添加或取消匿名推荐。推荐数由现有 Cloudflare Worker 的 `/recommendations` 接口和 D1 保存，所有访客看到相同总数；Recommended 筛选有推荐的论文，Most recommended 按总数排序。每个浏览器持久保存一个随机 UUID，每篇最多一条，重复请求幂等；不绑定老师身份，也不依据访问 IP 去重。清理浏览器数据或换设备会产生新身份。推荐接口不返回其他人的标识或访问 IP；访客统计仍使用独立的原有访问表和保留策略。后端首次访问时只创建独立的 paper_recommendations 表，不重建访客数据库。
 
 后端源码与测试在 visitor-stats/；部署现有 Worker 后才可用。前端接口失败会明确提示，并禁用星标写入，不伪造零次成功。验证：`node --test visitor-stats/test.mjs test_timeline.mjs test_compact.mjs`。
+
+
+## 云端维护与 Dot 交接
+
+日常抓取、规则筛选、目录和网络构建及 Pages 发布由 `.github/workflows/daily.yml` 在 GitHub 云端执行，访客统计和共享星标在现有 Cloudflare Worker / D1 运行，无须本机开机。`build_catalog.py` 同时生成 catalog.json 中的 daily_brief，来源页的 Daily update 显示当日新收录、较早论文补入、版本更新及来源失败；规则筛选不冒充摘要阅读复核。来源页的 Cloud maintenance 链接到 GitHub 运行记录、手动触发及配置编辑，写操作仍需 GitHub 授权。
+
+`cloud-maintenance.json` 保存 Dot 交接指令。Dot 应使用自有云端电脑，读取此文件与最新 README/config/workflow，核对 PkuJunyangGroup 仓库权限后，在 Dot 保存每天北京时间 10:00 的阅读复核和简报计划，确认实际保存的时间与交付位置。云端会话不继承本机的 GitHub、Cloudflare 或校园网登录。尚未由 Dot 确认计划和云端访问前，handoff_status 必须保持待接手，不得宣称 AI 阅读复核已经完成迁移。本站规则抓取不依赖这一步；用户本机上的旧定时维护应停用，以免双重执行。

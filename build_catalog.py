@@ -75,6 +75,25 @@ def apply_publisher_supplements(records, supplements):
   p['metadata_limited']=False
  return records
 
+def daily_brief(papers,sources,registry,now):
+ """A factual cloud-built digest; never imply that rules read an abstract."""
+ zone=dt.timezone(dt.timedelta(hours=8));today=now.astimezone(zone).date()
+ def day(value):
+  value=str(value or '')
+  if re.fullmatch(r'\d{4}-\d{2}-\d{2}',value):return value
+  if 'T' in value:
+   try:return dt.datetime.fromisoformat(value.replace('Z','+00:00')).astimezone(zone).date().isoformat()
+   except ValueError:pass
+  return None
+ new=[p for p in papers if day(p.get('first_seen'))==str(today)]
+ recent=lambda p:any(str(today-dt.timedelta(days=n)) in [day(p.get('publication_date')),day(p.get('version_date'))] for n in [0,1])
+ disabled={'journal:'+j['id'] for j in registry['journals'] if j.get('enabled') is False}
+ return {'date':str(today),'built_at':now.isoformat(),'review_basis':'Automated rule screening; reading review is recorded separately.',
+  'new_count':len(new),'recent_ids':[p['id'] for p in new if recent(p)],
+  'older_ids':[p['id'] for p in new if not recent(p)],
+  'updated_ids':[p['id'] for p in papers if p not in new and day(p.get('version_date'))==str(today) and p.get('source')=='arXiv' and not str(p.get('version_id','')).endswith('v1')],
+  'source_issues':[{'name':k,'status':v.get('status','unknown')} for k,v in sources.items() if k not in disabled and v.get('status')!='ok']}
+
 def build():
  arxiv=json.loads((ROOT/'papers.json').read_text());jpath=ROOT/'journal_records.json';journal=json.loads(jpath.read_text()) if jpath.exists() else {'papers':[],'sources':{}};epath=ROOT/'exoplanet_records.json';exoplanet=json.loads(epath.read_text()) if epath.exists() else {'papers':[],'sources':{}};notes=json.loads((ROOT/'editorial.json').read_text());registry=json.loads((ROOT/'journals.json').read_text())
  config=json.loads((ROOT/'topics.json').read_text())
@@ -126,6 +145,7 @@ def build():
      a.update(name_zh=item['name_zh'],name_source=item['source'])
  sources={**arxiv['sources'],**{'journal:'+k:v for k,v in journal['sources'].items()},**exoplanet.get('sources',{})}
  d={**arxiv,'generated_at':dt.datetime.now(dt.timezone.utc).isoformat(),'papers':papers,'intake':intake,'topic_filter_ids':[t['id'] for t in config['topics'] if t['id'] in display_ids],'sources':sources,'journals':registry,'monthly_statistics':journal.get('monthly_statistics',{}),'record_count':len(arxiv['papers'])+len(journal['papers'])+len(exoplanet['papers']),'merged_count':sum(len(p['variants'])-1 for p in papers)}
+ d['daily_brief']=daily_brief(papers,sources,registry,dt.datetime.now(dt.timezone.utc))
  (ROOT/'catalog.json').write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')
  print(len(papers),'catalog items;',d['merged_count'],'duplicates linked')
  return d

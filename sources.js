@@ -3,7 +3,17 @@
  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const when=s=>s?new Date(s).toLocaleString('en-GB',{timeZone:'Asia/Shanghai'}):'No successful fetch';
  try{
- const r=await fetch('./catalog.json');if(!r.ok)throw Error();const d=await r.json();
+ const r=await fetch('./catalog.json',{cache:'no-store'});if(!r.ok)throw Error();const d=await r.json();
+ if($('#daily-brief')){
+  const brief=d.daily_brief;
+  if(!brief){$('#daily-brief').textContent='The next cloud build will provide a daily update.'}
+  else{
+   const byId=new Map(d.papers.map(p=>[p.id,p]));
+   const group=(label,ids)=>ids?.length?`<h3>${label} (${ids.length})</h3><ul>${ids.map(id=>{const p=byId.get(id);return p?`<li><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)} ↗</a><br><small>${esc((p.authors||[]).slice(0,3).join(', '))}${p.authors?.length>3?', et al.':''} · ${esc((p.journals||[]).join(' / ')||p.journal||p.source)} · Published ${esc(p.publication_date||'unknown')} · Added ${esc(p.first_seen?new Date(p.first_seen).toLocaleDateString('en-CA',{timeZone:'Asia/Shanghai'}):'unknown')}</small></li>`:''}).join('')}</ul>`:'';
+   $('#daily-brief').innerHTML=`<p>${esc(brief.date)} (Beijing) · ${brief.new_count} newly indexed papers${brief.new_count?'':'. No new relevant papers were added today'}.</p>${group('Recently published or updated',brief.recent_ids)}${group('Earlier papers added today',brief.older_ids)}${group('Version updates',brief.updated_ids)}<p class="stats-note">${esc(brief.review_basis)} ${brief.source_issues.length?'Sources needing attention: '+brief.source_issues.map(x=>esc(x.name)+' ('+esc(x.status)+')').join(', '):'No enabled sources report a request failure in the current source status.'}<br>Built ${esc(when(brief.built_at))} (Beijing). <a href="https://github.com/PkuJunyangGroup/planet-fluid-radar/actions/workflows/daily.yml" target="_blank" rel="noopener">Deployment &amp; run status ↗</a></p>`;
+  }
+ }
+
  if(el){el.replaceChildren();for(const [name,s]of Object.entries(d.sources).filter(([k])=>!k.startsWith('journal:'))){const p=document.createElement('p');p.textContent=name+' · '+(s.status==='ok'?'OK':s.status==='partial'?'RSS updated; API recovery pending':'Request failed; historical records retained')+' · Last success: '+when(s.last_rss_success||s.last_success);el.append(p)}
  $('#journal-directory').innerHTML=Object.entries(d.journals.groups).map(([id,label])=>`<section class="source-group"><h3>${esc(label.split(' · ').at(-1))}</h3><table><thead><tr><th>Journal</th><th>Fetch status & indexed papers</th></tr></thead><tbody>${d.journals.journals.filter(j=>j.enabled!==false&&j.group===id).map(j=>{const s=d.sources['journal:'+j.id],total=d.papers.filter(p=>p.variants.some(v=>v.journal_id===j.id)).length;return `<tr><td><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.name)} ↗</a><span class="source-state">ISSN ${esc(j.issn)}</span><a href="./?journal=${encodeURIComponent(j.id)}">${total} papers in this index →</a></td><td>${!s?'Awaiting first fetch':s.status==='ok'?`API OK · ${s.fetched} retrieved / ${s.retained} retained`:'Request failed · historical records retained'}${s?.fetched===0?' · No records in this query; this does not mean no publications':''}<span class="source-state">Last success ${esc(when(s?.last_success))}${s?.coverage_since?' · Coverage from '+esc(s.coverage_since):''}</span></td></tr>`}).join('')}</tbody></table></section>`).join('');}
  if(!$('#statistics'))return;
