@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T08:22:13.889900+00:00",
+  "generated_at": "2026-10-15T08:35:06.222587+00:00",
   "nodes": [
     {
       "id": "8c45f60c84082063",
@@ -15729,7 +15729,8 @@
       "first_seen": "2026-09-24T08:51:14.614730+00:00",
       "publication_date": "2026-06-12",
       "journals": [
-        "The Astrophysical Journal"
+        "The Astrophysical Journal",
+        "ApJ"
       ],
       "institutions": [
         "264737ef3fba38d4",
@@ -17822,6 +17823,21 @@
         "7d7f56dced000a09"
       ]
     },
+    "doi:10.3847/1538-4357/ae47f2": {
+      "id": "doi:10.3847/1538-4357/ae47f2",
+      "title": "Atmospheric Collapse and Habitability on Tidally Locked Exoplanets",
+      "url": "https://doi.org/10.3847/1538-4357/ae47f2",
+      "topics": [
+        "planetary",
+        "models"
+      ],
+      "first_seen": "2026-10-15T08:26:00+00:00",
+      "publication_date": "2026-03-16",
+      "journals": [
+        "The Astrophysical Journal"
+      ],
+      "institutions": []
+    },
     "exoplanet-bib:33128": {
       "id": "exoplanet-bib:33128",
       "title": "Transport and Thermochemical Kinetics of Alkali Species in Hot Jupiter Atmospheres: Implications for Magnetic Models",
@@ -17838,7 +17854,7 @@
       "institutions": []
     }
   },
-  "omitted_papers": 33,
+  "omitted_papers": 34,
   "level": "parent",
   "researchers": [
     {
@@ -19440,7 +19456,8 @@
       "orcid": "https://orcid.org/0000-0003-2260-9856",
       "identity_basis": "orcid",
       "papers": [
-        "2609.36697"
+        "2609.36697",
+        "doi:10.3847/1538-4357/ae47f2"
       ],
       "institutions": [
         "3b535182cc8b9c8d"
@@ -34997,6 +35014,81 @@
       ],
       "aliases": [
         "Wolf Cukier"
+      ]
+    },
+    {
+      "id": "3107b08ca65529ff",
+      "name": "Keigo Taniguchi",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0009-0009-8470-1886",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/1538-4357/ae47f2"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Keigo Taniguchi"
+      ]
+    },
+    {
+      "id": "c7a578df5e596c0c",
+      "name": "Takanori Kodama",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0001-9032-5826",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/1538-4357/ae47f2"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Takanori Kodama"
+      ]
+    },
+    {
+      "id": "2bcb9a6dd1218551",
+      "name": "Guillaume Chaverot",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0003-4711-3099",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/1538-4357/ae47f2"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Guillaume Chaverot"
+      ]
+    },
+    {
+      "id": "8207d862e0b8cd82",
+      "name": "Ehouarn Millour",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0003-4808-9203",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/1538-4357/ae47f2"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Ehouarn Millour"
+      ]
+    },
+    {
+      "id": "ee1ef1c7dc0de802",
+      "name": "Hidenori Genda",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0001-6702-0872",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/1538-4357/ae47f2"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Hidenori Genda"
       ]
     },
     {
