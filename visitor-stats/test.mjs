@@ -18,6 +18,8 @@ function database() {
           };
         },
         first: async () => sqlite.prepare(sql).get(),
+        run: async () => sqlite.prepare(sql).run(),
+        all: async () => ({ results: sqlite.prepare(sql).all() }),
       };
     },
   };
@@ -92,4 +94,30 @@ test('caps repeated hits and purges raw addresses while preserving aggregates', 
   await worker.scheduled({}, { DB: db });
   assert.equal(sqlite.prepare("SELECT COUNT(*) AS n FROM visits WHERE day='2020-01-01'").get().n, 0);
   assert.equal(sqlite.prepare("SELECT views FROM daily_totals WHERE day='2020-01-01'").get().views, 1);
+});
+const readers = ['56e185ce-36b0-47ee-befa-9fe98d5525cb', '0814f764-0a19-4d51-84cf-83d535b0869e'];
+function recommendation(reader, paper='2610.18806', recommended=true, origin='https://pkujunyanggroup.github.io') {
+ return new Request('https://stats.example.workers.dev/recommendations', { method:'POST', headers:{ Origin:origin, 'Content-Type':'application/json' }, body:JSON.stringify({reader_id:reader,paper_id:paper,recommended}) });
+}
+test('shared recommendations are idempotent per browser and can be withdrawn independently', async()=>{
+ const {db,sqlite}=database(),env={DB:db};
+ for(const reader of [readers[0],readers[0],readers[1]])assert.equal((await worker.fetch(recommendation(reader),env)).status,200);
+ let result=await (await worker.fetch(new Request('https://stats.example.workers.dev/recommendations?reader='+readers[0],{headers:{Origin:'https://pkujunyanggroup.github.io'}}),env)).json();
+ assert.deepEqual(result,{counts:{'2610.18806':2},mine:['2610.18806']});
+ assert.equal(JSON.stringify(result).includes(readers[1]),false);
+ result=await (await worker.fetch(recommendation(readers[0],'2610.18806',false),env)).json();
+ assert.deepEqual(result,{counts:{'2610.18806':1},mine:[]});
+ assert.equal(sqlite.prepare('SELECT COUNT(*) AS n FROM visits').get().n,0);
+ assert.equal((await worker.fetch(recommendation(readers[0],'doi:10.1038/s41550-026-02984-6'),env)).status,200);
+ assert.equal((await worker.fetch(recommendation(readers[0],'exoplanet-bib:33128'),env)).status,200);
+});
+test('recommendations reject invalid input and foreign origins and report outages honestly', async()=>{
+ const {db}=database();
+ assert.equal((await worker.fetch(recommendation('not-a-reader'),{DB:db})).status,400);
+ assert.equal((await worker.fetch(recommendation(readers[0],'<script>'),{DB:db})).status,400);
+ assert.equal((await worker.fetch(recommendation(readers[0],undefined,undefined,'https://other.example'),{DB:db})).status,403);
+ assert.equal((await worker.fetch(recommendation(readers[0]),{})).status,503);
+ const preflight=await worker.fetch(new Request('https://stats.example.workers.dev/recommendations',{method:'OPTIONS',headers:{Origin:'https://pkujunyanggroup.github.io'}}),{});
+ assert.equal(preflight.status,204);
+ assert.equal(preflight.headers.get('Access-Control-Allow-Headers'),'Content-Type');
 });

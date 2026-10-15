@@ -18,3 +18,7 @@ GitHub Pages 无法保存访问日志。此目录提供 Cloudflare Worker + D1 �
 只有来自 `https://pkujunyanggroup.github.io` 的浏览器请求会得到跨域授权。Worker 禁用持久化观测日志，代码中不写入控制台日志。此 Origin 检查无法阻止伪造请求；若实际出现恶意刷量，应在 Cloudflare 仪表板加限流。若统计接口不可达，网站照常可读，计数器隐藏。
 
 本地验证：Node.js 24+ 运行 `npm test`；测试使用内存 SQLite，不接触真实访客数据。
+
+## 共享论文推荐
+
+现有 Worker 同时提供 GET /recommendations 和 POST /recommendations。前端以随机浏览器 UUID 维护匿名推荐，D1 的 paper_recommendations 表在首次请求时创建，按 paper_id、reader_id 唯一去重；添加幂等，取消仅影响该浏览器自己的推荐。GET 只返回聚合 counts 和请求者自己的 mine，不公开其他读者标识。无需新建数据库、运行 schema.sql 或修改访客表。部署本目录 src/index.js 即可保留原访客统计并增加推荐；测试为 `node --test test.mjs`。
