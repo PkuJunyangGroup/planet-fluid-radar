@@ -34,6 +34,45 @@ function validIp(ip) {
   return typeof ip === 'string' && ip.length <= 45 && /^[0-9a-fA-F:.]+$/.test(ip);
 }
 
+const validReader = value => typeof value === 'string' && /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(value);
+const validPaper = value => typeof value === 'string' && value.length <= 200 && /^(?:\d{4}\.\d{4,5}|(?:doi:)?10\.\d{4,9}\/[^\s<>"']+|exoplanet-bib:\d+)$/i.test(value);
+
+async function recommendations(request, db, origin) {
+  if (!db) return json({ error: 'Recommendations unavailable' }, 503, origin);
+  try {
+    const url = new URL(request.url);
+    let reader = url.searchParams.get('reader');
+    let change;
+    if (request.method === 'POST') {
+      if (!request.headers.get('Content-Type')?.startsWith('application/json')) return json({ error: 'Expected JSON' }, 415, origin);
+      const raw = await request.text();
+      if (raw.length > 1024) return json({ error: 'Request too large' }, 413, origin);
+      try { change = JSON.parse(raw); } catch (_) { return json({ error: 'Invalid JSON' }, 400, origin); }
+      reader = change?.reader_id;
+      if (!validPaper(change?.paper_id) || typeof change?.recommended !== 'boolean') return json({ error: 'Invalid recommendation' }, 400, origin);
+    }
+    if (reader !== null && !validReader(reader)) return json({ error: 'Invalid reader' }, 400, origin);
+    if (request.method === 'POST' && !validReader(reader)) return json({ error: 'Invalid reader' }, 400, origin);
+    await db.prepare(`CREATE TABLE IF NOT EXISTS paper_recommendations (
+      paper_id TEXT NOT NULL, reader_id TEXT NOT NULL, created_at TEXT NOT NULL,
+      PRIMARY KEY (paper_id, reader_id)
+    )`).run();
+    if (change) {
+      if (change.recommended) {
+        await db.prepare('INSERT OR IGNORE INTO paper_recommendations (paper_id, reader_id, created_at) VALUES (?, ?, ?)')
+          .bind(change.paper_id, reader, new Date().toISOString()).run();
+      } else {
+        await db.prepare('DELETE FROM paper_recommendations WHERE paper_id = ? AND reader_id = ?').bind(change.paper_id, reader).run();
+      }
+    }
+    const totals = await db.prepare('SELECT paper_id, COUNT(*) AS count FROM paper_recommendations GROUP BY paper_id').all();
+    const own = reader ? await db.prepare('SELECT paper_id FROM paper_recommendations WHERE reader_id = ?').bind(reader).all() : { results: [] };
+    return json({ counts: Object.fromEntries(totals.results.map(row => [row.paper_id, Number(row.count)])), mine: own.results.map(row => row.paper_id) }, 200, origin);
+  } catch (_) {
+    return json({ error: 'Recommendations unavailable' }, 503, origin);
+  }
+}
+
 async function summary(db, day) {
   const since = beijingDay(new Date(Date.now() - 29 * 86400000));
   const countryGroup = "CASE WHEN country IN ('TW', 'HK', 'MO') THEN 'CN' ELSE country END";
@@ -68,14 +107,16 @@ export default {
     const origin = request.headers.get('Origin');
     if (origin !== SITE_ORIGIN) return json({ error: 'Forbidden origin' }, 403);
     const path = new URL(request.url).pathname;
-    if (request.method === 'OPTIONS' && path === '/visit') {
+    if (request.method === 'OPTIONS' && ['/visit', '/recommendations'].includes(path)) {
       return new Response(null, { status: 204, headers: {
         'Access-Control-Allow-Origin': SITE_ORIGIN,
-        'Access-Control-Allow-Methods': 'POST, OPTIONS',
+        'Access-Control-Allow-Methods': path === '/visit' ? 'POST, OPTIONS' : 'GET, POST, OPTIONS',
+        'Access-Control-Allow-Headers': 'Content-Type',
         'Access-Control-Max-Age': '86400',
         Vary: 'Origin',
       } });
     }
+    if (path === '/recommendations' && ['GET', 'POST'].includes(request.method)) return recommendations(request, env.DB, origin);
     if (path !== '/visit' || request.method !== 'POST') return json({ error: 'Not found' }, 404, origin);
     if (!env.DB) return json({ error: 'Statistics unavailable' }, 503, origin);
     const ip = request.headers.get('CF-Connecting-IP');
