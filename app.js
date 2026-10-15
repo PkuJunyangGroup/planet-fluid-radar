@@ -138,13 +138,56 @@ function paperAuthors(p){
   return chinese.length===1&&chinese[0]!==name?`${chinese[0]} · ${name}`:name;
  });
 }
+
+// Render only explicit TeX spans. Source data stays untouched; all prose is escaped.
+// Currency and unmatched/unsupported TeX remain readable when KaTeX is unavailable.
+function abstractHTML(value){
+ const text=String(value), renderer=globalThis.katex;
+ const escapedAt=i=>{let n=0;while(i>0&&text[--i]==='\\')n++;return n%2===1};
+ const renderMath=(tex,raw,display)=>{
+  if(!renderer)return esc(raw);
+  try{return `<span class="abstract-math${display?' abstract-math-display':''}">${renderer.renderToString(tex,{displayMode:display,throwOnError:true,trust:false,strict:'ignore',output:'htmlAndMathml',maxExpand:200,maxSize:20})}</span>`}
+  catch{return esc(raw)}
+ };
+ let html='',plain='',i=0;
+ const flush=()=>{html+=esc(plain);plain=''};
+ while(i<text.length){
+  // Common JATS publisher TeX wrappers, not arbitrary publisher HTML.
+  const xml=text.slice(i).match(/^<(?:jats:)?(inline-formula|disp-formula)>\s*<(?:jats:)?tex-math>([\s\S]*?)<\/(?:jats:)?tex-math>\s*<\/(?:jats:)?\1>/);
+  if(xml){let tex=xml[2].replace(/^<!\[CDATA\[([\s\S]*)\]\]>$/,'$1').trim();tex=tex.replace(/^\$\$([\s\S]*)\$\$$/,'$1').replace(/^\$([\s\S]*)\$$/,'$1');flush();html+=renderMath(tex,xml[0],xml[1]==='disp-formula');i+=xml[0].length;continue}
+  let open='',close='',display=false;
+  if(!escapedAt(i)){
+   if(text.startsWith('$$',i)){open=close='$$';display=true}
+   else if(text[i]==='$'&&!/\s/.test(text[i+1]||' ')){open=close='$'}
+   else if(text.startsWith('\\(',i)){open='\\(';close='\\)'}
+   else if(text.startsWith('\\[',i)){open='\\[';close='\\]';display=true}
+  }
+  if(open){
+   let end=i+open.length;
+   while((end=text.indexOf(close,end))!==-1){
+    if(!escapedAt(end)&&(close!=='$'||(!/\s/.test(text[end-1])&&!/\d/.test(text[end+1]||'')&&text[end+1]!=='$')))break;
+    end+=close.length;
+   }
+   if(end!==-1){
+    const tex=text.slice(i+open.length,end),raw=text.slice(i,end+close.length);
+    // Single-dollar prose across a paragraph is almost always monetary text.
+    if(tex.trim()&&(open!=='$'||(!tex.includes('\n')&&!/\$/.test(tex)))){
+     flush();html+=renderMath(tex,raw,display);i=end+close.length;continue;
+    }
+   }
+  }
+  plain+=text[i++];
+ }
+ flush();return html;
+}
+
 function paperRow(p){
  const authors=paperAuthors(p),short=authors.slice(0,3).join(', ')+(authors.length>3?', et al.':'');
  const source=(p.journals||[]).join(' / ')||p.journal||p.source;
  const year=(p.publication_date||'').slice(0,4),id=String(p.id);
  const rec=recommendations,starred=rec.mine.has(id),count=rec.count(id);
  const variants=p.variants||[];
- return `<article class="paper" data-paper="${esc(id)}"><div class="paper-line"><h3><a href="${safe(p.url)}" target="_blank" rel="noopener">${esc(p.title)} <span class="external-mark" aria-hidden="true">↗</span></a></h3><button type="button" class="recommend-button${starred?' is-recommended':''}" data-recommend="${esc(id)}" aria-pressed="${starred}" aria-label="${starred?'Remove your recommendation':'Recommend this paper'}; ${count} recommendations" title="${starred?'Remove your recommendation':'Recommend this paper to other readers'}" ${!rec.ready||rec.pending.has(id)?'disabled':''}><span aria-hidden="true">${starred?'★':'☆'}</span><span class="recommend-count">${rec.ready?count:'–'}</span></button></div><div class="paper-info"><span class="authors" title="${esc(authors.join(', '))}">${esc(short||'Authors unavailable')}</span><span class="source">${esc(source)}</span><span>${esc(year||'Year unknown')}</span><details class="abstract"><summary>Abstract</summary><div class="abstract-body"><p lang="en">${esc(p.abstract||'The source has not supplied an abstract. Open the paper to read more.')}</p><div class="abstract-provenance"><span>Published ${esc(date(p.publication_date))}</span><span>Added ${esc(date(p.first_seen))}</span>${p.version_date&&p.version_date!==p.publication_date?`<span>Version updated ${esc(date(p.version_date))}</span>`:''}</div><div class="paper-actions"><a href="${safe(p.abstract_source||p.url)}" target="_blank" rel="noopener">${p.abstract?'Abstract source':'Open paper'} ↗</a>${variants.filter(v=>v.url!==p.url).map(v=>`<a href="${safe(v.url)}" target="_blank" rel="noopener">${esc(v.journal||v.source)} ↗</a>`).join('')}${p.source==='arXiv'?`<a href="https://arxiv.org/pdf/${encodeURIComponent(p.version_id||p.id)}" target="_blank" rel="noopener">PDF ↗</a>`:''}</div></div></details></div></article>`;
+ return `<article class="paper" data-paper="${esc(id)}"><div class="paper-line"><h3><a href="${safe(p.url)}" target="_blank" rel="noopener">${esc(p.title)} <span class="external-mark" aria-hidden="true">↗</span></a></h3><button type="button" class="recommend-button${starred?' is-recommended':''}" data-recommend="${esc(id)}" aria-pressed="${starred}" aria-label="${starred?'Remove your recommendation':'Recommend this paper'}; ${count} recommendations" title="${starred?'Remove your recommendation':'Recommend this paper to other readers'}" ${!rec.ready||rec.pending.has(id)?'disabled':''}><span aria-hidden="true">${starred?'★':'☆'}</span><span class="recommend-count">${rec.ready?count:'–'}</span></button></div><div class="paper-info"><span class="authors" title="${esc(authors.join(', '))}">${esc(short||'Authors unavailable')}</span><span class="source">${esc(source)}</span><span>${esc(year||'Year unknown')}</span><details class="abstract"><summary>Abstract</summary><div class="abstract-body"><p lang="en">${abstractHTML(p.abstract||'The source has not supplied an abstract. Open the paper to read more.')}</p><div class="abstract-provenance"><span>Published ${esc(date(p.publication_date))}</span><span>Added ${esc(date(p.first_seen))}</span>${p.version_date&&p.version_date!==p.publication_date?`<span>Version updated ${esc(date(p.version_date))}</span>`:''}</div><div class="paper-actions"><a href="${safe(p.abstract_source||p.url)}" target="_blank" rel="noopener">${p.abstract?'Abstract source':'Open paper'} ↗</a>${variants.filter(v=>v.url!==p.url).map(v=>`<a href="${safe(v.url)}" target="_blank" rel="noopener">${esc(v.journal||v.source)} ↗</a>`).join('')}${p.source==='arXiv'?`<a href="https://arxiv.org/pdf/${encodeURIComponent(p.version_id||p.id)}" target="_blank" rel="noopener">PDF ↗</a>`:''}</div></div></details></div></article>`;
 }
 function render(){
  const query=$('#search').value.trim().toLowerCase(),days=Number($('#period').value),source=$('#source-filter').value;
