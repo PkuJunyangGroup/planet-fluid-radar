@@ -159624,6 +159624,122 @@
       "method": "keyword",
       "fit_score": 31,
       "fit_matches": []
+    },
+    {
+      "id": "doi:10.3847/1538-4357/ae47f2",
+      "doi": "10.3847/1538-4357/ae47f2",
+      "version_id": "doi:10.3847/1538-4357/ae47f2",
+      "title": "Atmospheric Collapse and Habitability on Tidally Locked Exoplanets",
+      "abstract": "The habitability of terrestrial exoplanets orbiting M dwarfs is a key topic in the search for extraterrestrial life. The climates of these planets differ significantly from the Earth’s due to their likely tidal locking, resulting in hotter daysides and colder nightsides caused by uneven stellar irradiation. On tidally locked planets around the outer edge of the habitable zone (HZ), although the definition of the classical HZ requires a thick CO2 atmosphere, CO2 can condense onto the surface, leading to the reduction of the greenhouse effect. However, the dayside permanent stellar irradiation could maintain a surface liquid water area. The onset of atmospheric collapse and the persistence of surface liquid water are governed by global heat redistribution, which is influenced by factors such as atmospheric mass, stellar irradiation, and greenhouse effects. In this study, we used a 3D global climate model to investigate the impact of atmospheric collapse on the presence of dayside surface liquid water. Our results indicate that surface liquid water could counterintuitively persist despite atmospheric collapse. This is because the loss of atmospheric CO2 weakens not only the greenhouse effect but also day–night heat transport, leading to less redistribution of the energy of dayside insolation to the nightside. While atmospheric collapse is typically seen as an obstacle to maintaining a habitable climate, our findings suggest that it could play a positive role in sustaining surface liquid water on tidally locked planets. Our work provides new light into the relationship between atmospheric collapse and planetary habitability.",
+      "authors": [
+        "Keigo Taniguchi",
+        "Takanori Kodama",
+        "Martin Turbet",
+        "Guillaume Chaverot",
+        "Ehouarn Millour",
+        "Hidenori Genda"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Keigo Taniguchi",
+          "institutions": [],
+          "orcid": "https://orcid.org/0009-0009-8470-1886"
+        },
+        {
+          "name": "Takanori Kodama",
+          "institutions": [],
+          "orcid": "https://orcid.org/0000-0001-9032-5826"
+        },
+        {
+          "name": "Martin Turbet",
+          "institutions": [],
+          "orcid": "https://orcid.org/0000-0003-2260-9856"
+        },
+        {
+          "name": "Guillaume Chaverot",
+          "institutions": [],
+          "orcid": "https://orcid.org/0000-0003-4711-3099"
+        },
+        {
+          "name": "Ehouarn Millour",
+          "institutions": [],
+          "orcid": "https://orcid.org/0000-0003-4808-9203"
+        },
+        {
+          "name": "Hidenori Genda",
+          "institutions": [],
+          "orcid": "https://orcid.org/0000-0001-6702-0872"
+        }
+      ],
+      "institutions": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Fae47f2",
+      "source": "journal",
+      "journal": "The Astrophysical Journal",
+      "journal_id": "1538-4357",
+      "source_group": "planet",
+      "categories": [],
+      "url": "https://doi.org/10.3847/1538-4357/ae47f2",
+      "published": "2026-03-16",
+      "publication_date": "2026-03-16",
+      "publication_date_source": "Crossref publisher metadata",
+      "date_kind": "journal",
+      "first_seen": "2026-10-15T08:26:00+00:00",
+      "updated": "2026-09-25T18:26:45Z",
+      "metadata_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Fae47f2",
+      "relations": {},
+      "metadata_limited": false,
+      "publication_dates": {
+        "published-online": "2026-03-16",
+        "published-print": "2026-03-20"
+      },
+      "abstract_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Fae47f2",
+      "related_preprint": {
+        "id": "2603.09260",
+        "url": "https://arxiv.org/abs/2603.09260",
+        "first_submitted": "2026-03-10T06:49:07+00:00",
+        "match_basis": "Matching normalized title and all six authors; accepted ApJ manuscript"
+      },
+      "reading_review": {
+        "reviewed_at": "2026-10-15T08:26:00+00:00",
+        "basis": "Full publisher-deposited English abstract read; publisher metadata checked against official arXiv abstract and author list",
+        "decision": "include",
+        "reason": "User-requested addition; 3D climate modeling of atmospheric collapse and dayside liquid water on tidally locked terrestrial exoplanets",
+        "sources": [
+          "https://api.crossref.org/works/10.3847%2F1538-4357%2Fae47f2",
+          "https://arxiv.org/abs/2603.09260"
+        ]
+      },
+      "topics": [
+        "planetary",
+        "models"
+      ],
+      "matches": {
+        "planetary": [
+          "tidally locked",
+          "tidal locking",
+          "habitable zone",
+          "heat redistribution"
+        ],
+        "models": [
+          "climate model",
+          "global climate model"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：tidally locked、tidal locking、habitable zone、heat redistribution、climate model、global climate model",
+      "tags": [
+        "云与辐射 · Clouds & radiation",
+        "热输送 · Heat transport",
+        "宜居性 · Habitability",
+        "海冰与表层 · Ice & surface"
+      ],
+      "method": "keyword",
+      "fit_score": 63,
+      "fit_matches": [
+        "行星大气与辐射",
+        "行星气候与模式"
+      ]
     }
   ],
   "monthly_statistics": {
