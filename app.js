@@ -128,8 +128,15 @@ class PublicationTimeline{
  }
 }
 function paperAuthors(p){
+ const clean=name=>String(name??'').replace(/\\aff[\d,]+/g,'').trim();
+ const key=name=>clean(name).normalize('NFKC').replace(/\s+/g,' ').toLowerCase();
  const names=p.authors?.length?p.authors:(p.author_affiliations||[]).map(a=>a.name);
- return [...new Set(names.map(name=>String(name).replace(/\\aff[\d,]+/g,'').trim()).filter(Boolean))];
+ return [...new Set(names.map(clean).filter(Boolean))].map(name=>{
+  // Match only this paper's explicit author metadata; never infer Hanzi from pinyin.
+  const confirmed=(p.author_affiliations||[]).filter(a=>key(a.name)===key(name)&&a.name_zh&&/^https?:\/\//i.test(a.name_source||''));
+  const chinese=[...new Set(confirmed.map(a=>clean(a.name_zh)))];
+  return chinese.length===1&&chinese[0]!==name?`${chinese[0]} · ${name}`:name;
+ });
 }
 function paperRow(p){
  const authors=paperAuthors(p),short=authors.slice(0,3).join(', ')+(authors.length>3?', et al.':'');
@@ -141,7 +148,7 @@ function paperRow(p){
 }
 function render(){
  const query=$('#search').value.trim().toLowerCase(),days=Number($('#period').value),source=$('#source-filter').value;
- const available=data.papers.filter(p=>(status!=='recommended'||recommendations.count(p.id)>0)&&(!days||Date.now()-Date.parse(p.first_seen)<=days*DAY_MS)&&(source==='all'||source==='linked'&&p.variants.length>1||p.source_types.includes(source)||p.variants.some(v=>'journal:'+v.journal_id===source))&&(!query||[p.title,p.abstract,...p.authors,...p.institutions,...p.tags,...p.journals].join(' ').toLowerCase().includes(query)));
+ const available=data.papers.filter(p=>(status!=='recommended'||recommendations.count(p.id)>0)&&(!days||Date.now()-Date.parse(p.first_seen)<=days*DAY_MS)&&(source==='all'||source==='linked'&&p.variants.length>1||p.source_types.includes(source)||p.variants.some(v=>'journal:'+v.journal_id===source))&&(!query||[p.title,p.abstract,...paperAuthors(p),...p.institutions,...p.tags,...p.journals].join(' ').toLowerCase().includes(query)));
  const byKeyword=p=>!keyword||keyword==='topic:all'||(keyword.startsWith('topic:')?p.topics.includes(keyword.slice(6)):(p.tags||[]).includes(keyword));
  timeline.setPapers(available.filter(byKeyword));
  const base=available.filter(p=>timeline.matches(p));
