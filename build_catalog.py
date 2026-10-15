@@ -13,6 +13,18 @@ ROOT=Path(__file__).resolve().parent
 
 def norm(s):return re.sub(r'[^a-z0-9]','',unicodedata.normalize('NFKD',s).encode('ascii','ignore').decode().lower())
 def doi_key(s):return re.sub(r'^https?://(?:dx\.)?doi.org/','',s or '',flags=re.I).lower().strip()
+def author_override_matches(item, author, paper, parent_names):
+ """Require exact name and an explicit identity scope; never match a name alone."""
+ if normalize(author.get('name','')) not in [normalize(n) for n in item.get('names',[])]:return False
+ oid=orcid_url(author.get('orcid'))
+ if item.get('orcid'):
+  return bool(oid and oid==orcid_url(item['orcid']))
+ if item.get('paper_ids'):
+  paper_ids={paper.get('id')} | {v.get('id') for v in paper.get('variants',[])}
+  return bool(paper_ids.intersection(item['paper_ids']))
+ institution=item.get('institution')
+ return bool(institution and any(institution in parent_names(raw) for raw in author.get('institutions',[])))
+
 def author_keys(p):return {norm(a.split(',')[0].split()[-1]) for a in p.get('authors',[]) if a.split()}
 def relation_arxiv(p):
  result=set()
@@ -72,6 +84,7 @@ def apply_publisher_supplements(records, supplements):
    continue
   p['abstract']=supplement['abstract']
   p['abstract_source']=supplement.get('source_url','')
+  p['abstract_source_type']=supplement.get('source_type','publisher_abstract')
   p['metadata_limited']=False
  return records
 
@@ -136,12 +149,20 @@ def build():
  @lru_cache(maxsize=None)
  def parent_names(raw):return parents(raw,aliases)
  for p in papers:
+  # A verified paper-scoped name can be displayed even if no affiliation was
+  # supplied. This scaffold adds neither an institution nor an ORCID.
+  known={normalize(a.get('name','')) for a in p.get('author_affiliations',[])}
+  for byline in p.get('authors',[]):
+   if normalize(byline) in known:continue
+   candidate={'name':byline,'institutions':[],'orcid':None}
+   if any(author_override_matches(item,candidate,p,parent_names) for item in overrides):
+    p.setdefault('author_affiliations',[]).append(candidate);known.add(normalize(byline))
   for a in p.get('author_affiliations',[]):
    a['orcid']=orcid_url(a.get('orcid'))
    confirmed=names.get(a['orcid'],{})
    if not a.get('name_zh') and confirmed.get('name_zh'):a.update(name_zh=confirmed['name_zh'],name_source=confirmed['source'])
    for item in overrides:
-    if normalize(a['name']) in [normalize(n) for n in item['names']] and any(item['institution'] in parent_names(raw) for raw in a.get('institutions',[])):
+    if author_override_matches(item,a,p,parent_names):
      a.update(name_zh=item['name_zh'],name_source=item['source'])
  sources={**arxiv['sources'],**{'journal:'+k:v for k,v in journal['sources'].items()},**exoplanet.get('sources',{})}
  d={**arxiv,'generated_at':dt.datetime.now(dt.timezone.utc).isoformat(),'papers':papers,'intake':intake,'topic_filter_ids':[t['id'] for t in config['topics'] if t['id'] in display_ids],'sources':sources,'journals':registry,'monthly_statistics':journal.get('monthly_statistics',{}),'record_count':len(arxiv['papers'])+len(journal['papers'])+len(exoplanet['papers']),'merged_count':sum(len(p['variants'])-1 for p in papers)}

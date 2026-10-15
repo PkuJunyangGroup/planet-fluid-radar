@@ -126,3 +126,7 @@ python3 build_network.py
 日常抓取、规则筛选、目录和网络构建及 Pages 发布由 `.github/workflows/daily.yml` 在 GitHub 云端执行，访客统计和共享星标在现有 Cloudflare Worker / D1 运行，无须本机开机。`build_catalog.py` 同时生成 catalog.json 中的 daily_brief，来源页的 Daily update 显示当日新收录、较早论文补入、版本更新及来源失败；规则筛选不冒充摘要阅读复核。来源页的 Cloud maintenance 链接到 GitHub 运行记录、手动触发及配置编辑，写操作仍需 GitHub 授权。
 
 `cloud-maintenance.json` 保存 Dot 交接指令。Dot 应使用自有云端电脑，读取此文件与最新 README/config/workflow，核对 PkuJunyangGroup 仓库权限后，在 Dot 保存每天北京时间 10:00 的阅读复核和简报计划，确认实际保存的时间与交付位置。云端会话不继承本机的 GitHub、Cloudflare 或校园网登录。尚未由 Dot 确认计划和云端访问前，handoff_status 必须保持待接手，不得宣称 AI 阅读复核已经完成迁移。本站规则抓取不依赖这一步；用户本机上的旧定时维护应停用，以免双重执行。
+
+### 原文姓名核验（2026-10-15）
+
+中文姓名和日本汉字姓名可根据论文明确关联的 ORCID、出版社双语署名、机构官网或作者官方主页核验。保留来源原字形，不从拼音或罗马字猜写；姓名映射须限定于明确 ORCID、已确认机构或具体论文，保留证据和核验日期。未确认项继续显示原署名。本轮覆盖、证据及待核验项见 [作者姓名核验报告](maintenance/2026-10-15-author-name-audit.md)。

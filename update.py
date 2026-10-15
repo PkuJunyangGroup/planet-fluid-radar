@@ -165,7 +165,8 @@ def parse_rss(data):
         announcement = e.findtext('{http://arxiv.org/schemas/atom}announce_type','')
         result.append({'id':base,'version_id':identity,'title':clean('title'),
             'abstract':summary.split('Abstract:',1)[-1].strip(),
-            'authors':[e.findtext('{http://purl.org/dc/elements/1.1/}creator','')],
+            # dc:creator is an opaque display byline; commas can be part of names.
+            'authors':[], 'authors_source':None, 'authors_raw':e.findtext('{http://purl.org/dc/elements/1.1/}creator',''),
             'categories':[c.attrib['term'] for c in e.findall('a:category',NS)],
             'published':clean('published'),'updated':clean('updated'),'date_kind':'announcement',
             'announcement_type':announcement,'url':'https://arxiv.org/abs/'+base,
@@ -230,6 +231,8 @@ def update(days=1):
                     prior = papers.get(p['id'], {})
                     p['first_seen'] = prior.get('first_seen', stamp)
                     p['version_changed'] = p.get('announcement_type') == 'replace' or bool(prior and prior['version_id'] != p['version_id'])
+                    if prior.get('version_id')==p['version_id'] and prior.get('authors_source'):
+                        p['authors']=prior['authors'];p['authors_source']=prior['authors_source']
                     if prior and prior.get('date_kind') != 'announcement':
                         p['published'] = prior['published']
                         p['date_kind'] = 'published'

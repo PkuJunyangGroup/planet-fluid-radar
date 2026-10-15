@@ -16,6 +16,9 @@ assert.equal(authors({authors:['Another Wang'],author_affiliations:[verified]})[
 assert.equal(authors({authors:['Lile Wang'],author_affiliations:[verified,{...verified,name_zh:'另一个姓名'}]})[0],'Lile Wang');
 assert.equal(authors({author_affiliations:[verified]})[0],'王力乐 · Lile Wang');
 assert.equal(label({name:'王力乐',name_zh:'王力乐',name_source:verified.name_source}),'王力乐');
+const nativeKanji={name:'Norio Narita',name_zh:'成田憲保',name_source:'https://naritalab.wixsite.com/narita-lab/メンバー'};
+assert.equal(authors({authors:['Norio Narita'],author_affiliations:[nativeKanji]})[0],'成田憲保 · Norio Narita');
+assert.equal(label(nativeKanji),'成田憲保 · Norio Narita');
 const catalog=JSON.parse(fs.readFileSync(new URL('./catalog.json',import.meta.url)));
 const papers=catalog.papers.filter(p=>authors(p).some(n=>n.includes(' · ')));
 assert.ok(papers.length>0);
