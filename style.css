@@ -179,9 +179,9 @@ footer{flex-wrap:wrap;gap:12px}.graph-detail h2{overflow-wrap:anywhere}
 
 .home-statistics{margin:28px 0 24px;border-top:1px solid var(--line);padding-top:18px}.home-statistics>summary{font-size:13px;color:var(--accent);cursor:pointer}.home-statistics .statistics{border-top:0;margin-top:0;padding-top:18px}.researcher-search-panel>summary{font-size:12px;color:var(--muted);cursor:pointer}
 
-/* Full abstract math stays inside the card on narrow screens. */
+/* Inline math follows the text baseline; only display formulas are scroll containers. */
 .abstract-body>p{white-space:pre-wrap;overflow-wrap:anywhere}
-.abstract-math{display:inline-block;max-width:100%;overflow-x:auto;overflow-y:hidden;vertical-align:middle;white-space:normal}
-.abstract-math-display{display:block;margin:.75em 0}
+.abstract-math{display:inline;white-space:normal}
+.abstract-math-display{display:block;max-width:100%;overflow-x:auto;overflow-y:hidden;margin:.75em 0}
 .abstract-math .katex{font-size:1.05em}
 .abstract-math .katex-display{margin:0}

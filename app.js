@@ -141,11 +141,12 @@ function paperAuthors(p){
 
 // Render only explicit TeX spans. Source data stays untouched; all prose is escaped.
 // Currency and unmatched/unsupported TeX remain readable when KaTeX is unavailable.
-function abstractHTML(value){
+function abstractHTML(value,{inlineOnly=false}={}){
  const text=String(value), renderer=globalThis.katex;
  const escapedAt=i=>{let n=0;while(i>0&&text[--i]==='\\')n++;return n%2===1};
  const renderMath=(tex,raw,display)=>{
   if(!renderer)return esc(raw);
+  display=display&&!inlineOnly;
   try{return `<span class="abstract-math${display?' abstract-math-display':''}">${renderer.renderToString(tex,{displayMode:display,throwOnError:true,trust:false,strict:'ignore',output:'htmlAndMathml',maxExpand:200,maxSize:20,macros:{'\\upmu':'\\mathrm{\\mu}'}})}</span>`}
   catch{return esc(raw)}
  };
@@ -190,13 +191,16 @@ function abstractHTML(value){
  flush();return html;
 }
 
+// Titles use the same escaped, untrusted-TeX path without display-mode line breaks.
+const titleHTML=value=>abstractHTML(value??'',{inlineOnly:true});
+
 function paperRow(p){
  const authors=paperAuthors(p),short=authors.slice(0,3).join(', ')+(authors.length>3?', et al.':'');
  const source=(p.journals||[]).join(' / ')||p.journal||p.source;
  const year=(p.publication_date||'').slice(0,4),id=String(p.id);
  const rec=recommendations,starred=rec.mine.has(id),count=rec.count(id);
  const variants=p.variants||[];
- return `<article class="paper" data-paper="${esc(id)}"><div class="paper-line"><h3><a href="${safe(p.url)}" target="_blank" rel="noopener">${esc(p.title)} <span class="external-mark" aria-hidden="true">↗</span></a></h3><button type="button" class="recommend-button${starred?' is-recommended':''}" data-recommend="${esc(id)}" aria-pressed="${starred}" aria-label="${starred?'Remove your recommendation':'Recommend this paper'}; ${count} recommendations" title="${starred?'Remove your recommendation':'Recommend this paper to other readers'}" ${!rec.ready||rec.pending.has(id)?'disabled':''}><span aria-hidden="true">${starred?'★':'☆'}</span><span class="recommend-count">${rec.ready?count:'–'}</span></button></div><div class="paper-info"><span class="authors" title="${esc(authors.join(', '))}">${esc(short||'Authors unavailable')}</span><span class="source">${esc(source)}</span><span>${esc(year||'Year unknown')}</span><details class="abstract"><summary>Abstract</summary><div class="abstract-body"><p lang="en">${abstractHTML(p.abstract||'The source has not supplied an abstract. Open the paper to read more.')}</p><div class="abstract-provenance"><span>Published ${esc(date(p.publication_date))}</span><span>Added ${esc(date(p.first_seen))}</span>${p.version_date&&p.version_date!==p.publication_date?`<span>Version updated ${esc(date(p.version_date))}</span>`:''}</div><div class="paper-actions"><a href="${safe(p.abstract_source||p.url)}" target="_blank" rel="noopener">${p.abstract?'Abstract source':'Open paper'} ↗</a>${variants.filter(v=>v.url!==p.url).map(v=>`<a href="${safe(v.url)}" target="_blank" rel="noopener">${esc(v.journal||v.source)} ↗</a>`).join('')}${p.source==='arXiv'?`<a href="https://arxiv.org/pdf/${encodeURIComponent(p.version_id||p.id)}" target="_blank" rel="noopener">PDF ↗</a>`:''}</div></div></details></div></article>`;
+ return `<article class="paper" data-paper="${esc(id)}"><div class="paper-line"><h3><a href="${safe(p.url)}" target="_blank" rel="noopener">${titleHTML(p.title)} <span class="external-mark" aria-hidden="true">↗</span></a></h3><button type="button" class="recommend-button${starred?' is-recommended':''}" data-recommend="${esc(id)}" aria-pressed="${starred}" aria-label="${starred?'Remove your recommendation':'Recommend this paper'}; ${count} recommendations" title="${starred?'Remove your recommendation':'Recommend this paper to other readers'}" ${!rec.ready||rec.pending.has(id)?'disabled':''}><span aria-hidden="true">${starred?'★':'☆'}</span><span class="recommend-count">${rec.ready?count:'–'}</span></button></div><div class="paper-info"><span class="authors" title="${esc(authors.join(', '))}">${esc(short||'Authors unavailable')}</span><span class="source">${esc(source)}</span><span>${esc(year||'Year unknown')}</span><details class="abstract"><summary>Abstract</summary><div class="abstract-body"><p lang="en">${abstractHTML(p.abstract||'The source has not supplied an abstract. Open the paper to read more.')}</p><div class="abstract-provenance"><span>Published ${esc(date(p.publication_date))}</span><span>Added ${esc(date(p.first_seen))}</span>${p.version_date&&p.version_date!==p.publication_date?`<span>Version updated ${esc(date(p.version_date))}</span>`:''}</div><div class="paper-actions"><a href="${safe(p.abstract_source||p.url)}" target="_blank" rel="noopener">${p.abstract?'Abstract source':'Open paper'} ↗</a>${variants.filter(v=>v.url!==p.url).map(v=>`<a href="${safe(v.url)}" target="_blank" rel="noopener">${esc(v.journal||v.source)} ↗</a>`).join('')}${p.source==='arXiv'?`<a href="https://arxiv.org/pdf/${encodeURIComponent(p.version_id||p.id)}" target="_blank" rel="noopener">PDF ↗</a>`:''}</div></div></details></div></article>`;
 }
 function render(){
  const query=$('#search').value.trim().toLowerCase(),days=Number($('#period').value),source=$('#source-filter').value;
