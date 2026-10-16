@@ -1,0 +1,30 @@
+# Daily reading review — 2026-10-16 (Asia/Shanghai)
+
+## Source and deployment checkpoint
+
+- Cloud-only; authenticated GitHub connection confirmed PkuJunyangGroup (account 333274266), with push permission on this repository. No user desktop, credentials or backend changes.
+- Scheduled run [38836130204](https://github.com/PkuJunyangGroup/planet-fluid-radar/actions/runs/38836130204) started at 09:37:36 and completed successfully at 09:43:57 Beijing time. Reviewed repository snapshot `2b608c4`, after the run's data commit. No duplicate workflow or full fetch was triggered.
+- All four configured arXiv categories succeeded (5/1/0/2 retrieved); all 19 enabled Crossref journals succeeded (301 metadata records retrieved in aggregate, including updates); Exoplanet.eu succeeded (2 pages, 11 retrieved entries, 3 retained). Retrieval/retention counts are not new-paper counts. Four disabled journals remain disabled. Source failure count: 0; recovery fetches: 0.
+- Automated intake selected 3 new records. Reading review retains 2 and excludes 1 false positive. No one-year fallback was needed. Both retained records were published on October 15 and first collected on October 16; no October 16 publication or arXiv version update is established in this intake.
+
+## Original-abstract reading decisions
+
+All three selected records' complete original English abstracts were read, separately from rule classification. No translation, generated summary or source-abstract alteration was added.
+
+1. [Orbital Stability of Apsidally Aligned Planetary Systems](https://arxiv.org/abs/2610.21117v1) — Gabriel Teixeira Guimarães; Eiichiro Kokubo. arXiv v1, submitted 2026-10-15 02:21:31 UTC / 10:21:31 Beijing; first collected 2026-10-16 09:37:47 Beijing. Retained: compact planetary-system stability, resonance overlap and coherent apsidal precession are explicitly in scope. The primary abstract and HTML verify the byline and version. The source says accepted to ApJ but supplies no DOI or final journal reference; none was invented.
+2. [Dynamical Tides during High-eccentricity Migration Produce the Hot-Jupiter Pileup, Neptune Ridge, and Neptune Desert](https://doi.org/10.3847/1538-4357/ae9e27) — J. J. Zanazzi; Morgan MacLeod; Marta L. Bryan; Suvrath Mahadevan. The Astrophysical Journal, online 2026-10-15; print 2026-10-20; first collected 2026-10-16 09:38:11 Beijing. Retained: tides, planetary migration, shock dissipation and envelope loss. Fresh [publisher-deposited Crossref metadata](https://api.crossref.org/works/10.3847/1538-4357/ae9e27) verifies the abstract, byline and dates. Matching earlier preprint [2606.20789](https://arxiv.org/abs/2606.20789) has v1 2026-06-18 and v2 2026-08-25. This is a newly collected journal publication, not a new October preprint. The relation is supported by matching title, authors and abstract, not falsely attributed to a Crossref arXiv relation. No separate duplicate preprint entry was created.
+3. [Penetrating Solar Wind Protons Drive Asymmetric Acceleration of Oxygen Ions in the Martian Magnetotail Current Sheet](https://doi.org/10.3847/1538-4357/ae9f51) — excluded from public catalog after full [publisher-deposited abstract](https://api.crossref.org/works/10.3847/1538-4357/ae9f51) reading. Solar-wind entry, magnetotail current sheets and ion acceleration are the expressly excluded space-physics scope. The keyword “volatile” appears in the MAVEN mission name, not a study of planetary volatile evolution. Original source record and first_seen remain intact.
+
+Additional boundary check: the full stored publisher abstract of [10.1029/2026JE009860](https://doi.org/10.1029/2026JE009860), a newly discovered but not admitted month-dated candidate, concerns ionospheric current detection and magnetic geometry. A scoped exclusion prevents future fallback admission. The original month-only date is preserved; no publication day was guessed. This is not a claim of independent web review of every raw record or every historical author.
+
+## Author and metadata verification
+
+- Eiichiro Kokubo's original-script name is verified as 小久保英一郎 by his [official NAOJ/CfCA profile](https://www.cfca.nao.ac.jp/~kokubo/) and [official bilingual staff page](https://www2.nao.ac.jp/~open-info/reslist/detail/KOKUBO_Eiichiro/KOKUBO_Eiichiro.htm). The exact byline and Division of Science/CfCA affiliations match the paper. A paper-scoped override is added; no ORCID is inferred and Japanese Kanji is not translated.
+- Other existing author mappings, institutions, dates and first_seen values are preserved. No new abstract was missing among the selected three; zero abstracts supplemented in this review. Three historical missing-abstract placeholders remain.
+- Independent web-tool requests for arXiv/IOP were unavailable; primary arXiv pages and Crossref metadata were retrieved with the cloud HTTP client instead. The IOP page timed out; this is an individual verification-access limit, not a failure of the scheduled Crossref feed.
+
+## Tests and publication state
+
+Offline enrichment/date/catalog/network builds completed. The resulting catalog has 154 papers (152 prior + 2 retained new papers); 17 explicit/conservative duplicates are linked. All 87 Python unit tests and the author-display, abstract-math, compact-list, timeline and existing recommendation/backend JavaScript tests passed. Real pinned KaTeX 0.16.22 catalog verification checked 154 cards, 151 supplied abstracts and 129 formula spans with zero rendering failures; all abstract cards remain closed by default and complete. These are automated checks, not visual browser QA.
+
+This source-only maintenance commit preserves the scheduled data and lets the existing push workflow rebuild and deploy. At preparation time the scheduled publication above was successful; publication of these review changes is pending the commit's Actions/Pages run and live catalog/network verification. The final daily briefing must report that observed outcome rather than treating a commit as successful deployment. No backend, workflow, layout, credentials or source enablement was changed.

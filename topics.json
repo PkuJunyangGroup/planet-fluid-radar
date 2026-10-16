@@ -1160,6 +1160,30 @@
     "2610.19228": {
       "status": "unmatched",
       "reason": "人工阅读摘要复核：研究年轻恒星 X 射线耀斑与原行星盘光谱变化，重点为盘照射、光蒸发及磁层吸积；没有具体行星大气、海洋冰表层或成熟行星轨道结果，不符合本站当前窄范围。"
+    },
+    "2610.21117": {
+      "status": "candidate",
+      "reason": "Reading review 2026-10-16: full original abstract describes direct N-body tests of compact planetary-system stability, mean-motion resonance overlap and coherent apsidal precession. In scope: planetary orbital dynamics.",
+      "reviewed_at": "2026-10-16",
+      "source": "https://arxiv.org/abs/2610.21117v1"
+    },
+    "doi:10.3847/1538-4357/ae9e27": {
+      "status": "candidate",
+      "reason": "Reading review 2026-10-16: full publisher-deposited abstract studies dynamical tides, shock dissipation, atmospheric mass loss and high-eccentricity migration of gaseous exoplanets. In scope: planetary orbital and structural evolution.",
+      "reviewed_at": "2026-10-16",
+      "source": "https://api.crossref.org/works/10.3847/1538-4357/ae9e27"
+    },
+    "doi:10.3847/1538-4357/ae9f51": {
+      "status": "excluded",
+      "reason": "Reading review 2026-10-16: original publisher abstract concerns solar-wind proton entry, magnetotail current sheets and heavy-ion acceleration. This is the explicitly excluded space-physics scope; volatile occurs in the MAVEN mission name, not planetary volatile evolution. Source record retained.",
+      "reviewed_at": "2026-10-16",
+      "source": "https://api.crossref.org/works/10.3847/1538-4357/ae9f51"
+    },
+    "doi:10.1029/2026je009860": {
+      "status": "excluded",
+      "reason": "Reading review 2026-10-16: full publisher-deposited abstract maps Martian ionospheric current signatures and magnetic geometry. Atmospheric heating/escape is motivation, not a modeled climate/escape result; current focus is excluded space physics. Month-only publication date remains unchanged.",
+      "reviewed_at": "2026-10-16",
+      "source": "https://api.crossref.org/works/10.1029/2026JE009860"
     }
   },
   "mechanisms": [
