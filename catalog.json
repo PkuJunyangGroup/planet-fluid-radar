@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-15T13:21:35.307535+00:00",
+  "generated_at": "2026-10-16T01:43:40.542457+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
-      "last_attempt": "2026-10-15T01:38:21.320708+00:00",
-      "last_success": "2026-10-15T01:38:21.320708+00:00",
+      "last_attempt": "2026-10-16T01:37:47.382818+00:00",
+      "last_success": "2026-10-16T01:37:47.382818+00:00",
       "status": "ok",
-      "fetched": 35
+      "fetched": 5
     },
     "physics.ao-ph": {
-      "last_attempt": "2026-10-15T01:38:21.320708+00:00",
-      "last_success": "2026-10-15T01:38:21.320708+00:00",
-      "status": "ok",
-      "fetched": 3
-    },
-    "physics.geo-ph": {
-      "last_attempt": "2026-10-15T01:38:21.320708+00:00",
-      "last_success": "2026-10-15T01:38:21.320708+00:00",
+      "last_attempt": "2026-10-16T01:37:47.382818+00:00",
+      "last_success": "2026-10-16T01:37:47.382818+00:00",
       "status": "ok",
       "fetched": 1
     },
-    "physics.flu-dyn": {
-      "last_attempt": "2026-10-15T01:38:21.320708+00:00",
-      "last_success": "2026-10-15T01:38:21.320708+00:00",
+    "physics.geo-ph": {
+      "last_attempt": "2026-10-16T01:37:47.382818+00:00",
+      "last_success": "2026-10-16T01:37:47.382818+00:00",
       "status": "ok",
-      "fetched": 5
+      "fetched": 0
+    },
+    "physics.flu-dyn": {
+      "last_attempt": "2026-10-16T01:37:47.382818+00:00",
+      "last_success": "2026-10-16T01:37:47.382818+00:00",
+      "status": "ok",
+      "fetched": 2
     },
     "journal:1476-4687": {
       "name": "Nature",
       "status": "ok",
-      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
-      "last_success": "2026-10-15T01:38:46.773639+00:00",
-      "fetched": 55,
+      "last_attempt": "2026-10-16T01:38:11.927481+00:00",
+      "last_success": "2026-10-16T01:38:11.927481+00:00",
+      "fetched": 88,
       "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
@@ -39,49 +39,49 @@
     "journal:1095-9203": {
       "name": "Science",
       "status": "ok",
-      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
-      "last_success": "2026-10-15T01:38:46.773639+00:00",
-      "fetched": 0,
-      "retained": 0,
+      "last_attempt": "2026-10-16T01:38:11.927481+00:00",
+      "last_success": "2026-10-16T01:38:11.927481+00:00",
+      "fetched": 43,
+      "retained": 2,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-07-26"
     },
     "journal:1091-6490": {
       "name": "PNAS",
       "status": "ok",
-      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
-      "last_success": "2026-10-15T01:38:46.773639+00:00",
-      "fetched": 4,
-      "retained": 0,
+      "last_attempt": "2026-10-16T01:38:11.927481+00:00",
+      "last_success": "2026-10-16T01:38:11.927481+00:00",
+      "fetched": 31,
+      "retained": 1,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1752-0908": {
       "name": "Nature Geoscience",
       "status": "ok",
-      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
-      "last_success": "2026-10-15T01:38:46.773639+00:00",
-      "fetched": 2,
-      "retained": 1,
+      "last_attempt": "2026-10-16T01:38:11.927481+00:00",
+      "last_success": "2026-10-16T01:38:11.927481+00:00",
+      "fetched": 1,
+      "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-07-26"
     },
     "journal:2397-3366": {
       "name": "Nature Astronomy",
       "status": "ok",
-      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
-      "last_success": "2026-10-15T01:38:46.773639+00:00",
-      "fetched": 1,
-      "retained": 1,
+      "last_attempt": "2026-10-16T01:38:11.927481+00:00",
+      "last_success": "2026-10-16T01:38:11.927481+00:00",
+      "fetched": 28,
+      "retained": 2,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-07-26"
     },
     "journal:1758-6798": {
       "name": "Nature Climate Change",
       "status": "ok",
-      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
-      "last_success": "2026-10-15T01:38:46.773639+00:00",
-      "fetched": 4,
+      "last_attempt": "2026-10-16T01:38:11.927481+00:00",
+      "last_success": "2026-10-16T01:38:11.927481+00:00",
+      "fetched": 5,
       "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-07-26"
@@ -89,30 +89,30 @@
     "journal:1520-0469": {
       "name": "Journal of the Atmospheric Sciences",
       "status": "ok",
-      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
-      "last_success": "2026-10-15T01:38:46.773639+00:00",
-      "fetched": 3,
-      "retained": 2,
+      "last_attempt": "2026-10-16T01:38:11.927481+00:00",
+      "last_success": "2026-10-16T01:38:11.927481+00:00",
+      "fetched": 13,
+      "retained": 7,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1680-7324": {
       "name": "Atmospheric Chemistry and Physics",
       "status": "ok",
-      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
-      "last_success": "2026-10-15T01:38:46.773639+00:00",
-      "fetched": 9,
-      "retained": 5,
+      "last_attempt": "2026-10-16T01:38:11.927481+00:00",
+      "last_success": "2026-10-16T01:38:11.927481+00:00",
+      "fetched": 15,
+      "retained": 8,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:2169-8996": {
       "name": "Journal of Geophysical Research: Atmospheres",
       "status": "ok",
-      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
-      "last_success": "2026-10-15T01:38:46.773639+00:00",
-      "fetched": 5,
-      "retained": 3,
+      "last_attempt": "2026-10-16T01:38:11.927481+00:00",
+      "last_success": "2026-10-16T01:38:11.927481+00:00",
+      "fetched": 1,
+      "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
@@ -159,28 +159,28 @@
     "journal:1520-0442": {
       "name": "Journal of Climate",
       "status": "ok",
-      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
-      "last_success": "2026-10-15T01:38:46.773639+00:00",
-      "fetched": 27,
-      "retained": 22,
+      "last_attempt": "2026-10-16T01:38:11.927481+00:00",
+      "last_success": "2026-10-16T01:38:11.927481+00:00",
+      "fetched": 17,
+      "retained": 16,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1432-0894": {
       "name": "Climate Dynamics",
       "status": "ok",
-      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
-      "last_success": "2026-10-15T01:38:46.773639+00:00",
-      "fetched": 3,
-      "retained": 0,
+      "last_attempt": "2026-10-16T01:38:11.927481+00:00",
+      "last_success": "2026-10-16T01:38:11.927481+00:00",
+      "fetched": 1,
+      "retained": 1,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1814-9332": {
       "name": "Climate of the Past",
       "status": "ok",
-      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
-      "last_success": "2026-10-15T01:38:46.773639+00:00",
+      "last_attempt": "2026-10-16T01:38:11.927481+00:00",
+      "last_success": "2026-10-16T01:38:11.927481+00:00",
       "fetched": 0,
       "retained": 0,
       "method": "Crossref publisher metadata",
@@ -189,19 +189,19 @@
     "journal:1477-870X": {
       "name": "Quarterly Journal of the Royal Meteorological Society",
       "status": "ok",
-      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
-      "last_success": "2026-10-15T01:38:46.773639+00:00",
-      "fetched": 5,
-      "retained": 4,
+      "last_attempt": "2026-10-16T01:38:11.927481+00:00",
+      "last_success": "2026-10-16T01:38:11.927481+00:00",
+      "fetched": 2,
+      "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1557-8070": {
       "name": "Astrobiology",
       "status": "ok",
-      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
-      "last_success": "2026-10-15T01:38:46.773639+00:00",
-      "fetched": 7,
+      "last_attempt": "2026-10-16T01:38:11.927481+00:00",
+      "last_success": "2026-10-16T01:38:11.927481+00:00",
+      "fetched": 8,
       "retained": 5,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-07-26"
@@ -209,19 +209,19 @@
     "journal:1944-8007": {
       "name": "Geophysical Research Letters",
       "status": "ok",
-      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
-      "last_success": "2026-10-15T01:38:46.773639+00:00",
-      "fetched": 89,
-      "retained": 40,
+      "last_attempt": "2026-10-16T01:38:11.927481+00:00",
+      "last_success": "2026-10-16T01:38:11.927481+00:00",
+      "fetched": 13,
+      "retained": 6,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:2169-9100": {
       "name": "Journal of Geophysical Research: Planets",
       "status": "ok",
-      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
-      "last_success": "2026-10-15T01:38:46.773639+00:00",
-      "fetched": 1,
+      "last_attempt": "2026-10-16T01:38:11.927481+00:00",
+      "last_success": "2026-10-16T01:38:11.927481+00:00",
+      "fetched": 3,
       "retained": 1,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
@@ -229,30 +229,30 @@
     "journal:1538-4357": {
       "name": "The Astrophysical Journal",
       "status": "ok",
-      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
-      "last_success": "2026-10-15T01:38:46.773639+00:00",
-      "fetched": 22,
-      "retained": 1,
+      "last_attempt": "2026-10-16T01:38:11.927481+00:00",
+      "last_success": "2026-10-16T01:38:11.927481+00:00",
+      "fetched": 20,
+      "retained": 2,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:2041-8213": {
       "name": "The Astrophysical Journal Letters",
       "status": "ok",
-      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
-      "last_success": "2026-10-15T01:38:46.773639+00:00",
-      "fetched": 10,
-      "retained": 3,
+      "last_attempt": "2026-10-16T01:38:11.927481+00:00",
+      "last_success": "2026-10-16T01:38:11.927481+00:00",
+      "fetched": 4,
+      "retained": 2,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:0012-821X": {
       "name": "Earth and Planetary Science Letters",
       "status": "ok",
-      "last_attempt": "2026-10-15T01:38:46.773639+00:00",
-      "last_success": "2026-10-15T01:38:46.773639+00:00",
-      "fetched": 9,
-      "retained": 2,
+      "last_attempt": "2026-10-16T01:38:11.927481+00:00",
+      "last_success": "2026-10-16T01:38:11.927481+00:00",
+      "fetched": 8,
+      "retained": 3,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
@@ -260,8 +260,8 @@
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-10-15T21:21:03.879931+08:00",
-      "last_success": "2026-10-15T21:21:03.879931+08:00",
+      "last_attempt": "2026-10-16T09:38:07.064307+08:00",
+      "last_success": "2026-10-16T09:38:07.064307+08:00",
       "coverage_since": "2026-09-25",
       "pages_checked": 2,
       "fetched": 11,
@@ -1053,6 +1053,102 @@
   ],
   "repository": "https://github.com/PkuJunyangGroup/planet-fluid-radar",
   "papers": [
+    {
+      "id": "2610.21117",
+      "version_id": "2610.21117v1",
+      "title": "Orbital Stability of Apsidally Aligned Planetary Systems",
+      "abstract": "The dynamical stability of compact planetary systems is known to depend strongly on orbital eccentricities, but the physical role of apsidal alignment remains poorly understood. We investigate this problem using direct {\\em N}-body simulations by separating planetary eccentricities into a systematic component shared by all planets and a random component that determines the degree of apsidal alignment. We find that these two components play fundamentally different dynamical roles. Random eccentricity destabilizes planetary systems by driving neighboring planet pairs into the regime of mean-motion resonance overlap, leading to chaotic evolution. In contrast, systematic eccentricity has little effect on the instability timescale over a wide range of values because the planetary orbits remain in apsidal alignment, preserving nearly fixed relative orbital orientations despite finite eccentricities. As a result, systems that start in apsidal alignment are nearly as stable as initially circular systems. This protection mechanism has a finite domain of validity. Beyond a critical systematic eccentricity, coherent apsidal precession breaks down, differential precession develops, and the instability timescale decreases rapidly. Our results demonstrate that the long-term stability of compact planetary systems cannot be characterized solely by orbital eccentricities but also depends on the maintenance of coherent apsidal precession, providing a new direction for analytical stability criteria.",
+      "published": "2026-10-15T02:21:31Z",
+      "updated": "2026-10-15T02:21:31Z",
+      "authors": [
+        "Gabriel Teixeira Guimarães",
+        "Eiichiro Kokubo"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2610.21117",
+      "pdf": "https://arxiv.org/pdf/2610.21117v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-16T01:37:47.382818+00:00",
+      "version_changed": false,
+      "topics": [
+        "orbital"
+      ],
+      "matches": {
+        "orbital": [
+          "mean motion resonance",
+          "orbital stability",
+          "n-body",
+          "apsidal precession"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：mean motion resonance、orbital stability、n-body、apsidal precession",
+      "tags": [
+        "流体与不稳定性 · Fluid dynamics",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 48,
+      "fit_matches": [
+        "行星轨道与演化"
+      ],
+      "institutions": [
+        "Department of Astronomical Science, The Graduate University for Advanced Studies, SOKENDAI, 2-21-1 Osawa, Mitaka, 181-8588, Tokyo, Japan.",
+        "Division of Science, National Astronomical Observatory of Japan, NAOJ, 2-21-1 Osawa, Mitaka, 181-8588, Tokyo, Japan.",
+        "Center for Computational Astrophysics, CfCA, National Astronomical Observatory of Japan, NAOJ, 2-21-1 Osawa, Mitaka, 181-8588, Tokyo, Japan"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Gabriel Teixeira Guimarães",
+          "institutions": [
+            "Department of Astronomical Science, The Graduate University for Advanced Studies, SOKENDAI, 2-21-1 Osawa, Mitaka, 181-8588, Tokyo, Japan.",
+            "Division of Science, National Astronomical Observatory of Japan, NAOJ, 2-21-1 Osawa, Mitaka, 181-8588, Tokyo, Japan."
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Eiichiro Kokubo",
+          "institutions": [
+            "Department of Astronomical Science, The Graduate University for Advanced Studies, SOKENDAI, 2-21-1 Osawa, Mitaka, 181-8588, Tokyo, Japan.",
+            "Division of Science, National Astronomical Observatory of Japan, NAOJ, 2-21-1 Osawa, Mitaka, 181-8588, Tokyo, Japan.",
+            "Center for Computational Astrophysics, CfCA, National Astronomical Observatory of Japan, NAOJ, 2-21-1 Osawa, Mitaka, 181-8588, Tokyo, Japan"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.21117v1",
+      "publication_date": "2026-10-15",
+      "publication_date_source": "https://arxiv.org/abs/2610.21117v1",
+      "version_date": "2026-10-15T02:21:31+00:00",
+      "variants": [
+        {
+          "id": "2610.21117",
+          "source": "arXiv",
+          "journal": null,
+          "journal_id": null,
+          "title": "Orbital Stability of Apsidally Aligned Planetary Systems",
+          "url": "https://arxiv.org/abs/2610.21117",
+          "doi": "",
+          "version_id": "2610.21117v1",
+          "first_seen": "2026-10-16T01:37:47.382818+00:00",
+          "publication_date": "2026-10-15",
+          "version_date": "2026-10-15T02:21:31+00:00",
+          "metadata_source": null,
+          "affiliation_source": "https://arxiv.org/html/2610.21117v1"
+        }
+      ],
+      "match_basis": [],
+      "source_types": [
+        "arXiv"
+      ],
+      "journals": [],
+      "source_groups": [],
+      "intake_kind": "recent"
+    },
     {
       "id": "2610.19377",
       "version_id": "2610.19377v1",
@@ -11645,7 +11741,7 @@
       "doi": "10.1177/15311074261483387",
       "version_id": "doi:10.1177/15311074261483387",
       "title": "Multi-Excitation Raman Spectroscopy of Carbonaceous Matter within Opaline Silica Sinters from Mars-Analog Hot Spring Settings: Implications for the Search for Extraterrestrial Biosignatures",
-      "abstract": "Silica sinters are promising astrobiology targets in the search for signs of past extraterrestrial life on Mars. Although terrestrial sinter morphologic features may serve as potential biosignatures at the macroscale, identification of carbonaceous matter (CM) within silica would offer substantial support for interpreting martian silica deposits as having a biologic association. Raman spectroscopy provides a means to identify both minerals and organics in situ . This technique has been employed to analyze CM in terrestrial sinters that consist of microcrystalline quartz and has also been deployed previously on the mars to search for organics. However, martian silica deposits are dominated by opaline silica rather than quartz, and a thorough examination of CM within terrestrial opaline silica by Raman spectroscopy is generally lacking. We investigated opaline silica sinters from northern Chile, an exceptional terrestrial analog for Mars, by Raman spectroscopy with multiple excitations. Our results show that strong fluorescence from opaline silica modifies CM Raman spectral signatures across excitation wavelengths. CM Raman spectra within opaline silica sinters vary both among facies and within individual samples, and they differ from those in Archean cherts. This study demonstrates that reliable interpretation of CM Raman spectra requires attention to host-matrix influences, excitation wavelength, and curve-fitting procedures.",
+      "abstract": "Silica sinters are promising astrobiology targets in the search for signs of past extraterrestrial life on Mars. Although terrestrial sinter morphologic features may serve as potential biosignatures at the macroscale, identification of carbonaceous matter (CM) within silica would offer substantial support for interpreting martian silica deposits as having a biologic association. Raman spectroscopy provides a means to identify both minerals and organics in situ . This technique has been employed to analyze CM in terrestrial sinters that consist of microcrystalline quartz and has also been deployed previously on Mars to search for organics. However, martian silica deposits are dominated by opaline silica rather than quartz, and a thorough examination of CM within terrestrial opaline silica by Raman spectroscopy is generally lacking. We investigated opaline silica sinters from northern Chile, an exceptional terrestrial analog for Mars, by Raman spectroscopy with multiple excitations. Our results show that strong fluorescence from opaline silica modifies CM Raman spectral signatures across excitation wavelengths. CM Raman spectra within opaline silica sinters vary both among facies and within individual samples, and they differ from those in Archean cherts. This study demonstrates that reliable interpretation of CM Raman spectra requires attention to host-matrix influences, excitation wavelength, and curve-fitting procedures.",
       "authors": [
         "Rui-Lin Cheng",
         "Carolina Munoz-Saez",
@@ -11721,12 +11817,13 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-24T11:06:27.450209+00:00",
-      "updated": "2026-09-02T15:13:19Z",
+      "updated": "2026-10-15T09:46:01Z",
       "metadata_source": "https://api.crossref.org/works/10.1177%2F15311074261483387",
       "relations": {},
       "metadata_limited": false,
       "publication_dates": {
-        "published-online": "2026-08-31"
+        "published-online": "2026-08-31",
+        "published-print": "2026-11-01"
       },
       "topics": [
         "detection"
@@ -23810,6 +23907,341 @@
       "intake_kind": "user_requested"
     },
     {
+      "id": "doi:10.3847/1538-4357/ae9f51",
+      "doi": "10.3847/1538-4357/ae9f51",
+      "version_id": "doi:10.3847/1538-4357/ae9f51",
+      "title": "Penetrating Solar Wind Protons Drive Asymmetric Acceleration of Oxygen Ions in the Martian Magnetotail Current Sheet",
+      "abstract": "Abstract We investigate the asymmetric energy distribution of outflowing heavy ions in the Martian magnetotail current sheet by combining observations by Tianwen-1 and Mars Atmosphere and Volatile Evolution (MAVEN) satellites with global multifluid magnetohydrodynamic (MHD) simulations. Tianwen-1 observed energetic oxygen ions, solar wind protons, and magnetic-field lines bending toward the equatorial plane in the current sheet. Constrained by MAVEN upstream observations, simulations show that solar wind protons deflect opposite to the convection electric field to maintain momentum conservation during heavy ion pickup, dragging magnetic-field lines to form a sinking topology in the current sheet. Downtail, protons penetrate deeper in the current sheet, generating strong localized motional and Hall electric fields in the +E (aligned with the convection electric field) hemisphere, which can accelerate ions to keV energies. Statistical analysis further confirms that the sinking magnetic-field topology is persistently accompanied by asymmetric acceleration. Our study identified a new pathway for the solar wind proton entry into the magnetotail, which drives heavy ion asymmetric acceleration in the current sheet, a pathway possibly common in induced magnetotails.",
+      "authors": [
+        "Limin Wang",
+        "Lei Li",
+        "Qi Xu",
+        "Lianghai Xie",
+        "Yiteng Zhang",
+        "Wenya Li",
+        "Linggao Kong",
+        "Aibing Zhang",
+        "Binbin Tang",
+        "Fuhao Qiao",
+        "Jijie Ma",
+        "Taifeng Jin",
+        "Yongyong Feng",
+        "Fuyu Sun"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Limin Wang",
+          "institutions": [
+            "Chinese Academy of Sciences",
+            "University of Chinese Academy of Sciences"
+          ],
+          "orcid": "https://orcid.org/0000-0001-5095-7538"
+        },
+        {
+          "name": "Lei Li",
+          "institutions": [
+            "Chinese Academy of Sciences",
+            "University of Chinese Academy of Sciences"
+          ],
+          "orcid": "https://orcid.org/0000-0001-8089-9164",
+          "name_zh": "李磊",
+          "name_source": "https://people.ucas.edu.cn/~lil"
+        },
+        {
+          "name": "Qi Xu",
+          "institutions": [
+            "Chinese Academy of Sciences"
+          ],
+          "orcid": "https://orcid.org/0000-0003-4662-476X"
+        },
+        {
+          "name": "Lianghai Xie",
+          "institutions": [
+            "Chinese Academy of Sciences"
+          ],
+          "orcid": "https://orcid.org/0000-0001-9635-4644"
+        },
+        {
+          "name": "Yiteng Zhang",
+          "institutions": [
+            "Chinese Academy of Sciences"
+          ],
+          "orcid": "https://orcid.org/0000-0002-7229-4664"
+        },
+        {
+          "name": "Wenya Li",
+          "institutions": [
+            "Chinese Academy of Sciences"
+          ],
+          "orcid": "https://orcid.org/0000-0003-1920-2406"
+        },
+        {
+          "name": "Linggao Kong",
+          "institutions": [
+            "Nanjing University",
+            "Chinese Academy of Sciences"
+          ],
+          "orcid": "https://orcid.org/0000-0003-1350-9722"
+        },
+        {
+          "name": "Aibing Zhang",
+          "institutions": [
+            "University of Chinese Academy of Sciences",
+            "Chinese Academy of Sciences"
+          ],
+          "orcid": "https://orcid.org/0000-0003-3919-7843"
+        },
+        {
+          "name": "Binbin Tang",
+          "institutions": [
+            "Chinese Academy of Sciences"
+          ],
+          "orcid": "https://orcid.org/0000-0002-9244-1828"
+        },
+        {
+          "name": "Fuhao Qiao",
+          "institutions": [
+            "Chinese Academy of Sciences",
+            "University of Chinese Academy of Sciences"
+          ],
+          "orcid": "https://orcid.org/0009-0007-4742-1688"
+        },
+        {
+          "name": "Jijie Ma",
+          "institutions": [
+            "Nanjing University"
+          ],
+          "orcid": "https://orcid.org/0000-0003-4872-7906"
+        },
+        {
+          "name": "Taifeng Jin",
+          "institutions": [
+            "Wuhan University"
+          ],
+          "orcid": "https://orcid.org/0000-0002-0204-7609"
+        },
+        {
+          "name": "Yongyong Feng",
+          "institutions": [
+            "Chinese Academy of Sciences"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Fuyu Sun",
+          "institutions": [
+            "Chinese Academy of Sciences",
+            "University of Chinese Academy of Sciences"
+          ],
+          "orcid": "https://orcid.org/0009-0006-9065-6995"
+        }
+      ],
+      "institutions": [
+        "Chinese Academy of Sciences",
+        "University of Chinese Academy of Sciences",
+        "Nanjing University",
+        "Wuhan University"
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Fae9f51",
+      "source": "journal",
+      "journal": "The Astrophysical Journal",
+      "journal_id": "1538-4357",
+      "source_group": "planet",
+      "categories": [],
+      "url": "https://doi.org/10.3847/1538-4357/ae9f51",
+      "published": "2026-10-15",
+      "publication_date": "2026-10-15",
+      "publication_date_source": "Crossref publisher metadata",
+      "date_kind": "journal",
+      "first_seen": "2026-10-16T01:38:11.927481+00:00",
+      "updated": "2026-10-15T06:45:49Z",
+      "metadata_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Fae9f51",
+      "relations": {},
+      "metadata_limited": false,
+      "publication_dates": {
+        "published-online": "2026-10-15",
+        "published-print": "2026-10-20"
+      },
+      "topics": [
+        "evolution"
+      ],
+      "matches": {
+        "evolution": [
+          "volatile"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：volatile",
+      "tags": [
+        "岩浆与挥发分 · Magma & volatiles",
+        "流体与不稳定性 · Fluid dynamics",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 31,
+      "fit_matches": [],
+      "variants": [
+        {
+          "id": "doi:10.3847/1538-4357/ae9f51",
+          "source": "journal",
+          "journal": "The Astrophysical Journal",
+          "journal_id": "1538-4357",
+          "title": "Penetrating Solar Wind Protons Drive Asymmetric Acceleration of Oxygen Ions in the Martian Magnetotail Current Sheet",
+          "url": "https://doi.org/10.3847/1538-4357/ae9f51",
+          "doi": "10.3847/1538-4357/ae9f51",
+          "version_id": "doi:10.3847/1538-4357/ae9f51",
+          "first_seen": "2026-10-16T01:38:11.927481+00:00",
+          "publication_date": "2026-10-15",
+          "version_date": null,
+          "metadata_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Fae9f51",
+          "affiliation_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Fae9f51"
+        }
+      ],
+      "match_basis": [],
+      "source_types": [
+        "journal"
+      ],
+      "journals": [
+        "The Astrophysical Journal"
+      ],
+      "source_groups": [
+        "planet"
+      ],
+      "intake_kind": "recent"
+    },
+    {
+      "id": "doi:10.3847/1538-4357/ae9e27",
+      "doi": "10.3847/1538-4357/ae9e27",
+      "version_id": "doi:10.3847/1538-4357/ae9e27",
+      "title": "Dynamical Tides during High-eccentricity Migration Produce the Hot-Jupiter Pileup, Neptune Ridge, and Neptune Desert",
+      "abstract": "Abstract The period distribution of hot gaseous exoplanets depends strongly on mass. Clustering between the orbital periods of ∼3 to ∼5–6 days is seen for sub-Saturns (“Neptune ridge”) and Jovians (“hot-Jupiter pileup”), contrasting with a sharp deficit interior to 3 days for sub-Saturns, not seen for Jovians (“Neptune desert”). During high-eccentricity migration, tidally excited fundamental-modes ( f -modes) act as a reservoir for orbital energy, and can take gaseous planets formed beyond several astronomical units and place them at short separations. However, how f -modes relinquish their energy into the planet interior is unknown. Here, we show how f -modes can not only circularize orbits—causing clustering near the Neptune ridge and hot-Jupiter pileup—but can also shock and unbind mass, leaving sub-Saturn cores in the Neptune desert. Our hydrodynamical simulations demonstrate that close approaches tidally excite f -modes, whose supersonic velocities shock gaseous envelopes. Atmospheres cool by radiative diffusion or winds when shocks penetrate shallow versus deep depths. Planetary structural and orbital evolution is followed over many periastron passages using an iterative map: shocks that diffusively cool circularize and bunch orbits near the hot-Jupiter pileup and Neptune ridge, while shocks that drive outflows unbind envelopes and place gas-giant cores in the Neptune desert. Sub-Saturns that dwell in the desert are predicted to arrive with large spin–orbit misalignments after producing luminous flares.",
+      "authors": [
+        "J. J. Zanazzi",
+        "Morgan MacLeod",
+        "Marta L. Bryan",
+        "Suvrath Mahadevan"
+      ],
+      "author_affiliations": [
+        {
+          "name": "J. J. Zanazzi",
+          "institutions": [
+            "The Pennsylvania State University"
+          ],
+          "orcid": "https://orcid.org/0000-0002-9849-5886"
+        },
+        {
+          "name": "Morgan MacLeod",
+          "institutions": [
+            "Institute for Theory & Computation"
+          ],
+          "orcid": "https://orcid.org/0000-0002-1417-8024"
+        },
+        {
+          "name": "Marta L. Bryan",
+          "institutions": [
+            "The Pennsylvania State University"
+          ],
+          "orcid": "https://orcid.org/0000-0002-6076-5967"
+        },
+        {
+          "name": "Suvrath Mahadevan",
+          "institutions": [
+            "The Pennsylvania State University"
+          ],
+          "orcid": "https://orcid.org/0000-0001-9596-7983"
+        }
+      ],
+      "institutions": [
+        "The Pennsylvania State University",
+        "Institute for Theory & Computation"
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Fae9e27",
+      "source": "journal",
+      "journal": "The Astrophysical Journal",
+      "journal_id": "1538-4357",
+      "source_group": "planet",
+      "categories": [],
+      "url": "https://doi.org/10.3847/1538-4357/ae9e27",
+      "published": "2026-10-15",
+      "publication_date": "2026-10-15",
+      "publication_date_source": "Crossref publisher metadata",
+      "date_kind": "journal",
+      "first_seen": "2026-10-16T01:38:11.927481+00:00",
+      "updated": "2026-10-15T06:45:57Z",
+      "metadata_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Fae9e27",
+      "relations": {
+        "is-supplemented-by": [
+          {
+            "id-type": "doi",
+            "id": "10.5281/zenodo.21695555",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "metadata_limited": false,
+      "publication_dates": {
+        "published-online": "2026-10-15",
+        "published-print": "2026-10-20"
+      },
+      "topics": [
+        "planetary",
+        "orbital",
+        "evolution"
+      ],
+      "matches": {
+        "planetary": [
+          "hot jupiter"
+        ],
+        "orbital": [
+          "orbital evolution"
+        ],
+        "evolution": [
+          "orbital evolution"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：hot jupiter、orbital evolution",
+      "tags": [
+        "云与辐射 · Clouds & radiation",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 61,
+      "fit_matches": [
+        "行星轨道与演化"
+      ],
+      "variants": [
+        {
+          "id": "doi:10.3847/1538-4357/ae9e27",
+          "source": "journal",
+          "journal": "The Astrophysical Journal",
+          "journal_id": "1538-4357",
+          "title": "Dynamical Tides during High-eccentricity Migration Produce the Hot-Jupiter Pileup, Neptune Ridge, and Neptune Desert",
+          "url": "https://doi.org/10.3847/1538-4357/ae9e27",
+          "doi": "10.3847/1538-4357/ae9e27",
+          "version_id": "doi:10.3847/1538-4357/ae9e27",
+          "first_seen": "2026-10-16T01:38:11.927481+00:00",
+          "publication_date": "2026-10-15",
+          "version_date": null,
+          "metadata_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Fae9e27",
+          "affiliation_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Fae9e27"
+        }
+      ],
+      "match_basis": [],
+      "source_types": [
+        "journal"
+      ],
+      "journals": [
+        "The Astrophysical Journal"
+      ],
+      "source_groups": [
+        "planet"
+      ],
+      "intake_kind": "recent"
+    },
+    {
       "id": "exoplanet-bib:33128",
       "version_id": "exoplanet-bib:33128",
       "exoplanet_id": "33128",
@@ -23923,6 +24355,7 @@
       "2610.19280",
       "2610.19328",
       "2610.19377",
+      "2610.21117",
       "doi:10.1029/2026je009882",
       "doi:10.1177/15311074261493349",
       "doi:10.3847/1538-4357/ae1cc5",
@@ -23933,7 +24366,9 @@
       "doi:10.3847/1538-4357/ae9a84",
       "doi:10.3847/1538-4357/ae9ba8",
       "doi:10.3847/1538-4357/ae9bbc",
+      "doi:10.3847/1538-4357/ae9e27",
       "doi:10.3847/1538-4357/ae9f4b",
+      "doi:10.3847/1538-4357/ae9f51",
       "doi:10.3847/1538-4357/ae9fe5",
       "doi:10.3847/1538-4357/aea090",
       "doi:10.3847/1538-4357/aea13e",
@@ -23980,7 +24415,10 @@
       "2610.18864": "recent",
       "2610.18806": "recent",
       "2610.18114": "recent",
-      "doi:10.3847/1538-4357/ae47f2": "user_requested"
+      "doi:10.3847/1538-4357/ae47f2": "user_requested",
+      "2610.21117": "recent",
+      "doi:10.3847/1538-4357/ae9f51": "recent",
+      "doi:10.3847/1538-4357/ae9e27": "recent"
     },
     "policy": {
       "recent_days": 2,
@@ -23988,18 +24426,12 @@
       "min_fallback_score": 65,
       "max_fallback": 3
     },
-    "last_run": "2026-10-15",
+    "last_run": "2026-10-16",
     "mode": "recent",
     "selected": [
-      "2610.19377",
-      "2610.19328",
-      "2610.19280",
-      "2610.19242",
-      "2610.19228",
-      "2610.19081",
-      "2610.18864",
-      "2610.18806",
-      "2610.18114"
+      "2610.21117",
+      "doi:10.3847/1538-4357/ae9f51",
+      "doi:10.3847/1538-4357/ae9e27"
     ],
     "search_errors": []
   },
@@ -24249,16 +24681,16 @@
       "2026-09": {
         "count": 410,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
         "through": "2026-09-30",
         "source_url": "https://api.crossref.org/journals/1476-4687/works?filter=from-pub-date%3A2026-09-01%2Cuntil-pub-date%3A2026-09-30%2Ctype%3Ajournal-article&rows=0"
       },
       "2026-10": {
-        "count": 136,
+        "count": 196,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
-        "through": "2026-10-14",
-        "source_url": "https://api.crossref.org/journals/1476-4687/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-14%2Ctype%3Ajournal-article&rows=0"
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
+        "through": "2026-10-16",
+        "source_url": "https://api.crossref.org/journals/1476-4687/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-16%2Ctype%3Ajournal-article&rows=0"
       }
     },
     "1095-9203": {
@@ -24298,18 +24730,18 @@
         "source_url": "https://api.crossref.org/journals/1095-9203/works?filter=from-pub-date%3A2026-08-01%2Cuntil-pub-date%3A2026-08-31%2Ctype%3Ajournal-article&rows=0"
       },
       "2026-09": {
-        "count": 160,
+        "count": 157,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
         "through": "2026-09-30",
         "source_url": "https://api.crossref.org/journals/1095-9203/works?filter=from-pub-date%3A2026-09-01%2Cuntil-pub-date%3A2026-09-30%2Ctype%3Ajournal-article&rows=0"
       },
       "2026-10": {
-        "count": 87,
+        "count": 128,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
-        "through": "2026-10-14",
-        "source_url": "https://api.crossref.org/journals/1095-9203/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-14%2Ctype%3Ajournal-article&rows=0"
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
+        "through": "2026-10-16",
+        "source_url": "https://api.crossref.org/journals/1095-9203/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-16%2Ctype%3Ajournal-article&rows=0"
       }
     },
     "1091-6490": {
@@ -24351,16 +24783,16 @@
       "2026-09": {
         "count": 412,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
         "through": "2026-09-30",
         "source_url": "https://api.crossref.org/journals/1091-6490/works?filter=from-pub-date%3A2026-09-01%2Cuntil-pub-date%3A2026-09-30%2Ctype%3Ajournal-article&rows=0"
       },
       "2026-10": {
-        "count": 162,
+        "count": 195,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
-        "through": "2026-10-14",
-        "source_url": "https://api.crossref.org/journals/1091-6490/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-14%2Ctype%3Ajournal-article&rows=0"
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
+        "through": "2026-10-16",
+        "source_url": "https://api.crossref.org/journals/1091-6490/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-16%2Ctype%3Ajournal-article&rows=0"
       }
     },
     "1752-0908": {
@@ -24402,16 +24834,16 @@
       "2026-09": {
         "count": 31,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
         "through": "2026-09-30",
         "source_url": "https://api.crossref.org/journals/1752-0908/works?filter=from-pub-date%3A2026-09-01%2Cuntil-pub-date%3A2026-09-30%2Ctype%3Ajournal-article&rows=0"
       },
       "2026-10": {
-        "count": 11,
+        "count": 12,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
-        "through": "2026-10-14",
-        "source_url": "https://api.crossref.org/journals/1752-0908/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-14%2Ctype%3Ajournal-article&rows=0"
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
+        "through": "2026-10-16",
+        "source_url": "https://api.crossref.org/journals/1752-0908/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-16%2Ctype%3Ajournal-article&rows=0"
       }
     },
     "2397-3366": {
@@ -24453,16 +24885,16 @@
       "2026-09": {
         "count": 30,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
         "through": "2026-09-30",
         "source_url": "https://api.crossref.org/journals/2397-3366/works?filter=from-pub-date%3A2026-09-01%2Cuntil-pub-date%3A2026-09-30%2Ctype%3Ajournal-article&rows=0"
       },
       "2026-10": {
-        "count": 12,
+        "count": 14,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
-        "through": "2026-10-14",
-        "source_url": "https://api.crossref.org/journals/2397-3366/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-14%2Ctype%3Ajournal-article&rows=0"
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
+        "through": "2026-10-16",
+        "source_url": "https://api.crossref.org/journals/2397-3366/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-16%2Ctype%3Ajournal-article&rows=0"
       }
     },
     "1758-6798": {
@@ -24504,16 +24936,16 @@
       "2026-09": {
         "count": 27,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
         "through": "2026-09-30",
         "source_url": "https://api.crossref.org/journals/1758-6798/works?filter=from-pub-date%3A2026-09-01%2Cuntil-pub-date%3A2026-09-30%2Ctype%3Ajournal-article&rows=0"
       },
       "2026-10": {
-        "count": 4,
+        "count": 13,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
-        "through": "2026-10-14",
-        "source_url": "https://api.crossref.org/journals/1758-6798/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-14%2Ctype%3Ajournal-article&rows=0"
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
+        "through": "2026-10-16",
+        "source_url": "https://api.crossref.org/journals/1758-6798/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-16%2Ctype%3Ajournal-article&rows=0"
       }
     },
     "1520-0469": {
@@ -24553,18 +24985,18 @@
         "source_url": "https://api.crossref.org/journals/1520-0469/works?filter=from-pub-date%3A2026-08-01%2Cuntil-pub-date%3A2026-08-31%2Ctype%3Ajournal-article&rows=0"
       },
       "2026-09": {
-        "count": 14,
+        "count": 13,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
         "through": "2026-09-30",
         "source_url": "https://api.crossref.org/journals/1520-0469/works?filter=from-pub-date%3A2026-09-01%2Cuntil-pub-date%3A2026-09-30%2Ctype%3Ajournal-article&rows=0"
       },
       "2026-10": {
-        "count": 7,
+        "count": 8,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
-        "through": "2026-10-14",
-        "source_url": "https://api.crossref.org/journals/1520-0469/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-14%2Ctype%3Ajournal-article&rows=0"
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
+        "through": "2026-10-16",
+        "source_url": "https://api.crossref.org/journals/1520-0469/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-16%2Ctype%3Ajournal-article&rows=0"
       }
     },
     "1680-7324": {
@@ -24606,16 +25038,16 @@
       "2026-09": {
         "count": 63,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
         "through": "2026-09-30",
         "source_url": "https://api.crossref.org/journals/1680-7324/works?filter=from-pub-date%3A2026-09-01%2Cuntil-pub-date%3A2026-09-30%2Ctype%3Ajournal-article&rows=0"
       },
       "2026-10": {
-        "count": 36,
+        "count": 41,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
-        "through": "2026-10-14",
-        "source_url": "https://api.crossref.org/journals/1680-7324/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-14%2Ctype%3Ajournal-article&rows=0"
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
+        "through": "2026-10-16",
+        "source_url": "https://api.crossref.org/journals/1680-7324/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-16%2Ctype%3Ajournal-article&rows=0"
       }
     },
     "2169-8996": {
@@ -24657,16 +25089,16 @@
       "2026-09": {
         "count": 98,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
         "through": "2026-09-30",
         "source_url": "https://api.crossref.org/journals/2169-8996/works?filter=from-pub-date%3A2026-09-01%2Cuntil-pub-date%3A2026-09-30%2Ctype%3Ajournal-article&rows=0"
       },
       "2026-10": {
-        "count": 41,
+        "count": 47,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
-        "through": "2026-10-14",
-        "source_url": "https://api.crossref.org/journals/2169-8996/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-14%2Ctype%3Ajournal-article&rows=0"
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
+        "through": "2026-10-16",
+        "source_url": "https://api.crossref.org/journals/2169-8996/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-16%2Ctype%3Ajournal-article&rows=0"
       }
     },
     "1520-0485": {
@@ -24882,18 +25314,18 @@
         "source_url": "https://api.crossref.org/journals/1520-0442/works?filter=from-pub-date%3A2026-08-01%2Cuntil-pub-date%3A2026-08-31%2Ctype%3Ajournal-article&rows=0"
       },
       "2026-09": {
-        "count": 47,
+        "count": 34,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
         "through": "2026-09-30",
         "source_url": "https://api.crossref.org/journals/1520-0442/works?filter=from-pub-date%3A2026-09-01%2Cuntil-pub-date%3A2026-09-30%2Ctype%3Ajournal-article&rows=0"
       },
       "2026-10": {
-        "count": 29,
+        "count": 50,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
-        "through": "2026-10-14",
-        "source_url": "https://api.crossref.org/journals/1520-0442/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-14%2Ctype%3Ajournal-article&rows=0"
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
+        "through": "2026-10-16",
+        "source_url": "https://api.crossref.org/journals/1520-0442/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-16%2Ctype%3Ajournal-article&rows=0"
       }
     },
     "1432-0894": {
@@ -24935,16 +25367,16 @@
       "2026-09": {
         "count": 34,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
         "through": "2026-09-30",
         "source_url": "https://api.crossref.org/journals/1432-0894/works?filter=from-pub-date%3A2026-09-01%2Cuntil-pub-date%3A2026-09-30%2Ctype%3Ajournal-article&rows=0"
       },
       "2026-10": {
-        "count": 21,
+        "count": 22,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
-        "through": "2026-10-14",
-        "source_url": "https://api.crossref.org/journals/1432-0894/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-14%2Ctype%3Ajournal-article&rows=0"
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
+        "through": "2026-10-16",
+        "source_url": "https://api.crossref.org/journals/1432-0894/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-16%2Ctype%3Ajournal-article&rows=0"
       }
     },
     "1814-9332": {
@@ -24986,16 +25418,16 @@
       "2026-09": {
         "count": 9,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
         "through": "2026-09-30",
         "source_url": "https://api.crossref.org/journals/1814-9332/works?filter=from-pub-date%3A2026-09-01%2Cuntil-pub-date%3A2026-09-30%2Ctype%3Ajournal-article&rows=0"
       },
       "2026-10": {
         "count": 5,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
-        "through": "2026-10-14",
-        "source_url": "https://api.crossref.org/journals/1814-9332/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-14%2Ctype%3Ajournal-article&rows=0"
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
+        "through": "2026-10-16",
+        "source_url": "https://api.crossref.org/journals/1814-9332/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-16%2Ctype%3Ajournal-article&rows=0"
       }
     },
     "1477-870X": {
@@ -25037,16 +25469,16 @@
       "2026-09": {
         "count": 18,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
         "through": "2026-09-30",
         "source_url": "https://api.crossref.org/journals/1477-870X/works?filter=from-pub-date%3A2026-09-01%2Cuntil-pub-date%3A2026-09-30%2Ctype%3Ajournal-article&rows=0"
       },
       "2026-10": {
-        "count": 10,
+        "count": 15,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
-        "through": "2026-10-14",
-        "source_url": "https://api.crossref.org/journals/1477-870X/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-14%2Ctype%3Ajournal-article&rows=0"
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
+        "through": "2026-10-16",
+        "source_url": "https://api.crossref.org/journals/1477-870X/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-16%2Ctype%3Ajournal-article&rows=0"
       }
     },
     "1557-8070": {
@@ -25088,16 +25520,16 @@
       "2026-09": {
         "count": 4,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
         "through": "2026-09-30",
         "source_url": "https://api.crossref.org/journals/1557-8070/works?filter=from-pub-date%3A2026-09-01%2Cuntil-pub-date%3A2026-09-30%2Ctype%3Ajournal-article&rows=0"
       },
       "2026-10": {
-        "count": 6,
+        "count": 8,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
-        "through": "2026-10-14",
-        "source_url": "https://api.crossref.org/journals/1557-8070/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-14%2Ctype%3Ajournal-article&rows=0"
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
+        "through": "2026-10-16",
+        "source_url": "https://api.crossref.org/journals/1557-8070/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-16%2Ctype%3Ajournal-article&rows=0"
       }
     },
     "1944-8007": {
@@ -25139,16 +25571,16 @@
       "2026-09": {
         "count": 176,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
         "through": "2026-09-30",
         "source_url": "https://api.crossref.org/journals/1944-8007/works?filter=from-pub-date%3A2026-09-01%2Cuntil-pub-date%3A2026-09-30%2Ctype%3Ajournal-article&rows=0"
       },
       "2026-10": {
-        "count": 87,
+        "count": 107,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
-        "through": "2026-10-14",
-        "source_url": "https://api.crossref.org/journals/1944-8007/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-14%2Ctype%3Ajournal-article&rows=0"
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
+        "through": "2026-10-16",
+        "source_url": "https://api.crossref.org/journals/1944-8007/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-16%2Ctype%3Ajournal-article&rows=0"
       }
     },
     "2169-9100": {
@@ -25190,16 +25622,16 @@
       "2026-09": {
         "count": 40,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
         "through": "2026-09-30",
         "source_url": "https://api.crossref.org/journals/2169-9100/works?filter=from-pub-date%3A2026-09-01%2Cuntil-pub-date%3A2026-09-30%2Ctype%3Ajournal-article&rows=0"
       },
       "2026-10": {
-        "count": 19,
+        "count": 22,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
-        "through": "2026-10-14",
-        "source_url": "https://api.crossref.org/journals/2169-9100/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-14%2Ctype%3Ajournal-article&rows=0"
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
+        "through": "2026-10-16",
+        "source_url": "https://api.crossref.org/journals/2169-9100/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-16%2Ctype%3Ajournal-article&rows=0"
       }
     },
     "1538-4357": {
@@ -25241,16 +25673,16 @@
       "2026-09": {
         "count": 376,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
         "through": "2026-09-30",
         "source_url": "https://api.crossref.org/journals/1538-4357/works?filter=from-pub-date%3A2026-09-01%2Cuntil-pub-date%3A2026-09-30%2Ctype%3Ajournal-article&rows=0"
       },
       "2026-10": {
-        "count": 148,
+        "count": 189,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
-        "through": "2026-10-14",
-        "source_url": "https://api.crossref.org/journals/1538-4357/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-14%2Ctype%3Ajournal-article&rows=0"
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
+        "through": "2026-10-16",
+        "source_url": "https://api.crossref.org/journals/1538-4357/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-16%2Ctype%3Ajournal-article&rows=0"
       }
     },
     "2041-8213": {
@@ -25292,16 +25724,16 @@
       "2026-09": {
         "count": 89,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
         "through": "2026-09-30",
         "source_url": "https://api.crossref.org/journals/2041-8213/works?filter=from-pub-date%3A2026-09-01%2Cuntil-pub-date%3A2026-09-30%2Ctype%3Ajournal-article&rows=0"
       },
       "2026-10": {
-        "count": 28,
+        "count": 39,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
-        "through": "2026-10-14",
-        "source_url": "https://api.crossref.org/journals/2041-8213/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-14%2Ctype%3Ajournal-article&rows=0"
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
+        "through": "2026-10-16",
+        "source_url": "https://api.crossref.org/journals/2041-8213/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-16%2Ctype%3Ajournal-article&rows=0"
       }
     },
     "0012-821X": {
@@ -25343,38 +25775,32 @@
       "2026-09": {
         "count": 72,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
         "through": "2026-09-30",
         "source_url": "https://api.crossref.org/journals/0012-821X/works?filter=from-pub-date%3A2026-09-01%2Cuntil-pub-date%3A2026-09-30%2Ctype%3Ajournal-article&rows=0"
       },
       "2026-10": {
-        "count": 68,
+        "count": 69,
         "status": "ok",
-        "checked_at": "2026-10-14T01:46:53.686155+00:00",
-        "through": "2026-10-14",
-        "source_url": "https://api.crossref.org/journals/0012-821X/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-14%2Ctype%3Ajournal-article&rows=0"
+        "checked_at": "2026-10-16T01:40:16.525648+00:00",
+        "through": "2026-10-16",
+        "source_url": "https://api.crossref.org/journals/0012-821X/works?filter=from-pub-date%3A2026-10-01%2Cuntil-pub-date%3A2026-10-16%2Ctype%3Ajournal-article&rows=0"
       }
     }
   },
-  "record_count": 1650,
+  "record_count": 1681,
   "merged_count": 17,
   "daily_brief": {
-    "date": "2026-10-15",
-    "built_at": "2026-10-15T13:21:35.307585+00:00",
+    "date": "2026-10-16",
+    "built_at": "2026-10-16T01:43:40.542553+00:00",
     "review_basis": "Automated rule screening; reading review is recorded separately.",
-    "new_count": 8,
+    "new_count": 3,
     "recent_ids": [
-      "2610.19377",
-      "2610.19328",
-      "2610.19280",
-      "2610.19242",
-      "2610.19081",
-      "2610.18864",
-      "2610.18114"
+      "2610.21117",
+      "doi:10.3847/1538-4357/ae9f51",
+      "doi:10.3847/1538-4357/ae9e27"
     ],
-    "older_ids": [
-      "doi:10.3847/1538-4357/ae47f2"
-    ],
+    "older_ids": [],
     "updated_ids": [],
     "source_issues": []
   }

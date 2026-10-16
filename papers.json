@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-10-15T01:38:21.320708+00:00",
+  "generated_at": "2026-10-16T01:37:47.382818+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
-      "last_attempt": "2026-10-15T01:38:21.320708+00:00",
-      "last_success": "2026-10-15T01:38:21.320708+00:00",
+      "last_attempt": "2026-10-16T01:37:47.382818+00:00",
+      "last_success": "2026-10-16T01:37:47.382818+00:00",
       "status": "ok",
-      "fetched": 35
+      "fetched": 5
     },
     "physics.ao-ph": {
-      "last_attempt": "2026-10-15T01:38:21.320708+00:00",
-      "last_success": "2026-10-15T01:38:21.320708+00:00",
-      "status": "ok",
-      "fetched": 3
-    },
-    "physics.geo-ph": {
-      "last_attempt": "2026-10-15T01:38:21.320708+00:00",
-      "last_success": "2026-10-15T01:38:21.320708+00:00",
+      "last_attempt": "2026-10-16T01:37:47.382818+00:00",
+      "last_success": "2026-10-16T01:37:47.382818+00:00",
       "status": "ok",
       "fetched": 1
     },
-    "physics.flu-dyn": {
-      "last_attempt": "2026-10-15T01:38:21.320708+00:00",
-      "last_success": "2026-10-15T01:38:21.320708+00:00",
+    "physics.geo-ph": {
+      "last_attempt": "2026-10-16T01:37:47.382818+00:00",
+      "last_success": "2026-10-16T01:37:47.382818+00:00",
       "status": "ok",
-      "fetched": 5
+      "fetched": 0
+    },
+    "physics.flu-dyn": {
+      "last_attempt": "2026-10-16T01:37:47.382818+00:00",
+      "last_success": "2026-10-16T01:37:47.382818+00:00",
+      "status": "ok",
+      "fetched": 2
     }
   },
   "topics": [
@@ -811,6 +811,618 @@
   ],
   "repository": "https://github.com/PkuJunyangGroup/planet-fluid-radar",
   "papers": [
+    {
+      "id": "2610.21566",
+      "version_id": "2610.21566v1",
+      "title": "An HST survey of photometry and multiplicity of brown dwarfs and planetary-mass objects in the field of Taurus",
+      "abstract": "We present a photometric and multiplicity survey of 26 young objects with masses between 6 Mj and 37 Mj and spectral type later than M8 in the Taurus star-forming region with the Hubble Space Telescope. We search for companion candidates using two methods: a dedicated photometric technique based on the combination of colours from multi-band photometry and point spread function fitting. No companion candidates are detected beyond 30 au. With an updated membership and age identification, we determine luminosity, temperature, and mass for the 26 young objects using evolutionary models. We demonstrate that our HST observations are sensitive to companions down to masses of 1 Mj and even lower for some targets by artificial star injection tests. After survey completeness correction, we derive a binary frequency < 6.5% for this sample in the 68% confidence interval for companions with mass ratios between 0.1 and 1 and separations between 30 and 7,000 au. We find no significant difference in binary frequency among planetary-mass objects in Taurus, Upper Scorpius, and the field. These findings support that the binary frequency of planetary-mass objects is settled at young ages, probably younger than 1--10 Myr, suggesting that the formation of wide-orbit planetary-mass binaries is inefficient and the disruption of them likely occurs at a very early stage in a low density environment.",
+      "published": "2026-10-15T09:23:10Z",
+      "updated": "2026-10-15T09:23:10Z",
+      "authors": [
+        "Pengyu Liu",
+        "Beth A. Biller",
+        "Clémence Fontanive",
+        "Michele Scalco",
+        "Loïc Albert",
+        "Luigi R. Bedin",
+        "Matthew De Furio",
+        "Belinda Damian",
+        "Jessy Jose",
+        "Zhoujian Zhang",
+        "Wen-Ping Chen",
+        "Sophie Dubber",
+        "Bhavana Lalchand",
+        "Michael C. Liu"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.SR",
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2610.21566",
+      "pdf": "https://arxiv.org/pdf/2610.21566v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-16T01:37:47.382818+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "行星科学拓展阅读",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Institute for Astronomy, University of Edinburgh, Royal Observatory, Edinburgh EH9 3HJ, UK",
+        "Centre for Exoplanet Science, University of Edinburgh, Edinburgh, UK",
+        "Leiden Observatory, Leiden University, Gorlaeus Building, Einsteinweg 55, 2333 CC Leiden, The Netherlands",
+        "Department of Astronomy, School of Science, Westlake University, Hangzhou, Zhejiang 310030, P. R. China",
+        "Institute of Natural Sciences, Westlake Institute for Advanced Study, Hangzhou, Zhejiang 310024, P. R. China",
+        "Department of Astronomy, Indiana University, Swain West, 727 E. 3rd Street, Bloomington, IN 47405, USA",
+        "Département de Physique and Observatoire du Mont-Mégantic, Université de Montréal, C.P. 6128, Succ. Centre-ville, Montréal, H3C 3J7, Québec, Canada",
+        "Observatoire du Mont-Mégantic, Université de Montréal, C.P. 6128, Succ. Centre-ville, Montréal, H3C 3J7, Québec, Canada",
+        "Istituto Nazionale di Astrofisica (INAF), Osservatorio Astronomico di Padova, Vicolo dell’Osservatorio 5, Padova I-35122, Italy",
+        "Department of Astronomy, The University of Texas at Austin, 2515 Speedway, Stop C1400, Austin, TX 78712, USA",
+        "SUPA, School of Physics & Astronomy, University of St Andrews, North Haugh, St Andrews, KY16 9SS, UK",
+        "Department of Physics, Indian Institute of Science Education and Research Tirupati, Yerpedu, Tirupati - 517619, Andhra Pradesh, India",
+        "Department of Physics & Astronomy, University of Rochester, Rochester, NY 14627, USA",
+        "Institute of Astronomy, National Central University, 300 Zhongda Road, Zhongli 32001 Taoyuan, Taiwan",
+        "Department of Physics, National Central University, 300 Zhongda Road, Zhongli 32001 Taoyuan, Taiwan",
+        "Institute for Astronomy, University of Hawai’i, 2680 Woodlawn Drive, Honolulu HI 96822, USA",
+        "Yunnan Observatories, Chinese Academy of Sciences, Kuming 650216, People’s Republic of China"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Pengyu Liu",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Beth A. Biller",
+          "institutions": [
+            "Institute for Astronomy, University of Edinburgh, Royal Observatory, Edinburgh EH9 3HJ, UK",
+            "Centre for Exoplanet Science, University of Edinburgh, Edinburgh, UK",
+            "Leiden Observatory, Leiden University, Gorlaeus Building, Einsteinweg 55, 2333 CC Leiden, The Netherlands",
+            "Department of Astronomy, School of Science, Westlake University, Hangzhou, Zhejiang 310030, P. R. China",
+            "Institute of Natural Sciences, Westlake Institute for Advanced Study, Hangzhou, Zhejiang 310024, P. R. China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Clémence Fontanive",
+          "institutions": [
+            "Institute for Astronomy, University of Edinburgh, Royal Observatory, Edinburgh EH9 3HJ, UK",
+            "Centre for Exoplanet Science, University of Edinburgh, Edinburgh, UK"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Michele Scalco",
+          "institutions": [
+            "Institute for Astronomy, University of Edinburgh, Royal Observatory, Edinburgh EH9 3HJ, UK",
+            "Centre for Exoplanet Science, University of Edinburgh, Edinburgh, UK"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Loïc Albert",
+          "institutions": [
+            "Department of Astronomy, Indiana University, Swain West, 727 E. 3rd Street, Bloomington, IN 47405, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Luigi R. Bedin",
+          "institutions": [
+            "Département de Physique and Observatoire du Mont-Mégantic, Université de Montréal, C.P. 6128, Succ. Centre-ville, Montréal, H3C 3J7, Québec, Canada",
+            "Observatoire du Mont-Mégantic, Université de Montréal, C.P. 6128, Succ. Centre-ville, Montréal, H3C 3J7, Québec, Canada"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Matthew De Furio",
+          "institutions": [
+            "Istituto Nazionale di Astrofisica (INAF), Osservatorio Astronomico di Padova, Vicolo dell’Osservatorio 5, Padova I-35122, Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Belinda Damian",
+          "institutions": [
+            "Department of Astronomy, The University of Texas at Austin, 2515 Speedway, Stop C1400, Austin, TX 78712, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Jessy Jose",
+          "institutions": [
+            "SUPA, School of Physics & Astronomy, University of St Andrews, North Haugh, St Andrews, KY16 9SS, UK"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Zhoujian Zhang",
+          "institutions": [
+            "Department of Physics, Indian Institute of Science Education and Research Tirupati, Yerpedu, Tirupati - 517619, Andhra Pradesh, India"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Wen-Ping Chen",
+          "institutions": [
+            "Department of Physics & Astronomy, University of Rochester, Rochester, NY 14627, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Sophie Dubber",
+          "institutions": [
+            "Institute of Astronomy, National Central University, 300 Zhongda Road, Zhongli 32001 Taoyuan, Taiwan",
+            "Department of Physics, National Central University, 300 Zhongda Road, Zhongli 32001 Taoyuan, Taiwan"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Bhavana Lalchand",
+          "institutions": [
+            "Institute for Astronomy, University of Edinburgh, Royal Observatory, Edinburgh EH9 3HJ, UK",
+            "Centre for Exoplanet Science, University of Edinburgh, Edinburgh, UK"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Michael C. Liu",
+          "institutions": [
+            "Institute for Astronomy, University of Hawai’i, 2680 Woodlawn Drive, Honolulu HI 96822, USA"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.21566v1",
+      "intro_en": "We present a photometric and multiplicity survey of 26 young objects with masses between 6 Mj and 37 Mj and spectral type later than M8 in the Taurus star-forming region with the Hubble Space Telescope. We search for companion candidates using two methods: a dedicated photometric technique based on the combination of colours from multi-band photometry and point spread function fitting.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-15",
+      "publication_date_source": "https://arxiv.org/abs/2610.21566v1",
+      "version_date": "2026-10-15T09:23:10+00:00"
+    },
+    {
+      "id": "2610.21564",
+      "version_id": "2610.21564v1",
+      "title": "Effect of leading edge geometry on aerodynamic performance of a flat plate",
+      "abstract": "Flow separation around flat plate is influenced by the thickness and leading edge geometry, which creates the shear stresses and pressure distribution manifesting into unsteady aerodynamic forces. Leading edge geometries have been widely reported but the influence of leading edge curvature at low Reynolds numbers (Re) have found less attention. The present study uses two dimensional numerical simulation to investigate the effect of a hemispherical curvature (protuberance) at the leading edge and reports how vortex shedding, shedding frequencies and aerodynamic forces are affected over a range of angles of attack ($0^\\circ \\leq α\\leq 25^\\circ$) at Re = 1000. Thicker vortical regions are formed near the plate with curvature at the leading edge. Onset of shedding is noted at angle of attack of $5^\\circ$ for the plate with curvature at the leading edge and it gets delayed for simple flat plate. The temporal force coefficients on the plates show multiple frequencies at higher angles of attack. The plate with curvature at the leading edge has a glide ratio of 1 at $0^\\circ$ angle of attack and has equivalent glide ratio to that of simple flat plate at higher angles of attack. The simple flat plate has better glide ratios at moderate angles of attack like $5^\\circ, 10^\\circ$ and $15^\\circ$. The results will help in making engineering informed design decisions for smaller unmanned aerial/aquatic vehicles cruising at low Reynolds numbers.",
+      "published": "2026-10-15T09:21:23Z",
+      "updated": "2026-10-15T09:21:23Z",
+      "authors": [
+        "Intesaaf Ashraf",
+        "Hamid Hassan Khan",
+        "Majid Hassan Khan"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2610.21564",
+      "pdf": "https://arxiv.org/pdf/2610.21564v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-16T01:37:47.382818+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "环流与波动 · Circulation & waves",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Mechanical Engineering Department, University College London, WC1E 7JE, London, United Kingdom",
+        "Department of Mechanical Engineering, SRM University-AP, Amaravati 522240, Andhra Pradesh, India",
+        "Department of Mechanical Engineering, Birla Institute of Technology and Science, Pilani, Dubai Campus, Dubai International Academic City, Dubai, United Arab Emirates"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Intesaaf Ashraf",
+          "institutions": [
+            "Mechanical Engineering Department, University College London, WC1E 7JE, London, United Kingdom"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Hamid Hassan Khan",
+          "institutions": [
+            "Department of Mechanical Engineering, SRM University-AP, Amaravati 522240, Andhra Pradesh, India"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Majid Hassan Khan",
+          "institutions": [
+            "Department of Mechanical Engineering, Birla Institute of Technology and Science, Pilani, Dubai Campus, Dubai International Academic City, Dubai, United Arab Emirates"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.21564v1",
+      "intro_en": "Flow separation around flat plate is influenced by the thickness and leading edge geometry, which creates the shear stresses and pressure distribution manifesting into unsteady aerodynamic forces. Leading edge geometries have been widely reported but the influence of leading edge curvature at low Reynolds numbers (Re) have found less attention.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-15",
+      "publication_date_source": "https://arxiv.org/abs/2610.21564v1",
+      "version_date": "2026-10-15T09:21:23+00:00"
+    },
+    {
+      "id": "2610.21284",
+      "version_id": "2610.21284v1",
+      "title": "Thermodynamics of Viscously Heated Circumplanetary Disks",
+      "abstract": "Circumplanetary disks (CPDs) play an important role in the formation of gas giants and their satellites, yet remain poorly understood owing to the lack of observables and comprehensive theoretical models. Incorporating $α$-viscosity, a free-fall prescription of mass infall and boundary layer accretion, we develop an axisymmetric viscous radiation hydrodynamic (RHD) model. We evolve this model for different physical parameters using the RHD code {\\tt Guangqi}, which solves RHD equations under the flux-limited diffusion approximation. In eight out of nine simulations, we obtain quasi-steady-state solutions and verify self-consistent energy conversion and transport. Overall, disk thickness increases with accretion rate and decreases with planet mass, consistent with the expected trend in conventional $α$-disk models. On the other hand, we highlight that the boundary layer plays a significant role in setting angular momentum transport and thermodynamics of the inner CPD, yielding ``hot'' ($s_{\\rm real}>11\\,k_{\\rm{B}}\\,m_{\\rm{H}}^{-1}$) accreted gas, and potentially leading to dust sublimation. We identify a supersonic accretion flow, amounting to $2\\%$--$5\\%$ of the total accretion rate, located at high elevations above the CPDs with low angular momentum in our simulations. If the planet is massive ($\\gtrsim3\\,M_{\\rm J}$), this low angular momentum flow impacting the planetary surface could generate observable H$α$ emission when the shock accretion rate is $\\gtrsim5.5\\times10^{-8}\\, M_{\\rm J}\\,\\rm{yr}^{-1}$.",
+      "published": "2026-10-15T05:27:38Z",
+      "updated": "2026-10-15T05:27:38Z",
+      "authors": [
+        "Zhuo Chen",
+        "Jing Yang",
+        "Xue-Ning Bai"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2610.21284",
+      "pdf": "https://arxiv.org/pdf/2610.21284v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-16T01:37:47.382818+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "行星科学拓展阅读",
+      "tags": [
+        "海冰与表层 · Ice & surface",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Chen-Ning Yang Institute for Advanced Study, Tsinghua University, Beijing 100084, P. R. China",
+        "Department of Astronomy, Tsinghua University, Beijing 100084, P. R. China"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Zhuo Chen (陈卓)",
+          "institutions": [
+            "Chen-Ning Yang Institute for Advanced Study, Tsinghua University, Beijing 100084, P. R. China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Jing Yang (杨晶)",
+          "institutions": [
+            "Chen-Ning Yang Institute for Advanced Study, Tsinghua University, Beijing 100084, P. R. China"
+          ],
+          "orcid": "https://orcid.org/0009-0008-1149-4217"
+        },
+        {
+          "name": "Xue-Ning Bai (白雪宁)",
+          "institutions": [
+            "Chen-Ning Yang Institute for Advanced Study, Tsinghua University, Beijing 100084, P. R. China",
+            "Department of Astronomy, Tsinghua University, Beijing 100084, P. R. China"
+          ],
+          "orcid": "https://orcid.org/0000-0001-6906-9549"
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.21284v1",
+      "intro_en": "Circumplanetary disks (CPDs) play an important role in the formation of gas giants and their satellites, yet remain poorly understood owing to the lack of observables and comprehensive theoretical models. Incorporating $α$-viscosity, a free-fall prescription of mass infall and boundary layer accretion, we develop an axisymmetric viscous radiation hydrodynamic (RHD) model.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-15",
+      "publication_date_source": "https://arxiv.org/abs/2610.21284v1",
+      "version_date": "2026-10-15T05:27:38+00:00"
+    },
+    {
+      "id": "2610.21259",
+      "version_id": "2610.21259v1",
+      "title": "Energy Flow Shapes the Decomposition Dynamics of a Reactive Atmospheric Intermediate",
+      "abstract": "The unimolecular dynamics of Criegee intermediates depend strongly on their internal energy, which can differ substantially between nascent atmospheric species and laboratory-prepared reactants. Here, the decomposition dynamics of {\\it anti-}CH$_3$CHOO are investigated using molecular dynamics simulations on a neural network-based potential energy surface under thermal and mode-selective vibrational excitation. Simulations were performed at internal energies representative of those released during ozonolysis (chemical/thermal preparation, TP) or following vibrational excitation (VibEx) along the CH-stretching mode with two or three quanta, as can be done in laboratory studies. These excitation conditions strongly affect reaction yields and kinetics, with VibEx promoting passage across the initial cyclization barrier. For TP, 35 kcal/mol of internal energy are required to form molecular products, whereas for VibEx, 27 kcal/mol are sufficient. Although TP and VibEx ensembles access largely the same fragmentation pathways with comparable relative yields, the absolute product yields, characteristic timescales, and kinetic behavior differ substantially. Methyldioxirane is found to be a kinetic trap along the pathway. The resulting molecular-level description of {\\it anti-}CH$_3$CHOO decomposition provides guidance for interpreting experiments and contributes to a broader understanding of energy-dependent Criegee-intermediate dynamics.",
+      "published": "2026-10-15T04:53:45Z",
+      "updated": "2026-10-15T04:53:45Z",
+      "authors": [
+        "Mitradip Das",
+        "Cangtao Yin",
+        "M. Meuwly"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.chem-ph",
+        "physics.ao-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.21259",
+      "pdf": "https://arxiv.org/pdf/2610.21259v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-16T01:37:47.382818+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "海冰与表层 · Ice & surface",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "††affiliation: Department of Chemistry, University of Basel, Klingelbergstrasse 80, CH-4056 Basel, Switzerland."
+      ],
+      "author_affiliations": [
+        {
+          "name": "Mitradip Das",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Cangtao Yin",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Markus Meuwly",
+          "institutions": [],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.21259v1",
+      "intro_en": "The unimolecular dynamics of Criegee intermediates depend strongly on their internal energy, which can differ substantially between nascent atmospheric species and laboratory-prepared reactants. Here, the decomposition dynamics of {\\it anti-}CH$_3$CHOO are investigated using molecular dynamics simulations on a neural network-based potential energy surface under thermal and mode-selective vibrational excitation.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-15",
+      "publication_date_source": "https://arxiv.org/abs/2610.21259v1",
+      "version_date": "2026-10-15T04:53:45+00:00"
+    },
+    {
+      "id": "2610.21228",
+      "version_id": "2610.21228v1",
+      "title": "Post-perihelion dust activity and a candidate icy-grain halo in long-period comet C/2023 A3 (Tsuchinshan--ATLAS)",
+      "abstract": "We analyze the post-perihelion coma of the Great Comet of 2024, C/2023 A3 (Tsuchinshan--ATLAS) to characterize dust activity and assess the contribution of sublimating icy grains to a candidate near-nucleus halo. Using archival Zwicky Transient Facility images from 15 February to 26 May 2025, we performed aperture photometry within a fixed projected radius of 40,000 km and derived azimuthally averaged surface-brightness profiles. The comet faded from 12.86 to 14.77 mag as heliocentric distance increased from 2.64 to 3.90 au, with two short-lived brightenings. The effective dust cross section decreased by a factor of 2.4, following $C_{\\rm e}\\propto r_{\\rm h}^{-3.1}$, while the dust mass production rate scaled as $\\dot{M}_{\\rm d}\\propto r_{\\rm h}^{-3.41}$, consistent with a contribution from water-ice-driven activity. Extrapolating the fitted relation to perihelion implies a model-dependent cumulative dust mass loss of $3.0\\times10^{11}$ kg, equivalent to a globally averaged erosion depth of $\\sim1.4$ m for an assumed nucleus radius of 5.9 km. Coma profiles were shallower than the canonical steady-state expectation, suggesting radial changes in dust distribution or scattering properties, possibly due to delayed aggregate fragmentation. A persistent central brightness excess, coincident with less-red inner-coma colors, is consistent with an icy-grain halo. Among the models explored, icy grains of radius $\\sim10~μ$m with carbon fraction $\\sim0.1\\%$ yield halo radii comparable to those observed during enhanced activity on 21--25 February 2025, with grain lifetimes of $2.8\\times10^5$--$3.2\\times10^5$ s. No single fixed grain size and composition reproduces the full halo evolution; an increasing carbon fraction could explain the broad halo-radius trend, possibly reflecting progressive refractory enrichment of near-surface material.",
+      "published": "2026-10-15T04:18:59Z",
+      "updated": "2026-10-15T04:18:59Z",
+      "authors": [
+        "Bin Liu",
+        "Xiaoping Zhang",
+        "Xiaodong Liu",
+        "Man-To Hui"
+      ],
+      "doi": "10.1051/0004-6361/202661392",
+      "categories": [
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2610.21228",
+      "pdf": "https://arxiv.org/pdf/2610.21228v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-16T01:37:47.382818+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "行星科学拓展阅读",
+      "tags": [
+        "海冰与表层 · Ice & surface"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "State Key Laboratory of Lunar and Planetary Sciences, Macau University of Science and Technology, Taipa, Macau 999078, People’s Republic of China",
+        "School of Aeronautics and Astronautics, Shenzhen Campus of Sun Yat-sen University, Shenzhen, Guangdong 518107, People’s Republic of China",
+        "Shanghai Astronomical Observatory, Chinese Academy of Sciences, No. 80 Rd Nandan, Shanghai 200030, Mainland China"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Bin Liu",
+          "institutions": [
+            "State Key Laboratory of Lunar and Planetary Sciences, Macau University of Science and Technology, Taipa, Macau 999078, People’s Republic of China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Xiaoping Zhang",
+          "institutions": [
+            "State Key Laboratory of Lunar and Planetary Sciences, Macau University of Science and Technology, Taipa, Macau 999078, People’s Republic of China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Xiaodong Liu",
+          "institutions": [
+            "School of Aeronautics and Astronautics, Shenzhen Campus of Sun Yat-sen University, Shenzhen, Guangdong 518107, People’s Republic of China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Man-To Hui",
+          "institutions": [
+            "Shanghai Astronomical Observatory, Chinese Academy of Sciences, No. 80 Rd Nandan, Shanghai 200030, Mainland China"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.21228v1",
+      "intro_en": "We analyze the post-perihelion coma of the Great Comet of 2024, C/2023 A3 (Tsuchinshan--ATLAS) to characterize dust activity and assess the contribution of sublimating icy grains to a candidate near-nucleus halo. Using archival Zwicky Transient Facility images from 15 February to 26 May 2025, we performed aperture photometry within a fixed projected radius of 40,000 km and derived azimuthally averaged surface-brightness profiles.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-15",
+      "publication_date_source": "https://arxiv.org/abs/2610.21228v1",
+      "version_date": "2026-10-15T04:18:59+00:00"
+    },
+    {
+      "id": "2610.21206",
+      "version_id": "2610.21206v1",
+      "title": "Dust Activity Evolution and Constraints on Icy Grains in the Interstellar Comet 3I/ATLAS",
+      "abstract": "We present Zwicky Transient Facility observations of the interstellar comet 3I/ATLAS to characterize its dust-activity evolution before and after perihelion. Before perihelion, the effective scattering cross section $C_{\\rm e}$ brightened across the inner $2\\times10^4$ km as $C_{\\rm e}\\propto r_{\\rm H}^{-γ}$, with $γ$ increasing from $1.63\\pm0.14$ to $1.88\\pm0.34$ with aperture size. After perihelion, the heliocentric index decreased from $2.44\\pm0.09$ in the $5\\times10^3$ km aperture to $1.54\\pm0.09$ in the $8\\times10^4$ km aperture, indicating faster fading of the inner coma. Under adopted grain-size and residence-time assumptions, the implied dust mass-loss rates are $\\sim123$--$203~{\\rm kg~s^{-1}}$ before perihelion and $\\sim596$--$1412~{\\rm kg~s^{-1}}$ after perihelion. The morphology yields a sunward ejection-speed scale of $v_{\\rm ej}\\sim(190\\pm3)a_{μ{\\rm m}}^{-1/2}~{\\rm m~s^{-1}}$ and an effective perpendicular velocity of $v_\\perp=(79\\pm6)a_{μ{\\rm m}}^{-1/2}~{\\rm m~s^{-1}}$. Post-perihelion surface-brightness profiles transiently steepened to $k\\sim-2.7$ in late November and early December, then became shallower and approached $k=-1.5$ by January. Matched $g-r$ profiles show that this phase coincided with an anomalously blue outer coma that disappeared by January. We characterize the fading component with a projected destruction length of $\\ell_{\\rm DE}\\sim(6.4$--$7.2)\\times10^4$ km. Thermophysical sublimation calculations indicate that this scale, together with the order of magnitude of the water production near the main imaging epoch, is consistent with $a_0\\sim5$--$10~μ{\\rm m}$ icy grains containing a small absorbing carbonaceous fraction of $f_{\\rm C}\\sim0.1\\%$. These results suggest that the early post-perihelion coma likely contained a short-lived, volatile-bearing icy-grain component whose fading contributed to the outer-coma brightness and color evolution",
+      "published": "2026-10-15T04:02:27Z",
+      "updated": "2026-10-15T04:02:27Z",
+      "authors": [
+        "Bin Liu",
+        "Xiaoping Zhang",
+        "Xiaodong Liu",
+        "Man-To Hui"
+      ],
+      "doi": "10.3847/2041-8213/ae9a89",
+      "categories": [
+        "astro-ph.EP",
+        "astro-ph.GA"
+      ],
+      "url": "https://arxiv.org/abs/2610.21206",
+      "pdf": "https://arxiv.org/pdf/2610.21206v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-16T01:37:47.382818+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "行星科学拓展阅读",
+      "tags": [
+        "岩浆与挥发分 · Magma & volatiles",
+        "海冰与表层 · Ice & surface"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "State Key Laboratory of Lunar and Planetary Sciences, Macau University of Science and Technology, Taipa, Macau 999078, People’s Republic of China",
+        "School of Aeronautics and Astronautics, Shenzhen Campus of Sun Yat-sen University, Shenzhen, Guangdong 518107, People’s Republic of China",
+        "Shanghai Astronomical Observatory, Chinese Academy of Sciences, No. 80 Rd Nandan, Shanghai 200030, Mainland China"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Bin liu",
+          "institutions": [
+            "State Key Laboratory of Lunar and Planetary Sciences, Macau University of Science and Technology, Taipa, Macau 999078, People’s Republic of China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Xiaoping Zhang",
+          "institutions": [
+            "State Key Laboratory of Lunar and Planetary Sciences, Macau University of Science and Technology, Taipa, Macau 999078, People’s Republic of China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Xiaodong Liu",
+          "institutions": [
+            "School of Aeronautics and Astronautics, Shenzhen Campus of Sun Yat-sen University, Shenzhen, Guangdong 518107, People’s Republic of China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Man-To Hui",
+          "institutions": [
+            "Shanghai Astronomical Observatory, Chinese Academy of Sciences, No. 80 Rd Nandan, Shanghai 200030, Mainland China"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.21206v1",
+      "intro_en": "We present Zwicky Transient Facility observations of the interstellar comet 3I/ATLAS to characterize its dust-activity evolution before and after perihelion. Before perihelion, the effective scattering cross section $C_{\\rm e}$ brightened across the inner $2\\times10^4$ km as $C_{\\rm e}\\propto r_{\\rm H}^{-γ}$, with $γ$ increasing from $1.63\\pm0.14$ to $1.88\\pm0.34$ with aperture size.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-15",
+      "publication_date_source": "https://arxiv.org/abs/2610.21206v1",
+      "version_date": "2026-10-15T04:02:27+00:00"
+    },
+    {
+      "id": "2610.21117",
+      "version_id": "2610.21117v1",
+      "title": "Orbital Stability of Apsidally Aligned Planetary Systems",
+      "abstract": "The dynamical stability of compact planetary systems is known to depend strongly on orbital eccentricities, but the physical role of apsidal alignment remains poorly understood. We investigate this problem using direct {\\em N}-body simulations by separating planetary eccentricities into a systematic component shared by all planets and a random component that determines the degree of apsidal alignment. We find that these two components play fundamentally different dynamical roles. Random eccentricity destabilizes planetary systems by driving neighboring planet pairs into the regime of mean-motion resonance overlap, leading to chaotic evolution. In contrast, systematic eccentricity has little effect on the instability timescale over a wide range of values because the planetary orbits remain in apsidal alignment, preserving nearly fixed relative orbital orientations despite finite eccentricities. As a result, systems that start in apsidal alignment are nearly as stable as initially circular systems. This protection mechanism has a finite domain of validity. Beyond a critical systematic eccentricity, coherent apsidal precession breaks down, differential precession develops, and the instability timescale decreases rapidly. Our results demonstrate that the long-term stability of compact planetary systems cannot be characterized solely by orbital eccentricities but also depends on the maintenance of coherent apsidal precession, providing a new direction for analytical stability criteria.",
+      "published": "2026-10-15T02:21:31Z",
+      "updated": "2026-10-15T02:21:31Z",
+      "authors": [
+        "Gabriel Teixeira Guimarães",
+        "Eiichiro Kokubo"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2610.21117",
+      "pdf": "https://arxiv.org/pdf/2610.21117v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-16T01:37:47.382818+00:00",
+      "version_changed": false,
+      "topics": [
+        "orbital"
+      ],
+      "matches": {
+        "orbital": [
+          "mean motion resonance",
+          "orbital stability",
+          "n-body",
+          "apsidal precession"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：mean motion resonance、orbital stability、n-body、apsidal precession",
+      "tags": [
+        "流体与不稳定性 · Fluid dynamics",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 48,
+      "fit_matches": [
+        "行星轨道与演化"
+      ],
+      "institutions": [
+        "Department of Astronomical Science, The Graduate University for Advanced Studies, SOKENDAI, 2-21-1 Osawa, Mitaka, 181-8588, Tokyo, Japan.",
+        "Division of Science, National Astronomical Observatory of Japan, NAOJ, 2-21-1 Osawa, Mitaka, 181-8588, Tokyo, Japan.",
+        "Center for Computational Astrophysics, CfCA, National Astronomical Observatory of Japan, NAOJ, 2-21-1 Osawa, Mitaka, 181-8588, Tokyo, Japan"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Gabriel Teixeira Guimarães",
+          "institutions": [
+            "Department of Astronomical Science, The Graduate University for Advanced Studies, SOKENDAI, 2-21-1 Osawa, Mitaka, 181-8588, Tokyo, Japan.",
+            "Division of Science, National Astronomical Observatory of Japan, NAOJ, 2-21-1 Osawa, Mitaka, 181-8588, Tokyo, Japan."
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Eiichiro Kokubo",
+          "institutions": [
+            "Department of Astronomical Science, The Graduate University for Advanced Studies, SOKENDAI, 2-21-1 Osawa, Mitaka, 181-8588, Tokyo, Japan.",
+            "Division of Science, National Astronomical Observatory of Japan, NAOJ, 2-21-1 Osawa, Mitaka, 181-8588, Tokyo, Japan.",
+            "Center for Computational Astrophysics, CfCA, National Astronomical Observatory of Japan, NAOJ, 2-21-1 Osawa, Mitaka, 181-8588, Tokyo, Japan"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.21117v1",
+      "intro_en": "The dynamical stability of compact planetary systems is known to depend strongly on orbital eccentricities, but the physical role of apsidal alignment remains poorly understood. We investigate this problem using direct {\\em N}-body simulations by separating planetary eccentricities into a systematic component shared by all planets and a random component that determines the degree of apsidal alignment.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-15",
+      "publication_date_source": "https://arxiv.org/abs/2610.21117v1",
+      "version_date": "2026-10-15T02:21:31+00:00"
+    },
     {
       "id": "2610.19865",
       "version_id": "2610.19865v1",
@@ -1660,12 +2272,12 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：hot jupiter、chemical equilibrium、chemistry model、planetesimal",
+      "reason": "人工阅读摘要复核：热木星大气发射光谱、化学丰度反演及迁移线索，符合行星大气与表征方向。",
       "tags": [
         "光谱与相曲线 · Spectra & phase curves",
         "反演与数值方法 · Inverse & numerical methods"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 57,
       "fit_matches": [],
       "institutions": [
@@ -1865,12 +2477,12 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：transit timing、orbital evolution、transit timing variations",
+      "reason": "人工阅读摘要复核：系外行星凌星时间变化和轨道演化的观测约束，符合行星轨道动力学方向。",
       "tags": [
         "凌星时间变化 · Transit timing variations",
         "潮汐与轨道演化 · Tides & orbital evolution"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 64,
       "fit_matches": [
         "行星轨道与演化",
@@ -2000,7 +2612,7 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：atmospheric escape、tidal heating",
+      "reason": "人工阅读摘要复核：行星大气逃逸、潮汐演化和表面水保留的耦合，符合行星大气及轨道动力学方向。",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "宜居性 · Habitability",
@@ -2009,7 +2621,7 @@
         "大气逃逸 · Atmospheric escape",
         "潮汐与轨道演化 · Tides & orbital evolution"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 46,
       "fit_matches": [],
       "institutions": [
@@ -2083,14 +2695,14 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：ice shell",
+      "reason": "人工阅读摘要复核：土卫二冰壳力学、潮汐热史及地下海洋，符合行星冰与海洋系统方向。",
       "tags": [
         "热输送 · Heat transport",
         "宜居性 · Habitability",
         "冰壳与地下海洋 · Ice shells & subsurface oceans",
         "潮汐与轨道演化 · Tides & orbital evolution"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 45,
       "fit_matches": [
         "行星海洋与冰"
@@ -2182,10 +2794,10 @@
           "thermochemical"
         ]
       },
-      "status": "candidate",
-      "reason": "关联线索：thermochemical",
+      "status": "unmatched",
+      "reason": "人工阅读摘要复核：研究年轻恒星 X 射线耀斑与原行星盘光谱变化，重点为盘照射、光蒸发及磁层吸积；没有具体行星大气、海洋冰表层或成熟行星轨道结果，不符合本站当前窄范围。",
       "tags": [],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 45,
       "fit_matches": [
         "系外行星观测表征"
@@ -2420,7 +3032,7 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：photochemical、atmospheric modeling、water vapor、biosignature、outgassing",
+      "reason": "人工阅读摘要复核：针对类地系外行星臭氧、生物标志物及大气反演的具体模型结果，不属于泛用望远镜架构。",
       "tags": [
         "水循环 · Water cycle",
         "宜居性 · Habitability",
@@ -2430,7 +3042,7 @@
         "臭氧与生物标志物 · Ozone & biosignatures",
         "光谱与相曲线 · Spectra & phase curves"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 56,
       "fit_matches": [],
       "institutions": [
@@ -2626,7 +3238,7 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：exoplanet atmosphere、photochemical、chemical network、climate model、photochemical model",
+      "reason": "人工阅读摘要复核：有明确系外行星应用的一维／三维光化学与气候模式比较，符合行星大气化学和模式方向。",
       "tags": [
         "宜居性 · Habitability",
         "海冰与表层 · Ice & surface",
@@ -2634,7 +3246,7 @@
         "臭氧与生物标志物 · Ozone & biosignatures",
         "三维大气结构 · Three-dimensional atmospheres"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 70,
       "fit_matches": [
         "行星大气与辐射",
@@ -2841,13 +3453,13 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：exoplanet atmosphere、hot jupiter、global circulation model",
+      "reason": "人工阅读摘要复核：热木星三维大气结构、晨昏差异和分子丰度观测，符合行星大气环流与表征方向。",
       "tags": [
         "环流与波动 · Circulation & waves",
         "三维大气结构 · Three-dimensional atmospheres",
         "光谱与相曲线 · Spectra & phase curves"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 62,
       "fit_matches": [
         "行星大气与辐射",
@@ -3631,7 +4243,7 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：planetary climate、climate model、climate simulation、volatile、ice sheet、water ice",
+      "reason": "人工阅读摘要复核：明确火星语境的三维行星气候与气溶胶辐射反馈模拟，按用户保留模式研究的要求收录；摘要结论有限。",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "岩浆与挥发分 · Magma & volatiles",
@@ -3639,7 +4251,7 @@
         "反演与数值方法 · Inverse & numerical methods",
         "三维大气结构 · Three-dimensional atmospheres"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 68,
       "fit_matches": [
         "行星气候与模式"
@@ -22457,6 +23069,79 @@
       "publication_date": "2026-06-10",
       "publication_date_source": "https://arxiv.org/abs/2606.12090v3",
       "version_date": "2026-10-08T08:09:50+00:00"
+    },
+    {
+      "id": "2606.00649",
+      "version_id": "2606.00649v3",
+      "title": "Linear causality and stability constraints on relativistic second-order magnetohydrodynamics",
+      "abstract": "In this work, we construct a theoretical framework for relativistic second-order magnetohydrodynamics based on entropy current analysis. The formalism consistently incorporates finite relaxation dynamics of the dissipative fluxes, providing a transient framework suitable for analyzing linear stability and short-wavelength causality. Utilizing linear mode analysis, we investigate the constraints imposed by causality and stability on this anisotropic system. By linearizing the theory around a homogeneous equilibrium state, we identify the magnetosonic, Alfvén, and charge-diffusion sectors, together with their coupling terms. For each sector, we derive asymptotic dispersion relations in both the long-wavelength (small-$k$) and short-wavelength (large-$k$) regimes, validating them against exact numerical roots. Our numerical analysis confirms the accuracy of these asymptotic solutions and uncovers a nontrivial angular dependence, especially near special propagation directions where the ordinary momentum expansion becomes less reliable. By evaluating the large-$k$ behavior of the propagating branches alongside the damping properties of non-hydrodynamic modes, we delineate the corresponding causality constraints. We find that the admissible linear causal domain is governed by the interplay between propagation direction, anisotropic transport coefficients, and relaxation times, with the resulting bounds being intrinsically mode-dependent. These findings provide a systematic theoretical basis for investigating linear stability and short-wavelength causality in relativistic magnetohydrodynamics beyond the first-order approximation.",
+      "published": "2026-05-30T09:52:43Z",
+      "updated": "2026-10-15T03:20:54Z",
+      "authors": [
+        "Yiwei Qiu",
+        "Duan She",
+        "Defu Hou"
+      ],
+      "doi": "10.1007/JHEP10(2026)155",
+      "categories": [
+        "physics.flu-dyn",
+        "astro-ph.HE",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2606.00649",
+      "pdf": "https://arxiv.org/pdf/2606.00649v3",
+      "source": "arXiv",
+      "first_seen": "2026-10-16T01:37:47.382818+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [
+        "理论机制与尺度关系"
+      ],
+      "institutions": [
+        "Institute of Particle Physics and Key Laboratory of Quark and Lepton Physics (MOE), Central China Normal University, Wuhan 430079, China",
+        "Institute of Physics, Henan Academy of Sciences, Zhengzhou 450046, China"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Yiwei Qiu",
+          "institutions": [
+            "Institute of Particle Physics and Key Laboratory of Quark and Lepton Physics (MOE), Central China Normal University, Wuhan 430079, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Duan She",
+          "institutions": [
+            "Institute of Particle Physics and Key Laboratory of Quark and Lepton Physics (MOE), Central China Normal University, Wuhan 430079, China",
+            "Institute of Physics, Henan Academy of Sciences, Zhengzhou 450046, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Defu Hou",
+          "institutions": [
+            "Institute of Particle Physics and Key Laboratory of Quark and Lepton Physics (MOE), Central China Normal University, Wuhan 430079, China"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2606.00649v3",
+      "intro_en": "In this work, we construct a theoretical framework for relativistic second-order magnetohydrodynamics based on entropy current analysis. The formalism consistently incorporates finite relaxation dynamics of the dissipative fluxes, providing a transient framework suitable for analyzing linear stability and short-wavelength causality.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-05-30",
+      "publication_date_source": "https://arxiv.org/abs/2606.00649v3",
+      "version_date": "2026-10-15T03:20:54+00:00"
     },
     {
       "id": "2605.26764",
