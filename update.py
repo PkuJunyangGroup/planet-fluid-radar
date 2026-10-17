@@ -113,6 +113,7 @@ def classify(paper, config):
     if override: status,reason=override['status'],override['reason']
     fit_score,fit_matches=relevance(text,list(matches),config)
     tags=[m['label'] for m in config.get('mechanisms',[]) if any(contains(text,w) for w in m['terms'])]
+    if override and 'tags' in override: tags=list(override['tags'])
     return {'topics':list(matches),'matches':matches,'status':status,'reason':reason,'tags':tags,'method':'manual' if override else 'keyword','fit_score':fit_score,'fit_matches':fit_matches}
 
 def parse_feed(data):

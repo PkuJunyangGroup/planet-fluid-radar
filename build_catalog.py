@@ -80,12 +80,23 @@ def apply_publisher_supplements(records, supplements):
  for p in records:
   doi=doi_key(p.get('doi'))
   supplement=supplements.get(doi) if doi else None
-  if not supplement or not supplement.get('abstract'):
+  if not supplement:
    continue
-  p['abstract']=supplement['abstract']
-  p['abstract_source']=supplement.get('source_url','')
-  p['abstract_source_type']=supplement.get('source_type','publisher_abstract')
-  p['metadata_limited']=False
+  if supplement.get('abstract'):
+   p['abstract']=supplement['abstract']
+   p['abstract_source']=supplement.get('source_url','')
+   p['abstract_source_type']=supplement.get('source_type','publisher_abstract')
+   p['metadata_limited']=False
+  # DOI-scoped, paper-evidenced affiliation repairs survive source refreshes.
+  for repair in supplement.get('author_affiliation_repairs',[]):
+   if not repair.get('source_url') or not repair.get('institutions'):
+    continue
+   for author in p.get('author_affiliations',[]):
+    if author.get('name')==repair.get('name') and author.get('orcid')==repair.get('orcid'):
+     author['institutions']=list(repair['institutions'])
+     author['affiliation_source']=repair['source_url']
+     author['affiliation_checked_at']=repair.get('checked_date')
+   p['institutions']=list(dict.fromkeys(i for a in p.get('author_affiliations',[]) for i in a.get('institutions',[])))
  return records
 
 def daily_brief(papers,sources,registry,now):
