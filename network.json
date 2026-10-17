@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T01:42:43.594788+00:00",
+  "generated_at": "2026-10-17T02:01:53.840022+00:00",
   "nodes": [
     {
       "id": "f0d0849d737d77bb",
@@ -893,6 +893,7 @@
         "2610.19242",
         "doi:10.3847/1538-4357/ae994a",
         "doi:10.3847/1538-4357/aea15b",
+        "doi:10.3847/1538-4357/aeacc1",
         "doi:10.3847/2041-8213/ae930e",
         "doi:10.3847/2041-8213/aea3f5"
       ],
@@ -1015,6 +1016,17 @@
           "orcid": "https://orcid.org/0009-0005-3386-6091",
           "papers": [
             "doi:10.3847/1538-4357/ae994a"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "d4d871c42bb7b810",
+          "name": "Peter Bodenheimer",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0001-6093-3097",
+          "papers": [
+            "doi:10.3847/1538-4357/aeacc1"
           ],
           "unit_papers": {}
         }
@@ -10511,7 +10523,8 @@
         "doi:10.1029/2026je009660",
         "doi:10.1029/2026je009730",
         "doi:10.1029/2026je009760",
-        "doi:10.1029/2026je009825"
+        "doi:10.1029/2026je009825",
+        "doi:10.3847/1538-4357/aeacc1"
       ],
       "authors": [
         {
@@ -10579,13 +10592,25 @@
             "doi:10.1029/2026je009760"
           ],
           "unit_papers": {}
+        },
+        {
+          "id": "959d5359f6b259bd",
+          "name": "Ankan Sur",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0001-6635-5080",
+          "papers": [
+            "doi:10.3847/1538-4357/aeacc1"
+          ],
+          "unit_papers": {}
         }
       ],
       "units": [],
       "raw": [
         "Department of Earth, Planetary, and Space Sciences University of California Los Angeles CA USA",
         "Department of Materials Science and Engineering University of California Los Angeles CA USA",
-        "Earth, Planetary, and Space Sciences University of California Los Angeles Los Angeles CA USA"
+        "Earth, Planetary, and Space Sciences University of California Los Angeles Los Angeles CA USA",
+        "University of California, Los Angeles"
       ],
       "verification": {
         "ror": "https://ror.org/046rm7j60",
@@ -11583,9 +11608,10 @@
       "target": "8331122e8aae1aee",
       "papers": [
         "2609.26894",
-        "doi:10.3847/1538-4357/aea15b"
+        "doi:10.3847/1538-4357/aea15b",
+        "doi:10.3847/1538-4357/aeacc1"
       ],
-      "weight": 2
+      "weight": 3
     },
     {
       "source": "264737ef3fba38d4",
@@ -14775,9 +14801,10 @@
       "target": "d3692470048b36d2",
       "papers": [
         "doi:10.1029/2026je009660",
-        "doi:10.1029/2026je009760"
+        "doi:10.1029/2026je009760",
+        "doi:10.3847/1538-4357/aeacc1"
       ],
-      "weight": 2
+      "weight": 3
     },
     {
       "source": "5c85faa51cc57a24",
@@ -15369,6 +15396,14 @@
       "target": "f0a42ba5624748d4",
       "papers": [
         "doi:10.3847/2041-8213/aea906"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "264737ef3fba38d4",
+      "target": "d3692470048b36d2",
+      "papers": [
+        "doi:10.3847/1538-4357/aeacc1"
       ],
       "weight": 1
     },
@@ -18035,7 +18070,9 @@
         "The Astrophysical Journal"
       ],
       "institutions": [
-        "8331122e8aae1aee"
+        "264737ef3fba38d4",
+        "8331122e8aae1aee",
+        "d3692470048b36d2"
       ]
     },
     "doi:10.3847/1538-4357/aea404": {
@@ -33863,7 +33900,8 @@
         "doi:10.3847/1538-4357/aeacc1"
       ],
       "institutions": [
-        "6f4241a7694672b8"
+        "6f4241a7694672b8",
+        "d3692470048b36d2"
       ],
       "aliases": [
         "Ankan Sur"
@@ -34848,7 +34886,9 @@
       "papers": [
         "doi:10.3847/1538-4357/aeacc1"
       ],
-      "institutions": [],
+      "institutions": [
+        "264737ef3fba38d4"
+      ],
       "aliases": [
         "Peter Bodenheimer"
       ]
