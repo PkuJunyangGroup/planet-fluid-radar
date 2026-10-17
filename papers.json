@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-10-16T01:37:47.382818+00:00",
+  "generated_at": "2026-10-17T01:36:43.504814+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
-      "last_attempt": "2026-10-16T01:37:47.382818+00:00",
-      "last_success": "2026-10-16T01:37:47.382818+00:00",
+      "last_attempt": "2026-10-17T01:36:43.504814+00:00",
+      "last_success": "2026-10-17T01:36:43.504814+00:00",
       "status": "ok",
-      "fetched": 5
+      "fetched": 0
     },
     "physics.ao-ph": {
-      "last_attempt": "2026-10-16T01:37:47.382818+00:00",
-      "last_success": "2026-10-16T01:37:47.382818+00:00",
+      "last_attempt": "2026-10-17T01:36:43.504814+00:00",
+      "last_success": "2026-10-17T01:36:43.504814+00:00",
       "status": "ok",
-      "fetched": 1
+      "fetched": 0
     },
     "physics.geo-ph": {
-      "last_attempt": "2026-10-16T01:37:47.382818+00:00",
-      "last_success": "2026-10-16T01:37:47.382818+00:00",
+      "last_attempt": "2026-10-17T01:36:43.504814+00:00",
+      "last_success": "2026-10-17T01:36:43.504814+00:00",
       "status": "ok",
       "fetched": 0
     },
     "physics.flu-dyn": {
-      "last_attempt": "2026-10-16T01:37:47.382818+00:00",
-      "last_success": "2026-10-16T01:37:47.382818+00:00",
+      "last_attempt": "2026-10-17T01:36:43.504814+00:00",
+      "last_success": "2026-10-17T01:36:43.504814+00:00",
       "status": "ok",
-      "fetched": 2
+      "fetched": 0
     }
   },
   "topics": [
@@ -1379,12 +1379,12 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：mean motion resonance、orbital stability、n-body、apsidal precession",
+      "reason": "Reading review 2026-10-16: full original abstract describes direct N-body tests of compact planetary-system stability, mean-motion resonance overlap and coherent apsidal precession. In scope: planetary orbital dynamics.",
       "tags": [
         "流体与不稳定性 · Fluid dynamics",
         "反演与数值方法 · Inverse & numerical methods"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 48,
       "fit_matches": [
         "行星轨道与演化"
