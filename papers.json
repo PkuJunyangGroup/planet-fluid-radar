@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-18T01:37:11.126318+00:00",
+  "generated_at": "2026-10-19T01:40:45.661583+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
-      "last_attempt": "2026-10-18T01:37:11.126318+00:00",
-      "last_success": "2026-10-18T01:37:11.126318+00:00",
+      "last_attempt": "2026-10-19T01:40:45.661583+00:00",
+      "last_success": "2026-10-19T01:40:45.661583+00:00",
       "status": "ok",
       "fetched": 0
     },
     "physics.ao-ph": {
-      "last_attempt": "2026-10-18T01:37:11.126318+00:00",
-      "last_success": "2026-10-18T01:37:11.126318+00:00",
+      "last_attempt": "2026-10-19T01:40:45.661583+00:00",
+      "last_success": "2026-10-19T01:40:45.661583+00:00",
       "status": "ok",
       "fetched": 0
     },
     "physics.geo-ph": {
-      "last_attempt": "2026-10-18T01:37:11.126318+00:00",
-      "last_success": "2026-10-18T01:37:11.126318+00:00",
+      "last_attempt": "2026-10-19T01:40:45.661583+00:00",
+      "last_success": "2026-10-19T01:40:45.661583+00:00",
       "status": "ok",
       "fetched": 0
     },
     "physics.flu-dyn": {
-      "last_attempt": "2026-10-18T01:37:11.126318+00:00",
-      "last_success": "2026-10-18T01:37:11.126318+00:00",
+      "last_attempt": "2026-10-19T01:40:45.661583+00:00",
+      "last_success": "2026-10-19T01:40:45.661583+00:00",
       "status": "ok",
       "fetched": 0
     }
@@ -4954,8 +4954,8 @@
           "phase curve"
         ]
       },
-      "status": "candidate",
-      "reason": "关联线索：planetary atmosphere、hot jupiter、disequilibrium chemistry、dynamical core、superrotation、phase curve",
+      "status": "excluded",
+      "reason": "Reading review 2026-10-18: complete original abstract models the brown dwarf in the white dwarf-brown dwarf binary ZTFJ0038+2030, not a planet. Planetary-method relevance and hot-Jupiter comparisons do not override the established narrow target scope, consistent with prior brown-dwarf exclusions. Preserve source archive and original first_seen.",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "环流与波动 · Circulation & waves",
@@ -4963,7 +4963,7 @@
         "光谱与相曲线 · Spectra & phase curves",
         "流体与不稳定性 · Fluid dynamics"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 75,
       "fit_matches": [
         "行星大气与辐射",
