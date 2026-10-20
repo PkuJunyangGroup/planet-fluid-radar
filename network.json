@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T02:06:36.197111+00:00",
+  "generated_at": "2026-10-20T01:46:20.261495+00:00",
   "nodes": [
     {
       "id": "f0d0849d737d77bb",
@@ -3298,6 +3298,7 @@
         "doi:10.3847/1538-4357/ae7105",
         "doi:10.3847/1538-4357/ae83a3",
         "doi:10.3847/1538-4357/ae9fe5",
+        "doi:10.3847/1538-4357/aea905",
         "doi:10.3847/2041-8213/ae9b0a",
         "doi:10.3847/2041-8213/aea3f5"
       ],
@@ -3421,7 +3422,30 @@
           "name_source": null,
           "orcid": "https://orcid.org/0000-0003-3130-2282",
           "papers": [
-            "doi:10.3847/1538-4357/ae9fe5"
+            "doi:10.3847/1538-4357/ae9fe5",
+            "doi:10.3847/1538-4357/aea905"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "d05bbb9d2be578da",
+          "name": "Ritika Sethi",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-6576-3346",
+          "papers": [
+            "doi:10.3847/1538-4357/aea905"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "50f65796b3e96ff7",
+          "name": "Tim Hallatt",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0003-4992-8427",
+          "papers": [
+            "doi:10.3847/1538-4357/aea905"
           ],
           "unit_papers": {}
         }
@@ -18109,6 +18133,24 @@
         "8331122e8aae1aee",
         "c060919391e78c3b",
         "d5e3b6658d01daa4"
+      ]
+    },
+    "doi:10.3847/1538-4357/aea905": {
+      "id": "doi:10.3847/1538-4357/aea905",
+      "title": "Coupled Orbital and Interior Evolution of Sub-Neptunes",
+      "url": "https://doi.org/10.3847/1538-4357/aea905",
+      "topics": [
+        "planetary",
+        "orbital",
+        "evolution"
+      ],
+      "first_seen": "2026-10-20T01:42:21.792622+00:00",
+      "publication_date": "2026-10-19",
+      "journals": [
+        "The Astrophysical Journal"
+      ],
+      "institutions": [
+        "366058c27e343874"
       ]
     },
     "exoplanet-bib:33128": {
@@ -33493,13 +33535,15 @@
       "orcid": "https://orcid.org/0000-0003-3130-2282",
       "identity_basis": "orcid",
       "papers": [
-        "doi:10.3847/1538-4357/ae9fe5"
+        "doi:10.3847/1538-4357/ae9fe5",
+        "doi:10.3847/1538-4357/aea905"
       ],
       "institutions": [
         "366058c27e343874"
       ],
       "aliases": [
-        "Sarah C. Millholland"
+        "Sarah C. Millholland",
+        "Sarah Millholland"
       ]
     },
     {
@@ -35062,6 +35106,40 @@
       ],
       "aliases": [
         "Armen Tokadjian"
+      ]
+    },
+    {
+      "id": "d05bbb9d2be578da",
+      "name": "Ritika Sethi",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0002-6576-3346",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/1538-4357/aea905"
+      ],
+      "institutions": [
+        "366058c27e343874"
+      ],
+      "aliases": [
+        "Ritika Sethi"
+      ]
+    },
+    {
+      "id": "50f65796b3e96ff7",
+      "name": "Tim Hallatt",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0003-4992-8427",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/1538-4357/aea905"
+      ],
+      "institutions": [
+        "366058c27e343874"
+      ],
+      "aliases": [
+        "Tim Hallatt"
       ]
     },
     {

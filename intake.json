@@ -43,6 +43,7 @@
     "doi:10.3847/1538-4357/aea293",
     "doi:10.3847/1538-4357/aea404",
     "doi:10.3847/1538-4357/aea407",
+    "doi:10.3847/1538-4357/aea905",
     "doi:10.3847/1538-4357/aeacc1",
     "doi:10.3847/2041-8213/aea906"
   ],
@@ -91,7 +92,8 @@
     "doi:10.3847/1538-4357/aeacc1": "recent",
     "doi:10.3847/1538-4357/aea404": "recent",
     "doi:10.3847/1538-4357/aea149": "recent",
-    "2610.17714": "one_year_fallback"
+    "2610.17714": "one_year_fallback",
+    "doi:10.3847/1538-4357/aea905": "recent"
   },
   "policy": {
     "recent_days": 2,
@@ -99,8 +101,10 @@
     "min_fallback_score": 65,
     "max_fallback": 3
   },
-  "last_run": "2026-10-19",
-  "mode": "one_year_fallback",
-  "selected": [],
+  "last_run": "2026-10-20",
+  "mode": "recent",
+  "selected": [
+    "doi:10.3847/1538-4357/aea905"
+  ],
   "search_errors": []
 }
