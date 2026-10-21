@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T01:48:21.954403+00:00",
+  "generated_at": "2026-10-21T02:14:41.646389+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
@@ -260,12 +260,12 @@
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-10-21T09:42:49.314106+08:00",
-      "last_success": "2026-10-21T09:42:49.314106+08:00",
+      "last_attempt": "2026-10-21T10:14:01.158931+08:00",
+      "last_success": "2026-10-21T10:14:01.158931+08:00",
       "coverage_since": "2026-09-25",
-      "pages_checked": 2,
-      "fetched": 9,
-      "retained": 1,
+      "pages_checked": 1,
+      "fetched": 0,
+      "retained": 0,
       "method": "daily incremental bibliography page scan; candidate-only"
     }
   },
@@ -848,7 +848,8 @@
         "orbital forcing",
         "milankovitch cycle",
         "milankovitch cycles",
-        "milankovitch forcing"
+        "milankovitch forcing",
+        "high eccentricity migration"
       ],
       "required_context_groups": [
         [
@@ -1086,11 +1087,11 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：planet formation、planetesimal、magma ocean、mantle、volatile",
+      "reason": "Reading review 2026-10-21: Complete original abstract and author block read: rocky-planet formation, magma ocean, and atmosphere/mantle/core volatile partitioning.",
       "tags": [
         "岩浆与挥发分 · Magma & volatiles"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 31,
       "fit_matches": [],
       "institutions": [
@@ -1167,20 +1168,24 @@
       "first_seen": "2026-10-21T01:42:29.384003+00:00",
       "version_changed": false,
       "topics": [
-        "detection"
+        "detection",
+        "orbital"
       ],
       "matches": {
         "detection": [
           "exomoon"
+        ],
+        "orbital": [
+          "high eccentricity migration"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：exomoon",
+      "reason": "Reading review 2026-10-21: Complete original abstract and author block read: exomoon survival during high-eccentricity planetary migration, tidal orbital decay, evection resonance and pericentre perturbations. Planetary orbital dynamics, not generic white-dwarf evolution.",
       "tags": [
         "宜居性 · Habitability"
       ],
-      "method": "keyword",
-      "fit_score": 36,
+      "method": "manual",
+      "fit_score": 46,
       "fit_matches": [],
       "institutions": [
         "Department of Physics, Massachusetts Institute of Technology, Cambridge, MA 02139, USA",
@@ -1404,6 +1409,7 @@
         "planetary",
         "chemistry",
         "models",
+        "orbital",
         "evolution"
       ],
       "matches": {
@@ -1416,6 +1422,9 @@
         "models": [
           "chemistry model"
         ],
+        "orbital": [
+          "high eccentricity migration"
+        ],
         "evolution": [
           "planetesimal"
         ]
@@ -1427,7 +1436,7 @@
         "反演与数值方法 · Inverse & numerical methods"
       ],
       "method": "manual",
-      "fit_score": 57,
+      "fit_score": 60,
       "fit_matches": [],
       "institutions": [
         "Department of Multi-Disciplinary Sciences, Graduate School of Arts and Sciences, The University of Tokyo, 3-8-1 Komaba, Meguro, Tokyo 153-8902, Japan",
@@ -6172,14 +6181,13 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：atmospheric chemistry、phase curve、magma ocean、lava planet、volatile",
+      "reason": "Reading review 2026-10-21: Complete v2 original abstract read: coupled interior-atmosphere thermal evolution, volatile retention and observable phase curves of five lava planets. Revised 2026-10-20, first submitted 2026-09-17; not a one-year fallback.",
       "tags": [
         "光谱与相曲线 · Spectra & phase curves",
         "岩浆与挥发分 · Magma & volatiles",
-        "海冰与表层 · Ice & surface",
         "反演与数值方法 · Inverse & numerical methods"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 54,
       "fit_matches": [
         "系外行星观测表征"
@@ -6453,20 +6461,59 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：magma ocean、mantle",
+      "reason": "Reading review 2026-10-21: Complete v2 original abstract read: lunar tides and interfacial resonance in a differentiated planetary core/basal magma ocean, with dynamo implications. Revised 2026-10-20, first submitted 2026-06-15; not a one-year fallback.",
       "tags": [
         "环流与波动 · Circulation & waves",
         "岩浆与挥发分 · Magma & volatiles",
         "流体与不稳定性 · Fluid dynamics"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 31,
       "fit_matches": [],
-      "author_affiliation_status": "unavailable",
+      "author_affiliation_status": "verified",
       "institutions": [
-        "\\aff1School of Mathematics and Statistics, University of St Andrews, St Andrews, KY16 9SS, UK. \\aff2Department of Earth Sciences, University of Oxford, Oxford OX1 3AN, UK."
+        "School of Mathematics and Statistics, University of St Andrews, St Andrews, KY16 9SS, UK",
+        "Department of Earth Sciences, University of Oxford, Oxford OX1 3AN, UK"
       ],
-      "author_affiliations": [],
+      "author_affiliations": [
+        {
+          "name": "Murray B. C. Kiernan",
+          "institutions": [
+            "School of Mathematics and Statistics, University of St Andrews, St Andrews, KY16 9SS, UK",
+            "Department of Earth Sciences, University of Oxford, Oxford OX1 3AN, UK"
+          ],
+          "orcid": "https://orcid.org/0009-0006-2476-1084"
+        },
+        {
+          "name": "Hamish C. F. C. Hay",
+          "institutions": [
+            "School of Mathematics and Statistics, University of St Andrews, St Andrews, KY16 9SS, UK",
+            "Department of Earth Sciences, University of Oxford, Oxford OX1 3AN, UK"
+          ],
+          "orcid": "https://orcid.org/0000-0003-1746-1228"
+        },
+        {
+          "name": "David W. Rees Jones",
+          "institutions": [
+            "School of Mathematics and Statistics, University of St Andrews, St Andrews, KY16 9SS, UK"
+          ],
+          "orcid": "https://orcid.org/0000-0001-8698-401X"
+        },
+        {
+          "name": "James F. J. Bryson",
+          "institutions": [
+            "Department of Earth Sciences, University of Oxford, Oxford OX1 3AN, UK"
+          ],
+          "orcid": "https://orcid.org/0000-0002-5675-8545"
+        },
+        {
+          "name": "Richard F. Katz",
+          "institutions": [
+            "Department of Earth Sciences, University of Oxford, Oxford OX1 3AN, UK"
+          ],
+          "orcid": "https://orcid.org/0000-0001-8746-5430"
+        }
+      ],
       "affiliation_status": "verified",
       "affiliation_source": "https://arxiv.org/html/2606.16340v2",
       "publication_date": "2026-06-15",
@@ -24596,7 +24643,8 @@
           "hot jupiter"
         ],
         "orbital": [
-          "orbital evolution"
+          "orbital evolution",
+          "high eccentricity migration"
         ],
         "evolution": [
           "orbital evolution"
@@ -25111,14 +25159,15 @@
         ],
         "orbital": [
           "orbital migration",
-          "orbital evolution"
+          "orbital evolution",
+          "high eccentricity migration"
         ],
         "evolution": [
           "orbital evolution"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：sub neptune、atmospheric mass loss、orbital migration、orbital evolution",
+      "reason": "关联线索：sub neptune、atmospheric mass loss、orbital migration、orbital evolution、high eccentricity migration",
       "tags": [],
       "method": "keyword",
       "fit_score": 61,
@@ -25151,144 +25200,6 @@
       ],
       "source_groups": [
         "planet"
-      ],
-      "intake_kind": "recent"
-    },
-    {
-      "id": "doi:10.1073/pnas.2616582123",
-      "doi": "10.1073/pnas.2616582123",
-      "version_id": "doi:10.1073/pnas.2616582123",
-      "title": "Widespread plasma jets in the Martian magnetosheath revealed by dual-spacecraft observations",
-      "abstract": "Plasma jets in planetary magnetosheaths are transient, high dynamic pressure structures capable of strongly perturbing downstream magnetospheres and modulating solar wind energy transfer. Although recently identified at Mars, their formation mechanisms and global occurrence remain poorly constrained. Using dual-spacecraft observations from Mars Atmosphere and Volatile EvolutioN and Tianwen-1, we show that magnetosheath jets occur throughout the Martian magnetosheath, in striking contrast to Earth where jet occurrence is strongly controlled by interplanetary magnetic field orientation and largely confined to quasi-parallel shock regions. We propose that this widespread distribution is linked to Mars’ extended hydrogen corona, which generates pickup ions that drive proton-cyclotron waves upstream of the bow shock. Because this mechanism is generic to any body with an extended corona (or exosphere) embedded in a stellar wind, this finding bears on solar–wind interactions at comets and other small bodies, and on the space environments of unmagnetized terrestrial exoplanets. These results indicate that magnetosheath jet formation can be governed not only by external solar wind forcing but also by intrinsic planetary properties, pointing to a previously unrecognized pathway for solar wind–planet coupling at unmagnetized worlds.",
-      "authors": [
-        "Abigail Tadlock",
-        "Chuanfei Dong",
-        "Chi Zhang",
-        "Savvas Raptis",
-        "Hongyang Zhou",
-        "Xinmin Li",
-        "Jiawei Gao"
-      ],
-      "author_affiliations": [
-        {
-          "name": "Abigail Tadlock",
-          "institutions": [
-            "Department of Astronomy, Center for Space Physics, Boston University"
-          ],
-          "orcid": "https://orcid.org/0009-0007-3740-1640"
-        },
-        {
-          "name": "Chuanfei Dong",
-          "institutions": [
-            "Department of Astronomy, Center for Space Physics, Boston University",
-            "School of Natural Sciences, Institute for Advanced Study"
-          ],
-          "orcid": "https://orcid.org/0000-0002-8990-094X"
-        },
-        {
-          "name": "Chi Zhang",
-          "institutions": [
-            "Department of Astronomy, Center for Space Physics, Boston University"
-          ],
-          "orcid": "https://orcid.org/0000-0001-9154-596X"
-        },
-        {
-          "name": "Savvas Raptis",
-          "institutions": [
-            "The Johns Hopkins University Applied Physics Laboratory"
-          ],
-          "orcid": "https://orcid.org/0000-0002-4381-3197"
-        },
-        {
-          "name": "Hongyang Zhou",
-          "institutions": [
-            "Department of Astronomy, Center for Space Physics, Boston University"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "Xinmin Li",
-          "institutions": [
-            "Department of Astronomy, Center for Space Physics, Boston University"
-          ],
-          "orcid": "https://orcid.org/0000-0003-1553-6337"
-        },
-        {
-          "name": "Jiawei Gao",
-          "institutions": [
-            "Department of Astronomy, Center for Space Physics, Boston University"
-          ],
-          "orcid": "https://orcid.org/0000-0003-4432-1132"
-        }
-      ],
-      "institutions": [
-        "Department of Astronomy, Center for Space Physics, Boston University",
-        "School of Natural Sciences, Institute for Advanced Study",
-        "The Johns Hopkins University Applied Physics Laboratory"
-      ],
-      "affiliation_status": "verified",
-      "affiliation_source": "https://api.crossref.org/works/10.1073%2Fpnas.2616582123",
-      "source": "journal",
-      "journal": "PNAS",
-      "journal_id": "1091-6490",
-      "source_group": "general",
-      "categories": [],
-      "url": "https://doi.org/10.1073/pnas.2616582123",
-      "published": "2026-10-20",
-      "publication_date": "2026-10-20",
-      "publication_date_source": "Crossref publisher metadata",
-      "date_kind": "journal",
-      "first_seen": "2026-10-21T01:42:53.530820+00:00",
-      "updated": "2026-10-20T18:39:49Z",
-      "metadata_source": "https://api.crossref.org/works/10.1073%2Fpnas.2616582123",
-      "relations": {},
-      "metadata_limited": false,
-      "publication_dates": {
-        "published-online": "2026-10-20",
-        "published-print": "2026-11-03"
-      },
-      "topics": [
-        "evolution"
-      ],
-      "matches": {
-        "evolution": [
-          "volatile"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：volatile",
-      "tags": [
-        "岩浆与挥发分 · Magma & volatiles"
-      ],
-      "method": "keyword",
-      "fit_score": 31,
-      "fit_matches": [],
-      "variants": [
-        {
-          "id": "doi:10.1073/pnas.2616582123",
-          "source": "journal",
-          "journal": "PNAS",
-          "journal_id": "1091-6490",
-          "title": "Widespread plasma jets in the Martian magnetosheath revealed by dual-spacecraft observations",
-          "url": "https://doi.org/10.1073/pnas.2616582123",
-          "doi": "10.1073/pnas.2616582123",
-          "version_id": "doi:10.1073/pnas.2616582123",
-          "first_seen": "2026-10-21T01:42:53.530820+00:00",
-          "publication_date": "2026-10-20",
-          "version_date": null,
-          "metadata_source": "https://api.crossref.org/works/10.1073%2Fpnas.2616582123",
-          "affiliation_source": "https://api.crossref.org/works/10.1073%2Fpnas.2616582123"
-        }
-      ],
-      "match_basis": [],
-      "source_types": [
-        "journal"
-      ],
-      "journals": [
-        "PNAS"
-      ],
-      "source_groups": [
-        "general"
       ],
       "intake_kind": "recent"
     },
@@ -25351,12 +25262,12 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：icy moon",
+      "reason": "Reading review 2026-10-21: Complete publisher-deposited original abstract read: Titan rotation, tidal deformation and interior/subsurface-ocean constraints from proposed Dragonfly geodesy. In-scope icy-moon interiors.",
       "tags": [
         "宜居性 · Habitability",
         "反演与数值方法 · Inverse & numerical methods"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 45,
       "fit_matches": [
         "行星海洋与冰"
@@ -26966,15 +26877,14 @@
   "merged_count": 19,
   "daily_brief": {
     "date": "2026-10-21",
-    "built_at": "2026-10-21T01:48:21.954507+00:00",
+    "built_at": "2026-10-21T02:14:41.646489+00:00",
     "review_basis": "Automated rule screening; reading review is recorded separately.",
-    "new_count": 6,
+    "new_count": 5,
     "recent_ids": [
       "2610.27788",
       "2610.27484",
       "2609.20155",
       "2606.16340",
-      "doi:10.1073/pnas.2616582123",
       "doi:10.1029/2026gl125753"
     ],
     "older_ids": [],
