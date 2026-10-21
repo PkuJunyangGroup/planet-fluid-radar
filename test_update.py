@@ -7,6 +7,11 @@ import update
 
 CONFIG=json.loads(Path('topics.json').read_text())
 class Rules(unittest.TestCase):
+ def test_high_eccentricity_migration_requires_planet_context(self):
+  p=self.paper('Exomoons around migrating white dwarf planets','We study high-eccentricity migration and tidal decay of planetary satellites.')
+  self.assertIn('orbital',update.classify(p,CONFIG)['topics'])
+  p=self.paper('High-eccentricity migration of stellar binaries','Stellar binary dynamics.')
+  self.assertNotIn('orbital',update.classify(p,CONFIG)['topics'])
 
  def test_orbital_dynamics_requires_planet_context(self):
   for title in ['Long-term orbital stability of a resonant planetary system','Mean-motion resonances among exoplanets','Orbital migration of a hot Jupiter']:

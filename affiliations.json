@@ -19625,12 +19625,51 @@
   },
   "2606.16340v2": {
     "institutions": [
-      "\\aff1School of Mathematics and Statistics, University of St Andrews, St Andrews, KY16 9SS, UK. \\aff2Department of Earth Sciences, University of Oxford, Oxford OX1 3AN, UK."
+      "School of Mathematics and Statistics, University of St Andrews, St Andrews, KY16 9SS, UK",
+      "Department of Earth Sciences, University of Oxford, Oxford OX1 3AN, UK"
     ],
-    "author_affiliations": [],
+    "author_affiliations": [
+      {
+        "name": "Murray B. C. Kiernan",
+        "institutions": [
+          "School of Mathematics and Statistics, University of St Andrews, St Andrews, KY16 9SS, UK",
+          "Department of Earth Sciences, University of Oxford, Oxford OX1 3AN, UK"
+        ],
+        "orcid": "https://orcid.org/0009-0006-2476-1084"
+      },
+      {
+        "name": "Hamish C. F. C. Hay",
+        "institutions": [
+          "School of Mathematics and Statistics, University of St Andrews, St Andrews, KY16 9SS, UK",
+          "Department of Earth Sciences, University of Oxford, Oxford OX1 3AN, UK"
+        ],
+        "orcid": "https://orcid.org/0000-0003-1746-1228"
+      },
+      {
+        "name": "David W. Rees Jones",
+        "institutions": [
+          "School of Mathematics and Statistics, University of St Andrews, St Andrews, KY16 9SS, UK"
+        ],
+        "orcid": "https://orcid.org/0000-0001-8698-401X"
+      },
+      {
+        "name": "James F. J. Bryson",
+        "institutions": [
+          "Department of Earth Sciences, University of Oxford, Oxford OX1 3AN, UK"
+        ],
+        "orcid": "https://orcid.org/0000-0002-5675-8545"
+      },
+      {
+        "name": "Richard F. Katz",
+        "institutions": [
+          "Department of Earth Sciences, University of Oxford, Oxford OX1 3AN, UK"
+        ],
+        "orcid": "https://orcid.org/0000-0001-8746-5430"
+      }
+    ],
     "status": "verified",
     "source_url": "https://arxiv.org/html/2606.16340v2",
-    "checked_at": "2026-10-21T01:45:08.426410+00:00",
+    "checked_at": "2026-10-21T02:00:00+00:00",
     "rejected_author_affiliations": [
       {
         "name": "Murray B.C. Kiernan\\aff1,2",
@@ -19660,8 +19699,8 @@
         "orcid": null
       }
     ],
-    "author_affiliation_status": "unavailable",
-    "author_affiliation_note": "Malformed experimental HTML; person-level mappings withheld"
+    "author_affiliation_status": "verified",
+    "author_affiliation_note": "Manually verified against v2 author superscripts, explicit affiliation block, and named ORCIDs section; rejected automatic extraction retained for provenance."
   },
   "2610.27940v1": {
     "institutions": [],

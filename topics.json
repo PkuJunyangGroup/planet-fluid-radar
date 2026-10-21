@@ -586,7 +586,8 @@
         "orbital forcing",
         "milankovitch cycle",
         "milankovitch cycles",
-        "milankovitch forcing"
+        "milankovitch forcing",
+        "high eccentricity migration"
       ],
       "required_context_groups": [
         [
@@ -1220,6 +1221,47 @@
       "reason": "Reading review 2026-10-18: complete original abstract models the brown dwarf in the white dwarf-brown dwarf binary ZTFJ0038+2030, not a planet. Planetary-method relevance and hot-Jupiter comparisons do not override the established narrow target scope, consistent with prior brown-dwarf exclusions. Preserve source archive and original first_seen.",
       "reviewed_at": "2026-10-18",
       "source": "https://arxiv.org/abs/2610.17714v1"
+    },
+    "2610.27788": {
+      "status": "candidate",
+      "reason": "Reading review 2026-10-21: Complete original abstract and author block read: rocky-planet formation, magma ocean, and atmosphere/mantle/core volatile partitioning.",
+      "reviewed_at": "2026-10-21",
+      "source": "https://arxiv.org/abs/2610.27788"
+    },
+    "2610.27484": {
+      "status": "candidate",
+      "reason": "Reading review 2026-10-21: Complete original abstract and author block read: exomoon survival during high-eccentricity planetary migration, tidal orbital decay, evection resonance and pericentre perturbations. Planetary orbital dynamics, not generic white-dwarf evolution.",
+      "reviewed_at": "2026-10-21",
+      "source": "https://arxiv.org/abs/2610.27484"
+    },
+    "2609.20155": {
+      "status": "candidate",
+      "reason": "Reading review 2026-10-21: Complete v2 original abstract read: coupled interior-atmosphere thermal evolution, volatile retention and observable phase curves of five lava planets. Revised 2026-10-20, first submitted 2026-09-17; not a one-year fallback.",
+      "reviewed_at": "2026-10-21",
+      "source": "https://arxiv.org/abs/2609.20155",
+      "tags": [
+        "光谱与相曲线 · Spectra & phase curves",
+        "岩浆与挥发分 · Magma & volatiles",
+        "反演与数值方法 · Inverse & numerical methods"
+      ]
+    },
+    "2606.16340": {
+      "status": "candidate",
+      "reason": "Reading review 2026-10-21: Complete v2 original abstract read: lunar tides and interfacial resonance in a differentiated planetary core/basal magma ocean, with dynamo implications. Revised 2026-10-20, first submitted 2026-06-15; not a one-year fallback.",
+      "reviewed_at": "2026-10-21",
+      "source": "https://arxiv.org/abs/2606.16340"
+    },
+    "doi:10.1029/2026gl125753": {
+      "status": "candidate",
+      "reason": "Reading review 2026-10-21: Complete publisher-deposited original abstract read: Titan rotation, tidal deformation and interior/subsurface-ocean constraints from proposed Dragonfly geodesy. In-scope icy-moon interiors.",
+      "reviewed_at": "2026-10-21",
+      "source": "https://doi.org/10.1029/2026gl125753"
+    },
+    "doi:10.1073/pnas.2616582123": {
+      "status": "excluded",
+      "reason": "Reading review 2026-10-21: full publisher-deposited original abstract concerns Martian magnetosheath plasma jets, pickup-ion/cyclotron waves, bow shocks and solar-wind interaction. This is space plasma physics, explicitly outside the established scope; Mars/exosphere wording and PNAS venue do not override that exclusion. Preserve source archive and first_seen.",
+      "reviewed_at": "2026-10-21",
+      "source": "https://api.crossref.org/works/10.1073/pnas.2616582123"
     }
   },
   "mechanisms": [

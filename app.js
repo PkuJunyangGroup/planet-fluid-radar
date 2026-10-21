@@ -175,7 +175,7 @@ function abstractHTML(value,{inlineOnly=false}={}){
   if(open){
    let end=i+open.length;
    while((end=text.indexOf(close,end))!==-1){
-    if(!escapedAt(end)&&(close!=='$'||(!/\s/.test(text[end-1])&&!/\d/.test(text[end+1]||'')&&text[end+1]!=='$')))break;
+    if(!escapedAt(end)&&(close!=='$'||(!/\s/.test(text[end-1])&&!/\d/.test(text[end+1]||''))))break;
     end+=close.length;
    }
    if(end!==-1){
