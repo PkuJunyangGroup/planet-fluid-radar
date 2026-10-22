@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-10-21T01:42:29.384003+00:00",
+  "generated_at": "2026-10-22T01:42:08.302587+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
-      "last_attempt": "2026-10-21T01:42:29.384003+00:00",
-      "last_success": "2026-10-21T01:42:29.384003+00:00",
+      "last_attempt": "2026-10-22T01:42:08.302587+00:00",
+      "last_success": "2026-10-22T01:42:08.302587+00:00",
       "status": "ok",
-      "fetched": 4
+      "fetched": 5
     },
     "physics.ao-ph": {
-      "last_attempt": "2026-10-21T01:42:29.384003+00:00",
-      "last_success": "2026-10-21T01:42:29.384003+00:00",
+      "last_attempt": "2026-10-22T01:42:08.302587+00:00",
+      "last_success": "2026-10-22T01:42:08.302587+00:00",
       "status": "ok",
-      "fetched": 2
+      "fetched": 6
     },
     "physics.geo-ph": {
-      "last_attempt": "2026-10-21T01:42:29.384003+00:00",
-      "last_success": "2026-10-21T01:42:29.384003+00:00",
+      "last_attempt": "2026-10-22T01:42:08.302587+00:00",
+      "last_success": "2026-10-22T01:42:08.302587+00:00",
       "status": "ok",
-      "fetched": 3
+      "fetched": 1
     },
     "physics.flu-dyn": {
-      "last_attempt": "2026-10-21T01:42:29.384003+00:00",
-      "last_success": "2026-10-21T01:42:29.384003+00:00",
+      "last_attempt": "2026-10-22T01:42:08.302587+00:00",
+      "last_success": "2026-10-22T01:42:08.302587+00:00",
       "status": "ok",
-      "fetched": 7
+      "fetched": 3
     }
   },
   "topics": [
@@ -606,7 +606,8 @@
         "orbital forcing",
         "milankovitch cycle",
         "milankovitch cycles",
-        "milankovitch forcing"
+        "milankovitch forcing",
+        "high eccentricity migration"
       ],
       "required_context_groups": [
         [
@@ -811,6 +812,668 @@
   ],
   "repository": "https://github.com/PkuJunyangGroup/planet-fluid-radar",
   "papers": [
+    {
+      "id": "2610.29459",
+      "version_id": "2610.29459v1",
+      "title": "Radio and high-energy variable emission from a multi-wavelength follow-up of the infant planet-hosting star V1298 Tau",
+      "abstract": "V1298 Tau is a very young and magnetically active K1V star which hosts a benchmark multi-planetary system to study planet formation and evolutionary history at the earliest stages. Between 2025 and 2026, we conducted a campaign to monitor the variability of V1298 Tau in radio (band C), X-ray, and NUV bands, with the support of publicly available contemporary optical light curve, and to investigate multi-band correlations to link the emission with stellar activity. Radio observations were carried out with the Karl G. Jansky Very Large Array (JVLA) in band C (4.5--6.5 GHz). X-ray and NUV observations were carried out with the Swift satellite over 20 days, ending one month before the begin of the radio campaign. We analysed the temporal variability of peak (integrated) fluxes in the C-band and of X-ray (NUV) luminosities on various timescales, comparing it with the variability observed in the high-cadence optical light curve collected by the ASAS-SN survey. We observed both radio and high-energy time variable emission. JVLA detected emission in 90\\% of the visits, switching between high ($\\geq$0.1 mJy/beam) and low flux states in matter of days or hours. The fluxes show moderate correlation with the optical light curve, suggesting modulation with the stellar rotation period. Except for one visit, dynamic spectral analysis does not reveal short-term (minutes) variability, nor is there any evidence of circularly polarised emissions. Overall, the radio observations can be explained as gyrosynchrotron and/or cyclotron emission from the corona, and linked to stellar magnetic activity. At high-energy, we detected significant variability in X-ray luminosity (within the range ~1.2--2.5x10$^{+30}$ erg/s), the decay phase of a stellar flare, and evidence of correlation with the optical flux. Our data confirm that V1298\\,Tau follows the near-linear Güdel-Benz relation.",
+      "published": "2026-10-21T09:17:47Z",
+      "updated": "2026-10-21T09:17:47Z",
+      "authors": [
+        "M. Damasso",
+        "D. Viganò",
+        "R. Spinelli",
+        "S. Kaur",
+        "A. Petralia",
+        "Á. Sánchez-Monge",
+        "A. F. Lanza",
+        "A. Maggio",
+        "J. M. Girart",
+        "F. Borsa",
+        "F. Del Sordo",
+        "G. Ghirlanda"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP",
+        "astro-ph.HE",
+        "astro-ph.SR"
+      ],
+      "url": "https://arxiv.org/abs/2610.29459",
+      "pdf": "https://arxiv.org/pdf/2610.29459v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-22T01:42:08.302587+00:00",
+      "version_changed": false,
+      "topics": [
+        "evolution"
+      ],
+      "matches": {
+        "evolution": [
+          "planet formation"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：planet formation",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 39,
+      "fit_matches": [
+        "行星轨道与演化"
+      ],
+      "institutions": [
+        "INAF – Osservatorio Astrofisico di Torino, Via Osservatorio 20, I-10025 Pino Torinese, Italy",
+        "Institut de Ciències de I’Espai (ICE-CSIC), Campus UAB, Carrer de Can Magrans s/n, 08193 Cerdanyola del Vallès, Barcelona, Catalonia, Spain",
+        "Institut d’Estudis Espacials de Catalunya (IEEC), 08860 Castelldefels, Barcelona, Catalonia, Spain",
+        "INAF – Osservatorio Astronomico di Palermo, Piazza del Parlamento 1, I-90134, Palermo, Italy",
+        "Departament d’Astronomia i Astrofísica, Universitat de València, C. Dr. Moliner 50, E-46100 Burjassot, València, Spain",
+        "INAF – Osservatorio Astrofisico di Catania, via Santa Sofia 78, I-95123 Catania, Italy",
+        "INAF – Osservatorio Astronomico di Brera, via E. Bianchi 46, I-23807 Merate (LC), Italy",
+        "Scuola Normale Superiore, Piazza dei Cavalieri 7, 56126 Pisa, Italy"
+      ],
+      "author_affiliations": [
+        {
+          "name": "M. Damasso,,",
+          "institutions": [
+            "INAF – Osservatorio Astrofisico di Torino, Via Osservatorio 20, I-10025 Pino Torinese, Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "D. Viganò",
+          "institutions": [
+            "Institut de Ciències de I’Espai (ICE-CSIC), Campus UAB, Carrer de Can Magrans s/n, 08193 Cerdanyola del Vallès, Barcelona, Catalonia, Spain",
+            "Institut d’Estudis Espacials de Catalunya (IEEC), 08860 Castelldefels, Barcelona, Catalonia, Spain"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "R. Spinelli",
+          "institutions": [
+            "INAF – Osservatorio Astronomico di Palermo, Piazza del Parlamento 1, I-90134, Palermo, Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "S. Kaur",
+          "institutions": [
+            "Departament d’Astronomia i Astrofísica, Universitat de València, C. Dr. Moliner 50, E-46100 Burjassot, València, Spain"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "A. Petralia",
+          "institutions": [
+            "INAF – Osservatorio Astronomico di Palermo, Piazza del Parlamento 1, I-90134, Palermo, Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Á. Sánchez-Monge",
+          "institutions": [
+            "Institut de Ciències de I’Espai (ICE-CSIC), Campus UAB, Carrer de Can Magrans s/n, 08193 Cerdanyola del Vallès, Barcelona, Catalonia, Spain",
+            "Institut d’Estudis Espacials de Catalunya (IEEC), 08860 Castelldefels, Barcelona, Catalonia, Spain"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "A. F. Lanza",
+          "institutions": [
+            "INAF – Osservatorio Astrofisico di Catania, via Santa Sofia 78, I-95123 Catania, Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "A. Maggio",
+          "institutions": [
+            "INAF – Osservatorio Astronomico di Palermo, Piazza del Parlamento 1, I-90134, Palermo, Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "J. M. Girart",
+          "institutions": [
+            "Institut de Ciències de I’Espai (ICE-CSIC), Campus UAB, Carrer de Can Magrans s/n, 08193 Cerdanyola del Vallès, Barcelona, Catalonia, Spain",
+            "Institut d’Estudis Espacials de Catalunya (IEEC), 08860 Castelldefels, Barcelona, Catalonia, Spain"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "F. Borsa",
+          "institutions": [
+            "INAF – Osservatorio Astronomico di Brera, via E. Bianchi 46, I-23807 Merate (LC), Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "F. Del Sordo",
+          "institutions": [
+            "INAF – Osservatorio Astrofisico di Catania, via Santa Sofia 78, I-95123 Catania, Italy",
+            "Scuola Normale Superiore, Piazza dei Cavalieri 7, 56126 Pisa, Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "G. Ghirlanda",
+          "institutions": [
+            "INAF – Osservatorio Astronomico di Brera, via E. Bianchi 46, I-23807 Merate (LC), Italy"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.29459v1",
+      "intro_en": "V1298 Tau is a very young and magnetically active K1V star which hosts a benchmark multi-planetary system to study planet formation and evolutionary history at the earliest stages. Between 2025 and 2026, we conducted a campaign to monitor the variability of V1298 Tau in radio (band C), X-ray, and NUV bands, with the support of publicly available contemporary optical light curve, and to investigate multi-band correlations to link the emission with stellar activity.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-21",
+      "publication_date_source": "https://arxiv.org/abs/2610.29459v1",
+      "version_date": "2026-10-21T09:17:47+00:00"
+    },
+    {
+      "id": "2610.29423",
+      "version_id": "2610.29423v1",
+      "title": "Urban climate regressions require representative monitoring networks",
+      "abstract": "Land use regression models relate intra-urban air temperature to spatial predictors such as building volume, tree canopy cover and topography, and are increasingly used to produce fine-scale temperature maps. However, the accuracy of these estimates can be compromised by unrepresentative monitoring networks. Here we show that reference weather station networks, designed for regional rather than intra-urban monitoring, sample only a narrow portion of a city's spatial heterogeneity, missing both the densely built core and the cool, vegetated periphery that set the two ends of the urban temperature range. As a result, city-wide predictions underestimate temperature differences, in ways that cross-validation against the station measurements does not detect. Using Zurich, Switzerland, as a case study, we compare multiple linear regression, generalized additive models and random forests as up to 117 low-cost temperature sensors are added to the four reference weather stations. When trained on reference stations alone, all three models achieve comparable cross-validated performance. As low-cost sensors broaden the sampled spatial heterogeneity, multiple linear regression scores lower on both metrics, whereas the non-linear models remain at their reference-only level. Although a third of the low-cost sensors already recovers nearly the full predicted temperature range, which predictors are identified, and with which sign, is determined by the station sample rather than the model class. At full coverage, only multiple linear regression leaves significant residual spatial autocorrelation, suggesting a linear form unable to capture non-linear responses of air temperature to urban form. Drawing on landscape ecology research on focal site study design, we provide a transferable framework for diagnosing station network representativeness and improving the reliability of city-wide environmental maps.",
+      "published": "2026-10-21T08:48:33Z",
+      "updated": "2026-10-21T08:48:33Z",
+      "authors": [
+        "Martí Bosch",
+        "Aldo Brandi",
+        "Christoph Bachofen",
+        "Perrine Hamel",
+        "Roy P. Remme",
+        "Emma E. Ramsay",
+        "Gabriele Manoli",
+        "Martin A. Schlaepfer",
+        "Moritz Burger"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.ao-ph",
+        "physics.soc-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.29423",
+      "pdf": "https://arxiv.org/pdf/2610.29423v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-22T01:42:08.302587+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2610.29423v1",
+      "intro_en": "Land use regression models relate intra-urban air temperature to spatial predictors such as building volume, tree canopy cover and topography, and are increasingly used to produce fine-scale temperature maps. However, the accuracy of these estimates can be compromised by unrepresentative monitoring networks.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-21",
+      "publication_date_source": "https://arxiv.org/abs/2610.29423v1",
+      "version_date": "2026-10-21T08:48:33+00:00"
+    },
+    {
+      "id": "2610.29383",
+      "version_id": "2610.29383v1",
+      "title": "Surface regolith model of near-Earth asteroid (3200) Phaethon",
+      "abstract": "The near-Earth asteroid (3200) Phaethon displays activity as it comes close to the Sun and is presumed to be the progenitor of the Geminids meteor shower. Both CM- and CY-meteorites have been suggested as possible meteorite analogues for Phaethon. Previous spectral and polarization measurements of Phaethon indicate possible surface heterogeneity in the regolith properties. By combining mineral components and their size fractions, we present a regolith model for Phaethon that reproduces the spectral, polarization, and geometric albedo measurements presented in various studies, with the aim of quantitatively characterizing the surface material and structure, as well as the regolith heterogeneity. The best fit model able to produce the measurements is constructed from large olivine particles with troilite inclusions and small scale surface roughness, mixed with smaller, porous troilite aggregates comprised of monomers resembling interplanetary dust. Our model suggests that the different spectral and polarization responses of the regolith are caused by changes in the size and amount of the small dark troilite particles. Based on the amount of troilite in the regolith model, we propose that CM-meteorites are the preferable meteorite analogue for Phaethon.",
+      "published": "2026-10-21T08:11:07Z",
+      "updated": "2026-10-21T08:11:07Z",
+      "authors": [
+        "Mikko Vuori",
+        "Antti Penttilä",
+        "Karri Muinonen",
+        "Hanna Pentikäinen",
+        "Ari Leppälä",
+        "Zuri Gray",
+        "Eric MacLennan",
+        "Mikael Granvik",
+        "Anne Virkki"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2610.29383",
+      "pdf": "https://arxiv.org/pdf/2610.29383v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-22T01:42:08.302587+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "行星科学拓展阅读",
+      "tags": [
+        "云与辐射 · Clouds & radiation",
+        "海冰与表层 · Ice & surface"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Department of Physics, P.O. box 64, FI-00014 University of Helsinki, Finland",
+        "Instituto de Astrofísica de Canarias (IAC), 38205 La Laguna, Tenerife, Spain",
+        "Departamento de Astrofísica, Universidad de La Laguna 38205 La Laguna, Tenerife, Spain",
+        "Asteroid Engineering Laboratory, Luleå University of Technology, Box 848, SE-98128 Kiruna, Sweden"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Mikko Vuori",
+          "institutions": [
+            "Department of Physics, P.O. box 64, FI-00014 University of Helsinki, Finland"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Antti Penttilä",
+          "institutions": [
+            "Department of Physics, P.O. box 64, FI-00014 University of Helsinki, Finland"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Karri Muinonen",
+          "institutions": [
+            "Department of Physics, P.O. box 64, FI-00014 University of Helsinki, Finland"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Hanna Pentikäinen",
+          "institutions": [
+            "Department of Physics, P.O. box 64, FI-00014 University of Helsinki, Finland"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Ari Leppälä",
+          "institutions": [
+            "Department of Physics, P.O. box 64, FI-00014 University of Helsinki, Finland"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Zuri Gray",
+          "institutions": [
+            "Department of Physics, P.O. box 64, FI-00014 University of Helsinki, Finland"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Eric MacLennan",
+          "institutions": [
+            "Department of Physics, P.O. box 64, FI-00014 University of Helsinki, Finland",
+            "Instituto de Astrofísica de Canarias (IAC), 38205 La Laguna, Tenerife, Spain",
+            "Departamento de Astrofísica, Universidad de La Laguna 38205 La Laguna, Tenerife, Spain"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Mikael Granvik",
+          "institutions": [
+            "Department of Physics, P.O. box 64, FI-00014 University of Helsinki, Finland",
+            "Asteroid Engineering Laboratory, Luleå University of Technology, Box 848, SE-98128 Kiruna, Sweden"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Anne Virkki",
+          "institutions": [
+            "Department of Physics, P.O. box 64, FI-00014 University of Helsinki, Finland"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.29383v1",
+      "intro_en": "The near-Earth asteroid (3200) Phaethon displays activity as it comes close to the Sun and is presumed to be the progenitor of the Geminids meteor shower. Both CM- and CY-meteorites have been suggested as possible meteorite analogues for Phaethon.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-21",
+      "publication_date_source": "https://arxiv.org/abs/2610.29383v1",
+      "version_date": "2026-10-21T08:11:07+00:00"
+    },
+    {
+      "id": "2610.29306",
+      "version_id": "2610.29306v1",
+      "title": "Data-driven and physics-guided hindcasting of measured wave spectra",
+      "abstract": "Short-range hindcasts of measured wave spectra are evaluated using a recurrent model initialized by one hourly buoy spectrum and supplied with local wind, fetch and depth. Measurements from three Baltic Sea stations are combined for training in 2017--2020, validation in 2021 and testing in 2022. ERA5 reanalysis supplies winds throughout the twelve-hour prediction interval. The comparison examines supervision of spectral variance, peak frequency and peak amplitude, followed by empirical wind-sea bounds and a local relaxation constraint. Variance and peak-frequency supervision gives the lowest spectral error within the data-driven comparison, whereas additional peak-amplitude supervision gives the lowest wave-height error. In the matched physical comparison, relaxation reduces height RMSE by 5.01\\% to \\PhPtwoHs{}~cm. Extending this constraint through hours 13--24, without spectral targets at those hours, reduces primary spectral RMSE by 2.31\\% to \\PhPthreeSpec{}~$\\unitE$. Upper-bound constraints increase errors. Wind-condition comparisons show spectral gains from extended relaxation in increasing, decreasing and steady strong winds, with little change in steady weak winds. The results support modest, objective-dependent benefits from local physical guidance. Wave-height scores concern the retained frequency band, and operational forecasting and transfer to independent stations remain to be evaluated.",
+      "published": "2026-10-21T07:00:31Z",
+      "updated": "2026-10-21T07:00:31Z",
+      "authors": [
+        "Sander Rikka"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.ao-ph",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.29306",
+      "pdf": "https://arxiv.org/pdf/2610.29306v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-22T01:42:08.302587+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Department of Marine Systems, Tallinn University of Technology*Corresponding author: sander.rikka@taltech.ee"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Sander Rikka",
+          "institutions": [
+            "Department of Marine Systems, Tallinn University of Technology*Corresponding author: sander.rikka@taltech.ee"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.29306v1",
+      "intro_en": "Short-range hindcasts of measured wave spectra are evaluated using a recurrent model initialized by one hourly buoy spectrum and supplied with local wind, fetch and depth. Measurements from three Baltic Sea stations are combined for training in 2017--2020, validation in 2021 and testing in 2022.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-21",
+      "publication_date_source": "https://arxiv.org/abs/2610.29306v1",
+      "version_date": "2026-10-21T07:00:31+00:00"
+    },
+    {
+      "id": "2610.29213",
+      "version_id": "2610.29213v1",
+      "title": "Huayu-Global: Skillful real-time quasi-global precipitation retrieval",
+      "abstract": "Satellite precipitation products face a persistent trade-off: real-time estimates are timely but less accurate, whereas the most reliable products are often released months after observation. This delay keeps high-quality precipitation information outside the decision window for flood warning and disaster response. Here we report Huayu-Global, a cross-constellation deep-learning system that combines three geostationary sensor streams from five satellites through a common retrieval framework and generates coherent quasi-global precipitation fields every thirty minutes. Across more than a million independent station records from two periods outside the training years, Huayu-Global improves event detection and precipitation-amount estimation relative to the real-time products evaluated and reaches delayed-product-level skill in key metrics. Huayu-Global therefore turns operational geostationary observations into a timely, high-skill precipitation layer for flood forecasting, water management and disaster response. Its cross-constellation design also provides a scalable foundation for incorporating future geostationary missions into hydrological and weather-prediction systems.",
+      "published": "2026-10-21T05:12:51Z",
+      "updated": "2026-10-21T05:12:51Z",
+      "authors": [
+        "Zijiang Song",
+        "Shuang Yang",
+        "Yuying Li",
+        "Zilong Zhu",
+        "Xigang Sun",
+        "Ting Liu",
+        "Wenye Xiao",
+        "Lina Yuan",
+        "Min Liu"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.ao-ph",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2610.29213",
+      "pdf": "https://arxiv.org/pdf/2610.29213v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-22T01:42:08.302587+00:00",
+      "version_changed": false,
+      "topics": [
+        "physics"
+      ],
+      "matches": {
+        "physics": [
+          "precipitation"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "水循环 · Water cycle",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 32,
+      "fit_matches": [],
+      "institutions": [
+        "Key Laboratory of Geographic Information Science (Ministry of Education), East China Normal University, Shanghai, 200241, China",
+        "Key Laboratory of Spatial-temporal Big Data Analysis and Application of Natural Resources in Megacities (Ministry of Natural Resources), East China Normal University, Shanghai, 200241, China",
+        "School of Computer Science and Engineering, Southeast University, Nanjing, 211189, China"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Zijiang Song",
+          "institutions": [
+            "Key Laboratory of Geographic Information Science (Ministry of Education), East China Normal University, Shanghai, 200241, China",
+            "Key Laboratory of Spatial-temporal Big Data Analysis and Application of Natural Resources in Megacities (Ministry of Natural Resources), East China Normal University, Shanghai, 200241, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Shuang Yang",
+          "institutions": [
+            "Key Laboratory of Geographic Information Science (Ministry of Education), East China Normal University, Shanghai, 200241, China",
+            "Key Laboratory of Spatial-temporal Big Data Analysis and Application of Natural Resources in Megacities (Ministry of Natural Resources), East China Normal University, Shanghai, 200241, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Yuying Li",
+          "institutions": [
+            "Key Laboratory of Geographic Information Science (Ministry of Education), East China Normal University, Shanghai, 200241, China",
+            "Key Laboratory of Spatial-temporal Big Data Analysis and Application of Natural Resources in Megacities (Ministry of Natural Resources), East China Normal University, Shanghai, 200241, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Zilong Zhu",
+          "institutions": [
+            "Key Laboratory of Geographic Information Science (Ministry of Education), East China Normal University, Shanghai, 200241, China",
+            "Key Laboratory of Spatial-temporal Big Data Analysis and Application of Natural Resources in Megacities (Ministry of Natural Resources), East China Normal University, Shanghai, 200241, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Xigang Sun",
+          "institutions": [
+            "School of Computer Science and Engineering, Southeast University, Nanjing, 211189, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Ting Liu",
+          "institutions": [
+            "Key Laboratory of Geographic Information Science (Ministry of Education), East China Normal University, Shanghai, 200241, China",
+            "Key Laboratory of Spatial-temporal Big Data Analysis and Application of Natural Resources in Megacities (Ministry of Natural Resources), East China Normal University, Shanghai, 200241, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Wenye Xiao",
+          "institutions": [
+            "Key Laboratory of Geographic Information Science (Ministry of Education), East China Normal University, Shanghai, 200241, China",
+            "Key Laboratory of Spatial-temporal Big Data Analysis and Application of Natural Resources in Megacities (Ministry of Natural Resources), East China Normal University, Shanghai, 200241, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Lina Yuan",
+          "institutions": [
+            "Key Laboratory of Geographic Information Science (Ministry of Education), East China Normal University, Shanghai, 200241, China",
+            "Key Laboratory of Spatial-temporal Big Data Analysis and Application of Natural Resources in Megacities (Ministry of Natural Resources), East China Normal University, Shanghai, 200241, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Min Liu",
+          "institutions": [
+            "Key Laboratory of Geographic Information Science (Ministry of Education), East China Normal University, Shanghai, 200241, China",
+            "Key Laboratory of Spatial-temporal Big Data Analysis and Application of Natural Resources in Megacities (Ministry of Natural Resources), East China Normal University, Shanghai, 200241, China"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.29213v1",
+      "intro_en": "Satellite precipitation products face a persistent trade-off: real-time estimates are timely but less accurate, whereas the most reliable products are often released months after observation. This delay keeps high-quality precipitation information outside the decision window for flood warning and disaster response.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-21",
+      "publication_date_source": "https://arxiv.org/abs/2610.29213v1",
+      "version_date": "2026-10-21T05:12:51+00:00"
+    },
+    {
+      "id": "2610.29193",
+      "version_id": "2610.29193v1",
+      "title": "Dynamics of liquid jet breakup and droplet size distribution in a crossflow airstream",
+      "abstract": "The fragmentation of a liquid jet in a crossflowing airstream arises from a complex interplay between aerodynamic forcing and interfacial instabilities acting across a wide range of length scales. We examine the spatial evolution of droplet size distributions along the jet trajectory using a combination of high-speed shadowgraphy and digital in-line holography, allowing simultaneous characterization of jet morphology and volumetric droplet size distributions. The results demonstrate a clear progression of breakup mechanisms, from near-field bag rupture to downstream rim, ligament, and node disintegration, each associated with distinct characteristic length scales. This evolution is reflected in the droplet size distributions, which broaden and become increasingly polydisperse downstream relative to the near-field distributions. By systematically varying the liquid-jet and airstream Weber numbers, we identify distinct breakup modes, and construct a regime map that delineates the column-breakup, isolated-bag-breakup, and interacting-bag regimes. Furthermore, by incorporating the dominant instability mechanisms, including Rayleigh-Taylor and Rayleigh-Plateau instabilities associated with the observed column, bag, and multi-bag breakup modes, we develop a theoretical framework for jet atomization in crossflow. The framework relates instability wavelengths to characteristic droplet sizes, and reasonably captures the experimentally observed trends. We found that stronger aerodynamic forcing induces earlier breakup, decreases the characteristic instability length scales, and generates finer droplets dispersed over a wider spatial region. Overall, the study establishes a quantitative relationship between instability-driven fragmentation dynamics and droplet size distributions, thereby connecting interfacial instabilities with measurable spray characteristics.",
+      "published": "2026-10-21T04:28:16Z",
+      "updated": "2026-10-21T04:28:16Z",
+      "authors": [
+        "Gowri Padmaja Majji",
+        "Aman John Tudu",
+        "Lakshmana Dora Chandrala",
+        "Kirti Chandra Sahu"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2610.29193",
+      "pdf": "https://arxiv.org/pdf/2610.29193v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-22T01:42:08.302587+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "流体与不稳定性 · Fluid dynamics"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [
+        "理论机制与尺度关系"
+      ],
+      "author_affiliation_status": "unavailable",
+      "institutions": [
+        "††affiliation: 1 Department of Mechanical and Aerospace Engineering, Indian Institute of Technology Hyderabad, Kandi - 502 284, Sangareddy, Telangana, India 2Department of Chemical Engineering, Indian Institute of Technology Hyderabad, Kandi - 502 284, Sangareddy, Telangana, India"
+      ],
+      "author_affiliations": [],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.29193v1",
+      "intro_en": "The fragmentation of a liquid jet in a crossflowing airstream arises from a complex interplay between aerodynamic forcing and interfacial instabilities acting across a wide range of length scales. We examine the spatial evolution of droplet size distributions along the jet trajectory using a combination of high-speed shadowgraphy and digital in-line holography, allowing simultaneous characterization of jet morphology and volumetric droplet size distributions.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-21",
+      "publication_date_source": "https://arxiv.org/abs/2610.29193v1",
+      "version_date": "2026-10-21T04:28:16+00:00"
+    },
+    {
+      "id": "2610.29072",
+      "version_id": "2610.29072v1",
+      "title": "Computational and experimental study of multi-grain-size sediment transport and sorting process",
+      "abstract": "Successful prediction of the interaction between turbulent flows and river ecosystems is essential for flood management, development of mitigation strategies, and infrastructure protection. Natural riverbeds consist of bed materials of multiple grain sizes that interact with turbulence differently, leading to spatial classification of particle sizes. Such particle sorting processes can only be captured by models capable of handling multiple grain sizes. We present a numerical framework that couples large-eddy simulation with a multi-grain-size sediment transport module to track multiple grain size classes, their local fractions within the bed-load layer, and bed evolution. A laboratory experiment was conducted in a flume with multi-size bed material to examine sediment particle redistribution and sorting. Measured sediment grain size distributions and bed elevations were used to validate the numerical framework. The results of the multi-grain-size sediment transport model for bed deformation were then compared against those of a uniform sediment transport model, demonstrating that the former reduces the prediction errors relative to the experimental measurements from 37.98 to 3.83 percent for maximum scour depth and from 48.35 to 11.54 percent for maximum deposition height. The validated numerical framework was also applied to large-scale meandering rivers with multi-grain bed material, simulating their bed deformation and sediment sorting. The simulation results revealed the formation of particle sorting patterns in meandering rivers, with coarser and finer sediment particles accumulating near the erosional depression (scour) and depositional (point bar) regions, respectively. These findings support the coupled framework's ability to predict sediment particle sorting and highlight the importance of representing bed material heterogeneity in numerical modeling of meandering rivers.",
+      "published": "2026-10-21T01:53:01Z",
+      "updated": "2026-10-21T01:53:01Z",
+      "authors": [
+        "Mehrshad Gholami Anjiraki",
+        "Gabriel Narh",
+        "Jonathan Craig",
+        "Mustafa Meriç Aksen",
+        "Samin Shapourmiandouab",
+        "Ali Farhadzadeh",
+        "Tao Xiang",
+        "Ali Khosronejad"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn",
+        "physics.geo-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.29072",
+      "pdf": "https://arxiv.org/pdf/2610.29072v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-22T01:42:08.302587+00:00",
+      "version_changed": false,
+      "topics": [
+        "methods"
+      ],
+      "matches": {
+        "methods": [
+          "turbulence"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "流体与不稳定性 · Fluid dynamics",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 20,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [
+        {
+          "name": "Mehrshad Gholami Anjiraki",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Gabriel Narh",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Jonathan Craig",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Mustafa Meriç Aksen",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Samin Shapourmiandouab",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Ali Farhadzadeh",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Tao Xiang",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Ali Khosronejad",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Ali Khosronejad",
+          "institutions": [],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2610.29072v1",
+      "intro_en": "Successful prediction of the interaction between turbulent flows and river ecosystems is essential for flood management, development of mitigation strategies, and infrastructure protection. Natural riverbeds consist of bed materials of multiple grain sizes that interact with turbulence differently, leading to spatial classification of particle sizes.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-21",
+      "publication_date_source": "https://arxiv.org/abs/2610.29072v1",
+      "version_date": "2026-10-21T01:53:01+00:00"
+    },
     {
       "id": "2610.27940",
       "version_id": "2610.27940v1",
@@ -1112,11 +1775,11 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：planet formation、planetesimal、magma ocean、mantle、volatile",
+      "reason": "Reading review 2026-10-21: Complete original abstract and author block read: rocky-planet formation, magma ocean, and atmosphere/mantle/core volatile partitioning.",
       "tags": [
         "岩浆与挥发分 · Magma & volatiles"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 31,
       "fit_matches": [],
       "institutions": [
@@ -1279,20 +1942,24 @@
       "first_seen": "2026-10-21T01:42:29.384003+00:00",
       "version_changed": false,
       "topics": [
-        "detection"
+        "detection",
+        "orbital"
       ],
       "matches": {
         "detection": [
           "exomoon"
+        ],
+        "orbital": [
+          "high eccentricity migration"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：exomoon",
+      "reason": "Reading review 2026-10-21: Complete original abstract and author block read: exomoon survival during high-eccentricity planetary migration, tidal orbital decay, evection resonance and pericentre perturbations. Planetary orbital dynamics, not generic white-dwarf evolution.",
       "tags": [
         "宜居性 · Habitability"
       ],
-      "method": "keyword",
-      "fit_score": 36,
+      "method": "manual",
+      "fit_score": 46,
       "fit_matches": [],
       "institutions": [
         "Department of Physics, Massachusetts Institute of Technology, Cambridge, MA 02139, USA",
@@ -2867,11 +3534,11 @@
     },
     {
       "id": "2610.19377",
-      "version_id": "2610.19377v1",
+      "version_id": "2610.19377v2",
       "title": "Emission spectroscopy of KELT-2A b with Gemini-North/IGRINS-2: hints of a stellar C/O ratio and sub-stellar metallicity",
       "abstract": "We present the results of high-resolution emission spectroscopy of the hot Jupiter KELT-2A~b using IGRINS-2 on the Gemini-North telescope, covering the $H$- and $K$-bands at a spectral resolution of $R \\sim 45{,}000$. Observations were carried out over five nights, covering both pre- and post-eclipse orbital phases. Stellar and telluric contaminations are removed via singular value decomposition. We detect $\\rm H_2O$ at a signal-to-noise ratio of {6.57}, confirming the previous result at a higher significance. While $\\rm ^{12}CO$ is identified in the log-likelihood map near the expected planetary velocity, a definitive detection of $\\rm ^{12}CO$ remains elusive given the current data quality. We perform atmospheric retrieval both with IGRINS-2 data alone and jointly with archival \\textit{Spitzer}/IRAC photometric data points. The retrieved temperature--pressure profile is non-inverted, consistent with prior observations. {From the joint fit we constrain the water abundance to} $\\rm log(H_2O) = {-3.78^{+0.27}_{-0.20}}$ {with the free chemistry model}. {The chemical equilibrium model yields} $\\rm C/O={ 0.19^{+0.12}_{-0.07}}$, $\\rm [C/H]=-0.81^{+0.41}_{-0.34}$, and $\\rm [O/H] = -0.37^{+0.27}_{-0.17}${: the C/O ratio agrees with the stellar value, while the carbon and oxygen abundances are moderately depleted relative to the host star, though still consistent at the $\\sim2σ$ level.} If confirmed, {this combination of a stellar C/O ratio with a sub-stellar metallicity is difficult to reconcile with gas accretion between the $\\rm{H_2O}$ and CO snowlines, which predicts a super-stellar C/O. It instead points to the accretion of metal-depleted gas outside the CO snowline with only limited planetesimal enrichment, and hence to a disk-free, high-eccentricity migration history.}",
       "published": "2026-10-14T01:24:35Z",
-      "updated": "2026-10-14T01:24:35Z",
+      "updated": "2026-10-21T04:19:02Z",
       "authors": [
         "Yuya Hayashi",
         "Stevanus K. Nugroho",
@@ -2895,14 +3562,15 @@
         "astro-ph.EP"
       ],
       "url": "https://arxiv.org/abs/2610.19377",
-      "pdf": "https://arxiv.org/pdf/2610.19377v1",
+      "pdf": "https://arxiv.org/pdf/2610.19377v2",
       "source": "arXiv",
       "first_seen": "2026-10-15T01:38:21.320708+00:00",
-      "version_changed": false,
+      "version_changed": true,
       "topics": [
         "planetary",
         "chemistry",
         "models",
+        "orbital",
         "evolution"
       ],
       "matches": {
@@ -2915,6 +3583,9 @@
         "models": [
           "chemistry model"
         ],
+        "orbital": [
+          "high eccentricity migration"
+        ],
         "evolution": [
           "planetesimal"
         ]
@@ -2926,7 +3597,7 @@
         "反演与数值方法 · Inverse & numerical methods"
       ],
       "method": "manual",
-      "fit_score": 57,
+      "fit_score": 60,
       "fit_matches": [],
       "institutions": [
         "Department of Multi-Disciplinary Sciences, Graduate School of Arts and Sciences, The University of Tokyo, 3-8-1 Komaba, Meguro, Tokyo 153-8902, Japan",
@@ -3069,16 +3740,14 @@
         }
       ],
       "affiliation_status": "verified",
-      "affiliation_source": "https://arxiv.org/html/2610.19377v1",
-      "intro_en": "High-resolution IGRINS-2 emission spectra, combined with Spitzer photometry, constrain the atmosphere of KELT-2A b. Water is detected and the retrieved temperature profile is non-inverted; possible carbon and oxygen depletion remains tentative, so the proposed formation and migration interpretation needs confirmation.",
-      "intro_zh": "研究利用 Gemini-North/IGRINS-2 的五夜高分辨率热发射光谱，并结合 Spitzer 测光反演热木星 KELT-2A b 的大气。水汽信号达到 6.57 的信噪比，温压结构未见逆温；平衡化学反演提示碳氧比与宿主星相近、碳氧丰度偏低，但差异仍在约两个标准差内。作者据此讨论吸积与高偏心率迁移情景，相关形成历史判断仍需更高质量数据确认。",
-      "intro_kind": "bilingual_editorial",
-      "intro_basis": "基于公开摘要整理",
+      "affiliation_source": "https://arxiv.org/html/2610.19377v2",
+      "intro_en": "We present the results of high-resolution emission spectroscopy of the hot Jupiter KELT-2A~b using IGRINS-2 on the Gemini-North telescope, covering the $H$- and $K$-bands at a spectral resolution of $R \\sim 45{,}000$. Observations were carried out over five nights, covering both pre- and post-eclipse orbital phases.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
       "publication_date": "2026-10-14",
-      "publication_date_source": "https://arxiv.org/abs/2610.19377v1",
-      "intro_source": "https://arxiv.org/abs/2610.19377v1",
-      "intro_version": "2610.19377v1",
-      "version_date": "2026-10-14T01:24:35+00:00"
+      "publication_date_source": "https://arxiv.org/abs/2610.19377v2",
+      "version_date": "2026-10-21T04:19:02+00:00"
     },
     {
       "id": "2610.19328",
@@ -5432,11 +6101,12 @@
       ],
       "matches": {
         "orbital": [
-          "orbital architecture"
+          "orbital architecture",
+          "high eccentricity migration"
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：orbital architecture",
+      "reason": "关联线索：orbital architecture、high eccentricity migration",
       "tags": [],
       "method": "keyword",
       "fit_score": 40,
@@ -5883,6 +6553,67 @@
       "publication_date": "2026-10-13",
       "publication_date_source": "https://arxiv.org/abs/2610.17564v1",
       "version_date": "2026-10-13T01:35:53+00:00"
+    },
+    {
+      "id": "2610.16714",
+      "version_id": "2610.16714v2",
+      "title": "Forecasting carbon-risk hotspots ahead of the extreme 2026 El Niño",
+      "abstract": "A potentially super El Niño is forecasted in 2026, raising the need to anticipate land carbon-cycle risks before its impacts unfold. We develop a prospective early-warning framework that uses dynamic global vegetation models driven by an ensemble of ECMWF seasonal climate forecasts and machine-learning burned area predictions. Forecasts indicate a $0.23 \\pm 0.21$ PgC reduction in global net biome productivity in the second half of 2026, with hotspots of sink weakening in eastern South America and elevated fire risk in Southeast Asia.",
+      "published": "2026-10-12T12:48:36Z",
+      "updated": "2026-10-21T09:40:29Z",
+      "authors": [
+        "Xiaomeng Du",
+        "Runda Jiang",
+        "Philippe Ciais",
+        "Pierre Friedlingstein",
+        "Stephen Sitch",
+        "Mike O'Sullivan",
+        "Jefferson Goncalves de Souza",
+        "Tim Stripp",
+        "Eloi Lindas",
+        "Piyu Ke",
+        "Yi Xi",
+        "Minxuan Sun",
+        "Xiaoran Wu",
+        "Mengjie Han",
+        "Shanshan Song",
+        "Qiang Zhang",
+        "Wei Li"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.ao-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.16714",
+      "pdf": "https://arxiv.org/pdf/2610.16714v2",
+      "source": "arXiv",
+      "first_seen": "2026-10-22T01:42:08.302587+00:00",
+      "version_changed": false,
+      "topics": [
+        "surface"
+      ],
+      "matches": {
+        "surface": [
+          "carbon cycle"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 30,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2610.16714v2",
+      "intro_en": "A potentially super El Niño is forecasted in 2026, raising the need to anticipate land carbon-cycle risks before its impacts unfold. We develop a prospective early-warning framework that uses dynamic global vegetation models driven by an ensemble of ECMWF seasonal climate forecasts and machine-learning burned area predictions.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-12",
+      "publication_date_source": "https://arxiv.org/abs/2610.16714v2",
+      "version_date": "2026-10-21T09:40:29+00:00"
     },
     {
       "id": "2610.13942",
@@ -6712,6 +7443,105 @@
       "publication_date": "2026-10-08",
       "publication_date_source": "https://arxiv.org/abs/2610.11108v1",
       "version_date": "2026-10-08T02:28:18+00:00"
+    },
+    {
+      "id": "2610.10513",
+      "version_id": "2610.10513v2",
+      "title": "SciExam for ENSO: Can AI Agents Build Climate Models?",
+      "abstract": "Language-model agents are increasingly asked to carry out open-ended scientific research, yet their results are usually graded against a known answer, a rubric, or a language-model reviewer, none of which can tell whether a new scientific model is valid. The AI Science Exam for El Nino-Southern Oscillation (SciExam for ENSO) is a benchmark in which agents build low-order stochastic models of ENSO, the dominant mode of interannual climate variability, from real observations. Within a six-hour budget, agents process the observations, write their own diagnostics, which are then frozen, and develop a model using only these diagnostics as feedback. Hidden graders then test whether the model reproduces ENSO's statistics, recovers unobserved variables, and forecasts held-out years, and score a published model in the same way. Across twelve agent systems, six produce models that score higher than the published model, mainly through better reconstruction and forecasting. The simplified forms of the stronger models are each compatible with one of the two competing explanations of ENSO's warm-cold asymmetry, an open debate that the task never mentions. Controlled runs of the top system under varied information suggest that its scores do not come from recalling the dated observational record and that the information it receives shapes how it builds its model. SciExam for ENSO can thus evaluate agent research where no answer is known, and the results suggest that agents can already build competitive models whose structures bear on questions that scientists still debate.",
+      "published": "2026-10-07T17:52:52Z",
+      "updated": "2026-10-21T06:15:59Z",
+      "authors": [
+        "Yinling Zhang",
+        "Langchen Liu",
+        "Dongbin Xiu",
+        "Xueyan Zou",
+        "Xu Kuang",
+        "Mengdi Wang",
+        "Shilong Liu"
+      ],
+      "doi": "",
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "physics.ao-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.10513",
+      "pdf": "https://arxiv.org/pdf/2610.10513v2",
+      "source": "arXiv",
+      "first_seen": "2026-10-22T01:42:08.302587+00:00",
+      "version_changed": false,
+      "topics": [
+        "climate"
+      ],
+      "matches": {
+        "climate": [
+          "climate variability",
+          "el nino",
+          "enso"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 40,
+      "fit_matches": [
+        "行星气候与模式"
+      ],
+      "institutions": [
+        "The Ohio State University Yale University University of California, San Diego Stanford University Princeton University[Website] [Code]"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Yinling Zhang",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Langchen Liu",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Dongbin Xiu",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Xueyan Zou",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Xu Kuang",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Mengdi Wang",
+          "institutions": [
+            "The Ohio State University Yale University University of California, San Diego Stanford University Princeton University[Website] [Code]"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Shilong Liu",
+          "institutions": [
+            "The Ohio State University Yale University University of California, San Diego Stanford University Princeton University[Website] [Code]"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.10513v2",
+      "intro_en": "Language-model agents are increasingly asked to carry out open-ended scientific research, yet their results are usually graded against a known answer, a rubric, or a language-model reviewer, none of which can tell whether a new scientific model is valid. The AI Science Exam for El Nino-Southern Oscillation (SciExam for ENSO) is a benchmark in which agents build low-order stochastic models of ENSO, the dominant mode of interannual climate variability, from real observations.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-08",
+      "publication_date_source": "https://arxiv.org/abs/2610.10513v2",
+      "version_date": "2026-10-21T06:15:59+00:00"
     },
     {
       "id": "2610.09933",
@@ -22872,14 +23702,13 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：atmospheric chemistry、phase curve、magma ocean、lava planet、volatile",
+      "reason": "Reading review 2026-10-21: Complete v2 original abstract read: coupled interior-atmosphere thermal evolution, volatile retention and observable phase curves of five lava planets. Revised 2026-10-20, first submitted 2026-09-17; not a one-year fallback.",
       "tags": [
         "光谱与相曲线 · Spectra & phase curves",
         "岩浆与挥发分 · Magma & volatiles",
-        "海冰与表层 · Ice & surface",
         "反演与数值方法 · Inverse & numerical methods"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 54,
       "fit_matches": [
         "系外行星观测表征"
@@ -23097,6 +23926,58 @@
       "publication_date": "2026-09-17",
       "publication_date_source": "https://arxiv.org/abs/2609.20155v2",
       "version_date": "2026-10-20T09:33:31+00:00"
+    },
+    {
+      "id": "2609.14853",
+      "version_id": "2609.14853v2",
+      "title": "A Review of ERA5 Equatorial Wind Data and Impact on a Space Elevator",
+      "abstract": "This paper uses the ERA5 weather dataset to assess the impact of the wind on an equatorial space elevator. An analytical formulation establishes that the effect of wind on tether inclination and payload capacity can be captured by a single scalar: RMS wind velocity, averaged over air pressure. This formulation clarifies what constitutes excessive wind for a particular elevator and provides a direct link between wind data and elevator design parameters. Analysis of equatorial ERA5 data shows that equatorial wind loading varies strongly with geography with lower values over continents and higher values over oceans, with the majority contribution coming from the lowest 20 km of atmosphere. The data indicate that realistic equatorial winds pose a significant constraint on thin-ribbon elevator designs if align to face the wind. Combining wind and lightning statistics highlights several promising equatorial regions for anchor sites. Finally, the implications of wind loading for elevator design are examined, and several mitigation strategies are discussed to improve survivability and operational payload capacity under realistic wind conditions.",
+      "published": "2026-09-13T23:53:21Z",
+      "updated": "2026-10-21T04:51:29Z",
+      "authors": [
+        "Blaise Gassend",
+        "Jonathan Gassend"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.app-ph",
+        "physics.ao-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.14853",
+      "pdf": "https://arxiv.org/pdf/2609.14853v2",
+      "source": "arXiv",
+      "first_seen": "2026-10-22T01:42:08.302587+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [
+        {
+          "name": "Blaise Gassend",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Jonathan Gassend",
+          "institutions": [],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2609.14853v2",
+      "intro_en": "This paper uses the ERA5 weather dataset to assess the impact of the wind on an equatorial space elevator. An analytical formulation establishes that the effect of wind on tether inclination and payload capacity can be captured by a single scalar: RMS wind velocity, averaged over air pressure.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-09-14",
+      "publication_date_source": "https://arxiv.org/abs/2609.14853v2",
+      "version_date": "2026-10-21T04:51:29+00:00"
     },
     {
       "id": "2609.04897",
@@ -23523,6 +24404,102 @@
       "version_date": "2026-10-13T21:02:52+00:00"
     },
     {
+      "id": "2608.04512",
+      "version_id": "2608.04512v2",
+      "title": "A Formation-Stage Bottleneck for Exomoons around Close-in Rocky Planets",
+      "abstract": "Massive moons around rocky exoplanets are expected outcomes of giant impacts, yet no exomoon has been securely confirmed. We address this problem using meshless finite-mass simulations of giant impacts between differentiated rocky planets that include stellar tidal and Coriolis forces in a local co-rotating frame for orbital periods of 1--300 days, and compare these simulations with otherwise identical collisions in isolation. We find that stellar perturbations impose a severe formation-stage bottleneck on moon-forming disks. Ultra-short-period impacts leave essentially no surviving circumplanetary disk, whereas 10-day systems retain only strongly depleted, radially truncated, and dynamically compact disks. High impact velocities, expected for close-in planets, are devastating for disk generation, while retrograde impacts can slightly compensate for disk mass depletion. These results show that stellar perturbations can suppress exomoon formation around close-in rocky planets, reshaping expectations for the demographics of exomoons.",
+      "published": "2026-08-05T06:48:35Z",
+      "updated": "2026-10-21T03:21:49Z",
+      "authors": [
+        "Rongxi Bi",
+        "Hongping Deng",
+        "Christian Reinhardt",
+        "Shangfei Liu",
+        "Yun Liu"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2608.04512",
+      "pdf": "https://arxiv.org/pdf/2608.04512v2",
+      "source": "arXiv",
+      "first_seen": "2026-10-22T01:42:08.302587+00:00",
+      "version_changed": false,
+      "topics": [
+        "detection"
+      ],
+      "matches": {
+        "detection": [
+          "exomoon"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：exomoon",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 36,
+      "fit_matches": [],
+      "institutions": [
+        "Research Center for Planetary Science, College of Earth and Planetary Sciences, Chengdu University of Technology, No. 1, East Third Road, Erxianqiao, Chenghua District, Chengdu 610059, China",
+        "Shanghai Astronomical Observatory, Chinese Academy of Sciences, 80 Nandan Road, Shanghai 200030, China",
+        "Department of Astrophysics, University of Zurich, Winterthurerstrasse 190, CH-8057 Zurich, Switzerland",
+        "Physics Institute, Space Research and Planetary Sciences, University of Bern, Sidlerstrasse 5, CH-3012 Bern, Switzerland",
+        "School of Physics and Astronomy, Sun Yat-sen University, No. 2 Daxue Road, Tangjiawan, Xiangzhou District, Zhuhai, Guangdong 519082, China",
+        "State Key Laboratory of Critical Mineral Research and Exploration, Institute of Geochemistry, Chinese Academy of Sciences, 99 West Lincheng Road, Guanshanhu District, Guiyang, Guizhou 550081, China"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Rongxi Bi",
+          "institutions": [
+            "Research Center for Planetary Science, College of Earth and Planetary Sciences, Chengdu University of Technology, No. 1, East Third Road, Erxianqiao, Chenghua District, Chengdu 610059, China"
+          ],
+          "orcid": "https://orcid.org/0009-0003-1435-4977"
+        },
+        {
+          "name": "Hongping Deng",
+          "institutions": [
+            "Shanghai Astronomical Observatory, Chinese Academy of Sciences, 80 Nandan Road, Shanghai 200030, China"
+          ],
+          "orcid": "https://orcid.org/0000-0001-6858-1006"
+        },
+        {
+          "name": "Christian Reinhardt",
+          "institutions": [
+            "Department of Astrophysics, University of Zurich, Winterthurerstrasse 190, CH-8057 Zurich, Switzerland",
+            "Physics Institute, Space Research and Planetary Sciences, University of Bern, Sidlerstrasse 5, CH-3012 Bern, Switzerland"
+          ],
+          "orcid": "https://orcid.org/0000-0002-4535-3956"
+        },
+        {
+          "name": "Shangfei Liu",
+          "institutions": [
+            "School of Physics and Astronomy, Sun Yat-sen University, No. 2 Daxue Road, Tangjiawan, Xiangzhou District, Zhuhai, Guangdong 519082, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Yun Liu",
+          "institutions": [
+            "Research Center for Planetary Science, College of Earth and Planetary Sciences, Chengdu University of Technology, No. 1, East Third Road, Erxianqiao, Chenghua District, Chengdu 610059, China",
+            "State Key Laboratory of Critical Mineral Research and Exploration, Institute of Geochemistry, Chinese Academy of Sciences, 99 West Lincheng Road, Guanshanhu District, Guiyang, Guizhou 550081, China"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2608.04512v2",
+      "intro_en": "Massive moons around rocky exoplanets are expected outcomes of giant impacts, yet no exomoon has been securely confirmed. We address this problem using meshless finite-mass simulations of giant impacts between differentiated rocky planets that include stellar tidal and Coriolis forces in a local co-rotating frame for orbital periods of 1--300 days, and compare these simulations with otherwise identical collisions in isolation.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-08-05",
+      "publication_date_source": "https://arxiv.org/abs/2608.04512v2",
+      "version_date": "2026-10-21T03:21:49+00:00"
+    },
+    {
       "id": "2608.02205",
       "version_id": "2608.02205v2",
       "title": "Arctic bimodality reflects enhanced variability in the clear-cloudy transition rather than bistability",
@@ -23760,15 +24737,21 @@
       "source": "arXiv",
       "first_seen": "2026-10-07T01:27:54.635020+00:00",
       "version_changed": false,
-      "topics": [],
-      "matches": {},
-      "status": "unmatched",
-      "reason": "行星科学拓展阅读",
+      "topics": [
+        "orbital"
+      ],
+      "matches": {
+        "orbital": [
+          "high eccentricity migration"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：high eccentricity migration",
       "tags": [
         "海冰与表层 · Ice & surface"
       ],
       "method": "keyword",
-      "fit_score": 0,
+      "fit_score": 40,
       "fit_matches": [],
       "institutions": [
         "Universitäts-Sternwarte München, Fakultät für Physik, Ludwig-Maximilians-Universität München, Scheinerstr. 1, 81679 München, Germany",
@@ -24018,13 +25001,13 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：magma ocean、mantle",
+      "reason": "Reading review 2026-10-21: Complete v2 original abstract read: lunar tides and interfacial resonance in a differentiated planetary core/basal magma ocean, with dynamo implications. Revised 2026-10-20, first submitted 2026-06-15; not a one-year fallback.",
       "tags": [
         "环流与波动 · Circulation & waves",
         "岩浆与挥发分 · Magma & volatiles",
         "流体与不稳定性 · Fluid dynamics"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 31,
       "fit_matches": [],
       "author_affiliation_status": "verified",
@@ -24633,6 +25616,60 @@
       "version_date": "2026-10-08T09:23:13+00:00"
     },
     {
+      "id": "2604.27827",
+      "version_id": "2604.27827v2",
+      "title": "Mixing and spreading of gravity currents in heterogeneous porous media",
+      "abstract": "We analyze the mixing, migration and spreading of a gravity current in a heterogeneous porous medium using high-fidelity numerical simulations. Heterogeneity is represented by log-normal permeability fields of varying correlation lengths and variance. Stable and unstable density stratification scenarios are considered through linear and non-monotonic density laws, respectively. Heterogeneity reduces dissolution and increases the speed of the gravity current proportionally to the Rayleigh number. In the unstable case, heterogeneity accelerates the onset of convection. Convection-driven dissolution slows down the gravity current and counteracts the dispersive effect of heterogeneity resulting in a narrower interface and higher dissolution than in the stable case. Permeability anisotropy reduces dissolution because of the barrier effect of low permeability regions, except when blobs of buoyant fluid are trapped in low permeability structures and rapidly dissolve. The variance of the log-permeability field enhances dissolution. However, the homogeneous case outperforms heterogeneous cases except when Rayleigh number is small. This suggest an interaction between the size of the instabilities, the correlation length of the permeability field and the dispersive and barrier effects of the permeability field that controls dissolution efficiency.",
+      "published": "2026-04-30T13:11:54Z",
+      "updated": "2026-10-21T10:43:52Z",
+      "authors": [
+        "Albert Jiménez-Ramos",
+        "Juan J. Hidalgo"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2604.27827",
+      "pdf": "https://arxiv.org/pdf/2604.27827v2",
+      "source": "arXiv",
+      "first_seen": "2026-10-22T01:42:08.302587+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "流体与不稳定性 · Fluid dynamics",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [
+        {
+          "name": "Albert Jiménez-Ramos",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Juan J. Hidalgo",
+          "institutions": [],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2604.27827v2",
+      "intro_en": "We analyze the mixing, migration and spreading of a gravity current in a heterogeneous porous medium using high-fidelity numerical simulations. Heterogeneity is represented by log-normal permeability fields of varying correlation lengths and variance.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-04-30",
+      "publication_date_source": "https://arxiv.org/abs/2604.27827v2",
+      "version_date": "2026-10-21T10:43:52+00:00"
+    },
+    {
       "id": "2604.22926",
       "version_id": "2604.22926v2",
       "title": "The material life cycle of Koobor: separating coherent organization from potential-vorticity evolution in a wildfire-generated stratospheric vortex",
@@ -25047,6 +26084,175 @@
       "publication_date_source": "https://arxiv.org/abs/2603.23211v5",
       "doi": "",
       "version_date": "2026-10-01T06:18:23+00:00"
+    },
+    {
+      "id": "2603.19095",
+      "version_id": "2603.19095v2",
+      "title": "Analysis of Io's tidal response as a function of the properties of the partially molten layer",
+      "abstract": "Io's internal heat is generated by Jupiter-driven tidal dissipation and Laplace resonance. This energy partially melts the mantle, but the melt fraction, depth, and spatial distribution of dissipation remain poorly constrained. Tidal deformation is linked to the mantle's physical state via a parametric approach accounting for melting onset depth and latent heat of fusion. Io is modeled as a three-layer body comprising a fluid core, a viscoelastic mantle, and an elastic lithosphere. The degree-2 potential Love number k2 is computed by solving spheroidal oscillation equations with an adapted California Planetary Geophysics Code (CPGC). Mantle properties (viscosity, shear modulus, Andrade parameter beta) are iteratively updated based on the local melt fraction, and mantle compressibility is explicitly incorporated. Results show a self-consistent shallow-mantle enhancement of tidal heating. Melt presence decreases effective viscosity and increases anelasticity, amplifying upper-mantle dissipation. Reproducing the observed real part of k2 in 1D models requires melt fractions below the rheologically critical threshold. Compressibility yields higher values for the real part of k2, reinforcing this upper bound. Mass flux analysis confirms melt percolation capacity exceeds thermodynamic production, implying efficient drainage. The reference Andrade parameter beta strongly influences the imaginary Love numbers (k2, h2, l2) and the predicted libration amplitude. These constraints support a heterogeneous mantle characterized by a magmatic sponge structure rather than a global magma ocean, establishing a quantitative framework linking Io's interior, partial melting, and tidal dissipation to Juno observations.",
+      "published": "2026-03-19T16:20:31Z",
+      "updated": "2026-10-21T08:27:59Z",
+      "authors": [
+        "M. Paris",
+        "A. Mura",
+        "F. Zambon",
+        "A. Genova",
+        "F. Tosi",
+        "A. Consorzi",
+        "G. Mitri",
+        "A. Cicchetti",
+        "S. Bolton",
+        "R. Noschese",
+        "G. Piccioni",
+        "C. Plainaki",
+        "G. Sindoni",
+        "R. Sordini"
+      ],
+      "doi": "10.1051/0004-6361/202660038",
+      "categories": [
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2603.19095",
+      "pdf": "https://arxiv.org/pdf/2603.19095v2",
+      "source": "arXiv",
+      "first_seen": "2026-10-22T01:42:08.302587+00:00",
+      "version_changed": false,
+      "topics": [
+        "evolution"
+      ],
+      "matches": {
+        "evolution": [
+          "magma ocean",
+          "tidal heating",
+          "mantle"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：magma ocean、tidal heating、mantle",
+      "tags": [
+        "岩浆与挥发分 · Magma & volatiles"
+      ],
+      "method": "keyword",
+      "fit_score": 31,
+      "fit_matches": [],
+      "institutions": [
+        "Istituto Nazionale di Astrofisica – Istituto di Astrofisica e Planetologia Spaziali (INAF-IAPS), Rome, Italy",
+        "Dipartimento di Fisica, Sapienza Università di Roma, Roma, Italy",
+        "Dipartimento di Meccanica e Ingegneria Aerospaziale, Sapienza Università di Roma, Roma, Italy",
+        "Dipartimento di Ingegneria e Geologia, Università d’Annunzio, Pescara, Italy",
+        "Southwest Research Institute, San Antonio, TX, USA",
+        "Agenzia Spaziale Italiana, Roma, Italy"
+      ],
+      "author_affiliations": [
+        {
+          "name": "M. Paris,,",
+          "institutions": [
+            "Istituto Nazionale di Astrofisica – Istituto di Astrofisica e Planetologia Spaziali (INAF-IAPS), Rome, Italy",
+            "Dipartimento di Fisica, Sapienza Università di Roma, Roma, Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "A. Mura",
+          "institutions": [
+            "Istituto Nazionale di Astrofisica – Istituto di Astrofisica e Planetologia Spaziali (INAF-IAPS), Rome, Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "F. Zambon",
+          "institutions": [
+            "Istituto Nazionale di Astrofisica – Istituto di Astrofisica e Planetologia Spaziali (INAF-IAPS), Rome, Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "A. Genova",
+          "institutions": [
+            "Dipartimento di Meccanica e Ingegneria Aerospaziale, Sapienza Università di Roma, Roma, Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "F. Tosi",
+          "institutions": [
+            "Istituto Nazionale di Astrofisica – Istituto di Astrofisica e Planetologia Spaziali (INAF-IAPS), Rome, Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "A. Consorzi",
+          "institutions": [
+            "Dipartimento di Ingegneria e Geologia, Università d’Annunzio, Pescara, Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "G. Mitri",
+          "institutions": [
+            "Dipartimento di Ingegneria e Geologia, Università d’Annunzio, Pescara, Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "A. Cicchetti",
+          "institutions": [
+            "Istituto Nazionale di Astrofisica – Istituto di Astrofisica e Planetologia Spaziali (INAF-IAPS), Rome, Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "S. Bolton",
+          "institutions": [
+            "Southwest Research Institute, San Antonio, TX, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "R. Noschese",
+          "institutions": [
+            "Istituto Nazionale di Astrofisica – Istituto di Astrofisica e Planetologia Spaziali (INAF-IAPS), Rome, Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "G. Piccioni",
+          "institutions": [
+            "Istituto Nazionale di Astrofisica – Istituto di Astrofisica e Planetologia Spaziali (INAF-IAPS), Rome, Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "C. Plainaki",
+          "institutions": [
+            "Istituto Nazionale di Astrofisica – Istituto di Astrofisica e Planetologia Spaziali (INAF-IAPS), Rome, Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "G. Sindoni",
+          "institutions": [
+            "Agenzia Spaziale Italiana, Roma, Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "R. Sordini",
+          "institutions": [
+            "Istituto Nazionale di Astrofisica – Istituto di Astrofisica e Planetologia Spaziali (INAF-IAPS), Rome, Italy"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2603.19095v2",
+      "intro_en": "Io's internal heat is generated by Jupiter-driven tidal dissipation and Laplace resonance. This energy partially melts the mantle, but the melt fraction, depth, and spatial distribution of dissipation remain poorly constrained.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-03-20",
+      "publication_date_source": "https://arxiv.org/abs/2603.19095v2",
+      "version_date": "2026-10-21T08:27:59+00:00"
     },
     {
       "id": "2602.15472",
