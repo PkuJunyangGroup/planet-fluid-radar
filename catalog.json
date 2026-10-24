@@ -1,86 +1,77 @@
 {
-  "generated_at": "2026-10-23T02:01:46.523293+00:00",
+  "generated_at": "2026-10-24T01:56:14.523637+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
-      "last_attempt": "2026-10-23T01:44:55.437140+00:00",
-      "last_success": "2026-10-22T01:42:08.302587+00:00",
-      "status": "partial",
-      "fetched": 5,
-      "error": "HTTP 429",
-      "last_rss_success": "2026-10-23T01:44:55.437140+00:00",
-      "last_rss_fetched": 19
+      "last_attempt": "2026-10-24T01:46:28.639634+00:00",
+      "last_success": "2026-10-24T01:46:28.639634+00:00",
+      "status": "ok",
+      "fetched": 9
     },
     "physics.ao-ph": {
-      "last_attempt": "2026-10-23T01:44:55.437140+00:00",
-      "last_success": "2026-10-23T01:44:55.437140+00:00",
+      "last_attempt": "2026-10-24T01:46:28.639634+00:00",
+      "last_success": "2026-10-24T01:46:28.639634+00:00",
       "status": "ok",
-      "fetched": 2
+      "fetched": 0
     },
     "physics.geo-ph": {
-      "last_attempt": "2026-10-23T01:44:55.437140+00:00",
-      "last_success": "2026-10-22T01:42:08.302587+00:00",
-      "status": "partial",
-      "fetched": 1,
-      "error": "TimeoutError",
-      "last_rss_success": "2026-10-23T01:44:55.437140+00:00",
-      "last_rss_fetched": 2
+      "last_attempt": "2026-10-24T01:46:28.639634+00:00",
+      "last_success": "2026-10-24T01:46:28.639634+00:00",
+      "status": "ok",
+      "fetched": 5
     },
     "physics.flu-dyn": {
-      "last_attempt": "2026-10-23T01:44:55.437140+00:00",
-      "last_success": "2026-10-22T01:42:08.302587+00:00",
-      "status": "partial",
-      "fetched": 3,
-      "error": "HTTP 429",
-      "last_rss_success": "2026-10-23T01:44:55.437140+00:00",
-      "last_rss_fetched": 15
+      "last_attempt": "2026-10-24T01:46:28.639634+00:00",
+      "last_success": "2026-10-24T01:46:28.639634+00:00",
+      "status": "ok",
+      "fetched": 17
     },
     "journal:1476-4687": {
       "name": "Nature",
       "status": "ok",
-      "last_attempt": "2026-10-23T01:52:04.361781+00:00",
-      "last_success": "2026-10-23T01:52:04.361781+00:00",
-      "fetched": 117,
-      "retained": 2,
+      "last_attempt": "2026-10-24T01:47:22.459781+00:00",
+      "last_success": "2026-10-24T01:47:22.459781+00:00",
+      "fetched": 26,
+      "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1095-9203": {
       "name": "Science",
       "status": "ok",
-      "last_attempt": "2026-10-23T01:52:04.361781+00:00",
-      "last_success": "2026-10-23T01:52:04.361781+00:00",
-      "fetched": 47,
-      "retained": 2,
+      "last_attempt": "2026-10-24T01:47:22.459781+00:00",
+      "last_success": "2026-10-24T01:47:22.459781+00:00",
+      "fetched": 0,
+      "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-07-26"
     },
     "journal:1091-6490": {
       "name": "PNAS",
       "status": "ok",
-      "last_attempt": "2026-10-23T01:52:04.361781+00:00",
-      "last_success": "2026-10-23T01:52:04.361781+00:00",
-      "fetched": 15,
-      "retained": 1,
+      "last_attempt": "2026-10-24T01:47:22.459781+00:00",
+      "last_success": "2026-10-24T01:47:22.459781+00:00",
+      "fetched": 19,
+      "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1752-0908": {
       "name": "Nature Geoscience",
       "status": "ok",
-      "last_attempt": "2026-10-23T01:52:04.361781+00:00",
-      "last_success": "2026-10-23T01:52:04.361781+00:00",
-      "fetched": 0,
-      "retained": 0,
+      "last_attempt": "2026-10-24T01:47:22.459781+00:00",
+      "last_success": "2026-10-24T01:47:22.459781+00:00",
+      "fetched": 1,
+      "retained": 1,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-07-26"
     },
     "journal:2397-3366": {
       "name": "Nature Astronomy",
       "status": "ok",
-      "last_attempt": "2026-10-23T01:52:04.361781+00:00",
-      "last_success": "2026-10-23T01:52:04.361781+00:00",
-      "fetched": 1,
+      "last_attempt": "2026-10-24T01:47:22.459781+00:00",
+      "last_success": "2026-10-24T01:47:22.459781+00:00",
+      "fetched": 3,
       "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-07-26"
@@ -88,8 +79,8 @@
     "journal:1758-6798": {
       "name": "Nature Climate Change",
       "status": "ok",
-      "last_attempt": "2026-10-23T01:52:04.361781+00:00",
-      "last_success": "2026-10-23T01:52:04.361781+00:00",
+      "last_attempt": "2026-10-24T01:47:22.459781+00:00",
+      "last_success": "2026-10-24T01:47:22.459781+00:00",
       "fetched": 1,
       "retained": 0,
       "method": "Crossref publisher metadata",
@@ -98,30 +89,30 @@
     "journal:1520-0469": {
       "name": "Journal of the Atmospheric Sciences",
       "status": "ok",
-      "last_attempt": "2026-10-23T01:52:04.361781+00:00",
-      "last_success": "2026-10-23T01:52:04.361781+00:00",
-      "fetched": 0,
-      "retained": 0,
+      "last_attempt": "2026-10-24T01:47:22.459781+00:00",
+      "last_success": "2026-10-24T01:47:22.459781+00:00",
+      "fetched": 6,
+      "retained": 5,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1680-7324": {
       "name": "Atmospheric Chemistry and Physics",
       "status": "ok",
-      "last_attempt": "2026-10-23T01:52:04.361781+00:00",
-      "last_success": "2026-10-23T01:52:04.361781+00:00",
-      "fetched": 7,
-      "retained": 5,
+      "last_attempt": "2026-10-24T01:47:22.459781+00:00",
+      "last_success": "2026-10-24T01:47:22.459781+00:00",
+      "fetched": 14,
+      "retained": 10,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:2169-8996": {
       "name": "Journal of Geophysical Research: Atmospheres",
       "status": "ok",
-      "last_attempt": "2026-10-23T01:52:04.361781+00:00",
-      "last_success": "2026-10-23T01:52:04.361781+00:00",
-      "fetched": 6,
-      "retained": 3,
+      "last_attempt": "2026-10-24T01:47:22.459781+00:00",
+      "last_success": "2026-10-24T01:47:22.459781+00:00",
+      "fetched": 66,
+      "retained": 31,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
@@ -168,28 +159,28 @@
     "journal:1520-0442": {
       "name": "Journal of Climate",
       "status": "ok",
-      "last_attempt": "2026-10-23T01:52:04.361781+00:00",
-      "last_success": "2026-10-23T01:52:04.361781+00:00",
-      "fetched": 6,
-      "retained": 5,
+      "last_attempt": "2026-10-24T01:47:22.459781+00:00",
+      "last_success": "2026-10-24T01:47:22.459781+00:00",
+      "fetched": 0,
+      "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1432-0894": {
       "name": "Climate Dynamics",
       "status": "ok",
-      "last_attempt": "2026-10-23T01:52:04.361781+00:00",
-      "last_success": "2026-10-23T01:52:04.361781+00:00",
-      "fetched": 0,
-      "retained": 0,
+      "last_attempt": "2026-10-24T01:47:22.459781+00:00",
+      "last_success": "2026-10-24T01:47:22.459781+00:00",
+      "fetched": 11,
+      "retained": 2,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1814-9332": {
       "name": "Climate of the Past",
       "status": "ok",
-      "last_attempt": "2026-10-23T01:52:04.361781+00:00",
-      "last_success": "2026-10-23T01:52:04.361781+00:00",
+      "last_attempt": "2026-10-24T01:47:22.459781+00:00",
+      "last_success": "2026-10-24T01:47:22.459781+00:00",
       "fetched": 0,
       "retained": 0,
       "method": "Crossref publisher metadata",
@@ -198,18 +189,18 @@
     "journal:1477-870X": {
       "name": "Quarterly Journal of the Royal Meteorological Society",
       "status": "ok",
-      "last_attempt": "2026-10-23T01:52:04.361781+00:00",
-      "last_success": "2026-10-23T01:52:04.361781+00:00",
-      "fetched": 2,
-      "retained": 2,
+      "last_attempt": "2026-10-24T01:47:22.459781+00:00",
+      "last_success": "2026-10-24T01:47:22.459781+00:00",
+      "fetched": 0,
+      "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1557-8070": {
       "name": "Astrobiology",
       "status": "ok",
-      "last_attempt": "2026-10-23T01:52:04.361781+00:00",
-      "last_success": "2026-10-23T01:52:04.361781+00:00",
+      "last_attempt": "2026-10-24T01:47:22.459781+00:00",
+      "last_success": "2026-10-24T01:47:22.459781+00:00",
       "fetched": 0,
       "retained": 0,
       "method": "Crossref publisher metadata",
@@ -218,29 +209,29 @@
     "journal:1944-8007": {
       "name": "Geophysical Research Letters",
       "status": "ok",
-      "last_attempt": "2026-10-23T01:52:04.361781+00:00",
-      "last_success": "2026-10-23T01:52:04.361781+00:00",
-      "fetched": 73,
-      "retained": 28,
+      "last_attempt": "2026-10-24T01:47:22.459781+00:00",
+      "last_success": "2026-10-24T01:47:22.459781+00:00",
+      "fetched": 5,
+      "retained": 2,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:2169-9100": {
       "name": "Journal of Geophysical Research: Planets",
       "status": "ok",
-      "last_attempt": "2026-10-23T01:52:04.361781+00:00",
-      "last_success": "2026-10-23T01:52:04.361781+00:00",
-      "fetched": 2,
-      "retained": 1,
+      "last_attempt": "2026-10-24T01:47:22.459781+00:00",
+      "last_success": "2026-10-24T01:47:22.459781+00:00",
+      "fetched": 0,
+      "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1538-4357": {
       "name": "The Astrophysical Journal",
       "status": "ok",
-      "last_attempt": "2026-10-23T01:52:04.361781+00:00",
-      "last_success": "2026-10-23T01:52:04.361781+00:00",
-      "fetched": 4,
+      "last_attempt": "2026-10-24T01:47:22.459781+00:00",
+      "last_success": "2026-10-24T01:47:22.459781+00:00",
+      "fetched": 1,
       "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
@@ -248,19 +239,19 @@
     "journal:2041-8213": {
       "name": "The Astrophysical Journal Letters",
       "status": "ok",
-      "last_attempt": "2026-10-23T01:52:04.361781+00:00",
-      "last_success": "2026-10-23T01:52:04.361781+00:00",
-      "fetched": 7,
-      "retained": 0,
+      "last_attempt": "2026-10-24T01:47:22.459781+00:00",
+      "last_success": "2026-10-24T01:47:22.459781+00:00",
+      "fetched": 8,
+      "retained": 2,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:0012-821X": {
       "name": "Earth and Planetary Science Letters",
       "status": "ok",
-      "last_attempt": "2026-10-23T01:52:04.361781+00:00",
-      "last_success": "2026-10-23T01:52:04.361781+00:00",
-      "fetched": 2,
+      "last_attempt": "2026-10-24T01:47:22.459781+00:00",
+      "last_success": "2026-10-24T01:47:22.459781+00:00",
+      "fetched": 5,
       "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
@@ -269,7 +260,7 @@
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "error",
-      "last_attempt": "2026-10-23T09:51:33.881901+08:00",
+      "last_attempt": "2026-10-24T09:46:51.845986+08:00",
       "last_success": "2026-10-21T10:14:01.158931+08:00",
       "coverage_since": "2026-09-25",
       "pages_checked": 1,
@@ -1065,6 +1056,284 @@
   "repository": "https://github.com/PkuJunyangGroup/planet-fluid-radar",
   "papers": [
     {
+      "id": "2610.31492",
+      "version_id": "2610.31492v1",
+      "title": "A Headwind-like Helium Outflow from TOI-3884b",
+      "abstract": "Constraining atmospheric loss is crucial for understanding the evolution of planetary atmospheres. We report the detection of an evaporating exosphere from TOI-3884b, a super-Neptune in a polar orbit around an M4 dwarf star. We infer this evaporation from a 6.8$\\pm$0.27\\% excess transit depth in the He I 10830 Å\\, line, observed during five transits of TOI-3884b with the Habitable Zone Planet Finder spectrometer. While we observe outflow signatures starting as early as 5 hours before the onset of the planet's optical transit, no significant post-transit tail is detected. Hitherto, such a pre-transit headwind without a significant post-transit tail has only been detected from HAT-P-67b, a hot Saturn orbiting an F-type star. This asymmetric outflow morphology supports irradiation-driven mass loss over core-heated mass loss, and we explore whether this could be caused by sub-Alfvén star-planet interaction. The detection of such complex outflow morphologies is now opening a new window, enabling us to test theories of star-planet interactions and planetary magnetic fields with observations.",
+      "published": "2026-10-22T16:12:31Z",
+      "updated": "2026-10-22T16:12:31Z",
+      "authors": [
+        "Joe P. Ninan",
+        "Jessica Libby-Roberts",
+        "Suvrath Mahadevan",
+        "Oleg Kochukhov",
+        "Daniel M. Krolikowski",
+        "Gudmundur Stefansson",
+        "Shubham Kanodia",
+        "Jaume Orell-Miquel",
+        "Caroline V. Morley",
+        "Kevin France",
+        "Girish Duvvuri",
+        "Chad F. Bender",
+        "William D. Cochran",
+        "Megan Delamer",
+        "Scott A. Diddams",
+        "Samuel Halverson",
+        "Fred Hearty",
+        "Leslie Hebb",
+        "Andrew Monson",
+        "Paul Robertson",
+        "Arpita Roy",
+        "Christian Schwab"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2610.31492",
+      "pdf": "https://arxiv.org/pdf/2610.31492v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-24T01:46:28.639634+00:00",
+      "version_changed": false,
+      "topics": [
+        "planetary"
+      ],
+      "matches": {
+        "planetary": [
+          "planetary atmosphere",
+          "habitable zone"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：planetary atmosphere、habitable zone",
+      "tags": [
+        "宜居性 · Habitability"
+      ],
+      "method": "keyword",
+      "fit_score": 58,
+      "fit_matches": [
+        "行星大气与辐射",
+        "行星气候与模式"
+      ],
+      "institutions": [
+        "Department of Astronomy and Astrophysics, Tata Institute of Fundamental Research, Homi Bhabha Road, Colaba, Mumbai 400005, India",
+        "Department of Astronomy and Astrophysics, 525 Davey Laboratory, 251 Pollock Road, Penn State, University Park, PA, 16802, USA",
+        "Center for Exoplanets and Habitable Worlds, 525 Davey Laboratory, 251 Pollock Road, Penn State, University Park, PA, 16802, USA",
+        "Department of Physics and Astronomy, University of Tampa, Tampa, FL 33606",
+        "Department of Physics and AstronomyUppsala University, Box 516, Uppsala, 751 20, Sweden",
+        "Steward Observatory, University of Arizona, 933 N. Cherry Ave, Tucson, AZ 85721, USA",
+        "Astrophysics & Space Center, Schmidt Sciences, New York, NY 10011, USA",
+        "Anton Pannekoek Institute for Astronomy, University of Amsterdam, Amsterdam, 1098 XH, The Netherlands",
+        "Earth and Planets Laboratory, Carnegie Science, 5241 Broad Branch Road, NW, Washington, DC 20015, USA",
+        "Department of Astronomy, University of Texas at Austin, 2515 Speedway, Austin, TX 78712, USA",
+        "Laboratory for Atmospheric and Space Physics, University of Colorado, 600 UCB, Boulder, CO 80309, USA",
+        "Department of Astrophysical and Planetary Science, University of Colorado, 389 UCB, Boulder, CO 80309, USA",
+        "McDonald Observatory and Department of Astronomy, The University of Texas at Austin, USA",
+        "Center for Planetary Systems Habitability, The University of Texas at Austin, USA",
+        "Electrical, Computer & Energy Engineering, 440 UCB, University of Colorado, Boulder, CO 80309, USA",
+        "Department of Physics, 390 UCB, University of Colorado, Boulder, CO 80309, USA",
+        "Jet Propulsion Laboratory, California Institute of Technology, 4800 Oak Grove Drive, Pasadena, California 91109",
+        "Physics Department, Hobart and William Smith Colleges, 300 Pulteney Street, Geneva, NY 14456, USA",
+        "Department of Astronomy, Cornell University, 245 East Ave, Ithaca, NY 14850, USA",
+        "Department of Physics & Astronomy, The University of California, Irvine, Irvine, CA 92697, USA",
+        "School of Mathematical and Physical Sciences, Macquarie University, Balaclava Road, North Ryde, NSW 2109, Australia"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Joe P. Ninan",
+          "institutions": [
+            "Department of Astronomy and Astrophysics, Tata Institute of Fundamental Research, Homi Bhabha Road, Colaba, Mumbai 400005, India"
+          ],
+          "orcid": "https://orcid.org/0000-0001-8720-5612"
+        },
+        {
+          "name": "Jessica Libby-Roberts",
+          "institutions": [
+            "Department of Astronomy and Astrophysics, 525 Davey Laboratory, 251 Pollock Road, Penn State, University Park, PA, 16802, USA",
+            "Center for Exoplanets and Habitable Worlds, 525 Davey Laboratory, 251 Pollock Road, Penn State, University Park, PA, 16802, USA",
+            "Department of Physics and Astronomy, University of Tampa, Tampa, FL 33606"
+          ],
+          "orcid": "https://orcid.org/0000-0002-2990-7613"
+        },
+        {
+          "name": "Suvrath Mahadevan",
+          "institutions": [
+            "Department of Astronomy and Astrophysics, 525 Davey Laboratory, 251 Pollock Road, Penn State, University Park, PA, 16802, USA",
+            "Center for Exoplanets and Habitable Worlds, 525 Davey Laboratory, 251 Pollock Road, Penn State, University Park, PA, 16802, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0001-9596-7983"
+        },
+        {
+          "name": "Oleg Kochukhov",
+          "institutions": [
+            "Department of Physics and AstronomyUppsala University, Box 516, Uppsala, 751 20, Sweden"
+          ],
+          "orcid": "https://orcid.org/0000-0003-3061-4591"
+        },
+        {
+          "name": "Daniel M. Krolikowski",
+          "institutions": [
+            "Steward Observatory, University of Arizona, 933 N. Cherry Ave, Tucson, AZ 85721, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0001-9626-0613"
+        },
+        {
+          "name": "Gudmundur Stefansson",
+          "institutions": [
+            "Astrophysics & Space Center, Schmidt Sciences, New York, NY 10011, USA",
+            "Anton Pannekoek Institute for Astronomy, University of Amsterdam, Amsterdam, 1098 XH, The Netherlands"
+          ],
+          "orcid": "https://orcid.org/0000-0001-7409-5688"
+        },
+        {
+          "name": "Shubham Kanodia",
+          "institutions": [
+            "Earth and Planets Laboratory, Carnegie Science, 5241 Broad Branch Road, NW, Washington, DC 20015, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0001-8401-4300"
+        },
+        {
+          "name": "Jaume Orell-Miquel",
+          "institutions": [
+            "Department of Astronomy, University of Texas at Austin, 2515 Speedway, Austin, TX 78712, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0003-2066-8959"
+        },
+        {
+          "name": "Caroline V. Morley",
+          "institutions": [
+            "Department of Astronomy, University of Texas at Austin, 2515 Speedway, Austin, TX 78712, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-4404-0456"
+        },
+        {
+          "name": "Kevin France",
+          "institutions": [
+            "Laboratory for Atmospheric and Space Physics, University of Colorado, 600 UCB, Boulder, CO 80309, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-1002-3674"
+        },
+        {
+          "name": "Girish Duvvuri",
+          "institutions": [
+            "Department of Astrophysical and Planetary Science, University of Colorado, 389 UCB, Boulder, CO 80309, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-7119-2543"
+        },
+        {
+          "name": "Chad F. Bender",
+          "institutions": [
+            "Steward Observatory, University of Arizona, 933 N. Cherry Ave, Tucson, AZ 85721, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0003-4384-7220"
+        },
+        {
+          "name": "William D. Cochran",
+          "institutions": [
+            "McDonald Observatory and Department of Astronomy, The University of Texas at Austin, USA",
+            "Center for Planetary Systems Habitability, The University of Texas at Austin, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0001-9662-3496"
+        },
+        {
+          "name": "Megan Delamer",
+          "institutions": [
+            "Department of Astronomy and Astrophysics, 525 Davey Laboratory, 251 Pollock Road, Penn State, University Park, PA, 16802, USA",
+            "Center for Exoplanets and Habitable Worlds, 525 Davey Laboratory, 251 Pollock Road, Penn State, University Park, PA, 16802, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0003-1439-2781"
+        },
+        {
+          "name": "Scott A. Diddams",
+          "institutions": [
+            "Electrical, Computer & Energy Engineering, 440 UCB, University of Colorado, Boulder, CO 80309, USA",
+            "Department of Physics, 390 UCB, University of Colorado, Boulder, CO 80309, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-2144-0764"
+        },
+        {
+          "name": "Samuel Halverson",
+          "institutions": [
+            "Jet Propulsion Laboratory, California Institute of Technology, 4800 Oak Grove Drive, Pasadena, California 91109"
+          ],
+          "orcid": "https://orcid.org/0000-0003-1312-9391"
+        },
+        {
+          "name": "Fred Hearty",
+          "institutions": [
+            "Department of Astronomy and Astrophysics, 525 Davey Laboratory, 251 Pollock Road, Penn State, University Park, PA, 16802, USA",
+            "Center for Exoplanets and Habitable Worlds, 525 Davey Laboratory, 251 Pollock Road, Penn State, University Park, PA, 16802, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-1664-3102"
+        },
+        {
+          "name": "Leslie Hebb",
+          "institutions": [
+            "Physics Department, Hobart and William Smith Colleges, 300 Pulteney Street, Geneva, NY 14456, USA",
+            "Department of Astronomy, Cornell University, 245 East Ave, Ithaca, NY 14850, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0003-1263-8637"
+        },
+        {
+          "name": "Andrew Monson",
+          "institutions": [
+            "Steward Observatory, University of Arizona, 933 N. Cherry Ave, Tucson, AZ 85721, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-0048-2586"
+        },
+        {
+          "name": "Paul Robertson",
+          "institutions": [
+            "Department of Physics & Astronomy, The University of California, Irvine, Irvine, CA 92697, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0003-0149-9678"
+        },
+        {
+          "name": "Arpita Roy",
+          "institutions": [
+            "Astrophysics & Space Center, Schmidt Sciences, New York, NY 10011, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0001-8127-5775"
+        },
+        {
+          "name": "Christian Schwab",
+          "institutions": [
+            "School of Mathematical and Physical Sciences, Macquarie University, Balaclava Road, North Ryde, NSW 2109, Australia"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.31492v1",
+      "publication_date": "2026-10-23",
+      "publication_date_source": "https://arxiv.org/abs/2610.31492v1",
+      "version_date": "2026-10-22T16:12:31+00:00",
+      "variants": [
+        {
+          "id": "2610.31492",
+          "source": "arXiv",
+          "journal": null,
+          "journal_id": null,
+          "title": "A Headwind-like Helium Outflow from TOI-3884b",
+          "url": "https://arxiv.org/abs/2610.31492",
+          "doi": "",
+          "version_id": "2610.31492v1",
+          "first_seen": "2026-10-24T01:46:28.639634+00:00",
+          "publication_date": "2026-10-23",
+          "version_date": "2026-10-22T16:12:31+00:00",
+          "metadata_source": null,
+          "affiliation_source": "https://arxiv.org/html/2610.31492v1"
+        }
+      ],
+      "match_basis": [],
+      "source_types": [
+        "arXiv"
+      ],
+      "journals": [],
+      "source_groups": [],
+      "intake_kind": "recent"
+    },
+    {
       "id": "2610.29930",
       "version_id": "2610.29930v1",
       "title": "Topographically Forced Stationary Waves Can Explain the Near-Surface Zonal Winds Observed by Huygens on Titan",
@@ -1506,8 +1775,8 @@
       "affiliation_source": "https://arxiv.org/html/2610.30028v1",
       "publication_date": "2026-10-21",
       "publication_date_source": "https://arxiv.org/abs/2610.30028v1",
-      "version_date": "2026-10-21T16:52:20+00:00",
       "doi": "10.1117/12.3104260",
+      "version_date": "2026-10-21T16:52:20+00:00",
       "variants": [
         {
           "id": "2610.30028",
@@ -26421,6 +26690,167 @@
       "intake_kind": "recent"
     },
     {
+      "id": "doi:10.3847/2041-8213/aeb00b",
+      "doi": "10.3847/2041-8213/aeb00b",
+      "version_id": "doi:10.3847/2041-8213/aeb00b",
+      "title": "Improved Constraints on the Surface of LHS 3844 b from Its Mid-infrared Spectrum",
+      "abstract": "Abstract The thermal emission spectra of terrestrial exoplanets provide a window into their surface compositions and corresponding geological processes. Close-in rocky planets orbiting M dwarfs are ideal targets for these studies, as observations have shown that most have little to no atmosphere. LHS 3844 b is an ultrashort-period super-Earth orbiting a nearby M dwarf, and is the most favorable target that does not have a dayside magma ocean. We present an updated JWST/MIRI Low Resolution Spectroscopy emission spectrum (5–12 μ m) of this planet, derived from eight new and three archival eclipse observations. We combine these visits to obtain the highest signal-to-noise ratio (SNR) emission spectrum for any rocky exoplanet thus far, with a median SNR of 29 across 12 wavelength bins. Our data are sensitive to the predicted Si–O stretching feature (the strongest mid-infrared silicate feature) for a wide range of common materials, and the transparency feature, which is relatively insensitive to composition and constrains the grain size and porosity of surface materials. We find that LHS 3844 b’s emission spectrum resembles a blackbody shortward of 10 μ m, disfavoring the presence of a transparency feature, and identify a tentative feature (1.9 σ −3.5 σ ) between 10 and 12 μ m. If this feature is astrophysical and not instrumental in nature, it can be matched by a fayalite (the iron end-member of olivine) surface, but might also be consistent with other candidate planet-forming materials like spinel or silicon carbide. We discuss possible biases introduced by the wavelength-dependent instrumental ramp, and outline several strategies to mitigate this effect in future observations of LHS 3844 b.",
+      "authors": [
+        "Kimberly Paragas",
+        "Heather A. Knutson",
+        "Renyu Hu",
+        "Bethany L. Ehlmann",
+        "Aishwarya R. Iyer",
+        "Sebastian Zieba",
+        "Laura Kreidberg"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Kimberly Paragas",
+          "institutions": [
+            "California Institute of Technology"
+          ],
+          "orcid": "https://orcid.org/0000-0003-0062-1168"
+        },
+        {
+          "name": "Heather A. Knutson",
+          "institutions": [
+            "California Institute of Technology"
+          ],
+          "orcid": "https://orcid.org/0000-0002-5375-4725"
+        },
+        {
+          "name": "Renyu Hu",
+          "institutions": [
+            "The State University of New Jersey",
+            "The Pennsylvania State University",
+            "California Institute of Technology"
+          ],
+          "orcid": "https://orcid.org/0000-0003-2215-8485"
+        },
+        {
+          "name": "Bethany L. Ehlmann",
+          "institutions": [
+            "California Institute of Technology",
+            "University of Colorado Boulder"
+          ],
+          "orcid": "https://orcid.org/0000-0002-2745-3240"
+        },
+        {
+          "name": "Aishwarya R. Iyer",
+          "institutions": [
+            "NASA Goddard Space Flight Center"
+          ],
+          "orcid": "https://orcid.org/0000-0003-0971-1709"
+        },
+        {
+          "name": "Sebastian Zieba",
+          "institutions": [
+            "Center for Astrophysics"
+          ],
+          "orcid": "https://orcid.org/0000-0003-0562-6750"
+        },
+        {
+          "name": "Laura Kreidberg",
+          "institutions": [
+            "Max-Planck-Institut für Astronomie"
+          ],
+          "orcid": "https://orcid.org/0000-0003-0514-1147"
+        }
+      ],
+      "institutions": [
+        "California Institute of Technology",
+        "The State University of New Jersey",
+        "The Pennsylvania State University",
+        "University of Colorado Boulder",
+        "NASA Goddard Space Flight Center",
+        "Center for Astrophysics",
+        "Max-Planck-Institut für Astronomie"
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://api.crossref.org/works/10.3847%2F2041-8213%2Faeb00b",
+      "source": "journal",
+      "journal": "The Astrophysical Journal Letters",
+      "journal_id": "2041-8213",
+      "source_group": "planet",
+      "categories": [],
+      "url": "https://doi.org/10.3847/2041-8213/aeb00b",
+      "published": "2026-10-23",
+      "publication_date": "2026-10-23",
+      "publication_date_source": "Crossref publisher metadata",
+      "date_kind": "journal",
+      "first_seen": "2026-10-24T01:47:22.459781+00:00",
+      "updated": "2026-10-23T21:15:38Z",
+      "metadata_source": "https://api.crossref.org/works/10.3847%2F2041-8213%2Faeb00b",
+      "relations": {
+        "is-supplemented-by": [
+          {
+            "id-type": "doi",
+            "id": "10.17909/gppv-t130",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.17909/94sq-tr83",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "metadata_limited": false,
+      "publication_dates": {
+        "published-online": "2026-10-23",
+        "published-print": "2026-11-01"
+      },
+      "topics": [
+        "evolution"
+      ],
+      "matches": {
+        "evolution": [
+          "magma ocean"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：magma ocean",
+      "tags": [
+        "光谱与相曲线 · Spectra & phase curves",
+        "岩浆与挥发分 · Magma & volatiles",
+        "海冰与表层 · Ice & surface"
+      ],
+      "method": "keyword",
+      "fit_score": 38,
+      "fit_matches": [
+        "系外行星观测表征"
+      ],
+      "variants": [
+        {
+          "id": "doi:10.3847/2041-8213/aeb00b",
+          "source": "journal",
+          "journal": "The Astrophysical Journal Letters",
+          "journal_id": "2041-8213",
+          "title": "Improved Constraints on the Surface of LHS 3844 b from Its Mid-infrared Spectrum",
+          "url": "https://doi.org/10.3847/2041-8213/aeb00b",
+          "doi": "10.3847/2041-8213/aeb00b",
+          "version_id": "doi:10.3847/2041-8213/aeb00b",
+          "first_seen": "2026-10-24T01:47:22.459781+00:00",
+          "publication_date": "2026-10-23",
+          "version_date": null,
+          "metadata_source": "https://api.crossref.org/works/10.3847%2F2041-8213%2Faeb00b",
+          "affiliation_source": "https://api.crossref.org/works/10.3847%2F2041-8213%2Faeb00b"
+        }
+      ],
+      "match_basis": [],
+      "source_types": [
+        "journal"
+      ],
+      "journals": [
+        "The Astrophysical Journal Letters"
+      ],
+      "source_groups": [
+        "planet"
+      ],
+      "intake_kind": "recent"
+    },
+    {
       "id": "exoplanet-bib:33128",
       "version_id": "exoplanet-bib:33128",
       "exoplanet_id": "33128",
@@ -26545,6 +26975,7 @@
       "2610.29459",
       "2610.29930",
       "2610.30028",
+      "2610.31492",
       "doi:10.1029/2026gl124362",
       "doi:10.1029/2026gl125753",
       "doi:10.1029/2026je009882",
@@ -26571,7 +27002,8 @@
       "doi:10.3847/1538-4357/aea407",
       "doi:10.3847/1538-4357/aea905",
       "doi:10.3847/1538-4357/aeacc1",
-      "doi:10.3847/2041-8213/aea906"
+      "doi:10.3847/2041-8213/aea906",
+      "doi:10.3847/2041-8213/aeb00b"
     ],
     "kinds": {
       "doi:10.3847/1538-4357/ae3d35": "one_year_fallback",
@@ -26631,7 +27063,9 @@
       "2603.19095": "recent",
       "2610.29930": "recent",
       "2610.30028": "recent",
-      "doi:10.1029/2026gl124362": "recent"
+      "doi:10.1029/2026gl124362": "recent",
+      "2610.31492": "recent",
+      "doi:10.3847/2041-8213/aeb00b": "recent"
     },
     "policy": {
       "recent_days": 2,
@@ -26639,12 +27073,11 @@
       "min_fallback_score": 65,
       "max_fallback": 3
     },
-    "last_run": "2026-10-23",
+    "last_run": "2026-10-24",
     "mode": "recent",
     "selected": [
-      "2610.29930",
-      "2610.30028",
-      "doi:10.1029/2026gl124362"
+      "2610.31492",
+      "doi:10.3847/2041-8213/aeb00b"
     ],
     "search_errors": []
   },
@@ -28001,33 +28434,20 @@
       }
     }
   },
-  "record_count": 1954,
+  "record_count": 2026,
   "merged_count": 19,
   "daily_brief": {
-    "date": "2026-10-23",
-    "built_at": "2026-10-23T02:01:46.523410+00:00",
+    "date": "2026-10-24",
+    "built_at": "2026-10-24T01:56:14.523730+00:00",
     "review_basis": "Automated rule screening; reading review is recorded separately.",
-    "new_count": 3,
+    "new_count": 2,
     "recent_ids": [
-      "2610.29930",
-      "2610.30028",
-      "doi:10.1029/2026gl124362"
+      "2610.31492",
+      "doi:10.3847/2041-8213/aeb00b"
     ],
     "older_ids": [],
     "updated_ids": [],
     "source_issues": [
-      {
-        "name": "astro-ph.EP",
-        "status": "partial"
-      },
-      {
-        "name": "physics.geo-ph",
-        "status": "partial"
-      },
-      {
-        "name": "physics.flu-dyn",
-        "status": "partial"
-      },
       {
         "name": "exoplanet.eu",
         "status": "error"

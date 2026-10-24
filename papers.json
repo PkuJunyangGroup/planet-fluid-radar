@@ -1,39 +1,30 @@
 {
-  "generated_at": "2026-10-23T01:44:55.437140+00:00",
+  "generated_at": "2026-10-24T01:46:28.639634+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
-      "last_attempt": "2026-10-23T01:44:55.437140+00:00",
-      "last_success": "2026-10-22T01:42:08.302587+00:00",
-      "status": "partial",
-      "fetched": 5,
-      "error": "HTTP 429",
-      "last_rss_success": "2026-10-23T01:44:55.437140+00:00",
-      "last_rss_fetched": 19
+      "last_attempt": "2026-10-24T01:46:28.639634+00:00",
+      "last_success": "2026-10-24T01:46:28.639634+00:00",
+      "status": "ok",
+      "fetched": 9
     },
     "physics.ao-ph": {
-      "last_attempt": "2026-10-23T01:44:55.437140+00:00",
-      "last_success": "2026-10-23T01:44:55.437140+00:00",
+      "last_attempt": "2026-10-24T01:46:28.639634+00:00",
+      "last_success": "2026-10-24T01:46:28.639634+00:00",
       "status": "ok",
-      "fetched": 2
+      "fetched": 0
     },
     "physics.geo-ph": {
-      "last_attempt": "2026-10-23T01:44:55.437140+00:00",
-      "last_success": "2026-10-22T01:42:08.302587+00:00",
-      "status": "partial",
-      "fetched": 1,
-      "error": "TimeoutError",
-      "last_rss_success": "2026-10-23T01:44:55.437140+00:00",
-      "last_rss_fetched": 2
+      "last_attempt": "2026-10-24T01:46:28.639634+00:00",
+      "last_success": "2026-10-24T01:46:28.639634+00:00",
+      "status": "ok",
+      "fetched": 5
     },
     "physics.flu-dyn": {
-      "last_attempt": "2026-10-23T01:44:55.437140+00:00",
-      "last_success": "2026-10-22T01:42:08.302587+00:00",
-      "status": "partial",
-      "fetched": 3,
-      "error": "HTTP 429",
-      "last_rss_success": "2026-10-23T01:44:55.437140+00:00",
-      "last_rss_fetched": 15
+      "last_attempt": "2026-10-24T01:46:28.639634+00:00",
+      "last_success": "2026-10-24T01:46:28.639634+00:00",
+      "status": "ok",
+      "fetched": 17
     }
   },
   "topics": [
@@ -821,6 +812,1831 @@
   ],
   "repository": "https://github.com/PkuJunyangGroup/planet-fluid-radar",
   "papers": [
+    {
+      "id": "2610.31605",
+      "version_id": "2610.31605v1",
+      "title": "A Priori Estimation of the Non-Linear Compression Potential and Quantification of Autoencoder Non-Linearity in Turbulent Flows",
+      "abstract": "Data-driven reduced-order modelling (ROM) of turbulent flows is based on an efficient and physical low-dimensional representation of the flow process. Such a dimension reduction can be achieved using proper orthogonal decomposition (POD) or non-linear autoencoders. Capturing the inherent non-linearities in turbulent flows offers the potential for improved compression rates. This work proposes the local tangent residual (LTR) as an a priori estimate of the potential benefit of non-linear dimension reduction for a given dataset. The LTR is based on the local geometry of the data points, requiring neither prior model training nor the definition of a threshold parameter. For all datasets investigated in this work, namely, two vortex street cases and the turbulent wake flow of a wind turbine, the dominant trends in autoencoder compression performance are reproduced by the proposed LTR. The results are further contextualised through the decoder linearisation error (DLE). The DLE quantifies the non-linearity of the trained decoder by comparing it to a linearised surrogate model, which enables physical interpretability of the non-linearities. Together, a large non-linear compression potential in the turbulent flow, as quantified by the LTR, is corroborated by a large DLE, i.e., a pronounced non-linearity captured in the trained autoencoder. The LTR thus enables practitioners in turbulent flow modelling to determine a priori whether non-linear compression is worthwhile, avoiding the substantial computational cost of autoencoder architecture search and hyperparameter tuning in cases where POD already suffices.",
+      "published": "2026-10-22T17:36:11Z",
+      "updated": "2026-10-22T17:36:11Z",
+      "authors": [
+        "Niklas Alexander Pissarski",
+        "Juan Pablo Murcia Leon",
+        "Søren Juhl Andersen"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2610.31605",
+      "pdf": "https://arxiv.org/pdf/2610.31605v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-24T01:46:28.639634+00:00",
+      "version_changed": false,
+      "topics": [
+        "methods"
+      ],
+      "matches": {
+        "methods": [
+          "reduced order"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "环流与波动 · Circulation & waves"
+      ],
+      "method": "keyword",
+      "fit_score": 20,
+      "fit_matches": [],
+      "institutions": [
+        "Department of Wind and Energy Systems, Technical University of Denmark, 2800, Kgs. Lyngby, Denmark",
+        "Department of Wind and Energy Systems, Technical University of Denmark, 4000, Roskilde, Denmark"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Niklas Alexander Pissarski",
+          "institutions": [
+            "Department of Wind and Energy Systems, Technical University of Denmark, 2800, Kgs. Lyngby, Denmark"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Juan Pablo Murcia Leon",
+          "institutions": [
+            "Department of Wind and Energy Systems, Technical University of Denmark, 4000, Roskilde, Denmark"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Søren Juhl Andersen",
+          "institutions": [
+            "Department of Wind and Energy Systems, Technical University of Denmark, 2800, Kgs. Lyngby, Denmark"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.31605v1",
+      "intro_en": "Data-driven reduced-order modelling (ROM) of turbulent flows is based on an efficient and physical low-dimensional representation of the flow process. Such a dimension reduction can be achieved using proper orthogonal decomposition (POD) or non-linear autoencoders.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-23",
+      "publication_date_source": "https://arxiv.org/abs/2610.31605v1",
+      "version_date": "2026-10-22T17:36:11+00:00"
+    },
+    {
+      "id": "2610.31547",
+      "version_id": "2610.31547v1",
+      "title": "A novel machine learning framework based on proper orthogonal decomposition for turbine wake flow predictions in natural waterways",
+      "abstract": "We developed a machine learning (ML) surrogate trained on instantaneous large eddy simulation (LES) data filtered using proper orthogonal decomposition (POD) to predict mean flow fields in natural rivers with complex geometries. The surrogate enables efficient prediction of mean flow fields downstream of marine hydrokinetic (MHK) turbine arrays at a fraction of the computational cost of high fidelity simulations, facilitating turbine layout optimization in natural waterways where bathymetry, turbulence, and turbine interactions influence the available energy resource. We demonstrate the capabilities of the model at a real world tidal river site under ebb tide conditions. Complex bed bathymetry and planform geometry generate substantial background turbulence that can obscure turbine wake signatures. POD is employed to extract relevant flow structures, improving the ability of the ML model to learn wake dynamics. First, LES is performed at the tidal site to generate training data. POD is then applied to decompose the instantaneous LES fields into spatial modes. Selected modes are used to train a three dimensional convolutional encoder decoder network to predict time averaged velocity fields. This selective filtering reduces the influence of dominant background fluctuations while preserving information relevant to turbine wakes. At equivalent network size and training cost, the POD filtered surrogate reduces the mean squared error by three orders of magnitude compared with the same network trained on unfiltered LES data.",
+      "published": "2026-10-22T16:53:43Z",
+      "updated": "2026-10-22T16:53:43Z",
+      "authors": [
+        "Mustafa Meriç Aksen",
+        "Hossein Seyedzadeh",
+        "Mehrshad Gholami Anjiraki",
+        "Ali Khosronejad"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2610.31547",
+      "pdf": "https://arxiv.org/pdf/2610.31547v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-24T01:46:28.639634+00:00",
+      "version_changed": false,
+      "topics": [
+        "methods"
+      ],
+      "matches": {
+        "methods": [
+          "turbulence"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "流体与不稳定性 · Fluid dynamics",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 20,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [
+        {
+          "name": "Mustafa Meriç Aksen",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Hossein Seyedzadeh",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Mehrshad Gholami Anjiraki",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Ali Khosronejad",
+          "institutions": [],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2610.31547v1",
+      "intro_en": "We developed a machine learning (ML) surrogate trained on instantaneous large eddy simulation (LES) data filtered using proper orthogonal decomposition (POD) to predict mean flow fields in natural rivers with complex geometries. The surrogate enables efficient prediction of mean flow fields downstream of marine hydrokinetic (MHK) turbine arrays at a fraction of the computational cost of high fidelity simulations, facilitating turbine layout optimization in natural waterways where bathymetry, turbulence, and turbine interactions influence the available energy resource.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-23",
+      "publication_date_source": "https://arxiv.org/abs/2610.31547v1",
+      "version_date": "2026-10-22T16:53:43+00:00"
+    },
+    {
+      "id": "2610.31492",
+      "version_id": "2610.31492v1",
+      "title": "A Headwind-like Helium Outflow from TOI-3884b",
+      "abstract": "Constraining atmospheric loss is crucial for understanding the evolution of planetary atmospheres. We report the detection of an evaporating exosphere from TOI-3884b, a super-Neptune in a polar orbit around an M4 dwarf star. We infer this evaporation from a 6.8$\\pm$0.27\\% excess transit depth in the He I 10830 Å\\, line, observed during five transits of TOI-3884b with the Habitable Zone Planet Finder spectrometer. While we observe outflow signatures starting as early as 5 hours before the onset of the planet's optical transit, no significant post-transit tail is detected. Hitherto, such a pre-transit headwind without a significant post-transit tail has only been detected from HAT-P-67b, a hot Saturn orbiting an F-type star. This asymmetric outflow morphology supports irradiation-driven mass loss over core-heated mass loss, and we explore whether this could be caused by sub-Alfvén star-planet interaction. The detection of such complex outflow morphologies is now opening a new window, enabling us to test theories of star-planet interactions and planetary magnetic fields with observations.",
+      "published": "2026-10-22T16:12:31Z",
+      "updated": "2026-10-22T16:12:31Z",
+      "authors": [
+        "Joe P. Ninan",
+        "Jessica Libby-Roberts",
+        "Suvrath Mahadevan",
+        "Oleg Kochukhov",
+        "Daniel M. Krolikowski",
+        "Gudmundur Stefansson",
+        "Shubham Kanodia",
+        "Jaume Orell-Miquel",
+        "Caroline V. Morley",
+        "Kevin France",
+        "Girish Duvvuri",
+        "Chad F. Bender",
+        "William D. Cochran",
+        "Megan Delamer",
+        "Scott A. Diddams",
+        "Samuel Halverson",
+        "Fred Hearty",
+        "Leslie Hebb",
+        "Andrew Monson",
+        "Paul Robertson",
+        "Arpita Roy",
+        "Christian Schwab"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2610.31492",
+      "pdf": "https://arxiv.org/pdf/2610.31492v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-24T01:46:28.639634+00:00",
+      "version_changed": false,
+      "topics": [
+        "planetary"
+      ],
+      "matches": {
+        "planetary": [
+          "planetary atmosphere",
+          "habitable zone"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：planetary atmosphere、habitable zone",
+      "tags": [
+        "宜居性 · Habitability"
+      ],
+      "method": "keyword",
+      "fit_score": 58,
+      "fit_matches": [
+        "行星大气与辐射",
+        "行星气候与模式"
+      ],
+      "institutions": [
+        "Department of Astronomy and Astrophysics, Tata Institute of Fundamental Research, Homi Bhabha Road, Colaba, Mumbai 400005, India",
+        "Department of Astronomy and Astrophysics, 525 Davey Laboratory, 251 Pollock Road, Penn State, University Park, PA, 16802, USA",
+        "Center for Exoplanets and Habitable Worlds, 525 Davey Laboratory, 251 Pollock Road, Penn State, University Park, PA, 16802, USA",
+        "Department of Physics and Astronomy, University of Tampa, Tampa, FL 33606",
+        "Department of Physics and AstronomyUppsala University, Box 516, Uppsala, 751 20, Sweden",
+        "Steward Observatory, University of Arizona, 933 N. Cherry Ave, Tucson, AZ 85721, USA",
+        "Astrophysics & Space Center, Schmidt Sciences, New York, NY 10011, USA",
+        "Anton Pannekoek Institute for Astronomy, University of Amsterdam, Amsterdam, 1098 XH, The Netherlands",
+        "Earth and Planets Laboratory, Carnegie Science, 5241 Broad Branch Road, NW, Washington, DC 20015, USA",
+        "Department of Astronomy, University of Texas at Austin, 2515 Speedway, Austin, TX 78712, USA",
+        "Laboratory for Atmospheric and Space Physics, University of Colorado, 600 UCB, Boulder, CO 80309, USA",
+        "Department of Astrophysical and Planetary Science, University of Colorado, 389 UCB, Boulder, CO 80309, USA",
+        "McDonald Observatory and Department of Astronomy, The University of Texas at Austin, USA",
+        "Center for Planetary Systems Habitability, The University of Texas at Austin, USA",
+        "Electrical, Computer & Energy Engineering, 440 UCB, University of Colorado, Boulder, CO 80309, USA",
+        "Department of Physics, 390 UCB, University of Colorado, Boulder, CO 80309, USA",
+        "Jet Propulsion Laboratory, California Institute of Technology, 4800 Oak Grove Drive, Pasadena, California 91109",
+        "Physics Department, Hobart and William Smith Colleges, 300 Pulteney Street, Geneva, NY 14456, USA",
+        "Department of Astronomy, Cornell University, 245 East Ave, Ithaca, NY 14850, USA",
+        "Department of Physics & Astronomy, The University of California, Irvine, Irvine, CA 92697, USA",
+        "School of Mathematical and Physical Sciences, Macquarie University, Balaclava Road, North Ryde, NSW 2109, Australia"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Joe P. Ninan",
+          "institutions": [
+            "Department of Astronomy and Astrophysics, Tata Institute of Fundamental Research, Homi Bhabha Road, Colaba, Mumbai 400005, India"
+          ],
+          "orcid": "https://orcid.org/0000-0001-8720-5612"
+        },
+        {
+          "name": "Jessica Libby-Roberts",
+          "institutions": [
+            "Department of Astronomy and Astrophysics, 525 Davey Laboratory, 251 Pollock Road, Penn State, University Park, PA, 16802, USA",
+            "Center for Exoplanets and Habitable Worlds, 525 Davey Laboratory, 251 Pollock Road, Penn State, University Park, PA, 16802, USA",
+            "Department of Physics and Astronomy, University of Tampa, Tampa, FL 33606"
+          ],
+          "orcid": "https://orcid.org/0000-0002-2990-7613"
+        },
+        {
+          "name": "Suvrath Mahadevan",
+          "institutions": [
+            "Department of Astronomy and Astrophysics, 525 Davey Laboratory, 251 Pollock Road, Penn State, University Park, PA, 16802, USA",
+            "Center for Exoplanets and Habitable Worlds, 525 Davey Laboratory, 251 Pollock Road, Penn State, University Park, PA, 16802, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0001-9596-7983"
+        },
+        {
+          "name": "Oleg Kochukhov",
+          "institutions": [
+            "Department of Physics and AstronomyUppsala University, Box 516, Uppsala, 751 20, Sweden"
+          ],
+          "orcid": "https://orcid.org/0000-0003-3061-4591"
+        },
+        {
+          "name": "Daniel M. Krolikowski",
+          "institutions": [
+            "Steward Observatory, University of Arizona, 933 N. Cherry Ave, Tucson, AZ 85721, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0001-9626-0613"
+        },
+        {
+          "name": "Gudmundur Stefansson",
+          "institutions": [
+            "Astrophysics & Space Center, Schmidt Sciences, New York, NY 10011, USA",
+            "Anton Pannekoek Institute for Astronomy, University of Amsterdam, Amsterdam, 1098 XH, The Netherlands"
+          ],
+          "orcid": "https://orcid.org/0000-0001-7409-5688"
+        },
+        {
+          "name": "Shubham Kanodia",
+          "institutions": [
+            "Earth and Planets Laboratory, Carnegie Science, 5241 Broad Branch Road, NW, Washington, DC 20015, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0001-8401-4300"
+        },
+        {
+          "name": "Jaume Orell-Miquel",
+          "institutions": [
+            "Department of Astronomy, University of Texas at Austin, 2515 Speedway, Austin, TX 78712, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0003-2066-8959"
+        },
+        {
+          "name": "Caroline V. Morley",
+          "institutions": [
+            "Department of Astronomy, University of Texas at Austin, 2515 Speedway, Austin, TX 78712, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-4404-0456"
+        },
+        {
+          "name": "Kevin France",
+          "institutions": [
+            "Laboratory for Atmospheric and Space Physics, University of Colorado, 600 UCB, Boulder, CO 80309, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-1002-3674"
+        },
+        {
+          "name": "Girish Duvvuri",
+          "institutions": [
+            "Department of Astrophysical and Planetary Science, University of Colorado, 389 UCB, Boulder, CO 80309, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-7119-2543"
+        },
+        {
+          "name": "Chad F. Bender",
+          "institutions": [
+            "Steward Observatory, University of Arizona, 933 N. Cherry Ave, Tucson, AZ 85721, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0003-4384-7220"
+        },
+        {
+          "name": "William D. Cochran",
+          "institutions": [
+            "McDonald Observatory and Department of Astronomy, The University of Texas at Austin, USA",
+            "Center for Planetary Systems Habitability, The University of Texas at Austin, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0001-9662-3496"
+        },
+        {
+          "name": "Megan Delamer",
+          "institutions": [
+            "Department of Astronomy and Astrophysics, 525 Davey Laboratory, 251 Pollock Road, Penn State, University Park, PA, 16802, USA",
+            "Center for Exoplanets and Habitable Worlds, 525 Davey Laboratory, 251 Pollock Road, Penn State, University Park, PA, 16802, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0003-1439-2781"
+        },
+        {
+          "name": "Scott A. Diddams",
+          "institutions": [
+            "Electrical, Computer & Energy Engineering, 440 UCB, University of Colorado, Boulder, CO 80309, USA",
+            "Department of Physics, 390 UCB, University of Colorado, Boulder, CO 80309, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-2144-0764"
+        },
+        {
+          "name": "Samuel Halverson",
+          "institutions": [
+            "Jet Propulsion Laboratory, California Institute of Technology, 4800 Oak Grove Drive, Pasadena, California 91109"
+          ],
+          "orcid": "https://orcid.org/0000-0003-1312-9391"
+        },
+        {
+          "name": "Fred Hearty",
+          "institutions": [
+            "Department of Astronomy and Astrophysics, 525 Davey Laboratory, 251 Pollock Road, Penn State, University Park, PA, 16802, USA",
+            "Center for Exoplanets and Habitable Worlds, 525 Davey Laboratory, 251 Pollock Road, Penn State, University Park, PA, 16802, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-1664-3102"
+        },
+        {
+          "name": "Leslie Hebb",
+          "institutions": [
+            "Physics Department, Hobart and William Smith Colleges, 300 Pulteney Street, Geneva, NY 14456, USA",
+            "Department of Astronomy, Cornell University, 245 East Ave, Ithaca, NY 14850, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0003-1263-8637"
+        },
+        {
+          "name": "Andrew Monson",
+          "institutions": [
+            "Steward Observatory, University of Arizona, 933 N. Cherry Ave, Tucson, AZ 85721, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-0048-2586"
+        },
+        {
+          "name": "Paul Robertson",
+          "institutions": [
+            "Department of Physics & Astronomy, The University of California, Irvine, Irvine, CA 92697, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0003-0149-9678"
+        },
+        {
+          "name": "Arpita Roy",
+          "institutions": [
+            "Astrophysics & Space Center, Schmidt Sciences, New York, NY 10011, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0001-8127-5775"
+        },
+        {
+          "name": "Christian Schwab",
+          "institutions": [
+            "School of Mathematical and Physical Sciences, Macquarie University, Balaclava Road, North Ryde, NSW 2109, Australia"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.31492v1",
+      "intro_en": "Constraining atmospheric loss is crucial for understanding the evolution of planetary atmospheres. We report the detection of an evaporating exosphere from TOI-3884b, a super-Neptune in a polar orbit around an M4 dwarf star.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-23",
+      "publication_date_source": "https://arxiv.org/abs/2610.31492v1",
+      "version_date": "2026-10-22T16:12:31+00:00"
+    },
+    {
+      "id": "2610.31425",
+      "version_id": "2610.31425v1",
+      "title": "Modulation theory of Y- and X-wave Kadomtsev--Petviashvili solitons",
+      "abstract": "The evolution of long wavelength perturbations of traveling wave 2-soliton solutions of the Kadomtsev-Petviashvili II (KP) equation are investigated using modulation theory. An initial-boundary value problem for a system of hyperbolic conservation laws is formulated for amplitude and slope perturbations to soliton legs of the resonant (Y-shaped) and X-shaped KP traveling wave solutions. The vertex where individuated soliton legs coalesce is modeled as a moving free boundary where information between the soliton legs can pass. The linearized hyperbolic system is proven to be well-posed under suitable initial conditions and is solved exactly. In the case of the resonant Y-shaped soliton, all admissible simple (rarefaction) waves of the nonlinear system are characterized. Specific perturbations of Y-waves can lead to the dimensionality of the modulated solution changing, corresponding to a physical geometric change to the multi-soliton pattern. Spontaneous leg deletion and leg creation can occur. The conditions under which the Y-wave modulation system can experience gradient catastrophe are given. Gradient catastrophe is regularized by the formation of a new leg, with an augmented modulation system proposed to describe the growth of the new leg. On the other hand, the X-wave system can be reduced to two independent line soliton modulation systems. These findings reinforce the prevalence and generality of resonant Y-shaped vertices in the KP II system and applications.The theoretical modulation predictions are supported by direct numerical simulations of KP II, which show good agreement with the analysis.",
+      "published": "2026-10-22T15:25:42Z",
+      "updated": "2026-10-22T15:25:42Z",
+      "authors": [
+        "Jerry Wang",
+        "Mark A. Hoefer"
+      ],
+      "doi": "",
+      "categories": [
+        "nlin.PS",
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2610.31425",
+      "pdf": "https://arxiv.org/pdf/2610.31425v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-24T01:46:28.639634+00:00",
+      "version_changed": false,
+      "topics": [
+        "methods"
+      ],
+      "matches": {
+        "methods": [
+          "direct numerical simulation"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 20,
+      "fit_matches": [],
+      "institutions": [
+        "Department of Applied Mathematics, University of Colorado, Boulder, Colorado, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Jerry Wang",
+          "institutions": [
+            "Department of Applied Mathematics, University of Colorado, Boulder, Colorado, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Mark A. Hoefer",
+          "institutions": [
+            "Department of Applied Mathematics, University of Colorado, Boulder, Colorado, USA"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.31425v1",
+      "intro_en": "The evolution of long wavelength perturbations of traveling wave 2-soliton solutions of the Kadomtsev-Petviashvili II (KP) equation are investigated using modulation theory. An initial-boundary value problem for a system of hyperbolic conservation laws is formulated for amplitude and slope perturbations to soliton legs of the resonant (Y-shaped) and X-shaped KP traveling wave solutions.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-22",
+      "publication_date_source": "https://arxiv.org/abs/2610.31425v1",
+      "version_date": "2026-10-22T15:25:42+00:00"
+    },
+    {
+      "id": "2610.31417",
+      "version_id": "2610.31417v1",
+      "title": "Tandem jets in crossflow: the enclosed-recirculation momentum exchange and the unsteady shear-layer dynamics",
+      "abstract": "Twin tandem jets in crossflow are examined by 40\\ kHz time-resolved particle image velocimetry (PIV) over nine spacing--velocity-ratio conditions ($L=2d$--$4d$, $r\\approx3$--7; 68 twin cases, 11 single-jet records). The front jet is diluted: its trajectory lies below the single-jet reference, with a near-field segment up to 40\\% shorter, and its velocity ratio falls to an effective value $r_{\\mathrm{eff}}<r$, while the shielded rear jet rises above the reference. This paper identifies the carrier of that dilution and the unsteady dynamics that sustains it. The rear-jet blockage closes a gap recirculation whose reversed flow puts the two gap-side layers in the counter-current shear-layer configuration, the classical route to enhanced entrainment. The measured Reynolds stress and Prandtl mixing length show that the absolute exchange is nearly independent of the velocity ratio and exceeds the single-jet leeward zone like-for-like by up to $1.5\\times$ (zone peak, across conditions) and $2.8\\times$ (area-integrated) at $r\\approx7$. The gain comes from an enlarged mixing scale rather than from a steeper shear, and the front-jet near-field shortening follows the absolute exchange transport rather than the twin/single enhancement ratio. The turbulent term exceeds the pressure term in eight of the nine conditions, and the flux budget reads the dilution as a limited mass addition plus a momentum loss to the crossflow; the evidence remains observational. The gap-side layers remain convectively unstable---DMD and SPOD find no growing mode within the resolvable band and record length---so the exchange is carried by convecting vortex trains rather than by a self-excited global mode.",
+      "published": "2026-10-22T15:18:56Z",
+      "updated": "2026-10-22T15:18:56Z",
+      "authors": [
+        "Xunchen Liu"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2610.31417",
+      "pdf": "https://arxiv.org/pdf/2610.31417v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-24T01:46:28.639634+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "环流与波动 · Circulation & waves"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "College of Mechanical and Electronic Engineering, Shandong University of Science and Technology, No. 579 Qianwan’gang Road, Qingdao 266590, Shandong, China"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Xunchen Liu (刘训臣)",
+          "institutions": [
+            "College of Mechanical and Electronic Engineering, Shandong University of Science and Technology, No. 579 Qianwan’gang Road, Qingdao 266590, Shandong, China"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.31417v1",
+      "intro_en": "Twin tandem jets in crossflow are examined by 40\\ kHz time-resolved particle image velocimetry (PIV) over nine spacing--velocity-ratio conditions ($L=2d$--$4d$, $r\\approx3$--7; 68 twin cases, 11 single-jet records). The front jet is diluted: its trajectory lies below the single-jet reference, with a near-field segment up to 40\\% shorter, and its velocity ratio falls to an effective value $r_{\\mathrm{eff}}<r$, while the shielded rear jet rises above the reference.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-22",
+      "publication_date_source": "https://arxiv.org/abs/2610.31417v1",
+      "version_date": "2026-10-22T15:18:56+00:00"
+    },
+    {
+      "id": "2610.31409",
+      "version_id": "2610.31409v1",
+      "title": "Modelling wide-swath altimeter observation-error correlations with a regularised diffusion operator",
+      "abstract": "Unaccounted-for observation-error correlations have long been known to be detrimental to the quality of atmospheric and ocean analyses produced by data assimilation (DA) systems. While progress has been made over the past decade on modelling inter-channel error correlations, modelling spatial error correlations remains a challenge for large datasets. Common strategies for mitigating the harmful effects of spatial error correlations, such as variance inflation or data thinning, prevent the extraction of valuable small-scale information from the observations. With the emergence of new sources of high-resolution observations, such as those from the Surface Water and Ocean Topography (SWOT) wide-swath altimeter, the need to address this limitation of DA systems has become increasingly pressing. To do so, we consider a diffusion-based observation-error correlation operator, extending previous work on modelling correlated errors in conventional nadir altimeter data. When observation-error correlation length scales are large, the original method can suffer from an excessive sensitivity of the inverse correlation operator to small-scale perturbations. Since actual estimates of observation-error correlations from SWOT suggest the presence of large length scales, a more robust formulation of the method is required. We present a regularised formulation of the diffusion-based correlation operator that eliminates this excessive sensitivity while preserving computational efficiency. We describe the implementation of the operator for a mesh constructed from SWOT observation locations and demonstrate its application in a global ocean DA system. To validate the new formulation, we perform DA experiments with simulated SWOT observations. These experiments confirm that the regularised correlation operator provides an effective, robust and practical approach for representing wide-swath altimeter observation-error correlations in operational ocean DA systems.",
+      "published": "2026-10-22T15:10:25Z",
+      "updated": "2026-10-22T15:10:25Z",
+      "authors": [
+        "Olivier Goux",
+        "Anthony Weaver",
+        "Andrea Piacentini"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.geo-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.31409",
+      "pdf": "https://arxiv.org/pdf/2610.31409v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-24T01:46:28.639634+00:00",
+      "version_changed": false,
+      "topics": [
+        "methods"
+      ],
+      "matches": {
+        "methods": [
+          "data assimilation"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "海冰与表层 · Ice & surface",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 20,
+      "fit_matches": [],
+      "institutions": [
+        "CECI, Université de Toulouse, CERFACS/CNRS/IRD, Toulouse, France"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Olivier Goux",
+          "institutions": [
+            "CECI, Université de Toulouse, CERFACS/CNRS/IRD, Toulouse, France"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Anthony T. Weaver",
+          "institutions": [
+            "CECI, Université de Toulouse, CERFACS/CNRS/IRD, Toulouse, France"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Andrea Piacentini",
+          "institutions": [
+            "CECI, Université de Toulouse, CERFACS/CNRS/IRD, Toulouse, France"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.31409v1",
+      "intro_en": "Unaccounted-for observation-error correlations have long been known to be detrimental to the quality of atmospheric and ocean analyses produced by data assimilation (DA) systems. While progress has been made over the past decade on modelling inter-channel error correlations, modelling spatial error correlations remains a challenge for large datasets.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-22",
+      "publication_date_source": "https://arxiv.org/abs/2610.31409v1",
+      "version_date": "2026-10-22T15:10:25+00:00"
+    },
+    {
+      "id": "2610.31408",
+      "version_id": "2610.31408v1",
+      "title": "Anisotropic spin hydrodynamics in a magnetized medium: entropy-current formulation and minimal linear modes",
+      "abstract": "We formulate anisotropic relativistic spin hydrodynamics in a parity-even magnetized medium using an Israel--Stewart entropy-current construction. Treating the magnetic field at leading order in the gradient expansion reduces the rotational symmetry to $SO(2)$ and separates spin susceptibilities and dissipative transport into longitudinal, transverse, and mixed channels. A restricted quadratic entropy current yields transient equations for the retained dissipative stresses and spin fluxes. We analyze a minimal linear closure around an unpolarized homogeneous equilibrium, retaining dynamical magnetic-flux perturbations but no explicit spin-magnetization coupling; spin and magnetic fluctuations mix through the fluid variables. Infrared coefficient equations and ultraviolet characteristic expansions organize the magnetosonic and Alfvén-like spectra together with spectator spin-flux poles. The first-order truncation exhibits unstable boost-sector poles and superlinear large-wave-number branches, interpreted as diagnostics of the truncated equations rather than microscopic dispersion predictions. For the baseline parameters, finite relaxation times yield asymptotically linear propagation branches and finite relaxation poles, with no growing modes found on the sampled grid. The characteristic speeds depend nonmonotonically on spin transport and provide necessary light-cone diagnostics, without establishing general stability or strong hyperbolicity.",
+      "published": "2026-10-22T15:10:09Z",
+      "updated": "2026-10-22T15:10:09Z",
+      "authors": [
+        "Yiwei Qiu",
+        "Duan She",
+        "Defu Hou"
+      ],
+      "doi": "",
+      "categories": [
+        "nucl-th",
+        "hep-ph",
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2610.31408",
+      "pdf": "https://arxiv.org/pdf/2610.31408v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-24T01:46:28.639634+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "author_affiliation_status": "unavailable",
+      "institutions": [
+        "1 Institute of Particle Physics and Key Laboratory of Quark and Lepton Physics (MOE), Central China Normal University, Wuhan 430079, China",
+        "2 Institute of Physics, Henan Academy of Sciences, Zhengzhou 450046, China"
+      ],
+      "author_affiliations": [],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.31408v1",
+      "intro_en": "We formulate anisotropic relativistic spin hydrodynamics in a parity-even magnetized medium using an Israel--Stewart entropy-current construction. Treating the magnetic field at leading order in the gradient expansion reduces the rotational symmetry to $SO(2)$ and separates spin susceptibilities and dissipative transport into longitudinal, transverse, and mixed channels.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-22",
+      "publication_date_source": "https://arxiv.org/abs/2610.31408v1",
+      "version_date": "2026-10-22T15:10:09+00:00"
+    },
+    {
+      "id": "2610.31364",
+      "version_id": "2610.31364v1",
+      "title": "A second-order linear decoupled scheme with a relaxed zero-energy variable for Rayleigh-Bénard convection",
+      "abstract": "We construct a second-order, linear, and fully decoupled scheme for Rayleigh--Bénard convection between Navier-slip walls. The nonlinear terms are treated explicitly and multiplied by a scalar with exact value $1$ and no energy contributed to the continuous problem. As a result, each BDF2 step, with a rotational pressure correction, solves only constant-coefficient linear problems. For the time discretization, we prove that, for any time-step, the energy decays when the walls have equal temperatures, under a condition on the thermal weight, and the energy is bounded on finite time intervals when heated from below. Relaxing the scalar towards $1$ preserves both estimates. Energy stability does not control the accuracy of the scalar; the velocity and temperature fields are computed with its unrelaxed value, whose deviation from $1$ scales like $(E/C)(δt/τ)^3$ for kinetic energy $E$, time-scale $τ$ of the flow, and weight $C$ of the scalar equation. In our tests, choosing $C$ comparable to $E$ keeps this deviation small and doubles the largest time-step for which steady rolls are reproduced to a relative difference of $10^{-8}$. With Taylor--Hood elements, we observe second-order convergence in time, recover the critical Rayleigh numbers, and match published Nusselt numbers to within $0.5\\%$. A three-dimensional implementation passes corresponding validation tests.",
+      "published": "2026-10-22T14:41:19Z",
+      "updated": "2026-10-22T14:41:19Z",
+      "authors": [
+        "Matthew McCurdy"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn",
+        "math.NA"
+      ],
+      "url": "https://arxiv.org/abs/2610.31364",
+      "pdf": "https://arxiv.org/pdf/2610.31364v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-24T01:46:28.639634+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "流体与不稳定性 · Fluid dynamics"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Department of Mathematical Sciences, University of the Virgin Islands, St. Thomas, USVI, United States"
+      ],
+      "author_affiliations": [
+        {
+          "name": "M. McCurdy",
+          "institutions": [
+            "Department of Mathematical Sciences, University of the Virgin Islands, St. Thomas, USVI, United States"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.31364v1",
+      "intro_en": "We construct a second-order, linear, and fully decoupled scheme for Rayleigh--Bénard convection between Navier-slip walls. The nonlinear terms are treated explicitly and multiplied by a scalar with exact value $1$ and no energy contributed to the continuous problem.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-22",
+      "publication_date_source": "https://arxiv.org/abs/2610.31364v1",
+      "version_date": "2026-10-22T14:41:19+00:00"
+    },
+    {
+      "id": "2610.31286",
+      "version_id": "2610.31286v1",
+      "title": "The first selection of optimal targets for the Lazuli ExtraSolar Coronagraph's reflected starlight exoplanet campaign",
+      "abstract": "Direct detection and characterization of exoplanet atmospheres via reflected starlight enables probes of composition of mature exoplanet systems (since flux is decoupled from age) at closer separations than via thermal emission (due to observations in visible wavelengths), and even probes of biosignatures. New and upcoming ground and space-based platforms are enabling these observations for the first time. Recently the 3-m Lazuli Space Telescope, from the Eric and Wendy Schmidt Observatory System, was announced, which will be equipped with the ExtraSolar Coronagraph (ESC) designed for reflected light gas giant exoplanet observations in visible wavelengths. In this paper we present 27 known giant exoplanets that make up the first target list for these observations. Our target list spans ages and temperatures of planets not probed before by direct imaging, but some of which will also be accessible to the \\textsl{Nancy Grace Roman} Coronagraph instrument and the ELT-METIS thermal imager, providing comprehensive atmosphere characterization and synergies. We discuss the science enabled by ESC observations of our target list and enhancements provided by future astrometric and radial velocity measurements.",
+      "published": "2026-10-22T13:51:21Z",
+      "updated": "2026-10-22T13:51:21Z",
+      "authors": [
+        "Logan A. Pearce",
+        "Ewan Douglas"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP",
+        "astro-ph.IM"
+      ],
+      "url": "https://arxiv.org/abs/2610.31286",
+      "pdf": "https://arxiv.org/pdf/2610.31286v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-24T01:46:28.639634+00:00",
+      "version_changed": false,
+      "topics": [
+        "planetary",
+        "detection"
+      ],
+      "matches": {
+        "planetary": [
+          "exoplanet atmosphere"
+        ],
+        "detection": [
+          "radial velocity",
+          "biosignature",
+          "direct imaging"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：exoplanet atmosphere、radial velocity、biosignature、direct imaging",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 56,
+      "fit_matches": [
+        "行星大气与辐射"
+      ],
+      "institutions": [
+        "Department of Astronomy, University of Michigan, Ann Arbor, MI 48109, USA",
+        "Steward Observatory, University of Arizona, Tucson, AZ 85721, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Logan A. Pearce",
+          "institutions": [
+            "Department of Astronomy, University of Michigan, Ann Arbor, MI 48109, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0003-3904-7378"
+        },
+        {
+          "name": "Ewan Douglas",
+          "institutions": [
+            "Steward Observatory, University of Arizona, Tucson, AZ 85721, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-0813-4308"
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.31286v1",
+      "intro_en": "Direct detection and characterization of exoplanet atmospheres via reflected starlight enables probes of composition of mature exoplanet systems (since flux is decoupled from age) at closer separations than via thermal emission (due to observations in visible wavelengths), and even probes of biosignatures. New and upcoming ground and space-based platforms are enabling these observations for the first time.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-22",
+      "publication_date_source": "https://arxiv.org/abs/2610.31286v1",
+      "version_date": "2026-10-22T13:51:21+00:00"
+    },
+    {
+      "id": "2610.31245",
+      "version_id": "2610.31245v1",
+      "title": "Extracting target-related flow structures using a time-lagged cross-correlation ranking criterion",
+      "abstract": "Structures with large global contributions to a flow field are not necessarily those that are most closely associated with a specified engineering observable. We propose a time-lagged cross-correlation (TCC) ranking criterion to extract target-related dynamical structures from a fixed modal expansion while preserving existing spatial modes and temporal coefficients. The criterion ranks mode groups by the mean squared norm of cross-responses between their flow contributions and the observable over a lag window. It is tested separately using dynamic mode decomposition (DMD) and proper orthogonal decomposition (POD). TCC-DMD analysis shows that TCC recovers three low-contribution target structures from a dominant background in a synthetic flow. The reconstruction error for the target subfield is 2.15\\%. In the cylinder wake, different force observables select structures associated with the vortex-shedding fundamental, slow drag variations, and the second harmonic. In the cavity case, selected modes connect two main frequency bands of the target observable to distinct spatial amplitude and phase distributions. TCC-POD analysis shows that the criterion minimises the weighted truncation error of the correlation operator among equally sized subsets of the fixed orthogonal basis. A comparison with canonical correlation decomposition further reveals differences between fixed-direction selection and correlation-based basis construction in the spatial structure and retention of flow information. Lag aggregation can improve structure identification when zero-lag association is insufficient. The gains depend on the cross-response distribution and window selection. TCC separates target-related ranking from mode-set construction, enabling comparison of spatial structures associated with different observables within the same modal expansion.",
+      "published": "2026-10-22T13:25:53Z",
+      "updated": "2026-10-22T13:25:53Z",
+      "authors": [
+        "Xuran Bao",
+        "Zhongkun Jin"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2610.31245",
+      "pdf": "https://arxiv.org/pdf/2610.31245v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-24T01:46:28.639634+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "环流与波动 · Circulation & waves"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "author_affiliation_status": "unavailable",
+      "institutions": [
+        "\\aff1Institute of Acoustics, Chinese Academy of Sciences, Beijing 100190, PR China \\aff2University of the Chinese Academy of Sciences, Beijing 100190, PR China"
+      ],
+      "author_affiliations": [],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.31245v1",
+      "intro_en": "Structures with large global contributions to a flow field are not necessarily those that are most closely associated with a specified engineering observable. We propose a time-lagged cross-correlation (TCC) ranking criterion to extract target-related dynamical structures from a fixed modal expansion while preserving existing spatial modes and temporal coefficients.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-22",
+      "publication_date_source": "https://arxiv.org/abs/2610.31245v1",
+      "version_date": "2026-10-22T13:25:53+00:00"
+    },
+    {
+      "id": "2610.31220",
+      "version_id": "2610.31220v1",
+      "title": "Quartz Crystal Microbalance impedance of discrete adsorbates with lubricated contact",
+      "abstract": "We present a thorough theoretical investigation of the shear force exerted on a horizontal plate undergoing fast (MHz range) longitudinal oscillations in presence of a spherical particle suspended in the liquid at close proximity to the plate. This hydrodynamic problem is relevant toward the analysis of frequency response (i.e., complex impedance) of Quartz Crystal Microbalance (QCM) to discrete (particulate) adsorbates. For low areal density of adsorbates, the contributions of individual particles remain additive, rendering the theory applicable towards quantitative interpretation of the experimental measurements. For adsorbates much smaller than the viscous penetration depth, the closed-form analytical expressions for the complex impedance were derived for particles of arbitrary density, assuming a lubricated contact (i.e., non-localized adsorption). The theoretical predictions were shown to be in an excellent agreement with accurate Finite Element numerical computations. The validity of the theoretical approach was confirmed by QCM measurements conducted for polystyrene nanoparticles in a broad range of sizes, from 32 nm to 510 nm, adsorbing onto gold/silica sensor upon varying the oscillation frequency.",
+      "published": "2026-10-22T13:04:39Z",
+      "updated": "2026-10-22T13:04:39Z",
+      "authors": [
+        "Alexander M. Leshansky",
+        "Boris Y. Rubinstein",
+        "Marta Sadowska",
+        "Zbigniew Adamczyk"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn",
+        "physics.ins-det"
+      ],
+      "url": "https://arxiv.org/abs/2610.31220",
+      "pdf": "https://arxiv.org/pdf/2610.31220v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-24T01:46:28.639634+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "author_affiliation_status": "unavailable",
+      "institutions": [
+        "1{}^{1}\\!Wolfson Department of Chemical Engineering, Technion, Haifa 32000, Israel",
+        "2{}^{2}\\!Stowers Institute for Medical Research, 1000 E 50th st., Kansas City, MO 64110, USA",
+        "3{}^{3}\\!Jerzy Haber Institute of Catalysis and Surface Chemistry, Polish Academy of Sciences, 30-239 Krakow, Poland"
+      ],
+      "author_affiliations": [],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.31220v1",
+      "intro_en": "We present a thorough theoretical investigation of the shear force exerted on a horizontal plate undergoing fast (MHz range) longitudinal oscillations in presence of a spherical particle suspended in the liquid at close proximity to the plate. This hydrodynamic problem is relevant toward the analysis of frequency response (i.e., complex impedance) of Quartz Crystal Microbalance (QCM) to discrete (particulate) adsorbates.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-22",
+      "publication_date_source": "https://arxiv.org/abs/2610.31220v1",
+      "version_date": "2026-10-22T13:04:39+00:00"
+    },
+    {
+      "id": "2610.31096",
+      "version_id": "2610.31096v1",
+      "title": "GeoAgent: Contract-Constrained LLM Agents for Seismic Data Processing",
+      "abstract": "Large language models (LLMs) can drive scientific software through function calling, but free-form tool use is fragile on long, data-dependent processing chains. Models omit arguments, invent units, feed the previous artifact into the wrong input, and report completion without a verifiable product. We present GeoAgent, an agent system for seismic data processing built on Madagascar's roughly 1{,}965 command-line programs. GeoAgent exposes 54 operator agents (51 generated from a declarative specification), retrieves from an index of 1{,}937 operators, and encodes the processing flow as a nine-stage state graph. Four explicit contracts---named artifacts, input resolution, parameter takeover, and artifact validation---move everything the graph can determine out of the model's discretion. A deterministic geometry tool parses the self-describing SPS/RPS/XPS and SEG-Y headers, cross-checks eight consistency conditions, and reproduces the reference shell recipe exactly. The system runs in containers with session- and task-level isolation, bounded execution, and defenses against silent failures. On a 2-D land dataset, the nine-stage pipeline completes in about six to eleven minutes and yields a verified artifact at every stage, while retrieval reduces per-turn tool context from about 12k to 2k tokens. We report the design, deployment experience, and motivating failure modes.",
+      "published": "2026-10-22T11:07:12Z",
+      "updated": "2026-10-22T11:07:12Z",
+      "authors": [
+        "Zhilong Fang",
+        "Qi Zhang",
+        "Jujie Yan",
+        "Zhong Wang",
+        "Xinbin Gu",
+        "Ziyang Zhang",
+        "Hua Wang"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.geo-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.31096",
+      "pdf": "https://arxiv.org/pdf/2610.31096v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-24T01:46:28.639634+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "School of Resources and Environment, University of Electronic Science and Technology of China* Corresponding author: Zhilong Fang, fangzl@uestc.edu.cnLive system: http://47.109.133.239/"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Zhilong Fang",
+          "institutions": [
+            "School of Resources and Environment, University of Electronic Science and Technology of China* Corresponding author: Zhilong Fang, fangzl@uestc.edu.cnLive system: http://47.109.133.239/"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Qi Zhang",
+          "institutions": [
+            "School of Resources and Environment, University of Electronic Science and Technology of China* Corresponding author: Zhilong Fang, fangzl@uestc.edu.cnLive system: http://47.109.133.239/"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Jujie Yan",
+          "institutions": [
+            "School of Resources and Environment, University of Electronic Science and Technology of China* Corresponding author: Zhilong Fang, fangzl@uestc.edu.cnLive system: http://47.109.133.239/"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Zhong Wang",
+          "institutions": [
+            "School of Resources and Environment, University of Electronic Science and Technology of China* Corresponding author: Zhilong Fang, fangzl@uestc.edu.cnLive system: http://47.109.133.239/"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Xinbin Gu",
+          "institutions": [
+            "School of Resources and Environment, University of Electronic Science and Technology of China* Corresponding author: Zhilong Fang, fangzl@uestc.edu.cnLive system: http://47.109.133.239/"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Ziyang Zhang",
+          "institutions": [
+            "School of Resources and Environment, University of Electronic Science and Technology of China* Corresponding author: Zhilong Fang, fangzl@uestc.edu.cnLive system: http://47.109.133.239/"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Hua Wang",
+          "institutions": [
+            "School of Resources and Environment, University of Electronic Science and Technology of China* Corresponding author: Zhilong Fang, fangzl@uestc.edu.cnLive system: http://47.109.133.239/"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.31096v1",
+      "intro_en": "Large language models (LLMs) can drive scientific software through function calling, but free-form tool use is fragile on long, data-dependent processing chains. Models omit arguments, invent units, feed the previous artifact into the wrong input, and report completion without a verifiable product.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-22",
+      "publication_date_source": "https://arxiv.org/abs/2610.31096v1",
+      "version_date": "2026-10-22T11:07:12+00:00"
+    },
+    {
+      "id": "2610.31072",
+      "version_id": "2610.31072v1",
+      "title": "Extended-regularized lattice Boltzmann method",
+      "abstract": "Regularized lattice Boltzmann methods improve numerical stability by projecting the nonequilibrium distribution onto its hydrodynamic second-order Hermite sector and filtering the remaining kinetic modes. We introduce a separate relaxation time for the complete complementary kinetic subspace. The resulting extended-regularized lattice Boltzmann method (E-RLBM) interpolates continuously between the Bhatnagar-Gross-Krook and regularized collision operators while retaining a two-rate implementation. A Chapman-Enskog expansion shows that the isothermal Navier-Stokes equations are recovered with kinematic viscosity $ν=c_s^2(τ-Δt/2)$, independently of the kinetic relaxation time $τ_{\\rm nh}$, whereas $τ_{\\rm nh}$ changes higher-order truncation errors. For linear transverse shear, its first effect is a fourth-derivative term whose coefficient depends on the direction of propagation relative to the lattice. This fourth-order coefficient is affine in $τ_{\\rm nh}$. For linear shear on D2Q9 and $τ_{\\rm nh}$ between $τ$ and $Δt$, it lies between the corresponding BGK and RLBM values in every propagation direction. Stability maps for the decaying Taylor-Green vortex and flow past a rectangular obstacle show that an appropriate kinetic relaxation substantially enlarges the stable parameter domain. In a Taylor-Green convergence test with consistent initialization, all three operators converge at second order, and their error differences follow the hyperviscous coefficient for diagonal shear waves: the E-RLBM error is about 6% above the BGK error and about 40% below the RLBM error; in a double shear layer at Re = 80000, the E-RLBM follows the RLBM convergence curve. The proposed collision operator therefore provides a low-cost means of controlling nonhydrodynamic modes without introducing a full multiple-relaxation-time basis.",
+      "published": "2026-10-22T10:49:39Z",
+      "updated": "2026-10-22T10:49:39Z",
+      "authors": [
+        "Luís Orlando Emerich dos Santos",
+        "Diogo Nardelli Siebert"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.comp-ph",
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2610.31072",
+      "pdf": "https://arxiv.org/pdf/2610.31072v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-24T01:46:28.639634+00:00",
+      "version_changed": false,
+      "topics": [
+        "methods"
+      ],
+      "matches": {
+        "methods": [
+          "boltzmann",
+          "navier stokes"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "环流与波动 · Circulation & waves",
+        "流体与不稳定性 · Fluid dynamics",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 20,
+      "fit_matches": [],
+      "institutions": [
+        "Department of Mobility Engineering, Federal University of Santa Catarina, Joinville, Santa Catarina, 89219-600, Brazil"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Luís Orlando Emerich dos Santos",
+          "institutions": [
+            "Department of Mobility Engineering, Federal University of Santa Catarina, Joinville, Santa Catarina, 89219-600, Brazil"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Diogo Nardelli Siebert",
+          "institutions": [
+            "Department of Mobility Engineering, Federal University of Santa Catarina, Joinville, Santa Catarina, 89219-600, Brazil"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.31072v1",
+      "intro_en": "Regularized lattice Boltzmann methods improve numerical stability by projecting the nonequilibrium distribution onto its hydrodynamic second-order Hermite sector and filtering the remaining kinetic modes. We introduce a separate relaxation time for the complete complementary kinetic subspace.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-22",
+      "publication_date_source": "https://arxiv.org/abs/2610.31072v1",
+      "version_date": "2026-10-22T10:49:39+00:00"
+    },
+    {
+      "id": "2610.31071",
+      "version_id": "2610.31071v1",
+      "title": "Conditional Mean Flows for Frequency-Domain Scattered Wavefield Generation",
+      "abstract": "Frequency-domain wavefield modeling underpins seismic imaging and inversion, where repeated Helmholtz solutions become costly as velocity models, source locations, and frequencies vary. Neural operators learn mappings between physical fields, and their accuracy can decline outside the training distribution. Diffusion models learn wavefield distributions and generally require repeated sampling evaluations to produce accurate fields. A conditional mean flows model is introduced for complex scattered-wavefield generation. The analytical background wavefield serves as a condition alongside the velocity model, supplying spatially organized information about the source location and frequency. Learning the scattered wavefield avoids the point-source singularity in the target and supports generalization across these physical conditions. The model estimates the average transport velocity over a finite interval connecting Gaussian noise to the scattered field. This representation captures the accumulated displacement and permits both full-interval one-step generation and interval-partitioned sampling. Trained on OpenFWI, the model is evaluated on in-distribution and out-of-distribution velocity structures, frequency generalization, and inference efficiency. In most evaluated settings, one-step mean flows sampling achieves lower wavefield error than multi-step diffusion. Because each sampling step requires another network evaluation, accurate one-step generation also reduces inference time. These results indicate that mean flows can provide accurate and efficient frequency-domain scattered-wavefield generation.",
+      "published": "2026-10-22T10:49:29Z",
+      "updated": "2026-10-22T10:49:29Z",
+      "authors": [
+        "Lipeng Lai",
+        "Shaohuan Zu"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.geo-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.31071",
+      "pdf": "https://arxiv.org/pdf/2610.31071v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-24T01:46:28.639634+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [
+        {
+          "name": "Lipeng Lai",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Shaohuan Zu",
+          "institutions": [],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2610.31071v1",
+      "intro_en": "Frequency-domain wavefield modeling underpins seismic imaging and inversion, where repeated Helmholtz solutions become costly as velocity models, source locations, and frequencies vary. Neural operators learn mappings between physical fields, and their accuracy can decline outside the training distribution.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-22",
+      "publication_date_source": "https://arxiv.org/abs/2610.31071v1",
+      "version_date": "2026-10-22T10:49:29+00:00"
+    },
+    {
+      "id": "2610.31006",
+      "version_id": "2610.31006v1",
+      "title": "Searching for substellar companion candidates with Gaia. V. M dwarfs within 15 pc studied with absolute astrometry, radial velocities, and direct imaging",
+      "abstract": "In this work, we survey M-type stars within 15 pc observed by Gaia based on their colour, magnitude, and quality of astrometric data. We aim to detect new substellar companions using primarily Gaia astrometry and, when available, proper-motion anomaly (PMa) along with radial velocity (RV) and direct imaging (DI) data. We used the GaiaPMEX tool to search for bound companions around 582 M dwarfs. We identified all previously known stellar and planetary companions that were consistent with the Gaia excess signal. Then for all newly identified companions, we computed detection limits in the (mass, semi-major axis) parameter space using archival RV and DI data, to possibly rule out the presence of a stellar companion. The joint analysis of the parameter space allowed by astrometry and constrained by RV and DI provides tight constraints on the nature of the companion. We found 156 M dwarfs to have a bound companion within the Gaia sensitivity domain. The astrometric signals of 37 and seven of them are due to known stellar and substellar companions, respectively. We report 35 new substellar companions among which at least ten giant planets orbiting between 0.2 au and 2 au, with masses close to 1 M_Jup. We also report 77 substellar candidates, and provide detection limits using astrometry+RV+DI for 50 stars with known exoplanets and no significant Gaia excess noise. This work reveals a significant population of new substellar companions to M-type stars, challenging core accretion models. These results will be crucial inputs for estimating occurrence rates and studying the architecture of planetary systems around M dwarfs. Some new companions presented here, located beyond the water ice line, are prime targets for DI or coronagraphy observations with JWST or ELT.",
+      "published": "2026-10-22T09:45:06Z",
+      "updated": "2026-10-22T09:45:06Z",
+      "authors": [
+        "F. Destriez",
+        "A. -M. Lagrange",
+        "G. Hébrard",
+        "F. Kiefer",
+        "P. Rubini",
+        "E. Lefevre-Forjan",
+        "F. Arenou",
+        "N. T. Lam",
+        "E. Bogat",
+        "J. Girard",
+        "R. Jensen-Clem",
+        "M. Salama",
+        "N. Skaf"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP",
+        "astro-ph.IM",
+        "astro-ph.SR"
+      ],
+      "url": "https://arxiv.org/abs/2610.31006",
+      "pdf": "https://arxiv.org/pdf/2610.31006v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-24T01:46:28.639634+00:00",
+      "version_changed": false,
+      "topics": [
+        "detection",
+        "cryosphere"
+      ],
+      "matches": {
+        "detection": [
+          "radial velocity",
+          "direct imaging"
+        ],
+        "cryosphere": [
+          "water ice"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：radial velocity、direct imaging、water ice",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 59,
+      "fit_matches": [
+        "行星轨道与演化",
+        "系外行星观测表征"
+      ],
+      "institutions": [
+        "LIRA, Université Paris Cité, Observatoire de Paris, Université PSL, Sorbonne Université, CY Cergy Paris Université, CNRS, 92190 Meudon, France",
+        "Institut d’astrophysique de Paris, CNRS, UMR 7095, Sorbonne Université, 98bis boulevard Arago, 75014 Paris, France",
+        "Observatoire de Haute-Provence, CNRS, Université d’Aix-Marseille, 04870 Saint-Michel-l’Observatoire, France",
+        "Pixyl, 5 av. du Grand Sablon, 38700 La Tronche, France",
+        "Department of Astronomy, University of Maryland, College Park, MD 20782, USA",
+        "Center for Research and Exploration in Space Science and Technology, NASA Goddard Space Flight Center, Greenbelt, MD 20771, USA",
+        "NASA Goddard Space Flight Center, 8800 Greenbelt Road, Greenbelt, MD 20771, USA",
+        "Space Telescope Science Institute, 3700 San Martin Drive, Baltimore, MD 21218, USA",
+        "Department of Astronomy & Astrophysics, University of California, Santa Cruz, 1156 High Street, Santa Cruz, CA 95064, USA",
+        "Institute for Astronomy, University of Hawai’i at Manoa, Hilo, HI 96720-2700, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "F. Destriez",
+          "institutions": [
+            "LIRA, Université Paris Cité, Observatoire de Paris, Université PSL, Sorbonne Université, CY Cergy Paris Université, CNRS, 92190 Meudon, France",
+            "Institut d’astrophysique de Paris, CNRS, UMR 7095, Sorbonne Université, 98bis boulevard Arago, 75014 Paris, France"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "A.-M. Lagrange",
+          "institutions": [
+            "LIRA, Université Paris Cité, Observatoire de Paris, Université PSL, Sorbonne Université, CY Cergy Paris Université, CNRS, 92190 Meudon, France"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "G. Hébrard",
+          "institutions": [
+            "Institut d’astrophysique de Paris, CNRS, UMR 7095, Sorbonne Université, 98bis boulevard Arago, 75014 Paris, France",
+            "Observatoire de Haute-Provence, CNRS, Université d’Aix-Marseille, 04870 Saint-Michel-l’Observatoire, France"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "F. Kiefer",
+          "institutions": [
+            "LIRA, Université Paris Cité, Observatoire de Paris, Université PSL, Sorbonne Université, CY Cergy Paris Université, CNRS, 92190 Meudon, France"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "P. Rubini",
+          "institutions": [
+            "Pixyl, 5 av. du Grand Sablon, 38700 La Tronche, France"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "E. Lefevre-Forjan",
+          "institutions": [
+            "LIRA, Université Paris Cité, Observatoire de Paris, Université PSL, Sorbonne Université, CY Cergy Paris Université, CNRS, 92190 Meudon, France"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "F. Arenou",
+          "institutions": [
+            "LIRA, Université Paris Cité, Observatoire de Paris, Université PSL, Sorbonne Université, CY Cergy Paris Université, CNRS, 92190 Meudon, France"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "N. T. Lam",
+          "institutions": [
+            "LIRA, Université Paris Cité, Observatoire de Paris, Université PSL, Sorbonne Université, CY Cergy Paris Université, CNRS, 92190 Meudon, France"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "E. Bogat",
+          "institutions": [
+            "Department of Astronomy, University of Maryland, College Park, MD 20782, USA",
+            "Center for Research and Exploration in Space Science and Technology, NASA Goddard Space Flight Center, Greenbelt, MD 20771, USA",
+            "NASA Goddard Space Flight Center, 8800 Greenbelt Road, Greenbelt, MD 20771, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "J. Girard",
+          "institutions": [
+            "Space Telescope Science Institute, 3700 San Martin Drive, Baltimore, MD 21218, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "R. Jensen-Clem",
+          "institutions": [
+            "Department of Astronomy & Astrophysics, University of California, Santa Cruz, 1156 High Street, Santa Cruz, CA 95064, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "M. Salama",
+          "institutions": [
+            "Department of Astronomy & Astrophysics, University of California, Santa Cruz, 1156 High Street, Santa Cruz, CA 95064, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "N. Skaf",
+          "institutions": [
+            "Institute for Astronomy, University of Hawai’i at Manoa, Hilo, HI 96720-2700, USA"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.31006v1",
+      "intro_en": "In this work, we survey M-type stars within 15 pc observed by Gaia based on their colour, magnitude, and quality of astrometric data. We aim to detect new substellar companions using primarily Gaia astrometry and, when available, proper-motion anomaly (PMa) along with radial velocity (RV) and direct imaging (DI) data.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-22",
+      "publication_date_source": "https://arxiv.org/abs/2610.31006v1",
+      "version_date": "2026-10-22T09:45:06+00:00"
+    },
+    {
+      "id": "2610.30936",
+      "version_id": "2610.30936v1",
+      "title": "Cross-Validation of Infrasound Detections and Fireball Observations from the Global Fireball Observatory",
+      "abstract": "How do infrasound signals from fireballs relate to atmospheric entry conditions and the physical properties of their parents meteoroids? In this study, we investigate the detectability of infrasound generated by local-to-regional fireballs and use the associated signals to constrain meteoroid physical properties. Across Western Australia and California, the Global Fireball Observatory (GFO) recorded nearly 300 fireball events with well-constrained trajectories within 500 km of an infrasound array over an 11-year period. Of these, 20 fireballs were confidently associated with infrasound detections. For these events, we estimate energies, constrain source altitudes using atmospheric ray-tracing simulations, and investigate source mechanisms using a multi-diagnostic approach. In particular, we examine whether the recorded infrasonic signals originated from cylindrical line sources (ballistic shocks) or discrete fragmentation episodes. Our results show that infrasound-detected fireballs span a broad range of dynamical and physical properties. This variability indicates that infrasound detectability is governed by a combination of source characteristics, atmospheric propagation conditions, and source-receiver geometry, rather than any single entry parameter. Analysis of the fireball shock source mechanisms reveals an even contribution from both ballistic and fragmentation-related sources. These results also demonstrate the value of combining infrasound and optical observations for robust constraints on meteoroid shock generation processes.",
+      "published": "2026-10-22T08:55:48Z",
+      "updated": "2026-10-22T08:55:48Z",
+      "authors": [
+        "Iona Clemente",
+        "Eleanor K. Sansom",
+        "Hadrien A. R. Devillepoix",
+        "Elizabeth A. Silber",
+        "Svetlana B. Nikolova",
+        "Spiro Spiliopoulos",
+        "Peter Jenniskens",
+        "Jim Albers",
+        "Thomas Herring"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP",
+        "astro-ph.IM"
+      ],
+      "url": "https://arxiv.org/abs/2610.30936",
+      "pdf": "https://arxiv.org/pdf/2610.30936v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-24T01:46:28.639634+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "行星科学拓展阅读",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [
+        {
+          "name": "Iona Clemente",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Eleanor K. Sansom",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Hadrien A. R. Devillepoix",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Elizabeth A. Silber",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Svetlana B. Nikolova",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Spiro Spiliopoulos",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Peter Jenniskens",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Jim Albers",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Thomas Herring",
+          "institutions": [],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2610.30936v1",
+      "intro_en": "How do infrasound signals from fireballs relate to atmospheric entry conditions and the physical properties of their parents meteoroids? In this study, we investigate the detectability of infrasound generated by local-to-regional fireballs and use the associated signals to constrain meteoroid physical properties.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-22",
+      "publication_date_source": "https://arxiv.org/abs/2610.30936v1",
+      "version_date": "2026-10-22T08:55:48+00:00"
+    },
+    {
+      "id": "2610.30871",
+      "version_id": "2610.30871v1",
+      "title": "Uncertainty estimation of incoming comet trajectories with a thermophysical non-gravitational force model for Comet Interceptor encounter planning",
+      "abstract": "The European Space Agency Comet Interceptor mission is designed to fly-by an as-yet undetermined incoming long-period or dynamically-new comet, which will require an accurate prediction of its trajectory. Cometary orbits are perturbed from purely gravitational trajectories by non-gravitational accelerations (NGAs) stemming from their outgassing, however, and these must be taken into account in the navigation. We here test the ability of ground-based astrometry and standard NGA-fitting techniques to predict the position and velocity of incoming comets perturbed by a Monte Carlo sampled thermophysical acceleration model. We find that, due to the difficulties of predicting NGA evolution as well as the limitations of reasonably simulated astrometry, predicted accuracies are unlikely to meet the mission goals of 1000 km and 1 m s$^{-1}$ in position and velocity, sixty days before intercept. We instead recommend expanded uncertainties of $10,000$ km and several m s$^{-1}$. Our NGA fits struggle to reproduce the reference accelerations and trajectories when outgassing is rising steeply at a few AU-incoming, but with more observations up until perihelion, do eventually converge, leading to good estimates of many of the underlying acceleration parameters even for half an orbital arc.",
+      "published": "2026-10-22T07:53:45Z",
+      "updated": "2026-10-22T07:53:45Z",
+      "authors": [
+        "Nicholas Attree",
+        "Pieter de Boer",
+        "Pedro Gutiérrez",
+        "Pedro Lacerda",
+        "Michael Küppers",
+        "Dominic Dirkx"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP",
+        "astro-ph.IM"
+      ],
+      "url": "https://arxiv.org/abs/2610.30871",
+      "pdf": "https://arxiv.org/pdf/2610.30871v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-24T01:46:28.639634+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "行星科学拓展阅读",
+      "tags": [
+        "岩浆与挥发分 · Magma & volatiles"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Instituto de Astrofísica de Andalucía (CSIC), Glorieta de la Astronomía s/n. 18008 Granada, Spain",
+        "Luchtvaart- en Ruimtevaarttechniek, Technische Universiteit Delft, Kluyverweg 1, 2629 HS Delft, The Netherlands",
+        "Leiden Observatory, Leiden University, PO Box 9513, NL-2300 RA Leiden, The Netherlands",
+        "European Space Agency (ESA), ESAC, Camino Bajo del Castillo s/n, 28692 Villanueva de la Cañada, Madrid, Spain"
+      ],
+      "author_affiliations": [
+        {
+          "name": "N. Attree",
+          "institutions": [
+            "Instituto de Astrofísica de Andalucía (CSIC), Glorieta de la Astronomía s/n. 18008 Granada, Spain"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "P. de Boer",
+          "institutions": [
+            "Instituto de Astrofísica de Andalucía (CSIC), Glorieta de la Astronomía s/n. 18008 Granada, Spain",
+            "Luchtvaart- en Ruimtevaarttechniek, Technische Universiteit Delft, Kluyverweg 1, 2629 HS Delft, The Netherlands"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "P. Gutiérrez",
+          "institutions": [
+            "Instituto de Astrofísica de Andalucía (CSIC), Glorieta de la Astronomía s/n. 18008 Granada, Spain"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "P. Lacerda",
+          "institutions": [
+            "Leiden Observatory, Leiden University, PO Box 9513, NL-2300 RA Leiden, The Netherlands"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "M. Küppers",
+          "institutions": [
+            "European Space Agency (ESA), ESAC, Camino Bajo del Castillo s/n, 28692 Villanueva de la Cañada, Madrid, Spain"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "D. Dirkx",
+          "institutions": [
+            "Luchtvaart- en Ruimtevaarttechniek, Technische Universiteit Delft, Kluyverweg 1, 2629 HS Delft, The Netherlands"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.30871v1",
+      "intro_en": "The European Space Agency Comet Interceptor mission is designed to fly-by an as-yet undetermined incoming long-period or dynamically-new comet, which will require an accurate prediction of its trajectory. Cometary orbits are perturbed from purely gravitational trajectories by non-gravitational accelerations (NGAs) stemming from their outgassing, however, and these must be taken into account in the navigation.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-22",
+      "publication_date_source": "https://arxiv.org/abs/2610.30871v1",
+      "version_date": "2026-10-22T07:53:45+00:00"
+    },
+    {
+      "id": "2610.30852",
+      "version_id": "2610.30852v1",
+      "title": "Stiff source terms inside ADER-DG method",
+      "abstract": "ADER-DG numerical method with the LST-DG predictor, when used to solve hyperbolic equations with stiff source terms, exhibits properties characteristic of IMEX computational schemes. With increasing stiffness, characterized by the parameter $z = ν{Δt}^{n} < 0$, the maximum of the Courant number $\\mathrm{CFL}_{\\rm max}$ of the ADER-DG numerical method increases. In the region of strong stiffness $|z| \\gg 1$, a linear increase in the Courant number $\\mathrm{CFL}_{\\rm max}(z) \\sim |z|$ occurs. In the region of small source terms $|z| \\ll 1$, the results $\\mathrm{CFL}_{\\rm max}(z)$ transform into known results for the problem $\\mathrm{CFL}_{\\rm max}(0)$ without source terms. In the transition region $|z| \\sim 1$, a range of insignificant decrease in the Courant number $\\mathrm{CFL}_{\\rm max}(z)$ is discovered. In the linear case, instability is violated precisely when one of the matrix eigenvalues reaches $λ= -1$, regardless of the phase $θ$ of the numerical solution. A rigorous stability theory of the ADER-DG numerical method for stiff problems for arbitrary degree $N$ of basis polynomials is constructed. The stability condition is simplified to solving a polynomial equation for the Courant number $\\mathrm{CFL}$. Highly accurate dependencies of the Courant number $\\mathrm{CFL}_{\\rm max}(N, z)$ of the ADER-DG method on the parameter $z$ are obtained. A rigorous direct proof of the approximation of the ADER-DG method is presented. Approximation orders $p = N+1$ for arbitrary degrees $N$ are rigorously derived. A set of numerical experiments is carried out to apply the ADER-DG method to solving both a linear advection-reaction equation and the system of Euler equations for a two-component reacting medium. The results obtained in these calculations confirm the theoretical results well.",
+      "published": "2026-10-22T07:29:03Z",
+      "updated": "2026-10-22T07:29:03Z",
+      "authors": [
+        "I. S. Popov",
+        "A. P. Popova"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.comp-ph",
+        "math-ph",
+        "math.NA",
+        "physics.app-ph",
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2610.30852",
+      "pdf": "https://arxiv.org/pdf/2610.30852v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-24T01:46:28.639634+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "流体与不稳定性 · Fluid dynamics",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Department of Theoretical Physics, Dostoevsky Omsk State University, Mira prospekt, Omsk, 644077, Russia"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Ivan S. Popov",
+          "institutions": [
+            "Department of Theoretical Physics, Dostoevsky Omsk State University, Mira prospekt, Omsk, 644077, Russia"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Anna P. Popova",
+          "institutions": [
+            "Department of Theoretical Physics, Dostoevsky Omsk State University, Mira prospekt, Omsk, 644077, Russia"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.30852v1",
+      "intro_en": "ADER-DG numerical method with the LST-DG predictor, when used to solve hyperbolic equations with stiff source terms, exhibits properties characteristic of IMEX computational schemes. With increasing stiffness, characterized by the parameter $z = ν{Δt}^{n} < 0$, the maximum of the Courant number $\\mathrm{CFL}_{\\rm max}$ of the ADER-DG numerical method increases.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-22",
+      "publication_date_source": "https://arxiv.org/abs/2610.30852v1",
+      "version_date": "2026-10-22T07:29:03+00:00"
+    },
+    {
+      "id": "2610.30806",
+      "version_id": "2610.30806v1",
+      "title": "Astrometric detection of rocky exoplanets from inexpensive space platforms",
+      "abstract": "The detection of orbiting exoplanets by way of astrometric monitoring of the host star to reveal gravitationally induced reflex motion requires extreme precision and measurement stability when targeting Earth-mass objects. Despite this, astrometry is widely regarded as the most promising avenue for the most desired of all targets: true Earth analogue systems in the solar neighbourhood. Formerly thought to require flagship class investment, recently several smaller concepts such as the TOLIMAN and SHERA missions have shown that detections are possible, at least in principle, from more modest space platforms. A key enabling feature is that these missions exploit narrow-angle astrometry. Observing only multiple star systems where the target provides its own astrometric reference greatly alleviates the challenges confronted by traditional astrometry with its reliance on distant, faint field stars. This principle underlies the TOLIMAN mission, for which progress and status is reported. However, only a tiny handful of nearby star systems are suited to such a TOLIMAN-like architecture. This paper discusses speculative optical concepts featuring ultra-stable telescopes of modest (<0.5m) aperture designed for astrometric monitoring of isolated single stars at the micro-arcsecond scales required for the discovery of Earth mass objects orbiting sun-like stars in temperate orbits. In simulation, highly sought-after neighbourhood systems such as Epsilon Eridani and Tau Ceti can be exhaustively searched for rocky planets with dedicated observing campaigns spanning several years, all from relatively inexpensive orbital platforms.",
+      "published": "2026-10-22T06:31:47Z",
+      "updated": "2026-10-22T06:31:47Z",
+      "authors": [
+        "Peter G. Tuthill",
+        "George Ayad",
+        "Donald G. Dansereau",
+        "Thomas Holland",
+        "Connor J. Langford",
+        "Milo Langker",
+        "Kieran Larkin",
+        "Grace Piroscia",
+        "J. Gordon Robertson",
+        "Karel Valenta",
+        "Tim White",
+        "Asen Christov",
+        "Kyran Grattan",
+        "Sergey Karpov",
+        "Rico Landman",
+        "Pavel Ripka",
+        "Petr Schovánek",
+        "Jeffrey Smith",
+        "Frans Snik",
+        "Simon P. Worden",
+        "Ondřej Zelenka"
+      ],
+      "doi": "10.1117/12.3104426",
+      "categories": [
+        "astro-ph.IM",
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2610.30806",
+      "pdf": "https://arxiv.org/pdf/2610.30806v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-24T01:46:28.639634+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "行星科学拓展阅读",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "["
+      ],
+      "author_affiliations": [
+        {
+          "name": "Peter G. Tuthill",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "George Ayad",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Donald G. Dansereau",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Thomas Holland",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Connor J. Langford",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Milo Langker",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Kieran Larkin",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Grace Piroscia",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "J. Gordon Robertson",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Karel Valenta",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Tim White",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Asen Christov",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Kyran Grattan",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Sergey Karpov",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Rico Landman",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Pavel Ripka",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Petr Schovánek",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Jeffrey Smith",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Frans Snik",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Simon P. Worden",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Ondr̆ej Zelenka",
+          "institutions": [
+            "["
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.30806v1",
+      "intro_en": "The detection of orbiting exoplanets by way of astrometric monitoring of the host star to reveal gravitationally induced reflex motion requires extreme precision and measurement stability when targeting Earth-mass objects. Despite this, astrometry is widely regarded as the most promising avenue for the most desired of all targets: true Earth analogue systems in the solar neighbourhood.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-22",
+      "publication_date_source": "https://arxiv.org/abs/2610.30806v1",
+      "version_date": "2026-10-22T06:31:47+00:00"
+    },
+    {
+      "id": "2610.30594",
+      "version_id": "2610.30594v1",
+      "title": "Detection of Solar-like Oscillations and Granulation at Infrared Wavelengths using JWST",
+      "abstract": "Stellar oscillations and granulation are key probes of stellar convection, one of the most poorly understood processes in stars. Stellar models predict strong wavelength dependence of the amplitudes of oscillations and granulation, but hitherto both processes have only been measured at optical wavelengths. Here we present the first detection of oscillations and granulation at infrared wavelengths, using JWST time-series observations of the F6V main-sequence star WASP-121 that were obtained to study the atmosphere of an exoplanet. We find that the amplitudes of oscillations and granulation decrease with wavelength, consistent with expectations, but with a functional form that deviates from simple blackbody scaling. The detection opens the door to detailed tests of 3D convection models, facilitates the combined modeling of stellar and exoplanet signals in JWST passbands for exoplanet observations, and supports the predicted asteroseismic yields from the infrared time-domain data that will soon be obtained by the Roman Space Telescope.",
+      "published": "2026-10-22T01:54:33Z",
+      "updated": "2026-10-22T01:54:33Z",
+      "authors": [
+        "Angharad Weeks",
+        "Daniel Huber",
+        "Timothy R. Bedding",
+        "Jared Splinter",
+        "Hans Kjeldsen",
+        "Yaguang Li",
+        "Courtney Crawford",
+        "Daniel Hey",
+        "David Lafreniere",
+        "Louis-Phillipe Coulombe",
+        "Nicolas Cowan"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.SR",
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2610.30594",
+      "pdf": "https://arxiv.org/pdf/2610.30594v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-24T01:46:28.639634+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "行星科学拓展阅读",
+      "tags": [
+        "流体与不稳定性 · Fluid dynamics"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [
+        "系外行星观测表征"
+      ],
+      "institutions": [
+        "Sydney Institute for Astronomy, School of Physics, University of Sydney, Sydney, NSW 2006, Australia",
+        "Institute for Astronomy, University of Hawai‘i, 2680 Woodlawn Drive, Honolulu, HI 96822, USA",
+        "Department of Earth &\\& Planetary Sciences, McGill University, 3450 rue University, Montréal, QC, H3A 0E8, Canada",
+        "Stellar Astrophysics Centre, Department of Physics and Astronomy, Aarhus University, Ny Munkegade 120, DK-8000 Aarhus C, Denmark",
+        "Planétarium de Montréal, Espace pour la Vie, 4801 av. Pierre-de Coubertin, Montréal, Canada",
+        "Trottier Institute for Research on Exoplanets, Department of Physics, Université de Montréal, Montréal, Canada",
+        "Department of Physics, McGill University, 3600 rue University, Montréal, QC, H3A 2T8, Canada"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Angharad Weeks",
+          "institutions": [
+            "Sydney Institute for Astronomy, School of Physics, University of Sydney, Sydney, NSW 2006, Australia"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Daniel Huber",
+          "institutions": [
+            "Institute for Astronomy, University of Hawai‘i, 2680 Woodlawn Drive, Honolulu, HI 96822, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Timothy R. Bedding",
+          "institutions": [
+            "Sydney Institute for Astronomy, School of Physics, University of Sydney, Sydney, NSW 2006, Australia"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Jared Splinter",
+          "institutions": [
+            "Department of Earth &\\& Planetary Sciences, McGill University, 3450 rue University, Montréal, QC, H3A 0E8, Canada"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Hans Kjeldsen",
+          "institutions": [
+            "Stellar Astrophysics Centre, Department of Physics and Astronomy, Aarhus University, Ny Munkegade 120, DK-8000 Aarhus C, Denmark"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Yaguang Li",
+          "institutions": [
+            "Institute for Astronomy, University of Hawai‘i, 2680 Woodlawn Drive, Honolulu, HI 96822, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Courtney Crawford",
+          "institutions": [
+            "Sydney Institute for Astronomy, School of Physics, University of Sydney, Sydney, NSW 2006, Australia"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Daniel Hey",
+          "institutions": [
+            "Institute for Astronomy, University of Hawai‘i, 2680 Woodlawn Drive, Honolulu, HI 96822, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "David Lafrenière",
+          "institutions": [
+            "Department of Earth &\\& Planetary Sciences, McGill University, 3450 rue University, Montréal, QC, H3A 0E8, Canada"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Louis-Phillipe Coulombe",
+          "institutions": [
+            "Planétarium de Montréal, Espace pour la Vie, 4801 av. Pierre-de Coubertin, Montréal, Canada",
+            "Trottier Institute for Research on Exoplanets, Department of Physics, Université de Montréal, Montréal, Canada"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Nicolas Cowan",
+          "institutions": [
+            "Department of Earth &\\& Planetary Sciences, McGill University, 3450 rue University, Montréal, QC, H3A 0E8, Canada",
+            "Department of Physics, McGill University, 3600 rue University, Montréal, QC, H3A 2T8, Canada"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.30594v1",
+      "intro_en": "Stellar oscillations and granulation are key probes of stellar convection, one of the most poorly understood processes in stars. Stellar models predict strong wavelength dependence of the amplitudes of oscillations and granulation, but hitherto both processes have only been measured at optical wavelengths.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-22",
+      "publication_date_source": "https://arxiv.org/abs/2610.30594v1",
+      "version_date": "2026-10-22T01:54:33+00:00"
+    },
     {
       "id": "2610.28736",
       "version_id": "2610.28736v1",
@@ -2978,8 +4794,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-10-21",
       "publication_date_source": "https://arxiv.org/abs/2610.30028v1",
-      "version_date": "2026-10-21T16:52:20+00:00",
-      "doi": "10.1117/12.3104260"
+      "doi": "10.1117/12.3104260",
+      "version_date": "2026-10-21T16:52:20+00:00"
     },
     {
       "id": "2602.16043",
@@ -3053,8 +4869,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-02-17",
       "publication_date_source": "https://arxiv.org/abs/2602.16043v2",
-      "version_date": "2026-10-20T20:09:24+00:00",
-      "doi": "10.3847/1538-4357/ae47fb"
+      "doi": "10.3847/1538-4357/ae47fb",
+      "version_date": "2026-10-20T20:09:24+00:00"
     },
     {
       "id": "2604.11904",
@@ -3348,8 +5164,8 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-04-13",
       "publication_date_source": "https://arxiv.org/abs/2604.11904v3",
-      "version_date": "2026-10-21T14:36:45+00:00",
-      "doi": "10.1051/0004-6361/202558711"
+      "doi": "10.1051/0004-6361/202558711",
+      "version_date": "2026-10-21T14:36:45+00:00"
     },
     {
       "id": "2609.01585",
@@ -5028,7 +6844,16 @@
       "abstract": "Successful prediction of the interaction between turbulent flows and river ecosystems is essential for flood management, development of mitigation strategies, and infrastructure protection. Natural riverbeds consist of bed materials of multiple grain sizes that interact with turbulence differently, leading to spatial classification of particle sizes. Such particle sorting processes can only be captured by models capable of handling multiple grain sizes. We present a numerical framework that couples large-eddy simulation with a multi-grain-size sediment transport module to track multiple grain size classes, their local fractions within the bed-load layer, and bed evolution. A laboratory experiment was conducted in a flume with multi-size bed material to examine sediment particle redistribution and sorting. Measured sediment grain size distributions and bed elevations were used to validate the numerical framework. The results of the multi-grain-size sediment transport model for bed deformation were then compared against those of a uniform sediment transport model, demonstrating that the former reduces the prediction errors relative to the experimental measurements from 37.98 to 3.83 percent for maximum scour depth and from 48.35 to 11.54 percent for maximum deposition height. The validated numerical framework was also applied to large-scale meandering rivers with multi-grain bed material, simulating their bed deformation and sediment sorting. The simulation results revealed the formation of particle sorting patterns in meandering rivers, with coarser and finer sediment particles accumulating near the erosional depression (scour) and depositional (point bar) regions, respectively. These findings support the coupled framework's ability to predict sediment particle sorting and highlight the importance of representing bed material heterogeneity in numerical modeling of meandering rivers.",
       "published": "2026-10-21T01:53:01Z",
       "updated": "2026-10-22T04:02:48.702666+00:00",
-      "authors": [],
+      "authors": [
+        "Mehrshad Gholami Anjiraki",
+        "Gabriel Narh",
+        "Jonathan Craig",
+        "Mustafa Meriç Aksen",
+        "Samin Shapourmiandouab",
+        "Ali Farhadzadeh",
+        "Tao Xiang",
+        "Ali Khosronejad"
+      ],
       "doi": "",
       "categories": [
         "physics.flu-dyn",
@@ -5112,11 +6937,60 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-10-21",
       "publication_date_source": "https://arxiv.org/abs/2610.29072v1",
-      "authors_source": null,
+      "authors_source": "https://arxiv.org/abs/2610.29072v1",
       "authors_raw": "Mehrshad Gholami Anjiraki, Gabriel Narh, Jonathan Craig, Mustafa Meri\\c{c} Aksen, Samin Shapourmiandouab, Ali Farhadzadeh, Tao Xiang, Ali Khosronejad",
       "date_kind": "published",
       "announcement_type": "new",
       "version_date": "2026-10-21T01:53:01+00:00"
+    },
+    {
+      "id": "2610.28575",
+      "version_id": "2610.28575v2",
+      "title": "A sub-Earth-sized TESS planet candidate in the nearby M-dwarf binary GJ 774, most likely orbiting GJ 774 A (TIC 351339274)",
+      "abstract": "Small planets transiting the nearest M dwarfs are the terrestrial planets most accessible to detailed characterisation. We report a sub-Earth-sized transiting planet candidate in the wide (17.6\") M-dwarf binary GJ 774 at 12.86 pc, most likely orbiting the M2.5 primary GJ 774 A (TIC 351339274). The signal was a SPOC multi-sector threshold-crossing event (MES = 7.95) and is not a TESS Object of Interest. In eight TESS sectors (2019-2026) a 1.28-h transit recurs every 4.225138 +/- 0.000010 d with a box-mean depth of 365 +/- 32 ppm in A's light. The 2026 data, which entered neither the SPOC search nor our selection, show it at the ephemeris predicted from 2019-2023 data (304 +/- 43 ppm; none of 10^5 phase-scrambled versions of the 2026 data is as deep). The per-target false-alarm probability is < 0.03 at 95%. Odd/even, secondary-eclipse, archival-plate and Gaia radial-velocity tests exclude unrelated blended eclipsing binaries and eclipsing companions on 4.2-d orbits, and hierarchical eclipsing binaries are improbable. The stars are 0.85 TESS pixel apart, so the TRICERATOPS false-positive probability (0.26) is set by a planet on GJ 774 B. B is disfavoured because its own light does not dim enough: PRF-deblended photometry gives 109 +/- 115 ppm in B's light, against 1089 ppm required if B were the host. Conditional on a point source at A or at B, the joint host model gives P(A)=0.59-0.97 (0.97 for the native target-pixel baseline). Over all sectors the PRF photometry is consistent with A, but in the out-of-sample 2026 data 40% of the deficit appears at B's position, an unexplained 2-3 sigma (PSF-model and depth dependent) tension with host A. On A the planet has R_p=0.70 +/- 0.06 R_Earth, S=15.0 +/- 1.8 S_Earth and T_eq=548 +/- 16 K. It is not validated; resolved ground-based photometry of the pair would test host B directly.",
+      "published": "2026-10-20T17:32:06Z",
+      "updated": "2026-10-22T14:51:52Z",
+      "authors": [
+        "Jaden Tripp"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP",
+        "astro-ph.SR"
+      ],
+      "url": "https://arxiv.org/abs/2610.28575",
+      "pdf": "https://arxiv.org/pdf/2610.28575v2",
+      "source": "arXiv",
+      "first_seen": "2026-10-24T01:46:28.639634+00:00",
+      "version_changed": false,
+      "topics": [
+        "detection"
+      ],
+      "matches": {
+        "detection": [
+          "radial velocity",
+          "secondary eclipse"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：radial velocity、secondary eclipse",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 43,
+      "fit_matches": [
+        "系外行星观测表征"
+      ],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2610.28575v2",
+      "intro_en": "Small planets transiting the nearest M dwarfs are the terrestrial planets most accessible to detailed characterisation. We report a sub-Earth-sized transiting planet candidate in the wide (17.6\") M-dwarf binary GJ 774 at 12.86 pc, most likely orbiting the M2.5 primary GJ 774 A (TIC 351339274).",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-21",
+      "publication_date_source": "https://arxiv.org/abs/2610.28575v2",
+      "version_date": "2026-10-22T14:51:52+00:00"
     },
     {
       "id": "2610.27940",
@@ -5769,6 +7643,65 @@
       "publication_date": "2026-10-20",
       "publication_date_source": "https://arxiv.org/abs/2610.26694v2",
       "version_date": "2026-10-20T03:05:02+00:00"
+    },
+    {
+      "id": "2610.26056",
+      "version_id": "2610.26056v2",
+      "title": "A 36.34-day Sub-Neptune Candidate Transiting the Nearby K Dwarf TIC 402710280",
+      "abstract": "Transiting sub-Neptunes on orbits longer than a month are rare around bright stars. We report a candidate with a 36.34-day period around TIC 402710280, a $V = 10.0$ K dwarf at 66.8 pc that the Transiting Exoplanet Survey Satellite (TESS) has observed only in full-frame images. Four transits from 2021 to 2026, reduced by three independent pipelines, have consistent depths (mean $2092 \\pm 47$ ppm) and a duration of $5.27 \\pm 0.05$ h. Two are 36.36 days apart. The light curves exclude every shorter period consistent with both down to one day, and the duration disfavors still shorter ones, leaving $P = 36.33986 \\pm 0.00051$ d. The candidate's radius is $3.75 \\pm 0.22\\,R_\\oplus$ and its equilibrium temperature $498 \\pm 21$ K. Difference-image centroids place the signal $1.5'' \\pm 1.3''$ from the target, and eclipse models of the only nearby Gaia source, $3.5''$ away, fit worse than a planet by $Δχ^2 \\geq 142$ for every main-sequence pair. TRICERATOPS gives a false-positive probability of $0.003 \\pm 0.004$; without high-resolution imaging, the object remains a candidate. The transit times scatter about a linear ephemeris by 21.8 min (rms), and an independent reduction reproduces the largest departure. Four transits cannot separate timing systematics from transit-timing variations. A second signal, of $407 \\pm 26$ ppm at 3.78 days, may come from the target, an unresolved companion, or the background star. We predict a transit in TESS Sector 114 on 2027 February 19.",
+      "published": "2026-10-19T09:17:48Z",
+      "updated": "2026-10-22T08:05:30Z",
+      "authors": [
+        "Rishit Vora"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2610.26056",
+      "pdf": "https://arxiv.org/pdf/2610.26056v2",
+      "source": "arXiv",
+      "first_seen": "2026-10-24T01:46:28.639634+00:00",
+      "version_changed": false,
+      "topics": [
+        "detection",
+        "orbital"
+      ],
+      "matches": {
+        "detection": [
+          "transit timing"
+        ],
+        "orbital": [
+          "transit timing variations"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：transit timing、transit timing variations",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 46,
+      "fit_matches": [],
+      "institutions": [
+        "Independent Researcher, Bengaluru, India"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Rishit Vora",
+          "institutions": [
+            "Independent Researcher, Bengaluru, India"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.26056v2",
+      "intro_en": "Transiting sub-Neptunes on orbits longer than a month are rare around bright stars. We report a candidate with a 36.34-day period around TIC 402710280, a $V = 10.0$ K dwarf at 66.8 pc that the Transiting Exoplanet Survey Satellite (TESS) has observed only in full-frame images.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-19",
+      "publication_date_source": "https://arxiv.org/abs/2610.26056v2",
+      "version_date": "2026-10-22T08:05:30+00:00"
     },
     {
       "id": "2610.21566",
@@ -16980,6 +18913,48 @@
       "date_kind": "published",
       "announcement_type": "new",
       "version_date": "2026-09-30T01:46:37+00:00"
+    },
+    {
+      "id": "2609.38654",
+      "version_id": "2609.38654v3",
+      "title": "Directional Control of Droplet Motion via Geometric Gating",
+      "abstract": "We explore new methods for inducing the movement of water droplets on elastomeric substrates, such as polydimethylsiloxane (PDMS). Our approach builds upon the well-known phenomenon that water droplets move easily across these substrates when swelled w,ith silicone oil. While designing shallow open channels and traps on a PDMS film offers a simple way to control a droplet's trajectory by tilting the substrate in two orthogonal directions, this method is poorly suited for manipulating multiple droplets simultaneously. To address this limitation, we introduce two new methods. The first method utilizes a plano-concave PDMS platform with a radius of curvature significantly larger than the size of the droplet and its translation distance. When the system's configuration is altered, this curved substrate consistently guides the droplet along a curved geodesic. The second method incorporates diode-like gates on the PDMS. These gates are created on either flat or plano-concave PDMS films by embedding thin, rigid plates into the elastomer prior to crosslinking, followed by swelling in silicone oil. This process generates sigmoidal steps that restrict droplet motion to a single direction. Finally, we demonstrate how combining these two strategies enables various forms of directed motion for both single and multiple droplets.",
+      "published": "2026-09-29T23:20:27Z",
+      "updated": "2026-10-22T13:29:59Z",
+      "authors": [
+        "Manoj K. Chaudhury",
+        "Vanessa Elias",
+        "Michelle Fruge"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn",
+        "cond-mat.soft"
+      ],
+      "url": "https://arxiv.org/abs/2609.38654",
+      "pdf": "https://arxiv.org/pdf/2609.38654v3",
+      "source": "arXiv",
+      "first_seen": "2026-10-24T01:46:28.639634+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2609.38654v3",
+      "intro_en": "We explore new methods for inducing the movement of water droplets on elastomeric substrates, such as polydimethylsiloxane (PDMS). Our approach builds upon the well-known phenomenon that water droplets move easily across these substrates when swelled w,ith silicone oil.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-09-30",
+      "publication_date_source": "https://arxiv.org/abs/2609.38654v3",
+      "version_date": "2026-10-22T13:29:59+00:00"
     },
     {
       "id": "2609.36831",
@@ -28789,11 +30764,11 @@
     },
     {
       "id": "2606.00649",
-      "version_id": "2606.00649v3",
+      "version_id": "2606.00649v4",
       "title": "Linear causality and stability constraints on relativistic second-order magnetohydrodynamics",
       "abstract": "In this work, we construct a theoretical framework for relativistic second-order magnetohydrodynamics based on entropy current analysis. The formalism consistently incorporates finite relaxation dynamics of the dissipative fluxes, providing a transient framework suitable for analyzing linear stability and short-wavelength causality. Utilizing linear mode analysis, we investigate the constraints imposed by causality and stability on this anisotropic system. By linearizing the theory around a homogeneous equilibrium state, we identify the magnetosonic, Alfvén, and charge-diffusion sectors, together with their coupling terms. For each sector, we derive asymptotic dispersion relations in both the long-wavelength (small-$k$) and short-wavelength (large-$k$) regimes, validating them against exact numerical roots. Our numerical analysis confirms the accuracy of these asymptotic solutions and uncovers a nontrivial angular dependence, especially near special propagation directions where the ordinary momentum expansion becomes less reliable. By evaluating the large-$k$ behavior of the propagating branches alongside the damping properties of non-hydrodynamic modes, we delineate the corresponding causality constraints. We find that the admissible linear causal domain is governed by the interplay between propagation direction, anisotropic transport coefficients, and relaxation times, with the resulting bounds being intrinsically mode-dependent. These findings provide a systematic theoretical basis for investigating linear stability and short-wavelength causality in relativistic magnetohydrodynamics beyond the first-order approximation.",
       "published": "2026-05-30T09:52:43Z",
-      "updated": "2026-10-15T03:20:54Z",
+      "updated": "2026-10-22T14:03:47Z",
       "authors": [
         "Yiwei Qiu",
         "Duan She",
@@ -28803,13 +30778,14 @@
       "categories": [
         "physics.flu-dyn",
         "astro-ph.HE",
-        "hep-ph"
+        "hep-ph",
+        "nucl-th"
       ],
       "url": "https://arxiv.org/abs/2606.00649",
-      "pdf": "https://arxiv.org/pdf/2606.00649v3",
+      "pdf": "https://arxiv.org/pdf/2606.00649v4",
       "source": "arXiv",
       "first_seen": "2026-10-16T01:37:47.382818+00:00",
-      "version_changed": false,
+      "version_changed": true,
       "topics": [],
       "matches": {},
       "status": "unmatched",
@@ -28822,43 +30798,17 @@
       "fit_matches": [
         "理论机制与尺度关系"
       ],
-      "institutions": [
-        "Institute of Particle Physics and Key Laboratory of Quark and Lepton Physics (MOE), Central China Normal University, Wuhan 430079, China",
-        "Institute of Physics, Henan Academy of Sciences, Zhengzhou 450046, China"
-      ],
-      "author_affiliations": [
-        {
-          "name": "Yiwei Qiu",
-          "institutions": [
-            "Institute of Particle Physics and Key Laboratory of Quark and Lepton Physics (MOE), Central China Normal University, Wuhan 430079, China"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "Duan She",
-          "institutions": [
-            "Institute of Particle Physics and Key Laboratory of Quark and Lepton Physics (MOE), Central China Normal University, Wuhan 430079, China",
-            "Institute of Physics, Henan Academy of Sciences, Zhengzhou 450046, China"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "Defu Hou",
-          "institutions": [
-            "Institute of Particle Physics and Key Laboratory of Quark and Lepton Physics (MOE), Central China Normal University, Wuhan 430079, China"
-          ],
-          "orcid": null
-        }
-      ],
-      "affiliation_status": "verified",
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "pending",
       "affiliation_source": "https://arxiv.org/html/2606.00649v3",
       "intro_en": "In this work, we construct a theoretical framework for relativistic second-order magnetohydrodynamics based on entropy current analysis. The formalism consistently incorporates finite relaxation dynamics of the dissipative fluxes, providing a transient framework suitable for analyzing linear stability and short-wavelength causality.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-05-30",
-      "publication_date_source": "https://arxiv.org/abs/2606.00649v3",
-      "version_date": "2026-10-15T03:20:54+00:00"
+      "publication_date_source": "https://arxiv.org/abs/2606.00649v4",
+      "version_date": "2026-10-22T14:03:47+00:00"
     },
     {
       "id": "2605.26764",
@@ -28995,6 +30945,46 @@
       "publication_date_source": "https://arxiv.org/abs/2605.23166v3",
       "author_affiliation_status": "unavailable",
       "version_date": "2026-09-29T06:31:03+00:00"
+    },
+    {
+      "id": "2605.21437",
+      "version_id": "2605.21437v2",
+      "title": "Evaluating Neural Probabilistic Forecasts of Sparse Earthquake Counts: What Survives a Careful Evaluation",
+      "abstract": "We revisit a neural negative binomial model for weekly earthquake counts on a 3 x 3 degree grid over the Tian Shan and Pamir, and ask which of its conclusions survive a careful evaluation. At the completeness magnitude of 4.5, the 144-week test period holds 2448 cell-weeks; six cell-weeks, in five distinct weeks, have three or more events. Two conclusions survive. First, Poisson forecasts, temporal ETAS included, understate the probability of such a busy week: ETAS expects 0.72 where six occurred, a shortfall by a factor of 8.3 (p = 0.00009, exact test). One dispersion parameter removes it (ETAS with dispersion expects 4.45, p = 0.58); simulating aftershock chains within the week also reproduces the tail but overshoots the total count by about a quarter. Second, the network's advantage over a linear model disappears once that model has an intercept per cell: the remaining gain is 3.4% of deviance, not significant (p = 0.57 over five test years), and it comes from one cell-week out of the 4420 scored; without it the network is 0.7% worse. A blind test on 2024 to September 2026, with every model fitted on data through 2023, confirms the tail result: Poisson forecasts are rejected (p from 3 x 10^-8 to 0.001), dispersion models are not (p between 0.25 and 0.84), except the NB GLM, whose level blew up out of sample and which is rejected at p = 0.003. Out of sample, model families differ in how they extrapolate beyond the training range, not in the per-cell term. We also measure the evaluation traps met on the way: a biased reference level, a single seed (five of six effects in v1's results table change sign), too few bootstrap resamples, and a threshold below completeness, which shrinks the ETAS shortfall from 8.3 to 2.8 times. This version replaces preprint v1; Section 7 lists the corrections.",
+      "published": "2026-05-20T17:27:27Z",
+      "updated": "2026-10-22T13:53:06Z",
+      "authors": [
+        "Alim Igilik"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.geo-ph",
+        "cs.LG",
+        "stat.ML"
+      ],
+      "url": "https://arxiv.org/abs/2605.21437",
+      "pdf": "https://arxiv.org/pdf/2605.21437v2",
+      "source": "arXiv",
+      "first_seen": "2026-10-24T01:46:28.639634+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "pending",
+      "intro_en": "We revisit a neural negative binomial model for weekly earthquake counts on a 3 x 3 degree grid over the Tian Shan and Pamir, and ask which of its conclusions survive a careful evaluation. At the completeness magnitude of 4.5, the 144-week test period holds 2448 cell-weeks; six cell-weeks, in five distinct weeks, have three or more events.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-05-21",
+      "publication_date_source": "https://arxiv.org/abs/2605.21437v2",
+      "version_date": "2026-10-22T13:53:06+00:00"
     },
     {
       "id": "2605.13417",
@@ -29373,6 +31363,56 @@
       "date_kind": "published",
       "announcement_type": "replace",
       "version_date": "2026-10-21T10:43:52+00:00"
+    },
+    {
+      "id": "2604.24244",
+      "version_id": "2604.24244v2",
+      "title": "A Particle Multi-Relaxation Bhatnagar-Gross-Krook Method for Rarefied Monatomic Gas Mixtures",
+      "abstract": "Kinetic models based on the Bhatnagar-Gross-Krook (BGK) framework provide an efficient alternative to the Boltzmann equation for rarefied gas flows; however, existing formulations for gas mixtures remain limited in representing pair-dependent relaxation processes and recovering correct Navier-Stokes-Fourier (NSF) transport behavior. A particle-based unified BGK (UBGK) model for monatomic gas mixtures is developed by extending the single-species UBGK framework to a multi-relaxation formulation. The model preserves the pairwise interaction structure of the mixture Boltzmann equation, enabling independent species-pair relaxations for an arbitrary number of species. The relaxation properties of the mixture UBGK model are determined by matching the production terms to those of the Boltzmann equation, ensuring correct NSF-level transport behavior. The model is implemented within the particle framework and validated against DSMC using four benchmark cases: homogeneous relaxation, Poiseuille flow, Couette flow, and hypersonic flow around a cylinder. The results demonstrate that the mixture UBGK model captures species-specific non-equilibrium effects, including species-dependent differences in velocity and temperature, across a range of mole fractions and Knudsen numbers in good agreement with DSMC. Furthermore, cost and accuracy analyses show that the mixture UBGK model becomes more efficient than DSMC at sufficiently large time step sizes, but its first-order accuracy suggests further improvement through higher-order schemes.",
+      "published": "2026-04-27T09:54:44Z",
+      "updated": "2026-10-22T09:25:00Z",
+      "authors": [
+        "Inchan Kim",
+        "Joonbeom Kim",
+        "Woonghwi Park",
+        "Eunji Jun"
+      ],
+      "doi": "10.1063/5.0340698",
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2604.24244",
+      "pdf": "https://arxiv.org/pdf/2604.24244v2",
+      "source": "arXiv",
+      "first_seen": "2026-10-24T01:46:28.639634+00:00",
+      "version_changed": false,
+      "topics": [
+        "methods"
+      ],
+      "matches": {
+        "methods": [
+          "boltzmann",
+          "navier stokes"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "流体与不稳定性 · Fluid dynamics"
+      ],
+      "method": "keyword",
+      "fit_score": 20,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "pending",
+      "intro_en": "Kinetic models based on the Bhatnagar-Gross-Krook (BGK) framework provide an efficient alternative to the Boltzmann equation for rarefied gas flows; however, existing formulations for gas mixtures remain limited in representing pair-dependent relaxation processes and recovering correct Navier-Stokes-Fourier (NSF) transport behavior. A particle-based unified BGK (UBGK) model for monatomic gas mixtures is developed by extending the single-species UBGK framework to a multi-relaxation formulation.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-04-27",
+      "publication_date_source": "https://arxiv.org/abs/2604.24244v2",
+      "version_date": "2026-10-22T09:25:00+00:00"
     },
     {
       "id": "2604.22926",
@@ -30391,6 +32431,113 @@
       "publication_date_source": "https://arxiv.org/abs/2512.18289v3",
       "author_affiliation_status": "unavailable",
       "version_date": "2026-09-29T06:13:25+00:00"
+    },
+    {
+      "id": "2511.22899",
+      "version_id": "2511.22899v2",
+      "title": "Order-Disorder in Fe-Si Alloys: Implications for Seismic and Transport Properties of Earth's Inner Core",
+      "abstract": "Understanding the structure and dynamics of Earth's inner core is essential for constraining its composition, thermal evolution, and seismic behavior. Silicon is widely considered a major light element in the core. Here, we use first-principles molecular dynamics and thermodynamic modeling to investigate the structural, elastic, and transport properties of iron-silicon (Fe-Si) alloys under inner-core conditions. By computing the Gibbs free energies of multiple solid phases, including ordered B2, hexagonal close-packed (hcp), face-centered cubic (fcc), and body-centered cubic (bcc) Fe-Si, we construct a phase diagram relevant to inner-core pressures and temperatures. We identify a pronounced miscibility gap between hcp and cubic Fe--Si phases, with phase coexistence over approximately 6--11 wt\\% Si at 6000 K. The cubic phase exhibits a strong order-dependent elastic response, with disordered bcc showing a large intrinsic shear anisotropy (22.9\\% at 6000 K), in contrast to the nearly isotropic hcp phase (0.6\\%). Meanwhile, disordered bcc Fe--Si produces shear wave velocities ($V_S=3.73$ km$\\cdot$s$^{-1}$) and Poisson's ratios comparable with seismological constraints. In addition, disordered bcc Fe--Si exhibits a lower thermal conductivity than hcp Fe--Si, providing a quantitative constraint on phase-dependent electronic heat transport. These results demonstrate that chemical ordering strongly controls the stability and physical properties of cubic Fe--Si alloys, and suggest that metastable or localized cubic Fe--Si phases may contribute to the structural and transport complexity of Earth's inner core.",
+      "published": "2025-11-28T06:07:24Z",
+      "updated": "2026-10-22T13:15:49Z",
+      "authors": [
+        "Cong Liu",
+        "Xin Deng",
+        "R. E. Cohen"
+      ],
+      "doi": "",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "physics.geo-ph"
+      ],
+      "url": "https://arxiv.org/abs/2511.22899",
+      "pdf": "https://arxiv.org/pdf/2511.22899v2",
+      "source": "arXiv",
+      "first_seen": "2026-10-24T01:46:28.639634+00:00",
+      "version_changed": false,
+      "topics": [
+        "evolution"
+      ],
+      "matches": {
+        "evolution": [
+          "core conditions"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "热输送 · Heat transport"
+      ],
+      "method": "keyword",
+      "fit_score": 36,
+      "fit_matches": [
+        "理论机制与尺度关系"
+      ],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "pending",
+      "intro_en": "Understanding the structure and dynamics of Earth's inner core is essential for constraining its composition, thermal evolution, and seismic behavior. Silicon is widely considered a major light element in the core.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2025-11-28",
+      "publication_date_source": "https://arxiv.org/abs/2511.22899v2",
+      "version_date": "2026-10-22T13:15:49+00:00"
+    },
+    {
+      "id": "2511.16922",
+      "version_id": "2511.16922v3",
+      "title": "Perspiration vapor lightens near skin air but hinders human evaporative cooling in arid heat",
+      "abstract": "Sweat evaporation is the body's primary cooling mechanism, yet the physical factors governing it are not fully understood. We identify a dueling buoyancy effect in the context of the human body, in which perspiration vapor reduces the near skin air density, counteracting the downward flow driven by cooling of warm air upon contact with the skin. In hot, arid, stagnant environments, this opposing buoyancy suppresses free convection and can reduce sweat evaporation by more than half. As a result, commonly used thermoregulation models can substantially underpredict body temperature (e.g., by 1C after 2 hours of exposure to typical Arizona summer conditions). We develop compact, physics informed models for free convective heat transfer coefficients across wide temperature and humidity ranges, enabling improved thermoregulation modeling and thermal audits. These results enhance understanding of human heat balance and support more accurate heat stress assessment to inform behavioral, infrastructural, and policy decisions for extreme heat adaptations.",
+      "published": "2025-11-21T03:23:08Z",
+      "updated": "2026-10-22T03:19:10Z",
+      "authors": [
+        "Shri H. Viswanathan",
+        "Ankit Joshi",
+        "Isabella DeClair",
+        "Bryce Twidwell",
+        "Muhammad Abdullah",
+        "Lyle Bartels",
+        "Faisal Abedin",
+        "Joseph Rotella",
+        "Cibin T. Jose",
+        "Konrad Rykaczewski"
+      ],
+      "doi": "10.1126/sciadv.aee4703",
+      "categories": [
+        "physics.flu-dyn",
+        "physics.bio-ph"
+      ],
+      "url": "https://arxiv.org/abs/2511.16922",
+      "pdf": "https://arxiv.org/pdf/2511.16922v3",
+      "source": "arXiv",
+      "first_seen": "2026-10-24T01:46:28.639634+00:00",
+      "version_changed": false,
+      "topics": [
+        "methods"
+      ],
+      "matches": {
+        "methods": [
+          "physics informed"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "流体与不稳定性 · Fluid dynamics"
+      ],
+      "method": "keyword",
+      "fit_score": 20,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "pending",
+      "intro_en": "Sweat evaporation is the body's primary cooling mechanism, yet the physical factors governing it are not fully understood. We identify a dueling buoyancy effect in the context of the human body, in which perspiration vapor reduces the near skin air density, counteracting the downward flow driven by cooling of warm air upon contact with the skin.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2025-11-21",
+      "publication_date_source": "https://arxiv.org/abs/2511.16922v3",
+      "version_date": "2026-10-22T03:19:10+00:00"
     },
     {
       "id": "2511.07227",
@@ -35654,6 +37801,103 @@
       "version_date": "2026-10-01T17:50:02+00:00"
     },
     {
+      "id": "2510.13475",
+      "version_id": "2510.13475v4",
+      "title": "Nonhomogeneous elastic turbulence in the two-dimensional Taylor-Couette flow",
+      "abstract": "Elastic turbulence is a spatially and temporally disordered flow state appearing in viscoelastic fluids at vanishing fluid inertia and large elasticity. The resulting flows have broad technological interest, particularly to enhance mixing and heat transfer in microdevices. Although its experimental characterization is now well established in different setups, its theoretical understanding and numerical reproducibility remain challenging, especially in wall-bounded geometries. By means of numerical simulations, we investigate the onset of elastic turbulence and the characteristics of the developed turbulent-like states in the two-dimensional, confined, Taylor-Couette system. First, we characterize the purely elastic instability, addressing previously contrasting evidences. We then show that the fully nonlinear dynamics are weakly anisotropic and strongly nonhomogeneous. Indeed, they are confined in a dynamically active region adjacent to the inner wall, akin to the elastic boundary layer from previous predictions. Within this region,in spite of some non-negligible deviations due to the nonhomeogeneity of our setup, the statistical and spectral turbulent properties are to reasonable extent not far from the theoretical expectations and experimental observations.",
+      "published": "2025-10-15T12:20:32Z",
+      "updated": "2026-10-22T15:01:46Z",
+      "authors": [
+        "Zhongxuan Hou",
+        "Stefano Berti",
+        "Teodor Burghelea",
+        "Francesco Romanò"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2510.13475",
+      "pdf": "https://arxiv.org/pdf/2510.13475v4",
+      "source": "arXiv",
+      "first_seen": "2026-10-24T01:46:28.639634+00:00",
+      "version_changed": false,
+      "topics": [
+        "methods"
+      ],
+      "matches": {
+        "methods": [
+          "turbulence"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "流体与不稳定性 · Fluid dynamics",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 20,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "pending",
+      "intro_en": "Elastic turbulence is a spatially and temporally disordered flow state appearing in viscoelastic fluids at vanishing fluid inertia and large elasticity. The resulting flows have broad technological interest, particularly to enhance mixing and heat transfer in microdevices.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2025-10-15",
+      "publication_date_source": "https://arxiv.org/abs/2510.13475v4",
+      "version_date": "2026-10-22T15:01:46+00:00"
+    },
+    {
+      "id": "2507.21602",
+      "version_id": "2507.21602v4",
+      "title": "On buoyancy in disperse two-phase flow and its impact on the well-posedness of two-fluid models",
+      "abstract": "The Maxey--Riley--Gatignol equation for the flow around a sphere at low particle Reynolds number tells us that the fluid-particle interaction force decomposes into a contribution from the local flow disturbance caused by the particle's boundary---consisting of the drag, virtual-mass, and history forces, and their Faxén corrections---and another contribution from the stress of the background flow, termed generalized-buoyancy force. There is also a consensus that, for general disperse two-phase flow, the interfacial force density, coupling the average fluid phase and dispersed-phase momentum balances, decomposes in a like manner. However, there has been a long-standing controversy about the physical closure separating the generalized-buoyancy from the interfacial force density, especially whether or not pseudo-stresses, such as the Reynolds stress, should be attributed to the background flow. Furthermore, most existing propositions for this closure involve small-particle approximations. Here, we show that all existing buoyancy closures are inconsistent with particle-resolving numerical simulations and/or at least one of two simple thought experiments designed to determine the roles of pseudo-stresses and small-particle approximations. We then derive the unique consistent closure. It requires no approximation and implies that all stresses and pseudo-stresses in the average fluid phase momentum balance, except the Reynolds stress, fully contribute to the background flow responsible for buoyancy. Remarkably, it exhibits a low-pass filter property, attenuating buoyancy at short wavelengths, that prevents it from causing Hadamard instabilities, constituting a first-principles-based solution to the long-standing ill-posedness problem of two-fluid models. When employing the derived closure, even simplistic two-fluid models are linearly well-posed.",
+      "published": "2025-07-29T09:01:44Z",
+      "updated": "2026-10-22T05:10:08Z",
+      "authors": [
+        "Rui Zhu",
+        "Yulan Chen",
+        "Katharina Tholen",
+        "Zhiguo He",
+        "Thomas Pähtz"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn",
+        "cond-mat.soft"
+      ],
+      "url": "https://arxiv.org/abs/2507.21602",
+      "pdf": "https://arxiv.org/pdf/2507.21602v4",
+      "source": "arXiv",
+      "first_seen": "2026-10-24T01:46:28.639634+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [
+        "理论机制与尺度关系"
+      ],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "pending",
+      "intro_en": "The Maxey--Riley--Gatignol equation for the flow around a sphere at low particle Reynolds number tells us that the fluid-particle interaction force decomposes into a contribution from the local flow disturbance caused by the particle's boundary---consisting of the drag, virtual-mass, and history forces, and their Faxén corrections---and another contribution from the stress of the background flow, termed generalized-buoyancy force. There is also a consensus that, for general disperse two-phase flow, the interfacial force density, coupling the average fluid phase and dispersed-phase momentum balances, decomposes in a like manner.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2025-07-29",
+      "publication_date_source": "https://arxiv.org/abs/2507.21602v4",
+      "version_date": "2026-10-22T05:10:08+00:00"
+    },
+    {
       "id": "2505.22278",
       "version_id": "2505.22278v3",
       "title": "A Moment-Based Shallow Water Model for Coupled Bedload-Suspended Load Transport with Variable Density: Hyperbolicity and Numerical Validation",
@@ -35971,6 +38215,44 @@
       "publication_date": "2024-10-11",
       "publication_date_source": "https://arxiv.org/abs/2410.08573v4",
       "version_date": "2026-09-30T07:22:03+00:00"
+    },
+    {
+      "id": "2409.19927",
+      "version_id": "2409.19927v2",
+      "title": "Tandem jets in crossflow: a one-parameter dilution law for the trajectory and the velocity decay",
+      "abstract": "The front jet of a tandem pair in crossflow is not passive. This paper treats the mean-flow phenomenology and its scaling; the mechanism is left to the companion paper. In 40\\ kHz time-resolved PIV measurements covering nine spacing--velocity-ratio conditions ($L=2d$, $3d$, $4d$; $r\\approx3$, $5$, $7$) and a single-jet baseline, the front-jet $rd$-normalized trajectory lies below the single-jet reference in every condition (near-field segment up to 40\\% shorter), while the shielded rear jet rises above the reference in eight of the nine and penetrates $1.4$--$2.0$ times deeper than the front jet. The mean pressure and reverse-flow statistics are inconsistent with the two classical explanations: the inter-jet region is pressurized rather than sub-atmospheric, the lateral pressure difference across the front jet is weakened rather than enhanced (within reconstruction uncertainty), and the reverse-flow region does not follow the ordering of the modification. In natural coordinates the centerline decay re-scales onto the single-jet law at the effective velocity ratio (seven of nine within 18\\%), so bending and decay are two readouts of one dilution, which whole-trajectory matching condenses into the one-parameter law $r_{\\mathrm{eff}}/r=r/(r+c)$, $c=3.31$, with the velocity ratio as the primary control and the spacing entering through the near-field capacity ($c_h=2.50$--$3.30$). The law has one fitted constant and needs only the single-jet reference family; leave-one-condition-out predictions reproduce each held-out condition within 15\\%, so the procedure is portable to any tandem array in which the gap recirculation closes.",
+      "published": "2024-09-30T04:05:41Z",
+      "updated": "2026-10-22T02:46:59Z",
+      "authors": [
+        "Xunchen Liu"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2409.19927",
+      "pdf": "https://arxiv.org/pdf/2409.19927v2",
+      "source": "arXiv",
+      "first_seen": "2026-10-24T01:46:28.639634+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "pending",
+      "intro_en": "The front jet of a tandem pair in crossflow is not passive. This paper treats the mean-flow phenomenology and its scaling; the mechanism is left to the companion paper.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2024-09-30",
+      "publication_date_source": "https://arxiv.org/abs/2409.19927v2",
+      "version_date": "2026-10-22T02:46:59+00:00"
     }
   ]
 }

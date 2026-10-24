@@ -1,6 +1,1702 @@
 {
-  "generated_at": "2026-10-23T02:01:46.523293+00:00",
+  "generated_at": "2026-10-24T01:56:14.523637+00:00",
   "nodes": [
+    {
+      "id": "c060919391e78c3b",
+      "label": "University of Arizona",
+      "name_zh": "亚利桑那大学",
+      "papers": [
+        "2603.20373",
+        "2603.20377",
+        "2610.19081",
+        "2610.31492",
+        "doi:10.1177/15311074261477497",
+        "doi:10.3847/1538-4357/ae89b5",
+        "doi:10.3847/1538-4357/aea149",
+        "doi:10.3847/2041-8213/aea906"
+      ],
+      "authors": [
+        {
+          "id": "c8a98f7912043684",
+          "name": "Daniel M. Krolikowski",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0001-9626-0613",
+          "papers": [
+            "2610.31492"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "b72004972486e210",
+          "name": "Chad F. Bender",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0003-4384-7220",
+          "papers": [
+            "2610.31492"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "cda144bf1f8045a4",
+          "name": "Andrew Monson",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-0048-2586",
+          "papers": [
+            "2610.31492"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "44789c5d5c8a83e9",
+          "name": "Tyler D. Robinson",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "2610.19081"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "ea3d18d859ed3dfe",
+          "name": "Avery P. Bailey",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "2603.20373",
+            "2603.20377"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "b91e7d4628d5c144",
+          "name": "Andrew N. Youdin",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-3644-8726",
+          "papers": [
+            "2603.20373",
+            "2603.20377"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "96238cbc9a4fa986",
+          "name": "Kaitlin M. Kratter",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0001-5253-1338",
+          "papers": [
+            "2603.20373",
+            "2603.20377"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "7267b76605caf05c",
+          "name": "Tyler D. Robinson",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "doi:10.1177/15311074261477497"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "08f24a340de051a5",
+          "name": "Sukrit Ranjan",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "doi:10.1177/15311074261477497"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "41088349705b90dc",
+          "name": "Sukrit Ranjan",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-5147-9053",
+          "papers": [
+            "doi:10.3847/1538-4357/ae89b5"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "15049a5d876294a8",
+          "name": "Kevin Wagner",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-4309-6343",
+          "papers": [
+            "doi:10.3847/2041-8213/aea906"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "b92a7b12ed326407",
+          "name": "Steve Ertel",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-2314-7289",
+          "papers": [
+            "doi:10.3847/2041-8213/aea906"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "8ffdfb95319b800c",
+          "name": "Jared Carlson",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "doi:10.3847/2041-8213/aea906"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "0f34fecc36210d00",
+          "name": "Gabriel Weible",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0001-8009-8383",
+          "papers": [
+            "doi:10.3847/2041-8213/aea906"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "296ae5451ff71573",
+          "name": "Jacob Isbell",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-1272-6322",
+          "papers": [
+            "doi:10.3847/2041-8213/aea906"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "f19a5c309af6c55d",
+          "name": "Searra Foote",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0001-5477-8588",
+          "papers": [
+            "doi:10.3847/1538-4357/aea149"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "69ceb0bb067d2400",
+          "name": "Tyler D. Robinson",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-3196-414X",
+          "papers": [
+            "doi:10.3847/1538-4357/aea149"
+          ],
+          "unit_papers": {}
+        }
+      ],
+      "units": [],
+      "raw": [
+        "Habitability, Atmospheres, and Biosignatures Laboratory, University of Arizona, Tucson, AZ 85721, USA",
+        "Lunar & Planetary Laboratory, University of Arizona, Tucson, AZ 85721 USA",
+        "Lunar and Planetary Laboratory, University of Arizona, Tucson, Arizona, USA.",
+        "Steward Observatory, University of Arizona, 933 N. Cherry Ave, Tucson, AZ 85721, USA",
+        "Steward Observatory, University of Arizona, 933 North Cherry Avenue, Tucson, AZ 85721-0065, USA",
+        "University of Arizona"
+      ],
+      "verification": {
+        "ror": "https://ror.org/03m2x1q45",
+        "website": "http://www.arizona.edu/",
+        "source": "https://api.ror.org/v2/organizations/03m2x1q45",
+        "checked_at": "2026-09-24"
+      }
+    },
+    {
+      "id": "572758623152e66d",
+      "label": "Carnegie Institution for Science",
+      "name_zh": "卡内基科学研究所",
+      "papers": [
+        "2606.14646",
+        "2609.26894",
+        "2610.31492",
+        "doi:10.1126/science.aea9708",
+        "doi:10.3847/1538-4357/ae969c",
+        "doi:10.3847/1538-4357/ae9a84",
+        "doi:10.3847/2041-8213/aea4ae",
+        "doi:10.3847/2041-8213/aea4af"
+      ],
+      "authors": [
+        {
+          "id": "e0eef56cedbc9e06",
+          "name": "Shubham Kanodia",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0001-8401-4300",
+          "papers": [
+            "2610.31492"
+          ],
+          "unit_papers": {
+            "1e622be9de3491f8": [
+              "2610.31492"
+            ]
+          }
+        },
+        {
+          "id": "e630f196f0bc8584",
+          "name": "Michael Greklek-McKeon",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "2609.26894"
+          ],
+          "unit_papers": {
+            "1e622be9de3491f8": [
+              "2609.26894"
+            ]
+          }
+        },
+        {
+          "id": "a1f5f884e68a8ffd",
+          "name": "Nicole L. Wallack",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "2609.26894"
+          ],
+          "unit_papers": {
+            "1e622be9de3491f8": [
+              "2609.26894"
+            ]
+          }
+        },
+        {
+          "id": "824c1c231e777f83",
+          "name": "Shreyas Vissapragada",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "2609.26894"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "65a1f14de799617b",
+          "name": "Johanna K. Teske",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "2609.26894"
+          ],
+          "unit_papers": {
+            "1e622be9de3491f8": [
+              "2609.26894"
+            ]
+          }
+        },
+        {
+          "id": "ccb8cc2de7b6f8ba",
+          "name": "Peter Gao",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "2606.14646"
+          ],
+          "unit_papers": {
+            "1e622be9de3491f8": [
+              "2606.14646"
+            ]
+          }
+        },
+        {
+          "id": "2fcc0c54da7d880e",
+          "name": "Peter Gao",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-8518-9601",
+          "papers": [
+            "2606.14646",
+            "doi:10.3847/1538-4357/ae9a84",
+            "doi:10.3847/2041-8213/aea4ae",
+            "doi:10.3847/2041-8213/aea4af"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "d7ee5c18b9d9ffc8",
+          "name": "Shreyas Vissapragada",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0003-2527-1475",
+          "papers": [
+            "doi:10.1126/science.aea9708"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "292087ef688ca6d4",
+          "name": "Johanna Teske",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0009-0008-2801-5040",
+          "papers": [
+            "doi:10.1126/science.aea9708"
+          ],
+          "unit_papers": {
+            "1e622be9de3491f8": [
+              "doi:10.1126/science.aea9708"
+            ]
+          }
+        },
+        {
+          "id": "73126a3801e63f9f",
+          "name": "Nicole L. Wallack",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0003-0354-0187",
+          "papers": [
+            "doi:10.1126/science.aea9708"
+          ],
+          "unit_papers": {
+            "1e622be9de3491f8": [
+              "doi:10.1126/science.aea9708"
+            ]
+          }
+        },
+        {
+          "id": "bfd5a6c3f17c788f",
+          "name": "William Misener",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0001-6315-7118",
+          "papers": [
+            "doi:10.1126/science.aea9708",
+            "doi:10.3847/1538-4357/ae969c"
+          ],
+          "unit_papers": {
+            "1e622be9de3491f8": [
+              "doi:10.1126/science.aea9708"
+            ]
+          }
+        },
+        {
+          "id": "357ff9dc2c71e652",
+          "name": "Andrew McWilliam",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0009-0001-3448-1047",
+          "papers": [
+            "doi:10.1126/science.aea9708"
+          ],
+          "unit_papers": {}
+        }
+      ],
+      "units": [
+        {
+          "id": "1e622be9de3491f8",
+          "label": "Earth and Planets Laboratory",
+          "name_zh": "地球与行星实验室",
+          "source": "https://api.ror.org/v2/organizations/04jr01610",
+          "papers": [
+            "2606.14646",
+            "2609.26894",
+            "2610.31492",
+            "doi:10.1126/science.aea9708"
+          ]
+        }
+      ],
+      "raw": [
+        "Carnegie Institution for Science",
+        "Carnegie Science Observatories, 813 Santa Barbara Street, Pasadena, CA 91101, USA",
+        "Carnegie Science Observatories, Pasadena, CA, USA.",
+        "Earth and Planets Laboratory, Carnegie Institution for Science, 5241 Broad Branch Road, NW, Washington, DC 20015, USA",
+        "Earth and Planets Laboratory, Carnegie Institution for Science, Washington DC, USA",
+        "Earth and Planets Laboratory, Carnegie Institution for Science, Washington, DC, USA.",
+        "Earth and Planets Laboratory, Carnegie Science, 5241 Broad Branch Road, NW, Washington, DC 20015, USA",
+        "The Observatories of the Carnegie Institution for Science, 813 Santa Barbara St., Pasadena, CA 91101, USA"
+      ],
+      "verification": {
+        "ror": "https://ror.org/04jr01610",
+        "website": "https://carnegiescience.edu/",
+        "source": "https://api.ror.org/v2/organizations/04jr01610",
+        "checked_at": "2026-09-24"
+      }
+    },
+    {
+      "id": "5d3200af582a6be2",
+      "label": "The University of Texas at Austin",
+      "name_zh": "得克萨斯大学奥斯汀分校",
+      "papers": [
+        "2610.31492",
+        "doi:10.1029/2025je009008",
+        "doi:10.1029/2025je009389",
+        "doi:10.3847/1538-4357/aea404",
+        "doi:10.3847/2041-8213/aea906"
+      ],
+      "authors": [
+        {
+          "id": "2b2fe663a6c550cf",
+          "name": "Jaume Orell-Miquel",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0003-2066-8959",
+          "papers": [
+            "2610.31492"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "2a19ef9bc1c188b4",
+          "name": "Caroline V. Morley",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-4404-0456",
+          "papers": [
+            "2610.31492",
+            "doi:10.3847/1538-4357/aea404"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "911615fb421b2988",
+          "name": "William D. Cochran",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0001-9662-3496",
+          "papers": [
+            "2610.31492"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "33a19e57f737c69a",
+          "name": "A. Mahieux",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0001-5359-7179",
+          "papers": [
+            "doi:10.1029/2025je009008"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "71571d0016008770",
+          "name": "D. B. Goldstein",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0009-0000-3742-1691",
+          "papers": [
+            "doi:10.1029/2025je009008",
+            "doi:10.1029/2025je009389"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "cc379486e28004d1",
+          "name": "P. L. Varghese",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0001-9796-0013",
+          "papers": [
+            "doi:10.1029/2025je009008",
+            "doi:10.1029/2025je009389"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "5f34af3709dd14a1",
+          "name": "L. M. Trafton",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "doi:10.1029/2025je009008"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "626d36b438044bea",
+          "name": "James Mang",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0001-5864-9599",
+          "papers": [
+            "doi:10.3847/2041-8213/aea906"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "5aa927d1d077d630",
+          "name": "Sven Kiefer",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0003-1285-3433",
+          "papers": [
+            "doi:10.3847/1538-4357/aea404"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "7a69de062c208164",
+          "name": "Gregory J. Gosselin",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-4043-0377",
+          "papers": [
+            "doi:10.3847/1538-4357/aea404"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "ff853e16372c98f8",
+          "name": "Sean P. S. Gulick",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0003-4740-9068",
+          "papers": [
+            "doi:10.3847/1538-4357/aea404"
+          ],
+          "unit_papers": {}
+        }
+      ],
+      "units": [],
+      "raw": [
+        "Center for Planetary Systems Habitability, The University of Texas at Austin, USA",
+        "Department of Aerospace Engineering and Engineering Mechanics The University of Texas at Austin Austin TX USA",
+        "Department of Astronomy, University of Texas at Austin, 2515 Speedway, Austin, TX 78712, USA",
+        "McDonald Observatory and Department of Astronomy, The University of Texas at Austin, USA",
+        "The University of Texas at Austin",
+        "The University of Texas at Austin Austin TX USA",
+        "The University of Texas at Austin McDonald Observatory Austin TX USA",
+        "University of Texas at Austin"
+      ],
+      "verification": {
+        "ror": "https://ror.org/00hj54h04",
+        "website": "http://www.utexas.edu/",
+        "source": "https://api.ror.org/v2/organizations/00hj54h04",
+        "checked_at": "2026-09-24"
+      }
+    },
+    {
+      "id": "de85f8377f7fd093",
+      "label": "University of Colorado Boulder",
+      "name_zh": "科罗拉多大学博尔德分校",
+      "papers": [
+        "2610.31492",
+        "doi:10.1029/2025je009008",
+        "doi:10.1029/2025je009581",
+        "doi:10.1029/2025je009605",
+        "doi:10.1029/2026gl124362",
+        "doi:10.1029/2026je009825",
+        "doi:10.1177/15311074261475054",
+        "doi:10.3847/1538-4357/ae8c33",
+        "doi:10.3847/2041-8213/aeb00b"
+      ],
+      "authors": [
+        {
+          "id": "39b4f51980c1b8d7",
+          "name": "Scott A. Diddams",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-2144-0764",
+          "papers": [
+            "2610.31492"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "1e0a10eead7b97d6",
+          "name": "L. W. Esposito",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0003-3381-2016",
+          "papers": [
+            "doi:10.1029/2025je009008"
+          ],
+          "unit_papers": {
+            "3497ffea378e2074": [
+              "doi:10.1029/2025je009008"
+            ]
+          }
+        },
+        {
+          "id": "7cedf9a65d6983af",
+          "name": "S. Kempf",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0001-5236-3004",
+          "papers": [
+            "doi:10.1029/2025je009008"
+          ],
+          "unit_papers": {
+            "3497ffea378e2074": [
+              "doi:10.1029/2025je009008"
+            ]
+          }
+        },
+        {
+          "id": "79765cf40018aa84",
+          "name": "Kevin McGouldrick",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "doi:10.1177/15311074261475054"
+          ],
+          "unit_papers": {
+            "3497ffea378e2074": [
+              "doi:10.1177/15311074261475054"
+            ]
+          }
+        },
+        {
+          "id": "1dfc679a50ae530a",
+          "name": "JunFeng Qin",
+          "name_zh": "秦珺峰",
+          "name_source": "https://orcid.org/0000-0002-0015-2835",
+          "orcid": "https://orcid.org/0000-0002-0015-2835",
+          "papers": [
+            "doi:10.1029/2026gl124362",
+            "doi:10.1029/2026je009825"
+          ],
+          "unit_papers": {
+            "3497ffea378e2074": [
+              "doi:10.1029/2026gl124362",
+              "doi:10.1029/2026je009825"
+            ]
+          }
+        },
+        {
+          "id": "3a8115f831fd8164",
+          "name": "Shannon Curry",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-7463-9419",
+          "papers": [
+            "doi:10.1029/2026gl124362",
+            "doi:10.1029/2026je009825"
+          ],
+          "unit_papers": {
+            "3497ffea378e2074": [
+              "doi:10.1029/2026gl124362",
+              "doi:10.1029/2026je009825"
+            ]
+          }
+        },
+        {
+          "id": "2499eb3fc45a9264",
+          "name": "Yaxue Dong",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0003-3491-7506",
+          "papers": [
+            "doi:10.1029/2026je009825"
+          ],
+          "unit_papers": {
+            "3497ffea378e2074": [
+              "doi:10.1029/2026je009825"
+            ]
+          }
+        },
+        {
+          "id": "31047c41a2569533",
+          "name": "Robin Ramstad",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0003-0458-4050",
+          "papers": [
+            "doi:10.1029/2026je009825"
+          ],
+          "unit_papers": {
+            "3497ffea378e2074": [
+              "doi:10.1029/2026je009825"
+            ]
+          }
+        },
+        {
+          "id": "74f23bcc9e2fa471",
+          "name": "B. L. Ehlmann",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-2745-3240",
+          "papers": [
+            "doi:10.1029/2025je009605",
+            "doi:10.3847/2041-8213/aeb00b"
+          ],
+          "unit_papers": {
+            "3497ffea378e2074": [
+              "doi:10.1029/2025je009605"
+            ]
+          }
+        },
+        {
+          "id": "1f27a3105be4c2c8",
+          "name": "M. R. Huffman",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0009-0000-2828-2263",
+          "papers": [
+            "doi:10.1029/2025je009581"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "2974eb7a787e7dd7",
+          "name": "D. A. Brain",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0001-8932-368X",
+          "papers": [
+            "doi:10.1029/2025je009581"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "8631c2261bc3646a",
+          "name": "C. A. Caldwell",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "doi:10.1029/2025je009581"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "cd335f1586bd76f8",
+          "name": "Marialis Rosario-Franco",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0003-0216-559X",
+          "papers": [
+            "doi:10.3847/1538-4357/ae8c33"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "c6acd5a3919cd497",
+          "name": "Michael S. Chaffin",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-1939-4797",
+          "papers": [
+            "doi:10.1029/2026gl124362"
+          ],
+          "unit_papers": {
+            "3497ffea378e2074": [
+              "doi:10.1029/2026gl124362"
+            ]
+          }
+        }
+      ],
+      "units": [
+        {
+          "id": "3497ffea378e2074",
+          "label": "Laboratory for Atmospheric and Space Physics",
+          "name_zh": "大气与空间物理实验室",
+          "source": "https://api.ror.org/v2/organizations/02ttsq026",
+          "papers": [
+            "doi:10.1029/2025je009008",
+            "doi:10.1029/2025je009605",
+            "doi:10.1029/2026gl124362",
+            "doi:10.1029/2026je009825",
+            "doi:10.1177/15311074261475054"
+          ]
+        }
+      ],
+      "raw": [
+        "Department of Astrophysical & Planetary Sciences University of Colorado Boulder CO USA",
+        "Department of Astrophysical and Planetary Sciences University of Colorado Boulder CO USA",
+        "Department of Geological Sciences University of Colorado Boulder CO USA",
+        "Department of Physics, 390 UCB, University of Colorado, Boulder, CO 80309, USA",
+        "Electrical, Computer & Energy Engineering, 440 UCB, University of Colorado, Boulder, CO 80309, USA",
+        "Laboratory for Atmospheric and Space Physics University of Colorado Boulder Boulder CO USA",
+        "Laboratory for Atmospheric and Space Physics University of Colorado Boulder CO USA",
+        "Laboratory for Atmospheric and Space Physics, University of Colorado Boulder, Boulder, Colorado, USA.",
+        "University of Colorado Boulder",
+        "University of Colorado Boulder Boulder CO USA"
+      ],
+      "verification": {
+        "ror": "https://ror.org/02ttsq026",
+        "website": "https://www.colorado.edu/",
+        "source": "https://api.ror.org/v2/organizations/02ttsq026",
+        "checked_at": "2026-09-24"
+      }
+    },
+    {
+      "id": "8331122e8aae1aee",
+      "label": "California Institute of Technology",
+      "name_zh": "加州理工学院",
+      "papers": [
+        "2609.26894",
+        "2609.27562",
+        "2609.40058",
+        "2610.19081",
+        "2610.31492",
+        "doi:10.1029/2025gl120812",
+        "doi:10.1029/2025je009120",
+        "doi:10.1029/2025je009242",
+        "doi:10.1029/2025je009389",
+        "doi:10.1029/2025je009605",
+        "doi:10.1029/2026gl125753",
+        "doi:10.1029/2026je009660",
+        "doi:10.1029/2026je009760",
+        "doi:10.1126/science.adu5501",
+        "doi:10.1177/15311074261477497",
+        "doi:10.3847/1538-4357/ae8f48",
+        "doi:10.3847/1538-4357/aea149",
+        "doi:10.3847/1538-4357/aea15b",
+        "doi:10.3847/1538-4357/aeacc1",
+        "doi:10.3847/2041-8213/aea906",
+        "doi:10.3847/2041-8213/aeb00b"
+      ],
+      "authors": [
+        {
+          "id": "9008f26fd26ece2c",
+          "name": "Samuel Halverson",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0003-1312-9391",
+          "papers": [
+            "2610.31492"
+          ],
+          "unit_papers": {
+            "96fec47f8cc3c0ba": [
+              "2610.31492"
+            ]
+          }
+        },
+        {
+          "id": "6074eba1ecfe41be",
+          "name": "Renyu Hu",
+          "name_zh": "胡人予",
+          "name_source": "https://indico.ihep.ac.cn/event/612/registrations/participants",
+          "orcid": null,
+          "papers": [
+            "2610.19081",
+            "doi:10.3847/1538-4357/ae8f48"
+          ],
+          "unit_papers": {
+            "96fec47f8cc3c0ba": [
+              "2610.19081"
+            ]
+          }
+        },
+        {
+          "id": "e3b4dbe0924a8e97",
+          "name": "Armen Tokadjian",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "2610.19081",
+            "doi:10.1177/15311074261477497"
+          ],
+          "unit_papers": {
+            "96fec47f8cc3c0ba": [
+              "2610.19081",
+              "doi:10.1177/15311074261477497"
+            ]
+          }
+        },
+        {
+          "id": "8e2832d4225e18f3",
+          "name": "Mario Damiano",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "2610.19081"
+          ],
+          "unit_papers": {
+            "96fec47f8cc3c0ba": [
+              "2610.19081"
+            ]
+          }
+        },
+        {
+          "id": "9be48cd250c43f40",
+          "name": "Ashley G. Davies",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "2609.40058"
+          ],
+          "unit_papers": {
+            "96fec47f8cc3c0ba": [
+              "2609.40058"
+            ]
+          }
+        },
+        {
+          "id": "ee07fcf56f6f9658",
+          "name": "Tiffany Kataria",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "2609.26894"
+          ],
+          "unit_papers": {
+            "96fec47f8cc3c0ba": [
+              "2609.26894"
+            ]
+          }
+        },
+        {
+          "id": "601f338f0052403c",
+          "name": "Ashley Gerard Davies",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "2609.27562"
+          ],
+          "unit_papers": {
+            "96fec47f8cc3c0ba": [
+              "2609.27562"
+            ]
+          }
+        },
+        {
+          "id": "b4e0a316ef161f69",
+          "name": "Isaac Malsky",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0003-0217-3880",
+          "papers": [
+            "doi:10.3847/1538-4357/aea15b"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "8370331effbe7507",
+          "name": "Tiffany Kataria",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0003-3759-9080",
+          "papers": [
+            "doi:10.3847/1538-4357/aea15b"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "cae2a70606faa0ea",
+          "name": "Matthew Graham",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-3168-0139",
+          "papers": [
+            "doi:10.3847/1538-4357/aea15b"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "2c79ab99bc055dce",
+          "name": "Lucia Mandon",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-9310-0742",
+          "papers": [
+            "doi:10.1029/2025je009242"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "0aac07ec29ffab90",
+          "name": "Emily L. Cardarelli",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0001-5451-2309",
+          "papers": [
+            "doi:10.1029/2025je009242",
+            "doi:10.1029/2026je009660"
+          ],
+          "unit_papers": {
+            "96fec47f8cc3c0ba": [
+              "doi:10.1029/2025je009242",
+              "doi:10.1029/2026je009660"
+            ]
+          }
+        },
+        {
+          "id": "9611c3dfa134cbd2",
+          "name": "Ashwin R. Vasavada",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0003-2665-286X",
+          "papers": [
+            "doi:10.1126/science.adu5501"
+          ],
+          "unit_papers": {
+            "96fec47f8cc3c0ba": [
+              "doi:10.1126/science.adu5501"
+            ]
+          }
+        },
+        {
+          "id": "87f07d3864c41196",
+          "name": "Abigail A. Fraeman",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0003-4017-5158",
+          "papers": [
+            "doi:10.1126/science.adu5501"
+          ],
+          "unit_papers": {
+            "96fec47f8cc3c0ba": [
+              "doi:10.1126/science.adu5501"
+            ]
+          }
+        },
+        {
+          "id": "066b80086e8e99d6",
+          "name": "F. Petricca",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-6574-0507",
+          "papers": [
+            "doi:10.1029/2025gl120812",
+            "doi:10.1029/2026gl125753"
+          ],
+          "unit_papers": {
+            "96fec47f8cc3c0ba": [
+              "doi:10.1029/2025gl120812",
+              "doi:10.1029/2026gl125753"
+            ]
+          }
+        },
+        {
+          "id": "b7cb5a5ec5a939c0",
+          "name": "D. Buccino",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-2888-5918",
+          "papers": [
+            "doi:10.1029/2025gl120812",
+            "doi:10.1029/2026gl125753"
+          ],
+          "unit_papers": {
+            "96fec47f8cc3c0ba": [
+              "doi:10.1029/2025gl120812",
+              "doi:10.1029/2026gl125753"
+            ]
+          }
+        },
+        {
+          "id": "3b7aefabd3c974bb",
+          "name": "C. Cochrane",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-4935-1472",
+          "papers": [
+            "doi:10.1029/2025gl120812"
+          ],
+          "unit_papers": {
+            "96fec47f8cc3c0ba": [
+              "doi:10.1029/2025gl120812"
+            ]
+          }
+        },
+        {
+          "id": "1b5eef897dab8272",
+          "name": "J. Castillo‐Rogez",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "doi:10.1029/2025gl120812"
+          ],
+          "unit_papers": {
+            "96fec47f8cc3c0ba": [
+              "doi:10.1029/2025gl120812"
+            ]
+          }
+        },
+        {
+          "id": "0b4220f4f7eef61e",
+          "name": "A. Macias",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-0356-216X",
+          "papers": [
+            "doi:10.1029/2025je009389"
+          ],
+          "unit_papers": {
+            "96fec47f8cc3c0ba": [
+              "doi:10.1029/2025je009389"
+            ]
+          }
+        },
+        {
+          "id": "c1b7f2e083402922",
+          "name": "A. Hsu",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "doi:10.1029/2025je009389"
+          ],
+          "unit_papers": {
+            "96fec47f8cc3c0ba": [
+              "doi:10.1029/2025je009389"
+            ]
+          }
+        },
+        {
+          "id": "5dd2270131de5bad",
+          "name": "M. S. Bramble",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-9440-4756",
+          "papers": [
+            "doi:10.1029/2025je009389"
+          ],
+          "unit_papers": {
+            "96fec47f8cc3c0ba": [
+              "doi:10.1029/2025je009389"
+            ]
+          }
+        },
+        {
+          "id": "2096af696daf2dd6",
+          "name": "L. Trafton",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-3398-0098",
+          "papers": [
+            "doi:10.1029/2025je009389"
+          ],
+          "unit_papers": {
+            "96fec47f8cc3c0ba": [
+              "doi:10.1029/2025je009389"
+            ]
+          }
+        },
+        {
+          "id": "28bcc8e6e43360a9",
+          "name": "K. P. Hand",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-3225-9426",
+          "papers": [
+            "doi:10.1029/2025je009389"
+          ],
+          "unit_papers": {
+            "96fec47f8cc3c0ba": [
+              "doi:10.1029/2025je009389"
+            ]
+          }
+        },
+        {
+          "id": "100458b6d7fba056",
+          "name": "S. R. Baker",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0009-0001-7705-3261",
+          "papers": [
+            "doi:10.1029/2025je009605"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "74f23bcc9e2fa471",
+          "name": "B. L. Ehlmann",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-2745-3240",
+          "papers": [
+            "doi:10.1029/2025je009605",
+            "doi:10.3847/2041-8213/aeb00b"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "5775c8c4e6ad3cdc",
+          "name": "T. M. Present",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-4747-2174",
+          "papers": [
+            "doi:10.1029/2026je009660"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "b301a181b347470b",
+          "name": "C. Swindle",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-8706-9398",
+          "papers": [
+            "doi:10.1029/2026je009660"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "61f053a56dc103a1",
+          "name": "S. Bhattacharjee",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-3924-0357",
+          "papers": [
+            "doi:10.1029/2026je009660"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "34914250630c5af2",
+          "name": "K. Farley",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "doi:10.1029/2026je009660"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "a48976c04daee42a",
+          "name": "Elodie Lesage",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "doi:10.1029/2025je009120"
+          ],
+          "unit_papers": {
+            "96fec47f8cc3c0ba": [
+              "doi:10.1029/2025je009120"
+            ]
+          }
+        },
+        {
+          "id": "9b59345e59c57fc4",
+          "name": "Samuel Howell",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-5126-3228",
+          "papers": [
+            "doi:10.1029/2025je009120"
+          ],
+          "unit_papers": {
+            "96fec47f8cc3c0ba": [
+              "doi:10.1029/2025je009120"
+            ]
+          }
+        },
+        {
+          "id": "456193efd07cdaec",
+          "name": "Yasuhiro Hasegawa",
+          "name_zh": "長谷川靖紘",
+          "name_source": "https://www.asiaa.sinica.edu.tw/IAAP/pdf/staffbrochure201304e.pdf",
+          "orcid": "https://orcid.org/0000-0002-9017-3663",
+          "papers": [
+            "doi:10.3847/1538-4357/ae8f48"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "92a55f5da118f12f",
+          "name": "Amine Bouzerzour",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "doi:10.3847/1538-4357/ae8f48"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "d45187c75f01de07",
+          "name": "Serina Diniega",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0003-3766-2190",
+          "papers": [
+            "doi:10.1029/2026je009760"
+          ],
+          "unit_papers": {
+            "96fec47f8cc3c0ba": [
+              "doi:10.1029/2026je009760"
+            ]
+          }
+        },
+        {
+          "id": "9737929c4a42fbf4",
+          "name": "Aniket Sanghi",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-1838-4757",
+          "papers": [
+            "doi:10.3847/2041-8213/aea906"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "88062e301c71acd2",
+          "name": "J. R. Fuentes",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0003-2124-9764",
+          "papers": [
+            "doi:10.3847/1538-4357/aeacc1"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "4e519b057e5d45ba",
+          "name": "David J. Stevenson",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0001-9432-7159",
+          "papers": [
+            "doi:10.3847/1538-4357/aeacc1"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "c3dfd38cdca3485a",
+          "name": "Rhonda Morgan",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-4852-6330",
+          "papers": [
+            "doi:10.3847/1538-4357/aea149"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "b9b33c1c95a5035e",
+          "name": "Mario Damiano",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-1830-8260",
+          "papers": [
+            "doi:10.3847/1538-4357/aea149"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "59e070621b798b38",
+          "name": "Armen Tokadjian",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-4675-9069",
+          "papers": [
+            "doi:10.3847/1538-4357/aea149"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "a52ce20dd2408c87",
+          "name": "Kimberly Paragas",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0003-0062-1168",
+          "papers": [
+            "doi:10.3847/2041-8213/aeb00b"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "55608fdc4dffe918",
+          "name": "Heather A. Knutson",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-5375-4725",
+          "papers": [
+            "doi:10.3847/2041-8213/aeb00b"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "124e9c0ff7aa385e",
+          "name": "Renyu Hu",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0003-2215-8485",
+          "papers": [
+            "doi:10.3847/2041-8213/aeb00b"
+          ],
+          "unit_papers": {}
+        }
+      ],
+      "units": [
+        {
+          "id": "96fec47f8cc3c0ba",
+          "label": "Jet Propulsion Laboratory",
+          "name_zh": "喷气推进实验室",
+          "source": "https://api.ror.org/v2/organizations/05dxps055",
+          "papers": [
+            "2609.26894",
+            "2609.27562",
+            "2609.40058",
+            "2610.19081",
+            "2610.31492",
+            "doi:10.1029/2025gl120812",
+            "doi:10.1029/2025je009120",
+            "doi:10.1029/2025je009242",
+            "doi:10.1029/2025je009389",
+            "doi:10.1029/2026gl125753",
+            "doi:10.1029/2026je009660",
+            "doi:10.1029/2026je009760",
+            "doi:10.1126/science.adu5501",
+            "doi:10.1177/15311074261477497"
+          ]
+        }
+      ],
+      "raw": [
+        "California Institute of Technology",
+        "Division of Geologic and Planetary Sciences California Institute of Technology Pasadena CA USA",
+        "Division of Geological and Planetary Sciences California Institute of Technology Pasadena CA USA",
+        "Jet Propulsion Laboratory California Institute of Technology Pasadena CA USA",
+        "Jet Propulsion Laboratory, California Institute of Technology, 4800 Oak Grove Drive, Pasadena, CA 91109, USA",
+        "Jet Propulsion Laboratory, California Institute of Technology, 4800 Oak Grove Drive, Pasadena, California 91109",
+        "Jet Propulsion Laboratory, California Institute of Technology, Pasadena, CA 91109, USA",
+        "Jet Propulsion Laboratory, California Institute of Technology, Pasadena, CA, USA.",
+        "Jet Propulsion Laboratory, California Institute of Technology, Pasadena, California, USA.",
+        "NASA Jet Propulsion Laboratory California Institute of Technology Altadena CA USA",
+        "NASA Jet Propulsion Laboratory California Institute of Technology Pasadena CA USA",
+        "NASA Jet Propulsion Laboratory, California Institute of Technology, , Pasadena, 91109, CA, USA",
+        "organization=Jet Propulsion Laboratory, California Institute of Technology, addressline=4800 Oak Grove Drive, city=Pasadena, state=CA, postcode=91109, country=USA"
+      ],
+      "verification": {
+        "ror": "https://ror.org/05dxps055",
+        "website": "https://www.caltech.edu",
+        "source": "https://api.ror.org/v2/organizations/05dxps055",
+        "checked_at": "2026-09-24"
+      }
+    },
+    {
+      "id": "556024ebbe9f0f08",
+      "label": "Cornell University",
+      "name_zh": "康奈尔大学",
+      "papers": [
+        "2610.31492",
+        "doi:10.1029/2025je009242",
+        "doi:10.1029/2025je009493",
+        "doi:10.1177/15311074261483387",
+        "doi:10.3847/1538-4357/aea149",
+        "doi:10.3847/2041-8213/ae9b0a"
+      ],
+      "authors": [
+        {
+          "id": "deb8545dc844ee9f",
+          "name": "Leslie Hebb",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0003-1263-8637",
+          "papers": [
+            "2610.31492"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "825154e9d6a314eb",
+          "name": "Alberto G. Fairén",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-2938-6010",
+          "papers": [
+            "doi:10.1029/2025je009242"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "525e3de7fb986288",
+          "name": "Alexander G. Hayes",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "doi:10.1029/2025je009242"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "2499d1970020443a",
+          "name": "Christian Tate",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0003-3467-0099",
+          "papers": [
+            "doi:10.1029/2025je009242"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "c9776ee935a2f83b",
+          "name": "Rui-Lin Cheng",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0001-5238-7831",
+          "papers": [
+            "doi:10.1177/15311074261483387"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "c21a6d615d99b7c9",
+          "name": "Carolina Munoz-Saez",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "doi:10.1177/15311074261483387"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "0f01e8a3a70da148",
+          "name": "Jiawei Wang",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0003-3589-2734",
+          "papers": [
+            "doi:10.1029/2025je009493"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "b764516c9bc05a2f",
+          "name": "Nicole M. Fernandez",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0003-0052-4042",
+          "papers": [
+            "doi:10.1029/2025je009493"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "d176be1c4c16fb7f",
+          "name": "Nikole K. Lewis",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-8507-1304",
+          "papers": [
+            "doi:10.3847/2041-8213/ae9b0a"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "7873edb9645b6a38",
+          "name": "Elijah Mullens",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0003-0814-7923",
+          "papers": [
+            "doi:10.3847/2041-8213/ae9b0a"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "62724a9b80ec74b4",
+          "name": "Dmitry Savransky",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-8711-7206",
+          "papers": [
+            "doi:10.3847/1538-4357/aea149"
+          ],
+          "unit_papers": {}
+        }
+      ],
+      "units": [],
+      "raw": [
+        "Cornell University",
+        "Department of Astronomy Cornell University Ithaca NY USA",
+        "Department of Astronomy, Cornell University, 245 East Ave, Ithaca, NY 14850, USA",
+        "Department of Earth and Atmospheric Sciences Cornell University Ithaca NY USA",
+        "Department of Earth and Atmospheric Sciences, Cornell University, Ithaca, New York, USA."
+      ],
+      "verification": {
+        "ror": "https://ror.org/05bnh6r87",
+        "website": "https://www.cornell.edu",
+        "source": "https://api.ror.org/v2/organizations/05bnh6r87",
+        "checked_at": "2026-09-24"
+      }
+    },
+    {
+      "id": "c61a26f3159ecf27",
+      "label": "University of California, Irvine",
+      "name_zh": "加利福尼亚大学欧文分校",
+      "papers": [
+        "2610.31492"
+      ],
+      "authors": [
+        {
+          "id": "26f266d405a22365",
+          "name": "Paul Robertson",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0003-0149-9678",
+          "papers": [
+            "2610.31492"
+          ],
+          "unit_papers": {}
+        }
+      ],
+      "units": [],
+      "raw": [
+        "Department of Physics & Astronomy, The University of California, Irvine, Irvine, CA 92697, USA"
+      ],
+      "verification": {
+        "ror": "https://ror.org/04gyf1771",
+        "website": "https://uci.edu/",
+        "source": "https://api.ror.org/v2/organizations/04gyf1771",
+        "checked_at": "2026-09-24"
+      }
+    },
+    {
+      "id": "8aa302982705b6d1",
+      "label": "Macquarie University",
+      "name_zh": null,
+      "papers": [
+        "2610.31492"
+      ],
+      "authors": [
+        {
+          "id": "c80399d0e225c6bf",
+          "name": "Christian Schwab",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "2610.31492"
+          ],
+          "unit_papers": {}
+        }
+      ],
+      "units": [],
+      "raw": [
+        "School of Mathematical and Physical Sciences, Macquarie University, Balaclava Road, North Ryde, NSW 2109, Australia"
+      ],
+      "verification": {
+        "ror": "https://ror.org/01sf06y89",
+        "website": "https://www.mq.edu.au",
+        "source": "https://api.ror.org/v2/organizations/01sf06y89",
+        "checked_at": "2026-09-24"
+      }
+    },
     {
       "id": "7dc526e4471527e6",
       "label": "University of Copenhagen",
@@ -1489,7 +3185,8 @@
         "doi:10.1177/15311074261485884",
         "doi:10.3847/1538-4357/ae63b8",
         "doi:10.3847/1538-4357/ae994a",
-        "doi:10.3847/2041-8213/ae9305"
+        "doi:10.3847/2041-8213/ae9305",
+        "doi:10.3847/2041-8213/aeb00b"
       ],
       "authors": [
         {
@@ -2361,6 +4058,21 @@
               "doi:10.3847/1538-4357/ae994a"
             ]
           }
+        },
+        {
+          "id": "8a4789f4ea940d01",
+          "name": "Aishwarya R. Iyer",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0003-0971-1709",
+          "papers": [
+            "doi:10.3847/2041-8213/aeb00b"
+          ],
+          "unit_papers": {
+            "4f5be33b13ed08a1": [
+              "doi:10.3847/2041-8213/aeb00b"
+            ]
+          }
         }
       ],
       "units": [
@@ -2380,7 +4092,8 @@
             "doi:10.1126/science.adu5501",
             "doi:10.1177/15311074261477497",
             "doi:10.1177/15311074261484811",
-            "doi:10.3847/1538-4357/ae994a"
+            "doi:10.3847/1538-4357/ae994a",
+            "doi:10.3847/2041-8213/aeb00b"
           ]
         },
         {
@@ -2478,193 +4191,6 @@
       }
     },
     {
-      "id": "c060919391e78c3b",
-      "label": "University of Arizona",
-      "name_zh": "亚利桑那大学",
-      "papers": [
-        "2603.20373",
-        "2603.20377",
-        "2610.19081",
-        "doi:10.1177/15311074261477497",
-        "doi:10.3847/1538-4357/ae89b5",
-        "doi:10.3847/1538-4357/aea149",
-        "doi:10.3847/2041-8213/aea906"
-      ],
-      "authors": [
-        {
-          "id": "44789c5d5c8a83e9",
-          "name": "Tyler D. Robinson",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "2610.19081"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "ea3d18d859ed3dfe",
-          "name": "Avery P. Bailey",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "2603.20373",
-            "2603.20377"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "b91e7d4628d5c144",
-          "name": "Andrew N. Youdin",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-3644-8726",
-          "papers": [
-            "2603.20373",
-            "2603.20377"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "96238cbc9a4fa986",
-          "name": "Kaitlin M. Kratter",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0001-5253-1338",
-          "papers": [
-            "2603.20373",
-            "2603.20377"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "7267b76605caf05c",
-          "name": "Tyler D. Robinson",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "doi:10.1177/15311074261477497"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "08f24a340de051a5",
-          "name": "Sukrit Ranjan",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "doi:10.1177/15311074261477497"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "41088349705b90dc",
-          "name": "Sukrit Ranjan",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-5147-9053",
-          "papers": [
-            "doi:10.3847/1538-4357/ae89b5"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "15049a5d876294a8",
-          "name": "Kevin Wagner",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-4309-6343",
-          "papers": [
-            "doi:10.3847/2041-8213/aea906"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "b92a7b12ed326407",
-          "name": "Steve Ertel",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-2314-7289",
-          "papers": [
-            "doi:10.3847/2041-8213/aea906"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "8ffdfb95319b800c",
-          "name": "Jared Carlson",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "doi:10.3847/2041-8213/aea906"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "0f34fecc36210d00",
-          "name": "Gabriel Weible",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0001-8009-8383",
-          "papers": [
-            "doi:10.3847/2041-8213/aea906"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "296ae5451ff71573",
-          "name": "Jacob Isbell",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-1272-6322",
-          "papers": [
-            "doi:10.3847/2041-8213/aea906"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "f19a5c309af6c55d",
-          "name": "Searra Foote",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0001-5477-8588",
-          "papers": [
-            "doi:10.3847/1538-4357/aea149"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "69ceb0bb067d2400",
-          "name": "Tyler D. Robinson",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-3196-414X",
-          "papers": [
-            "doi:10.3847/1538-4357/aea149"
-          ],
-          "unit_papers": {}
-        }
-      ],
-      "units": [],
-      "raw": [
-        "Habitability, Atmospheres, and Biosignatures Laboratory, University of Arizona, Tucson, AZ 85721, USA",
-        "Lunar & Planetary Laboratory, University of Arizona, Tucson, AZ 85721 USA",
-        "Lunar and Planetary Laboratory, University of Arizona, Tucson, Arizona, USA.",
-        "Steward Observatory, University of Arizona, 933 North Cherry Avenue, Tucson, AZ 85721-0065, USA",
-        "University of Arizona"
-      ],
-      "verification": {
-        "ror": "https://ror.org/03m2x1q45",
-        "website": "http://www.arizona.edu/",
-        "source": "https://api.ror.org/v2/organizations/03m2x1q45",
-        "checked_at": "2026-09-24"
-      }
-    },
-    {
       "id": "c9f22fb48c2b7ddb",
       "label": "Search for Extraterrestrial Intelligence",
       "name_zh": "地外文明搜寻研究所（SETI）",
@@ -2741,599 +4267,6 @@
         "ror": "https://ror.org/02dxgk712",
         "website": "https://www.seti.org/",
         "source": "https://api.ror.org/v2/organizations/02dxgk712",
-        "checked_at": "2026-09-24"
-      }
-    },
-    {
-      "id": "8331122e8aae1aee",
-      "label": "California Institute of Technology",
-      "name_zh": "加州理工学院",
-      "papers": [
-        "2609.26894",
-        "2609.27562",
-        "2609.40058",
-        "2610.19081",
-        "doi:10.1029/2025gl120812",
-        "doi:10.1029/2025je009120",
-        "doi:10.1029/2025je009242",
-        "doi:10.1029/2025je009389",
-        "doi:10.1029/2025je009605",
-        "doi:10.1029/2026gl125753",
-        "doi:10.1029/2026je009660",
-        "doi:10.1029/2026je009760",
-        "doi:10.1126/science.adu5501",
-        "doi:10.1177/15311074261477497",
-        "doi:10.3847/1538-4357/ae8f48",
-        "doi:10.3847/1538-4357/aea149",
-        "doi:10.3847/1538-4357/aea15b",
-        "doi:10.3847/1538-4357/aeacc1",
-        "doi:10.3847/2041-8213/aea906"
-      ],
-      "authors": [
-        {
-          "id": "6074eba1ecfe41be",
-          "name": "Renyu Hu",
-          "name_zh": "胡人予",
-          "name_source": "https://indico.ihep.ac.cn/event/612/registrations/participants",
-          "orcid": null,
-          "papers": [
-            "2610.19081",
-            "doi:10.3847/1538-4357/ae8f48"
-          ],
-          "unit_papers": {
-            "96fec47f8cc3c0ba": [
-              "2610.19081"
-            ]
-          }
-        },
-        {
-          "id": "e3b4dbe0924a8e97",
-          "name": "Armen Tokadjian",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "2610.19081",
-            "doi:10.1177/15311074261477497"
-          ],
-          "unit_papers": {
-            "96fec47f8cc3c0ba": [
-              "2610.19081",
-              "doi:10.1177/15311074261477497"
-            ]
-          }
-        },
-        {
-          "id": "8e2832d4225e18f3",
-          "name": "Mario Damiano",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "2610.19081"
-          ],
-          "unit_papers": {
-            "96fec47f8cc3c0ba": [
-              "2610.19081"
-            ]
-          }
-        },
-        {
-          "id": "9be48cd250c43f40",
-          "name": "Ashley G. Davies",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "2609.40058"
-          ],
-          "unit_papers": {
-            "96fec47f8cc3c0ba": [
-              "2609.40058"
-            ]
-          }
-        },
-        {
-          "id": "ee07fcf56f6f9658",
-          "name": "Tiffany Kataria",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "2609.26894"
-          ],
-          "unit_papers": {
-            "96fec47f8cc3c0ba": [
-              "2609.26894"
-            ]
-          }
-        },
-        {
-          "id": "601f338f0052403c",
-          "name": "Ashley Gerard Davies",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "2609.27562"
-          ],
-          "unit_papers": {
-            "96fec47f8cc3c0ba": [
-              "2609.27562"
-            ]
-          }
-        },
-        {
-          "id": "b4e0a316ef161f69",
-          "name": "Isaac Malsky",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0003-0217-3880",
-          "papers": [
-            "doi:10.3847/1538-4357/aea15b"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "8370331effbe7507",
-          "name": "Tiffany Kataria",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0003-3759-9080",
-          "papers": [
-            "doi:10.3847/1538-4357/aea15b"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "cae2a70606faa0ea",
-          "name": "Matthew Graham",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-3168-0139",
-          "papers": [
-            "doi:10.3847/1538-4357/aea15b"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "2c79ab99bc055dce",
-          "name": "Lucia Mandon",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-9310-0742",
-          "papers": [
-            "doi:10.1029/2025je009242"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "0aac07ec29ffab90",
-          "name": "Emily L. Cardarelli",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0001-5451-2309",
-          "papers": [
-            "doi:10.1029/2025je009242",
-            "doi:10.1029/2026je009660"
-          ],
-          "unit_papers": {
-            "96fec47f8cc3c0ba": [
-              "doi:10.1029/2025je009242",
-              "doi:10.1029/2026je009660"
-            ]
-          }
-        },
-        {
-          "id": "9611c3dfa134cbd2",
-          "name": "Ashwin R. Vasavada",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0003-2665-286X",
-          "papers": [
-            "doi:10.1126/science.adu5501"
-          ],
-          "unit_papers": {
-            "96fec47f8cc3c0ba": [
-              "doi:10.1126/science.adu5501"
-            ]
-          }
-        },
-        {
-          "id": "87f07d3864c41196",
-          "name": "Abigail A. Fraeman",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0003-4017-5158",
-          "papers": [
-            "doi:10.1126/science.adu5501"
-          ],
-          "unit_papers": {
-            "96fec47f8cc3c0ba": [
-              "doi:10.1126/science.adu5501"
-            ]
-          }
-        },
-        {
-          "id": "066b80086e8e99d6",
-          "name": "F. Petricca",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-6574-0507",
-          "papers": [
-            "doi:10.1029/2025gl120812",
-            "doi:10.1029/2026gl125753"
-          ],
-          "unit_papers": {
-            "96fec47f8cc3c0ba": [
-              "doi:10.1029/2025gl120812",
-              "doi:10.1029/2026gl125753"
-            ]
-          }
-        },
-        {
-          "id": "b7cb5a5ec5a939c0",
-          "name": "D. Buccino",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-2888-5918",
-          "papers": [
-            "doi:10.1029/2025gl120812",
-            "doi:10.1029/2026gl125753"
-          ],
-          "unit_papers": {
-            "96fec47f8cc3c0ba": [
-              "doi:10.1029/2025gl120812",
-              "doi:10.1029/2026gl125753"
-            ]
-          }
-        },
-        {
-          "id": "3b7aefabd3c974bb",
-          "name": "C. Cochrane",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-4935-1472",
-          "papers": [
-            "doi:10.1029/2025gl120812"
-          ],
-          "unit_papers": {
-            "96fec47f8cc3c0ba": [
-              "doi:10.1029/2025gl120812"
-            ]
-          }
-        },
-        {
-          "id": "1b5eef897dab8272",
-          "name": "J. Castillo‐Rogez",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "doi:10.1029/2025gl120812"
-          ],
-          "unit_papers": {
-            "96fec47f8cc3c0ba": [
-              "doi:10.1029/2025gl120812"
-            ]
-          }
-        },
-        {
-          "id": "0b4220f4f7eef61e",
-          "name": "A. Macias",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-0356-216X",
-          "papers": [
-            "doi:10.1029/2025je009389"
-          ],
-          "unit_papers": {
-            "96fec47f8cc3c0ba": [
-              "doi:10.1029/2025je009389"
-            ]
-          }
-        },
-        {
-          "id": "c1b7f2e083402922",
-          "name": "A. Hsu",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "doi:10.1029/2025je009389"
-          ],
-          "unit_papers": {
-            "96fec47f8cc3c0ba": [
-              "doi:10.1029/2025je009389"
-            ]
-          }
-        },
-        {
-          "id": "5dd2270131de5bad",
-          "name": "M. S. Bramble",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-9440-4756",
-          "papers": [
-            "doi:10.1029/2025je009389"
-          ],
-          "unit_papers": {
-            "96fec47f8cc3c0ba": [
-              "doi:10.1029/2025je009389"
-            ]
-          }
-        },
-        {
-          "id": "2096af696daf2dd6",
-          "name": "L. Trafton",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-3398-0098",
-          "papers": [
-            "doi:10.1029/2025je009389"
-          ],
-          "unit_papers": {
-            "96fec47f8cc3c0ba": [
-              "doi:10.1029/2025je009389"
-            ]
-          }
-        },
-        {
-          "id": "28bcc8e6e43360a9",
-          "name": "K. P. Hand",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-3225-9426",
-          "papers": [
-            "doi:10.1029/2025je009389"
-          ],
-          "unit_papers": {
-            "96fec47f8cc3c0ba": [
-              "doi:10.1029/2025je009389"
-            ]
-          }
-        },
-        {
-          "id": "100458b6d7fba056",
-          "name": "S. R. Baker",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0009-0001-7705-3261",
-          "papers": [
-            "doi:10.1029/2025je009605"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "74f23bcc9e2fa471",
-          "name": "B. L. Ehlmann",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-2745-3240",
-          "papers": [
-            "doi:10.1029/2025je009605"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "5775c8c4e6ad3cdc",
-          "name": "T. M. Present",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-4747-2174",
-          "papers": [
-            "doi:10.1029/2026je009660"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "b301a181b347470b",
-          "name": "C. Swindle",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-8706-9398",
-          "papers": [
-            "doi:10.1029/2026je009660"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "61f053a56dc103a1",
-          "name": "S. Bhattacharjee",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-3924-0357",
-          "papers": [
-            "doi:10.1029/2026je009660"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "34914250630c5af2",
-          "name": "K. Farley",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "doi:10.1029/2026je009660"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "a48976c04daee42a",
-          "name": "Elodie Lesage",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "doi:10.1029/2025je009120"
-          ],
-          "unit_papers": {
-            "96fec47f8cc3c0ba": [
-              "doi:10.1029/2025je009120"
-            ]
-          }
-        },
-        {
-          "id": "9b59345e59c57fc4",
-          "name": "Samuel Howell",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-5126-3228",
-          "papers": [
-            "doi:10.1029/2025je009120"
-          ],
-          "unit_papers": {
-            "96fec47f8cc3c0ba": [
-              "doi:10.1029/2025je009120"
-            ]
-          }
-        },
-        {
-          "id": "456193efd07cdaec",
-          "name": "Yasuhiro Hasegawa",
-          "name_zh": "長谷川靖紘",
-          "name_source": "https://www.asiaa.sinica.edu.tw/IAAP/pdf/staffbrochure201304e.pdf",
-          "orcid": "https://orcid.org/0000-0002-9017-3663",
-          "papers": [
-            "doi:10.3847/1538-4357/ae8f48"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "92a55f5da118f12f",
-          "name": "Amine Bouzerzour",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "doi:10.3847/1538-4357/ae8f48"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "d45187c75f01de07",
-          "name": "Serina Diniega",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0003-3766-2190",
-          "papers": [
-            "doi:10.1029/2026je009760"
-          ],
-          "unit_papers": {
-            "96fec47f8cc3c0ba": [
-              "doi:10.1029/2026je009760"
-            ]
-          }
-        },
-        {
-          "id": "9737929c4a42fbf4",
-          "name": "Aniket Sanghi",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-1838-4757",
-          "papers": [
-            "doi:10.3847/2041-8213/aea906"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "88062e301c71acd2",
-          "name": "J. R. Fuentes",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0003-2124-9764",
-          "papers": [
-            "doi:10.3847/1538-4357/aeacc1"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "4e519b057e5d45ba",
-          "name": "David J. Stevenson",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0001-9432-7159",
-          "papers": [
-            "doi:10.3847/1538-4357/aeacc1"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "c3dfd38cdca3485a",
-          "name": "Rhonda Morgan",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-4852-6330",
-          "papers": [
-            "doi:10.3847/1538-4357/aea149"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "b9b33c1c95a5035e",
-          "name": "Mario Damiano",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-1830-8260",
-          "papers": [
-            "doi:10.3847/1538-4357/aea149"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "59e070621b798b38",
-          "name": "Armen Tokadjian",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-4675-9069",
-          "papers": [
-            "doi:10.3847/1538-4357/aea149"
-          ],
-          "unit_papers": {}
-        }
-      ],
-      "units": [
-        {
-          "id": "96fec47f8cc3c0ba",
-          "label": "Jet Propulsion Laboratory",
-          "name_zh": "喷气推进实验室",
-          "source": "https://api.ror.org/v2/organizations/05dxps055",
-          "papers": [
-            "2609.26894",
-            "2609.27562",
-            "2609.40058",
-            "2610.19081",
-            "doi:10.1029/2025gl120812",
-            "doi:10.1029/2025je009120",
-            "doi:10.1029/2025je009242",
-            "doi:10.1029/2025je009389",
-            "doi:10.1029/2026gl125753",
-            "doi:10.1029/2026je009660",
-            "doi:10.1029/2026je009760",
-            "doi:10.1126/science.adu5501",
-            "doi:10.1177/15311074261477497"
-          ]
-        }
-      ],
-      "raw": [
-        "California Institute of Technology",
-        "Division of Geologic and Planetary Sciences California Institute of Technology Pasadena CA USA",
-        "Division of Geological and Planetary Sciences California Institute of Technology Pasadena CA USA",
-        "Jet Propulsion Laboratory California Institute of Technology Pasadena CA USA",
-        "Jet Propulsion Laboratory, California Institute of Technology, 4800 Oak Grove Drive, Pasadena, CA 91109, USA",
-        "Jet Propulsion Laboratory, California Institute of Technology, Pasadena, CA 91109, USA",
-        "Jet Propulsion Laboratory, California Institute of Technology, Pasadena, CA, USA.",
-        "Jet Propulsion Laboratory, California Institute of Technology, Pasadena, California, USA.",
-        "NASA Jet Propulsion Laboratory California Institute of Technology Altadena CA USA",
-        "NASA Jet Propulsion Laboratory California Institute of Technology Pasadena CA USA",
-        "NASA Jet Propulsion Laboratory, California Institute of Technology, , Pasadena, 91109, CA, USA",
-        "organization=Jet Propulsion Laboratory, California Institute of Technology, addressline=4800 Oak Grove Drive, city=Pasadena, state=CA, postcode=91109, country=USA"
-      ],
-      "verification": {
-        "ror": "https://ror.org/05dxps055",
-        "website": "https://www.caltech.edu",
-        "source": "https://api.ror.org/v2/organizations/05dxps055",
         "checked_at": "2026-09-24"
       }
     },
@@ -5818,203 +6751,6 @@
         "ror": "https://ror.org/024mw5h28",
         "website": "https://www.uchicago.edu",
         "source": "https://api.ror.org/v2/organizations/024mw5h28",
-        "checked_at": "2026-09-24"
-      }
-    },
-    {
-      "id": "572758623152e66d",
-      "label": "Carnegie Institution for Science",
-      "name_zh": "卡内基科学研究所",
-      "papers": [
-        "2606.14646",
-        "2609.26894",
-        "doi:10.1126/science.aea9708",
-        "doi:10.3847/1538-4357/ae969c",
-        "doi:10.3847/1538-4357/ae9a84",
-        "doi:10.3847/2041-8213/aea4ae",
-        "doi:10.3847/2041-8213/aea4af"
-      ],
-      "authors": [
-        {
-          "id": "e630f196f0bc8584",
-          "name": "Michael Greklek-McKeon",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "2609.26894"
-          ],
-          "unit_papers": {
-            "1e622be9de3491f8": [
-              "2609.26894"
-            ]
-          }
-        },
-        {
-          "id": "a1f5f884e68a8ffd",
-          "name": "Nicole L. Wallack",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "2609.26894"
-          ],
-          "unit_papers": {
-            "1e622be9de3491f8": [
-              "2609.26894"
-            ]
-          }
-        },
-        {
-          "id": "824c1c231e777f83",
-          "name": "Shreyas Vissapragada",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "2609.26894"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "65a1f14de799617b",
-          "name": "Johanna K. Teske",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "2609.26894"
-          ],
-          "unit_papers": {
-            "1e622be9de3491f8": [
-              "2609.26894"
-            ]
-          }
-        },
-        {
-          "id": "ccb8cc2de7b6f8ba",
-          "name": "Peter Gao",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "2606.14646"
-          ],
-          "unit_papers": {
-            "1e622be9de3491f8": [
-              "2606.14646"
-            ]
-          }
-        },
-        {
-          "id": "2fcc0c54da7d880e",
-          "name": "Peter Gao",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-8518-9601",
-          "papers": [
-            "2606.14646",
-            "doi:10.3847/1538-4357/ae9a84",
-            "doi:10.3847/2041-8213/aea4ae",
-            "doi:10.3847/2041-8213/aea4af"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "d7ee5c18b9d9ffc8",
-          "name": "Shreyas Vissapragada",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0003-2527-1475",
-          "papers": [
-            "doi:10.1126/science.aea9708"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "292087ef688ca6d4",
-          "name": "Johanna Teske",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0009-0008-2801-5040",
-          "papers": [
-            "doi:10.1126/science.aea9708"
-          ],
-          "unit_papers": {
-            "1e622be9de3491f8": [
-              "doi:10.1126/science.aea9708"
-            ]
-          }
-        },
-        {
-          "id": "73126a3801e63f9f",
-          "name": "Nicole L. Wallack",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0003-0354-0187",
-          "papers": [
-            "doi:10.1126/science.aea9708"
-          ],
-          "unit_papers": {
-            "1e622be9de3491f8": [
-              "doi:10.1126/science.aea9708"
-            ]
-          }
-        },
-        {
-          "id": "bfd5a6c3f17c788f",
-          "name": "William Misener",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0001-6315-7118",
-          "papers": [
-            "doi:10.1126/science.aea9708",
-            "doi:10.3847/1538-4357/ae969c"
-          ],
-          "unit_papers": {
-            "1e622be9de3491f8": [
-              "doi:10.1126/science.aea9708"
-            ]
-          }
-        },
-        {
-          "id": "357ff9dc2c71e652",
-          "name": "Andrew McWilliam",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0009-0001-3448-1047",
-          "papers": [
-            "doi:10.1126/science.aea9708"
-          ],
-          "unit_papers": {}
-        }
-      ],
-      "units": [
-        {
-          "id": "1e622be9de3491f8",
-          "label": "Earth and Planets Laboratory",
-          "name_zh": "地球与行星实验室",
-          "source": "https://api.ror.org/v2/organizations/04jr01610",
-          "papers": [
-            "2606.14646",
-            "2609.26894",
-            "doi:10.1126/science.aea9708"
-          ]
-        }
-      ],
-      "raw": [
-        "Carnegie Institution for Science",
-        "Carnegie Science Observatories, 813 Santa Barbara Street, Pasadena, CA 91101, USA",
-        "Carnegie Science Observatories, Pasadena, CA, USA.",
-        "Earth and Planets Laboratory, Carnegie Institution for Science, 5241 Broad Branch Road, NW, Washington, DC 20015, USA",
-        "Earth and Planets Laboratory, Carnegie Institution for Science, Washington DC, USA",
-        "Earth and Planets Laboratory, Carnegie Institution for Science, Washington, DC, USA.",
-        "The Observatories of the Carnegie Institution for Science, 813 Santa Barbara St., Pasadena, CA 91101, USA"
-      ],
-      "verification": {
-        "ror": "https://ror.org/04jr01610",
-        "website": "https://carnegiescience.edu/",
-        "source": "https://api.ror.org/v2/organizations/04jr01610",
         "checked_at": "2026-09-24"
       }
     },
@@ -8687,134 +9423,6 @@
       }
     },
     {
-      "id": "5d3200af582a6be2",
-      "label": "The University of Texas at Austin",
-      "name_zh": "得克萨斯大学奥斯汀分校",
-      "papers": [
-        "doi:10.1029/2025je009008",
-        "doi:10.1029/2025je009389",
-        "doi:10.3847/1538-4357/aea404",
-        "doi:10.3847/2041-8213/aea906"
-      ],
-      "authors": [
-        {
-          "id": "33a19e57f737c69a",
-          "name": "A. Mahieux",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0001-5359-7179",
-          "papers": [
-            "doi:10.1029/2025je009008"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "71571d0016008770",
-          "name": "D. B. Goldstein",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0009-0000-3742-1691",
-          "papers": [
-            "doi:10.1029/2025je009008",
-            "doi:10.1029/2025je009389"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "cc379486e28004d1",
-          "name": "P. L. Varghese",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0001-9796-0013",
-          "papers": [
-            "doi:10.1029/2025je009008",
-            "doi:10.1029/2025je009389"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "5f34af3709dd14a1",
-          "name": "L. M. Trafton",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "doi:10.1029/2025je009008"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "626d36b438044bea",
-          "name": "James Mang",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0001-5864-9599",
-          "papers": [
-            "doi:10.3847/2041-8213/aea906"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "5aa927d1d077d630",
-          "name": "Sven Kiefer",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0003-1285-3433",
-          "papers": [
-            "doi:10.3847/1538-4357/aea404"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "7a69de062c208164",
-          "name": "Gregory J. Gosselin",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-4043-0377",
-          "papers": [
-            "doi:10.3847/1538-4357/aea404"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "2a19ef9bc1c188b4",
-          "name": "Caroline V. Morley",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-4404-0456",
-          "papers": [
-            "doi:10.3847/1538-4357/aea404"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "ff853e16372c98f8",
-          "name": "Sean P. S. Gulick",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0003-4740-9068",
-          "papers": [
-            "doi:10.3847/1538-4357/aea404"
-          ],
-          "unit_papers": {}
-        }
-      ],
-      "units": [],
-      "raw": [
-        "Department of Aerospace Engineering and Engineering Mechanics The University of Texas at Austin Austin TX USA",
-        "The University of Texas at Austin",
-        "The University of Texas at Austin Austin TX USA",
-        "The University of Texas at Austin McDonald Observatory Austin TX USA",
-        "University of Texas at Austin"
-      ],
-      "verification": {
-        "ror": "https://ror.org/00hj54h04",
-        "website": "http://www.utexas.edu/",
-        "source": "https://api.ror.org/v2/organizations/00hj54h04",
-        "checked_at": "2026-09-24"
-      }
-    },
-    {
       "id": "a0a8abf29e3f894e",
       "label": "Royal Belgian Institute for Space Aeronomy",
       "name_zh": "比利时皇家空间高层大气研究所",
@@ -8842,236 +9450,6 @@
         "ror": "https://ror.org/03vfw8w96",
         "website": "https://aeronomie.be",
         "source": "https://api.ror.org/v2/organizations/03vfw8w96",
-        "checked_at": "2026-09-24"
-      }
-    },
-    {
-      "id": "de85f8377f7fd093",
-      "label": "University of Colorado Boulder",
-      "name_zh": "科罗拉多大学博尔德分校",
-      "papers": [
-        "doi:10.1029/2025je009008",
-        "doi:10.1029/2025je009581",
-        "doi:10.1029/2025je009605",
-        "doi:10.1029/2026gl124362",
-        "doi:10.1029/2026je009825",
-        "doi:10.1177/15311074261475054",
-        "doi:10.3847/1538-4357/ae8c33"
-      ],
-      "authors": [
-        {
-          "id": "1e0a10eead7b97d6",
-          "name": "L. W. Esposito",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0003-3381-2016",
-          "papers": [
-            "doi:10.1029/2025je009008"
-          ],
-          "unit_papers": {
-            "3497ffea378e2074": [
-              "doi:10.1029/2025je009008"
-            ]
-          }
-        },
-        {
-          "id": "7cedf9a65d6983af",
-          "name": "S. Kempf",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0001-5236-3004",
-          "papers": [
-            "doi:10.1029/2025je009008"
-          ],
-          "unit_papers": {
-            "3497ffea378e2074": [
-              "doi:10.1029/2025je009008"
-            ]
-          }
-        },
-        {
-          "id": "79765cf40018aa84",
-          "name": "Kevin McGouldrick",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "doi:10.1177/15311074261475054"
-          ],
-          "unit_papers": {
-            "3497ffea378e2074": [
-              "doi:10.1177/15311074261475054"
-            ]
-          }
-        },
-        {
-          "id": "1dfc679a50ae530a",
-          "name": "JunFeng Qin",
-          "name_zh": "秦珺峰",
-          "name_source": "https://orcid.org/0000-0002-0015-2835",
-          "orcid": "https://orcid.org/0000-0002-0015-2835",
-          "papers": [
-            "doi:10.1029/2026gl124362",
-            "doi:10.1029/2026je009825"
-          ],
-          "unit_papers": {
-            "3497ffea378e2074": [
-              "doi:10.1029/2026gl124362",
-              "doi:10.1029/2026je009825"
-            ]
-          }
-        },
-        {
-          "id": "3a8115f831fd8164",
-          "name": "Shannon Curry",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-7463-9419",
-          "papers": [
-            "doi:10.1029/2026gl124362",
-            "doi:10.1029/2026je009825"
-          ],
-          "unit_papers": {
-            "3497ffea378e2074": [
-              "doi:10.1029/2026gl124362",
-              "doi:10.1029/2026je009825"
-            ]
-          }
-        },
-        {
-          "id": "2499eb3fc45a9264",
-          "name": "Yaxue Dong",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0003-3491-7506",
-          "papers": [
-            "doi:10.1029/2026je009825"
-          ],
-          "unit_papers": {
-            "3497ffea378e2074": [
-              "doi:10.1029/2026je009825"
-            ]
-          }
-        },
-        {
-          "id": "31047c41a2569533",
-          "name": "Robin Ramstad",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0003-0458-4050",
-          "papers": [
-            "doi:10.1029/2026je009825"
-          ],
-          "unit_papers": {
-            "3497ffea378e2074": [
-              "doi:10.1029/2026je009825"
-            ]
-          }
-        },
-        {
-          "id": "74f23bcc9e2fa471",
-          "name": "B. L. Ehlmann",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-2745-3240",
-          "papers": [
-            "doi:10.1029/2025je009605"
-          ],
-          "unit_papers": {
-            "3497ffea378e2074": [
-              "doi:10.1029/2025je009605"
-            ]
-          }
-        },
-        {
-          "id": "1f27a3105be4c2c8",
-          "name": "M. R. Huffman",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0009-0000-2828-2263",
-          "papers": [
-            "doi:10.1029/2025je009581"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "2974eb7a787e7dd7",
-          "name": "D. A. Brain",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0001-8932-368X",
-          "papers": [
-            "doi:10.1029/2025je009581"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "8631c2261bc3646a",
-          "name": "C. A. Caldwell",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "doi:10.1029/2025je009581"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "cd335f1586bd76f8",
-          "name": "Marialis Rosario-Franco",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0003-0216-559X",
-          "papers": [
-            "doi:10.3847/1538-4357/ae8c33"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "c6acd5a3919cd497",
-          "name": "Michael S. Chaffin",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-1939-4797",
-          "papers": [
-            "doi:10.1029/2026gl124362"
-          ],
-          "unit_papers": {
-            "3497ffea378e2074": [
-              "doi:10.1029/2026gl124362"
-            ]
-          }
-        }
-      ],
-      "units": [
-        {
-          "id": "3497ffea378e2074",
-          "label": "Laboratory for Atmospheric and Space Physics",
-          "name_zh": "大气与空间物理实验室",
-          "source": "https://api.ror.org/v2/organizations/02ttsq026",
-          "papers": [
-            "doi:10.1029/2025je009008",
-            "doi:10.1029/2025je009605",
-            "doi:10.1029/2026gl124362",
-            "doi:10.1029/2026je009825",
-            "doi:10.1177/15311074261475054"
-          ]
-        }
-      ],
-      "raw": [
-        "Department of Astrophysical & Planetary Sciences University of Colorado Boulder CO USA",
-        "Department of Astrophysical and Planetary Sciences University of Colorado Boulder CO USA",
-        "Department of Geological Sciences University of Colorado Boulder CO USA",
-        "Laboratory for Atmospheric and Space Physics University of Colorado Boulder Boulder CO USA",
-        "Laboratory for Atmospheric and Space Physics University of Colorado Boulder CO USA",
-        "Laboratory for Atmospheric and Space Physics, University of Colorado Boulder, Boulder, Colorado, USA.",
-        "University of Colorado Boulder",
-        "University of Colorado Boulder Boulder CO USA"
-      ],
-      "verification": {
-        "ror": "https://ror.org/02ttsq026",
-        "website": "https://www.colorado.edu/",
-        "source": "https://api.ror.org/v2/organizations/02ttsq026",
         "checked_at": "2026-09-24"
       }
     },
@@ -9869,143 +10247,6 @@
         "ror": "https://ror.org/02rx3b187",
         "website": "https://www.univ-grenoble-alpes.fr",
         "source": "https://api.ror.org/v2/organizations/02rx3b187",
-        "checked_at": "2026-09-24"
-      }
-    },
-    {
-      "id": "556024ebbe9f0f08",
-      "label": "Cornell University",
-      "name_zh": "康奈尔大学",
-      "papers": [
-        "doi:10.1029/2025je009242",
-        "doi:10.1029/2025je009493",
-        "doi:10.1177/15311074261483387",
-        "doi:10.3847/1538-4357/aea149",
-        "doi:10.3847/2041-8213/ae9b0a"
-      ],
-      "authors": [
-        {
-          "id": "825154e9d6a314eb",
-          "name": "Alberto G. Fairén",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-2938-6010",
-          "papers": [
-            "doi:10.1029/2025je009242"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "525e3de7fb986288",
-          "name": "Alexander G. Hayes",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "doi:10.1029/2025je009242"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "2499d1970020443a",
-          "name": "Christian Tate",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0003-3467-0099",
-          "papers": [
-            "doi:10.1029/2025je009242"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "c9776ee935a2f83b",
-          "name": "Rui-Lin Cheng",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0001-5238-7831",
-          "papers": [
-            "doi:10.1177/15311074261483387"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "c21a6d615d99b7c9",
-          "name": "Carolina Munoz-Saez",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "doi:10.1177/15311074261483387"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "0f01e8a3a70da148",
-          "name": "Jiawei Wang",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0003-3589-2734",
-          "papers": [
-            "doi:10.1029/2025je009493"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "b764516c9bc05a2f",
-          "name": "Nicole M. Fernandez",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0003-0052-4042",
-          "papers": [
-            "doi:10.1029/2025je009493"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "d176be1c4c16fb7f",
-          "name": "Nikole K. Lewis",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-8507-1304",
-          "papers": [
-            "doi:10.3847/2041-8213/ae9b0a"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "7873edb9645b6a38",
-          "name": "Elijah Mullens",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0003-0814-7923",
-          "papers": [
-            "doi:10.3847/2041-8213/ae9b0a"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "62724a9b80ec74b4",
-          "name": "Dmitry Savransky",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-8711-7206",
-          "papers": [
-            "doi:10.3847/1538-4357/aea149"
-          ],
-          "unit_papers": {}
-        }
-      ],
-      "units": [],
-      "raw": [
-        "Cornell University",
-        "Department of Astronomy Cornell University Ithaca NY USA",
-        "Department of Earth and Atmospheric Sciences Cornell University Ithaca NY USA",
-        "Department of Earth and Atmospheric Sciences, Cornell University, Ithaca, New York, USA."
-      ],
-      "verification": {
-        "ror": "https://ror.org/05bnh6r87",
-        "website": "https://www.cornell.edu",
-        "source": "https://api.ror.org/v2/organizations/05bnh6r87",
         "checked_at": "2026-09-24"
       }
     },
@@ -11788,6 +12029,244 @@
   ],
   "edges": [
     {
+      "source": "556024ebbe9f0f08",
+      "target": "572758623152e66d",
+      "papers": [
+        "2610.31492"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "556024ebbe9f0f08",
+      "target": "5d3200af582a6be2",
+      "papers": [
+        "2610.31492"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "556024ebbe9f0f08",
+      "target": "8331122e8aae1aee",
+      "papers": [
+        "2610.31492",
+        "doi:10.1029/2025je009242",
+        "doi:10.3847/1538-4357/aea149"
+      ],
+      "weight": 3
+    },
+    {
+      "source": "556024ebbe9f0f08",
+      "target": "8aa302982705b6d1",
+      "papers": [
+        "2610.31492"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "556024ebbe9f0f08",
+      "target": "c060919391e78c3b",
+      "papers": [
+        "2610.31492",
+        "doi:10.3847/1538-4357/aea149"
+      ],
+      "weight": 2
+    },
+    {
+      "source": "556024ebbe9f0f08",
+      "target": "c61a26f3159ecf27",
+      "papers": [
+        "2610.31492"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "556024ebbe9f0f08",
+      "target": "de85f8377f7fd093",
+      "papers": [
+        "2610.31492"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "572758623152e66d",
+      "target": "5d3200af582a6be2",
+      "papers": [
+        "2610.31492"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "572758623152e66d",
+      "target": "8331122e8aae1aee",
+      "papers": [
+        "2609.26894",
+        "2610.31492"
+      ],
+      "weight": 2
+    },
+    {
+      "source": "572758623152e66d",
+      "target": "8aa302982705b6d1",
+      "papers": [
+        "2610.31492"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "572758623152e66d",
+      "target": "c060919391e78c3b",
+      "papers": [
+        "2610.31492"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "572758623152e66d",
+      "target": "c61a26f3159ecf27",
+      "papers": [
+        "2610.31492"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "572758623152e66d",
+      "target": "de85f8377f7fd093",
+      "papers": [
+        "2610.31492"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "5d3200af582a6be2",
+      "target": "8331122e8aae1aee",
+      "papers": [
+        "2610.31492",
+        "doi:10.1029/2025je009389",
+        "doi:10.3847/2041-8213/aea906"
+      ],
+      "weight": 3
+    },
+    {
+      "source": "5d3200af582a6be2",
+      "target": "8aa302982705b6d1",
+      "papers": [
+        "2610.31492"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "5d3200af582a6be2",
+      "target": "c060919391e78c3b",
+      "papers": [
+        "2610.31492",
+        "doi:10.3847/2041-8213/aea906"
+      ],
+      "weight": 2
+    },
+    {
+      "source": "5d3200af582a6be2",
+      "target": "c61a26f3159ecf27",
+      "papers": [
+        "2610.31492"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "5d3200af582a6be2",
+      "target": "de85f8377f7fd093",
+      "papers": [
+        "2610.31492",
+        "doi:10.1029/2025je009008"
+      ],
+      "weight": 2
+    },
+    {
+      "source": "8331122e8aae1aee",
+      "target": "8aa302982705b6d1",
+      "papers": [
+        "2610.31492"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "8331122e8aae1aee",
+      "target": "c060919391e78c3b",
+      "papers": [
+        "2610.19081",
+        "2610.31492",
+        "doi:10.1177/15311074261477497",
+        "doi:10.3847/1538-4357/aea149",
+        "doi:10.3847/2041-8213/aea906"
+      ],
+      "weight": 5
+    },
+    {
+      "source": "8331122e8aae1aee",
+      "target": "c61a26f3159ecf27",
+      "papers": [
+        "2610.31492"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "8331122e8aae1aee",
+      "target": "de85f8377f7fd093",
+      "papers": [
+        "2610.31492",
+        "doi:10.1029/2025je009605",
+        "doi:10.3847/2041-8213/aeb00b"
+      ],
+      "weight": 3
+    },
+    {
+      "source": "8aa302982705b6d1",
+      "target": "c060919391e78c3b",
+      "papers": [
+        "2610.31492"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "8aa302982705b6d1",
+      "target": "c61a26f3159ecf27",
+      "papers": [
+        "2610.31492"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "8aa302982705b6d1",
+      "target": "de85f8377f7fd093",
+      "papers": [
+        "2610.31492"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "c060919391e78c3b",
+      "target": "c61a26f3159ecf27",
+      "papers": [
+        "2610.31492"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "c060919391e78c3b",
+      "target": "de85f8377f7fd093",
+      "papers": [
+        "2610.31492"
+      ],
+      "weight": 1
+    },
+    {
+      "source": "c61a26f3159ecf27",
+      "target": "de85f8377f7fd093",
+      "papers": [
+        "2610.31492"
+      ],
+      "weight": 1
+    },
+    {
       "source": "366058c27e343874",
       "target": "3e2e527953176c93",
       "papers": [
@@ -11853,9 +12332,10 @@
         "doi:10.1029/2025je009120",
         "doi:10.1029/2025je009242",
         "doi:10.1126/science.adu5501",
-        "doi:10.1177/15311074261477497"
+        "doi:10.1177/15311074261477497",
+        "doi:10.3847/2041-8213/aeb00b"
       ],
-      "weight": 7
+      "weight": 8
     },
     {
       "source": "78740f94739b5583",
@@ -11874,17 +12354,6 @@
         "doi:10.1029/2025je009390",
         "doi:10.3847/1538-4357/ae994a",
         "doi:10.3847/2041-8213/ae9305"
-      ],
-      "weight": 4
-    },
-    {
-      "source": "8331122e8aae1aee",
-      "target": "c060919391e78c3b",
-      "papers": [
-        "2610.19081",
-        "doi:10.1177/15311074261477497",
-        "doi:10.3847/1538-4357/aea149",
-        "doi:10.3847/2041-8213/aea906"
       ],
       "weight": 4
     },
@@ -12206,14 +12675,6 @@
         "doi:10.3847/2041-8213/ae930e"
       ],
       "weight": 2
-    },
-    {
-      "source": "572758623152e66d",
-      "target": "8331122e8aae1aee",
-      "papers": [
-        "2609.26894"
-      ],
-      "weight": 1
     },
     {
       "source": "572758623152e66d",
@@ -14125,14 +14586,6 @@
       "weight": 2
     },
     {
-      "source": "5d3200af582a6be2",
-      "target": "de85f8377f7fd093",
-      "papers": [
-        "doi:10.1029/2025je009008"
-      ],
-      "weight": 1
-    },
-    {
       "source": "9ccba510d713333f",
       "target": "a0a8abf29e3f894e",
       "papers": [
@@ -14845,15 +15298,6 @@
     },
     {
       "source": "556024ebbe9f0f08",
-      "target": "8331122e8aae1aee",
-      "papers": [
-        "doi:10.1029/2025je009242",
-        "doi:10.3847/1538-4357/aea149"
-      ],
-      "weight": 2
-    },
-    {
-      "source": "556024ebbe9f0f08",
       "target": "9ccba510d713333f",
       "papers": [
         "doi:10.1029/2025je009242"
@@ -15398,9 +15842,10 @@
       "source": "78740f94739b5583",
       "target": "de85f8377f7fd093",
       "papers": [
-        "doi:10.1177/15311074261475054"
+        "doi:10.1177/15311074261475054",
+        "doi:10.3847/2041-8213/aeb00b"
       ],
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "8ae22c258f1b2514",
@@ -15816,26 +16261,9 @@
     },
     {
       "source": "5d3200af582a6be2",
-      "target": "8331122e8aae1aee",
-      "papers": [
-        "doi:10.1029/2025je009389",
-        "doi:10.3847/2041-8213/aea906"
-      ],
-      "weight": 2
-    },
-    {
-      "source": "5d3200af582a6be2",
       "target": "c2dab080fa856716",
       "papers": [
         "doi:10.1029/2025je009389"
-      ],
-      "weight": 1
-    },
-    {
-      "source": "8331122e8aae1aee",
-      "target": "de85f8377f7fd093",
-      "papers": [
-        "doi:10.1029/2025je009605"
       ],
       "weight": 1
     },
@@ -16349,14 +16777,6 @@
     },
     {
       "source": "5d3200af582a6be2",
-      "target": "c060919391e78c3b",
-      "papers": [
-        "doi:10.3847/2041-8213/aea906"
-      ],
-      "weight": 1
-    },
-    {
-      "source": "5d3200af582a6be2",
       "target": "f0a42ba5624748d4",
       "papers": [
         "doi:10.3847/2041-8213/aea906"
@@ -16485,14 +16905,6 @@
     },
     {
       "source": "556024ebbe9f0f08",
-      "target": "c060919391e78c3b",
-      "papers": [
-        "doi:10.3847/1538-4357/aea149"
-      ],
-      "weight": 1
-    },
-    {
-      "source": "556024ebbe9f0f08",
       "target": "d5e3b6658d01daa4",
       "papers": [
         "doi:10.3847/1538-4357/aea149"
@@ -16517,6 +16929,27 @@
     }
   ],
   "papers": {
+    "2610.31492": {
+      "id": "2610.31492",
+      "title": "A Headwind-like Helium Outflow from TOI-3884b",
+      "url": "https://arxiv.org/abs/2610.31492",
+      "topics": [
+        "planetary"
+      ],
+      "first_seen": "2026-10-24T01:46:28.639634+00:00",
+      "publication_date": "2026-10-23",
+      "journals": [],
+      "institutions": [
+        "556024ebbe9f0f08",
+        "572758623152e66d",
+        "5d3200af582a6be2",
+        "8331122e8aae1aee",
+        "8aa302982705b6d1",
+        "c060919391e78c3b",
+        "c61a26f3159ecf27",
+        "de85f8377f7fd093"
+      ]
+    },
     "2610.29930": {
       "id": "2610.29930",
       "title": "Topographically Forced Stationary Waves Can Explain the Near-Surface Zonal Winds Observed by Huygens on Titan",
@@ -19395,6 +19828,24 @@
         "de85f8377f7fd093"
       ]
     },
+    "doi:10.3847/2041-8213/aeb00b": {
+      "id": "doi:10.3847/2041-8213/aeb00b",
+      "title": "Improved Constraints on the Surface of LHS 3844 b from Its Mid-infrared Spectrum",
+      "url": "https://doi.org/10.3847/2041-8213/aeb00b",
+      "topics": [
+        "evolution"
+      ],
+      "first_seen": "2026-10-24T01:47:22.459781+00:00",
+      "publication_date": "2026-10-23",
+      "journals": [
+        "The Astrophysical Journal Letters"
+      ],
+      "institutions": [
+        "78740f94739b5583",
+        "8331122e8aae1aee",
+        "de85f8377f7fd093"
+      ]
+    },
     "exoplanet-bib:33128": {
       "id": "exoplanet-bib:33128",
       "title": "Transport and Thermochemical Kinetics of Alkali Species in Hot Jupiter Atmospheres: Implications for Magnetic Models",
@@ -19414,6 +19865,362 @@
   "omitted_papers": 39,
   "level": "parent",
   "researchers": [
+    {
+      "id": "63f29c17e082e1d3",
+      "name": "Joe P. Ninan",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0001-8720-5612",
+      "identity_basis": "orcid",
+      "papers": [
+        "2610.31492"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Joe P. Ninan"
+      ]
+    },
+    {
+      "id": "647acbfd76bb774f",
+      "name": "Jessica Libby-Roberts",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0002-2990-7613",
+      "identity_basis": "orcid",
+      "papers": [
+        "2610.31492"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Jessica Libby-Roberts"
+      ]
+    },
+    {
+      "id": "f668881652d7d3b1",
+      "name": "Suvrath Mahadevan",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0001-9596-7983",
+      "identity_basis": "orcid",
+      "papers": [
+        "2610.31492",
+        "doi:10.3847/1538-4357/ae9e27"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Suvrath Mahadevan"
+      ]
+    },
+    {
+      "id": "2493722899cdc7c4",
+      "name": "Oleg Kochukhov",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0003-3061-4591",
+      "identity_basis": "orcid",
+      "papers": [
+        "2610.31492"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Oleg Kochukhov"
+      ]
+    },
+    {
+      "id": "c8a98f7912043684",
+      "name": "Daniel M. Krolikowski",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0001-9626-0613",
+      "identity_basis": "orcid",
+      "papers": [
+        "2610.31492"
+      ],
+      "institutions": [
+        "c060919391e78c3b"
+      ],
+      "aliases": [
+        "Daniel M. Krolikowski"
+      ]
+    },
+    {
+      "id": "bf5decbd2761dc87",
+      "name": "Gudmundur Stefansson",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0001-7409-5688",
+      "identity_basis": "orcid",
+      "papers": [
+        "2610.31492"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Gudmundur Stefansson"
+      ]
+    },
+    {
+      "id": "e0eef56cedbc9e06",
+      "name": "Shubham Kanodia",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0001-8401-4300",
+      "identity_basis": "orcid",
+      "papers": [
+        "2610.31492"
+      ],
+      "institutions": [
+        "572758623152e66d"
+      ],
+      "aliases": [
+        "Shubham Kanodia"
+      ]
+    },
+    {
+      "id": "2b2fe663a6c550cf",
+      "name": "Jaume Orell-Miquel",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0003-2066-8959",
+      "identity_basis": "orcid",
+      "papers": [
+        "2610.31492"
+      ],
+      "institutions": [
+        "5d3200af582a6be2"
+      ],
+      "aliases": [
+        "Jaume Orell-Miquel"
+      ]
+    },
+    {
+      "id": "2a19ef9bc1c188b4",
+      "name": "Caroline V. Morley",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0002-4404-0456",
+      "identity_basis": "orcid",
+      "papers": [
+        "2610.31492",
+        "doi:10.3847/1538-4357/aea404"
+      ],
+      "institutions": [
+        "5d3200af582a6be2"
+      ],
+      "aliases": [
+        "Caroline V. Morley"
+      ]
+    },
+    {
+      "id": "ed21af89a1143f86",
+      "name": "Kevin France",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0002-1002-3674",
+      "identity_basis": "orcid",
+      "papers": [
+        "2610.31492"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Kevin France"
+      ]
+    },
+    {
+      "id": "7bae99dd9fa15267",
+      "name": "Girish Duvvuri",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0002-7119-2543",
+      "identity_basis": "orcid",
+      "papers": [
+        "2610.31492"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Girish Duvvuri"
+      ]
+    },
+    {
+      "id": "b72004972486e210",
+      "name": "Chad F. Bender",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0003-4384-7220",
+      "identity_basis": "orcid",
+      "papers": [
+        "2610.31492"
+      ],
+      "institutions": [
+        "c060919391e78c3b"
+      ],
+      "aliases": [
+        "Chad F. Bender"
+      ]
+    },
+    {
+      "id": "911615fb421b2988",
+      "name": "William D. Cochran",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0001-9662-3496",
+      "identity_basis": "orcid",
+      "papers": [
+        "2610.31492"
+      ],
+      "institutions": [
+        "5d3200af582a6be2"
+      ],
+      "aliases": [
+        "William D. Cochran"
+      ]
+    },
+    {
+      "id": "73571f10993fd640",
+      "name": "Megan Delamer",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0003-1439-2781",
+      "identity_basis": "orcid",
+      "papers": [
+        "2610.31492"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Megan Delamer"
+      ]
+    },
+    {
+      "id": "39b4f51980c1b8d7",
+      "name": "Scott A. Diddams",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0002-2144-0764",
+      "identity_basis": "orcid",
+      "papers": [
+        "2610.31492"
+      ],
+      "institutions": [
+        "de85f8377f7fd093"
+      ],
+      "aliases": [
+        "Scott A. Diddams"
+      ]
+    },
+    {
+      "id": "9008f26fd26ece2c",
+      "name": "Samuel Halverson",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0003-1312-9391",
+      "identity_basis": "orcid",
+      "papers": [
+        "2610.31492"
+      ],
+      "institutions": [
+        "8331122e8aae1aee"
+      ],
+      "aliases": [
+        "Samuel Halverson"
+      ]
+    },
+    {
+      "id": "74ece048c11a6eb5",
+      "name": "Fred Hearty",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0002-1664-3102",
+      "identity_basis": "orcid",
+      "papers": [
+        "2610.31492"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Fred Hearty"
+      ]
+    },
+    {
+      "id": "deb8545dc844ee9f",
+      "name": "Leslie Hebb",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0003-1263-8637",
+      "identity_basis": "orcid",
+      "papers": [
+        "2610.31492"
+      ],
+      "institutions": [
+        "556024ebbe9f0f08"
+      ],
+      "aliases": [
+        "Leslie Hebb"
+      ]
+    },
+    {
+      "id": "cda144bf1f8045a4",
+      "name": "Andrew Monson",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0002-0048-2586",
+      "identity_basis": "orcid",
+      "papers": [
+        "2610.31492"
+      ],
+      "institutions": [
+        "c060919391e78c3b"
+      ],
+      "aliases": [
+        "Andrew Monson"
+      ]
+    },
+    {
+      "id": "26f266d405a22365",
+      "name": "Paul Robertson",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0003-0149-9678",
+      "identity_basis": "orcid",
+      "papers": [
+        "2610.31492"
+      ],
+      "institutions": [
+        "c61a26f3159ecf27"
+      ],
+      "aliases": [
+        "Paul Robertson"
+      ]
+    },
+    {
+      "id": "a2e5c18916f52b0d",
+      "name": "Arpita Roy",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0001-8127-5775",
+      "identity_basis": "orcid",
+      "papers": [
+        "2610.31492"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Arpita Roy"
+      ]
+    },
+    {
+      "id": "c80399d0e225c6bf",
+      "name": "Christian Schwab",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": null,
+      "identity_basis": "name_and_institution",
+      "papers": [
+        "2610.31492"
+      ],
+      "institutions": [
+        "8aa302982705b6d1"
+      ],
+      "aliases": [
+        "Christian Schwab"
+      ]
+    },
     {
       "id": "2190929cbb80fd40",
       "name": "Sooman Han",
@@ -32298,14 +33105,16 @@
       "orcid": "https://orcid.org/0000-0002-2745-3240",
       "identity_basis": "orcid",
       "papers": [
-        "doi:10.1029/2025je009605"
+        "doi:10.1029/2025je009605",
+        "doi:10.3847/2041-8213/aeb00b"
       ],
       "institutions": [
         "8331122e8aae1aee",
         "de85f8377f7fd093"
       ],
       "aliases": [
-        "B. L. Ehlmann"
+        "B. L. Ehlmann",
+        "Bethany L. Ehlmann"
       ]
     },
     {
@@ -37893,21 +38702,6 @@
       ]
     },
     {
-      "id": "f668881652d7d3b1",
-      "name": "Suvrath Mahadevan",
-      "name_zh": null,
-      "name_source": "",
-      "orcid": "https://orcid.org/0000-0001-9596-7983",
-      "identity_basis": "orcid",
-      "papers": [
-        "doi:10.3847/1538-4357/ae9e27"
-      ],
-      "institutions": [],
-      "aliases": [
-        "Suvrath Mahadevan"
-      ]
-    },
-    {
       "id": "88062e301c71acd2",
       "name": "J. R. Fuentes",
       "name_zh": null,
@@ -37990,23 +38784,6 @@
       ],
       "aliases": [
         "Gregory J. Gosselin"
-      ]
-    },
-    {
-      "id": "2a19ef9bc1c188b4",
-      "name": "Caroline V. Morley",
-      "name_zh": null,
-      "name_source": "",
-      "orcid": "https://orcid.org/0000-0002-4404-0456",
-      "identity_basis": "orcid",
-      "papers": [
-        "doi:10.3847/1538-4357/aea404"
-      ],
-      "institutions": [
-        "5d3200af582a6be2"
-      ],
-      "aliases": [
-        "Caroline V. Morley"
       ]
     },
     {
@@ -38193,6 +38970,104 @@
       "institutions": [],
       "aliases": [
         "Yuni Lee"
+      ]
+    },
+    {
+      "id": "a52ce20dd2408c87",
+      "name": "Kimberly Paragas",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0003-0062-1168",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/2041-8213/aeb00b"
+      ],
+      "institutions": [
+        "8331122e8aae1aee"
+      ],
+      "aliases": [
+        "Kimberly Paragas"
+      ]
+    },
+    {
+      "id": "55608fdc4dffe918",
+      "name": "Heather A. Knutson",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0002-5375-4725",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/2041-8213/aeb00b"
+      ],
+      "institutions": [
+        "8331122e8aae1aee"
+      ],
+      "aliases": [
+        "Heather A. Knutson"
+      ]
+    },
+    {
+      "id": "124e9c0ff7aa385e",
+      "name": "Renyu Hu",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0003-2215-8485",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/2041-8213/aeb00b"
+      ],
+      "institutions": [
+        "8331122e8aae1aee"
+      ],
+      "aliases": [
+        "Renyu Hu"
+      ]
+    },
+    {
+      "id": "8a4789f4ea940d01",
+      "name": "Aishwarya R. Iyer",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0003-0971-1709",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/2041-8213/aeb00b"
+      ],
+      "institutions": [
+        "78740f94739b5583"
+      ],
+      "aliases": [
+        "Aishwarya R. Iyer"
+      ]
+    },
+    {
+      "id": "bccd02314755665e",
+      "name": "Sebastian Zieba",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0003-0562-6750",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/2041-8213/aeb00b"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Sebastian Zieba"
+      ]
+    },
+    {
+      "id": "91c935b8b97b9256",
+      "name": "Laura Kreidberg",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0003-0514-1147",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/2041-8213/aeb00b"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Laura Kreidberg"
       ]
     },
     {
