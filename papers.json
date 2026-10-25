@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-10-24T01:46:28.639634+00:00",
+  "generated_at": "2026-10-25T01:37:07.975875+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
-      "last_attempt": "2026-10-24T01:46:28.639634+00:00",
-      "last_success": "2026-10-24T01:46:28.639634+00:00",
+      "last_attempt": "2026-10-25T01:37:07.975875+00:00",
+      "last_success": "2026-10-25T01:37:07.975875+00:00",
       "status": "ok",
-      "fetched": 9
+      "fetched": 0
     },
     "physics.ao-ph": {
-      "last_attempt": "2026-10-24T01:46:28.639634+00:00",
-      "last_success": "2026-10-24T01:46:28.639634+00:00",
+      "last_attempt": "2026-10-25T01:37:07.975875+00:00",
+      "last_success": "2026-10-25T01:37:07.975875+00:00",
       "status": "ok",
       "fetched": 0
     },
     "physics.geo-ph": {
-      "last_attempt": "2026-10-24T01:46:28.639634+00:00",
-      "last_success": "2026-10-24T01:46:28.639634+00:00",
+      "last_attempt": "2026-10-25T01:37:07.975875+00:00",
+      "last_success": "2026-10-25T01:37:07.975875+00:00",
       "status": "ok",
-      "fetched": 5
+      "fetched": 0
     },
     "physics.flu-dyn": {
-      "last_attempt": "2026-10-24T01:46:28.639634+00:00",
-      "last_success": "2026-10-24T01:46:28.639634+00:00",
+      "last_attempt": "2026-10-25T01:37:07.975875+00:00",
+      "last_success": "2026-10-25T01:37:07.975875+00:00",
       "status": "ok",
-      "fetched": 17
+      "fetched": 0
     }
   },
   "topics": [
@@ -30798,10 +30798,36 @@
       "fit_matches": [
         "理论机制与尺度关系"
       ],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
-      "affiliation_source": "https://arxiv.org/html/2606.00649v3",
+      "institutions": [
+        "Institute of Particle Physics and Key Laboratory of Quark and Lepton Physics (MOE), Central China Normal University, Wuhan 430079, China",
+        "Institute of Physics, Henan Academy of Sciences, Zhengzhou 450046, China"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Yiwei Qiu",
+          "institutions": [
+            "Institute of Particle Physics and Key Laboratory of Quark and Lepton Physics (MOE), Central China Normal University, Wuhan 430079, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Duan She",
+          "institutions": [
+            "Institute of Particle Physics and Key Laboratory of Quark and Lepton Physics (MOE), Central China Normal University, Wuhan 430079, China",
+            "Institute of Physics, Henan Academy of Sciences, Zhengzhou 450046, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Defu Hou",
+          "institutions": [
+            "Institute of Particle Physics and Key Laboratory of Quark and Lepton Physics (MOE), Central China Normal University, Wuhan 430079, China"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2606.00649v4",
       "intro_en": "In this work, we construct a theoretical framework for relativistic second-order magnetohydrodynamics based on entropy current analysis. The formalism consistently incorporates finite relaxation dynamics of the dissipative fluxes, providing a transient framework suitable for analyzing linear stability and short-wavelength causality.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
@@ -30975,15 +31001,26 @@
       "method": "keyword",
       "fit_score": 0,
       "fit_matches": [],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "institutions": [
+        "International Information Technology University (IITU), Almaty, Kazakhstan"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Igilik Alim",
+          "institutions": [
+            "International Information Technology University (IITU), Almaty, Kazakhstan"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
       "intro_en": "We revisit a neural negative binomial model for weekly earthquake counts on a 3 x 3 degree grid over the Tian Shan and Pamir, and ask which of its conclusions survive a careful evaluation. At the completeness magnitude of 4.5, the 144-week test period holds 2448 cell-weeks; six cell-weeks, in five distinct weeks, have three or more events.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-05-21",
       "publication_date_source": "https://arxiv.org/abs/2605.21437v2",
+      "affiliation_source": "https://arxiv.org/html/2605.21437v2",
       "version_date": "2026-10-22T13:53:06+00:00"
     },
     {
@@ -31027,15 +31064,73 @@
       "method": "keyword",
       "fit_score": 34,
       "fit_matches": [],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "institutions": [
+        "Yunnan Key Laboratory of Complex Systems and Brain-Inspired Intelligence, Kunming University of Science and Technology, Kunming 650500, Yunnan, China",
+        "Faculty of Science, Kunming University of Science and Technology, Kunming 650500, Yunnan, China",
+        "Corresponding authors: Yongwen Zhang (zhangyongwen77@gmail.com), Chunhua Zeng (zchh2009@126.com), Xiaosong Chen (chenxs@zju.edu.cn)",
+        "Institute for Advanced Study in Physics and School of Physics, Zhejiang University, Hangzhou 310058, China",
+        "These authors contributed equally to this work."
+      ],
+      "author_affiliations": [
+        {
+          "name": "Shuo Yang",
+          "institutions": [
+            "Yunnan Key Laboratory of Complex Systems and Brain-Inspired Intelligence, Kunming University of Science and Technology, Kunming 650500, Yunnan, China",
+            "Faculty of Science, Kunming University of Science and Technology, Kunming 650500, Yunnan, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Dan Zhao",
+          "institutions": [
+            "Yunnan Key Laboratory of Complex Systems and Brain-Inspired Intelligence, Kunming University of Science and Technology, Kunming 650500, Yunnan, China",
+            "Faculty of Science, Kunming University of Science and Technology, Kunming 650500, Yunnan, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Yongwen Zhang",
+          "institutions": [
+            "Yunnan Key Laboratory of Complex Systems and Brain-Inspired Intelligence, Kunming University of Science and Technology, Kunming 650500, Yunnan, China",
+            "Faculty of Science, Kunming University of Science and Technology, Kunming 650500, Yunnan, China",
+            "Corresponding authors: Yongwen Zhang (zhangyongwen77@gmail.com), Chunhua Zeng (zchh2009@126.com), Xiaosong Chen (chenxs@zju.edu.cn)"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Tingting Xue",
+          "institutions": [
+            "Yunnan Key Laboratory of Complex Systems and Brain-Inspired Intelligence, Kunming University of Science and Technology, Kunming 650500, Yunnan, China",
+            "Faculty of Science, Kunming University of Science and Technology, Kunming 650500, Yunnan, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Chunhua Zeng",
+          "institutions": [
+            "Yunnan Key Laboratory of Complex Systems and Brain-Inspired Intelligence, Kunming University of Science and Technology, Kunming 650500, Yunnan, China",
+            "Faculty of Science, Kunming University of Science and Technology, Kunming 650500, Yunnan, China",
+            "Corresponding authors: Yongwen Zhang (zhangyongwen77@gmail.com), Chunhua Zeng (zchh2009@126.com), Xiaosong Chen (chenxs@zju.edu.cn)"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Xiaosong Chen",
+          "institutions": [
+            "Institute for Advanced Study in Physics and School of Physics, Zhejiang University, Hangzhou 310058, China",
+            "Corresponding authors: Yongwen Zhang (zhangyongwen77@gmail.com), Chunhua Zeng (zchh2009@126.com), Xiaosong Chen (chenxs@zju.edu.cn)"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
       "intro_en": "The dynamical basis of stratospheric polar vortex (SPV) predictability remains unclear, particularly the relative roles of persistence, structural variability, and cross-level coupling. Here we combine eigen microstate theory with mesoscopic Granger-causality analysis of ERA5 geopotential height fields to quantify the predictive contributions of eigen microstates.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-05-13",
       "publication_date_source": "https://arxiv.org/abs/2605.13417v2",
+      "affiliation_source": "https://arxiv.org/html/2605.13417v2",
       "version_date": "2026-10-22T09:34:52+00:00"
     },
     {
@@ -31316,7 +31411,10 @@
       "abstract": "We analyze the mixing, migration and spreading of a gravity current in a heterogeneous porous medium using high-fidelity numerical simulations. Heterogeneity is represented by log-normal permeability fields of varying correlation lengths and variance. Stable and unstable density stratification scenarios are considered through linear and non-monotonic density laws, respectively. Heterogeneity reduces dissolution and increases the speed of the gravity current proportionally to the Rayleigh number. In the unstable case, heterogeneity accelerates the onset of convection. Convection-driven dissolution slows down the gravity current and counteracts the dispersive effect of heterogeneity resulting in a narrower interface and higher dissolution than in the stable case. Permeability anisotropy reduces dissolution because of the barrier effect of low permeability regions, except when blobs of buoyant fluid are trapped in low permeability structures and rapidly dissolve. The variance of the log-permeability field enhances dissolution. However, the homogeneous case outperforms heterogeneous cases except when Rayleigh number is small. This suggest an interaction between the size of the instabilities, the correlation length of the permeability field and the dispersive and barrier effects of the permeability field that controls dissolution efficiency.",
       "published": "2026-04-30T13:11:54Z",
       "updated": "2026-10-22T04:02:48.703237+00:00",
-      "authors": [],
+      "authors": [
+        "Albert Jiménez-Ramos",
+        "Juan J. Hidalgo"
+      ],
       "doi": "",
       "categories": [
         "physics.flu-dyn"
@@ -31358,7 +31456,7 @@
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-04-30",
       "publication_date_source": "https://arxiv.org/abs/2604.27827v2",
-      "authors_source": null,
+      "authors_source": "https://arxiv.org/abs/2604.27827v2",
       "authors_raw": "Albert Jim\\'enez-Ramos, Juan J. Hidalgo",
       "date_kind": "published",
       "announcement_type": "replace",
@@ -31403,15 +31501,47 @@
       "method": "keyword",
       "fit_score": 20,
       "fit_matches": [],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "institutions": [
+        "Department of Aerospace Engineering, Korea Advanced Institute of Science and Technology, Daejeon, 34141, Republic of Korea"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Inchan Kim",
+          "institutions": [
+            "Department of Aerospace Engineering, Korea Advanced Institute of Science and Technology, Daejeon, 34141, Republic of Korea"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Joonbeom Kim",
+          "institutions": [
+            "Department of Aerospace Engineering, Korea Advanced Institute of Science and Technology, Daejeon, 34141, Republic of Korea"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Woonghwi Park",
+          "institutions": [
+            "Department of Aerospace Engineering, Korea Advanced Institute of Science and Technology, Daejeon, 34141, Republic of Korea"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Eunji Jun",
+          "institutions": [
+            "Department of Aerospace Engineering, Korea Advanced Institute of Science and Technology, Daejeon, 34141, Republic of Korea"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
       "intro_en": "Kinetic models based on the Bhatnagar-Gross-Krook (BGK) framework provide an efficient alternative to the Boltzmann equation for rarefied gas flows; however, existing formulations for gas mixtures remain limited in representing pair-dependent relaxation processes and recovering correct Navier-Stokes-Fourier (NSF) transport behavior. A particle-based unified BGK (UBGK) model for monatomic gas mixtures is developed by extending the single-species UBGK framework to a multi-relaxation formulation.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-04-27",
       "publication_date_source": "https://arxiv.org/abs/2604.24244v2",
+      "affiliation_source": "https://arxiv.org/html/2604.24244v2",
       "version_date": "2026-10-22T09:25:00+00:00"
     },
     {
@@ -31604,15 +31734,44 @@
       "method": "keyword",
       "fit_score": 20,
       "fit_matches": [],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "institutions": [
+        "Department of Geoscience and Remote Sensing, Delft University of Technology, Delft, The Netherlands",
+        "Atmospheric Sciences Research Center, University at Albany, Albany, USA",
+        "Department of Environmental and Sustainable Engineering, University at Albany, Albany, USA",
+        "Faculty of Aerospace Engineering, Delft University of Technology, Delft, The Netherlands"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Maximilian Pierzyna",
+          "institutions": [
+            "Department of Geoscience and Remote Sensing, Delft University of Technology, Delft, The Netherlands"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Sukanta Basu",
+          "institutions": [
+            "Atmospheric Sciences Research Center, University at Albany, Albany, USA",
+            "Department of Environmental and Sustainable Engineering, University at Albany, Albany, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Rudolf Saathof",
+          "institutions": [
+            "Faculty of Aerospace Engineering, Delft University of Technology, Delft, The Netherlands"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
       "intro_en": "Accurate, high-resolution vertical profiles of optical turbulence ($C_n^2$), which reflect local meteorology and topography, are crucial for ground-based optical astronomy and free-space optical communication. However, measuring these profiles or generating them with numerical weather models requires substantial operational or computational effort.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-04-10",
       "publication_date_source": "https://arxiv.org/abs/2604.09346v2",
+      "affiliation_source": "https://arxiv.org/html/2604.09346v2",
       "version_date": "2026-10-22T09:34:08+00:00"
     },
     {
@@ -32472,15 +32631,40 @@
       "fit_matches": [
         "理论机制与尺度关系"
       ],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "institutions": [
+        "Extreme Materials Initiative, Earth and Planets Laboratory, Carnegie Institution for Science, 5241 Broad Branch Road NW, Washington, District of Columbia 20015, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Cong Liu",
+          "institutions": [
+            "Extreme Materials Initiative, Earth and Planets Laboratory, Carnegie Institution for Science, 5241 Broad Branch Road NW, Washington, District of Columbia 20015, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Xin Deng",
+          "institutions": [
+            "Extreme Materials Initiative, Earth and Planets Laboratory, Carnegie Institution for Science, 5241 Broad Branch Road NW, Washington, District of Columbia 20015, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "R. E. Cohen",
+          "institutions": [
+            "Extreme Materials Initiative, Earth and Planets Laboratory, Carnegie Institution for Science, 5241 Broad Branch Road NW, Washington, District of Columbia 20015, USA"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
       "intro_en": "Understanding the structure and dynamics of Earth's inner core is essential for constraining its composition, thermal evolution, and seismic behavior. Silicon is widely considered a major light element in the core.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2025-11-28",
       "publication_date_source": "https://arxiv.org/abs/2511.22899v2",
+      "affiliation_source": "https://arxiv.org/html/2511.22899v2",
       "version_date": "2026-10-22T13:15:49+00:00"
     },
     {
@@ -32530,13 +32714,14 @@
       "fit_matches": [],
       "institutions": [],
       "author_affiliations": [],
-      "affiliation_status": "pending",
+      "affiliation_status": "unavailable",
       "intro_en": "Sweat evaporation is the body's primary cooling mechanism, yet the physical factors governing it are not fully understood. We identify a dueling buoyancy effect in the context of the human body, in which perspiration vapor reduces the near skin air density, counteracting the downward flow driven by cooling of warm air upon contact with the skin.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2025-11-21",
       "publication_date_source": "https://arxiv.org/abs/2511.16922v3",
+      "affiliation_source": "https://arxiv.org/html/2511.16922v3",
       "version_date": "2026-10-22T03:19:10+00:00"
     },
     {
@@ -37839,15 +38024,49 @@
       "method": "keyword",
       "fit_score": 20,
       "fit_matches": [],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "institutions": [
+        "Univ. Lille, CNRS, ONERA, Arts et Métiers Institute of Technology, Centrale Lille, UMR 9014-LMFL-Laboratoire de Mécanique des Fluides de Lille - Kampé de Fériet, F-59000, Lille, France",
+        "Univ. Lille, ULR 7512 - Unité de Mécanique de Lille Joseph Boussinesq (UML), F-59000 Lille, France",
+        "Laboratoire de Thermique et Energie de Nantes, CNRS, Nantes Université, Rue Christian Pauc, B.P. 50609, Nantes, 44306, France"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Zhongxuan Hou",
+          "institutions": [
+            "Univ. Lille, CNRS, ONERA, Arts et Métiers Institute of Technology, Centrale Lille, UMR 9014-LMFL-Laboratoire de Mécanique des Fluides de Lille - Kampé de Fériet, F-59000, Lille, France"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Stefano Berti",
+          "institutions": [
+            "Univ. Lille, ULR 7512 - Unité de Mécanique de Lille Joseph Boussinesq (UML), F-59000 Lille, France"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Teodor Burghelea",
+          "institutions": [
+            "Laboratoire de Thermique et Energie de Nantes, CNRS, Nantes Université, Rue Christian Pauc, B.P. 50609, Nantes, 44306, France"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Francesco Romanò",
+          "institutions": [
+            "Univ. Lille, CNRS, ONERA, Arts et Métiers Institute of Technology, Centrale Lille, UMR 9014-LMFL-Laboratoire de Mécanique des Fluides de Lille - Kampé de Fériet, F-59000, Lille, France"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
       "intro_en": "Elastic turbulence is a spatially and temporally disordered flow state appearing in viscoelastic fluids at vanishing fluid inertia and large elasticity. The resulting flows have broad technological interest, particularly to enhance mixing and heat transfer in microdevices.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2025-10-15",
       "publication_date_source": "https://arxiv.org/abs/2510.13475v4",
+      "affiliation_source": "https://arxiv.org/html/2510.13475v4",
       "version_date": "2026-10-22T15:01:46+00:00"
     },
     {
@@ -37886,15 +38105,19 @@
       "fit_matches": [
         "理论机制与尺度关系"
       ],
-      "institutions": [],
+      "institutions": [
+        "††affiliation: 1Institute of Port, Coastal and Offshore Engineering, Ocean College, Zhejiang University, 316021 Zhoushan, China 2Institute for Theoretical Physics, Leipzig University, Brüderstraße 16, 04103 Leipzig, Germany 3School of Marine Science and Engineering, South China University of Technology, Guangzhou 511442, China"
+      ],
       "author_affiliations": [],
-      "affiliation_status": "pending",
+      "affiliation_status": "verified",
       "intro_en": "The Maxey--Riley--Gatignol equation for the flow around a sphere at low particle Reynolds number tells us that the fluid-particle interaction force decomposes into a contribution from the local flow disturbance caused by the particle's boundary---consisting of the drag, virtual-mass, and history forces, and their Faxén corrections---and another contribution from the stress of the background flow, termed generalized-buoyancy force. There is also a consensus that, for general disperse two-phase flow, the interfacial force density, coupling the average fluid phase and dispersed-phase momentum balances, decomposes in a like manner.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2025-07-29",
       "publication_date_source": "https://arxiv.org/abs/2507.21602v4",
+      "author_affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2507.21602v4",
       "version_date": "2026-10-22T05:10:08+00:00"
     },
     {
@@ -38243,15 +38466,26 @@
       "method": "keyword",
       "fit_score": 0,
       "fit_matches": [],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "institutions": [
+        "College of Mechanical and Electronic Engineering, Shandong University of Science and Technology, No. 579 Qianwan’gang Road, Qingdao 266590, Shandong, China"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Xunchen Liu (刘训臣)",
+          "institutions": [
+            "College of Mechanical and Electronic Engineering, Shandong University of Science and Technology, No. 579 Qianwan’gang Road, Qingdao 266590, Shandong, China"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
       "intro_en": "The front jet of a tandem pair in crossflow is not passive. This paper treats the mean-flow phenomenology and its scaling; the mechanism is left to the companion paper.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2024-09-30",
       "publication_date_source": "https://arxiv.org/abs/2409.19927v2",
+      "affiliation_source": "https://arxiv.org/html/2409.19927v2",
       "version_date": "2026-10-22T02:46:59+00:00"
     }
   ]
