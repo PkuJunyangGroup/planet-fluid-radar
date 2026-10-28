@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-10-27T06:14:42.886440+00:00",
+  "generated_at": "2026-10-28T06:50:23.316687+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
-      "last_attempt": "2026-10-27T06:14:42.886440+00:00",
-      "last_success": "2026-10-27T06:14:42.886440+00:00",
+      "last_attempt": "2026-10-28T06:50:23.316687+00:00",
+      "last_success": "2026-10-28T06:50:23.316687+00:00",
       "status": "ok",
-      "fetched": 15
+      "fetched": 7
     },
     "physics.ao-ph": {
-      "last_attempt": "2026-10-27T06:14:42.886440+00:00",
-      "last_success": "2026-10-27T06:14:42.886440+00:00",
+      "last_attempt": "2026-10-28T06:50:23.316687+00:00",
+      "last_success": "2026-10-28T06:50:23.316687+00:00",
       "status": "ok",
       "fetched": 7
     },
     "physics.geo-ph": {
-      "last_attempt": "2026-10-27T06:14:42.886440+00:00",
-      "last_success": "2026-10-27T06:14:42.886440+00:00",
+      "last_attempt": "2026-10-28T06:50:23.316687+00:00",
+      "last_success": "2026-10-28T06:50:23.316687+00:00",
       "status": "ok",
-      "fetched": 2
+      "fetched": 6
     },
     "physics.flu-dyn": {
-      "last_attempt": "2026-10-27T06:14:42.886440+00:00",
-      "last_success": "2026-10-27T06:14:42.886440+00:00",
+      "last_attempt": "2026-10-28T06:50:23.316687+00:00",
+      "last_success": "2026-10-28T06:50:23.316687+00:00",
       "status": "ok",
-      "fetched": 23
+      "fetched": 16
     }
   },
   "topics": [
@@ -812,6 +812,1798 @@
   ],
   "repository": "https://github.com/PkuJunyangGroup/planet-fluid-radar",
   "papers": [
+    {
+      "id": "2610.37637",
+      "version_id": "2610.37637v1",
+      "title": "Continuum thermodynamics of chemically reacting multi-temperature fluid mixtures",
+      "abstract": "We develop a continuum-thermodynamic model for chemically reacting, multi-velocity and multi-temperature fluid mixtures. Partial balances of mass, momentum and total energy are closed using a single entropy density depending jointly on the constituent mass and nonkinetic internal-energy densities. Its partial derivatives determine the constituent temperatures and chemical potentials. For the chosen entropy flux and separately treated volume deformation, the strengthened entropy principle yields a weighted Euler relation constraining the partial thermodynamic pressures. We construct thermodynamically consistent constitutive relations for viscosity, heat conduction, Maxwell--Stefan momentum exchange, thermal relaxation and nonlinear reaction kinetics. The baseline model includes thermo-diffusion and its reciprocal coupling; a fully coupled reciprocal completion is given within the stated isotropic co-factor class. An alternative formulation couples chemical conversion and energy redistribution through specified elementary processes. We identify the material functions required for closure and admissible shifts of constituent energy zeros. An ionization network with resolved electronic levels yields Saha-type ionization relations and Boltzmann excitation ratios under the stated detailed-balance assumptions, recovering the Saha--Eggert relation at common temperature. Competing electron- and heavy-particle processes can maintain stationary populations while transferring energy between groups at different prescribed temperatures.",
+      "published": "2026-10-27T17:54:06Z",
+      "updated": "2026-10-27T17:54:06Z",
+      "authors": [
+        "Dieter Bothe",
+        "Tommaso Ruggeri"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn",
+        "math-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.37637",
+      "pdf": "https://arxiv.org/pdf/2610.37637v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-28T06:50:23.316687+00:00",
+      "version_changed": false,
+      "topics": [
+        "methods"
+      ],
+      "matches": {
+        "methods": [
+          "boltzmann"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 20,
+      "fit_matches": [],
+      "institutions": [
+        "Department of Mathematics, Technical University of DarmstadtPeter-Grünberg-Str. 10, 64287 Darmstadt, Germany",
+        "Department of Mathematics, University of Bologna, 40126 Bologna, Italy"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Dieter Bothe",
+          "institutions": [
+            "Department of Mathematics, Technical University of DarmstadtPeter-Grünberg-Str. 10, 64287 Darmstadt, Germany"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Tommaso Ruggeri",
+          "institutions": [
+            "Department of Mathematics, University of Bologna, 40126 Bologna, Italy"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.37637v1",
+      "intro_en": "We develop a continuum-thermodynamic model for chemically reacting, multi-velocity and multi-temperature fluid mixtures. Partial balances of mass, momentum and total energy are closed using a single entropy density depending jointly on the constituent mass and nonkinetic internal-energy densities.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-28",
+      "publication_date_source": "https://arxiv.org/abs/2610.37637v1",
+      "version_date": "2026-10-27T17:54:06+00:00"
+    },
+    {
+      "id": "2610.37581",
+      "version_id": "2610.37581v1",
+      "title": "Water at the molecular frontier",
+      "abstract": "Much of the water that matters most - flowing through biological cells and membranes, percolating through soils and rocks, or processed by filtration and desalination technologies - is not bulk water. It is water in nano- and molecular-scale confinement or at interfaces. Nanoscale water is therefore central to many challenges of our time, from the global water crisis and the water-energy nexus to catalysis, electrochemistry, and health. Beyond its applications, nanoscale water has emerged as a rich scientific field in its own right: discoveries are accumulating rapidly, revealing that confinement and interfacial forces produce a range of behaviours absent in the bulk. Sometimes this amounts to a renormalization of bulk properties; in other cases, new and non-intuitive phenomena emerge - exotic phases, anomalous transport, and dielectric responses that defy continuum expectations. A convergence of atomically precise nanofluidic devices, novel spectroscopies and microscopy approaches, and machine-learning-accelerated simulations is now exposing the molecular mechanisms behind these behaviours. This Perspective argues that the recent findings should not be viewed as isolated nanoscale anomalies, but as evidence for a molecular regime of water in which continuum descriptions must be rethought and molecular-level understanding becomes essential. Recognising and exploring this regime should have consequences ranging from fundamental physics to the rational design of future technologies that rely on water and dissolved ions.",
+      "published": "2026-10-27T17:22:23Z",
+      "updated": "2026-10-27T17:22:23Z",
+      "authors": [
+        "Mischa Bonn",
+        "Marie-Laure Bocquet",
+        "Andre Geim",
+        "Laura Fumagalli",
+        "Angelos Michaelides",
+        "Lyderic Bocquet"
+      ],
+      "doi": "",
+      "categories": [
+        "cond-mat.soft",
+        "cond-mat.mes-hall",
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2610.37581",
+      "pdf": "https://arxiv.org/pdf/2610.37581v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-28T06:50:23.316687+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2610.37581v1",
+      "intro_en": "Much of the water that matters most - flowing through biological cells and membranes, percolating through soils and rocks, or processed by filtration and desalination technologies - is not bulk water. It is water in nano- and molecular-scale confinement or at interfaces.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-28",
+      "publication_date_source": "https://arxiv.org/abs/2610.37581v1",
+      "version_date": "2026-10-27T17:22:23+00:00"
+    },
+    {
+      "id": "2610.37577",
+      "version_id": "2610.37577v1",
+      "title": "A Systematic Assessment of Artificial Flame Thickening for Thermodiffusively Unstable Lean Hydrogen Flames in Homogeneous Isotropic Turbulence",
+      "abstract": "The Artificially Thickened Flame (ATF) approach is widely used to render premixed flames resolvable on coarse computational meshes, but thickening alters their interaction with turbulence. While considerable research has focused on the effects of thickening on turbulence-induced flame wrinkling, its influence on the mean local flame propagation speed in turbulent, thermodiffusively unstable hydrogen flames remains poorly understood. More than 200 flame-resolved simulations of premixed flames in homogeneous isotropic turbulence with detailed chemistry and transport are used to systematically isolate and quantify the effects of artificial thickening. Thickening the flame by a factor $F$ increases its effective flame-scale Karlovitz number according to $Ka_{\\mathrm{f}}^F = Ka_{\\mathrm{f}}\\sqrt{F}$, while decreasing its effective Damköhler number according to $Da_{\\mathrm{f}}^F = Da_{\\mathrm{f}}/F$. In the regime considered here, the former enhances the mean local flame speed, whereas the latter reduces flame wrinkling, resulting in opposing effects on the flame consumption speed; hence, changes in both local flame propagation and flame area must be accounted for. Simulations matched with respect to $Ka_{\\mathrm{f}}^F$ and $Da_{\\mathrm{f}}^F$ collapse across different thickening factors $F$ until the thickened flame approaches the integral or geometric length scales of the configuration. Based on these scaling relations, a self-consistent efficiency correction is proposed to recover the unthickened flame consumption speed. Since the efficiency factor feeds back on the effective Karlovitz and Damköhler numbers, it must be determined implicitly.",
+      "published": "2026-10-27T17:20:12Z",
+      "updated": "2026-10-27T17:20:12Z",
+      "authors": [
+        "Max Schneider",
+        "Vinzenz Schuh",
+        "Felix Rong",
+        "Driss Kaddar",
+        "Andrew J. Aspden",
+        "Thomas L. Howarth",
+        "Christian Hasse",
+        "Hendrik Nicolai"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2610.37577",
+      "pdf": "https://arxiv.org/pdf/2610.37577v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-28T06:50:23.316687+00:00",
+      "version_changed": false,
+      "topics": [
+        "methods"
+      ],
+      "matches": {
+        "methods": [
+          "turbulence"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "流体与不稳定性 · Fluid dynamics",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 20,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [
+        {
+          "name": "Max Schneider",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Vinzenz Schuh",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Felix Rong",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Driss Kaddar",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Andrew J. Aspden",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Thomas L. Howarth",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Christian Hasse",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Hendrik Nicolai",
+          "institutions": [],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2610.37577v1",
+      "intro_en": "The Artificially Thickened Flame (ATF) approach is widely used to render premixed flames resolvable on coarse computational meshes, but thickening alters their interaction with turbulence. While considerable research has focused on the effects of thickening on turbulence-induced flame wrinkling, its influence on the mean local flame propagation speed in turbulent, thermodiffusively unstable hydrogen flames remains poorly understood.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-28",
+      "publication_date_source": "https://arxiv.org/abs/2610.37577v1",
+      "version_date": "2026-10-27T17:20:12+00:00"
+    },
+    {
+      "id": "2610.37540",
+      "version_id": "2610.37540v1",
+      "title": "JWST/MIRI Observations of Amorphous Silicates in Interstellar Comet 3I/ATLAS",
+      "abstract": "We present JWST/MIRI Low Resolution Spectroscopy (LRS) of 3I/ATLAS obtained post-perihelion at a heliocentric distance of 2.21 au. Our spectrum contains a prominent 10 micron silicate emission feature with a broad, smooth shape that is distinct from those commonly observed in Solar System comets. We model the spectrum using thermal emission from amorphous carbon, amorphous olivine, and amorphous pyroxene grains. Our models strongly favor a pyroxene-dominated, amorphous silicate composition and show a degeneracy between silicate grain size and the relative abundance of silicate and carbon dust. Across a set of representative models, the best-fitting crystalline abundance is zero, and we place an upper limit of 5.3% on the crystalline fraction of the silicates. We identify an emission feature near 6.83 microns that is consistent with aliphatic C-H-bearing material. The overwhelmingly amorphous silicate composition supports previous work that measured unusual volatile and isotopic composition in suggesting that the material incorporated into the object experienced little thermal processing and preserves information about the conditions in which this interstellar planetesimal formed.",
+      "published": "2026-10-27T16:55:04Z",
+      "updated": "2026-10-27T16:55:04Z",
+      "authors": [
+        "Cristina A. Thomas",
+        "Michael S. P. Kelley",
+        "David E. Harker",
+        "Martin A. Cordiner",
+        "Davide Farnocchia",
+        "Dennis Bodewits",
+        "Steven B. Charnley",
+        "Maria N. Drozdovskaya",
+        "Marco Micheli",
+        "Stefanie N. Milam",
+        "Cyrielle Opitom",
+        "Silvia Protopapa",
+        "Nathan X. Roth",
+        "Megan E. Schwamb"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP",
+        "astro-ph.GA"
+      ],
+      "url": "https://arxiv.org/abs/2610.37540",
+      "pdf": "https://arxiv.org/pdf/2610.37540v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-28T06:50:23.316687+00:00",
+      "version_changed": false,
+      "topics": [
+        "evolution"
+      ],
+      "matches": {
+        "evolution": [
+          "planetesimal",
+          "volatile"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：planetesimal、volatile",
+      "tags": [
+        "光谱与相曲线 · Spectra & phase curves",
+        "岩浆与挥发分 · Magma & volatiles"
+      ],
+      "method": "keyword",
+      "fit_score": 38,
+      "fit_matches": [
+        "系外行星观测表征"
+      ],
+      "institutions": [
+        "Northern Arizona University, Department of Astronomy and Planetary Science, P.O. Box 6010, Flagstaff, AZ, 86011 USA",
+        "Department of Astronomy, University of Maryland, College Park, MD 20742-0001, USA",
+        "Department of Astronomy and Astrophysics, University of California, San Diego, 9500 Gilman Drive, MC 0424, La Jolla, CA 92093-0424, USA",
+        "Astrochemistry Laboratory, NASA Goddard Space Flight Center, 8800 Greenbelt Road, Greenbelt, MD 20771, USA.",
+        "Department of Physics, Catholic University of America, Washington, DC 20064, USA.",
+        "Jet Propulsion Laboratory, California Institute of Technology, 4800 Oak Grove Dr., Pasadena, CA 91109, USA.",
+        "Physics Department, Edmund C. Leach Science Center, Auburn University, Auburn, AL 36849, USA.",
+        "Department of Chemistry, Biochemistry and Pharmaceutical Sciences (DCBP), Universit¨at Bern, Freiestrasse 3, 3012 Bern, Switzerland",
+        "ESA NEO Coordination Centre, Planetary Defence Office, European Space Agency, Largo Galileo Galilei, 1, 00044 Frascati (RM), Italy.",
+        "Institute for Astronomy, University of Edinburgh, Royal Observatory, Edinburgh EH9 3HJ, UK.",
+        "Solar System Science and Exploration Division, Southwest Research Institute, Boulder, CO 80302, USA",
+        "Department of Physics, American University, 4400 Massachusetts Avenue, NW, Washington, DC 20016, USA.",
+        "Astrophysics Research Centre, School of Mathematics and Physics, Queen’s University Belfast, Belfast BT7 1NN, UK."
+      ],
+      "author_affiliations": [
+        {
+          "name": "Cristina A. Thomas",
+          "institutions": [
+            "Northern Arizona University, Department of Astronomy and Planetary Science, P.O. Box 6010, Flagstaff, AZ, 86011 USA"
+          ],
+          "orcid": "https://orcid.org/0000-0003-3091-5757"
+        },
+        {
+          "name": "Michael S. P. Kelley",
+          "institutions": [
+            "Department of Astronomy, University of Maryland, College Park, MD 20742-0001, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-6702-7676"
+        },
+        {
+          "name": "David E. Harker",
+          "institutions": [
+            "Department of Astronomy and Astrophysics, University of California, San Diego, 9500 Gilman Drive, MC 0424, La Jolla, CA 92093-0424, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0001-6397-9082"
+        },
+        {
+          "name": "Martin A. Cordiner",
+          "institutions": [
+            "Astrochemistry Laboratory, NASA Goddard Space Flight Center, 8800 Greenbelt Road, Greenbelt, MD 20771, USA.",
+            "Department of Physics, Catholic University of America, Washington, DC 20064, USA."
+          ],
+          "orcid": "https://orcid.org/0000-0001-8233-2436"
+        },
+        {
+          "name": "Davide Farnocchia",
+          "institutions": [
+            "Jet Propulsion Laboratory, California Institute of Technology, 4800 Oak Grove Dr., Pasadena, CA 91109, USA."
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Dennis Bodewits",
+          "institutions": [
+            "Physics Department, Edmund C. Leach Science Center, Auburn University, Auburn, AL 36849, USA."
+          ],
+          "orcid": "https://orcid.org/0000-0002-2668-7248"
+        },
+        {
+          "name": "Steven B. Charnley",
+          "institutions": [
+            "Astrochemistry Laboratory, NASA Goddard Space Flight Center, 8800 Greenbelt Road, Greenbelt, MD 20771, USA."
+          ],
+          "orcid": "https://orcid.org/0000-0001-6752-5109"
+        },
+        {
+          "name": "Maria N. Drozdovskaya",
+          "institutions": [
+            "Department of Chemistry, Biochemistry and Pharmaceutical Sciences (DCBP), Universit¨at Bern, Freiestrasse 3, 3012 Bern, Switzerland"
+          ],
+          "orcid": "https://orcid.org/0000-0001-7479-4948"
+        },
+        {
+          "name": "Marco Micheli",
+          "institutions": [
+            "ESA NEO Coordination Centre, Planetary Defence Office, European Space Agency, Largo Galileo Galilei, 1, 00044 Frascati (RM), Italy."
+          ],
+          "orcid": "https://orcid.org/0000-0001-7895-8209"
+        },
+        {
+          "name": "Stefanie N. Milam",
+          "institutions": [
+            "Astrochemistry Laboratory, NASA Goddard Space Flight Center, 8800 Greenbelt Road, Greenbelt, MD 20771, USA."
+          ],
+          "orcid": "https://orcid.org/0000-0001-7694-4129"
+        },
+        {
+          "name": "Cyrielle Opitom",
+          "institutions": [
+            "Institute for Astronomy, University of Edinburgh, Royal Observatory, Edinburgh EH9 3HJ, UK."
+          ],
+          "orcid": "https://orcid.org/0000-0001-7694-4129"
+        },
+        {
+          "name": "Silvia Protopapa",
+          "institutions": [
+            "Solar System Science and Exploration Division, Southwest Research Institute, Boulder, CO 80302, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0001-8541-8550"
+        },
+        {
+          "name": "Nathan X. Roth",
+          "institutions": [
+            "Astrochemistry Laboratory, NASA Goddard Space Flight Center, 8800 Greenbelt Road, Greenbelt, MD 20771, USA.",
+            "Department of Physics, American University, 4400 Massachusetts Avenue, NW, Washington, DC 20016, USA."
+          ],
+          "orcid": "https://orcid.org/0000-0002-6006-9574"
+        },
+        {
+          "name": "Megan E. Schwamb",
+          "institutions": [
+            "Astrophysics Research Centre, School of Mathematics and Physics, Queen’s University Belfast, Belfast BT7 1NN, UK."
+          ],
+          "orcid": "https://orcid.org/0000-0003-4365-1455"
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.37540v1",
+      "intro_en": "We present JWST/MIRI Low Resolution Spectroscopy (LRS) of 3I/ATLAS obtained post-perihelion at a heliocentric distance of 2.21 au. Our spectrum contains a prominent 10 micron silicate emission feature with a broad, smooth shape that is distinct from those commonly observed in Solar System comets.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-28",
+      "publication_date_source": "https://arxiv.org/abs/2610.37540v1",
+      "version_date": "2026-10-27T16:55:04+00:00"
+    },
+    {
+      "id": "2610.37456",
+      "version_id": "2610.37456v1",
+      "title": "An Input Skip Can Reparameterize a VAE Without Improving the Generator",
+      "abstract": "An input skip can reduce reconstruction error while leaving a model's distribution of new samples unchanged. For a Gaussian variational autoencoder (VAE) with constant input skip $0\\leqα<1$, a model without a skip can be written in skip form by multiplying its decoder output by $b=1-α$ and its noise variance by $b^2$. The distribution of observations and latent variables and its exact generative scores stay the same, while reconstruction mean squared error (MSE) is multiplied by $b^2$. Separate training can produce different generators because optimization depends on the parameter coordinates. In a Gaussian experiment with known density, changing skip and observation variance together reduces MSE but worsens energy score and the estimate of negative log density from importance sampling. On seven annual Deep-ocean Assessment and Reporting of Tsunamis (DART) records, energy score differences at the same observation variance have both signs on four original records and favor the skip on three records from 2018. Probabilistic principal component analysis (PPCA) has lower mean energy scores than every neural DART fit. With the encoder and decoder kept the same, estimating observation variance from training reconstruction error can also worsen energy score. Assessing generation requires more than reconstruction error.",
+      "published": "2026-10-27T15:57:37Z",
+      "updated": "2026-10-27T15:57:37Z",
+      "authors": [
+        "Kevin Lee"
+      ],
+      "doi": "",
+      "categories": [
+        "cs.LG",
+        "physics.ao-ph",
+        "stat.ML"
+      ],
+      "url": "https://arxiv.org/abs/2610.37456",
+      "pdf": "https://arxiv.org/pdf/2610.37456v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-28T06:50:23.316687+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "[4pt] University of California at Los Angeles",
+        "NASA Jet Propulsion Laboratory"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Kevin Lee",
+          "institutions": [
+            "[4pt] University of California at Los Angeles",
+            "NASA Jet Propulsion Laboratory"
+          ],
+          "orcid": "https://orcid.org/0009-0004-0388-9260"
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.37456v1",
+      "intro_en": "An input skip can reduce reconstruction error while leaving a model's distribution of new samples unchanged. For a Gaussian variational autoencoder (VAE) with constant input skip $0\\leqα<1$, a model without a skip can be written in skip form by multiplying its decoder output by $b=1-α$ and its noise variance by $b^2$.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-27",
+      "publication_date_source": "https://arxiv.org/abs/2610.37456v1",
+      "version_date": "2026-10-27T15:57:37+00:00"
+    },
+    {
+      "id": "2610.37376",
+      "version_id": "2610.37376v1",
+      "title": "Development and assessment of a target-$ω$ interfacial turbulence-damping model for stratified gas--liquid flow",
+      "abstract": "Interfacial turbulence damping is required in Reynolds-averaged simulations of stratified gas--liquid flows when strong interfacial velocity gradients are present. In this work, we develop a target-$ω$ interfacial damping formulation for the low-Reynolds-number Wilcox-type $k$--$ω$ model in a one-field RANS/VOF framework. A gas-side target value of the specific dissipation rate $ω$ is constructed from an effective interfacial wall coordinate determined from the local resolved flow. The constructed target-$ω$ provides a smooth transition between the viscous and logarithmic limits through power-law blending and requires no calibration of model constants against target data. \\textcolor{black}{The formulation is first assessed against three gas-layer DNS cases at $Re_τ\\simeq180$ with different interface velocities. The model reproduces the principal features of the mean velocity, turbulent kinetic energy and Reynolds shear-stress distributions, while showing substantially weaker sensitivity to the near-interface grid resolution than the Egorov-type formulation, although some grid dependence remains on the coarsest mesh. The assessment is then extended to the co-current Fabre stratified-flow experiment at a higher Reynolds number and to the counter-current Stäbler experiment}. In both cases, the present formulation provides generally good predictions of the gas-side mean flow and turbulence statistics without case-specific adjustment. For the Stäbler case, in which the liquid level develops as part of the coupled two-phase solution, the predicted mean liquid depth agrees closely with the measured value. These results indicate that the target-$ω$ formulation provides a consistent interfacial turbulence-damping treatment for resolved large gas--liquid interfaces over the range of conditions considered.",
+      "published": "2026-10-27T15:06:31Z",
+      "updated": "2026-10-27T15:06:31Z",
+      "authors": [
+        "Di Wu",
+        "Junda Liu",
+        "Qiaopeng Wang",
+        "Liu Liu",
+        "Dongling Wu",
+        "Ping Zhou",
+        "Pengyu Shi"
+      ],
+      "doi": "10.1016/j.ijmultiphaseflow.2026.105952",
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2610.37376",
+      "pdf": "https://arxiv.org/pdf/2610.37376v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-28T06:50:23.316687+00:00",
+      "version_changed": false,
+      "topics": [
+        "gfd",
+        "methods"
+      ],
+      "matches": {
+        "gfd": [
+          "stratified flow"
+        ],
+        "methods": [
+          "turbulence"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "流体与不稳定性 · Fluid dynamics",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 30,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2610.37376v1",
+      "intro_en": "Interfacial turbulence damping is required in Reynolds-averaged simulations of stratified gas--liquid flows when strong interfacial velocity gradients are present. In this work, we develop a target-$ω$ interfacial damping formulation for the low-Reynolds-number Wilcox-type $k$--$ω$ model in a one-field RANS/VOF framework.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-27",
+      "publication_date_source": "https://arxiv.org/abs/2610.37376v1",
+      "version_date": "2026-10-27T15:06:31+00:00"
+    },
+    {
+      "id": "2610.37335",
+      "version_id": "2610.37335v1",
+      "title": "Spatial Colorimetric Mapping of pH and Dissolved Carbon during Convective Dissolution of CO{\\_2}: Constraints from Domain, Geometry, and Indicator Mix on Measurement Reliability",
+      "abstract": "Quantifying the dissolution and buoyancy-driven transport of CO2-rich water is critical to understanding solubility trapping mechanism in geologic storage. Analog-fluid density driven convection experiments do not represent CO2 dissolution chemistry or the aqueous CO2 density-concentration monotonic relationship. X-ray tomography does not provide enough contrast to directly measure dissolved CO2. Spatial colorimetry provides an inexpensive method to map pH and estimate total dissolved inorganic carbon (CT) via carbonate equilibrium assumptions. However, the effects of experimental conditions such as domain (free fluid and porous), geometry (2D and 3D), and indicator mix concentration on the reliability of pH and CT measurements remain unexplored. We evaluated how these factors affect the reliability of measurements using two different colorimetric models (hue and spherical coordinates (θ and φ)). Hue was reliable in all domains whereas θ-φ was reliable in free fluid. Lower indicator mix concentration increased the chromatic sensitivity at low pH in free fluid; however, it did not produce sufficient color contrast for pH calibration and mapping in the porous domain. In the porous domain, θ-φ calibration was 33 times more susceptible to noise than hue. Temporal pH noise was less than 0.01 units; spatial noise changed domain-mean CT by 0.6-4.4{\\%}. Both models were able to resolve CO2-rich plumes in free fluid; however, θ-φ had sharper plume boundaries than hue. The temporal evolution of CO2 dissolution resolved by the color models agreed more in 2D than 3D. These findings provide a reliability framework for studying subsurface dissolution and mixing of CO2.",
+      "published": "2026-10-27T14:41:54Z",
+      "updated": "2026-10-27T14:41:54Z",
+      "authors": [
+        "Joe-sam Nkuah",
+        "Vance Sisson",
+        "Haochen Li",
+        "Anna Herring"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn",
+        "physics.geo-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.37335",
+      "pdf": "https://arxiv.org/pdf/2610.37335v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-28T06:50:23.316687+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "流体与不稳定性 · Fluid dynamics"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2610.37335v1",
+      "intro_en": "Quantifying the dissolution and buoyancy-driven transport of CO2-rich water is critical to understanding solubility trapping mechanism in geologic storage. Analog-fluid density driven convection experiments do not represent CO2 dissolution chemistry or the aqueous CO2 density-concentration monotonic relationship.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-27",
+      "publication_date_source": "https://arxiv.org/abs/2610.37335v1",
+      "version_date": "2026-10-27T14:41:54+00:00"
+    },
+    {
+      "id": "2610.37325",
+      "version_id": "2610.37325v1",
+      "title": "Scale-aware and spatially-localised optimisation of kilometre-scale MLWP models",
+      "abstract": "Preserving fine-scale structure without degrading spatial accuracy is a central challenge for kilometre-scale machine-learning weather prediction (MLWP). We introduce a loss based on the dual-tree complex wavelet transform that constrains atmospheric fields jointly by scale, location, and orientation. We evaluate its performance using an experimental joint global--regional FastNet configuration, which produces \\SI{1.5}{km} forecasts over the UK alongside $\\sim$\\SI{31}{km} global forecasts. Relative to both mean-squared error (MSE) and an FFT-based spectral objective, the wavelet loss substantially improves spectral fidelity. Compared with MSE training, it maintains similar pointwise performance, improves neighbourhood-based verification, and produces sharper precipitation fields with more realistic intensity distributions. These results demonstrate that spatially localised wavelet constraints can preserve multiscale atmospheric structure while largely avoiding the loss of pointwise accuracy associated with globally supported spectral objectives.",
+      "published": "2026-10-27T14:35:19Z",
+      "updated": "2026-10-27T14:35:19Z",
+      "authors": [
+        "James Chappell",
+        "Sophie Luise Arana",
+        "Jack Bowyer",
+        "Alejandro Coca-Castro",
+        "Evangeline Corcoran",
+        "Eric G. Daub",
+        "Tom Dunstan",
+        "Noushin Eftekhari",
+        "Anna-Louise Ellis",
+        "J. Scott Hosking",
+        "Manvendra Janmaijaya",
+        "David Salvador-Jasin",
+        "Ben Shipway",
+        "Nathan Simpson",
+        "Oliver Strickson",
+        "David Walters"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.ao-ph",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2610.37325",
+      "pdf": "https://arxiv.org/pdf/2610.37325v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-28T06:50:23.316687+00:00",
+      "version_changed": false,
+      "topics": [
+        "physics"
+      ],
+      "matches": {
+        "physics": [
+          "precipitation"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "水循环 · Water cycle"
+      ],
+      "method": "keyword",
+      "fit_score": 32,
+      "fit_matches": [],
+      "institutions": [
+        "Met Office, Exeter, United Kingdom",
+        "The Alan Turing Institute, London, United Kingdom"
+      ],
+      "author_affiliations": [
+        {
+          "name": "James Chappell",
+          "institutions": [
+            "Met Office, Exeter, United Kingdom"
+          ],
+          "orcid": "https://orcid.org/0000-0003-2997-0150"
+        },
+        {
+          "name": "Sophie Luise Arana",
+          "institutions": [
+            "The Alan Turing Institute, London, United Kingdom"
+          ],
+          "orcid": "https://orcid.org/0000-0001-9708-7058"
+        },
+        {
+          "name": "Jack Bowyer",
+          "institutions": [
+            "Met Office, Exeter, United Kingdom"
+          ],
+          "orcid": "https://orcid.org/0000-0002-4325-6685"
+        },
+        {
+          "name": "Matthew Burnand",
+          "institutions": [
+            "Met Office, Exeter, United Kingdom"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Alejandro Coca-Castro",
+          "institutions": [
+            "The Alan Turing Institute, London, United Kingdom"
+          ],
+          "orcid": "https://orcid.org/0000-0002-9264-1539"
+        },
+        {
+          "name": "Evangeline Corcoran",
+          "institutions": [
+            "The Alan Turing Institute, London, United Kingdom"
+          ],
+          "orcid": "https://orcid.org/0000-0003-0321-009X"
+        },
+        {
+          "name": "Eric G. Daub",
+          "institutions": [
+            "The Alan Turing Institute, London, United Kingdom"
+          ],
+          "orcid": "https://orcid.org/0000-0002-8499-0720"
+        },
+        {
+          "name": "Tom Dunstan",
+          "institutions": [
+            "Met Office, Exeter, United Kingdom"
+          ],
+          "orcid": "https://orcid.org/0009-0007-4756-8751"
+        },
+        {
+          "name": "Noushin Eftekhari",
+          "institutions": [
+            "The Alan Turing Institute, London, United Kingdom"
+          ],
+          "orcid": "https://orcid.org/0009-0006-0028-2871"
+        },
+        {
+          "name": "Anna-Louise Ellis",
+          "institutions": [
+            "Met Office, Exeter, United Kingdom"
+          ],
+          "orcid": "https://orcid.org/0000-0002-6805-1379"
+        },
+        {
+          "name": "J. Scott Hosking",
+          "institutions": [
+            "The Alan Turing Institute, London, United Kingdom"
+          ],
+          "orcid": "https://orcid.org/0000-0002-3646-3504"
+        },
+        {
+          "name": "Manvendra Janmaijaya",
+          "institutions": [
+            "The Alan Turing Institute, London, United Kingdom"
+          ],
+          "orcid": "https://orcid.org/0009-0003-1974-3162"
+        },
+        {
+          "name": "Sam Madge",
+          "institutions": [
+            "Met Office, Exeter, United Kingdom"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "David Salvador-Jasin",
+          "institutions": [
+            "The Alan Turing Institute, London, United Kingdom"
+          ],
+          "orcid": "https://orcid.org/0000-0001-8892-2410"
+        },
+        {
+          "name": "Ben Shipway",
+          "institutions": [
+            "Met Office, Exeter, United Kingdom"
+          ],
+          "orcid": "https://orcid.org/0000-0002-7419-0789"
+        },
+        {
+          "name": "Nathan Simpson",
+          "institutions": [
+            "The Alan Turing Institute, London, United Kingdom"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Oliver Strickson",
+          "institutions": [
+            "The Alan Turing Institute, London, United Kingdom"
+          ],
+          "orcid": "https://orcid.org/0000-0002-8177-5582"
+        },
+        {
+          "name": "David Walters",
+          "institutions": [
+            "Met Office, Exeter, United Kingdom"
+          ],
+          "orcid": "https://orcid.org/0000-0003-0383-7378"
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.37325v1",
+      "intro_en": "Preserving fine-scale structure without degrading spatial accuracy is a central challenge for kilometre-scale machine-learning weather prediction (MLWP). We introduce a loss based on the dual-tree complex wavelet transform that constrains atmospheric fields jointly by scale, location, and orientation.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-27",
+      "publication_date_source": "https://arxiv.org/abs/2610.37325v1",
+      "version_date": "2026-10-27T14:35:19+00:00"
+    },
+    {
+      "id": "2610.37313",
+      "version_id": "2610.37313v1",
+      "title": "Free-vortex-wake dynamics of airborne wind energy kites in crosswind flight",
+      "abstract": "The wake of an airborne wind energy kite is shaped by its crosswind path and, for on-board generation, by the slipstreams of its rotors, and in farms it reaches downstream units. It is computed here by a vortex step method with a time-marching free vortex wake, implemented by the authors in their open-source code OpenFAWE with a lumped-mass tether, actuator-disc rotors releasing vortex rings and several kites. It reproduces an independent vortex step code to 10^-9 on the rigid-wing Makani M600 and within 0.3% in lift and 0.9% in drag on the TU Delft V3 leading-edge inflatable kite, matching its Reynolds-averaged Navier-Stokes lift within 3.1%. For fixed kites the lift deficit of a finite wake is the far field of its starting vortex, which fixes the wake length before a run, and the vortex core must stay below the narrowest panel width. With these settings the helical tip-vortex pair of the M600 on its loop lowers its lift by about 0.5% from 5 to 13 m/s. Free rotor rings do not converge with the time step, whereas an undeformed slipstream tube converges once its rings are refined at the wing and raises the lift by 1.9%. A slipstream deflected by the wing lowers it by 3.5%, so the treatment near the wing sets the sign of the rotor effect. A second unit one loop diameter downstream loses 0.5% of its lift and 2.2% of its aerodynamic power, with or without rotors.",
+      "published": "2026-10-27T14:29:22Z",
+      "updated": "2026-10-27T14:29:22Z",
+      "authors": [
+        "Yinong Tian",
+        "Shan Wang"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn",
+        "physics.app-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.37313",
+      "pdf": "https://arxiv.org/pdf/2610.37313v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-28T06:50:23.316687+00:00",
+      "version_changed": false,
+      "topics": [
+        "methods"
+      ],
+      "matches": {
+        "methods": [
+          "navier stokes"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "环流与波动 · Circulation & waves",
+        "流体与不稳定性 · Fluid dynamics"
+      ],
+      "method": "keyword",
+      "fit_score": 20,
+      "fit_matches": [],
+      "institutions": [
+        "Centre for Marine Technology and Ocean Engineering (CENTEC), Instituto Superior Técnico, Universidade de Lisboa, Av. Rovisco Pais 1, 1049-001 Lisboa, Portugal"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Yinong Tian",
+          "institutions": [
+            "Centre for Marine Technology and Ocean Engineering (CENTEC), Instituto Superior Técnico, Universidade de Lisboa, Av. Rovisco Pais 1, 1049-001 Lisboa, Portugal"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Shan Wang∗",
+          "institutions": [
+            "Centre for Marine Technology and Ocean Engineering (CENTEC), Instituto Superior Técnico, Universidade de Lisboa, Av. Rovisco Pais 1, 1049-001 Lisboa, Portugal"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.37313v1",
+      "intro_en": "The wake of an airborne wind energy kite is shaped by its crosswind path and, for on-board generation, by the slipstreams of its rotors, and in farms it reaches downstream units. It is computed here by a vortex step method with a time-marching free vortex wake, implemented by the authors in their open-source code OpenFAWE with a lumped-mass tether, actuator-disc rotors releasing vortex rings and several kites.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-27",
+      "publication_date_source": "https://arxiv.org/abs/2610.37313v1",
+      "version_date": "2026-10-27T14:29:22+00:00"
+    },
+    {
+      "id": "2610.37301",
+      "version_id": "2610.37301v1",
+      "title": "Hydrodynamic fluctuations in Luttinger liquids",
+      "abstract": "We develop the theory of hydrodynamic fluctuations for one-dimensional quantum liquids. At low temperatures the relaxation of interacting electrons in a single-channel wire separates into two classes: equilibration, which changes the numbers of right and left movers through backscattering and is exponentially slow, and thermalization, which redistributes energy and momentum at a fixed number of movers at a power-law rate. This separation of time scales gives the electron liquid a two-fluid description analogous to superfluid $^4$He, with the zero mode of the Luttinger liquid as the superfluid component and the gas of thermal excitations as the normal component. Using Onsager reciprocity and the fluctuation-dissipation theorem, we add Langevin fluxes to the two-fluid hydrodynamic equations, including a mutual-friction noise generated by rare backscattering events that has no counterpart in helium. We apply the theory to Coulomb-coupled quantum wires and calculate the dynamic structure factors, which contain a second-sound peak next to the plasmon doublet; the Coulomb drag resistivity, where intrawire equilibration acts as a bottleneck and turns the hydrodynamic drag into an activated temperature dependence; and the near-field heat transfer between the wires. Mode frequencies, spectral weights, linewidths, and the crossover scales of the transport coefficients are expressed through the thermodynamic properties of the liquid and a few dissipative coefficients, providing spectroscopic and transport probes of two-fluid behavior in one-dimensional quantum systems.",
+      "published": "2026-10-27T14:21:45Z",
+      "updated": "2026-10-27T14:21:45Z",
+      "authors": [
+        "Alex Levchenko"
+      ],
+      "doi": "",
+      "categories": [
+        "cond-mat.mes-hall",
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2610.37301",
+      "pdf": "https://arxiv.org/pdf/2610.37301v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-28T06:50:23.316687+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Department of Physics, University of Wisconsin–Madison, Madison, Wisconsin 53706, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Alex Levchenko",
+          "institutions": [
+            "Department of Physics, University of Wisconsin–Madison, Madison, Wisconsin 53706, USA"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.37301v1",
+      "intro_en": "We develop the theory of hydrodynamic fluctuations for one-dimensional quantum liquids. At low temperatures the relaxation of interacting electrons in a single-channel wire separates into two classes: equilibration, which changes the numbers of right and left movers through backscattering and is exponentially slow, and thermalization, which redistributes energy and momentum at a fixed number of movers at a power-law rate.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-27",
+      "publication_date_source": "https://arxiv.org/abs/2610.37301v1",
+      "version_date": "2026-10-27T14:21:45+00:00"
+    },
+    {
+      "id": "2610.37289",
+      "version_id": "2610.37289v1",
+      "title": "Mode-2 solitary waves in continuous stratifications",
+      "abstract": "Computed herein are examples of mode-2 internal solitary waves to the Dubreil-Jacotin-Long (DJL) equation. These are localised, fully nonlinear waves in a continuously stratified, inviscid fluid under the Boussinesq and rigid-lid approximations. The equation is solved directly using finite differences on a periodic domain, enabling the computation of both generalised solitary waves, which possess oscillatory mode-1 tails, and embedded solitary waves, whose tails vanish. Two stratifications are considered. The first is a double pycnocline, generalising the three-layer system considered by Doak et al. (2022) by replacing each infinitesimal interface with a pycnocline of finite thickness. The second stratification, a surface mixed layer above an exponentially stratified layer, shows that embedded mode-2 solitary waves are not restricted to double-pycnocline stratifications. These are the first mode-2 solitary waves of the DJL equation computed for stratifications that are asymmetric about mid-depth.",
+      "published": "2026-10-27T14:13:24Z",
+      "updated": "2026-10-27T14:13:24Z",
+      "authors": [
+        "Alex Doak",
+        "Ricardo Barros",
+        "Paul l A. Milewski"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2610.37289",
+      "pdf": "https://arxiv.org/pdf/2610.37289v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-28T06:50:23.316687+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "海冰与表层 · Ice & surface"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Department of Mathematical Sciences, Loughborough University, UK",
+        "Department of Mathematics, The Pennsylvania State University, State College, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Alex Doak",
+          "institutions": [
+            "Department of Mathematical Sciences, Loughborough University, UK"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Ricardo Barros",
+          "institutions": [
+            "Department of Mathematical Sciences, Loughborough University, UK"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Paul A. Milewski",
+          "institutions": [
+            "Department of Mathematics, The Pennsylvania State University, State College, USA"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.37289v1",
+      "intro_en": "Computed herein are examples of mode-2 internal solitary waves to the Dubreil-Jacotin-Long (DJL) equation. These are localised, fully nonlinear waves in a continuously stratified, inviscid fluid under the Boussinesq and rigid-lid approximations.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-27",
+      "publication_date_source": "https://arxiv.org/abs/2610.37289v1",
+      "version_date": "2026-10-27T14:13:24+00:00"
+    },
+    {
+      "id": "2610.37048",
+      "version_id": "2610.37048v1",
+      "title": "DSMC Study on Unsteadiness of Supersonic Flow Over a Cylinder",
+      "abstract": "Unsteady flow over a 30 $μ$m diameter cylinder at Mach 4 is investigated using Direct Simulation Monte Carlo across Reynolds numbers from 270 to 6750, spanning slip-flow to near-continuum regimes. Power Spectral Density analysis at discrete probe locations and Dynamic Mode Decomposition of flowfield snapshots independently characterize instabilities in both the stagnation and wake regions. In the stagnation region, a bow shock pulsation mode at 10-15 MHz frequency is identified across all cases despite a 24-fold variation in number density. In the wake, two distinct instabilities are observed. The canonical vortex shedding mode at Strouhal number St $\\approx$ 0.2 dominates at lower Reynolds numbers. A second instability at St $\\approx$ 0.5, consistent with previously reported slipline-driven oscillations in supersonic wakes, emerges at higher Reynolds numbers and progressively strengthens, becoming the dominant mode. In the studied Reynolds range, the wake transitions from no clear unsteadiness, to canonical vortex shedding at St $\\approx$ 0.20, and reaching a regime where the St $\\approx$ 0.5 mode becomes dominant, while also having a distinct independent bow shock pulsation possibly governed by its standoff distance.",
+      "published": "2026-10-27T11:17:16Z",
+      "updated": "2026-10-27T11:17:16Z",
+      "authors": [
+        "Mert Senkardesler",
+        "Irmak T. Karpuzcu",
+        "Deborah A. Levin"
+      ],
+      "doi": "10.2514/6.2026-2147",
+      "categories": [
+        "physics.flu-dyn",
+        "physics.comp-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.37048",
+      "pdf": "https://arxiv.org/pdf/2610.37048v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-28T06:50:23.316687+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "环流与波动 · Circulation & waves",
+        "流体与不稳定性 · Fluid dynamics",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "University of Illinois, Urbana-Champaign,IL 61801,USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Mert Senkardesler",
+          "institutions": [
+            "University of Illinois, Urbana-Champaign,IL 61801,USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Irmak T. Karpuzcu",
+          "institutions": [
+            "University of Illinois, Urbana-Champaign,IL 61801,USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Deborah A. Levin",
+          "institutions": [
+            "University of Illinois, Urbana-Champaign,IL 61801,USA"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.37048v1",
+      "intro_en": "Unsteady flow over a 30 $μ$m diameter cylinder at Mach 4 is investigated using Direct Simulation Monte Carlo across Reynolds numbers from 270 to 6750, spanning slip-flow to near-continuum regimes. Power Spectral Density analysis at discrete probe locations and Dynamic Mode Decomposition of flowfield snapshots independently characterize instabilities in both the stagnation and wake regions.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-27",
+      "publication_date_source": "https://arxiv.org/abs/2610.37048v1",
+      "version_date": "2026-10-27T11:17:16+00:00"
+    },
+    {
+      "id": "2610.37004",
+      "version_id": "2610.37004v1",
+      "title": "Unbound grains in gaseous debris discs",
+      "abstract": "Context. Some debris discs contain cold molecular gas. The origin of this gas is one of the key questions in our understanding of the evolution of planetary systems. The effect of gas on the smallest dust grains, which are expected to be unbound due to radiation pressure, is not well understood. The unbound grains contribute to the brightness of scattered light and thermal emission from the disc halo at short wavelengths. Aims. We explored the conditions under which gas can prevent or slow down the escape of unbound grains and increase their number density in the disc halo sufficiently to affect its brightness and reveal properties of the gas. Methods. We numerically integrated the equations of motion of dust grains released on unbound orbits in optically thin, gaseous debris discs, taking into account stellar gravity, radiation pressure, Poynting-Robertson drag, and gas drag. Results. We find that gas drag can significantly slow down the escape of unbound grains only for very high gas masses, such as those expected if the gas is remnant protoplanetary gas and not of secondary origin. We also present an analytical model for estimating the density of unbound grains in gaseous discs. Conclusions. If a difference in the abundance of unbound grains between gaseous and non-gaseous debris discs were observed, it would imply that the gas in debris discs is protoplanetary. Currently, there is no evidence of such a difference, suggesting that the gas detected in debris discs is either secondary or strongly depleted protoplanetary gas.",
+      "published": "2026-10-27T10:49:47Z",
+      "updated": "2026-10-27T10:49:47Z",
+      "authors": [
+        "Marija R. Jankovic",
+        "Tim D. Pearce",
+        "Johan Olofsson",
+        "Nicole Pawellek",
+        "Mark C. Wyatt"
+      ],
+      "doi": "10.1051/0004-6361/202661183",
+      "categories": [
+        "astro-ph.EP",
+        "astro-ph.SR"
+      ],
+      "url": "https://arxiv.org/abs/2610.37004",
+      "pdf": "https://arxiv.org/pdf/2610.37004v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-28T06:50:23.316687+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "行星科学拓展阅读",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [
+        "行星轨道与演化",
+        "理论机制与尺度关系"
+      ],
+      "institutions": [
+        "Institute of Physics Belgrade, University of Belgrade, Pregrevica 118, 11080 Belgrade, Serbia",
+        "School of Physics, Trinity College Dublin, The University of Dublin, College Green, Dublin 2, Ireland",
+        "Department of Physics, University of Warwick, Gibbet Hill Road, Coventry CV4 7AL, United Kingdom",
+        "European Southern Observatory, Karl-Schwarzschild-Strasse 2, 85748 Garching bei München, Germany",
+        "Institut für Astrophysik, Universität Wien, Türkenschanzstraße 17, 1180 Wien, Austria",
+        "Institute of Astronomy, University of Cambridge, Madingley Road, Cambridge CB3 0HA, United Kingdom"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Marija R. Jankovic",
+          "institutions": [
+            "Institute of Physics Belgrade, University of Belgrade, Pregrevica 118, 11080 Belgrade, Serbia"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Tim D. Pearce",
+          "institutions": [
+            "School of Physics, Trinity College Dublin, The University of Dublin, College Green, Dublin 2, Ireland",
+            "Department of Physics, University of Warwick, Gibbet Hill Road, Coventry CV4 7AL, United Kingdom"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Johan Olofsson",
+          "institutions": [
+            "European Southern Observatory, Karl-Schwarzschild-Strasse 2, 85748 Garching bei München, Germany"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Nicole Pawellek",
+          "institutions": [
+            "Institut für Astrophysik, Universität Wien, Türkenschanzstraße 17, 1180 Wien, Austria"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Mark C. Wyatt",
+          "institutions": [
+            "Institute of Astronomy, University of Cambridge, Madingley Road, Cambridge CB3 0HA, United Kingdom"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.37004v1",
+      "intro_en": "Context. Some debris discs contain cold molecular gas.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-27",
+      "publication_date_source": "https://arxiv.org/abs/2610.37004v1",
+      "version_date": "2026-10-27T10:49:47+00:00"
+    },
+    {
+      "id": "2610.36979",
+      "version_id": "2610.36979v1",
+      "title": "The impact of the sulfur allotropes and sulfur hydrides on the Venus cloud chemistry",
+      "abstract": "Venus is home to vivid sulfur chemistry, with SO$_2$ as the major sulfur gas species and a global cloud layer between 47 and~70 km composed of H$_2$SO$_4$ and H$_2$O. The chemistry in the clouds has been extensively studied with 1D models, but none is able to reproduce the three orders of magnitude decrease of SO$_2$ inside the clouds. Sulfur allotrope chemistry could be a candidate for buffering sulfur atoms, as it can grow into long chains. Sulfur hydrides such as H$_2$S is considered as one of the main sulfur-bearing compounds, possibly linked to surface reactions or have a volcanic origin like on Earth. In this study, we use for the first time a 3D model to study the climatology of the sulfur allotrope in gas and condensed phase and hydride chemistry in the clouds with an explicit photolysis calculation and updated UV cross-section. H$_2$S is close to ppmv levels below the cloud base, the third most abundant sulfur-bearing species in this region after SO$_2$ and OCS. Below the clouds, S$_8$ gas phase is the most abundant sulfur allotrope. Above, the photolysis and condensation are preponderant, and the gas phase decreases to extremely low values. Polysulfur can therefore not be the unknown absorber at cloud-top altitudes. The condensed phase polysulfurs are present from 30 to above 100~km. S$_2$ condensed phase is the most abundant due to its low saturation mixing ratios. Polysulfur species represent a substantial sulfur reservoir in the upper cloud, equivalent to a few ppmv.",
+      "published": "2026-10-27T10:32:46Z",
+      "updated": "2026-10-27T10:32:46Z",
+      "authors": [
+        "Maxence Lefèvre",
+        "Franck Lefèvre",
+        "Anni Määttänen",
+        "Robert Skog",
+        "Benjamin Frandsen",
+        "Aurélien Stolzenbach",
+        "Ashwin Braude"
+      ],
+      "doi": "10.1029/2025JE009523",
+      "categories": [
+        "astro-ph.EP",
+        "physics.ao-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.36979",
+      "pdf": "https://arxiv.org/pdf/2610.36979v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-28T06:50:23.316687+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "行星科学拓展阅读",
+      "tags": [
+        "云与辐射 · Clouds & radiation",
+        "水循环 · Water cycle",
+        "海冰与表层 · Ice & surface"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "LATMOS/IPSL, Sorbonne Université, UVSQ, Université Paris-Saclay, CNRS, Paris, France",
+        "University of Helsinki, Faculty of Science, Department of Chemistry, Molecular Science Unit, Finland",
+        "Tampere University, Faculty of Engineering and Natural Sciences, Aerosol Physics, Finland",
+        "Instituto de Astrofísica de Andalucía (IAA), Granada, Spain",
+        "Astera Institute, Emeryville, CA, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Maxence Lefèvre",
+          "institutions": [
+            "LATMOS/IPSL, Sorbonne Université, UVSQ, Université Paris-Saclay, CNRS, Paris, France"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Franck Lefèvre",
+          "institutions": [
+            "LATMOS/IPSL, Sorbonne Université, UVSQ, Université Paris-Saclay, CNRS, Paris, France"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Anni Määttänen",
+          "institutions": [
+            "LATMOS/IPSL, Sorbonne Université, UVSQ, Université Paris-Saclay, CNRS, Paris, France"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Robert Skog",
+          "institutions": [
+            "University of Helsinki, Faculty of Science, Department of Chemistry, Molecular Science Unit, Finland"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Benjamin Frandsen",
+          "institutions": [
+            "University of Helsinki, Faculty of Science, Department of Chemistry, Molecular Science Unit, Finland",
+            "Tampere University, Faculty of Engineering and Natural Sciences, Aerosol Physics, Finland"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Aurélien Stolzenbach",
+          "institutions": [
+            "Instituto de Astrofísica de Andalucía (IAA), Granada, Spain"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Ashwin Braude",
+          "institutions": [
+            "Astera Institute, Emeryville, CA, USA"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.36979v1",
+      "intro_en": "Venus is home to vivid sulfur chemistry, with SO$_2$ as the major sulfur gas species and a global cloud layer between 47 and~70 km composed of H$_2$SO$_4$ and H$_2$O. The chemistry in the clouds has been extensively studied with 1D models, but none is able to reproduce the three orders of magnitude decrease of SO$_2$ inside the clouds.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-27",
+      "publication_date_source": "https://arxiv.org/abs/2610.36979v1",
+      "version_date": "2026-10-27T10:32:46+00:00"
+    },
+    {
+      "id": "2610.36971",
+      "version_id": "2610.36971v1",
+      "title": "Local Metrics for Exact Streaming on Curvilinear Lattices: A Curvilinear D3Q27 Cumulant Lattice-Boltzmann Method",
+      "abstract": "A three-dimensional curvilinear lattice-Boltzmann method is introduced for simulations on smoothly deformed grids while retaining exact one-to-one streaming on a uniform computational lattice. The coordinate transformation is represented locally through a metric-Gaussian equilibrium and a Christoffel-connection source in moment space. A dynamically reconstructed homogeneous-state perturbation streaming procedure preserves homogeneous physical states on warped meshes without interpolation in the advection step. The method is implemented on a D3Q27 lattice with a cumulant collision operator, while the geometric construction remains compatible with other local collision models. The formulation is assessed using two sets of tests. First, static non-orthogonal warped-cube cases validate the bulk curvilinear solver through a convected helical shear wave, the Taylor--Green vortex, and Arnold--Beltrami--Childress flow. These tests verify viscous decay, clean freestream preservation, vortex-breakdown dynamics, and the nonlinear inertial--pressure balance induced by geometric acceleration. Second, wall-bounded and moving-boundary demonstrations assess the boundary-compatible extension through warped plane Poiseuille flow, arbitrary Lagrangian--Eulerian (ALE) peristaltic pumping, and a two-way fluid--structure interaction (FSI) case with added-mass frequency shift. The results show that the proposed curvilinear LBM avoids interpolation-based transport, reduces geometry-locked numerical modes, preserves global mass and momentum to round-off accuracy in the tested warped periodic cases, and extends to wall-bounded ALE/FSI configurations with conservative treatment of mass and physically consistent momentum exchange.",
+      "published": "2026-10-27T10:26:45Z",
+      "updated": "2026-10-27T10:26:45Z",
+      "authors": [
+        "Maher Sawaf",
+        "Jonas Latt",
+        "Nikolaus A. Adams",
+        "Mostafa S. Shadloo"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn",
+        "physics.comp-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.36971",
+      "pdf": "https://arxiv.org/pdf/2610.36971v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-28T06:50:23.316687+00:00",
+      "version_changed": false,
+      "topics": [
+        "methods"
+      ],
+      "matches": {
+        "methods": [
+          "boltzmann"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "环流与波动 · Circulation & waves",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 20,
+      "fit_matches": [],
+      "institutions": [
+        "INSA Rouen Normandie, Univ Rouen Normandie, CNRS, Normandie Univ, CORIA UMR 6614, Rouen, 76000, France",
+        "Department of Computer Science, University of Geneva, Geneva, 1211, Switzerland",
+        "Chair of Aerodynamics and Fluid Mechanics, Technical University of Munich, Boltzmannstr. 15, Garching, 85748, Germany",
+        "Institut Universitaire de France, Rue Descartes, Paris, 75231, France"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Maher Sawaf",
+          "institutions": [
+            "INSA Rouen Normandie, Univ Rouen Normandie, CNRS, Normandie Univ, CORIA UMR 6614, Rouen, 76000, France"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Jonas Latt",
+          "institutions": [
+            "Department of Computer Science, University of Geneva, Geneva, 1211, Switzerland"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Nikolaus A. Adams",
+          "institutions": [
+            "Chair of Aerodynamics and Fluid Mechanics, Technical University of Munich, Boltzmannstr. 15, Garching, 85748, Germany"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Mostafa S. Shadloo",
+          "institutions": [
+            "INSA Rouen Normandie, Univ Rouen Normandie, CNRS, Normandie Univ, CORIA UMR 6614, Rouen, 76000, France",
+            "Institut Universitaire de France, Rue Descartes, Paris, 75231, France"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.36971v1",
+      "intro_en": "A three-dimensional curvilinear lattice-Boltzmann method is introduced for simulations on smoothly deformed grids while retaining exact one-to-one streaming on a uniform computational lattice. The coordinate transformation is represented locally through a metric-Gaussian equilibrium and a Christoffel-connection source in moment space.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-27",
+      "publication_date_source": "https://arxiv.org/abs/2610.36971v1",
+      "version_date": "2026-10-27T10:26:45+00:00"
+    },
+    {
+      "id": "2610.36944",
+      "version_id": "2610.36944v1",
+      "title": "Impact of Cumulus Parameterization and Cloud Microphysics on WRF Simulation of an Extreme Rainfall Event over Maharashtra, India: A 3 by 3 Factorial Assessment",
+      "abstract": "Simulating extreme monsoon rainfall over the Konkan coast and Western Ghats remains challenging at 9 km resolution, where convection is partly resolved and partly parameterised. This study evaluates the sensitivity of Weather Research and Forecasting (WRF) simulations of the 5-7 July 2026 Maharashtra rainfall event to cumulus and cloud microphysics schemes. Nine simulations employed a 3 x 3 factorial design combining WSM6, WDM6 and Thompson microphysics with Kain-Fritsch, Tiedtke and Grell-Freitas cumulus schemes. Rainfall was evaluated against IMD 0.25-degree gridded observations, with IMERG and ERA5 as additional references. A descriptive factorial decomposition showed that cumulus parameterisation accounted for 97.3% of across-experiment variation in mean rainfall, 88.2% in RMSE and 84.7% in spatial correlation, while microphysics contributed 2.0%, 2.1% and 9.3%, respectively. Kain-Fritsch produced the highest spatial correlations (0.533-0.581) but substantially overestimated rainfall. Tiedtke achieved the smallest mean biases and RMSE, although compensating regional errors concealed a 28-34% rainfall deficit over the Konkan-Ghats belt and substantial underestimation on 7 July. Grell-Freitas showed large wet biases and relatively high RMSE. All nine simulations displaced the event-total rainfall maximum approximately 140-195 km northward. WSM6-Tiedtke achieved the lowest RMSE, whereas Thompson-Kain-Fritsch better represented the rainfall spatial pattern. The findings demonstrate that, for this event and fixed model configuration, cumulus parameterisation exerted substantially greater influence on simulated rainfall than cloud microphysics. However, a single-event, single-member experimental design does not establish a universally optimal physics configuration.",
+      "published": "2026-10-27T10:02:48Z",
+      "updated": "2026-10-27T10:02:48Z",
+      "authors": [
+        " Devesh",
+        "Satyam Kumar",
+        "Akshay Sunil"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.ao-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.36944",
+      "pdf": "https://arxiv.org/pdf/2610.36944v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-28T06:50:23.316687+00:00",
+      "version_changed": false,
+      "topics": [
+        "physics"
+      ],
+      "matches": {
+        "physics": [
+          "cloud microphysics"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "云与辐射 · Clouds & radiation",
+        "流体与不稳定性 · Fluid dynamics",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 32,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2610.36944v1",
+      "intro_en": "Simulating extreme monsoon rainfall over the Konkan coast and Western Ghats remains challenging at 9 km resolution, where convection is partly resolved and partly parameterised. This study evaluates the sensitivity of Weather Research and Forecasting (WRF) simulations of the 5-7 July 2026 Maharashtra rainfall event to cumulus and cloud microphysics schemes.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-27",
+      "publication_date_source": "https://arxiv.org/abs/2610.36944v1",
+      "version_date": "2026-10-27T10:02:48+00:00"
+    },
+    {
+      "id": "2610.36928",
+      "version_id": "2610.36928v1",
+      "title": "Wall modes in rotating penetrative internally heated convection",
+      "abstract": "Rotating internally heated convection has been studied almost exclusively in laterally periodic domains, which cannot support the sidewall-attached modes that appear for sufficient rotation rates in rotating Rayleigh--Bénard convection in containers. We conduct direct numerical simulations of internally heated convection with isothermal plates and an adiabatic sidewall in cylinders of aspect ratio $Γ= 1/2$, $1$, and $2$ at $\\Ra = 10^8$ and $\\Pran = 1$, comparing them with a doubly periodic layer. When rotation is strong enough to stabilise the flow in a doubly periodic layer at the same $R$ ($\\Ek \\lessapprox 2 \\times 10^{-5}$), the cylinders continue transporting heat via a wall mode down to $\\Ek = 5.62 \\times 10^{-6}$. This mode consists of a wave attached to the sidewall, with a radial thickness of roughly $0.03$ layer depths independent of $Γ$, leaving a stationary interior. Although unstable stratification is confined to the upper half of the conductive state, the mode also penetrates the lower half while retaining stable mean stratification in the measured lower-layer interval. Its azimuthal wavenumber scales roughly with $Γ$, yielding a wall parallel wavelength on the order of the layer depth, and it drifts retrograde as a rigid wave slower in wider cylinders and at lower $\\Ek$. Analogous to rotating Rayleigh--Bénard convection, the wall modes reported here extend the observed range of sustained convection relative to the periodic reference and may complicate experimental comparisons.",
+      "published": "2026-10-27T09:53:06Z",
+      "updated": "2026-10-27T09:53:06Z",
+      "authors": [
+        "Gabriel A. Tarditti",
+        "Rodolfo Ostilla-Mónico",
+        "Ali Arslan"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2610.36928",
+      "pdf": "https://arxiv.org/pdf/2610.36928v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-28T06:50:23.316687+00:00",
+      "version_changed": false,
+      "topics": [
+        "methods"
+      ],
+      "matches": {
+        "methods": [
+          "direct numerical simulation"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "流体与不稳定性 · Fluid dynamics",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 20,
+      "fit_matches": [],
+      "author_affiliation_status": "unavailable",
+      "institutions": [
+        "††affiliation: 1Dpto. Ing. Mecánica y Diseño Industrial, Escuela Superior de Ingeniería, Universidad de Cádiz, Av. de la Universidad de Cádiz 10, 11519 Puerto Real, España 2 Institute of Geophysics, ETH Zurich, 8092 Zurich, Switzerland"
+      ],
+      "author_affiliations": [],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.36928v1",
+      "intro_en": "Rotating internally heated convection has been studied almost exclusively in laterally periodic domains, which cannot support the sidewall-attached modes that appear for sufficient rotation rates in rotating Rayleigh--Bénard convection in containers. We conduct direct numerical simulations of internally heated convection with isothermal plates and an adiabatic sidewall in cylinders of aspect ratio $Γ= 1/2$, $1$, and $2$ at $\\Ra = 10^8$ and $\\Pran = 1$, comparing them with a doubly periodic layer.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-27",
+      "publication_date_source": "https://arxiv.org/abs/2610.36928v1",
+      "version_date": "2026-10-27T09:53:06+00:00"
+    },
+    {
+      "id": "2610.36888",
+      "version_id": "2610.36888v1",
+      "title": "Noise Steering: Exploiting Wake Steering and Acoustic Directivity for Noise-Constrained Wind Farm Control via Reinforcement Learning",
+      "abstract": "Existing noise mitigation strategies for wind farms usually consist in reducing turbines power output, without accounting for the wake interactions between them and the noise emission directivity. This leads to over-conservative policies and unexploited wind power. Yet, turbine yaw can simultaneously affect wake interactions and the direction of noise emission, offering an additional degree of freedom for farm-level noise control. We therefore propose Noise Steering, a model-free reinforcement learning (RL) strategy that jointly controls turbine yaw angles and power setpoints to maximise farm power while satisfying a local noise constraint in a defined region. To enable training at a reduced computational cost, a low-fidelity acoustic model is coupled with the steady-state FLORIS simulator. The RL agent effectively learns how to redirect wakes and noise directivity away from the protected region while redistributing power across the farm. On a six-turbine test farm, the policy satisfies the 40 dB noise constraint throughout the full range of turbulent winds, with an average power deficit of only 2% relative to greedy unimpeded control, and up to 7.7% at high wind speeds. In comparison, the industry-standard noise-reduced operation (NRO) baseline here generates an average power loss of 17%. When deployed in the higher-fidelity FAST.Farm simulator, the policy largely retains its performance under steady and turbulent inflow, despite differences in simulation fidelity. These results demonstrate the potential of combining yaw control and power derating through RL to improve the power-noise trade-off in wind farm operation.",
+      "published": "2026-10-27T09:23:45Z",
+      "updated": "2026-10-27T09:23:45Z",
+      "authors": [
+        "Martín de Frutos",
+        "Baptiste Corban",
+        "Claire Bizon Monroc",
+        "Ana Bušić",
+        "Donatien Dubuc",
+        "Jiamin Zhud",
+        "Esteban Ferrer"
+      ],
+      "doi": "",
+      "categories": [
+        "cs.AI",
+        "eess.SY",
+        "physics.ao-ph",
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2610.36888",
+      "pdf": "https://arxiv.org/pdf/2610.36888v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-28T06:50:23.316687+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "organization=ETSIAE-UPM - School of Aeronautics, Universidad Politécnica de Madrid, addressline=Plaza Cardenal Cisneros 3, city=Madrid, postcode=E-28040, country=Spain",
+        "organization=Inria, addressline=48 rue Barrault, city=Paris, postcode=75013, country=France",
+        "organization=DI ENS, Ecole Normale Supérieure, PSL Research University, city=Paris, country=France",
+        "organization=IFP Energies nouvelles, addressline=1 et 4 avenue de Bois-Préau, city=Rueil-Malmaison, postcode=92852, country=France",
+        "organization=Center for Computational Simulation, Universidad Politécnica de Madrid, addressline=Campus de Boadilla del Monte, city=Madrid, postcode=E-28660, country=Spain",
+        "organization=Center for Processes, Renewable Energy and Energy Systems (PERSEE), Mines Paris PSL, addressline=1 Rue Claude Daunesse, city=Sophia Antipolis, postcode=06560, country=France"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Martín de Frutos",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Baptiste Corban",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Claire Bizon Monroc",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Ana Bušić",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Donatien Dubuc",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Jiamin Zhu",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Esteban Ferrer",
+          "institutions": [
+            "organization=ETSIAE-UPM - School of Aeronautics, Universidad Politécnica de Madrid, addressline=Plaza Cardenal Cisneros 3, city=Madrid, postcode=E-28040, country=Spain",
+            "organization=Inria, addressline=48 rue Barrault, city=Paris, postcode=75013, country=France",
+            "organization=DI ENS, Ecole Normale Supérieure, PSL Research University, city=Paris, country=France",
+            "organization=IFP Energies nouvelles, addressline=1 et 4 avenue de Bois-Préau, city=Rueil-Malmaison, postcode=92852, country=France",
+            "organization=Center for Computational Simulation, Universidad Politécnica de Madrid, addressline=Campus de Boadilla del Monte, city=Madrid, postcode=E-28660, country=Spain",
+            "organization=Center for Processes, Renewable Energy and Energy Systems (PERSEE), Mines Paris PSL, addressline=1 Rue Claude Daunesse, city=Sophia Antipolis, postcode=06560, country=France"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.36888v1",
+      "intro_en": "Existing noise mitigation strategies for wind farms usually consist in reducing turbines power output, without accounting for the wake interactions between them and the noise emission directivity. This leads to over-conservative policies and unexploited wind power.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-27",
+      "publication_date_source": "https://arxiv.org/abs/2610.36888v1",
+      "version_date": "2026-10-27T09:23:45+00:00"
+    },
+    {
+      "id": "2610.36827",
+      "version_id": "2610.36827v1",
+      "title": "Advancing global crop simulations with differentiable modelling",
+      "abstract": "Global gridded crop models (GGCMs) are crucial for assessing the performance of food producing systems, for example under climate change or their contribution to environmental challenges. However, systematic calibration of their parameters remains a long-standing challenge. Persisting uncertainties in these parameters propagate into future crop projections, thereby affecting and potentially biasing food security assessments. Here we present a fully process-based differentiable GGCM implementation that offers a fundamentally new approach to parameter calibration, uncertainty quantification, yield loss attribution, and management optimization. Using automatic differentiation, we optimize selected model parameters against site-scale carbon and water flux observations, reducing normalized root-mean-square errors at held-out sites by 24.8-36.2% compared to the default state-of-the-art model. Without calibration against yield data, the optimized model better captures detrended yield anomalies across 61.2-64.3% of global crop area and reduces low-yield errors by 3.4-43.5% for wheat, rice, maize and soybean. It also ranks among the best performers in comparison with GGCMI Phase 3 models. Future simulations show that calibration reduces the projected end-of-century rice production increase from 55.1% to 22.1% under SSP5-8.5. Parameter ensembles further reveal that parameterizations with comparable historical skill can produce markedly different future production responses. Beyond calibration, differentiability enables the attribution of crop losses under extreme events and supports the design of adaptive crop management strategies. For the 2018 European drought, we identify spring heat and water limitation as major contributors to wheat yield losses and develop more effective irrigation strategies for mitigating simulated regional yield losses.",
+      "published": "2026-10-27T08:25:50Z",
+      "updated": "2026-10-27T08:25:50Z",
+      "authors": [
+        "Yunan Lin",
+        "Sebastian Bathiany",
+        "Maximilian Gelbrecht",
+        "Jens Heinke",
+        "Christoph Müller",
+        "Niklas Boers"
+      ],
+      "doi": "",
+      "categories": [
+        "cs.CE",
+        "physics.geo-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.36827",
+      "pdf": "https://arxiv.org/pdf/2610.36827v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-28T06:50:23.316687+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Munich Climate Center and Earth System Modelling Group, Department of Aerospace and Geodesy, School of Engineering and Design, Technical University of Munich, Munich, Germany",
+        "Potsdam Institute for Climate Impact Research, Member of the Leibniz Association, Potsdam, Germany",
+        "University of Exeter, Exeter, UK"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Yunan Lin",
+          "institutions": [
+            "Munich Climate Center and Earth System Modelling Group, Department of Aerospace and Geodesy, School of Engineering and Design, Technical University of Munich, Munich, Germany",
+            "Potsdam Institute for Climate Impact Research, Member of the Leibniz Association, Potsdam, Germany"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Sebastian Bathiany",
+          "institutions": [
+            "Munich Climate Center and Earth System Modelling Group, Department of Aerospace and Geodesy, School of Engineering and Design, Technical University of Munich, Munich, Germany",
+            "Potsdam Institute for Climate Impact Research, Member of the Leibniz Association, Potsdam, Germany"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Maximilian Gelbrecht",
+          "institutions": [
+            "Munich Climate Center and Earth System Modelling Group, Department of Aerospace and Geodesy, School of Engineering and Design, Technical University of Munich, Munich, Germany",
+            "Potsdam Institute for Climate Impact Research, Member of the Leibniz Association, Potsdam, Germany"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Jens Heinke",
+          "institutions": [
+            "Potsdam Institute for Climate Impact Research, Member of the Leibniz Association, Potsdam, Germany"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Christoph Müller",
+          "institutions": [
+            "Potsdam Institute for Climate Impact Research, Member of the Leibniz Association, Potsdam, Germany"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Niklas Boers",
+          "institutions": [
+            "Munich Climate Center and Earth System Modelling Group, Department of Aerospace and Geodesy, School of Engineering and Design, Technical University of Munich, Munich, Germany",
+            "Potsdam Institute for Climate Impact Research, Member of the Leibniz Association, Potsdam, Germany",
+            "University of Exeter, Exeter, UK"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.36827v1",
+      "intro_en": "Global gridded crop models (GGCMs) are crucial for assessing the performance of food producing systems, for example under climate change or their contribution to environmental challenges. However, systematic calibration of their parameters remains a long-standing challenge.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-27",
+      "publication_date_source": "https://arxiv.org/abs/2610.36827v1",
+      "version_date": "2026-10-27T08:25:50+00:00"
+    },
+    {
+      "id": "2610.36810",
+      "version_id": "2610.36810v1",
+      "title": "4D sensitivity kernels for infrasound atmospheric propagation: considering the need and impact of time dependent observation operators for acoustic wave observations in data assimilation methods",
+      "abstract": "The long range propagation of acoustic waves in Earth's atmosphere is sensitive to winds and temperature variations in the upper atmosphere. Thus, infrasound observations have a strong potential to improve numerical weather models by data assimilation methods. However, because acoustic waves propagate slowly, the atmospheric parameters can change during the propagation of the acoustic waves. This change of atmosphere properties is usually not taken into account by infrasound simulation tools which generally assume stationary atmosphere models. In order to close this modeling gap, we present here a method to compute the linear sensitivities of infrasound observables to atmospheric parameters varying both in space and time. We show that adjoint based methods can easily handle this computation of 4D sensitivity kernels, also called time variable observation operators in the data assimilation community. Then, we discuss the capabilities of various data assimilation methods to handle such observation operators. We demonstrate that only variational methods with data assimilation windows longer than the propagation duration of the long range infrasound can accommodate these observations, as well as their ensemble counterparts. Finally, we demonstrate the benefit of assimilating such long range infrasound observations, and we quantify the relative impact of linear approximation of observation operators and stationary approximation of the atmosphere model by assimilating propagation time observations of circumnavigating Lamb waves in Lorenz'96 low-order model. The results of this data assimilation experiment demonstrate that the time variability of atmospheric parameters should be taken into account even for infrasound propagation times limited to 2 or 3 time steps of the atmosphere model.",
+      "published": "2026-10-27T08:12:16Z",
+      "updated": "2026-10-27T08:12:16Z",
+      "authors": [
+        "Raphael F. Garcia",
+        "Marc Bocquet",
+        "Solène Gerier",
+        "Roland Martin"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.ao-ph",
+        "physics.geo-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.36810",
+      "pdf": "https://arxiv.org/pdf/2610.36810v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-28T06:50:23.316687+00:00",
+      "version_changed": false,
+      "topics": [
+        "methods"
+      ],
+      "matches": {
+        "methods": [
+          "data assimilation"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 20,
+      "fit_matches": [],
+      "institutions": [
+        "Space Systems for Planetary Applications team, Institut Supérieur de l’Aéronautique et de l’Espace (ISAE-SUPAERO), Université de Toulouse, Toulouse, 31400, France",
+        "CEREA, ENPC, EDF R&D Institut Polytechnique de Paris Île–de–France, France",
+        "Laboratoire de Géosciences Environnement Toulouse GET, UMR CNRS 5563, Observatoire Midi-Pyrénées, Université de Toulouse, Toulouse, 31400, France"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Raphael F. Garcia",
+          "institutions": [
+            "Space Systems for Planetary Applications team, Institut Supérieur de l’Aéronautique et de l’Espace (ISAE-SUPAERO), Université de Toulouse, Toulouse, 31400, France"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Marc Bocquet",
+          "institutions": [
+            "CEREA, ENPC, EDF R&D Institut Polytechnique de Paris Île–de–France, France"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Solène Gerier",
+          "institutions": [
+            "Space Systems for Planetary Applications team, Institut Supérieur de l’Aéronautique et de l’Espace (ISAE-SUPAERO), Université de Toulouse, Toulouse, 31400, France"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Roland Martin",
+          "institutions": [
+            "Laboratoire de Géosciences Environnement Toulouse GET, UMR CNRS 5563, Observatoire Midi-Pyrénées, Université de Toulouse, Toulouse, 31400, France"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.36810v1",
+      "intro_en": "The long range propagation of acoustic waves in Earth's atmosphere is sensitive to winds and temperature variations in the upper atmosphere. Thus, infrasound observations have a strong potential to improve numerical weather models by data assimilation methods.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-27",
+      "publication_date_source": "https://arxiv.org/abs/2610.36810v1",
+      "version_date": "2026-10-27T08:12:16+00:00"
+    },
+    {
+      "id": "2610.36775",
+      "version_id": "2610.36775v1",
+      "title": "On dependence of the source deactivation factor on the magnitude of main earthquake shock",
+      "abstract": "We have discovered an inverse relationship between the earthquake source deactivation coefficient and the magnitude of the main shock. Recently, this pattern was confirmed through an analysis of earthquakes in the Central Himalayas (Poudel et al., 2026). On the one hand, independent confirmation of a previously unknown pattern strengthens our confidence in the relevance of the phenomenological theory of aftershocks, upon which we have based our method for processing and analyzing aftershocks. On the other hand, Poudel et al. (2026) presented our method in a distorted manner. Poudel et al. mistakenly believe that our method is based on a modified Omori law. Both circumstances provide an occasion and a basis for a simple and clear explanation of the essence of our approach to the study of aftershocks. First and foremost, our approach to the problem is diametrically opposed to Omori approach. Omori law and its modification, proposed by Hirano and Utsu, describe the decay of aftershocks. In contrast, we formulated and solved the inverse problem. The essence of the inverse problem lies in the need to calculate the source deactivation coefficient based on aftershock observation data, without making any prior assumptions regarding the law governing the decay of aftershocks. A crucial concept in our theory is the rather complex notion of the proper time of a source. Proper time differs radically from astronomical time. The paper describes the continuous and discrete representations of proper time. This paper is methodological in nature and may prove useful to researchers studying the dynamics of an earthquake source following the formation of a main rupture within the rock mass. Keywords: earthquake source, main shock, relaxation, deactivation coefficient, proper time, inverse problem.",
+      "published": "2026-10-27T07:43:40Z",
+      "updated": "2026-10-27T07:43:40Z",
+      "authors": [
+        "A. V. Guglielmi",
+        "A. D. Zavyalov",
+        "O. D. Zotov"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.geo-ph"
+      ],
+      "url": "https://arxiv.org/abs/2610.36775",
+      "pdf": "https://arxiv.org/pdf/2610.36775v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-28T06:50:23.316687+00:00",
+      "version_changed": false,
+      "topics": [
+        "methods"
+      ],
+      "matches": {
+        "methods": [
+          "inverse problem"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 20,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2610.36775v1",
+      "intro_en": "We have discovered an inverse relationship between the earthquake source deactivation coefficient and the magnitude of the main shock. Recently, this pattern was confirmed through an analysis of earthquakes in the Central Himalayas (Poudel et al., 2026).",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-27",
+      "publication_date_source": "https://arxiv.org/abs/2610.36775v1",
+      "version_date": "2026-10-27T07:43:40+00:00"
+    },
+    {
+      "id": "2610.36747",
+      "version_id": "2610.36747v1",
+      "title": "Learning the solution operator of standing waves with a Fourier neural operator",
+      "abstract": "The standing wave problem concerns the space-time periodic motion at the free surface of a two-dimensional, infinitely deep, irrotational flow of an incompressible inviscid fluid under gravity. Although spectrally accurate computations have revealed a rich array of nonlinear wave phenomena, repeatedly evaluating their evolution over large parameter spaces remains challenging, particularly when resolving fine-scale spatial oscillations. We employ a Fourier neural operator (FNO) architecture to learn the solution operator along a numerically computed one-parameter family of symmetric standing waves. Given a wave profile at an instant of rest and a normalized observation time, the learned operator predicts the fluid surface, the velocity potential and the dipole density at the surface at that time. In-distribution tests yield uniformly small relative errors within the training range. Two out-of-distribution experiments characterize extrapolation toward contrasting physical regimes. Toward the free-fall limit, errors concentrate near the sharpening crest, consistent with the spectral truncation in the FNO architecture. Toward the linear limit, absolute errors remain small whereas relative errors increase as the amplitude vanishes. A residual of the governing equations, evaluated independently of reference solutions, complements these tests and provides a diagnostic for exploratory predictions beyond the available data.",
+      "published": "2026-10-27T07:03:44Z",
+      "updated": "2026-10-27T07:03:44Z",
+      "authors": [
+        "Changhong Mou",
+        "Savana Ammons",
+        "Di Qi",
+        "Vera Mikyoung Hur"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2610.36747",
+      "pdf": "https://arxiv.org/pdf/2610.36747v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-28T06:50:23.316687+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "海冰与表层 · Ice & surface"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Department of Mathematics and Statistics, Utah State University, Logan, UT 84322, USA",
+        "Mobius Logic Inc., Tysons, VA 22102, USA",
+        "Department of Mathematics, Purdue University, West Lafayette, IN 47907, USA",
+        "Department of Mathematics, University of Illinois Urbana-Champaign, Urbana, IL 61801, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Changhong Mou",
+          "institutions": [
+            "Department of Mathematics and Statistics, Utah State University, Logan, UT 84322, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Savana Ammons",
+          "institutions": [
+            "Mobius Logic Inc., Tysons, VA 22102, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Di Qi",
+          "institutions": [
+            "Department of Mathematics, Purdue University, West Lafayette, IN 47907, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Vera Mikyoung Hur",
+          "institutions": [
+            "Department of Mathematics, University of Illinois Urbana-Champaign, Urbana, IL 61801, USA"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.36747v1",
+      "intro_en": "The standing wave problem concerns the space-time periodic motion at the free surface of a two-dimensional, infinitely deep, irrotational flow of an incompressible inviscid fluid under gravity. Although spectrally accurate computations have revealed a rich array of nonlinear wave phenomena, repeatedly evaluating their evolution over large parameter spaces remains challenging, particularly when resolving fine-scale spatial oscillations.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-27",
+      "publication_date_source": "https://arxiv.org/abs/2610.36747v1",
+      "version_date": "2026-10-27T07:03:44+00:00"
+    },
     {
       "id": "2610.35849",
       "version_id": "2610.35849v1",
@@ -8270,11 +10062,11 @@
     },
     {
       "id": "2610.34554",
-      "version_id": "2610.34554v1",
+      "version_id": "2610.34554v2",
       "title": "LunarRF: A Terrain-Aware Propagation Engine and Pole-Wide 3GPP Surface Coverage Atlas of the Lunar South Pole",
       "abstract": "Artemis surface operations will depend on 3GPP cellular links, yet no public product shows where such links are physically possible across the lunar south pole. We present LunarRF, a GPU system for terrain-aware surface coverage, and the pole-wide atlas produced with it. A footprint engine casts 8192 radial profiles from one of 11,827 candidate masts enumerated by stated rules on the orbit-adjusted LOLA elevation model, takes the viewshed, and evaluates ITU-R P.1812 Delta-Bullington propagation on every profile, continuous through the radio horizon. An order-independent resolver merges the footprints per 20 m cell, making the run shardable and resumable. The atlas covers the disc south of 80°S at 20 m for four SFCG-recommended surface bands and the IM-2 demonstration band, 1.8 to 25.375 GHz, under a stated link budget, storing per cell the best-server power and identity, redundancy count, line of sight and coverability. The engine is validated against a parabolic-equation solver, ray tracing and analytic solutions. Swapping Deygout for Delta-Bullington, or adding terrain noise at the level of the published height-error map of the DEM, moves the coverable class on under 1% of a mast's disc in the mean. With every candidate active, 90.5% of the disc is coverable at 1.8 GHz, 59% at 5.855 GHz and 10% at 25.375 GHz, or 84, 43 and 5% after the measured 3-4 dB engine optimism. A mast covers about 90% of its visible area within its budget-set range, and no band is terrain-limited. The nine current Artemis regions are 85-99% coverable at 1.8 GHz and 22-85% at 5.855 GHz. The atlas and candidate table are released with a DOI.",
       "published": "2026-10-25T20:32:21Z",
-      "updated": "2026-10-25T20:32:21Z",
+      "updated": "2026-10-27T16:58:34Z",
       "authors": [
         "Christopher J. Santorelli",
         "Alexander M. Wyglinski"
@@ -8286,10 +10078,10 @@
         "astro-ph.IM"
       ],
       "url": "https://arxiv.org/abs/2610.34554",
-      "pdf": "https://arxiv.org/pdf/2610.34554v1",
+      "pdf": "https://arxiv.org/pdf/2610.34554v2",
       "source": "arXiv",
       "first_seen": "2026-10-27T06:14:42.886440+00:00",
-      "version_changed": false,
+      "version_changed": true,
       "topics": [],
       "matches": {},
       "status": "unmatched",
@@ -8321,14 +10113,14 @@
         }
       ],
       "affiliation_status": "verified",
-      "affiliation_source": "https://arxiv.org/html/2610.34554v1",
+      "affiliation_source": "https://arxiv.org/html/2610.34554v2",
       "intro_en": "Artemis surface operations will depend on 3GPP cellular links, yet no public product shows where such links are physically possible across the lunar south pole. We present LunarRF, a GPU system for terrain-aware surface coverage, and the pole-wide atlas produced with it.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-10-26",
-      "publication_date_source": "https://arxiv.org/abs/2610.34554v1",
-      "version_date": "2026-10-25T20:32:21+00:00"
+      "publication_date_source": "https://arxiv.org/abs/2610.34554v2",
+      "version_date": "2026-10-27T16:58:34+00:00"
     },
     {
       "id": "2610.34510",
@@ -26918,6 +28710,69 @@
       "version_date": "2026-10-22T13:29:59+00:00"
     },
     {
+      "id": "2609.37517",
+      "version_id": "2609.37517v2",
+      "title": "The Occurrence Rate of Planets Around Subgiant Stars from TESS Photometric Survey",
+      "abstract": "Subgiant stars represent a critical phase in stellar evolution, offering an opportunity to investigate how planetary systems respond to the early stages of post-main-sequence expansion. Despite their importance, systematic occurrence-rate studies of this population remain sparse compared with those of main-sequence and red-giant hosts. In this paper, we present a uniform analysis of planet occurrence around a sample of 282,904 subgiant stars selected from the \\textit{Gaia} Data Release 3 (DR3) catalogue. We performed an independent re-analysis of Transiting Exoplanet Survey Satellite (TESS) light curves for transit-signal detection and refinement, followed by multi-stage vetting including a visual inspection and statistical false-positive assessment. We quantified the detection sensitivity of the survey through injection-and-recovery experiments, with 565,808 synthetic transit signals injected across the stellar sample. Over the period range of 1--10 days and the planet-radius range for which the detection completeness is well characterised, we measure a completeness-corrected planet occurrence rate of $0.644^{+0.048}_{-0.041}\\%$. The occurrence rate is strongly dependent on planet radius, with the highest occurrence contributed by planets in the $1$--$4\\,R_{\\oplus}$ range and a secondary enhancement at $12$--$15\\,R_{\\oplus}$. These results provide a demographic baseline for studying the population of close-in planets around stars undergoing early post-main-sequence evolution.",
+      "published": "2026-09-29T13:09:41Z",
+      "updated": "2026-10-27T16:55:44Z",
+      "authors": [
+        "Arkaprova Dutta",
+        "Priyanka Chaturvedi"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP",
+        "astro-ph.SR"
+      ],
+      "url": "https://arxiv.org/abs/2609.37517",
+      "pdf": "https://arxiv.org/pdf/2609.37517v2",
+      "source": "arXiv",
+      "first_seen": "2026-10-28T06:50:23.316687+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "行星科学拓展阅读",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [
+        "行星轨道与演化"
+      ],
+      "institutions": [
+        "Indian Institute of Science Education and Research Kolkata, Mohanpur, India, 741246",
+        "Department of Astronomy and Astrophysics, Tata Institute of Fundamental Research, Mumbai, India, 400005",
+        "Thüringer Landessternwarte Tautenburg, Sternwarte 5, 07778 Tautenburg, Germany"
+      ],
+      "author_affiliations": [
+        {
+          "name": "A. Dutta",
+          "institutions": [
+            "Indian Institute of Science Education and Research Kolkata, Mohanpur, India, 741246"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "P. Chaturvedi,",
+          "institutions": [
+            "Department of Astronomy and Astrophysics, Tata Institute of Fundamental Research, Mumbai, India, 400005",
+            "Thüringer Landessternwarte Tautenburg, Sternwarte 5, 07778 Tautenburg, Germany"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.37517v2",
+      "intro_en": "Subgiant stars represent a critical phase in stellar evolution, offering an opportunity to investigate how planetary systems respond to the early stages of post-main-sequence expansion. Despite their importance, systematic occurrence-rate studies of this population remain sparse compared with those of main-sequence and red-giant hosts.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-09-29",
+      "publication_date_source": "https://arxiv.org/abs/2609.37517v2",
+      "version_date": "2026-10-27T16:55:44+00:00"
+    },
+    {
       "id": "2609.36831",
       "version_id": "2609.36831v1",
       "title": "Radial flow of an Oldroyd-B fluid: theoretical and simulation results in the ultra-dilute limit",
@@ -32772,6 +34627,58 @@
       "version_date": "2026-10-07T05:12:32+00:00"
     },
     {
+      "id": "2609.38208",
+      "version_id": "2609.38208v2",
+      "title": "CraftSPH: A composable framework for differentiable smoothed particle hydrodynamics implemented in PyTorch",
+      "abstract": "Smoothed particle hydrodynamics (SPH) is well suited to large-deformation fluid problems, and the growing use of automatic differentiation in engineering applications has motivated interest in differentiable SPH solvers. In this study, a composable differentiable SPH framework, CraftSPH, has been developed. In CraftSPH, major computational operations are implemented as independent modules that users can combine to construct solvers for different purposes. This design supports high-accuracy discretization and both explicit and implicit computation within a common framework, while allowing individual components to be maintained and extended. Selected numerical operations also support automatic differentiation (AD) for physical-parameter estimation and potential coupling with deep learning models. These capabilities were demonstrated through forward and inverse analyses. Forward analyses using an implicit SPH scheme with high-accuracy discretization showed good agreement with analytical and reference solutions for Poiseuille flow and a rising bubble, while capturing the key experimental trends in two- and three-dimensional dam-break problems. In inverse analyses, explicit and implicit SPH schemes were used to estimate kinematic viscosity in Taylor-Green vortex flow and Reynolds number in lid-driven cavity flow. The results also showed that the choice of operations included in the computational graph affects the computed gradients. Together, these findings demonstrate that CraftSPH enables users to assemble problem-specific solvers for forward and inverse analyses within a common framework.",
+      "published": "2026-09-24T05:00:35Z",
+      "updated": "2026-10-27T14:50:48Z",
+      "authors": [
+        "Gen Matono",
+        "Shujiro Fujioka",
+        "Mayuko Nishio"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn",
+        "cs.LG",
+        "math.NA"
+      ],
+      "url": "https://arxiv.org/abs/2609.38208",
+      "pdf": "https://arxiv.org/pdf/2609.38208v2",
+      "source": "arXiv",
+      "first_seen": "2026-10-28T06:50:23.316687+00:00",
+      "version_changed": false,
+      "topics": [
+        "methods"
+      ],
+      "matches": {
+        "methods": [
+          "smoothed particle hydrodynamics"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "环流与波动 · Circulation & waves",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 20,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2609.38208v2",
+      "intro_en": "Smoothed particle hydrodynamics (SPH) is well suited to large-deformation fluid problems, and the growing use of automatic differentiation in engineering applications has motivated interest in differentiable SPH solvers. In this study, a composable differentiable SPH framework, CraftSPH, has been developed.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-09-24",
+      "publication_date_source": "https://arxiv.org/abs/2609.38208v2",
+      "version_date": "2026-10-27T14:50:48+00:00"
+    },
+    {
       "id": "2609.29027",
       "version_id": "2609.29027v2",
       "title": "Generative Atmospheric Super-Resolution from Heterogeneous In Situ Observations through Composable Interfaces",
@@ -37512,6 +39419,69 @@
       "version_date": "2026-10-20T09:33:31+00:00"
     },
     {
+      "id": "2609.17005",
+      "version_id": "2609.17005v3",
+      "title": "Odd slip at chiral active surfaces",
+      "abstract": "Odd slip at solid-liquid interfaces, characterized by a velocity component perpendicular to the applied shear stress, introduces a novel class of odd transport phenomena with transverse momentum transfer at boundaries, distinct from odd viscosity, odd elasticity, or odd diffusivity. This effect arises on chiral active surfaces with persistent energy input and defined handedness, such as carpets of rotating biological or synthetic cilia with flexible anchoring. Although odd slip itself is dissipationless, its maintenance in active systems comes at an energetic cost, which we estimate from the microscopic model. With respect to its orientation dependence, odd slip can be classified as pseudo-scalar or pseudo-vectorial. We use a perturbative expansion to determine the resistance tensors of problems with different levels of broken symmetries. They reveal how the surface chirality and body asymmetry together violate the Onsager symmetry, but uphold the Onsager-Casimir reciprocity. Strikingly, suspensions of particles with odd slip embedded in a conventional Newtonian bulk fluid exhibit odd viscosity, providing a new minimal mechanism for its emergence beyond current microscopic models.",
+      "published": "2026-09-15T11:19:10Z",
+      "updated": "2026-10-27T10:05:56Z",
+      "authors": [
+        "Yuto Hosaka",
+        "Andrej Vilfan"
+      ],
+      "doi": "10.1103/sf48-3p1f",
+      "categories": [
+        "cond-mat.soft",
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2609.17005",
+      "pdf": "https://arxiv.org/pdf/2609.17005v3",
+      "source": "arXiv",
+      "first_seen": "2026-10-28T06:50:23.316687+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "海冰与表层 · Ice & surface"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Max Planck Institute for Dynamics and Self-Organization (MPI-DS), Am Fassberg 17, 37077 Göttingen, Germany",
+        "Department of Mathematics, Kyoto University, 606-8502 Kyoto, Japan",
+        "Jožef Stefan Institute, Jamova 39, 1000 Ljubljana, Slovenia"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Yuto Hosaka",
+          "institutions": [
+            "Max Planck Institute for Dynamics and Self-Organization (MPI-DS), Am Fassberg 17, 37077 Göttingen, Germany",
+            "Department of Mathematics, Kyoto University, 606-8502 Kyoto, Japan"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Andrej Vilfan",
+          "institutions": [
+            "Jožef Stefan Institute, Jamova 39, 1000 Ljubljana, Slovenia"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.17005v3",
+      "intro_en": "Odd slip at solid-liquid interfaces, characterized by a velocity component perpendicular to the applied shear stress, introduces a novel class of odd transport phenomena with transverse momentum transfer at boundaries, distinct from odd viscosity, odd elasticity, or odd diffusivity. This effect arises on chiral active surfaces with persistent energy input and defined handedness, such as carpets of rotating biological or synthetic cilia with flexible anchoring.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-09-15",
+      "publication_date_source": "https://arxiv.org/abs/2609.17005v3",
+      "version_date": "2026-10-27T10:05:56+00:00"
+    },
+    {
       "id": "2609.14853",
       "version_id": "2609.14853v2",
       "title": "A Review of ERA5 Equatorial Wind Data and Impact on a Space Elevator",
@@ -38337,15 +40307,65 @@
       "method": "keyword",
       "fit_score": 0,
       "fit_matches": [],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "institutions": [
+        "Interdisciplinary Graduate Programme, Nanyang Technological University, Singapore, Singapore",
+        "School of Future Technology, Fuzhou University, Fuzhou, China",
+        "College of Computing and Data Science, Nanyang Technological University, Singapore, Singapore",
+        "School of Information Science and Engineering, Yunnan University, Kunming, Yunnan, China",
+        "School of Mechanical and Aerospace Engineering, Nanyang Technological University, Singapore, Singapore"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Tianyu Li",
+          "institutions": [
+            "Interdisciplinary Graduate Programme, Nanyang Technological University, Singapore, Singapore"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Zhiwei Cao",
+          "institutions": [
+            "School of Future Technology, Fuzhou University, Fuzhou, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Qingang Zhang",
+          "institutions": [
+            "College of Computing and Data Science, Nanyang Technological University, Singapore, Singapore"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Ruihang Wang",
+          "institutions": [
+            "School of Information Science and Engineering, Yunnan University, Kunming, Yunnan, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Binyang Song",
+          "institutions": [
+            "School of Mechanical and Aerospace Engineering, Nanyang Technological University, Singapore, Singapore"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Yonggang Wen",
+          "institutions": [
+            "College of Computing and Data Science, Nanyang Technological University, Singapore, Singapore"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
       "intro_en": "Neural surrogates are widely used in scientific machine learning for fast prediction of three-dimensional (3D) thermo-fluid fields. However, generating training data using conventional numerical solvers often incurs substantial computational and storage costs.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-07-23",
       "publication_date_source": "https://arxiv.org/abs/2607.20321v3",
+      "affiliation_source": "https://arxiv.org/html/2607.20321v3",
       "version_date": "2026-10-26T15:42:28+00:00"
     },
     {
@@ -38388,14 +40408,31 @@
       "fit_score": 20,
       "fit_matches": [],
       "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "author_affiliations": [
+        {
+          "name": "Biswanath Barman",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Rajendra K. Ray∗",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Debdeep Chatterjee",
+          "institutions": [],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "unavailable",
       "intro_en": "Physics-informed neural networks (PINNs) can solve forward and inverse PDE problems but may struggle with spectral bias and oscillatory, high-frequency, or phase-dependent solutions. We introduce a generalized split complex-valued PINN (SCV-PINN) framework with complex-valued parameters and latent representations.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-07-16",
       "publication_date_source": "https://arxiv.org/abs/2607.15087v2",
+      "affiliation_source": "https://arxiv.org/html/2607.15087v2",
       "version_date": "2026-10-26T07:07:45+00:00"
     },
     {
@@ -38527,13 +40564,14 @@
       "fit_matches": [],
       "institutions": [],
       "author_affiliations": [],
-      "affiliation_status": "pending",
+      "affiliation_status": "unavailable",
       "intro_en": "Physics-informed neural networks (PINNs) have shown promise in solving partial differential equations (PDEs). However, shock capturing remains challenging for PINNs, particularly in steady flows around an airfoil, where shocks may not even be captured.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-07-09",
       "publication_date_source": "https://arxiv.org/abs/2607.08130v2",
+      "affiliation_source": "https://arxiv.org/html/2607.08130v2",
       "version_date": "2026-10-26T10:40:28+00:00"
     },
     {
@@ -38697,6 +40735,68 @@
       "version_date": "2026-10-01T02:44:56+00:00"
     },
     {
+      "id": "2606.27113",
+      "version_id": "2606.27113v2",
+      "title": "An Arbitrary-Lagrangian-Eulerian solver for relativistic detonation waves",
+      "abstract": "In this paper we study the dynamics of relativistic detonation waves theoretically and numerically. The reaction is physically accounted for by an extra term in the definition of the total energy density and by an additional equation for the evolution of the mass fraction of the reactant, while leaving formally unmodified the equations of mass and energy-momentum conservation. In this way, the Rankine-Hugoniot relations maintain the same formal structure of the inert version. For the numerical solution we use a finite volume ALE scheme with a second order TVD space-time reconstruction for the homogeneous part of the system, where the mesh velocity is chosen equal to the shock speed, and we combine it through operator splitting with a locally implicit algorithm for the potentially stiff reaction source terms that arise in the equation of the reactant. We furthermore propose a particularly efficient algorithm for the conversion from the conserved to the primitive variables, which for the relativistic Euler equations is known to be nontrivial. Following this approach, we can successfully solve the Zel'dovich-von Neumann-Doering profile of a relativistic detonation wave, up to Lorentz factors of the shock front $γ_s\\sim 7$. Our analysis allowed us to highlight a new special relativistic effect, which has remained unnoticed so far. While in Newtonian detonations the Zel'dovich pressure jump decreases monotonically with the mass flux through the shock front, in the relativistic case it shows a minimum and then rises monotonically as a function of the mass flux. This may have interesting physical implications on the amount of energy that can be extracted from a relativistic detonation wave.",
+      "published": "2026-06-25T14:49:10Z",
+      "updated": "2026-10-27T08:13:49Z",
+      "authors": [
+        "Sara Rinaldi",
+        "Olindo Zanotti",
+        "Michael Dumbser"
+      ],
+      "doi": "",
+      "categories": [
+        "math.NA",
+        "astro-ph.HE",
+        "gr-qc",
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2606.27113",
+      "pdf": "https://arxiv.org/pdf/2606.27113v2",
+      "source": "arXiv",
+      "first_seen": "2026-10-28T06:50:23.316687+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [
+        {
+          "name": "Sara Rinaldi",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Olindo Zanotti",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Michael Dumbser",
+          "institutions": [],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2606.27113v2",
+      "intro_en": "In this paper we study the dynamics of relativistic detonation waves theoretically and numerically. The reaction is physically accounted for by an extra term in the definition of the total energy density and by an additional equation for the evolution of the mass fraction of the reactant, while leaving formally unmodified the equations of mass and energy-momentum conservation.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-06-25",
+      "publication_date_source": "https://arxiv.org/abs/2606.27113v2",
+      "version_date": "2026-10-27T08:13:49+00:00"
+    },
+    {
       "id": "2606.21236",
       "version_id": "2606.21236v2",
       "title": "Physics-Informed Neural Networks for coupled stiff transport systems",
@@ -38737,14 +40837,26 @@
       "fit_score": 20,
       "fit_matches": [],
       "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "author_affiliations": [
+        {
+          "name": "Laetitia Laguzet",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Gabriel Turinici",
+          "institutions": [],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "unavailable",
       "intro_en": "Physics-Informed Neural Networks (PINN) struggle with stiff, regime-changing transport equations due to instability, loss imbalance, and violations of physical consistency. This paper investigates these failures through the Marshak wave equations, a canonical benchmark from radiative transport, where initial and boundary conditions differ by up to 12 orders of magnitude, and proposes modifications to the standard PINN framework to overcome them.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-06-19",
       "publication_date_source": "https://arxiv.org/abs/2606.21236v2",
+      "affiliation_source": "https://arxiv.org/html/2606.21236v2",
       "version_date": "2026-10-26T10:21:28+00:00"
     },
     {
@@ -39033,15 +41145,19 @@
       "fit_matches": [
         "行星海洋与冰"
       ],
-      "institutions": [],
+      "institutions": [
+        "1 Canadian Centre for Climate Modelling and Analysis, Environment and Climate Change Canada, Victoria, British Columbia, Canada 2 Climate Modelling Research Division, Environment and Climate Change Canada, Victoria, British Columbia, Canada"
+      ],
       "author_affiliations": [],
-      "affiliation_status": "pending",
+      "affiliation_status": "verified",
       "intro_en": "Seasonal climate predictions support planning and risk management by offering early information of the likely climate conditions in the coming months, and associated uncertainties. Ensemble forecasts enable this by simulating many plausible outcomes, allowing predictions to be expressed as usable probabilities.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-05-28",
       "publication_date_source": "https://arxiv.org/abs/2605.29172v2",
+      "author_affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2605.29172v2",
       "version_date": "2026-10-26T04:57:28+00:00"
     },
     {
@@ -39767,6 +41883,56 @@
       "version_date": "2026-10-21T10:43:52+00:00"
     },
     {
+      "id": "2604.24866",
+      "version_id": "2604.24866v2",
+      "title": "Seismic background mitigation with the Lunar Gravitational-wave Antenna",
+      "abstract": "Lunar gravitational-wave (GW) detectors relying on the measurement of the response of the Moon to GWs are susceptible to a seismic background, which might pose a fundamental sensitivity limitation. The Lunar Gravitational-wave Antenna (LGWA) was conceived as an array of accelerometers with the idea that data can be processed to distinguish between a GW signal and the seismic background. As a result, the seismic noise of the GW measurement would be mitigated. However, so far, no quantitative assessment of the mitigation of the seismic background has been provided. In this article, we derive the analytical expressions for the optimal squared signal-to-noise ratio for a two-station array in an isotropic, random, Gaussian seismic field. Our numerical analysis reveals that the capacity to mitigate the seismic noise critically depends on the distance between the two stations relative to the seismic-correlation length. We demonstrate that optimal placement of the two stations can yield significant improvements in the equivalent seismic noise amplitude spectral density (ASD), approximately a factor of 2.3 at 0.3 Hz, compared to the measurement with a single station in the seismic-noise-dominated limit. The equivalent ASD of the seismic noise also exhibits distinct oscillatory and mitigation features arising from the Bessel-function structure of the noise correlation.",
+      "published": "2026-04-27T18:00:15Z",
+      "updated": "2026-10-27T07:32:31Z",
+      "authors": [
+        "Han Yan",
+        "Jan Harms"
+      ],
+      "doi": "10.1103/sgyq-p8tz",
+      "categories": [
+        "astro-ph.IM",
+        "gr-qc",
+        "physics.geo-ph"
+      ],
+      "url": "https://arxiv.org/abs/2604.24866",
+      "pdf": "https://arxiv.org/pdf/2604.24866v2",
+      "source": "arXiv",
+      "first_seen": "2026-10-28T06:50:23.316687+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "author_affiliation_status": "unavailable",
+      "institutions": [
+        "1Department of Astronomy, School of Physics, Peking University, 100871 Beijing, China",
+        "2Kavli Institute for Astronomy and Astrophysics, Peking University, 100871 Beijing, China",
+        "3Gran Sasso Science Institute, 67100 L’Aquila, Italy",
+        "4INFN, Laboratori Nazionali del Gran Sasso, 67100 Assergi, Italy"
+      ],
+      "author_affiliations": [],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2604.24866v2",
+      "intro_en": "Lunar gravitational-wave (GW) detectors relying on the measurement of the response of the Moon to GWs are susceptible to a seismic background, which might pose a fundamental sensitivity limitation. The Lunar Gravitational-wave Antenna (LGWA) was conceived as an array of accelerometers with the idea that data can be processed to distinguish between a GW signal and the seismic background.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-04-28",
+      "publication_date_source": "https://arxiv.org/abs/2604.24866v2",
+      "version_date": "2026-10-27T07:32:31+00:00"
+    },
+    {
       "id": "2604.24244",
       "version_id": "2604.24244v2",
       "title": "A Particle Multi-Relaxation Bhatnagar-Gross-Krook Method for Rarefied Monatomic Gas Mixtures",
@@ -39960,14 +42126,31 @@
       "fit_score": 0,
       "fit_matches": [],
       "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "author_affiliations": [
+        {
+          "name": "Mert Can Turkmen",
+          "institutions": [],
+          "orcid": "https://orcid.org/0009-0003-6195-1715"
+        },
+        {
+          "name": "Eng Leong Tan",
+          "institutions": [],
+          "orcid": "https://orcid.org/0000-0003-3003-6007"
+        },
+        {
+          "name": "and Yee Hui Lee",
+          "institutions": [],
+          "orcid": "https://orcid.org/0000-0001-6452-9606"
+        }
+      ],
+      "affiliation_status": "unavailable",
       "intro_en": "Most data-driven ionospheric models operate on gridded products, which do not preserve the time-varying sampling structure of satellite-based sensing. We instead model the ionosphere as a dynamic graph over ionospheric pierce points, with connectivity that evolves as satellite positions change.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-04-20",
       "publication_date_source": "https://arxiv.org/abs/2604.18379v3",
+      "affiliation_source": "https://arxiv.org/html/2604.18379v3",
       "version_date": "2026-10-25T12:33:36+00:00"
     },
     {
@@ -40042,6 +42225,95 @@
       "publication_date": "2026-04-17",
       "publication_date_source": "https://arxiv.org/abs/2604.16057v2",
       "version_date": "2026-10-07T08:11:15+00:00"
+    },
+    {
+      "id": "2604.10184",
+      "version_id": "2604.10184v2",
+      "title": "Dissolution-induced mode transition of crack propagation in carbonate rocks: From brittle fracture to diffuse damage",
+      "abstract": "In chemically reactive environments, the mechanical integrity of geomaterials is fundamentally compromised by solid matrix dissolution. In this study, we propose a fully coupled chemo-mechanical phase-field framework to capture the dynamic interplay between mineral dissolution and fracture propagation. A key feature of the proposed model is the dynamic coupling of local mass removal to the fracture length scale, while also incorporating the damage-accelerated reaction-diffusion processes. Our results capture the development of an enlarged fracture process zone driven by chemical mass removal. This chemically induced widening blunts the sharp crack tip, alleviating the near-tip stress concentrations and causing a pronounced degradation in material stiffness before failure. Furthermore, we reveal a distinct ductilization effect, characterized by a more gradual accumulation of damage and a delayed onset of macroscopic failure. We show that the transition between brittle and ductile failure modes is dictated by the competing timescales of chemical degradation and mechanical deformation. Highly acidic environments enhance matrix dissolution and promote ductile fracture, whereas rapid mechanical loading limits chemical interaction and preserves brittle failure mode.",
+      "published": "2026-04-11T12:37:27Z",
+      "updated": "2026-10-27T06:51:45Z",
+      "authors": [
+        "Fanyu Wu",
+        "Chong Liu",
+        "Mingze Hu",
+        "Manolis Veveakis",
+        "Manman Hu"
+      ],
+      "doi": "",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "physics.geo-ph"
+      ],
+      "url": "https://arxiv.org/abs/2604.10184",
+      "pdf": "https://arxiv.org/pdf/2604.10184v2",
+      "source": "arXiv",
+      "first_seen": "2026-10-28T06:50:23.316687+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Department of Civil Engineering, The University of Hong Kong, Hong Kong, China",
+        "Civil and Environmental Engineering, Duke University, Durham, NC, USA",
+        "Department of Earth Sciences, Utrecht University, Utrecht, The Netherlands",
+        "Department of Civil Engineering, Zhejiang University, Hangzhou, China"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Fanyu Wu",
+          "institutions": [
+            "Department of Civil Engineering, The University of Hong Kong, Hong Kong, China",
+            "Civil and Environmental Engineering, Duke University, Durham, NC, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0003-3197-0600"
+        },
+        {
+          "name": "Chong Liu",
+          "institutions": [
+            "Department of Civil Engineering, The University of Hong Kong, Hong Kong, China",
+            "Department of Earth Sciences, Utrecht University, Utrecht, The Netherlands"
+          ],
+          "orcid": "https://orcid.org/0000-0002-0091-0130"
+        },
+        {
+          "name": "Mingze Hu",
+          "institutions": [
+            "Department of Civil Engineering, The University of Hong Kong, Hong Kong, China",
+            "Department of Civil Engineering, Zhejiang University, Hangzhou, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Manolis Veveakis",
+          "institutions": [
+            "Civil and Environmental Engineering, Duke University, Durham, NC, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-4911-6026"
+        },
+        {
+          "name": "Man-man Hu",
+          "institutions": [
+            "Department of Civil Engineering, The University of Hong Kong, Hong Kong, China",
+            "Department of Civil Engineering, Zhejiang University, Hangzhou, China"
+          ],
+          "orcid": "https://orcid.org/0000-0001-5091-0289"
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2604.10184v2",
+      "intro_en": "In chemically reactive environments, the mechanical integrity of geomaterials is fundamentally compromised by solid matrix dissolution. In this study, we propose a fully coupled chemo-mechanical phase-field framework to capture the dynamic interplay between mineral dissolution and fracture propagation.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-04-11",
+      "publication_date_source": "https://arxiv.org/abs/2604.10184v2",
+      "version_date": "2026-10-27T06:51:45+00:00"
     },
     {
       "id": "2604.09346",
@@ -41002,15 +43274,40 @@
       "method": "keyword",
       "fit_score": 0,
       "fit_matches": [],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "institutions": [
+        "Imperial College London, London, England SW7 2AZ, United Kingdom"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Yingfan Geng",
+          "institutions": [
+            "Imperial College London, London, England SW7 2AZ, United Kingdom"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Jinhong Wang",
+          "institutions": [
+            "Imperial College London, London, England SW7 2AZ, United Kingdom"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Teng Cao",
+          "institutions": [
+            "Imperial College London, London, England SW7 2AZ, United Kingdom"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
       "intro_en": "The diffusion model, the state-of-the-art generative machine-learning architecture, has shown promising results in airfoil inverse designs. In this study, we implement and trained a series of diffusion models on three different airfoil geometry data encoding formats -- principal component weights, ordered $x$-$y$ coordinates, and 2D signed distance functions (SDF) -- to generate 2D airfoils.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-01-20",
       "publication_date_source": "https://arxiv.org/abs/2601.16228v2",
+      "affiliation_source": "https://arxiv.org/html/2601.16228v2",
       "version_date": "2026-10-25T11:40:02+00:00"
     },
     {
@@ -41057,6 +43354,137 @@
       "publication_date": "2026-01-09",
       "publication_date_source": "https://arxiv.org/abs/2601.05841v4",
       "version_date": "2026-10-08T09:41:03+00:00"
+    },
+    {
+      "id": "2601.05090",
+      "version_id": "2601.05090v2",
+      "title": "Surveying exogenous species in Saturn with ALMA I. Detecting and Mapping CO",
+      "abstract": "The origin of carbon monoxide (CO) in Saturn's stratosphere remains uncertain, with proposed sources including internal thermochemical production, cometary impacts, and exogenic material from the rings and icy moons (i.e. Enceladus). We aim to constrain the vertical and meridional distribution of stratospheric CO and assess the relative contributions of these potential sources. Here, we analysed high-spectral-resolution ALMA observations of the CO (J=3-2) line obtained on 25 May 2018, sampling Saturn's limb from 20°S to 69°N. CO vertical profiles were retrieved using a line-by-line radiative transfer model combined with spectral inversion techniques, testing multiple prior scenarios representative of different source hypotheses. CO is confined to a narrow layer between 0.1 and 1 mbar, with a robust negative vertical gradient and mean abundances of (3.7+/- 0.8) x 10$^{-8}$ at 0.1 mbar and (7.2 +/- 0.9) x 10$^{-8}$ at 1 mbar. The meridional distribution is statistically homogeneous, with a marginal enhancement near 60° N plausibly related to Enceladus. No significant equatorial enhancement is detected. The absence of a strong equatorial enhancement rules out a long-lived steady source associated with ring infall. The observations are most consistent with a relatively recent ($\\approx$200-year-old or younger) cometary impact whose material has since been horizontally mixed, while any Cassini Grand Finale ring influx was either too recent or inefficient to affect CO abundances at the probed pressure levels.",
+      "published": "2026-01-08T16:37:41Z",
+      "updated": "2026-10-27T12:04:20Z",
+      "authors": [
+        "Deborah Bardet",
+        "Thierry Fouchet",
+        "Thibault Cavalié",
+        "Raphaël Moreno",
+        "Emmanuel Lellouch",
+        "Camille Lefour",
+        "Bilal Benmahi",
+        "Sandrine Guerlet"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP",
+        "physics.ao-ph"
+      ],
+      "url": "https://arxiv.org/abs/2601.05090",
+      "pdf": "https://arxiv.org/pdf/2601.05090v2",
+      "source": "arXiv",
+      "first_seen": "2026-10-28T06:50:23.316687+00:00",
+      "version_changed": false,
+      "topics": [
+        "chemistry",
+        "models",
+        "physics",
+        "cryosphere"
+      ],
+      "matches": {
+        "chemistry": [
+          "thermochemical"
+        ],
+        "models": [
+          "radiative transfer model"
+        ],
+        "physics": [
+          "radiative transfer"
+        ],
+        "cryosphere": [
+          "icy moon"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：thermochemical、radiative transfer model、radiative transfer、icy moon",
+      "tags": [
+        "云与辐射 · Clouds & radiation"
+      ],
+      "method": "keyword",
+      "fit_score": 69,
+      "fit_matches": [
+        "行星大气与辐射",
+        "行星海洋与冰"
+      ],
+      "author_affiliation_status": "unavailable",
+      "institutions": [
+        "LIRA, Observatoire de Paris, Université PSL, CNRS, Sorbonne Université, Université Paris Cité, CY Cergy Paris Université, 5 place Jules Janssen, 92195 Meudon, France",
+        "Laboratoire d’Astrophysique de Bordeaux, Univ. Bordeaux, CNRS, B18N, allée Geoffroy Saint-Hilaire, 33615 Pessac, France",
+        "Aix-Marseille Université, CNRS, CNES, Institut Origines, LAM, Marseille, France",
+        "Laboratory of Atmospheric and Planetary Physics, STAR Institute, University of Liège, Belgium",
+        "Laboratoire de Météorologie Dynamique / Institut Pierre-Simon Laplace (LMD/IPSL), CNRS, Sorbonne Université, École Polytechnique, Institut Polytechnique de Paris, École Normale Supérieure (ENS), PSL Research University, Campus Pierre et Marie Curie BC99, 4 place Jussieu, 75005 Paris, France"
+      ],
+      "author_affiliations": [],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2601.05090v2",
+      "intro_en": "The origin of carbon monoxide (CO) in Saturn's stratosphere remains uncertain, with proposed sources including internal thermochemical production, cometary impacts, and exogenic material from the rings and icy moons (i.e. Enceladus).",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-01-09",
+      "publication_date_source": "https://arxiv.org/abs/2601.05090v2",
+      "version_date": "2026-10-27T12:04:20+00:00"
+    },
+    {
+      "id": "2601.03659",
+      "version_id": "2601.03659v3",
+      "title": "Protonic thermoelectric effect of Superionic H$_2$O and magnetic field generation in Uranus and Neptune",
+      "abstract": "The origin of the anomalous magnetic fields of Uranus and Neptune, with significant tilts and multi-dipole configurations, is central to understanding the internal structure and evolution of the ice giants. Recent investigations confirmed that superionic H$_2$O ice is thermodynamically stable and constitutes the dominant H$_2$O phase within their icy mantles. Here, we use deep learning and ab initio molecular dynamics to investigate the thermal and protonic transport properties of superionic H$_2$O ice. We demonstrate that superionic H$_2$O ice exhibits a pronounced protonic thermoelectric effect, with a maximum Seebeck coefficient that can reach $\\sim 620$ $μ$V K$^{-1}$ within the interior of Uranus, whereas Neptune's is lower, within the range of 570-585 $μ$V K$^{-1}$. Consequently, the temperature gradients in the icy mantles can induce proton migration, thereby driving magnetic field generation. Based on this mechanism, and within a dipolar approximation that captures the mean field, the disparities in mean dipolar magnetic field strength between Uranus and Neptune can be explained exclusively by their differing internal temperature gradients, and the predicted mean field strengths are comparable to those observed by Voyager 2.",
+      "published": "2026-01-07T07:16:26Z",
+      "updated": "2026-10-27T09:16:40Z",
+      "authors": [
+        "Daohong Liu",
+        "Wei Zhang",
+        "Yu He",
+        "Xinzhuan Guo",
+        "Chuanyu Zhang",
+        "Yang Sun"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP",
+        "cond-mat.mtrl-sci"
+      ],
+      "url": "https://arxiv.org/abs/2601.03659",
+      "pdf": "https://arxiv.org/pdf/2601.03659v3",
+      "source": "arXiv",
+      "first_seen": "2026-10-28T06:50:23.316687+00:00",
+      "version_changed": false,
+      "topics": [
+        "evolution"
+      ],
+      "matches": {
+        "evolution": [
+          "mantle"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：mantle",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 31,
+      "fit_matches": [],
+      "author_affiliation_status": "unavailable",
+      "institutions": [
+        "1State Key Laboratory of Critical Mineral Research and Exploration, Institute of Geochemistry, Chinese Academy of Sciences, Guiyang 550081, China. 2College of Earth and Planetary Sciences, University of Chinese Academy of Sciences, Beijing 100049, China. 3School of Geography and Environmental Science (School of Karst Science), Guizhou Normal University, Guiyang 550025, China. 4Key Laboratory of High-Temperature and High-Pressure Study of the Earth’s Interior, Institute of Geochemistry, Chinese Academy of Sciences, Guiyang 550081, Guizhou, China. 5Center for High Pressure Science and Technology Advanced Research, Shanghai 201203, China. 6College of Physics, Chengdu University of Technology, Chengdu, 610059, China. 7School of Materials, Sun Yat-sen University, Shenzhen, China."
+      ],
+      "author_affiliations": [],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2601.03659v3",
+      "intro_en": "The origin of the anomalous magnetic fields of Uranus and Neptune, with significant tilts and multi-dipole configurations, is central to understanding the internal structure and evolution of the ice giants. Recent investigations confirmed that superionic H$_2$O ice is thermodynamically stable and constitutes the dominant H$_2$O phase within their icy mantles.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-01-07",
+      "publication_date_source": "https://arxiv.org/abs/2601.03659v3",
+      "version_date": "2026-10-27T09:16:40+00:00"
     },
     {
       "id": "2601.03074",
@@ -41180,15 +43608,58 @@
       "method": "keyword",
       "fit_score": 20,
       "fit_matches": [],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "institutions": [
+        "Mathematics Area, mathLab, International School for Advanced Studies Via Bonomea 265, 34136, Trieste, Italy.",
+        "Present address: DTIS, ONERA – The French Aerospace Lab 2 Avenue Marc Pélegrin, 31400, Toulouse, France.",
+        "Danieli Research Center, Danieli &\\& C. S.p.A., Via Nazionale 41 33042, Buttrio, Province of Udine, Italy.",
+        "Biorobotics Institute, Sant’Anna School of Advanced Studies V.le R. Piaggio 34, 56025, Pontedera, Pisa, Italy."
+      ],
+      "author_affiliations": [
+        {
+          "name": "Harshith Gowrachari",
+          "institutions": [
+            "Mathematics Area, mathLab, International School for Advanced Studies Via Bonomea 265, 34136, Trieste, Italy.",
+            "Present address: DTIS, ONERA – The French Aerospace Lab 2 Avenue Marc Pélegrin, 31400, Toulouse, France."
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Mattia Giuseppe Barra",
+          "institutions": [
+            "Danieli Research Center, Danieli &\\& C. S.p.A., Via Nazionale 41 33042, Buttrio, Province of Udine, Italy."
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Giovanni Stabile",
+          "institutions": [
+            "Biorobotics Institute, Sant’Anna School of Advanced Studies V.le R. Piaggio 34, 56025, Pontedera, Pisa, Italy."
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Gianluca Bazzaro",
+          "institutions": [
+            "Danieli Research Center, Danieli &\\& C. S.p.A., Via Nazionale 41 33042, Buttrio, Province of Udine, Italy."
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Gianluigi Rozza",
+          "institutions": [
+            "Mathematics Area, mathLab, International School for Advanced Studies Via Bonomea 265, 34136, Trieste, Italy."
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
       "intro_en": "The continuous casting tundish plays a critical role as a metallurgical reactor in the continuous casting process, with its flow characteristics serving as a key parameter in the production of high-quality steel. These characteristics are typically assessed through residence time distribution (RTD) curves.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-01-01",
       "publication_date_source": "https://arxiv.org/abs/2601.00244v2",
+      "affiliation_source": "https://arxiv.org/html/2601.00244v2",
       "version_date": "2026-10-26T13:35:48+00:00"
     },
     {
@@ -41223,15 +43694,56 @@
       "method": "keyword",
       "fit_score": 0,
       "fit_matches": [],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "institutions": [
+        "Department of Signal Theory and Communications, Universidad Carlos III de Madrid, Spain",
+        "Hybrid Materials for Opto-Electronics Group, Department of Molecules and Materials, MESA+ Institute for Nanotechnology and Center for Brain-Inspired Nano Systems, Faculty of Science and Technology, University of Twente, The Netherlands",
+        "Department of Thermal and Fluids Engineering, “Gregorio Millán Barbany” Institute, Universidad Carlos III de Madrid, Spain"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Javier Otero Martinez",
+          "institutions": [
+            "Department of Signal Theory and Communications, Universidad Carlos III de Madrid, Spain"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Ana Garcia Armada",
+          "institutions": [
+            "Department of Signal Theory and Communications, Universidad Carlos III de Madrid, Spain"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Yi Li",
+          "institutions": [
+            "Hybrid Materials for Opto-Electronics Group, Department of Molecules and Materials, MESA+ Institute for Nanotechnology and Center for Brain-Inspired Nano Systems, Faculty of Science and Technology, University of Twente, The Netherlands"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Christian Nijhuis",
+          "institutions": [
+            "Hybrid Materials for Opto-Electronics Group, Department of Molecules and Materials, MESA+ Institute for Nanotechnology and Center for Brain-Inspired Nano Systems, Faculty of Science and Technology, University of Twente, The Netherlands"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Javier Rodríguez Rodríguez",
+          "institutions": [
+            "Department of Thermal and Fluids Engineering, “Gregorio Millán Barbany” Institute, Universidad Carlos III de Madrid, Spain"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
       "intro_en": "Gallium alloys are promising materials in biomedical engineering, electronics, and wireless communications, thanks to their good conductivity, non toxicity and their ability to sustain large deformations. They can be transported in capillaries using purely electric means by continuous electrowetting (CEW).",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2025-12-24",
       "publication_date_source": "https://arxiv.org/abs/2512.20516v2",
+      "affiliation_source": "https://arxiv.org/html/2512.20516v2",
       "version_date": "2026-10-26T11:15:06+00:00"
     },
     {
@@ -46804,15 +49316,58 @@
       "method": "keyword",
       "fit_score": 20,
       "fit_matches": [],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "institutions": [
+        "Mathematics Area, mathLab, International School for Advanced Studies Via Bonomea 265, 34136, Trieste, Italy.",
+        "Present address: DTIS, ONERA – The French Aerospace Lab 2 Avenue Marc Pélegrin, 31400 Toulouse, France.",
+        "Danieli Research Center, Danieli &\\& C. S.p.A., Via Nazionale 41, 33042 Buttrio, Province of Udine, Italy.",
+        "Biorobotics Institute, Sant’Anna School of Advanced Studies V.le R. Piaggio 34, 56025, Pontedera, Pisa, Italy."
+      ],
+      "author_affiliations": [
+        {
+          "name": "Harshith Gowrachari",
+          "institutions": [
+            "Mathematics Area, mathLab, International School for Advanced Studies Via Bonomea 265, 34136, Trieste, Italy.",
+            "Present address: DTIS, ONERA – The French Aerospace Lab 2 Avenue Marc Pélegrin, 31400 Toulouse, France."
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Mattia Giuseppe Barra",
+          "institutions": [
+            "Danieli Research Center, Danieli &\\& C. S.p.A., Via Nazionale 41, 33042 Buttrio, Province of Udine, Italy."
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Giovanni Stabile",
+          "institutions": [
+            "Biorobotics Institute, Sant’Anna School of Advanced Studies V.le R. Piaggio 34, 56025, Pontedera, Pisa, Italy."
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Gianluca Bazzaro",
+          "institutions": [
+            "Danieli Research Center, Danieli &\\& C. S.p.A., Via Nazionale 41, 33042 Buttrio, Province of Udine, Italy."
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Gianluigi Rozza",
+          "institutions": [
+            "Mathematics Area, mathLab, International School for Advanced Studies Via Bonomea 265, 34136, Trieste, Italy."
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
       "intro_en": "Continuous casting is a widely adopted process in the steel industry, where maintaining high steel quality is paramount. Efficient prediction of grade intermixing during ladle changeover operations is critical for maintaining steel quality and minimizing material losses in the continuous casting process.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2025-09-30",
       "publication_date_source": "https://arxiv.org/abs/2509.26293v2",
+      "affiliation_source": "https://arxiv.org/html/2509.26293v2",
       "version_date": "2026-10-26T14:20:16+00:00"
     },
     {
@@ -47229,15 +49784,48 @@
       "fit_matches": [
         "行星气候与模式"
       ],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "institutions": [
+        "Department of Computer Science and Engineering University of New South Wales, Sydney, NSW, Australia",
+        "Climate Change Research Centre University of New South Wales, Sydney, NSW, Australia"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Hira Saleem",
+          "institutions": [
+            "Department of Computer Science and Engineering University of New South Wales, Sydney, NSW, Australia"
+          ],
+          "orcid": "https://orcid.org/0009-0000-9046-0446"
+        },
+        {
+          "name": "Cormac Purcell",
+          "institutions": [
+            "Department of Computer Science and Engineering University of New South Wales, Sydney, NSW, Australia"
+          ],
+          "orcid": "https://orcid.org/0000-0002-7491-7386"
+        },
+        {
+          "name": "Steven Sherwood",
+          "institutions": [
+            "Climate Change Research Centre University of New South Wales, Sydney, NSW, Australia"
+          ],
+          "orcid": "https://orcid.org/0000-0001-7420-8216"
+        },
+        {
+          "name": "Flora Salim",
+          "institutions": [
+            "Department of Computer Science and Engineering University of New South Wales, Sydney, NSW, Australia"
+          ],
+          "orcid": "https://orcid.org/0000-0002-1237-1664"
+        }
+      ],
+      "affiliation_status": "verified",
       "intro_en": "Physics-based Earth system models (ESMs) are essential for attributing climate change and generating scenario projections, yet their reliance on high-resolution numerical integration makes multi-decadal experiments expensive. In parallel, deep learning has delivered strong gains in short-range weather forecasting; however, auto-regressive roll-outs can accumulate error and become unstable when extended to decade-scale climate emulation.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2024-10-29",
       "publication_date_source": "https://arxiv.org/abs/2410.21657v6",
+      "affiliation_source": "https://arxiv.org/html/2410.21657v6",
       "version_date": "2026-10-26T09:27:39+00:00"
     },
     {
