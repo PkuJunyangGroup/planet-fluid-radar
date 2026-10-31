@@ -1268,6 +1268,12 @@
       "reason": "Reading review 2026-10-31: the official arXiv v3 page states this paper was withdrawn after errors in input dataset extraction and processing; the planetary signal remains unconfirmed. Preserve the source archive and original first_seen; do not present this as a confirmed discovery.",
       "reviewed_at": "2026-10-31",
       "source": "https://arxiv.org/abs/2605.11123v3"
+    },
+    "doi:10.3847/1538-4357/aea994": {
+      "status": "excluded",
+      "reason": "Reading review 2026-10-31: the complete publisher-deposited original abstract reports statistical metal-enrichment fractions in white dwarfs and competing explanations involving initial planetesimal reservoirs or their depletion. It does not directly study the planetary atmosphere, interior, ice/surface processes or planetary orbital mechanisms prioritized by the current narrow scope. Preserve the source archive and original first_seen.",
+      "reviewed_at": "2026-10-31",
+      "source": "https://api.crossref.org/works/10.3847/1538-4357/aea994"
     }
   },
   "mechanisms": [
