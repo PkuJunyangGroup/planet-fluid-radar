@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T07:13:16.994248+00:00",
+  "generated_at": "2026-10-31T02:06:05.021875+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
@@ -260,7 +260,7 @@
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "error",
-      "last_attempt": "2026-10-30T15:04:37.285126+08:00",
+      "last_attempt": "2026-10-31T10:04:15.028872+08:00",
       "last_success": "2026-10-21T10:14:01.158931+08:00",
       "coverage_since": "2026-09-25",
       "pages_checked": 1,
@@ -8676,77 +8676,6 @@
           "version_date": "2026-10-26T17:42:30+00:00",
           "metadata_source": null,
           "affiliation_source": "https://arxiv.org/html/2605.23307v2"
-        }
-      ],
-      "match_basis": [],
-      "source_types": [
-        "arXiv"
-      ],
-      "journals": [],
-      "source_groups": [],
-      "intake_kind": "recent"
-    },
-    {
-      "id": "2605.11123",
-      "version_id": "2605.11123v3",
-      "title": "Detection and characterization of the temperate super-earth Gliese 48 b",
-      "abstract": "Gliese 48 is an M3.5V red dwarf exhibiting significant magnetic activity and a stellar rotation period of 51.5 d. In this work, we present a systematic re-analysis of radial velocities (RV) from CARMENES and decade-long HIRES observations, integrated with TESS space-based photometry. We identify a planet of undetermined composition, Gliese 48 b, with an orbital period $P = 39.6299 \\pm 0.29$ d and a minimum mass $M \\sin i = 8.11 \\pm 1.63 M_{\\oplus}$. The planetary nature of the signal is confirmed by its temporal coherence over a 15-year baseline and its achromaticity between visible and near-infrared channels. TESS photometry from Sectors 18, 19, 24, and 25 (218.6 d total baseline, 66,983 cadences) reveals no transit at $P = 39.63$ d (FAP $> 10\\%$, BLS). An injection-and-recovery test demonstrates that a 1287 ppm transit signal corresponding to a minimum-radius $1.69 R_{\\oplus}$ planet would have been detected with Signal-to-Pink-Noise Ratio SPNR $> 7$, ruling out a transiting geometry with high confidence. The orbital inclination is constrained to $i < 89.3^{\\circ}$. With an incident stellar flux $S_{\\rm eff} \\approx 0.889 S_{\\oplus}$ and bolometric luminosity $L_* = 0.0273 \\pm 0.0023 L_{\\odot}$, Gliese 48 b lies near the inner edge of the Conservative Habitable Zone and within the Optimistic HZ, making it one of the most astrobiologically compelling temperate Super-Earths orbiting an M-dwarf.",
-      "published": "2026-05-11T18:31:54Z",
-      "updated": "2026-10-29T11:46:01Z",
-      "authors": [
-        "G. Conzo",
-        "M. Moriconi",
-        "S. A. Corrêa"
-      ],
-      "doi": "10.5817/OEJV2026-0273",
-      "categories": [
-        "astro-ph.EP"
-      ],
-      "url": "https://arxiv.org/abs/2605.11123",
-      "pdf": "https://arxiv.org/pdf/2605.11123v3",
-      "source": "arXiv",
-      "first_seen": "2026-10-30T07:04:13.717078+00:00",
-      "version_changed": false,
-      "topics": [
-        "planetary"
-      ],
-      "matches": {
-        "planetary": [
-          "habitable zone"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：habitable zone",
-      "tags": [
-        "宜居性 · Habitability"
-      ],
-      "method": "keyword",
-      "fit_score": 50,
-      "fit_matches": [
-        "行星气候与模式"
-      ],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "unavailable",
-      "affiliation_source": "https://arxiv.org/html/2605.11123v3",
-      "publication_date": "2026-05-12",
-      "publication_date_source": "https://arxiv.org/abs/2605.11123v3",
-      "version_date": "2026-10-29T11:46:01+00:00",
-      "variants": [
-        {
-          "id": "2605.11123",
-          "source": "arXiv",
-          "journal": null,
-          "journal_id": null,
-          "title": "Detection and characterization of the temperate super-earth Gliese 48 b",
-          "url": "https://arxiv.org/abs/2605.11123",
-          "doi": "10.5817/OEJV2026-0273",
-          "version_id": "2605.11123v3",
-          "first_seen": "2026-10-30T07:04:13.717078+00:00",
-          "publication_date": "2026-05-12",
-          "version_date": "2026-10-29T11:46:01+00:00",
-          "metadata_source": null,
-          "affiliation_source": "https://arxiv.org/html/2605.11123v3"
         }
       ],
       "match_basis": [],
@@ -30666,17 +30595,11 @@
   "record_count": 2268,
   "merged_count": 21,
   "daily_brief": {
-    "date": "2026-10-30",
-    "built_at": "2026-10-30T07:13:16.994372+00:00",
+    "date": "2026-10-31",
+    "built_at": "2026-10-31T02:06:05.021996+00:00",
     "review_basis": "Automated rule screening; reading review is recorded separately.",
-    "new_count": 5,
-    "recent_ids": [
-      "2610.40456",
-      "2608.09241",
-      "2605.11123",
-      "doi:10.1126/science.adz5646",
-      "doi:10.3847/1538-4357/ae77fd"
-    ],
+    "new_count": 0,
+    "recent_ids": [],
     "older_ids": [],
     "updated_ids": [],
     "source_issues": [
