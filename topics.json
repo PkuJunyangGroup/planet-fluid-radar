@@ -1262,6 +1262,12 @@
       "reason": "Reading review 2026-10-21: full publisher-deposited original abstract concerns Martian magnetosheath plasma jets, pickup-ion/cyclotron waves, bow shocks and solar-wind interaction. This is space plasma physics, explicitly outside the established scope; Mars/exosphere wording and PNAS venue do not override that exclusion. Preserve source archive and first_seen.",
       "reviewed_at": "2026-10-21",
       "source": "https://api.crossref.org/works/10.1073/pnas.2616582123"
+    },
+    "2605.11123": {
+      "status": "excluded",
+      "reason": "Reading review 2026-10-31: the official arXiv v3 page states this paper was withdrawn after errors in input dataset extraction and processing; the planetary signal remains unconfirmed. Preserve the source archive and original first_seen; do not present this as a confirmed discovery.",
+      "reviewed_at": "2026-10-31",
+      "source": "https://arxiv.org/abs/2605.11123v3"
     }
   },
   "mechanisms": [
