@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T07:49:32.040596+00:00",
+  "generated_at": "2026-11-02T12:17:14.106408+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
@@ -260,12 +260,12 @@
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-11-02T15:39:39.822514+08:00",
-      "last_success": "2026-11-02T15:39:39.822514+08:00",
+      "last_attempt": "2026-11-02T20:16:11.036208+08:00",
+      "last_success": "2026-11-02T20:16:11.036208+08:00",
       "coverage_since": "2026-09-25",
-      "pages_checked": 5,
-      "fetched": 70,
-      "retained": 4,
+      "pages_checked": 2,
+      "fetched": 12,
+      "retained": 0,
       "method": "daily incremental bibliography page scan; candidate-only"
     }
   },
@@ -29474,146 +29474,6 @@
       "intake_kind": "recent"
     },
     {
-      "id": "doi:10.3847/1538-4357/aeacc3",
-      "doi": "10.3847/1538-4357/aeacc3",
-      "version_id": "doi:10.3847/1538-4357/aeacc3",
-      "title": "Frequent Optical Flares in an M-type Detached Eclipsing Binary TIC 349005337",
-      "abstract": "Abstract A comprehensive photometric and spectroscopic analysis of TIC 349005337, a highly active M-type detached eclipsing binary with an orbital period of 2.6079133 days, is presented utilizing high-cadence and long-term monitoring photometry from the Transiting Exoplanet Survey Satellite (TESS) and medium-resolution spectroscopy from the Large Sky Area Multi-Object Fiber Spectroscopic Telescope (LAMOST). By integrating radial velocity curves with light curves, we determined the fundamental physical parameters for both components. The system consists of an M-dwarf primary ( M 1 = 0.517 ± 0.009 M ⊙ , R 1 = 0.518 ± 0.003 R ⊙ ) and a fully convective secondary ( M 2 = 0.298 ± 0.004 M ⊙ , R 2 = 0.357 ± 0.003 R ⊙ ). A total of 12 high-energy stellar flares, with the most energetic event reaching 3.87 × 10 34 erg, is identified, confirming the system is in a state of magnetic hyperactivity. The frequent superflares suggest that intense magnetic activity and significant starspot coverage play a dominant role in altering the stellar atmospheric structure. As the secondary component falls below the fully convective boundary, these energetic flares provide critical empirical constraints for distributed dynamo models in the low-mass regime. Our results highlight TIC 349005337 as an ideal laboratory for investigating the interplay between binary dynamics, magnetic reconnection, and the resulting impact on the atmospheric stability of potential orbiting exoplanets.",
-      "authors": [
-        "Xiao Zhou",
-        "Liying Zhu",
-        "Wei Hu",
-        "Gil Nachmani",
-        "Jia Zhang",
-        "Mikhail Yu. Kovalev",
-        "Ergang Zhao"
-      ],
-      "author_affiliations": [
-        {
-          "name": "Xiao Zhou",
-          "institutions": [
-            "Chinese Academy of Sciences"
-          ],
-          "orcid": "https://orcid.org/0000-0002-0395-2205"
-        },
-        {
-          "name": "Liying Zhu",
-          "institutions": [
-            "Chinese Academy of Sciences"
-          ],
-          "orcid": "https://orcid.org/0000-0002-0796-7009"
-        },
-        {
-          "name": "Wei Hu",
-          "institutions": [
-            "Lishui University"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "Gil Nachmani",
-          "institutions": [
-            "Tel Aviv University"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "Jia Zhang",
-          "institutions": [
-            "Leshan Normal University"
-          ],
-          "orcid": "https://orcid.org/0000-0003-2017-9151"
-        },
-        {
-          "name": "Mikhail Yu. Kovalev",
-          "institutions": [
-            "Chinese Academy of Sciences",
-            "Yunnan Key Laboratory"
-          ],
-          "orcid": "https://orcid.org/0000-0002-9975-7833"
-        },
-        {
-          "name": "Ergang Zhao",
-          "institutions": [
-            "Chinese Academy of Sciences"
-          ],
-          "orcid": null
-        }
-      ],
-      "institutions": [
-        "Chinese Academy of Sciences",
-        "Lishui University",
-        "Tel Aviv University",
-        "Leshan Normal University",
-        "Yunnan Key Laboratory"
-      ],
-      "affiliation_status": "verified",
-      "affiliation_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faeacc3",
-      "source": "journal",
-      "journal": "The Astrophysical Journal",
-      "journal_id": "1538-4357",
-      "source_group": "planet",
-      "categories": [],
-      "url": "https://doi.org/10.3847/1538-4357/aeacc3",
-      "published": "2026-11-02",
-      "publication_date": "2026-11-02",
-      "publication_date_source": "Crossref publisher metadata",
-      "date_kind": "journal",
-      "first_seen": "2026-11-02T07:39:49.873011+00:00",
-      "updated": "2026-11-02T07:28:47Z",
-      "metadata_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faeacc3",
-      "relations": {},
-      "metadata_limited": false,
-      "publication_dates": {
-        "published-online": "2026-11-02",
-        "published-print": "2026-11-10"
-      },
-      "topics": [
-        "detection"
-      ],
-      "matches": {
-        "detection": [
-          "radial velocity"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：radial velocity",
-      "tags": [
-        "光谱与相曲线 · Spectra & phase curves"
-      ],
-      "method": "keyword",
-      "fit_score": 36,
-      "fit_matches": [],
-      "variants": [
-        {
-          "id": "doi:10.3847/1538-4357/aeacc3",
-          "source": "journal",
-          "journal": "The Astrophysical Journal",
-          "journal_id": "1538-4357",
-          "title": "Frequent Optical Flares in an M-type Detached Eclipsing Binary TIC 349005337",
-          "url": "https://doi.org/10.3847/1538-4357/aeacc3",
-          "doi": "10.3847/1538-4357/aeacc3",
-          "version_id": "doi:10.3847/1538-4357/aeacc3",
-          "first_seen": "2026-11-02T07:39:49.873011+00:00",
-          "publication_date": "2026-11-02",
-          "version_date": null,
-          "metadata_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faeacc3",
-          "affiliation_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faeacc3"
-        }
-      ],
-      "match_basis": [],
-      "source_types": [
-        "journal"
-      ],
-      "journals": [
-        "The Astrophysical Journal"
-      ],
-      "source_groups": [
-        "planet"
-      ],
-      "intake_kind": "recent"
-    },
-    {
       "id": "exoplanet-bib:33128",
       "version_id": "exoplanet-bib:33128",
       "exoplanet_id": "33128",
@@ -31377,12 +31237,10 @@
   "merged_count": 21,
   "daily_brief": {
     "date": "2026-11-02",
-    "built_at": "2026-11-02T07:49:32.040709+00:00",
+    "built_at": "2026-11-02T12:17:14.106550+00:00",
     "review_basis": "Automated rule screening; reading review is recorded separately.",
-    "new_count": 1,
-    "recent_ids": [
-      "doi:10.3847/1538-4357/aeacc3"
-    ],
+    "new_count": 0,
+    "recent_ids": [],
     "older_ids": [],
     "updated_ids": [],
     "source_issues": []
