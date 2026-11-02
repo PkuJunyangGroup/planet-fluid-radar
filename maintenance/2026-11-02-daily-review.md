@@ -31,3 +31,13 @@ Only this maintenance record is submitted. No rules, source records, site code, 
 Remaining: obtain a valid resolution of the denied cloud execution route before reuse; do not replay old uncertain Git blob operations; reconcile fresh main and Actions before any permitted continuation; complete today's source and abstract review, recent intake and fallback if applicable. Automatic later publication does not resolve platform approval or execution restrictions. No automation pause was performed.
 
 Actual commit, CI, Pages and post-publication live outcomes are to be checked after this report commit.
+
+## Final workflow and verification result at 10:09 Beijing
+
+Report commit 78d7253a73f786c1e35733e770cc792063c0fb14 triggered https://github.com/PkuJunyangGroup/planet-fluid-radar/actions/runs/41375765444 . All 90 Python tests passed. Offline enrichment/dates, catalog/network builds and Pages succeeded; Pages reported success at 02:06:40 UTC. The overall run failure is only the post-publication source report: the actual production Exoplanet.eu attempt failed with URLError at 02:05:31 UTC. ArXiv, journal and intake steps were skipped on this push. Unit-test fixture output is not production retrieval evidence.
+
+Generated-data commit 25f2f2aa27a56bf50abc8577d848839f9b9e4309 is on main. Its complete connector diff changes only catalog/network generation times, daily-brief date/build time and Exoplanet attempt timestamps. No public paper object, first_seen or source-archive content changed. Repository catalog remains 190 papers / 187 abstracts and network 117 nodes / 665 edges / 44 omitted.
+
+Actual cloud-browser checks after deployment show November 2 zero additions, build 10:06:29 Beijing, homepage 190 and working complete original-abstract expansion. Baseline browser checks also covered recommendation filtering, institution author/ORCID details and journal statistics. However, independent full live catalog/network JSON retrieval was not completed: shell retrieval was denied, browser JSON accessibility parsing timed out on size, and the web retrieval tool could not access those resources. No denied read route was retried. Repository diff proof and actual UI checks must not be misrepresented as a full live-array comparison.
+
+This final record-only update uses [skip ci] to avoid another rebuild. The manual review remains partial: source intake and current original-abstract review are unexecuted, full live JSON verification is incomplete, and the earlier platform restrictions and pending historical corrections are unresolved.
