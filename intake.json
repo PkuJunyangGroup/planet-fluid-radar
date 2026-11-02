@@ -77,6 +77,7 @@
     "doi:10.3847/1538-4357/aea905",
     "doi:10.3847/1538-4357/aea994",
     "doi:10.3847/1538-4357/aeacc1",
+    "doi:10.3847/1538-4357/aeacc3",
     "doi:10.3847/2041-8213/aea906",
     "doi:10.3847/2041-8213/aeb00b",
     "doi:10.3847/2041-8213/aeb41e",
@@ -163,7 +164,8 @@
     "doi:10.1029/2026je009941": "recent",
     "doi:10.3847/1538-4357/aea994": "recent",
     "doi:10.3847/2041-8213/aeb4ab": "recent",
-    "doi:10.3847/2041-8213/aeb41e": "recent"
+    "doi:10.3847/2041-8213/aeb41e": "recent",
+    "doi:10.3847/1538-4357/aeacc3": "recent"
   },
   "policy": {
     "recent_days": 2,
@@ -171,8 +173,10 @@
     "min_fallback_score": 65,
     "max_fallback": 3
   },
-  "last_run": "2026-11-01",
-  "mode": "one_year_fallback",
-  "selected": [],
+  "last_run": "2026-11-02",
+  "mode": "recent",
+  "selected": [
+    "doi:10.3847/1538-4357/aeacc3"
+  ],
   "search_errors": []
 }
