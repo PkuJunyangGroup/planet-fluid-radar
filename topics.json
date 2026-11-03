@@ -1340,6 +1340,12 @@
       "reason": "Reading review 2026-11-03: Complete current v2 original abstract and version history read directly on the official arXiv page. Coupled metal-silicate-gas equilibrium explicitly links super-Earth/sub-Neptune magma oceans, volatile inventories and atmospheric compositions. Direct planetary chemistry/interior scope; November 2 revision, not a new May-paper fallback.",
       "reviewed_at": "2026-11-03",
       "source": "https://arxiv.org/abs/2605.07833v2"
+    },
+    "exoplanet-bib:32999": {
+      "status": "excluded",
+      "reason": "Data-integrity quarantine 2026-11-03: this newly fetched bibliography record contains a concatenation of numerous unrelated article titles, with no original abstract and only a year-level date. Its keyword score is therefore not meaningful. Quarantine only this malformed source record; this is not a scientific exclusion of the underlying Beta Pictoris paper or its independent arXiv version. Preserve the source archive and first_seen pending parser/source verification.",
+      "reviewed_at": "2026-11-03",
+      "source": "https://exoplanet.eu/bibliography/all/#publication_32999"
     }
   },
   "mechanisms": [
