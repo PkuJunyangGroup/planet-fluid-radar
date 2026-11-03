@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-11-02T07:39:13.338101+00:00",
+  "generated_at": "2026-11-03T07:53:30.742448+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
-      "last_attempt": "2026-11-02T07:39:13.338101+00:00",
-      "last_success": "2026-11-02T07:39:13.338101+00:00",
+      "last_attempt": "2026-11-03T07:53:30.742448+00:00",
+      "last_success": "2026-11-03T07:53:30.742448+00:00",
       "status": "ok",
-      "fetched": 0
+      "fetched": 12
     },
     "physics.ao-ph": {
-      "last_attempt": "2026-11-02T07:39:13.338101+00:00",
-      "last_success": "2026-11-02T07:39:13.338101+00:00",
+      "last_attempt": "2026-11-03T07:53:30.742448+00:00",
+      "last_success": "2026-11-03T07:53:30.742448+00:00",
       "status": "ok",
-      "fetched": 0
+      "fetched": 3
     },
     "physics.geo-ph": {
-      "last_attempt": "2026-11-02T07:39:13.338101+00:00",
-      "last_success": "2026-11-02T07:39:13.338101+00:00",
+      "last_attempt": "2026-11-03T07:53:30.742448+00:00",
+      "last_success": "2026-11-03T07:53:30.742448+00:00",
       "status": "ok",
-      "fetched": 0
+      "fetched": 8
     },
     "physics.flu-dyn": {
-      "last_attempt": "2026-11-02T07:39:13.338101+00:00",
-      "last_success": "2026-11-02T07:39:13.338101+00:00",
+      "last_attempt": "2026-11-03T07:53:30.742448+00:00",
+      "last_success": "2026-11-03T07:53:30.742448+00:00",
       "status": "ok",
-      "fetched": 0
+      "fetched": 11
     }
   },
   "topics": [
@@ -812,6 +812,1543 @@
   ],
   "repository": "https://github.com/PkuJunyangGroup/planet-fluid-radar",
   "papers": [
+    {
+      "id": "2611.03643",
+      "version_id": "2611.03643v1",
+      "title": "The Neptunian ridge through the lens of TESS",
+      "abstract": "The Neptunian desert and savanna are separated by a ridge, an overdensity at orbital periods of approximately 3-6 d identified with Kepler. Like the hot Jupiter pileup at larger radii, this feature has been linked to the accumulation of successful outcomes of high-eccentricity migration (HEM). We revisit the ridge independently using TESS occurrence posteriors for FGK main-sequence stars. We quantify its excess over adjacent regions and compare six occurrence profiles using leave-one-out cross-validation and Bayesian evidence. For planets with radii of approximately 5-8 $R_\\oplus$, the ridge has twice the occurrence density of the denser neighbouring region ($J=2.05^{+0.52}_{-0.44}$), with 99.9% posterior support (one-sided Gaussian equivalent of $3.1σ$). This contrast agrees with the discovery study and earlier Kepler occurrence measurements. Both predictive performance and Bayesian evidence strongly favour profiles peaking within the ridge over a single power law. The lognormal is preferred, suggesting a narrower inner wing and a more extended outer wing, although evidence for asymmetry remains weak. In the same period window, the analysis recovers the hot Jupiter pileup (approximately 10-16 $R_\\oplus$) with a contrast consistent with that of the ridge and excludes an analogous excess among sub-Neptunes (approximately 2-4 $R_\\oplus$) with $3.4σ$ posterior support. TESS thus provides an independent detection of the Neptunian ridge. Its possible asymmetry would be compatible with HEM, in which tidal disruption could produce a sharper inner edge and variations in circularisation efficiency a more gradual outer decline. Establishing whether the ridge has this shape requires more precise occurrence measurements, with PLATO's expected planet yield offering a promising opportunity to help unveil its morphology.",
+      "published": "2026-11-02T18:58:36Z",
+      "updated": "2026-11-02T18:58:36Z",
+      "authors": [
+        "Amadeo Castro-González"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2611.03643",
+      "pdf": "https://arxiv.org/pdf/2611.03643v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-03T07:53:30.742448+00:00",
+      "version_changed": false,
+      "topics": [
+        "orbital"
+      ],
+      "matches": {
+        "orbital": [
+          "high eccentricity migration"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：high eccentricity migration",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 40,
+      "fit_matches": [],
+      "institutions": [
+        "Observatoire Astronomique de l’Université de Genève, Chemin Pegasi 51b, CH-1290 Versoix, Switzerland"
+      ],
+      "author_affiliations": [
+        {
+          "name": "A. Castro-González",
+          "institutions": [],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.03643v1",
+      "intro_en": "The Neptunian desert and savanna are separated by a ridge, an overdensity at orbital periods of approximately 3-6 d identified with Kepler. Like the hot Jupiter pileup at larger radii, this feature has been linked to the accumulation of successful outcomes of high-eccentricity migration (HEM).",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-03",
+      "publication_date_source": "https://arxiv.org/abs/2611.03643v1",
+      "version_date": "2026-11-02T18:58:36+00:00"
+    },
+    {
+      "id": "2611.03613",
+      "version_id": "2611.03613v1",
+      "title": "The Giant Planet Mass Function Across Stellar Mass and Metallicity: Massive Stars Make Massive Planets",
+      "abstract": "Although giant planet occurrence correlates with stellar mass and metallicity, it remains unclear whether these properties also shape the companion mass distribution. We investigate this question using 719 FGKM stars from the California Legacy Survey and companion true-mass constraints from radial velocities and Hipparcos-Gaia astrometry. Our hierarchical occurrence analysis accounts for survey completeness and companion parameter uncertainties over giant planet and brown dwarf masses of M_c=0.4-50 M_Jup and semi-major axes of a=0.1-10 AU. We find that, compared to the rate among our full sample of 0.19 +/- 0.02 planets per star in this interval, giant planet occurrence is significantly enhanced around stars with high mass (M_star>1 M_sun; 0.39 (+0.06/-0.05) planets per star) and high metallicity ([Fe/H]>0.0; 0.30 (+0.04/-0.03) planets per star). We find evidence at the 2-3 sigma level that the planet mass function shape varies with stellar mass, with higher characteristic planet masses around stars with M_star>1 M_sun than around lower-mass hosts, based on differences in both the CDFs of fitted models and constraints on model shape parameters. For the full sample, occurrence declines above a few Jupiter masses and is consistent with either a plateau below ~3 M_Jup or a peak near 1-2 M_Jup. The brown dwarf desert begins at a companion-to-host mass ratio of 0.013-0.02. These results suggest that stellar properties influence not only the frequency of giant companions but also their characteristic masses. Within the core accretion framework, this shift could reflect larger gas reservoirs around more massive stars or earlier core formation in metal-rich disks, allowing greater gas accretion before disk dispersal.",
+      "published": "2026-11-02T18:47:54Z",
+      "updated": "2026-11-02T18:47:54Z",
+      "authors": [
+        "Judah Van Zandt",
+        "Brendan Bowler"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP",
+        "astro-ph.SR"
+      ],
+      "url": "https://arxiv.org/abs/2611.03613",
+      "pdf": "https://arxiv.org/pdf/2611.03613v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-03T07:53:30.742448+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "行星科学拓展阅读",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Department of Physics & Astronomy, University of California Santa Barbara, Santa Barbara, CA 93106, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Judah Van Zandt",
+          "institutions": [
+            "Department of Physics & Astronomy, University of California Santa Barbara, Santa Barbara, CA 93106, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-4290-6826"
+        },
+        {
+          "name": "Brendan P. Bowler",
+          "institutions": [
+            "Department of Physics & Astronomy, University of California Santa Barbara, Santa Barbara, CA 93106, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0003-2649-2288"
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.03613v1",
+      "intro_en": "Although giant planet occurrence correlates with stellar mass and metallicity, it remains unclear whether these properties also shape the companion mass distribution. We investigate this question using 719 FGKM stars from the California Legacy Survey and companion true-mass constraints from radial velocities and Hipparcos-Gaia astrometry.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-03",
+      "publication_date_source": "https://arxiv.org/abs/2611.03613v1",
+      "version_date": "2026-11-02T18:47:54+00:00"
+    },
+    {
+      "id": "2611.03543",
+      "version_id": "2611.03543v1",
+      "title": "Can LLM Agents Improve Imperfect Earth System Model Parameterizations?",
+      "abstract": "Earth system models (ESMs) rely on parameterizations to represent unresolved processes such as convection, cloud microphysics, and turbulence. However, translating advances in physical understanding into stable, validated parameterizations and integrating them into ESMs often takes years. Agentic AI could accelerate this process and enable more systematic exploration of design choices. Using warm-rain collision-coalescence as a test case, we evaluate agents' ability to synthesize scientific literature, reimplement published bulk parameterizations, and propose new functional forms as differentiable JAX code. We compare conventional parameterizations, data-driven emulators, and agent-generated closures against high-fidelity superdroplet simulations, repeating unattended experiments across ten language models. With expert guidance or iterative feedback, agents produced executable, differentiable, mass-conserving code, although unattended performance depended strongly on the scheme and language model. Iterative feedback lowered median rollout error for eight of ten models. Retuned physical schemes matched or outperformed many learned parameterizations at substantially lower computational cost, but two of 100 unattended agent-generated closures achieved slightly lower rain-mass error than the most accurate retuned scheme on held-out simulations.",
+      "published": "2026-11-02T18:05:04Z",
+      "updated": "2026-11-02T18:05:04Z",
+      "authors": [
+        "Kara D. Lamb"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.ao-ph",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2611.03543",
+      "pdf": "https://arxiv.org/pdf/2611.03543v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-03T07:53:30.742448+00:00",
+      "version_changed": false,
+      "topics": [
+        "physics",
+        "methods"
+      ],
+      "matches": {
+        "physics": [
+          "cloud microphysics"
+        ],
+        "methods": [
+          "turbulence"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "云与辐射 · Clouds & radiation",
+        "流体与不稳定性 · Fluid dynamics",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 32,
+      "fit_matches": [],
+      "institutions": [
+        "Department of Earth and Environmental Engineering",
+        "Learning the Earth with Artificial Intelligence and Physics Center",
+        "Columbia University",
+        "New York, NY 10027"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Kara D. Lamb",
+          "institutions": [
+            "Department of Earth and Environmental Engineering",
+            "Learning the Earth with Artificial Intelligence and Physics Center",
+            "Columbia University",
+            "New York, NY 10027"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.03543v1",
+      "intro_en": "Earth system models (ESMs) rely on parameterizations to represent unresolved processes such as convection, cloud microphysics, and turbulence. However, translating advances in physical understanding into stable, validated parameterizations and integrating them into ESMs often takes years.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-03",
+      "publication_date_source": "https://arxiv.org/abs/2611.03543v1",
+      "version_date": "2026-11-02T18:05:04+00:00"
+    },
+    {
+      "id": "2611.03417",
+      "version_id": "2611.03417v1",
+      "title": "HCN detection in the Kreutz sungrazing comet C/2026 A1 (MAPS) shortly before its disruption",
+      "abstract": "Context. Kreutz sungrazing comets are characterised by extremely small perihelion distances (q < 3.45 R). These objects are of particular interest because their intense activity and fragmentation can expose material from deeper within the nucleus, providing unique access to their bulk chemical composition rather than merely their surface layers. Aims. The discovery of C/2026 A1 (MAPS) three months before its perihelion offered a rare opportunity to investigate the composition and activity of a Kreutz sungrazing comet. We present the first millimetre wavelength study of this type of comet. Methods. We observed C/2026 A1 (MAPS) with the IRAM 30-m telescope from April 1 to April 3 2026 at heliocentric distances rh = 0.10-0.23 au, the three days preceding its perihelion and full disintegration. We analysed the molecular emissions using non-local thermodynamic equilibrium radiative transfer models to derive molecular production rates. Results. We report the first HCN detection in a Kreutz sungrazer through its (3-2) transition at 265.886 GHz, enabling us to characterise the variability of its activity. We witnessed two outbursts, on April 1 and April 3. The second one, occurring the day before the disintegration of C/2026 A1 (MAPS), led to the release of 0.4% to 1.2% of the total cometary mass, thus suggesting a pre-disruption before entering the Roche limit region. We also obtained upper limits for HNC, CS, H2CO, CO, OCS and CH3OH",
+      "published": "2026-11-02T16:41:27Z",
+      "updated": "2026-11-02T16:41:27Z",
+      "authors": [
+        "Amélie Godard Palluet",
+        "Dominique Bockelée-Morvan",
+        "Nicolas Biver",
+        "Raphael Moreno",
+        "Martin Cordiner",
+        "David Haasler",
+        "Jacques Crovisier",
+        "Víctor M. Rivilla"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2611.03417",
+      "pdf": "https://arxiv.org/pdf/2611.03417v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-03T07:53:30.742448+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "行星科学拓展阅读",
+      "tags": [
+        "云与辐射 · Clouds & radiation",
+        "海冰与表层 · Ice & surface"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [
+        "行星大气与辐射"
+      ],
+      "institutions": [
+        "Centro de Astrobiología (CAB), CSIC-INTA, Carretera de Ajalvir km 4, Torrejón de Ardoz, 28850, Madrid, Spain",
+        "LIRA, Observatoire de Paris, PSL Research University, CNRS, Sorbonne Université, Université de Paris, 5 place Jules Janssen, F-92195 Meudon, France",
+        "Astrochemistry Laboratory, NASA Goddard Space Flight Center, 8800 Greenbelt Road, Greenbelt, MD 20771, USA",
+        "Department of Physics, Catholic University of America, Washington, DC 20064, USA",
+        "Departamento de Física de la Tierra y Astrofísica, Facultad de Ciencias Físicas, Universidad Complutense de Madrid, 28040 Madrid, Spain"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Amélie Godard Palluet ,",
+          "institutions": [
+            "Centro de Astrobiología (CAB), CSIC-INTA, Carretera de Ajalvir km 4, Torrejón de Ardoz, 28850, Madrid, Spain"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Dominique Bockelée-Morvan",
+          "institutions": [
+            "LIRA, Observatoire de Paris, PSL Research University, CNRS, Sorbonne Université, Université de Paris, 5 place Jules Janssen, F-92195 Meudon, France"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Nicolas Biver",
+          "institutions": [
+            "LIRA, Observatoire de Paris, PSL Research University, CNRS, Sorbonne Université, Université de Paris, 5 place Jules Janssen, F-92195 Meudon, France"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Raphael Moreno",
+          "institutions": [
+            "LIRA, Observatoire de Paris, PSL Research University, CNRS, Sorbonne Université, Université de Paris, 5 place Jules Janssen, F-92195 Meudon, France"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Martin Cordiner",
+          "institutions": [
+            "Astrochemistry Laboratory, NASA Goddard Space Flight Center, 8800 Greenbelt Road, Greenbelt, MD 20771, USA",
+            "Department of Physics, Catholic University of America, Washington, DC 20064, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "David Haasler",
+          "institutions": [
+            "Centro de Astrobiología (CAB), CSIC-INTA, Carretera de Ajalvir km 4, Torrejón de Ardoz, 28850, Madrid, Spain",
+            "Departamento de Física de la Tierra y Astrofísica, Facultad de Ciencias Físicas, Universidad Complutense de Madrid, 28040 Madrid, Spain"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Jacques Crovisier",
+          "institutions": [
+            "LIRA, Observatoire de Paris, PSL Research University, CNRS, Sorbonne Université, Université de Paris, 5 place Jules Janssen, F-92195 Meudon, France"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Víctor M. Rivilla",
+          "institutions": [
+            "Centro de Astrobiología (CAB), CSIC-INTA, Carretera de Ajalvir km 4, Torrejón de Ardoz, 28850, Madrid, Spain"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.03417v1",
+      "intro_en": "Context. Kreutz sungrazing comets are characterised by extremely small perihelion distances (q < 3.45 R).",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-03",
+      "publication_date_source": "https://arxiv.org/abs/2611.03417v1",
+      "version_date": "2026-11-02T16:41:27+00:00"
+    },
+    {
+      "id": "2611.03381",
+      "version_id": "2611.03381v1",
+      "title": "A Geometry-Informed Neural Operator surrogate of LISFLOOD-FP for rapid pluvial-fluvial flood forecasting: the case of Forlì, Italy",
+      "abstract": "Physically based two-dimensional hydraulic models are too slow for real-time inundation forecasting and large ensembles. We present a time-dependent geometry-informed neural operator (GINO) surrogate of LISFLOOD-FP for the municipality of Forlì (Italy), severely affected by the May 2023 Emilia-Romagna floods. The surrogate is designed for an operational setting in which only river stage gauges and rain gauges are available. A reproducible pipeline turns public regional observations into a physically based training set: each river inflow is driven by the first stage gauge downstream of it through a calibrated water-surface boundary condition, and rain enters as SCS-CN effective rainfall. The surrogate is an autoregressive GINO trained on 216 simulations of 24 observed events with scaled forcing. It predicts volume-conserving polygon-mean depths on an exposure-based Voronoi mesh of 659 nodes, with a 20 min step over 72 h. The surrogate is tested on 38 independent observed events that it never saw during training. On these events it reaches a critical success index (CSI) of 0.934 at 0.05m and 0.844 at 0.3 m, a depth RMSE of 0.008m and an $R^2$ of 0.984 for maximum-depth maps. On one NVIDIA A10G GPU a 72-h forecast takes 1.7 s instead of 55 s with LISFLOOD-FP, and a 50-member ensemble, computed in a single batched rollout, takes 6.2 s instead of about 46 min, which makes probabilistic flood forecasting practical. These results show that neural-operator surrogates can deliver accurate pluvial-fluvial flood forecasts driven by river stage for operational early warning.",
+      "published": "2026-11-02T16:22:25Z",
+      "updated": "2026-11-02T16:22:25Z",
+      "authors": [
+        "Samuele Maria Garofalo",
+        "Fabio Limardo",
+        "Simonetta Bodojra",
+        "Mohammad Amin Nabian",
+        "Mehdi Taghizadeh"
+      ],
+      "doi": "",
+      "categories": [
+        "cs.LG",
+        "physics.geo-ph"
+      ],
+      "url": "https://arxiv.org/abs/2611.03381",
+      "pdf": "https://arxiv.org/pdf/2611.03381v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-03T07:53:30.742448+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "海冰与表层 · Ice & surface",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Data Reply, Turin, Italy",
+        "NVIDIA, Santa Clara, CA, USA",
+        "University of Virginia, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Samuele Maria Garofalo",
+          "institutions": [
+            "Data Reply, Turin, Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Fabio Limardo",
+          "institutions": [
+            "Data Reply, Turin, Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Simonetta Bodojra",
+          "institutions": [
+            "Data Reply, Turin, Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Mohammad Amin Nabian",
+          "institutions": [
+            "NVIDIA, Santa Clara, CA, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Mehdi Taghizadeh",
+          "institutions": [
+            "University of Virginia, USA"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.03381v1",
+      "intro_en": "Physically based two-dimensional hydraulic models are too slow for real-time inundation forecasting and large ensembles. We present a time-dependent geometry-informed neural operator (GINO) surrogate of LISFLOOD-FP for the municipality of Forlì (Italy), severely affected by the May 2023 Emilia-Romagna floods.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-03",
+      "publication_date_source": "https://arxiv.org/abs/2611.03381v1",
+      "version_date": "2026-11-02T16:22:25+00:00"
+    },
+    {
+      "id": "2611.03341",
+      "version_id": "2611.03341v1",
+      "title": "Dual-Band Mid-Infrared Imaging for Measurement of Fuel Concentration and Temperature in a Supersonic Cavity",
+      "abstract": "A dual-band mid-infrared absorption imaging method is demonstrated for spatially resolved measurement of ethylene concentration and temperature in a Mach-2 cavity flow. The method used narrowband filters selected to exploit the differing in-band temperature sensitivities of ethylene absorption, together with a broadband infrared source and high-frame-rate mid-wave infrared camera. Temperature-dependent, filter-weighted absorption cross-sections were used to measure two-dimensional ethylene number density and temperature fields. Measurements were obtained for cavity, curtain, and discrete fuel-injection configurations, including cases with the leading edge of a quasi-steady shock near the cavity. Cavity equivalence ratio measurements agreed well with independent extractive measurements and reproduced trends previously observed using hyperspectral imaging. A complementary single-band implementation using a temperature-independent filter provided instantaneous ethylene concentration fields at 100 Hz and revealed intermittent reductions in cavity equivalence ratio associated with plume deflection by the shock train leading edge. The dual-band approach provides quantitative full-field measurements with substantially simpler spectral instrumentation than hyperspectral imaging while retaining flexibility for time-resolved flow measurements.",
+      "published": "2026-11-02T15:59:08Z",
+      "updated": "2026-11-02T15:59:08Z",
+      "authors": [
+        "Loren C. Hahn",
+        "Erik L. Braun",
+        "Brendan J. McGann",
+        "Katherine C. Opacich",
+        "Timothy M. Ombrello"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn",
+        "physics.ins-det"
+      ],
+      "url": "https://arxiv.org/abs/2611.03341",
+      "pdf": "https://arxiv.org/pdf/2611.03341v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-03T07:53:30.742448+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2611.03341v1",
+      "intro_en": "A dual-band mid-infrared absorption imaging method is demonstrated for spatially resolved measurement of ethylene concentration and temperature in a Mach-2 cavity flow. The method used narrowband filters selected to exploit the differing in-band temperature sensitivities of ethylene absorption, together with a broadband infrared source and high-frame-rate mid-wave infrared camera.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-02",
+      "publication_date_source": "https://arxiv.org/abs/2611.03341v1",
+      "version_date": "2026-11-02T15:59:08+00:00"
+    },
+    {
+      "id": "2611.03326",
+      "version_id": "2611.03326v1",
+      "title": "Six-hourly Probabilistic Precipitation Forecasts Created From Hourly Probabilities",
+      "abstract": "A lightweight neural network is described that produces six-hourly, spatially detailed probabilistic quantitative precipitation forecasts (PQPF) from a sequence of hourly spatially detailed probabilistic forecasts, for lead times from 6 to 72\\,h. The hourly forecasts were generated by a ``zero-inflated'' Attention Residual U-Net that outputs the parameters of a probability distribution including a probability of no precipitation and a weighted mixture of two Gamma distributions at each grid point for each hourly forecast lead time. The six-hourly network passes the six consecutive hourly parameter sets, together with summary statistics of the spatial texture of the raw deterministic forecast, through a small recurrent (GRU) layer and a multi-layer perceptron, and maps them to a corresponding zero-inflated mixture of three Gamma distributions describing the six-hourly accumulated precipitation. Training uses sets of hourly probabilistic forecasts, drawn preferentially from wet and heavy-precipitation cases (importance sampling), and matched Multi-Radar Multi-Sensor (MRMS) six-hourly precipitation accumulations, subject to a quality threshold. The resulting six-hourly probabilistic forecasts are well calibrated and skillful, as demonstrated by reliability diagrams, performance diagrams and Brier Skill Scores evaluated over an out-of-sample period spanning day 12 through the end of every month of 2025. The Brier Skill Scores are consistently and significantly higher than those of a baseline that sums independent draws from the hourly distributions. Forecasts show realistic modulation of precipitation related to terrain variations",
+      "published": "2026-11-02T15:49:25Z",
+      "updated": "2026-11-02T15:49:25Z",
+      "authors": [
+        "Thomas M Hamill"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.ao-ph",
+        "stat.AP"
+      ],
+      "url": "https://arxiv.org/abs/2611.03326",
+      "pdf": "https://arxiv.org/pdf/2611.03326v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-03T07:53:30.742448+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "水循环 · Water cycle"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [
+        {
+          "name": "Thomas M. Hamill",
+          "institutions": [],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2611.03326v1",
+      "intro_en": "A lightweight neural network is described that produces six-hourly, spatially detailed probabilistic quantitative precipitation forecasts (PQPF) from a sequence of hourly spatially detailed probabilistic forecasts, for lead times from 6 to 72\\,h. The hourly forecasts were generated by a ``zero-inflated'' Attention Residual U-Net that outputs the parameters of a probability distribution including a probability of no precipitation and a weighted mixture of two Gamma distributions at each grid point for each hourly forecast lead time.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-02",
+      "publication_date_source": "https://arxiv.org/abs/2611.03326v1",
+      "version_date": "2026-11-02T15:49:25+00:00"
+    },
+    {
+      "id": "2611.03291",
+      "version_id": "2611.03291v1",
+      "title": "White dwarf pollution in wide binaries: the role of planetary mass",
+      "abstract": "Atmospheric pollution in white dwarfs is interpreted as evidence for the accretion of rocky material from remnant planetary systems. In wide binaries, these reservoirs can be influenced by planetary perturbers. Here, we investigate how planetary mass affects the survival and delivery of planetesimals onto an evolving white dwarf. We perform N-body simulations incorporating time-dependent stellar evolution and a stellar companion, varying planetary masses and following the evolution of a planetesimal disc. We find that lower-mass planets perturb the planetesimal reservoir less efficiently, allowing more planetesimals to survive longer. Consequently, delivery onto the white dwarf can persist into the cool white dwarf phase, whereas high-mass planets deplete the reservoir earlier, preventing sustained pollution at late stages. Our results show that planetary mass regulates the timescale over which rocky material remains available for accretion, while the planet's location has minor impact. Pollution is more frequent in binaries with lower inclinations and eccentricities.",
+      "published": "2026-11-02T15:30:57Z",
+      "updated": "2026-11-02T15:30:57Z",
+      "authors": [
+        "Constanza Norambuena",
+        "Carolina Charalambous",
+        "Claudia Aguilera-Gómez"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP",
+        "astro-ph.SR"
+      ],
+      "url": "https://arxiv.org/abs/2611.03291",
+      "pdf": "https://arxiv.org/pdf/2611.03291v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-03T07:53:30.742448+00:00",
+      "version_changed": false,
+      "topics": [
+        "orbital",
+        "evolution"
+      ],
+      "matches": {
+        "orbital": [
+          "n-body"
+        ],
+        "evolution": [
+          "planetesimal"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：n-body、planetesimal",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 52,
+      "fit_matches": [
+        "行星轨道与演化"
+      ],
+      "institutions": [
+        "Instituto de Astrofísica, Pontificia Universidad Católica de Chile, Av. Vicuña Mackenna 4860, 782-0436 Macul, Santiago, Chile"
+      ],
+      "author_affiliations": [
+        {
+          "name": "C. Norambuena",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "C. Charalambous and C. Aguilera-Gómez",
+          "institutions": [
+            "Instituto de Astrofísica, Pontificia Universidad Católica de Chile, Av. Vicuña Mackenna 4860, 782-0436 Macul, Santiago, Chile"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.03291v1",
+      "intro_en": "Atmospheric pollution in white dwarfs is interpreted as evidence for the accretion of rocky material from remnant planetary systems. In wide binaries, these reservoirs can be influenced by planetary perturbers.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-02",
+      "publication_date_source": "https://arxiv.org/abs/2611.03291v1",
+      "version_date": "2026-11-02T15:30:57+00:00"
+    },
+    {
+      "id": "2611.03264",
+      "version_id": "2611.03264v1",
+      "title": "DeepWaveRL: Self-Supervised Full Waveform Inversion via Reinforcement Learning",
+      "abstract": "Full Waveform Inversion (FWI) is a fundamental inverse problem in geophysics to estimate subsurface properties, such as velocity, from seismic measurements. Recently, self-supervised learning methods remove the need for ground-truth velocity maps during training by leveraging a forward operator to simulate seismic data from predictions and backpropagate the gradients of reconstruction loss through it. In this work, we consider a more challenging setting without accessing such gradients. To this end, we incorporate reinforcement learning into self-supervised FWI and propose a framework named DeepWaveRL. Specifically, we reformulate FWI as a policy learning problem, where the policy network predicts velocity maps as actions, and a forward operator is used solely for simulation. A global scalar reward is computed based on data misfit for each prediction and used to weight policy gradients. Thus, learning proceeds without accessing the gradients from the forward operator. Given the indirect and coarse supervision signals, we further identify key strategies to stabilize learning and mitigate the spatial credit assignment bottleneck. Experimental results show that, despite relying entirely on a single scalar reward, DeepWaveRL achieves competitive performance compared to supervised and self-supervised baselines. These findings suggest that our framework offers a flexible and complementary learning paradigm for the FWI research community.",
+      "published": "2026-11-02T15:10:41Z",
+      "updated": "2026-11-02T15:10:41Z",
+      "authors": [
+        "Peng Jin",
+        "Yinan Feng",
+        "Yinpeng Chen",
+        "Youzuo Lin",
+        "Sharon Huang"
+      ],
+      "doi": "",
+      "categories": [
+        "cs.LG",
+        "physics.geo-ph"
+      ],
+      "url": "https://arxiv.org/abs/2611.03264",
+      "pdf": "https://arxiv.org/pdf/2611.03264v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-03T07:53:30.742448+00:00",
+      "version_changed": false,
+      "topics": [
+        "methods"
+      ],
+      "matches": {
+        "methods": [
+          "inverse problem"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 20,
+      "fit_matches": [],
+      "institutions": [
+        "University of North Carolina, Chapel Hill, U.S.",
+        "Google DeepMind, U.S.",
+        "Pennsylvania State University, U.S."
+      ],
+      "author_affiliations": [
+        {
+          "name": "Peng Jin",
+          "institutions": [
+            "University of North Carolina, Chapel Hill, U.S."
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Yinan Feng",
+          "institutions": [
+            "University of North Carolina, Chapel Hill, U.S."
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Yinpeng Chen",
+          "institutions": [
+            "Google DeepMind, U.S."
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Youzuo Lin",
+          "institutions": [
+            "University of North Carolina, Chapel Hill, U.S."
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Sharon Huang",
+          "institutions": [
+            "Pennsylvania State University, U.S."
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.03264v1",
+      "intro_en": "Full Waveform Inversion (FWI) is a fundamental inverse problem in geophysics to estimate subsurface properties, such as velocity, from seismic measurements. Recently, self-supervised learning methods remove the need for ground-truth velocity maps during training by leveraging a forward operator to simulate seismic data from predictions and backpropagate the gradients of reconstruction loss through it.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-02",
+      "publication_date_source": "https://arxiv.org/abs/2611.03264v1",
+      "version_date": "2026-11-02T15:10:41+00:00"
+    },
+    {
+      "id": "2611.03243",
+      "version_id": "2611.03243v1",
+      "title": "Dynamics of a two-dimensional microswimmer near a slippery boundary",
+      "abstract": "Microswimmers near walls and interfaces can switch between qualitatively different modes of motion depending on the slip properties of the neighbouring boundaries. To study this theoretically, a two-dimensional point-singularity model of a microswimmer, which does not self-propel in unbounded fluid, is placed near a flat viscosity discontinuity between two fluids with viscosity ratio $σ$, and also near a partial-slip wall with Navier-slip length $λ$. Using complex-variable methods, the dynamical systems governing the swimmer motion are derived explicitly in both scenarios. Near the viscosity discontinuity, below a universal critical viscosity ratio $σ_c=1/2$, the swimmer is trapped at a fixed height with its stresslet axis normal to the boundary. When $σ=σ_c$ it glides parallel to the boundary at a speed selected by its orientation, with a terminal speed determined by its initial state. For $σ>σ_c$ it oscillates periodically in height and orientation while drifting along the boundary. The dynamics near a partial-slip wall depend on the ratio of the slip length to the length scale of the singularity and are similar in exhibiting an analogous transition at a critical slip length. It is found, however, that the dynamics near a viscosity discontinuity for $σ$ above $σ_c$ are richer than those near the partial-slip boundary, including the existence of a hydrodynamic bound state with zero net displacement over one period. Although the study is limited to two dimensions, these results show how a single boundary parameter organises qualitatively distinct modes of locomotion, in close analogy with slip-induced transitions reported for three-dimensional swimmers.",
+      "published": "2026-11-02T14:52:55Z",
+      "updated": "2026-11-02T14:52:55Z",
+      "authors": [
+        "Takahiro Kanazawa",
+        "Darren Crowdy"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn",
+        "cond-mat.soft",
+        "physics.bio-ph"
+      ],
+      "url": "https://arxiv.org/abs/2611.03243",
+      "pdf": "https://arxiv.org/pdf/2611.03243v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-03T07:53:30.742448+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Department of Physics, The University of Chicago, 5720 South Ellis Avenue, Chicago, Illinois 60637, USA",
+        "Department of Physics, The University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan",
+        "Nonequilibrium Physics of Living Matter Laboratory, RIKEN Pioneering Research Institute, 2-1 Hirosawa, Wako 351-0198, Japan",
+        "Department of Mathematics, Imperial College London, 180 Queen’s Gate, London SW7 2AZ, UK"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Takahiro Kanazawa",
+          "institutions": [
+            "Department of Physics, The University of Chicago, 5720 South Ellis Avenue, Chicago, Illinois 60637, USA",
+            "Department of Physics, The University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan",
+            "Nonequilibrium Physics of Living Matter Laboratory, RIKEN Pioneering Research Institute, 2-1 Hirosawa, Wako 351-0198, Japan"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Darren Crowdy",
+          "institutions": [
+            "Department of Mathematics, Imperial College London, 180 Queen’s Gate, London SW7 2AZ, UK"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.03243v1",
+      "intro_en": "Microswimmers near walls and interfaces can switch between qualitatively different modes of motion depending on the slip properties of the neighbouring boundaries. To study this theoretically, a two-dimensional point-singularity model of a microswimmer, which does not self-propel in unbounded fluid, is placed near a flat viscosity discontinuity between two fluids with viscosity ratio $σ$, and also near a partial-slip wall with Navier-slip length $λ$.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-02",
+      "publication_date_source": "https://arxiv.org/abs/2611.03243v1",
+      "version_date": "2026-11-02T14:52:55+00:00"
+    },
+    {
+      "id": "2611.03210",
+      "version_id": "2611.03210v1",
+      "title": "CFD-driven symbolic regression of RANS transition models",
+      "abstract": "Laminar-turbulent transition governs skin friction, heat transfer and losses in turbomachinery, yet Reynolds-averaged Navier-Stokes (RANS) transition models rely on empirical correlations and hand-calibrated activation functions whose structural deficiencies cannot be resolved by recalibration. We propose a CFD-driven sparse symbolic regression framework to learn interpretable, closed-form corrections to the production and destruction activation functions in the intermittency equation of the local, Galilean-invariant $k$-$ω$-$γ$ model of Ge et al. Each correction combines a polynomial of a local pressure-gradient parameter, controlling amplitude and sign, with a bounded exponential of local flow features, controlling spatial support. This construction bounds the corrections without ad hoc limiters. Coefficients are identified by gradient-free optimization with the RANS solver in the loop, accelerated by POD-Kriging field surrogates, using mean-velocity data from wall-resolved large-eddy simulations (LES) of the ERCOFTAC T3 flat-plate cases. Elastic-net hyperparameters are selected automatically through bi-level optimization with leave-one-case-out cross-validation. The resulting model retains 11 of 21 candidate terms, compared with 20 under conventional grid-search tuning, while achieving comparable or slightly better accuracy on training and unseen cases. Both approaches recover the same leading-order correction. Applied without retraining to the transonic LS89 turbine cascade, far beyond the training envelope, the augmented model remains numerically robust and improves heat-transfer predictions at all four operating points, reducing errors by up to 70% where the baseline predicts premature transition under high freestream turbulence. Residual errors in transition onset and length highlight the limits of training on flat-plate data alone.",
+      "published": "2026-11-02T14:34:00Z",
+      "updated": "2026-11-02T14:34:00Z",
+      "authors": [
+        "Louenas Zemmour",
+        "Xavier Gloerfelt",
+        "Paola Cinnella"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2611.03210",
+      "pdf": "https://arxiv.org/pdf/2611.03210v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-03T07:53:30.742448+00:00",
+      "version_changed": false,
+      "topics": [
+        "methods"
+      ],
+      "matches": {
+        "methods": [
+          "turbulence",
+          "navier stokes"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "流体与不稳定性 · Fluid dynamics",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 20,
+      "fit_matches": [],
+      "institutions": [
+        "Sorbonne Université, CNRS, Institut Jean Le Rond D’Alembert, 4 Pl. Jussieu, Paris, 75005, France",
+        "DynFluid Laboratory, Arts et Metiers Institute of Technology, 151 Bd. de l’Hôpital, Paris, 75013, France"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Louenas Zemmour",
+          "institutions": [
+            "Sorbonne Université, CNRS, Institut Jean Le Rond D’Alembert, 4 Pl. Jussieu, Paris, 75005, France"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Xavier Gloerfelt",
+          "institutions": [
+            "DynFluid Laboratory, Arts et Metiers Institute of Technology, 151 Bd. de l’Hôpital, Paris, 75013, France"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Paola Cinnella",
+          "institutions": [
+            "Sorbonne Université, CNRS, Institut Jean Le Rond D’Alembert, 4 Pl. Jussieu, Paris, 75005, France"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.03210v1",
+      "intro_en": "Laminar-turbulent transition governs skin friction, heat transfer and losses in turbomachinery, yet Reynolds-averaged Navier-Stokes (RANS) transition models rely on empirical correlations and hand-calibrated activation functions whose structural deficiencies cannot be resolved by recalibration. We propose a CFD-driven sparse symbolic regression framework to learn interpretable, closed-form corrections to the production and destruction activation functions in the intermittency equation of the local, Galilean-invariant $k$-$ω$-$γ$ model of Ge et al.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-02",
+      "publication_date_source": "https://arxiv.org/abs/2611.03210v1",
+      "version_date": "2026-11-02T14:34:00+00:00"
+    },
+    {
+      "id": "2611.03029",
+      "version_id": "2611.03029v1",
+      "title": "Contrasting Eulerian and Lagrangian organization of turbulent dissipation",
+      "abstract": "The dissipation of turbulent kinetic energy is conventionally attributed to a scale-invariant spatial multiplicative cascade, with Lagrangian statistics inferred through bridge relations. Direct numerical simulations with tracers reveal instead that Eulerian coarse-grained dissipation has a squared-logarithmic cascade depth and scale-dependent multipliers, whereas time-averaged dissipation along trajectories displays multifractal scaling and an approximately scale-invariant temporal cascade. The classical bridge fails at the level of individual trajectories. Eulerian multipliers nevertheless possess a multifractal organization whose accumulation accounts for the squared-logarithmic spatial statistics. This contrast motivates a material-inheritance picture in which Eulerian dissipation statistics reflect the spatial assembly, deformation, and mixing of distinct Lagrangian histories. The results therefore distinguish the temporal cascade organization revealed along fluid trajectories from the non-stationary spatial refinement observed in the Eulerian frame.",
+      "published": "2026-11-02T12:25:08Z",
+      "updated": "2026-11-02T12:25:08Z",
+      "authors": [
+        "Jeremie Bec",
+        "Ritwik Mukherjee",
+        "Siddhartha Mukherjee",
+        "Samriddhi Sankar Ray"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2611.03029",
+      "pdf": "https://arxiv.org/pdf/2611.03029v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-03T07:53:30.742448+00:00",
+      "version_changed": false,
+      "topics": [
+        "methods"
+      ],
+      "matches": {
+        "methods": [
+          "direct numerical simulation"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 20,
+      "fit_matches": [],
+      "institutions": [
+        "Université Côte d’Azur, CNRS, Inria, INPHYNI, 06100 Nice, France",
+        "International Centre for Theoretical Sciences, Tata Institute of Fundamental Research, Bengaluru 560089, India",
+        "Department of Mechanical Engineering, Indian Institute of Technology Kanpur, Kanpur 208016, India"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Jérémie Bec♣",
+          "institutions": [
+            "Université Côte d’Azur, CNRS, Inria, INPHYNI, 06100 Nice, France"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Ritwik Mukherjee♣",
+          "institutions": [
+            "International Centre for Theoretical Sciences, Tata Institute of Fundamental Research, Bengaluru 560089, India"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Siddhartha Mukherjee",
+          "institutions": [
+            "Department of Mechanical Engineering, Indian Institute of Technology Kanpur, Kanpur 208016, India"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Samriddhi Sankar Ray",
+          "institutions": [
+            "International Centre for Theoretical Sciences, Tata Institute of Fundamental Research, Bengaluru 560089, India"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.03029v1",
+      "intro_en": "The dissipation of turbulent kinetic energy is conventionally attributed to a scale-invariant spatial multiplicative cascade, with Lagrangian statistics inferred through bridge relations. Direct numerical simulations with tracers reveal instead that Eulerian coarse-grained dissipation has a squared-logarithmic cascade depth and scale-dependent multipliers, whereas time-averaged dissipation along trajectories displays multifractal scaling and an approximately scale-invariant temporal cascade.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-02",
+      "publication_date_source": "https://arxiv.org/abs/2611.03029v1",
+      "version_date": "2026-11-02T12:25:08+00:00"
+    },
+    {
+      "id": "2611.03019",
+      "version_id": "2611.03019v1",
+      "title": "Are habitable-zone TESS Objects of Interest really there? Period resolution from the full archive",
+      "abstract": "TESS Objects of Interest (TOIs) seen as single or duo transits carry a catalogue period that is undefined or equal to the separation of the two events, and their insolation and any habitable-zone label inherit it. We reanalyse all 187 TOIs catalogued with P = 0 or P >= 200 d using all public TESS data through Sector 107, with a flux-based method that weights each alias by per-epoch transit likelihoods, the transit duration and a geometric prior, and tests for coherence, data edges, contamination by other planets and instrumental artefacts. It recovers 12 published periods blindly and, in injection-recovery tests, 71 per cent of periods constrained by a new transit, with no wrong period. It resolves 28 periods and fixes 8 more by exclusion. Are habitable-zone TOIs really there? Mostly not: of the 28 duo-transits that a catalogue-period criterion places in the conservative habitable zone, about two are expected to lie there, both giants, and none of the 12 planet-sized ones; those resolved are aliases of hotter planets. Conversely, habitable-zone planets hide behind missing or wrong periods: we recover three published M-dwarf examples and validate four planets with new periods, including TOI-2298 b, a 3.0 Earth-radius sub-Neptune at 146.58 d in the conservative habitable zone of a K dwarf, and TOI-6075 b, a 1.7 Earth-radius planet at 416.5 d (833 d not excluded), the second validated transiting planet smaller than 2 Earth radii with P > 1 yr. We release alias-marginalised habitable-zone probabilities for the whole sample.",
+      "published": "2026-11-02T12:17:59Z",
+      "updated": "2026-11-02T12:17:59Z",
+      "authors": [
+        "Juan F. Pagés Navarrete"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP",
+        "astro-ph.IM"
+      ],
+      "url": "https://arxiv.org/abs/2611.03019",
+      "pdf": "https://arxiv.org/pdf/2611.03019v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-03T07:53:30.742448+00:00",
+      "version_changed": false,
+      "topics": [
+        "planetary"
+      ],
+      "matches": {
+        "planetary": [
+          "habitable zone",
+          "sub neptune"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：habitable zone、sub neptune",
+      "tags": [
+        "宜居性 · Habitability"
+      ],
+      "method": "keyword",
+      "fit_score": 50,
+      "fit_matches": [
+        "行星气候与模式"
+      ],
+      "institutions": [
+        "Independent researcher, Málaga, Spain. ORCID: 0009-0006-7910-4276"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Juan F. Pagés Navarrete",
+          "institutions": [
+            "Independent researcher, Málaga, Spain. ORCID: 0009-0006-7910-4276"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.03019v1",
+      "intro_en": "TESS Objects of Interest (TOIs) seen as single or duo transits carry a catalogue period that is undefined or equal to the separation of the two events, and their insolation and any habitable-zone label inherit it. We reanalyse all 187 TOIs catalogued with P = 0 or P >= 200 d using all public TESS data through Sector 107, with a flux-based method that weights each alias by per-epoch transit likelihoods, the transit duration and a geometric prior, and tests for coherence, data edges, contamination by other planets and instrumental artefacts.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-02",
+      "publication_date_source": "https://arxiv.org/abs/2611.03019v1",
+      "version_date": "2026-11-02T12:17:59+00:00"
+    },
+    {
+      "id": "2611.02994",
+      "version_id": "2611.02994v1",
+      "title": "Computational performance versus numerical accuracy in the acoustic terms of weakly-compressible SPH",
+      "abstract": "Accurate computation of the acoustic terms in weakly-compressible SPH, including the equation of state, its inverse, and the evaluation of the local speed of sound, is essential to ensure energy conservation, robust solid boundary conditions, and correct open boundary behavior. In the classic Cole's equation of state, using values of the polytropic constant $γ\\ne 1$ can lead to significant precision loss, particularly when computations are performed in single precision, as is common in GPU implementations. We extend here our previous results on the optimal choice of state variable by introducing a new higher-precision form for all three acoustic terms, denoted \\texttt{explog}, and assess its numerical accuracy and computational performance across a variety of devices and test cases. We find that the new form evaluates the acoustic terms with a maximum ULP of~2 for arguments less than $0.125$, and has higher errors in less than 1\\% of the arguments larger than the threshold. Combined with a rewritten expression of the pressure at solid boundary particles in the ``dummy'' model, it provides consistently more accurate results, maintaining deviations from the reference pressure profile to below 2\\%, even in presence of a rough bottom terrain. Computationally, the new formulation is also faster than the naive one on GPU, and only marginally slower on CPU.",
+      "published": "2026-11-02T12:00:58Z",
+      "updated": "2026-11-02T12:00:58Z",
+      "authors": [
+        "Giuseppe Bilotta",
+        "Alireza Zarei",
+        "Roberta Cristofaro",
+        "Alexis Hérault",
+        "Élie Saikali",
+        "Morteza Derakhti"
+      ],
+      "doi": "",
+      "categories": [
+        "math.NA",
+        "math-ph",
+        "physics.comp-ph",
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2611.02994",
+      "pdf": "https://arxiv.org/pdf/2611.02994v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-03T07:53:30.742448+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Osservatorio Etneo, Istituto Nazionale di Geofisica e Vulcanologia, Catania, Italy",
+        "University of Washington, Seattle, WA, USA",
+        "Laboratoire Modélisation mathématique et numérique, Conservatoire National des Arts et Métiers, Paris, France",
+        "Université Paris-Saclay, CEA, Service de Génie Logiciel pour la Simulation, 91191, Gif-sur-Yvette, France"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Giuseppe Bilotta",
+          "institutions": [
+            "Osservatorio Etneo, Istituto Nazionale di Geofisica e Vulcanologia, Catania, Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Alireza Zarei",
+          "institutions": [
+            "University of Washington, Seattle, WA, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Roberta Cristofaro",
+          "institutions": [
+            "Osservatorio Etneo, Istituto Nazionale di Geofisica e Vulcanologia, Catania, Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Alexis Hérault",
+          "institutions": [
+            "Laboratoire Modélisation mathématique et numérique, Conservatoire National des Arts et Métiers, Paris, France"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Élie Saikali",
+          "institutions": [
+            "Université Paris-Saclay, CEA, Service de Génie Logiciel pour la Simulation, 91191, Gif-sur-Yvette, France"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Morteza Derakhti",
+          "institutions": [
+            "University of Washington, Seattle, WA, USA"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.02994v1",
+      "intro_en": "Accurate computation of the acoustic terms in weakly-compressible SPH, including the equation of state, its inverse, and the evaluation of the local speed of sound, is essential to ensure energy conservation, robust solid boundary conditions, and correct open boundary behavior. In the classic Cole's equation of state, using values of the polytropic constant $γ\\ne 1$ can lead to significant precision loss, particularly when computations are performed in single precision, as is common in GPU implementations.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-02",
+      "publication_date_source": "https://arxiv.org/abs/2611.02994v1",
+      "version_date": "2026-11-02T12:00:58+00:00"
+    },
+    {
+      "id": "2611.02924",
+      "version_id": "2611.02924v1",
+      "title": "Cometary impacts an unlikely pathway towards the origins of life on Earth",
+      "abstract": "An early period of cometary bombardment has long been speculated to provide an important source of prebiotic feedstock molecules, required for the origins of life on Earth. In support of this interpretation, comets boast a rich diversity of volatile organic molecules, with many thought to be limiting for prebiotic chemistry. Modelling studies suggest, however, that a significant proportion of these molecules will be destroyed during hypervelocity impact. Here, we revisit the ability of comets to deliver prebiotic feedstock molecules in the high concentrations required for prebiotic chemistry, leveraging recent advances in cometary impact simulations, comet-atmosphere interactions, and dynamical modelling of short-period comets' origin and evolution. Taken together, the rapid decline in Earth's cometary impact bombardment and the efficient destruction of fragile cometary organics indicate that the successful delivery of prebiotic feedstock molecules was an exceedingly rare event. Our results therefore challenge the long-held assumption that cometary impacts played an important role in the origins of life on Earth.",
+      "published": "2026-11-02T10:52:47Z",
+      "updated": "2026-11-02T10:52:47Z",
+      "authors": [
+        "Richard J. Anslow",
+        "Catriona H. McDonald",
+        "Amy Bonsor",
+        "Paul B. Rimmer",
+        "Auriol S. P. Rae"
+      ],
+      "doi": "10.1038/s41598-026-74214-y",
+      "categories": [
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2611.02924",
+      "pdf": "https://arxiv.org/pdf/2611.02924v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-03T07:53:30.742448+00:00",
+      "version_changed": false,
+      "topics": [
+        "evolution"
+      ],
+      "matches": {
+        "evolution": [
+          "volatile"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：volatile",
+      "tags": [
+        "岩浆与挥发分 · Magma & volatiles",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 31,
+      "fit_matches": [],
+      "institutions": [
+        "Institute of Astronomy, University of Cambridge, Madingley Road, Cambridge, CB3 0HA, UK",
+        "rja92@cam.ac.uk",
+        "Cavendish Laboratory, University of Cambridge, JJ Thomson Ave, Cambridge, CB3 0HE, UK",
+        "School of Geosciences/Edinburgh Centre for Planetary Sciences, University of Edinburgh, Edinburgh, EH9 3FE, UK"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Richard J. Anslow",
+          "institutions": [
+            "Institute of Astronomy, University of Cambridge, Madingley Road, Cambridge, CB3 0HA, UK",
+            "rja92@cam.ac.uk"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Catriona H. McDonald",
+          "institutions": [
+            "Institute of Astronomy, University of Cambridge, Madingley Road, Cambridge, CB3 0HA, UK"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Amy Bonsor",
+          "institutions": [
+            "Institute of Astronomy, University of Cambridge, Madingley Road, Cambridge, CB3 0HA, UK"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Paul B. Rimmer",
+          "institutions": [
+            "Cavendish Laboratory, University of Cambridge, JJ Thomson Ave, Cambridge, CB3 0HE, UK",
+            "School of Geosciences/Edinburgh Centre for Planetary Sciences, University of Edinburgh, Edinburgh, EH9 3FE, UK"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Auriol S. P. Rae",
+          "institutions": [],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.02924v1",
+      "intro_en": "An early period of cometary bombardment has long been speculated to provide an important source of prebiotic feedstock molecules, required for the origins of life on Earth. In support of this interpretation, comets boast a rich diversity of volatile organic molecules, with many thought to be limiting for prebiotic chemistry.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-02",
+      "publication_date_source": "https://arxiv.org/abs/2611.02924v1",
+      "version_date": "2026-11-02T10:52:47+00:00"
+    },
+    {
+      "id": "2611.02881",
+      "version_id": "2611.02881v1",
+      "title": "Damage Assessment of Supporting Pillars in an Underground Cave Using Joint Inversion of Electrical Resistivity and P-wave Velocity, Burgundy (France)",
+      "abstract": "This study presents an integrated approach combining seismic refraction tomography and electrical resistivity tomography to evaluate the structural integrity of supporting pillars in an underground cave in Burgundy, France. A three-phase petrophysical joint inversion (P-JIv) was performed using a finite-element model on an unstructured triangular mesh. Compared with independent inversions, the joint inversion improved spatial resolution and enhanced the consistency between the two geophysical methods. The results revealed distinct zones of electrical resistivity and P-wave velocity, reflecting variations in rock fracturing and weathering. The geophysical interpretations showed strong agreement with visual inspections and borehole logs. Furthermore, rock porosity and water content were estimated from the P-JIv results. Finally, an automated clustering procedure was used to establish a proxy indicator of pillar integrity, enabling the prioritization of cave reinforcement measures.",
+      "published": "2026-11-02T10:17:51Z",
+      "updated": "2026-11-02T10:17:51Z",
+      "authors": [
+        "Aurore Carrier",
+        "P. Bottelin",
+        "L. Fabre",
+        "A. Mathy"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.geo-ph"
+      ],
+      "url": "https://arxiv.org/abs/2611.02881",
+      "pdf": "https://arxiv.org/pdf/2611.02881v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-03T07:53:30.742448+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2611.02881v1",
+      "intro_en": "This study presents an integrated approach combining seismic refraction tomography and electrical resistivity tomography to evaluate the structural integrity of supporting pillars in an underground cave in Burgundy, France. A three-phase petrophysical joint inversion (P-JIv) was performed using a finite-element model on an unstructured triangular mesh.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-02",
+      "publication_date_source": "https://arxiv.org/abs/2611.02881v1",
+      "version_date": "2026-11-02T10:17:51+00:00"
+    },
+    {
+      "id": "2611.02878",
+      "version_id": "2611.02878v1",
+      "title": "Environmental seismology: What can we learn on earth surface processes with ambient noise?",
+      "abstract": "Environmental seismology investigates mechanical vibrations generated by external processes or influenced by phenomena originating outside the solid Earth. It encompasses interactions between the solid Earth and other environmental systems, including the cryosphere, hydrosphere, and anthroposphere, as well as the specific sources of seismic vibrations associated with these systems. This field also examines how environmental factors, such as temperature fluctuations and hydrological variations, affect seismic wave propagation. Recent advances in data-processing techniques, combined with increased computational capabilities and the growing density of seismic sensor networks, have enabled novel observations and contributed to the emergence of environmental seismology as a distinct research field. This article reviews how subtle changes in the Earth's subsurface can be detected and interpreted through variations in seismic wave propagation induced by external environmental processes, with applications to geomechanics, hydrology, and natural hazard assessment. In particular, we demonstrate how ambient seismic noise can be used to monitor: (1) thermal variations in the subsurface, within buildings, and in rock columns; (2) the temporal and spatial evolution of groundwater levels; and (3) changes in the rigidity of the material forming a landslide, with particular emphasis on the reduction in rigidity that may precede slope failure.",
+      "published": "2026-11-02T10:14:56Z",
+      "updated": "2026-11-02T10:14:56Z",
+      "authors": [
+        "Eric Larose",
+        "Simon Carri{è}re",
+        "Christophe Voisin",
+        "Pierre Bottelin",
+        "Laurent Baillet",
+        "Philippe Gu{é}guen",
+        "Fabian Walter",
+        "Denis Jongmans",
+        "Bertrand Guillier",
+        "St{é}phane Garambois",
+        "Florent Gimbert",
+        "Chris Massey"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.geo-ph"
+      ],
+      "url": "https://arxiv.org/abs/2611.02878",
+      "pdf": "https://arxiv.org/pdf/2611.02878v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-03T07:53:30.742448+00:00",
+      "version_changed": false,
+      "topics": [
+        "cryosphere"
+      ],
+      "matches": {
+        "cryosphere": [
+          "cryosphere"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "水循环 · Water cycle",
+        "海冰与表层 · Ice & surface"
+      ],
+      "method": "keyword",
+      "fit_score": 38,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2611.02878v1",
+      "intro_en": "Environmental seismology investigates mechanical vibrations generated by external processes or influenced by phenomena originating outside the solid Earth. It encompasses interactions between the solid Earth and other environmental systems, including the cryosphere, hydrosphere, and anthroposphere, as well as the specific sources of seismic vibrations associated with these systems.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-02",
+      "publication_date_source": "https://arxiv.org/abs/2611.02878v1",
+      "version_date": "2026-11-02T10:14:56+00:00"
+    },
+    {
+      "id": "2611.02873",
+      "version_id": "2611.02873v1",
+      "title": "Seismic study of soda straws exposed to nearby blasting vibrations",
+      "abstract": "This study aims to protect an exceptional population of soda straw stalactites from vibrations generated by nearby rock blasting activities. The Choranche Cave, located in the Vercors region of France, hosts thousands of remarkably slender soda straws, reaching several meters in length while measuring approximately 0.5 cm in diameter. These speleothems are particularly susceptible to vibrations because of their structural fragility and potential for dynamic amplification. Our analyses revealed that their fundamental natural frequencies fall within the frequency range of nearby blasting-induced vibrations, typically spanning tens to hundreds of hertz. To assess the effects of blasting, we combined in situ vibration measurements, laboratory-based material characterization, and dynamic two-dimensional finite element simulations to estimate the loads experienced by the soda straw population. The results indicate that resonance can amplify the induced loads by a factor of five. Consequently, shorter soda straws (0.1--1 m) were found to be more vulnerable to blasting-induced vibrations than longer speleothems (>1 m), despite the greater weight and inertial forces associated with the latter. Based on simulations of several blasting tests, we established an allowable peak particle velocity (PPV) threshold of 2.4 mm/s within the cave. Subsequent blasting operations were conducted in compliance with this limit, successfully protecting the soda straw population from damage. We also investigated the dynamic response of soda straws to regional earthquakes. In contrast to blasting-induced vibrations, the lower-frequency content of earthquake ground motions preferentially excites resonance in longer speleothe",
+      "published": "2026-11-02T10:12:42Z",
+      "updated": "2026-11-02T10:12:42Z",
+      "authors": [
+        "P. Bottelin",
+        "L. Baillet",
+        "A. Mathy",
+        "L. Garnier",
+        "H. Cadet",
+        "O. Brenguier"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.geo-ph"
+      ],
+      "url": "https://arxiv.org/abs/2611.02873",
+      "pdf": "https://arxiv.org/pdf/2611.02873v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-03T07:53:30.742448+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2611.02873v1",
+      "intro_en": "This study aims to protect an exceptional population of soda straw stalactites from vibrations generated by nearby rock blasting activities. The Choranche Cave, located in the Vercors region of France, hosts thousands of remarkably slender soda straws, reaching several meters in length while measuring approximately 0.5 cm in diameter.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-02",
+      "publication_date_source": "https://arxiv.org/abs/2611.02873v1",
+      "version_date": "2026-11-02T10:12:42+00:00"
+    },
+    {
+      "id": "2611.02869",
+      "version_id": "2611.02869v1",
+      "title": "Mapping rockfall hazard and detecting precursory damage in rock slopes with passive seismic: Lessons from the La Praz case-study",
+      "abstract": "Repeated passive seismic surveys were conducted over more than a decade on the unstable La Praz rock slope in Savoie, France, which involved an estimated rock volume of approximately 13,000--15,000 m${}^3$. The final survey took place two months before the complete collapse of the slope in August 2023. The amplitude of the Horizontal-to-Vertical Spectral Ratio at the peak frequency (*aHVSR(fp)*) was used to distinguish stable and unstable areas and identify fractures associated with significant mechanical decoupling. Rock compartments were also classified according to their rockfall hazard. The compartments most susceptible to failure exhibited the highest *aHVSR(fp)* values, ranging from 26 to 157, compared with values of 7.5--19 in intermediate-hazard areas and 2.7 in the adjacent stable rock mass. The main HVSR peak frequency (*fp*) exhibited distinct decreases of 15%, 14%, and 11% in three unstable rock compartments before the collapse. These reductions substantially exceeded the range of environmentally induced resonance-frequency fluctuations observed at the site and commonly reported in the literature as a limitation of this method. The frequency decreases were interpreted as indicators of progressive damage extending into the rock slope. Notably, these changes were detected exclusively in the three compartments identified as the most susceptible to failure, which also exhibited the highest *aHVSR(fp)* values. This study demonstrates, for the first time, the potential of passive seismic monitoring to reveal progressive in-depth damage within a complex, heterogeneous, and highly fractured rock slope. The findings highlight the value of combining HVSR amplitude and peak-frequency variations to characterize unstable rock compartments and identify potential precursors to catastrophic slope failure.",
+      "published": "2026-11-02T10:08:39Z",
+      "updated": "2026-11-02T10:08:39Z",
+      "authors": [
+        "Pierre Bottelin",
+        "Ombeline M{é}ric",
+        "Laurent Baillet",
+        "David Beniamine",
+        "Anne Lescurier"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.geo-ph"
+      ],
+      "url": "https://arxiv.org/abs/2611.02869",
+      "pdf": "https://arxiv.org/pdf/2611.02869v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-03T07:53:30.742448+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2611.02869v1",
+      "intro_en": "Repeated passive seismic surveys were conducted over more than a decade on the unstable La Praz rock slope in Savoie, France, which involved an estimated rock volume of approximately 13,000--15,000 m${}^3$. The final survey took place two months before the complete collapse of the slope in August 2023.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-02",
+      "publication_date_source": "https://arxiv.org/abs/2611.02869v1",
+      "version_date": "2026-11-02T10:08:39+00:00"
+    },
+    {
+      "id": "2611.02868",
+      "version_id": "2611.02868v1",
+      "title": "Characterizing landslide dynamics from time-lapse time domain induced polarization and ground-based imaging: a case study of the MontGombert landslide (French, Alps)",
+      "abstract": "Electrical resistivity tomography (ERT) is widely used to investigate landslide morphology and dynamics. Landslide behavior is strongly influenced by clay content, pore pressure, and the spatial distribution of permeability. However, conventional direct current (DC) resistivity methods have limited capacity to characterize permeability, as materials with low electrical resistivity may exhibit either high or low permeability depending on their clay content and the relative contributions of surface and electrolytic conduction. Induced polarization (IP) offers a valuable complementary approach for investigating the petrophysical properties of geological materials. Despite its potential, IP has been rarely applied to landslide studies and has not yet been widely used for landslide monitoring. This study investigates the added value of IP measurements alongside conventional DC resistivity for landslide characterization and monitoring. Three time-domain induced polarization (TDIP) surveys were conducted at different time steps on an active landslide in the French Alps. Time-lapse inversions of resistivity and chargeability were performed, and spectral IP parameters were derived using Debye decomposition. The results were then compared with surface displacement estimates obtained from optical image processing. The findings demonstrate that TDIP is particularly valuable for delineating unstable volumes within the landslide. The geophysical results show strong agreement with independent measurements from piezometers and inclinometers. Furthermore, applying an empirical relationship between IP parameters and permeability enables the spatial distribution of permeability within the landslide to be estimated, as well as its seasonal variations. Overall, this study highlights the potential of combining IP and DC resistivity measurements to improve the characterization of landslide properties and support the monitoring of their temporal evolution.",
+      "published": "2026-11-02T10:05:08Z",
+      "updated": "2026-11-02T10:05:08Z",
+      "authors": [
+        "Aurore Carrier",
+        "Ombeline Meric",
+        "Pierre Bottelin"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.geo-ph"
+      ],
+      "url": "https://arxiv.org/abs/2611.02868",
+      "pdf": "https://arxiv.org/pdf/2611.02868v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-03T07:53:30.742448+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "海冰与表层 · Ice & surface"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2611.02868v1",
+      "intro_en": "Electrical resistivity tomography (ERT) is widely used to investigate landslide morphology and dynamics. Landslide behavior is strongly influenced by clay content, pore pressure, and the spatial distribution of permeability.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-02",
+      "publication_date_source": "https://arxiv.org/abs/2611.02868v1",
+      "version_date": "2026-11-02T10:05:08+00:00"
+    },
+    {
+      "id": "2611.02863",
+      "version_id": "2611.02863v1",
+      "title": "Original Insights Into Rock Slope Damage Processes Until Collapse From Passive Seismic Monitoring",
+      "abstract": "We conducted passive seismic monitoring of the unstable La Praz rock slope (approximately 14,000 m${}^3$) in the French Alps over a period of more than 10 years. During the six months preceding collapse, we observed a pronounced 24% decrease in the slope's fundamental resonance frequency ((f\\_0)), indicating a reduction in the overall stiffness of the rock mass. Joint analysis of (f\\_0) variations and slope deformation revealed alternating phases dominated by sudden brittle damage and more ductile behavior, potentially involving sliding. Seismic monitoring identified damage processes that were either ambiguous or undetectable through surface deformation measurements alone, while also highlighting critical periods of intensified damage. Although some of these periods coincided with identifiable external triggers, such as intense rainfall events, others could not be clearly linked to external forcing. These findings demonstrate the potential of passive seismic monitoring to provide insights into the internal structural condition of unstable rock slopes at depth. Combining surface deformation measurements with seismic tracking of rock mass stiffness could therefore improve the identification and characterization of active slopes undergoing progressive damage, contributing to the development of more effective slope monitoring systems.",
+      "published": "2026-11-02T10:02:15Z",
+      "updated": "2026-11-02T10:02:15Z",
+      "authors": [
+        "P. Bottelin",
+        "L. Baillet"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.geo-ph"
+      ],
+      "url": "https://arxiv.org/abs/2611.02863",
+      "pdf": "https://arxiv.org/pdf/2611.02863v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-03T07:53:30.742448+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "海冰与表层 · Ice & surface"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2611.02863v1",
+      "intro_en": "We conducted passive seismic monitoring of the unstable La Praz rock slope (approximately 14,000 m${}^3$) in the French Alps over a period of more than 10 years. During the six months preceding collapse, we observed a pronounced 24% decrease in the slope's fundamental resonance frequency ((f\\_0)), indicating a reduction in the overall stiffness of the rock mass.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-02",
+      "publication_date_source": "https://arxiv.org/abs/2611.02863v1",
+      "version_date": "2026-11-02T10:02:15+00:00"
+    },
+    {
+      "id": "2611.02753",
+      "version_id": "2611.02753v1",
+      "title": "The colors of protoplanetary disks - Impact of nonspherical dust particles on the polarized and total intensity colors",
+      "abstract": "Dust properties in protoplanetary disks remain poorly understood despite their central role in planet formation. Recent studies based on analyses of scattered-light images and phase functions provide promising insights into dust characterization, but the phase function alone is insufficient to constrain dust properties. Degeneracies between dust remain a major obstacle to linking observations to realistic dust models. We investigate the behavior of the disk color as a function of dust. We used MCFOST to generate synthetic scattered-light images from the visible to the near-infrared, in total and polarized intensity. We considered compact spherical grains using, irregular particles and compact and fractal aggregates using optical properties from the AggScatVIR database. Disk colors were measured from these images. For aggregates larger than the wavelength, monomer size influences color, whereas aggregate size has little effect, especially at low fractal dimensions. Polarized color is more sensitive to dust properties than total intensity color, because it combines the wavelength dependences of scattered intensity and polarization degree. Effective medium theory is reliable only for compact aggregates with small monomers, becoming inaccurate for highly porous aggregates or larger monomers. Effective albedo helps predict disk colors, but radiative transfer is needed to account for multiple scattering. For HD 100546, red optical-to-near-infrared colors exclude compact grains and organic-rich compositions but are consistent with amorphous-carbon aggregates, compact or fractal, containing large monomers. These results show that combining color measurements with polarized scattering phase functions offers a promising way to break degeneracies between dust models. Applying this approach to larger disk samples could better constrain dust properties and evolution.",
+      "published": "2026-11-02T08:38:46Z",
+      "updated": "2026-11-02T08:38:46Z",
+      "authors": [
+        "Maxime Roumesy",
+        "Jie Ma",
+        "Ryo Tazaki",
+        "François Ménard",
+        "Gaspard Duchêne"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.SR",
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2611.02753",
+      "pdf": "https://arxiv.org/pdf/2611.02753v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-03T07:53:30.742448+00:00",
+      "version_changed": false,
+      "topics": [
+        "physics",
+        "evolution"
+      ],
+      "matches": {
+        "physics": [
+          "radiative transfer"
+        ],
+        "evolution": [
+          "planet formation"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：radiative transfer、planet formation",
+      "tags": [
+        "云与辐射 · Clouds & radiation"
+      ],
+      "method": "keyword",
+      "fit_score": 44,
+      "fit_matches": [
+        "行星大气与辐射"
+      ],
+      "institutions": [
+        "Univ. Grenoble Alpes, CNRS, IPAG, 38000 Grenoble, France",
+        "Department of Earth Science and Astronomy, The University of Tokyo, Tokyo 153-8902, Japan",
+        "Astronomy Department, University of California Berkeley, Berkeley CA 94720-3411, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "M. Roumesy",
+          "institutions": [
+            "Univ. Grenoble Alpes, CNRS, IPAG, 38000 Grenoble, France"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "J. Ma",
+          "institutions": [
+            "Univ. Grenoble Alpes, CNRS, IPAG, 38000 Grenoble, France"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "R. Tazaki",
+          "institutions": [
+            "Department of Earth Science and Astronomy, The University of Tokyo, Tokyo 153-8902, Japan"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "F. Ménard",
+          "institutions": [
+            "Univ. Grenoble Alpes, CNRS, IPAG, 38000 Grenoble, France"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "G. Duchêne",
+          "institutions": [
+            "Univ. Grenoble Alpes, CNRS, IPAG, 38000 Grenoble, France",
+            "Astronomy Department, University of California Berkeley, Berkeley CA 94720-3411, USA"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.02753v1",
+      "intro_en": "Dust properties in protoplanetary disks remain poorly understood despite their central role in planet formation. Recent studies based on analyses of scattered-light images and phase functions provide promising insights into dust characterization, but the phase function alone is insufficient to constrain dust properties.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-02",
+      "publication_date_source": "https://arxiv.org/abs/2611.02753v1",
+      "version_date": "2026-11-02T08:38:46+00:00"
+    },
+    {
+      "id": "2610.42016",
+      "version_id": "2610.42016v2",
+      "title": "Physics-Informed Latent Neural ODEs for Reduced-Order Modeling of Hydrogen, Ammonia, and Methane Combustion Kinetics",
+      "abstract": "Detailed chemical kinetic mechanisms are computationally expensive in reacting-flow simulations because of their high dimensionality and numerical stiffness. We develop an end-to-end physics-informed autoencoder neural ordinary differential equation (PI-AE-NODE) framework in which an encoder compresses the thermochemical state into a low-dimensional latent space, a Neural ODE advances it continuously in time, and a decoder reconstructs the temperature and all species mass fractions. Elemental conservation, mass conservation, and enthalpy consistency are embedded in the training objective. The framework is applied to H$_2$/air, NH$_3$/air, and CH$_4$/air autoignition using detailed mechanisms of increasing size and complexity, which are represented accurately with only a few latent variables. Compared with an otherwise identical data-driven model, the physical constraints improve ignition delay prediction and conservation behaviour. The models reproduce major and intermediate species evolution at both training and unseen conditions, and their latent dynamics permit efficient explicit integration, with the computational advantage over the detailed mechanisms increasing with mechanism size.",
+      "published": "2026-10-30T16:50:39Z",
+      "updated": "2026-11-02T13:51:09Z",
+      "authors": [
+        "Jay Patel",
+        "Shubhangi Bansude"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2610.42016",
+      "pdf": "https://arxiv.org/pdf/2610.42016v2",
+      "source": "arXiv",
+      "first_seen": "2026-11-03T07:53:30.742448+00:00",
+      "version_changed": false,
+      "topics": [
+        "methods"
+      ],
+      "matches": {
+        "methods": [
+          "reduced order",
+          "physics informed"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 20,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2610.42016v2",
+      "intro_en": "Detailed chemical kinetic mechanisms are computationally expensive in reacting-flow simulations because of their high dimensionality and numerical stiffness. We develop an end-to-end physics-informed autoencoder neural ordinary differential equation (PI-AE-NODE) framework in which an encoder compresses the thermochemical state into a low-dimensional latent space, a Neural ODE advances it continuously in time, and a decoder reconstructs the temperature and all species mass fractions.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-31",
+      "publication_date_source": "https://arxiv.org/abs/2610.42016v2",
+      "version_date": "2026-11-02T13:51:09+00:00"
+    },
     {
       "id": "2610.40641",
       "version_id": "2610.40641v1",
@@ -2395,6 +3932,106 @@
       "publication_date": "2026-10-29",
       "publication_date_source": "https://arxiv.org/abs/2610.39522v1",
       "version_date": "2026-10-29T07:19:33+00:00"
+    },
+    {
+      "id": "2610.37773",
+      "version_id": "2610.37773v2",
+      "title": "A double debris disc around a white dwarf sculpted by two planetary bodies",
+      "abstract": "Many planetary systems survive the metamorphosis of their hosts stars into white dwarfs, as demonstrated by the detection of dusty circumstellar discs around these stellar remnants as well as chemical signatures of planetary debris in atmospheres of these stars. A small fraction of these circumstellar discs also contain gas, detected in the form of emission lines from various ionic transitions (most commonly the near-infrared Ca ii triplet). All of the 21 known gas discs exhibit double-peaked line profile characteristic of a rotating flat disc. The mechanism behind the the generation of gas is still debated, but for at least one system it has been linked with the presence of a surviving planetesimal embedded within the dust disc. Here we report the discovery of WD J132800.85-145019.95, a new gas disc system which exhibits quadruple-peaked instead of double-peaked line profiles. These emission lines originate from two separate gaseous rings extending from 0.14 Rsun to 0.34 Rsun and from 0.54 Rsun to 1.93 Rsun. We propose that this structure results from the presence of two distinct planetary bodies within these discs, ranging in size from a few km to the size of Pluto. The detection this stable double-disc presents a new challenge for the current models of debris disc formation and evolution.",
+      "published": "2026-10-27T18:00:14Z",
+      "updated": "2026-11-02T15:26:26Z",
+      "authors": [
+        "Nicola Pietro Gentile Fusillo",
+        "Felipe Lagos-Vilches",
+        "Boris T. Gänsicke",
+        "Christopher J. Manser",
+        "Detlev Koester"
+      ],
+      "doi": "10.1038/s41550-026-03004-3",
+      "categories": [
+        "astro-ph.SR",
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2610.37773",
+      "pdf": "https://arxiv.org/pdf/2610.37773v2",
+      "source": "arXiv",
+      "first_seen": "2026-11-03T07:53:30.742448+00:00",
+      "version_changed": false,
+      "topics": [
+        "evolution"
+      ],
+      "matches": {
+        "evolution": [
+          "planetesimal"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：planetesimal",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 39,
+      "fit_matches": [
+        "行星轨道与演化"
+      ],
+      "institutions": [
+        "Dipartimento di Fisica, Universita‘ di Trieste, Trieste, Italy",
+        "INAF-Osservatorio Astronomico di Trieste, Trieste, Italy",
+        "Department of Physics, University of Warwick, Coventry, UK",
+        "Departamento de Física, Universidad Técnica Federico Santa María, Av. España 1680, Valparaíso, Chile",
+        "Centre for Exoplanets and Habitability, University of Warwick, Coventry, UK",
+        "Department of Physics, Astrophysics Group, Imperial College London, London, UK",
+        "Institut für Theoretische Physik und Astrophysik, University of Kiel, Kiel, Germany",
+        "nicolapietro.gentilefusillo@units.it"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Nicola Pietro Gentile Fusillo",
+          "institutions": [
+            "Dipartimento di Fisica, Universita‘ di Trieste, Trieste, Italy",
+            "INAF-Osservatorio Astronomico di Trieste, Trieste, Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Felipe Lagos-Vilches",
+          "institutions": [
+            "Department of Physics, University of Warwick, Coventry, UK",
+            "Departamento de Física, Universidad Técnica Federico Santa María, Av. España 1680, Valparaíso, Chile"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Boris T. Gänsicke",
+          "institutions": [
+            "Department of Physics, University of Warwick, Coventry, UK",
+            "Centre for Exoplanets and Habitability, University of Warwick, Coventry, UK"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Christopher J. Manser",
+          "institutions": [
+            "Department of Physics, Astrophysics Group, Imperial College London, London, UK"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Detlev Koester",
+          "institutions": [
+            "Institut für Theoretische Physik und Astrophysik, University of Kiel, Kiel, Germany"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2610.37773v2",
+      "intro_en": "Many planetary systems survive the metamorphosis of their hosts stars into white dwarfs, as demonstrated by the detection of dusty circumstellar discs around these stellar remnants as well as chemical signatures of planetary debris in atmospheres of these stars. A small fraction of these circumstellar discs also contain gas, detected in the form of emission lines from various ionic transitions (most commonly the near-infrared Ca ii triplet).",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-10-28",
+      "publication_date_source": "https://arxiv.org/abs/2610.37773v2",
+      "version_date": "2026-11-02T15:26:26+00:00"
     },
     {
       "id": "2610.37637",
@@ -31204,6 +32841,264 @@
       "version_date": "2026-09-30T16:01:03+00:00"
     },
     {
+      "id": "2609.35721",
+      "version_id": "2609.35721v2",
+      "title": "Correcting stellar contamination in transmission spectroscopy with contemporaneous monitoring: Application to GJ 1214 b",
+      "abstract": "Transmission spectroscopy is an essential tool for characterising the atmospheres of transiting exoplanets. However, stellar surface inhomogeneities contaminate transmission spectra, posing a major challenge to high-precision observations such as those from the James Webb Space Telescope (JWST). We develop and apply methods to correct for stellar contamination, improving the accuracy of exoplanet atmospheric characterisation. We obtained coordinated multi-band photometry and high-resolution spectroscopy around JWST observations of GJ 1214 b and applied two frameworks: (i) a StarSim inversion, which infers stellar activity parameters from the monitoring data and propagates them to corrections; and (ii) UnSPOTTER, in which neural networks trained on StarSim simulations learn the mapping from monitoring data to corrections. Both frameworks agree within uncertainties and indicate that the JWST observations of GJ 1214 occurred at a favourable rotation phase with low stellar contamination. For UnSPOTTER, the inferred corrections can be constrained at approximately 10-30 ppm across the JWST wavelength range, implying post-correction residuals of the same order. If the same system were observed near activity maximum, the predicted contamination would be strongly chromatic and affect atmospheric retrievals, highlighting the importance of coordinated monitoring and robust activity correction techniques. The two approaches are complementary but serve different roles. The inversion yields physically interpretable parameters and surface maps, whereas UnSPOTTER marginalises over surface-configuration degeneracies and provides tighter predictive corrections within its validated simulation domain. Our pipeline can potentially be generalised to other active stars: with multi-band and multi-technique monitoring around JWST visits, it can provide activity forecasts for scheduling and activity corrections.",
+      "published": "2026-09-28T17:48:12Z",
+      "updated": "2026-11-02T11:33:08Z",
+      "authors": [
+        "Ò. Porqueras-León",
+        "M. Perger",
+        "J. C. Morales",
+        "I. Ribas",
+        "J. Blanco-Pozo",
+        "H. Tabernero",
+        "E. Herrero",
+        "E. Pallé",
+        "H. Parviainen",
+        "F. Murgas",
+        "C. Rodríguez-López",
+        "P. H. Hauschildt",
+        "A. Schweitzer",
+        "N. -E. Nèmec",
+        "D. Baroch",
+        "N. R. C. Gomes",
+        "G. Anglada-Escudé",
+        "J. Aceituno",
+        "N. Narita",
+        "A. Fukui",
+        "M. Mori",
+        "Y. Smolyarova"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP",
+        "astro-ph.IM"
+      ],
+      "url": "https://arxiv.org/abs/2609.35721",
+      "pdf": "https://arxiv.org/pdf/2609.35721v2",
+      "source": "arXiv",
+      "first_seen": "2026-11-03T07:53:30.742448+00:00",
+      "version_changed": false,
+      "topics": [
+        "detection"
+      ],
+      "matches": {
+        "detection": [
+          "transmission spectra"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：transmission spectra",
+      "tags": [
+        "光谱与相曲线 · Spectra & phase curves",
+        "海冰与表层 · Ice & surface",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 43,
+      "fit_matches": [
+        "系外行星观测表征"
+      ],
+      "institutions": [
+        "Institut d’Estudis Espacials de Catalunya (IEEC), Edifici RDIT, Campus PMT-UPC, 08860 Castelldefels (Barcelona), Spain",
+        "Institut de Ciències de l’Espai (ICE, CSIC), Campus UAB, c/Can Magrans s/n, 08193 Bellaterra (Barcelona), Spain",
+        "Facultat de Física, Universitat de Barcelona (UB), Martí Franquès 1, 08028, Barcelona, Spain",
+        "Instituto de Astrofísica de Canarias (IAC), 38200 La Laguna, Tenerife, Spain",
+        "Departamento de Astrofísica, Universidad de La Laguna (ULL), 38206 La Laguna, Tenerife, Spain",
+        "Instituto de Astrofísica de Andalucía (IAA-CSIC), Glorieta de la Astronomía s/n, 18008 Granada, Spain",
+        "Hamburger Sternwarte, Gojenbergsweg 112, 21029 Hamburg, Germany",
+        "Centro Astronómico Hispano en Andalucía, Observatorio de Calar Alto, Sierra de los Filabres, 04550, Gérgal, Almería, Spain",
+        "Komaba Institute for Science, The University of Tokyo, 3-8-1 Komaba, Meguro, Tokyo 153-8902, Japan",
+        "Astrobiology Center, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan",
+        "National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan",
+        "Barcelona School of Economics (BSE), 08005 Barcelona, Spain"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Ò. Porqueras-León,",
+          "institutions": [
+            "Institut d’Estudis Espacials de Catalunya (IEEC), Edifici RDIT, Campus PMT-UPC, 08860 Castelldefels (Barcelona), Spain",
+            "Institut de Ciències de l’Espai (ICE, CSIC), Campus UAB, c/Can Magrans s/n, 08193 Bellaterra (Barcelona), Spain"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "M. Perger,",
+          "institutions": [
+            "Institut d’Estudis Espacials de Catalunya (IEEC), Edifici RDIT, Campus PMT-UPC, 08860 Castelldefels (Barcelona), Spain",
+            "Institut de Ciències de l’Espai (ICE, CSIC), Campus UAB, c/Can Magrans s/n, 08193 Bellaterra (Barcelona), Spain"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "J. C. Morales,",
+          "institutions": [
+            "Institut d’Estudis Espacials de Catalunya (IEEC), Edifici RDIT, Campus PMT-UPC, 08860 Castelldefels (Barcelona), Spain",
+            "Institut de Ciències de l’Espai (ICE, CSIC), Campus UAB, c/Can Magrans s/n, 08193 Bellaterra (Barcelona), Spain"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "I. Ribas,",
+          "institutions": [
+            "Institut d’Estudis Espacials de Catalunya (IEEC), Edifici RDIT, Campus PMT-UPC, 08860 Castelldefels (Barcelona), Spain",
+            "Institut de Ciències de l’Espai (ICE, CSIC), Campus UAB, c/Can Magrans s/n, 08193 Bellaterra (Barcelona), Spain"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "J. Blanco-Pozo,,",
+          "institutions": [
+            "Institut d’Estudis Espacials de Catalunya (IEEC), Edifici RDIT, Campus PMT-UPC, 08860 Castelldefels (Barcelona), Spain",
+            "Institut de Ciències de l’Espai (ICE, CSIC), Campus UAB, c/Can Magrans s/n, 08193 Bellaterra (Barcelona), Spain",
+            "Facultat de Física, Universitat de Barcelona (UB), Martí Franquès 1, 08028, Barcelona, Spain"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "H. Tabernero,",
+          "institutions": [
+            "Institut d’Estudis Espacials de Catalunya (IEEC), Edifici RDIT, Campus PMT-UPC, 08860 Castelldefels (Barcelona), Spain",
+            "Institut de Ciències de l’Espai (ICE, CSIC), Campus UAB, c/Can Magrans s/n, 08193 Bellaterra (Barcelona), Spain"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "E. Herrero",
+          "institutions": [
+            "Institut d’Estudis Espacials de Catalunya (IEEC), Edifici RDIT, Campus PMT-UPC, 08860 Castelldefels (Barcelona), Spain"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "E. Pallé,",
+          "institutions": [
+            "Instituto de Astrofísica de Canarias (IAC), 38200 La Laguna, Tenerife, Spain",
+            "Departamento de Astrofísica, Universidad de La Laguna (ULL), 38206 La Laguna, Tenerife, Spain"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "H. Parviainen,",
+          "institutions": [
+            "Instituto de Astrofísica de Canarias (IAC), 38200 La Laguna, Tenerife, Spain",
+            "Departamento de Astrofísica, Universidad de La Laguna (ULL), 38206 La Laguna, Tenerife, Spain"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "F. Murgas,",
+          "institutions": [
+            "Instituto de Astrofísica de Canarias (IAC), 38200 La Laguna, Tenerife, Spain",
+            "Departamento de Astrofísica, Universidad de La Laguna (ULL), 38206 La Laguna, Tenerife, Spain"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "C. Rodríguez-López",
+          "institutions": [
+            "Instituto de Astrofísica de Andalucía (IAA-CSIC), Glorieta de la Astronomía s/n, 18008 Granada, Spain"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "P. H. Hauschildt",
+          "institutions": [
+            "Hamburger Sternwarte, Gojenbergsweg 112, 21029 Hamburg, Germany"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "A. Schweitzer",
+          "institutions": [
+            "Hamburger Sternwarte, Gojenbergsweg 112, 21029 Hamburg, Germany"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "N.-E. Nèmec,",
+          "institutions": [
+            "Institut d’Estudis Espacials de Catalunya (IEEC), Edifici RDIT, Campus PMT-UPC, 08860 Castelldefels (Barcelona), Spain",
+            "Institut de Ciències de l’Espai (ICE, CSIC), Campus UAB, c/Can Magrans s/n, 08193 Bellaterra (Barcelona), Spain"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "D. Baroch",
+          "institutions": [
+            "Institut d’Estudis Espacials de Catalunya (IEEC), Edifici RDIT, Campus PMT-UPC, 08860 Castelldefels (Barcelona), Spain"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "N. R. C. Gomes,",
+          "institutions": [
+            "Institut d’Estudis Espacials de Catalunya (IEEC), Edifici RDIT, Campus PMT-UPC, 08860 Castelldefels (Barcelona), Spain",
+            "Institut de Ciències de l’Espai (ICE, CSIC), Campus UAB, c/Can Magrans s/n, 08193 Bellaterra (Barcelona), Spain"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "G. Anglada-Escudé,",
+          "institutions": [
+            "Institut d’Estudis Espacials de Catalunya (IEEC), Edifici RDIT, Campus PMT-UPC, 08860 Castelldefels (Barcelona), Spain",
+            "Institut de Ciències de l’Espai (ICE, CSIC), Campus UAB, c/Can Magrans s/n, 08193 Bellaterra (Barcelona), Spain"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "J. Aceituno",
+          "institutions": [
+            "Centro Astronómico Hispano en Andalucía, Observatorio de Calar Alto, Sierra de los Filabres, 04550, Gérgal, Almería, Spain"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "N. Narita,,",
+          "institutions": [
+            "Instituto de Astrofísica de Canarias (IAC), 38200 La Laguna, Tenerife, Spain",
+            "Komaba Institute for Science, The University of Tokyo, 3-8-1 Komaba, Meguro, Tokyo 153-8902, Japan",
+            "Astrobiology Center, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "A. Fukui,",
+          "institutions": [
+            "Instituto de Astrofísica de Canarias (IAC), 38200 La Laguna, Tenerife, Spain",
+            "Komaba Institute for Science, The University of Tokyo, 3-8-1 Komaba, Meguro, Tokyo 153-8902, Japan"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "M. Mori,",
+          "institutions": [
+            "Astrobiology Center, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan",
+            "National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Y. Smolyarova",
+          "institutions": [
+            "Barcelona School of Economics (BSE), 08005 Barcelona, Spain"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.35721v2",
+      "intro_en": "Transmission spectroscopy is an essential tool for characterising the atmospheres of transiting exoplanets. However, stellar surface inhomogeneities contaminate transmission spectra, posing a major challenge to high-precision observations such as those from the James Webb Space Telescope (JWST).",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-09-29",
+      "publication_date_source": "https://arxiv.org/abs/2609.35721v2",
+      "version_date": "2026-11-02T11:33:08+00:00"
+    },
+    {
       "id": "2609.28618",
       "version_id": "2609.28618v1",
       "title": "Just a Phase? Weakening Vertical Shear Instability Explains Class II Disk Morphologies: Simulations with dust coagulation, sedimentation, thermal relaxation, and backreaction",
@@ -41455,6 +43350,130 @@
       "version_date": "2026-10-01T04:59:59+00:00"
     },
     {
+      "id": "2608.31042",
+      "version_id": "2608.31042v3",
+      "title": "Feasibility of Capillary-Driven Orbital Liquid Mirror Telescopes",
+      "abstract": "Space-based liquid mirror telescopes (LMTs) have been recently proposed to overcome the scaling limits of traditional rigid mirrors. In these new space architectures, capillary forces would shape a reflective liquid into a spherical optical surface in microgravity. However, the equilibrium, stability, and dynamic behavior of such liquid interfaces remain largely uncharacterized under orbital perturbations. This study investigates the feasibility of space LMTs by combining axisymmetric capillary with thin-film models. Solar radiation pressure and self-gravitation are found to be the dominant perturbations in Sun--Earth L2 orbits, causing equilibrium deformations that exceed the $λ/20$ optical threshold at apertures above 0.86~m for visible ($λ= 380$~nm) and 1.58~m for near-infrared observatories ($λ= 2.5~μ\\mathrm{m}$). Micrometeoroid impacts self-heal within seconds to minutes, settling after filling requires years to decades at large apertures, and propulsive maneuvers breach optical limits within seconds to hours. These results highlight the need for interface control in large-scale systems such as NASA's 50~m Fluidic Telescope (FLUTE). Thermocapillary actuation supports apertures of 2.3/8.0~m (VIS/NIR) at $100~μ\\mathrm{K}$ and 10.6/37.7~m at $10~μ\\mathrm{K}$ resolution. Simultaneously, parasitic Marangoni flows impose sub-mK uniformity requirements for NIR and 1--$100~μ\\mathrm{K}$ for visible operation on any capillary LMT. Departing the capillary regime by imposing a surface-normal settling acceleration, ranging from 39~mm\\,s$^{-2}$ (NIR,5~m) to 17~m\\,s$^{-2}$ (VIS,50~m), is the most promising route to tens of meters in aperture. This approach enables a passive implementation, effectively suppressing perturbation induced interface distortions and thermal Marangoni flows. Keywords: Liquid mirror telescope, Optics, Space",
+      "published": "2026-08-31T16:20:03Z",
+      "updated": "2026-11-02T15:33:58Z",
+      "authors": [
+        "Janoah Dietrich",
+        "Álvaro Romero-Calvo"
+      ],
+      "doi": "10.1016/j.actaastro.2026.10.030",
+      "categories": [
+        "astro-ph.IM",
+        "physics.flu-dyn",
+        "physics.space-ph"
+      ],
+      "url": "https://arxiv.org/abs/2608.31042",
+      "pdf": "https://arxiv.org/pdf/2608.31042v3",
+      "source": "arXiv",
+      "first_seen": "2026-11-03T07:53:30.742448+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "海冰与表层 · Ice & surface"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Daniel Guggenheim School of Aerospace Engineering, Georgia Institute of Technology, 620 Cherry Street NW, Atlanta, 30332, United States"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Janoah Dietrich",
+          "institutions": [
+            "Daniel Guggenheim School of Aerospace Engineering, Georgia Institute of Technology, 620 Cherry Street NW, Atlanta, 30332, United States"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Álvaro Romero-Calvo",
+          "institutions": [
+            "Daniel Guggenheim School of Aerospace Engineering, Georgia Institute of Technology, 620 Cherry Street NW, Atlanta, 30332, United States"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2608.31042v3",
+      "intro_en": "Space-based liquid mirror telescopes (LMTs) have been recently proposed to overcome the scaling limits of traditional rigid mirrors. In these new space architectures, capillary forces would shape a reflective liquid into a spherical optical surface in microgravity.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-09-01",
+      "publication_date_source": "https://arxiv.org/abs/2608.31042v3",
+      "version_date": "2026-11-02T15:33:58+00:00"
+    },
+    {
+      "id": "2608.28756",
+      "version_id": "2608.28756v2",
+      "title": "Internal heating in rapidly rotating convection is not a shortcut to geostrophic turbulence",
+      "abstract": "Convective turbulence in planets and stars is often driven by internal heating. This forcing mechanism has also been proposed as a means of accessing the diffusion-free scalings of the geostrophic turbulence (GT) regime at modest forcing. We test this with the asymptotically reduced quasi-geostrophic model, which is formally valid in the limit of vanishing Ekman number, $Ek \\rightarrow 0$, and retains the Prandtl number as an independent parameter. We find no such shortcut: the Nusselt and Reynolds numbers are no closer to their diffusion-free predictions than in the boundary-heated case; the predicted $Pr^{-1/2}$ collapse fails over the range surveyed; and the prefactor depends on the form of the heating. Our no-slip/stress-free cases track the radiatively driven simulations of Hadjerci, Bouillaut, Miquel & Gallet (J. Fluid Mech., vol. 998, 2024, A9) case by case. Those simulations span only the narrow range of forcing over which the compensated Nusselt number is near its maximum within their geostrophic-turbulence criterion; across the wider range accessible to the reduced model it rises to that maximum and then falls by more than an order of magnitude while the flow remains rotationally constrained. We argue that bulk transport scalings are incomplete diagnostics of GT, whereas the saturation of the interior mean temperature gradient and of the vertical velocity kurtosis remain reliable indicators.",
+      "published": "2026-08-28T18:02:19Z",
+      "updated": "2026-11-02T17:10:25Z",
+      "authors": [
+        "Justin A. Nicoski",
+        "Tobias G. Oliver",
+        "Stefano Maffei",
+        "Michael A. Calkins"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn",
+        "astro-ph.EP",
+        "astro-ph.SR"
+      ],
+      "url": "https://arxiv.org/abs/2608.28756",
+      "pdf": "https://arxiv.org/pdf/2608.28756v2",
+      "source": "arXiv",
+      "first_seen": "2026-11-03T07:53:30.742448+00:00",
+      "version_changed": false,
+      "topics": [
+        "gfd",
+        "methods"
+      ],
+      "matches": {
+        "gfd": [
+          "rotating convection",
+          "quasi geostrophic",
+          "geostrophic",
+          "ekman"
+        ],
+        "methods": [
+          "turbulence"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：rotating convection、quasi geostrophic、geostrophic、ekman、turbulence",
+      "tags": [
+        "流体与不稳定性 · Fluid dynamics",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 30,
+      "fit_matches": [],
+      "author_affiliation_status": "unavailable",
+      "institutions": [
+        "\\aff1Department of Physics, University of Colorado, Boulder, Colorado 80309, USA \\aff2Institute of Geophysics, ETH Zurich, Sonneggstrasse 5, 8092 Zurich, Switzerland"
+      ],
+      "author_affiliations": [],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2608.28756v2",
+      "intro_en": "Convective turbulence in planets and stars is often driven by internal heating. This forcing mechanism has also been proposed as a means of accessing the diffusion-free scalings of the geostrophic turbulence (GT) regime at modest forcing.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-08-29",
+      "publication_date_source": "https://arxiv.org/abs/2608.28756v2",
+      "version_date": "2026-11-02T17:10:25+00:00"
+    },
+    {
       "id": "2608.21728",
       "version_id": "2608.21728v2",
       "title": "Propagating fronts of convection rolls in Rayleigh-Bénard convection",
@@ -42175,6 +44194,62 @@
       "version_date": "2026-10-26T15:42:28+00:00"
     },
     {
+      "id": "2607.15923",
+      "version_id": "2607.15923v2",
+      "title": "Extending dynamical mass measurements: probing GI as a possible origin of mm-dust spirals",
+      "abstract": "Constraining the total mass of protoplanetary disks is crucial to determine the availability of material for planet formation. Yet, providing accurate and precise measurements of the disk mass is challenging. Investigating the gas dynamics is a powerful, tracer-independent method to precisely characterize disk masses. By fitting the velocity rotation curves of different molecular tracers with an accurate model including the disk thermal stratification and self-gravity, we constrain the stellar masses, disk masses, and scale radii for the disks around HD 97048 and WaOph 6. We obtain $M_\\star=2.226 ^{+0.054}_{-0.049}\\ M_\\odot$, $M_\\mathrm{d}=0.3 ^{+0.055}_{-0.061}\\ M_\\odot$ and $R_\\mathrm{c}=172 ^{+24}_{-14}$ au for HD 97048, and $M_\\star=0.956\\ ^{+0.006}_{-0.006}\\ M_\\odot$, $M_\\mathrm{d}=0.21 ^{+0.045}_{-0.038}\\ M_\\odot$ and $R_\\mathrm{c}=647 ^{+193}_{-155}$ au for WaOph 6. We also measure the corresponding gas-to-dust and disk-to-star mass ratios. We efficiently extend the dynamical method to characterize embedded sources exhibiting features of absorption, for which a careful analysis is required to avoid biases in the retrieved velocity profiles. We prove the importance of including a beam smearing correction to the curves: if not, this observational effect can systematically bias the velocity profiles, altering the disk mass estimates up to $\\sim45\\%$. We provide comprehensive estimates of the systematic uncertainties on the best-fit parameters by bootstrapping over both the retrieved geometry and 2D thermal structure of the two disks: the overall uncertainty on the disk masses is $\\sim20\\%$. Finally, we investigate the connection between disk stability and the appearance of spiral morphologies in the mm continuum emission, by comparing the Toomre parameter of all dynamically weighed disks to date, showing that disks with mm-dust spirals have systematically lower values of Q.",
+      "published": "2026-07-17T13:05:21Z",
+      "updated": "2026-11-02T12:00:08Z",
+      "authors": [
+        "V. Pezzotta",
+        "S. Facchini",
+        "A. F. Izquierdo",
+        "G. Lodato",
+        "C. Longarini",
+        "J. Bae",
+        "M. Galloway-Sprietsma",
+        "C. Pinte",
+        "C. J. Law",
+        "T. Paneque-Carreño"
+      ],
+      "doi": "10.1051/0004-6361/202659268",
+      "categories": [
+        "astro-ph.EP",
+        "astro-ph.GA",
+        "astro-ph.SR"
+      ],
+      "url": "https://arxiv.org/abs/2607.15923",
+      "pdf": "https://arxiv.org/pdf/2607.15923v2",
+      "source": "arXiv",
+      "first_seen": "2026-11-03T07:53:30.742448+00:00",
+      "version_changed": false,
+      "topics": [
+        "evolution"
+      ],
+      "matches": {
+        "evolution": [
+          "planet formation"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：planet formation",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 31,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2607.15923v2",
+      "intro_en": "Constraining the total mass of protoplanetary disks is crucial to determine the availability of material for planet formation. Yet, providing accurate and precise measurements of the disk mass is challenging.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-07-17",
+      "publication_date_source": "https://arxiv.org/abs/2607.15923v2",
+      "version_date": "2026-11-02T12:00:08+00:00"
+    },
+    {
       "id": "2607.15087",
       "version_id": "2607.15087v2",
       "title": "Split Complex-Valued Physics-Informed Neural Networks for Forward and Inverse Nonlinear Partial Differential Equations",
@@ -42379,6 +44454,49 @@
       "publication_date_source": "https://arxiv.org/abs/2607.08130v2",
       "affiliation_source": "https://arxiv.org/html/2607.08130v2",
       "version_date": "2026-10-26T10:40:28+00:00"
+    },
+    {
+      "id": "2607.06746",
+      "version_id": "2607.06746v2",
+      "title": "Computational Fluid Dynamics and Discrete Dipole Approximation Applied to Predict Airborne Viruses Disinfection by Ultraviolet Irradiation",
+      "abstract": "Ultraviolet (UV) inactivation of airborne viruses involves coupled multiphysics and multiscale processes, yet UV scattering within virus-laden saliva droplets is commonly neglected. Here, for the first time we combine computational fluid dynamics (CFD) and the discrete dipole approximation (DDA) to investigate the influence of droplet-scale UV scattering on airborne virus inactivation. A benchmark CFD-DDA case study is developed and demonstrated that infected saliva droplets can exhibit highly non-uniform UV scattering under representative flow and irradiance conditions. This non-uniformity can substantially affect the predicted number of surviving viral copies, $N_s$ , indicating that UV scattering should be considered when modeling UV-based airborne disinfection systems. We systematically investigate the effect on $N_s$ by varying: the initially emitted saliva droplets diameter distribution, their number ($n(t = 0) = 10^3$ or $10^4$), volumetric airflow rate ($Q_v$ = 100, 150, or 200 $m^3/h$), droplet-wall interaction (stick vs escape), and coronavirus UV susceptibility constant (Z = 0.018 or 0.377 $m^2$/J). The simulations consider initially infected saliva droplets containing $7.4 \\times 10^8$ RNA copies/mL, with a viral capsid diameter of $d_{cap}$ = 100 nm, at an air temperature of 21 °C and relative humidity of 65%. UV irradiation is represented by a 10 W cylindrical UV-lamp (34.3 mW/$cm^2$). The DDA results further enable development of an extended virus-inactivation model based on the classical Chick-Watson law that accounts for UV scattering in both spherical and nonspherical infected droplets. The results highlight the importance of resolving local UV-droplet interactions in airborne virus disinfection models and demonstrate the potential of the coupled CFD-DDA approach for improving the design and performance of UV-based airborne disinfection systems.",
+      "published": "2026-07-07T19:25:14Z",
+      "updated": "2026-11-02T18:49:34Z",
+      "authors": [
+        "Talib Dbouk",
+        "Maxim Yurkin"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn",
+        "physics.comp-ph"
+      ],
+      "url": "https://arxiv.org/abs/2607.06746",
+      "pdf": "https://arxiv.org/pdf/2607.06746v2",
+      "source": "arXiv",
+      "first_seen": "2026-11-03T07:53:30.742448+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2607.06746v2",
+      "intro_en": "Ultraviolet (UV) inactivation of airborne viruses involves coupled multiphysics and multiscale processes, yet UV scattering within virus-laden saliva droplets is commonly neglected. Here, for the first time we combine computational fluid dynamics (CFD) and the discrete dipole approximation (DDA) to investigate the influence of droplet-scale UV scattering on airborne virus inactivation.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-07-08",
+      "publication_date_source": "https://arxiv.org/abs/2607.06746v2",
+      "version_date": "2026-11-02T18:49:34+00:00"
     },
     {
       "id": "2607.04955",
@@ -43630,6 +45748,121 @@
       "publication_date": "2026-05-12",
       "publication_date_source": "https://arxiv.org/abs/2605.11123v3",
       "version_date": "2026-10-29T11:46:01+00:00"
+    },
+    {
+      "id": "2605.07833",
+      "version_id": "2605.07833v2",
+      "title": "A New Global Chemical Equilibrium Code: Refractory Element Signatures in Super-Earths and Sub-Neptunes",
+      "abstract": "The atmospheres of super-Earths and sub-Neptunes can be strongly modified by chemical exchange with their molten interiors during long-lived magma ocean phases. Interpreting atmospheric observations requires fast models that self-consistently couple atmospheric chemistry to the composition of the planetary interior. We present an updated, CPU-based implementation of the global chemical equilibrium (GCE) framework from H. E. Schlichting & E. D. Young (2022), which computes the equilibrium composition of a coupled metal-silicate-gas system. The numerical solver has been improved using a gradient-based optimizer, reducing the computational cost of solving the chemical network by more than two orders of magnitude and enabling large parameter studies. We apply the framework to a large synthetic population of planets and explore the imprint of bulk refractory composition of Mg, Si, and Fe on atmospheric properties in the end member case that hydrogen dissolution increases unbound with pressure. We consider planets with different masses, thermal states, and volatile inventories. We find that the atmospheric mass fraction and atmospheric metal mass fraction are primarily controlled by the temperature at the atmosphere-magma ocean interface and the planetary water budget, while the accreted hydrogen mass fraction plays a minor role because most hydrogen dissolves into the interior. For planets that accreted water, the refractory ratios Mg/Si and Fe/Si strongly influence carbon partitioning between the gas, silicate, and metal phases, producing large variations in atmospheric metal mass fraction and C/O ratios. These results demonstrate that atmospheric compositions of sub-Neptunes depend sensitively on both the volatile inventory and the bulk composition of rocky material, providing new constraints for interpreting atmospheric observations. The new GCE code is open-source.",
+      "published": "2026-05-08T15:03:07Z",
+      "updated": "2026-11-02T10:58:30Z",
+      "authors": [
+        "Simon Grimm",
+        "Marie-Luise Steinmeyer",
+        "Aaron Werlen",
+        "Caroline Dorn",
+        "Hilke Schlichting",
+        "Edward D. Young"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP",
+        "astro-ph.IM"
+      ],
+      "url": "https://arxiv.org/abs/2605.07833",
+      "pdf": "https://arxiv.org/pdf/2605.07833v2",
+      "source": "arXiv",
+      "first_seen": "2026-11-03T07:53:30.742448+00:00",
+      "version_changed": false,
+      "topics": [
+        "planetary",
+        "chemistry",
+        "evolution"
+      ],
+      "matches": {
+        "planetary": [
+          "sub neptune"
+        ],
+        "chemistry": [
+          "atmospheric chemistry",
+          "chemical equilibrium",
+          "chemical network"
+        ],
+        "evolution": [
+          "magma ocean",
+          "planetary interior",
+          "volatile"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：sub neptune、atmospheric chemistry、chemical equilibrium、chemical network、magma ocean、planetary interior",
+      "tags": [
+        "岩浆与挥发分 · Magma & volatiles",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 52,
+      "fit_matches": [],
+      "institutions": [
+        "Institute for Particle Physics and Astrophysics, ETH Zurich, CH-8093 Zurich, Switzerland",
+        "Department of Astrophysics, University of Zurich, CH-8057 Zurich, Switzerland",
+        "Department of Earth, Planetary, and Space Sciences, University of California, Los Angeles, CA 90095, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Simon L. Grimm",
+          "institutions": [
+            "Institute for Particle Physics and Astrophysics, ETH Zurich, CH-8093 Zurich, Switzerland",
+            "Department of Astrophysics, University of Zurich, CH-8057 Zurich, Switzerland"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Marie-Luise Steinmeyer",
+          "institutions": [
+            "Institute for Particle Physics and Astrophysics, ETH Zurich, CH-8093 Zurich, Switzerland"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Aaron Werlen",
+          "institutions": [
+            "Institute for Particle Physics and Astrophysics, ETH Zurich, CH-8093 Zurich, Switzerland",
+            "Department of Earth, Planetary, and Space Sciences, University of California, Los Angeles, CA 90095, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Caroline Dorn",
+          "institutions": [
+            "Institute for Particle Physics and Astrophysics, ETH Zurich, CH-8093 Zurich, Switzerland"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Hilke E. Schlichting",
+          "institutions": [
+            "Department of Earth, Planetary, and Space Sciences, University of California, Los Angeles, CA 90095, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Edward D. Young",
+          "institutions": [
+            "Department of Earth, Planetary, and Space Sciences, University of California, Los Angeles, CA 90095, USA"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2605.07833v2",
+      "intro_en": "The atmospheres of super-Earths and sub-Neptunes can be strongly modified by chemical exchange with their molten interiors during long-lived magma ocean phases. Interpreting atmospheric observations requires fast models that self-consistently couple atmospheric chemistry to the composition of the planetary interior.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-05-08",
+      "publication_date_source": "https://arxiv.org/abs/2605.07833v2",
+      "version_date": "2026-11-02T10:58:30+00:00"
     },
     {
       "id": "2605.03997",
@@ -45115,6 +47348,79 @@
       "date_kind": "published",
       "announcement_type": "replace",
       "version_date": "2026-10-21T08:27:59+00:00"
+    },
+    {
+      "id": "2603.18622",
+      "version_id": "2603.18622v2",
+      "title": "Streamwise periodic solver to simulate turbulent flow in finned channels with uniform isothermal walls",
+      "abstract": "Assessment of the thermo-hydraulic performance of heat exchangers using computational fluid dynamics is a challenging task. The intricate geometries of a heat exchanger require a fine discretization of the flow passage, which consequently leads to high computational costs. A streamwise periodic flow model can significantly reduce this cost, particularly for heat exchangers featuring repeating structures. This manuscript presents the streamwise-periodic turbulent source terms for flows in channels with isothermal walls, along with the implementation of the corresponding periodic flow solver in the open-source CFD-Suite, SU2. The accuracy of the implemented solver was verified by comparing its predictions against those of a full fin array simulation for the test case of offset circular fins. The results show that the streamwise periodic flow solver accurately reproduces the solutions of the full array simulation under both laminar and turbulent flow conditions.",
+      "published": "2026-03-19T08:42:09Z",
+      "updated": "2026-11-02T10:03:10Z",
+      "authors": [
+        "Nitish Anand",
+        "Praharsh Pai Raikar",
+        "Carlo De Servi"
+      ],
+      "doi": "10.1016/j.compfluid.2026.107324",
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2603.18622",
+      "pdf": "https://arxiv.org/pdf/2603.18622v2",
+      "source": "arXiv",
+      "first_seen": "2026-11-03T07:53:30.742448+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Flemish Institute for Technological Research (VITO), Boertang 200, Mol, 3600, Belgium",
+        "EnergyVille, Thor Park 8310, Genk, 3600, Belgium",
+        "Delft University of Technology, Kluyverweg 1, Delft, 2629HS, The Netherlands"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Nitish Anand",
+          "institutions": [
+            "Flemish Institute for Technological Research (VITO), Boertang 200, Mol, 3600, Belgium",
+            "EnergyVille, Thor Park 8310, Genk, 3600, Belgium"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Praharsh Pai Raikar",
+          "institutions": [
+            "Flemish Institute for Technological Research (VITO), Boertang 200, Mol, 3600, Belgium",
+            "EnergyVille, Thor Park 8310, Genk, 3600, Belgium"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Carlo De Servi",
+          "institutions": [
+            "Flemish Institute for Technological Research (VITO), Boertang 200, Mol, 3600, Belgium",
+            "EnergyVille, Thor Park 8310, Genk, 3600, Belgium",
+            "Delft University of Technology, Kluyverweg 1, Delft, 2629HS, The Netherlands"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2603.18622v2",
+      "intro_en": "Assessment of the thermo-hydraulic performance of heat exchangers using computational fluid dynamics is a challenging task. The intricate geometries of a heat exchanger require a fine discretization of the flow passage, which consequently leads to high computational costs.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-03-19",
+      "publication_date_source": "https://arxiv.org/abs/2603.18622v2",
+      "version_date": "2026-11-02T10:03:10+00:00"
     },
     {
       "id": "2602.15472",
@@ -52094,6 +54400,61 @@
       "publication_date_source": "https://arxiv.org/abs/2409.19927v2",
       "affiliation_source": "https://arxiv.org/html/2409.19927v2",
       "version_date": "2026-10-22T02:46:59+00:00"
+    },
+    {
+      "id": "2310.19840",
+      "version_id": "2310.19840v2",
+      "title": "An Enhanced Spectral Boundary Integral Method for Modeling Highly Nonlinear Water Waves in Variable Depth",
+      "abstract": "This paper presents a new numerical model based on the highly nonlinear potential flow theory for simulating the propagation of water waves in variable depth. A new set of equations for estimating the surface vertical velocity is derived based on the boundary integral equation considering the water depth variability. A successive approximation scheme is also proposed in this study for calculating the surface vertical velocity. With the usage of Fast Fourier Transform, the model can be efficiently used for simulating highly nonlinear water waves on large spatiotemporal scale in a phase-resolving approach. The new model is comprehensively verified and validated through simulating a variety of nonlinear wave phenomenon including free propagating solitary wave, wave transformations over submerged bar, Bragg reflection over undulating bars, nonlinear evolution of Peregrine breather, obliquely propagating uniform waves and extreme waves in crossing random seas. Good agreements are achieved between the numerical simulations and laboratory measurements, indicating that the new model is sufficiently accurate. A discussion is presented on the accuracy and efficiency of the present model, which is compared with the Higher-Order Spectral method. The results show that the present model can be significantly more efficient at the same level of accuracy. It is suggested that the new model developed in the paper can be reliably used to simulate the nonlinear evolution of ocean waves in phase-resolving approach to shed light on the dynamics of nonlinear wave phenomenon taking place on a large spatiotemporal scale, which may be computationally expensive by using other existing methods.",
+      "published": "2023-10-30T07:43:30Z",
+      "updated": "2026-11-02T10:12:35Z",
+      "authors": [
+        "Jinghua Wang"
+      ],
+      "doi": "10.1016/j.jcp.2024.113525",
+      "categories": [
+        "physics.flu-dyn",
+        "physics.ao-ph"
+      ],
+      "url": "https://arxiv.org/abs/2310.19840",
+      "pdf": "https://arxiv.org/pdf/2310.19840v2",
+      "source": "arXiv",
+      "first_seen": "2026-11-03T07:53:30.742448+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "海冰与表层 · Ice & surface",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Department of Civil and Environmental Engineering, The Hong Kong Polytechnic University, Hong Kong",
+        "Shenzhen Research Institute, The Hong Kong Polytechnic University, Shenzhen, China"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Jinghua Wang",
+          "institutions": [
+            "Department of Civil and Environmental Engineering, The Hong Kong Polytechnic University, Hong Kong",
+            "Shenzhen Research Institute, The Hong Kong Polytechnic University, Shenzhen, China"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2310.19840v2",
+      "intro_en": "This paper presents a new numerical model based on the highly nonlinear potential flow theory for simulating the propagation of water waves in variable depth. A new set of equations for estimating the surface vertical velocity is derived based on the boundary integral equation considering the water depth variability.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2023-10-30",
+      "publication_date_source": "https://arxiv.org/abs/2310.19840v2",
+      "version_date": "2026-11-02T10:12:35+00:00"
     }
   ]
 }
