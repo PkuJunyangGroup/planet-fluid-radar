@@ -1,20 +1,103 @@
 {
-  "generated_at": "2026-11-02T20:16:11.036208+08:00",
+  "generated_at": "2026-11-03T10:06:20.555678+08:00",
   "sources": {
     "exoplanet.eu": {
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-11-02T20:16:11.036208+08:00",
-      "last_success": "2026-11-02T20:16:11.036208+08:00",
+      "last_attempt": "2026-11-03T10:06:20.555678+08:00",
+      "last_success": "2026-11-03T10:06:20.555678+08:00",
       "coverage_since": "2026-09-25",
       "pages_checked": 2,
-      "fetched": 12,
-      "retained": 0,
+      "fetched": 15,
+      "retained": 2,
       "method": "daily incremental bibliography page scan; candidate-only"
     }
   },
   "papers": [
+    {
+      "id": "exoplanet-bib:33357",
+      "version_id": "exoplanet-bib:33357",
+      "exoplanet_id": "33357",
+      "title": "Evolution of a hypothetical planetesimal disk in the HD 34445 planetary system",
+      "abstract": "",
+      "authors": [
+        "TERLUK A.",
+        "GARCIA R.",
+        "CORREO-OTTO J",
+        "GIL-HUTTON R."
+      ],
+      "source": "exoplanet.eu",
+      "source_group": "exoplanet bibliography",
+      "journal": "Icarus",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0019103526004355",
+      "doi": null,
+      "publication_date": "2026",
+      "published": "2026",
+      "publication_date_source": "Exoplanet.eu bibliography",
+      "date_kind": "bibliography",
+      "first_seen": "2026-11-03T10:06:20.555678+08:00",
+      "updated": "2026-11-02",
+      "metadata_source": "https://exoplanet.eu/bibliography/all/#publication_33357",
+      "affiliation_status": "unavailable",
+      "metadata_limited": true,
+      "categories": [],
+      "exoplanet_update_date": "2026-11-02",
+      "topics": [
+        "evolution"
+      ],
+      "matches": {
+        "evolution": [
+          "planetesimal"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：planetesimal",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 39,
+      "fit_matches": [
+        "行星轨道与演化"
+      ]
+    },
+    {
+      "id": "exoplanet-bib:33356",
+      "version_id": "exoplanet-bib:33356",
+      "exoplanet_id": "33356",
+      "title": "Ferropericlase breakdown drives mantle weakening in super-Earths",
+      "abstract": "",
+      "authors": [],
+      "source": "exoplanet.eu",
+      "source_group": "exoplanet bibliography",
+      "journal": "",
+      "url": "https://doi.org/10.1038/s41467-026-79163-8",
+      "doi": "10.1038/s41467-026-79163-8",
+      "publication_date": "2026",
+      "published": "2026",
+      "publication_date_source": "Exoplanet.eu bibliography",
+      "date_kind": "bibliography",
+      "first_seen": "2026-11-03T10:06:20.555678+08:00",
+      "updated": "2026-11-02",
+      "metadata_source": "https://exoplanet.eu/bibliography/all/#publication_33356",
+      "affiliation_status": "unavailable",
+      "metadata_limited": true,
+      "categories": [],
+      "exoplanet_update_date": "2026-11-02",
+      "topics": [
+        "evolution"
+      ],
+      "matches": {
+        "evolution": [
+          "mantle"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：mantle",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 31,
+      "fit_matches": []
+    },
     {
       "id": "exoplanet-bib:33014",
       "version_id": "exoplanet-bib:33014",
