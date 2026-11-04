@@ -1346,6 +1346,24 @@
       "reason": "Data-integrity quarantine 2026-11-03: this newly fetched bibliography record contains a concatenation of numerous unrelated article titles, with no original abstract and only a year-level date. Its keyword score is therefore not meaningful. Quarantine only this malformed source record; this is not a scientific exclusion of the underlying Beta Pictoris paper or its independent arXiv version. Preserve the source archive and first_seen pending parser/source verification.",
       "reviewed_at": "2026-11-03",
       "source": "https://exoplanet.eu/bibliography/all/#publication_32999"
+    },
+    "2611.04976": {
+      "status": "excluded",
+      "reason": "Reading review 2026-11-04: Complete original abstract read on the official arXiv page: estimates debris-disc planetesimal sizes, collisional-cascade masses and hypothetical embedded stirrers from disc thickness. It does not establish a specific planetary atmosphere, interior, surface or planetary-system orbital mechanism. Exclude this disc-population study under the existing narrow scope, preserving the source archive, DOI relation and first_seen.",
+      "reviewed_at": "2026-11-04",
+      "source": "https://arxiv.org/abs/2611.04976v1"
+    },
+    "2611.04557": {
+      "status": "excluded",
+      "reason": "Reading review 2026-11-04: Complete original abstract read on the official arXiv page: measures hydrocarbons and carbon redistribution in the HOPS-68 protostellar disk wind and outflow cavity. Earth's carbon depletion is a possible implication, not a direct modeled planetary interior, atmosphere or surface result. Conservatively exclude this disk-chemistry study under the existing narrow scope, preserving source archive, DOI relation and first_seen.",
+      "reviewed_at": "2026-11-04",
+      "source": "https://arxiv.org/abs/2611.04557v1"
+    },
+    "doi:10.3847/1538-4357/aeb40e": {
+      "status": "excluded",
+      "reason": "Reading review 2026-11-04: Complete publisher-deposited original abstract read in the current source-backed catalog: models the Martian nightside ionosphere, suprathermal electron precipitation, ion chemistry and nonlocal plasma/heat transport. This is the explicitly excluded space-plasma/ionosphere scope, consistent with existing Martian plasma exclusions; the target is Mars, not Earth. Preserve the source archive and first_seen. Direct publisher/API web retrieval was unavailable during this review.",
+      "reviewed_at": "2026-11-04",
+      "source": "https://api.crossref.org/works/10.3847/1538-4357/aeb40e"
     }
   },
   "mechanisms": [
