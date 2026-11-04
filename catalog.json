@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T07:37:54.748446+00:00",
+  "generated_at": "2026-11-04T08:12:11.373347+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
@@ -260,12 +260,12 @@
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-11-04T15:28:48.654215+08:00",
-      "last_success": "2026-11-04T15:28:48.654215+08:00",
+      "last_attempt": "2026-11-04T16:10:39.088775+08:00",
+      "last_success": "2026-11-04T16:10:39.088775+08:00",
       "coverage_since": "2026-09-25",
       "pages_checked": 2,
-      "fetched": 5,
-      "retained": 1,
+      "fetched": 1,
+      "retained": 0,
       "method": "daily incremental bibliography page scan; candidate-only"
     }
   },
@@ -1054,245 +1054,6 @@
   ],
   "repository": "https://github.com/PkuJunyangGroup/planet-fluid-radar",
   "papers": [
-    {
-      "id": "2611.04976",
-      "version_id": "2611.04976v1",
-      "title": "The ALMA survey to Resolve exoKuiper belt Substructures (ARKS) XII. Constraints on large bodies embedded in discs",
-      "abstract": "The ALMA survey to Resolve exoKuiper belt Substructures (ARKS) presents detailed constraints on structure and properties of a sample of 24 debris discs at millimetre wavelengths, including measurements of vertical thicknesses for a subsample of discs. We estimated sizes and total masses of large bodies that feed collisional cascades producing the observed millimetre dust in 11 ARKS discs with a well constrained vertical thickness. Separately, we estimated the sizes and total masses of large bodies that could be gravitationally stirring these discs, assuming that such stirring is the origin of the vertical thickness. We used a semi-analytic particle-in-a-box collisional model and a semi-analytic model of stirring through gravitational scattering. We accounted for the dependence of collisional damping efficiency on the average collision velocity. We find that planetesimals feeding the collisional cascades are less than 20 km in size, while the total masses in the planetesimals are lower than 200 M$_\\oplus$. There is a good agreement between minimum disc masses inferred from millimetre and infrared observations. The hypothetical stirrers are always larger in size than the planetesimals, but they do not necessarily contain most of the disc mass. In agreement with previous work, the observed dust masses can be explained by steady-state collisional models with reasonable disc masses. The measured vertical scale-heights can be explained by gravitational stirring from embedded large bodies of reasonable properties. However, more advanced models are needed to address the observed non-Gaussian vertical profiles, along with the dependence of disc scale-height on particle size and stellocentric distance.",
-      "published": "2026-11-03T14:31:03Z",
-      "updated": "2026-11-03T14:31:03Z",
-      "authors": [
-        "M. R. Jankovic",
-        "A. V. Krivov",
-        "T. D. Pearce",
-        "A. A. Sefilian",
-        "M. C. Wyatt",
-        "E. Chiang",
-        "C. del Burgo",
-        "Y. Han",
-        "J. Jovicic",
-        "S. Marino",
-        "B. Zawadzki",
-        "A. M. Hughes",
-        "T. Löhne",
-        "P. Luppe",
-        "J. P. Marshall",
-        "Th. Henning",
-        "H. E. Schlichting",
-        "S. Mac Manamon",
-        "N. Pawellek",
-        "D. J. Wilner"
-      ],
-      "doi": "10.1051/0004-6361/202660918",
-      "categories": [
-        "astro-ph.EP"
-      ],
-      "url": "https://arxiv.org/abs/2611.04976",
-      "pdf": "https://arxiv.org/pdf/2611.04976v1",
-      "source": "arXiv",
-      "first_seen": "2026-11-04T07:28:21.086175+00:00",
-      "version_changed": false,
-      "topics": [
-        "evolution"
-      ],
-      "matches": {
-        "evolution": [
-          "planetesimal"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：planetesimal",
-      "tags": [],
-      "method": "keyword",
-      "fit_score": 36,
-      "fit_matches": [
-        "理论机制与尺度关系"
-      ],
-      "author_affiliation_status": "unavailable",
-      "institutions": [
-        "Department of Physics, University of Warwick, Gibbet Hill Road, Coventry CV4 7AL, UK",
-        "Departamento de Astrofísica, Universidad de La Laguna, La Laguna, E-38200, Tenerife, Spain",
-        "Konkoly Observatory, HUN-REN Research Centre for Astronomy and Earth Sciences, MTA Centre of Excellence, Konkoly-Thege Miklós út 15-17, 1121 Budapest, Hungary",
-        "Institute of Physics Belgrade, University of Belgrade, Pregrevica 118, 11080 Belgrade, Serbia",
-        "Astrophysikalisches Institut und Universitätssternwarte, Friedrich-Schiller-Universität Jena, Schillergäßchen 2-3, 07745 Jena, Germany",
-        "School of Physics, Trinity College Dublin, the University of Dublin, College Green, Dublin 2, Ireland",
-        "Department of Astronomy and Steward Observatory, The University of Arizona, 933 North Cherry Ave, Tucson, AZ, 85721, USA",
-        "Institute of Astronomy, University of Cambridge, Madingley Road, Cambridge CB3 0HA, UK",
-        "Department of Astronomy, University of California, Berkeley, Berkeley, CA 94720-3411, USA",
-        "Instituto de Astrofísica de Canarias, Vía Láctea S/N, La Laguna, E-38200, Tenerife, Spain",
-        "Division of Geological and Planetary Sciences, California Institute of Technology, 1200 E. California Blvd., Pasadena, CA 91125, USA",
-        "Department of Astronomy, Faculty of Mathematics, University of Belgrade, Studentski trg 16, 11000 Belgrade, Serbia",
-        "Department of Physics and Astronomy, University of Exeter, Stocker Road, Exeter EX4 4QL, UK",
-        "Department of Astronomy, Van Vleck Observatory, Wesleyan University, 96 Foss Hill Dr., Middletown, CT, 06459, USA",
-        "Academia Sinica Institute of Astronomy and Astrophysics, 11F of AS/NTU Astronomy-Mathematics Building, No.1, Sect. 4, Roosevelt Rd, Taipei 106319, Taiwan.",
-        "Max-Planck-Insitut für Astronomie, Königstuhl 17, 69117 Heidelberg, Germany",
-        "Department of Earth, Planetary, and Space Sciences, The University of California, Los Angeles, 595 Charles E. Young Drive East, Los Angeles, CA 90095, USA",
-        "Institut für Astrophysik, Universität Wien, Türkenschanzstraße 17, 1180 Wien, Austria",
-        "Center for Astrophysics | Harvard & Smithsonian, 60 Garden St, Cambridge, MA 02138, USA"
-      ],
-      "author_affiliations": [],
-      "affiliation_status": "verified",
-      "affiliation_source": "https://arxiv.org/html/2611.04976v1",
-      "publication_date": "2026-11-03",
-      "publication_date_source": "https://arxiv.org/abs/2611.04976v1",
-      "version_date": "2026-11-03T14:31:03+00:00",
-      "variants": [
-        {
-          "id": "2611.04976",
-          "source": "arXiv",
-          "journal": null,
-          "journal_id": null,
-          "title": "The ALMA survey to Resolve exoKuiper belt Substructures (ARKS) XII. Constraints on large bodies embedded in discs",
-          "url": "https://arxiv.org/abs/2611.04976",
-          "doi": "10.1051/0004-6361/202660918",
-          "version_id": "2611.04976v1",
-          "first_seen": "2026-11-04T07:28:21.086175+00:00",
-          "publication_date": "2026-11-03",
-          "version_date": "2026-11-03T14:31:03+00:00",
-          "metadata_source": null,
-          "affiliation_source": "https://arxiv.org/html/2611.04976v1"
-        }
-      ],
-      "match_basis": [],
-      "source_types": [
-        "arXiv"
-      ],
-      "journals": [],
-      "source_groups": [],
-      "intake_kind": "recent"
-    },
-    {
-      "id": "2611.04557",
-      "version_id": "2611.04557v1",
-      "title": "Up in smoke: carbon-destruction in the terrestrial planet-forming region of a young Class I disk",
-      "abstract": "Earth's surface and deep mantle are strongly depleted in carbon compared to the Sun. Sublimation of solid carbonaceous material in the inner midplanes of young disks could cause this depletion. We study such thermal processing in HOPS-68, a Class I protostar with a rich hydrocarbon spectrum. A companion paper has shown that it is recondensing refractory dust from a hot inner disk region, and that oxygen-bearing species are tracing a warm (300-500 K) molecular layer entrained in a disk-wind. In this work, we analyze the carbon species in the JWST spectrum of this source using local thermal equilibrium slab models. We detect warm (~400 K) HCN and C2H2 at the base of a disk wind, as well as colder (~40 K) C4H2, CH3, and CS in the outer disk or outflow cavity wall. Additionally, 13CCH2, CH4, and C6H2 are detected, while ALMA observations reveal C2H tracing the outflow cavity walls. We suggest that in a \"refractory carbon destruction zone\" in the inner disk, carbon-bearing species are released from the grains, possibly contributing to the observed carbon depletion of Earth. The disk wind then redistributes carbon carried by HCN and C2H2 from the inner disk to the colder outer disk, where UV-induced gas-phase reactions with C2H in the outflow cavity walls could produce the aliphatic carbon chains seen. This result implies that the Warm Carbon Chain Chemistry (WCCC, e.g. N. Sakai & S. Yamamoto 2013) might trace outflows rather than infall. The formation of aliphatic chains in the disk wind could promote the abundant aliphatic organics found in meteorites and asteroids.",
-      "published": "2026-11-03T09:23:54Z",
-      "updated": "2026-11-03T09:23:54Z",
-      "authors": [
-        "F. J. Ballieux",
-        "M. K. McClure",
-        "E. A. Bergin",
-        "M. L. R. Van 't Hoff",
-        "Ł. Tychoniec",
-        "L. Francis",
-        "E. F. Van Dishoeck"
-      ],
-      "doi": "10.3847/2041-8213/aebc81",
-      "categories": [
-        "astro-ph.SR",
-        "astro-ph.EP"
-      ],
-      "url": "https://arxiv.org/abs/2611.04557",
-      "pdf": "https://arxiv.org/pdf/2611.04557v1",
-      "source": "arXiv",
-      "first_seen": "2026-11-04T07:28:21.086175+00:00",
-      "version_changed": false,
-      "topics": [
-        "evolution"
-      ],
-      "matches": {
-        "evolution": [
-          "mantle"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：mantle",
-      "tags": [
-        "海冰与表层 · Ice & surface"
-      ],
-      "method": "keyword",
-      "fit_score": 38,
-      "fit_matches": [
-        "系外行星观测表征"
-      ],
-      "institutions": [
-        "Leiden Observatory, Leiden University, PO Box 9513, 2300 RA Leiden, The Netherlands",
-        "Department of Astronomy, University of Michigan, 1085 South University Avenue, Ann Arbor, MI 48109, USA",
-        "Purdue University, Department of Physics and Astronomy, 525 Northwestern Avenue, West Lafayette, IN 47907, USA",
-        "Max-Planck-Institut für Extraterrestrische Physik, Giessenbachstrasse 1, D-85748 Garching bei München, Germany"
-      ],
-      "author_affiliations": [
-        {
-          "name": "F.J. Ballieux",
-          "institutions": [
-            "Leiden Observatory, Leiden University, PO Box 9513, 2300 RA Leiden, The Netherlands"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "M.K. McClure",
-          "institutions": [
-            "Leiden Observatory, Leiden University, PO Box 9513, 2300 RA Leiden, The Netherlands"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "E.A. Bergin",
-          "institutions": [
-            "Department of Astronomy, University of Michigan, 1085 South University Avenue, Ann Arbor, MI 48109, USA"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "M.L.R. van ’t Hoff",
-          "institutions": [
-            "Purdue University, Department of Physics and Astronomy, 525 Northwestern Avenue, West Lafayette, IN 47907, USA"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "Ł. Tychoniec",
-          "institutions": [
-            "Leiden Observatory, Leiden University, PO Box 9513, 2300 RA Leiden, The Netherlands"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "L. Francis",
-          "institutions": [
-            "Leiden Observatory, Leiden University, PO Box 9513, 2300 RA Leiden, The Netherlands"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "E.F. Van Dishoeck",
-          "institutions": [
-            "Leiden Observatory, Leiden University, PO Box 9513, 2300 RA Leiden, The Netherlands",
-            "Max-Planck-Institut für Extraterrestrische Physik, Giessenbachstrasse 1, D-85748 Garching bei München, Germany"
-          ],
-          "orcid": null
-        }
-      ],
-      "affiliation_status": "verified",
-      "affiliation_source": "https://arxiv.org/html/2611.04557v1",
-      "publication_date": "2026-11-03",
-      "publication_date_source": "https://arxiv.org/abs/2611.04557v1",
-      "version_date": "2026-11-03T09:23:54+00:00",
-      "variants": [
-        {
-          "id": "2611.04557",
-          "source": "arXiv",
-          "journal": null,
-          "journal_id": null,
-          "title": "Up in smoke: carbon-destruction in the terrestrial planet-forming region of a young Class I disk",
-          "url": "https://arxiv.org/abs/2611.04557",
-          "doi": "10.3847/2041-8213/aebc81",
-          "version_id": "2611.04557v1",
-          "first_seen": "2026-11-04T07:28:21.086175+00:00",
-          "publication_date": "2026-11-03",
-          "version_date": "2026-11-03T09:23:54+00:00",
-          "metadata_source": null,
-          "affiliation_source": "https://arxiv.org/html/2611.04557v1"
-        }
-      ],
-      "match_basis": [],
-      "source_types": [
-        "arXiv"
-      ],
-      "journals": [],
-      "source_groups": [],
-      "intake_kind": "recent"
-    },
     {
       "id": "2611.04544",
       "version_id": "2611.04544v1",
@@ -31116,139 +30877,6 @@
       "intake_kind": "recent"
     },
     {
-      "id": "doi:10.3847/1538-4357/aeb40e",
-      "doi": "10.3847/1538-4357/aeb40e",
-      "version_id": "doi:10.3847/1538-4357/aeb40e",
-      "title": "Modeling the Nightside Martian Ionosphere: Structure, Composition, and Energetics",
-      "abstract": "Abstract The Mars Atmosphere and Volatile Evolution (MAVEN) mission has provided multi-instrument measurements of the Martian nightside ionosphere, yet a self-consistent interpretation of its structure, composition, and energetics remains lacking. Here we extend our previous dayside Martian ionosphere model to the deep-nightside conditions during the Deep Dip 6 (DD6) campaign, by self-consistently solving the continuity, momentum, and energy equations with the background atmospheric structure and suprathermal electron precipitation constrained by MAVEN observations. The model reproduces the representative DD6 electron and ion density distributions, supporting suprathermal electron precipitation as the primary source sustaining the deep-nightside ionosphere. A notable exception is NO + below 170 km, whose long chemical lifetime allows day-to-night plasma transport, neglected in the present one-dimensional model, to become important. Unlike the dayside, where HCO + behaves as a terminal ion, the nightside calculations reveal a distinct chemical regime in which reduced electron densities suppress dissociative recombination, allowing proton transfer to H 2 O to become the dominant HCO + loss pathway. The local heating processes are insufficient to reproduce the MAVEN-derived electron and ion temperatures. Additional nonlocal energy inputs are required and represented by downward conductive heat fluxes imposed at the upper boundary, reflecting thermal coupling of the nightside ionosphere to the hotter overlying plasma. These results demonstrate that while suprathermal electron precipitation largely controls the density and chemistry of the deep-nightside ionosphere, its detailed composition and thermal structure retain important signatures of nonlocal plasma and energy transport beyond the direct effects of electron precipitation.",
-      "authors": [
-        "Yanxing Liu",
-        "Shiqi Wu",
-        "Xiaoshu Wu",
-        "Yutian Cao",
-        "Jun Cui",
-        "Jianyang Li"
-      ],
-      "author_affiliations": [
-        {
-          "name": "Yanxing Liu",
-          "institutions": [
-            "Sun Yat-sen University"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "Shiqi Wu",
-          "institutions": [
-            "The University of Hong Kong"
-          ],
-          "orcid": "https://orcid.org/0009-0005-9607-1034"
-        },
-        {
-          "name": "Xiaoshu Wu",
-          "institutions": [
-            "Sun Yat-sen University",
-            "Beihang University"
-          ],
-          "orcid": "https://orcid.org/0000-0003-4070-2050"
-        },
-        {
-          "name": "Yutian Cao",
-          "institutions": [
-            "Hangzhou International Innovation Institute of Beihang University"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "Jun Cui",
-          "institutions": [
-            "Hangzhou International Innovation Institute of Beihang University"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "Jianyang Li",
-          "institutions": [
-            "Sun Yat-sen University"
-          ],
-          "orcid": "https://orcid.org/0000-0003-3841-9977"
-        }
-      ],
-      "institutions": [
-        "Sun Yat-sen University",
-        "The University of Hong Kong",
-        "Beihang University",
-        "Hangzhou International Innovation Institute of Beihang University"
-      ],
-      "affiliation_status": "verified",
-      "affiliation_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faeb40e",
-      "source": "journal",
-      "journal": "The Astrophysical Journal",
-      "journal_id": "1538-4357",
-      "source_group": "planet",
-      "categories": [],
-      "url": "https://doi.org/10.3847/1538-4357/aeb40e",
-      "published": "2026-11-03",
-      "publication_date": "2026-11-03",
-      "publication_date_source": "Crossref publisher metadata",
-      "date_kind": "journal",
-      "first_seen": "2026-11-04T07:28:52.885596+00:00",
-      "updated": "2026-11-03T08:29:00Z",
-      "metadata_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faeb40e",
-      "relations": {},
-      "metadata_limited": false,
-      "publication_dates": {
-        "published-online": "2026-11-03",
-        "published-print": "2026-11-10"
-      },
-      "topics": [
-        "evolution"
-      ],
-      "matches": {
-        "evolution": [
-          "volatile"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：volatile",
-      "tags": [
-        "水循环 · Water cycle",
-        "热输送 · Heat transport",
-        "岩浆与挥发分 · Magma & volatiles"
-      ],
-      "method": "keyword",
-      "fit_score": 31,
-      "fit_matches": [],
-      "variants": [
-        {
-          "id": "doi:10.3847/1538-4357/aeb40e",
-          "source": "journal",
-          "journal": "The Astrophysical Journal",
-          "journal_id": "1538-4357",
-          "title": "Modeling the Nightside Martian Ionosphere: Structure, Composition, and Energetics",
-          "url": "https://doi.org/10.3847/1538-4357/aeb40e",
-          "doi": "10.3847/1538-4357/aeb40e",
-          "version_id": "doi:10.3847/1538-4357/aeb40e",
-          "first_seen": "2026-11-04T07:28:52.885596+00:00",
-          "publication_date": "2026-11-03",
-          "version_date": null,
-          "metadata_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faeb40e",
-          "affiliation_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faeb40e"
-        }
-      ],
-      "match_basis": [],
-      "source_types": [
-        "journal"
-      ],
-      "journals": [
-        "The Astrophysical Journal"
-      ],
-      "source_groups": [
-        "planet"
-      ],
-      "intake_kind": "recent"
-    },
-    {
       "id": "exoplanet-bib:33128",
       "version_id": "exoplanet-bib:33128",
       "exoplanet_id": "33128",
@@ -33046,14 +32674,11 @@
   "merged_count": 23,
   "daily_brief": {
     "date": "2026-11-04",
-    "built_at": "2026-11-04T07:37:54.748522+00:00",
+    "built_at": "2026-11-04T08:12:11.373455+00:00",
     "review_basis": "Automated rule screening; reading review is recorded separately.",
-    "new_count": 4,
+    "new_count": 1,
     "recent_ids": [
-      "2611.04976",
-      "2611.04557",
-      "doi:10.3847/1538-4357/aeb2eb",
-      "doi:10.3847/1538-4357/aeb40e"
+      "doi:10.3847/1538-4357/aeb2eb"
     ],
     "older_ids": [],
     "updated_ids": [],
