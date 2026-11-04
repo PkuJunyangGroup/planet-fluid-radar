@@ -1,20 +1,81 @@
 {
-  "generated_at": "2026-11-03T20:16:06.942772+08:00",
+  "generated_at": "2026-11-04T15:28:48.654215+08:00",
   "sources": {
     "exoplanet.eu": {
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-11-03T20:16:06.942772+08:00",
-      "last_success": "2026-11-03T20:16:06.942772+08:00",
+      "last_attempt": "2026-11-04T15:28:48.654215+08:00",
+      "last_success": "2026-11-04T15:28:48.654215+08:00",
       "coverage_since": "2026-09-25",
       "pages_checked": 2,
-      "fetched": 2,
+      "fetched": 5,
       "retained": 1,
       "method": "daily incremental bibliography page scan; candidate-only"
     }
   },
   "papers": [
+    {
+      "id": "exoplanet-bib:33360",
+      "version_id": "exoplanet-bib:33360",
+      "exoplanet_id": "33360",
+      "title": "Two Isolated Microlensing Events Near the Upper Shore of Einstein Desert Optical design and intensity interferometry simulations in support of the Kilometer Space Telescope The Hill sphere transits of Beta Pictoris c and the search for another 1981-like event Interpretability as a leakage detector: a case study in machine-learning-based exoplanet detection with TESS Evolution of a hypothetical planetesimal disk in the HD 34445 planetary system Ferropericlase breakdown drives mantle weakening in super-Earths Six New Eclipsing AM CVn Binaries from the Zwicky Transient Facility J0404+1112: A 3 hr Eclipsing White Dwarf-Brown Dwarf Probing Multiple Atmospheric Regimes Two Exciting High-redshift Galaxy Candidates Turn Out to Be Two Exciting Ultra-cool Brown Dwarfs A double debris disc around a white dwarf sculpted by two planetary bodies From Anoxic to Oxic Earth: Detectability of Atmospheric Biosignatures across Stellar Hosts with ELT/ANDES An end-to-end CNN search for ultra-short-period planets in TESS: from the blend ceiling to the independent validation of TOI-6662 b Starspot Activity and Third-body Perturbations in the Eclipsing Binary KIC 9451096 Characterization of the anisotropic dust activity of interstellar comet 3I/ATLAS An Updated Model for Epsilon Eridani b and Prospects for Imaging with the Roman Coronagraph POSEIDON III: The Aligned Orbit of the Hot Neptune Around the Hot Star WASP-195",
+      "abstract": "",
+      "authors": [
+        "QIAN Q.",
+        "ZANG W.",
+        "RYU Y.-H.",
+        "SUMI T.",
+        "UDALSKI A."
+      ],
+      "source": "exoplanet.eu",
+      "source_group": "exoplanet bibliography",
+      "journal": "AJ",
+      "url": "https://doi.org/10.1364/AO.421710",
+      "doi": "10.1364/AO.421710",
+      "publication_date": "2026",
+      "published": "2026",
+      "publication_date_source": "Exoplanet.eu bibliography",
+      "date_kind": "bibliography",
+      "first_seen": "2026-11-04T15:28:48.654215+08:00",
+      "updated": "2026-11-03",
+      "metadata_source": "https://exoplanet.eu/bibliography/all/#publication_33360",
+      "affiliation_status": "unavailable",
+      "metadata_limited": true,
+      "categories": [],
+      "exoplanet_update_date": "2026-11-03",
+      "relations": {
+        "preprint": [
+          {
+            "id": "https://arxiv.org/abs/2610.40346"
+          }
+        ]
+      },
+      "arxiv_id": "2610.40346",
+      "topics": [
+        "detection",
+        "evolution"
+      ],
+      "matches": {
+        "detection": [
+          "biosignature"
+        ],
+        "evolution": [
+          "planetesimal",
+          "mantle"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：biosignature、planetesimal、mantle",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 48,
+      "fit_matches": [
+        "行星轨道与演化"
+      ]
+    },
     {
       "id": "exoplanet-bib:32999",
       "version_id": "exoplanet-bib:32999",

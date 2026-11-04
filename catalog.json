@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-03T12:17:12.294107+00:00",
+  "generated_at": "2026-11-04T07:37:54.748446+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
-      "last_attempt": "2026-11-03T07:53:30.742448+00:00",
-      "last_success": "2026-11-03T07:53:30.742448+00:00",
-      "status": "ok",
-      "fetched": 12
-    },
-    "physics.ao-ph": {
-      "last_attempt": "2026-11-03T07:53:30.742448+00:00",
-      "last_success": "2026-11-03T07:53:30.742448+00:00",
-      "status": "ok",
-      "fetched": 3
-    },
-    "physics.geo-ph": {
-      "last_attempt": "2026-11-03T07:53:30.742448+00:00",
-      "last_success": "2026-11-03T07:53:30.742448+00:00",
+      "last_attempt": "2026-11-04T07:28:21.086175+00:00",
+      "last_success": "2026-11-04T07:28:21.086175+00:00",
       "status": "ok",
       "fetched": 8
     },
-    "physics.flu-dyn": {
-      "last_attempt": "2026-11-03T07:53:30.742448+00:00",
-      "last_success": "2026-11-03T07:53:30.742448+00:00",
+    "physics.ao-ph": {
+      "last_attempt": "2026-11-04T07:28:21.086175+00:00",
+      "last_success": "2026-11-04T07:28:21.086175+00:00",
       "status": "ok",
-      "fetched": 11
+      "fetched": 4
+    },
+    "physics.geo-ph": {
+      "last_attempt": "2026-11-04T07:28:21.086175+00:00",
+      "last_success": "2026-11-04T07:28:21.086175+00:00",
+      "status": "ok",
+      "fetched": 3
+    },
+    "physics.flu-dyn": {
+      "last_attempt": "2026-11-04T07:28:21.086175+00:00",
+      "last_success": "2026-11-04T07:28:21.086175+00:00",
+      "status": "ok",
+      "fetched": 13
     },
     "journal:1476-4687": {
       "name": "Nature",
       "status": "ok",
-      "last_attempt": "2026-11-03T07:54:00.214354+00:00",
-      "last_success": "2026-11-03T07:54:00.214354+00:00",
-      "fetched": 22,
+      "last_attempt": "2026-11-04T07:28:52.885596+00:00",
+      "last_success": "2026-11-04T07:28:52.885596+00:00",
+      "fetched": 39,
       "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
@@ -39,8 +39,8 @@
     "journal:1095-9203": {
       "name": "Science",
       "status": "ok",
-      "last_attempt": "2026-11-03T07:54:00.214354+00:00",
-      "last_success": "2026-11-03T07:54:00.214354+00:00",
+      "last_attempt": "2026-11-04T07:28:52.885596+00:00",
+      "last_success": "2026-11-04T07:28:52.885596+00:00",
       "fetched": 0,
       "retained": 0,
       "method": "Crossref publisher metadata",
@@ -49,18 +49,18 @@
     "journal:1091-6490": {
       "name": "PNAS",
       "status": "ok",
-      "last_attempt": "2026-11-03T07:54:00.214354+00:00",
-      "last_success": "2026-11-03T07:54:00.214354+00:00",
-      "fetched": 38,
-      "retained": 1,
+      "last_attempt": "2026-11-04T07:28:52.885596+00:00",
+      "last_success": "2026-11-04T07:28:52.885596+00:00",
+      "fetched": 24,
+      "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1752-0908": {
       "name": "Nature Geoscience",
       "status": "ok",
-      "last_attempt": "2026-11-03T07:54:00.214354+00:00",
-      "last_success": "2026-11-03T07:54:00.214354+00:00",
+      "last_attempt": "2026-11-04T07:28:52.885596+00:00",
+      "last_success": "2026-11-04T07:28:52.885596+00:00",
       "fetched": 0,
       "retained": 0,
       "method": "Crossref publisher metadata",
@@ -69,9 +69,9 @@
     "journal:2397-3366": {
       "name": "Nature Astronomy",
       "status": "ok",
-      "last_attempt": "2026-11-03T07:54:00.214354+00:00",
-      "last_success": "2026-11-03T07:54:00.214354+00:00",
-      "fetched": 2,
+      "last_attempt": "2026-11-04T07:28:52.885596+00:00",
+      "last_success": "2026-11-04T07:28:52.885596+00:00",
+      "fetched": 0,
       "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-07-26"
@@ -79,40 +79,40 @@
     "journal:1758-6798": {
       "name": "Nature Climate Change",
       "status": "ok",
-      "last_attempt": "2026-11-03T07:54:00.214354+00:00",
-      "last_success": "2026-11-03T07:54:00.214354+00:00",
-      "fetched": 1,
-      "retained": 0,
+      "last_attempt": "2026-11-04T07:28:52.885596+00:00",
+      "last_success": "2026-11-04T07:28:52.885596+00:00",
+      "fetched": 28,
+      "retained": 1,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-07-26"
     },
     "journal:1520-0469": {
       "name": "Journal of the Atmospheric Sciences",
       "status": "ok",
-      "last_attempt": "2026-11-03T07:54:00.214354+00:00",
-      "last_success": "2026-11-03T07:54:00.214354+00:00",
-      "fetched": 1,
-      "retained": 0,
+      "last_attempt": "2026-11-04T07:28:52.885596+00:00",
+      "last_success": "2026-11-04T07:28:52.885596+00:00",
+      "fetched": 12,
+      "retained": 9,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1680-7324": {
       "name": "Atmospheric Chemistry and Physics",
       "status": "ok",
-      "last_attempt": "2026-11-03T07:54:00.214354+00:00",
-      "last_success": "2026-11-03T07:54:00.214354+00:00",
-      "fetched": 24,
-      "retained": 14,
+      "last_attempt": "2026-11-04T07:28:52.885596+00:00",
+      "last_success": "2026-11-04T07:28:52.885596+00:00",
+      "fetched": 20,
+      "retained": 13,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:2169-8996": {
       "name": "Journal of Geophysical Research: Atmospheres",
       "status": "ok",
-      "last_attempt": "2026-11-03T07:54:00.214354+00:00",
-      "last_success": "2026-11-03T07:54:00.214354+00:00",
+      "last_attempt": "2026-11-04T07:28:52.885596+00:00",
+      "last_success": "2026-11-04T07:28:52.885596+00:00",
       "fetched": 3,
-      "retained": 0,
+      "retained": 2,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
@@ -159,19 +159,19 @@
     "journal:1520-0442": {
       "name": "Journal of Climate",
       "status": "ok",
-      "last_attempt": "2026-11-03T07:54:00.214354+00:00",
-      "last_success": "2026-11-03T07:54:00.214354+00:00",
-      "fetched": 15,
-      "retained": 13,
+      "last_attempt": "2026-11-04T07:28:52.885596+00:00",
+      "last_success": "2026-11-04T07:28:52.885596+00:00",
+      "fetched": 39,
+      "retained": 35,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1432-0894": {
       "name": "Climate Dynamics",
       "status": "ok",
-      "last_attempt": "2026-11-03T07:54:00.214354+00:00",
-      "last_success": "2026-11-03T07:54:00.214354+00:00",
-      "fetched": 2,
+      "last_attempt": "2026-11-04T07:28:52.885596+00:00",
+      "last_success": "2026-11-04T07:28:52.885596+00:00",
+      "fetched": 0,
       "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
@@ -179,8 +179,8 @@
     "journal:1814-9332": {
       "name": "Climate of the Past",
       "status": "ok",
-      "last_attempt": "2026-11-03T07:54:00.214354+00:00",
-      "last_success": "2026-11-03T07:54:00.214354+00:00",
+      "last_attempt": "2026-11-04T07:28:52.885596+00:00",
+      "last_success": "2026-11-04T07:28:52.885596+00:00",
       "fetched": 0,
       "retained": 0,
       "method": "Crossref publisher metadata",
@@ -189,19 +189,19 @@
     "journal:1477-870X": {
       "name": "Quarterly Journal of the Royal Meteorological Society",
       "status": "ok",
-      "last_attempt": "2026-11-03T07:54:00.214354+00:00",
-      "last_success": "2026-11-03T07:54:00.214354+00:00",
-      "fetched": 0,
-      "retained": 0,
+      "last_attempt": "2026-11-04T07:28:52.885596+00:00",
+      "last_success": "2026-11-04T07:28:52.885596+00:00",
+      "fetched": 88,
+      "retained": 1,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1557-8070": {
       "name": "Astrobiology",
       "status": "ok",
-      "last_attempt": "2026-11-03T07:54:00.214354+00:00",
-      "last_success": "2026-11-03T07:54:00.214354+00:00",
-      "fetched": 11,
+      "last_attempt": "2026-11-04T07:28:52.885596+00:00",
+      "last_success": "2026-11-04T07:28:52.885596+00:00",
+      "fetched": 9,
       "retained": 5,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-07-26"
@@ -209,39 +209,39 @@
     "journal:1944-8007": {
       "name": "Geophysical Research Letters",
       "status": "ok",
-      "last_attempt": "2026-11-03T07:54:00.214354+00:00",
-      "last_success": "2026-11-03T07:54:00.214354+00:00",
-      "fetched": 115,
-      "retained": 48,
+      "last_attempt": "2026-11-04T07:28:52.885596+00:00",
+      "last_success": "2026-11-04T07:28:52.885596+00:00",
+      "fetched": 5,
+      "retained": 2,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:2169-9100": {
       "name": "Journal of Geophysical Research: Planets",
       "status": "ok",
-      "last_attempt": "2026-11-03T07:54:00.214354+00:00",
-      "last_success": "2026-11-03T07:54:00.214354+00:00",
-      "fetched": 1,
-      "retained": 0,
+      "last_attempt": "2026-11-04T07:28:52.885596+00:00",
+      "last_success": "2026-11-04T07:28:52.885596+00:00",
+      "fetched": 108,
+      "retained": 59,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1538-4357": {
       "name": "The Astrophysical Journal",
       "status": "ok",
-      "last_attempt": "2026-11-03T07:54:00.214354+00:00",
-      "last_success": "2026-11-03T07:54:00.214354+00:00",
-      "fetched": 24,
-      "retained": 2,
+      "last_attempt": "2026-11-04T07:28:52.885596+00:00",
+      "last_success": "2026-11-04T07:28:52.885596+00:00",
+      "fetched": 42,
+      "retained": 8,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:2041-8213": {
       "name": "The Astrophysical Journal Letters",
       "status": "ok",
-      "last_attempt": "2026-11-03T07:54:00.214354+00:00",
-      "last_success": "2026-11-03T07:54:00.214354+00:00",
-      "fetched": 2,
+      "last_attempt": "2026-11-04T07:28:52.885596+00:00",
+      "last_success": "2026-11-04T07:28:52.885596+00:00",
+      "fetched": 6,
       "retained": 1,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
@@ -249,10 +249,10 @@
     "journal:0012-821X": {
       "name": "Earth and Planetary Science Letters",
       "status": "ok",
-      "last_attempt": "2026-11-03T07:54:00.214354+00:00",
-      "last_success": "2026-11-03T07:54:00.214354+00:00",
-      "fetched": 4,
-      "retained": 1,
+      "last_attempt": "2026-11-04T07:28:52.885596+00:00",
+      "last_success": "2026-11-04T07:28:52.885596+00:00",
+      "fetched": 1,
+      "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
@@ -260,11 +260,11 @@
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-11-03T20:16:06.942772+08:00",
-      "last_success": "2026-11-03T20:16:06.942772+08:00",
+      "last_attempt": "2026-11-04T15:28:48.654215+08:00",
+      "last_success": "2026-11-04T15:28:48.654215+08:00",
       "coverage_since": "2026-09-25",
       "pages_checked": 2,
-      "fetched": 2,
+      "fetched": 5,
       "retained": 1,
       "method": "daily incremental bibliography page scan; candidate-only"
     }
@@ -1054,6 +1054,531 @@
   ],
   "repository": "https://github.com/PkuJunyangGroup/planet-fluid-radar",
   "papers": [
+    {
+      "id": "2611.04976",
+      "version_id": "2611.04976v1",
+      "title": "The ALMA survey to Resolve exoKuiper belt Substructures (ARKS) XII. Constraints on large bodies embedded in discs",
+      "abstract": "The ALMA survey to Resolve exoKuiper belt Substructures (ARKS) presents detailed constraints on structure and properties of a sample of 24 debris discs at millimetre wavelengths, including measurements of vertical thicknesses for a subsample of discs. We estimated sizes and total masses of large bodies that feed collisional cascades producing the observed millimetre dust in 11 ARKS discs with a well constrained vertical thickness. Separately, we estimated the sizes and total masses of large bodies that could be gravitationally stirring these discs, assuming that such stirring is the origin of the vertical thickness. We used a semi-analytic particle-in-a-box collisional model and a semi-analytic model of stirring through gravitational scattering. We accounted for the dependence of collisional damping efficiency on the average collision velocity. We find that planetesimals feeding the collisional cascades are less than 20 km in size, while the total masses in the planetesimals are lower than 200 M$_\\oplus$. There is a good agreement between minimum disc masses inferred from millimetre and infrared observations. The hypothetical stirrers are always larger in size than the planetesimals, but they do not necessarily contain most of the disc mass. In agreement with previous work, the observed dust masses can be explained by steady-state collisional models with reasonable disc masses. The measured vertical scale-heights can be explained by gravitational stirring from embedded large bodies of reasonable properties. However, more advanced models are needed to address the observed non-Gaussian vertical profiles, along with the dependence of disc scale-height on particle size and stellocentric distance.",
+      "published": "2026-11-03T14:31:03Z",
+      "updated": "2026-11-03T14:31:03Z",
+      "authors": [
+        "M. R. Jankovic",
+        "A. V. Krivov",
+        "T. D. Pearce",
+        "A. A. Sefilian",
+        "M. C. Wyatt",
+        "E. Chiang",
+        "C. del Burgo",
+        "Y. Han",
+        "J. Jovicic",
+        "S. Marino",
+        "B. Zawadzki",
+        "A. M. Hughes",
+        "T. Löhne",
+        "P. Luppe",
+        "J. P. Marshall",
+        "Th. Henning",
+        "H. E. Schlichting",
+        "S. Mac Manamon",
+        "N. Pawellek",
+        "D. J. Wilner"
+      ],
+      "doi": "10.1051/0004-6361/202660918",
+      "categories": [
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2611.04976",
+      "pdf": "https://arxiv.org/pdf/2611.04976v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-04T07:28:21.086175+00:00",
+      "version_changed": false,
+      "topics": [
+        "evolution"
+      ],
+      "matches": {
+        "evolution": [
+          "planetesimal"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：planetesimal",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 36,
+      "fit_matches": [
+        "理论机制与尺度关系"
+      ],
+      "author_affiliation_status": "unavailable",
+      "institutions": [
+        "Department of Physics, University of Warwick, Gibbet Hill Road, Coventry CV4 7AL, UK",
+        "Departamento de Astrofísica, Universidad de La Laguna, La Laguna, E-38200, Tenerife, Spain",
+        "Konkoly Observatory, HUN-REN Research Centre for Astronomy and Earth Sciences, MTA Centre of Excellence, Konkoly-Thege Miklós út 15-17, 1121 Budapest, Hungary",
+        "Institute of Physics Belgrade, University of Belgrade, Pregrevica 118, 11080 Belgrade, Serbia",
+        "Astrophysikalisches Institut und Universitätssternwarte, Friedrich-Schiller-Universität Jena, Schillergäßchen 2-3, 07745 Jena, Germany",
+        "School of Physics, Trinity College Dublin, the University of Dublin, College Green, Dublin 2, Ireland",
+        "Department of Astronomy and Steward Observatory, The University of Arizona, 933 North Cherry Ave, Tucson, AZ, 85721, USA",
+        "Institute of Astronomy, University of Cambridge, Madingley Road, Cambridge CB3 0HA, UK",
+        "Department of Astronomy, University of California, Berkeley, Berkeley, CA 94720-3411, USA",
+        "Instituto de Astrofísica de Canarias, Vía Láctea S/N, La Laguna, E-38200, Tenerife, Spain",
+        "Division of Geological and Planetary Sciences, California Institute of Technology, 1200 E. California Blvd., Pasadena, CA 91125, USA",
+        "Department of Astronomy, Faculty of Mathematics, University of Belgrade, Studentski trg 16, 11000 Belgrade, Serbia",
+        "Department of Physics and Astronomy, University of Exeter, Stocker Road, Exeter EX4 4QL, UK",
+        "Department of Astronomy, Van Vleck Observatory, Wesleyan University, 96 Foss Hill Dr., Middletown, CT, 06459, USA",
+        "Academia Sinica Institute of Astronomy and Astrophysics, 11F of AS/NTU Astronomy-Mathematics Building, No.1, Sect. 4, Roosevelt Rd, Taipei 106319, Taiwan.",
+        "Max-Planck-Insitut für Astronomie, Königstuhl 17, 69117 Heidelberg, Germany",
+        "Department of Earth, Planetary, and Space Sciences, The University of California, Los Angeles, 595 Charles E. Young Drive East, Los Angeles, CA 90095, USA",
+        "Institut für Astrophysik, Universität Wien, Türkenschanzstraße 17, 1180 Wien, Austria",
+        "Center for Astrophysics | Harvard & Smithsonian, 60 Garden St, Cambridge, MA 02138, USA"
+      ],
+      "author_affiliations": [],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.04976v1",
+      "publication_date": "2026-11-03",
+      "publication_date_source": "https://arxiv.org/abs/2611.04976v1",
+      "version_date": "2026-11-03T14:31:03+00:00",
+      "variants": [
+        {
+          "id": "2611.04976",
+          "source": "arXiv",
+          "journal": null,
+          "journal_id": null,
+          "title": "The ALMA survey to Resolve exoKuiper belt Substructures (ARKS) XII. Constraints on large bodies embedded in discs",
+          "url": "https://arxiv.org/abs/2611.04976",
+          "doi": "10.1051/0004-6361/202660918",
+          "version_id": "2611.04976v1",
+          "first_seen": "2026-11-04T07:28:21.086175+00:00",
+          "publication_date": "2026-11-03",
+          "version_date": "2026-11-03T14:31:03+00:00",
+          "metadata_source": null,
+          "affiliation_source": "https://arxiv.org/html/2611.04976v1"
+        }
+      ],
+      "match_basis": [],
+      "source_types": [
+        "arXiv"
+      ],
+      "journals": [],
+      "source_groups": [],
+      "intake_kind": "recent"
+    },
+    {
+      "id": "2611.04557",
+      "version_id": "2611.04557v1",
+      "title": "Up in smoke: carbon-destruction in the terrestrial planet-forming region of a young Class I disk",
+      "abstract": "Earth's surface and deep mantle are strongly depleted in carbon compared to the Sun. Sublimation of solid carbonaceous material in the inner midplanes of young disks could cause this depletion. We study such thermal processing in HOPS-68, a Class I protostar with a rich hydrocarbon spectrum. A companion paper has shown that it is recondensing refractory dust from a hot inner disk region, and that oxygen-bearing species are tracing a warm (300-500 K) molecular layer entrained in a disk-wind. In this work, we analyze the carbon species in the JWST spectrum of this source using local thermal equilibrium slab models. We detect warm (~400 K) HCN and C2H2 at the base of a disk wind, as well as colder (~40 K) C4H2, CH3, and CS in the outer disk or outflow cavity wall. Additionally, 13CCH2, CH4, and C6H2 are detected, while ALMA observations reveal C2H tracing the outflow cavity walls. We suggest that in a \"refractory carbon destruction zone\" in the inner disk, carbon-bearing species are released from the grains, possibly contributing to the observed carbon depletion of Earth. The disk wind then redistributes carbon carried by HCN and C2H2 from the inner disk to the colder outer disk, where UV-induced gas-phase reactions with C2H in the outflow cavity walls could produce the aliphatic carbon chains seen. This result implies that the Warm Carbon Chain Chemistry (WCCC, e.g. N. Sakai & S. Yamamoto 2013) might trace outflows rather than infall. The formation of aliphatic chains in the disk wind could promote the abundant aliphatic organics found in meteorites and asteroids.",
+      "published": "2026-11-03T09:23:54Z",
+      "updated": "2026-11-03T09:23:54Z",
+      "authors": [
+        "F. J. Ballieux",
+        "M. K. McClure",
+        "E. A. Bergin",
+        "M. L. R. Van 't Hoff",
+        "Ł. Tychoniec",
+        "L. Francis",
+        "E. F. Van Dishoeck"
+      ],
+      "doi": "10.3847/2041-8213/aebc81",
+      "categories": [
+        "astro-ph.SR",
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2611.04557",
+      "pdf": "https://arxiv.org/pdf/2611.04557v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-04T07:28:21.086175+00:00",
+      "version_changed": false,
+      "topics": [
+        "evolution"
+      ],
+      "matches": {
+        "evolution": [
+          "mantle"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：mantle",
+      "tags": [
+        "海冰与表层 · Ice & surface"
+      ],
+      "method": "keyword",
+      "fit_score": 38,
+      "fit_matches": [
+        "系外行星观测表征"
+      ],
+      "institutions": [
+        "Leiden Observatory, Leiden University, PO Box 9513, 2300 RA Leiden, The Netherlands",
+        "Department of Astronomy, University of Michigan, 1085 South University Avenue, Ann Arbor, MI 48109, USA",
+        "Purdue University, Department of Physics and Astronomy, 525 Northwestern Avenue, West Lafayette, IN 47907, USA",
+        "Max-Planck-Institut für Extraterrestrische Physik, Giessenbachstrasse 1, D-85748 Garching bei München, Germany"
+      ],
+      "author_affiliations": [
+        {
+          "name": "F.J. Ballieux",
+          "institutions": [
+            "Leiden Observatory, Leiden University, PO Box 9513, 2300 RA Leiden, The Netherlands"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "M.K. McClure",
+          "institutions": [
+            "Leiden Observatory, Leiden University, PO Box 9513, 2300 RA Leiden, The Netherlands"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "E.A. Bergin",
+          "institutions": [
+            "Department of Astronomy, University of Michigan, 1085 South University Avenue, Ann Arbor, MI 48109, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "M.L.R. van ’t Hoff",
+          "institutions": [
+            "Purdue University, Department of Physics and Astronomy, 525 Northwestern Avenue, West Lafayette, IN 47907, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Ł. Tychoniec",
+          "institutions": [
+            "Leiden Observatory, Leiden University, PO Box 9513, 2300 RA Leiden, The Netherlands"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "L. Francis",
+          "institutions": [
+            "Leiden Observatory, Leiden University, PO Box 9513, 2300 RA Leiden, The Netherlands"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "E.F. Van Dishoeck",
+          "institutions": [
+            "Leiden Observatory, Leiden University, PO Box 9513, 2300 RA Leiden, The Netherlands",
+            "Max-Planck-Institut für Extraterrestrische Physik, Giessenbachstrasse 1, D-85748 Garching bei München, Germany"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.04557v1",
+      "publication_date": "2026-11-03",
+      "publication_date_source": "https://arxiv.org/abs/2611.04557v1",
+      "version_date": "2026-11-03T09:23:54+00:00",
+      "variants": [
+        {
+          "id": "2611.04557",
+          "source": "arXiv",
+          "journal": null,
+          "journal_id": null,
+          "title": "Up in smoke: carbon-destruction in the terrestrial planet-forming region of a young Class I disk",
+          "url": "https://arxiv.org/abs/2611.04557",
+          "doi": "10.3847/2041-8213/aebc81",
+          "version_id": "2611.04557v1",
+          "first_seen": "2026-11-04T07:28:21.086175+00:00",
+          "publication_date": "2026-11-03",
+          "version_date": "2026-11-03T09:23:54+00:00",
+          "metadata_source": null,
+          "affiliation_source": "https://arxiv.org/html/2611.04557v1"
+        }
+      ],
+      "match_basis": [],
+      "source_types": [
+        "arXiv"
+      ],
+      "journals": [],
+      "source_groups": [],
+      "intake_kind": "recent"
+    },
+    {
+      "id": "2611.04544",
+      "version_id": "2611.04544v1",
+      "title": "The Survival Paradox of Close-In Planets Orbiting Red Clump Giants",
+      "abstract": "Close-in planets orbiting core-helium-burning red-clump (RC) giants directly challenge tidal-engulfment theory, which predicts that planets within about 1 au of Sun-like stars should be engulfed during red-giant-branch (RGB) expansion. The existence of such survivors would imply missing physical processes in the late stages of stellar and planetary evolution. Yet only one such \"forbidden\" planet had been identified to date. Here we report three systems-24 Boo b, HD 12648 b, and TYC 4282-605-1 b-whose host stars are confirmed red-clump giants through asteroseismology, showing that each has already undergone dramatic expansion and contraction following helium ignition. Their planets now reside at orbital separations smaller than the maximum stellar radii attained during the RGB phase, implying that they should not have survived. Among them, 24 Boo b orbits at only 0.183 au with a 30-day period, making it the closest planet known around a red-clump giant. These discoveries demonstrate that this paradox is not an isolated anomaly but signals the emergence of a new class of evolved planetary systems. Their survival defies current models of stellar-planetary coevolution and points to unexplored physics shaping planetary architectures around post-RGB stars.",
+      "published": "2026-11-03T09:11:34Z",
+      "updated": "2026-11-03T09:11:34Z",
+      "authors": [
+        "Wen-Xu Lin",
+        "Sheng-Bang Qian",
+        "Qi-Bin Sun",
+        "Li-Ying Zhu",
+        "Wen-Ping Liao",
+        "Ting Li",
+        "Fu-Xing Li",
+        "Xiang-Dong Shi",
+        "Tao Wang",
+        "Ergang Zhao",
+        "Huiting Zhang",
+        "Ping Li"
+      ],
+      "doi": "10.1073/pnas.2603847123",
+      "categories": [
+        "astro-ph.EP",
+        "astro-ph.SR"
+      ],
+      "url": "https://arxiv.org/abs/2611.04544",
+      "pdf": "https://arxiv.org/pdf/2611.04544v1",
+      "source": "arXiv",
+      "first_seen": "2026-10-23T01:52:04.361781+00:00",
+      "version_changed": false,
+      "topics": [
+        "evolution"
+      ],
+      "matches": {
+        "evolution": [
+          "planetary evolution"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：planetary evolution",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 39,
+      "fit_matches": [
+        "行星轨道与演化"
+      ],
+      "institutions": [
+        "Department of Astronomy, School of Physics and Astronomy, Yunnan University, Kunming, 650091, P. R. China",
+        "Yunnan Observatories, Chinese Academy of Sciences, Kunming, 650011, P. R. China",
+        "University of Chinese Academy of Sciences, No.1 Yanqihu East Rd, Huairou District, Beijing, 101408, P. R. China",
+        "Yunnan Training Center for Ethnic Leadership, Yunnan Minzu University, Kunming, 650504, P. R. China",
+        "Department of Astronomy, School of Physics and Astronomy, Yunnan University",
+        "Yunnan Observatories, Chinese Academy of Sciences",
+        "University of Chinese Academy of Sciences",
+        "Yunnan Training Center for Ethnic Leadership, Yunnan Minzu University"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Wen-Xu Lin",
+          "institutions": [
+            "Department of Astronomy, School of Physics and Astronomy, Yunnan University, Kunming, 650091, P. R. China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Sheng-Bang Qian",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Qi-Bin Sun",
+          "institutions": [
+            "Department of Astronomy, School of Physics and Astronomy, Yunnan University, Kunming, 650091, P. R. China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Li-Ying Zhu",
+          "institutions": [
+            "Yunnan Observatories, Chinese Academy of Sciences, Kunming, 650011, P. R. China",
+            "University of Chinese Academy of Sciences, No.1 Yanqihu East Rd, Huairou District, Beijing, 101408, P. R. China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Wen-Ping Liao",
+          "institutions": [
+            "Yunnan Observatories, Chinese Academy of Sciences, Kunming, 650011, P. R. China",
+            "University of Chinese Academy of Sciences, No.1 Yanqihu East Rd, Huairou District, Beijing, 101408, P. R. China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Ting Li",
+          "institutions": [
+            "Yunnan Training Center for Ethnic Leadership, Yunnan Minzu University, Kunming, 650504, P. R. China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Fu-Xing Li",
+          "institutions": [
+            "Department of Astronomy, School of Physics and Astronomy, Yunnan University, Kunming, 650091, P. R. China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Xiang-Dong Shi",
+          "institutions": [
+            "Yunnan Observatories, Chinese Academy of Sciences, Kunming, 650011, P. R. China",
+            "University of Chinese Academy of Sciences, No.1 Yanqihu East Rd, Huairou District, Beijing, 101408, P. R. China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Tao Wang",
+          "institutions": [
+            "Department of Astronomy, School of Physics and Astronomy, Yunnan University, Kunming, 650091, P. R. China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Ergang Zhao",
+          "institutions": [
+            "Yunnan Observatories, Chinese Academy of Sciences, Kunming, 650011, P. R. China",
+            "University of Chinese Academy of Sciences, No.1 Yanqihu East Rd, Huairou District, Beijing, 101408, P. R. China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Huiting Zhang",
+          "institutions": [
+            "Department of Astronomy, School of Physics and Astronomy, Yunnan University, Kunming, 650091, P. R. China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Ping Li",
+          "institutions": [
+            "Department of Astronomy, School of Physics and Astronomy, Yunnan University, Kunming, 650091, P. R. China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Wen-Xu Lin",
+          "institutions": [
+            "Department of Astronomy, School of Physics and Astronomy, Yunnan University"
+          ],
+          "orcid": "https://orcid.org/0000-0002-8276-5634"
+        },
+        {
+          "name": "Sheng-Bang Qian",
+          "institutions": [
+            "Department of Astronomy, School of Physics and Astronomy, Yunnan University"
+          ],
+          "orcid": "https://orcid.org/0009-0009-7581-9209"
+        },
+        {
+          "name": "Qi-Bin Sun",
+          "institutions": [
+            "Yunnan Observatories, Chinese Academy of Sciences",
+            "University of Chinese Academy of Sciences"
+          ],
+          "orcid": "https://orcid.org/0000-0003-0516-404X"
+        },
+        {
+          "name": "Li-Ying Zhu",
+          "institutions": [
+            "Yunnan Observatories, Chinese Academy of Sciences",
+            "University of Chinese Academy of Sciences"
+          ],
+          "orcid": "https://orcid.org/0000-0002-0796-7009"
+        },
+        {
+          "name": "Wen-Ping Liao",
+          "institutions": [
+            "Yunnan Observatories, Chinese Academy of Sciences",
+            "University of Chinese Academy of Sciences"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Ting Li",
+          "institutions": [
+            "Yunnan Training Center for Ethnic Leadership, Yunnan Minzu University"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Fu-Xing Li",
+          "institutions": [
+            "Department of Astronomy, School of Physics and Astronomy, Yunnan University"
+          ],
+          "orcid": "https://orcid.org/0000-0002-0285-6051"
+        },
+        {
+          "name": "Xiang-Dong Shi",
+          "institutions": [
+            "Yunnan Observatories, Chinese Academy of Sciences",
+            "University of Chinese Academy of Sciences"
+          ],
+          "orcid": "https://orcid.org/0000-0002-5038-5952"
+        },
+        {
+          "name": "Tao Wang",
+          "institutions": [
+            "Department of Astronomy, School of Physics and Astronomy, Yunnan University"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Er-Gang Zhao",
+          "institutions": [
+            "Yunnan Observatories, Chinese Academy of Sciences",
+            "University of Chinese Academy of Sciences"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Hui-Ting Zhang",
+          "institutions": [
+            "Department of Astronomy, School of Physics and Astronomy, Yunnan University"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Ping Li",
+          "institutions": [
+            "Department of Astronomy, School of Physics and Astronomy, Yunnan University"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.04544v1",
+      "publication_date": "2026-11-03",
+      "publication_date_source": "https://arxiv.org/abs/2611.04544v1",
+      "version_date": "2026-11-03T09:11:34+00:00",
+      "variants": [
+        {
+          "id": "2611.04544",
+          "source": "arXiv",
+          "journal": null,
+          "journal_id": null,
+          "title": "The Survival Paradox of Close-In Planets Orbiting Red Clump Giants",
+          "url": "https://arxiv.org/abs/2611.04544",
+          "doi": "10.1073/pnas.2603847123",
+          "version_id": "2611.04544v1",
+          "first_seen": "2026-11-04T07:28:21.086175+00:00",
+          "publication_date": "2026-11-03",
+          "version_date": "2026-11-03T09:11:34+00:00",
+          "metadata_source": null,
+          "affiliation_source": "https://arxiv.org/html/2611.04544v1"
+        },
+        {
+          "id": "doi:10.1073/pnas.2603847123",
+          "source": "journal",
+          "journal": "PNAS",
+          "journal_id": "1091-6490",
+          "title": "The survival paradox of close-in planets orbiting red-clump giants",
+          "url": "https://doi.org/10.1073/pnas.2603847123",
+          "doi": "10.1073/pnas.2603847123",
+          "version_id": "doi:10.1073/pnas.2603847123",
+          "first_seen": "2026-10-23T01:52:04.361781+00:00",
+          "publication_date": "2026-10-22",
+          "version_date": null,
+          "metadata_source": "https://api.crossref.org/works/10.1073%2Fpnas.2603847123",
+          "affiliation_source": "https://api.crossref.org/works/10.1073%2Fpnas.2603847123"
+        }
+      ],
+      "match_basis": [
+        "DOI"
+      ],
+      "source_types": [
+        "arXiv",
+        "journal"
+      ],
+      "journals": [
+        "PNAS"
+      ],
+      "source_groups": [
+        "general"
+      ],
+      "intake_kind": "recent"
+    },
     {
       "id": "2611.03643",
       "version_id": "2611.03643v1",
@@ -12421,7 +12946,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-24T10:03:48.460729+00:00",
-      "updated": "2026-09-22T12:12:43Z",
+      "updated": "2026-11-03T13:29:34Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2025je008980",
       "relations": {},
       "metadata_limited": false,
@@ -12548,7 +13073,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-24T10:03:48.460729+00:00",
-      "updated": "2026-09-22T12:12:07Z",
+      "updated": "2026-11-03T13:30:05Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2024je008819",
       "relations": {},
       "metadata_limited": false,
@@ -12717,7 +13242,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-24T10:03:48.460729+00:00",
-      "updated": "2026-09-22T12:13:43Z",
+      "updated": "2026-11-03T13:30:10Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2025je009008",
       "relations": {},
       "metadata_limited": false,
@@ -12922,7 +13447,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-24T10:03:48.460729+00:00",
-      "updated": "2026-09-22T12:11:34Z",
+      "updated": "2026-11-03T13:29:55Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2025je009196",
       "relations": {},
       "metadata_limited": false,
@@ -13027,7 +13552,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-24T10:03:48.460729+00:00",
-      "updated": "2026-09-24T06:22:23Z",
+      "updated": "2026-11-03T13:29:46Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2025je009139",
       "relations": {
         "has-preprint": [
@@ -13154,7 +13679,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-24T10:03:48.460729+00:00",
-      "updated": "2026-09-22T12:12:43Z",
+      "updated": "2026-11-03T13:29:56Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2025je009075",
       "relations": {},
       "metadata_limited": false,
@@ -13300,7 +13825,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-24T10:03:48.460729+00:00",
-      "updated": "2026-09-22T12:12:05Z",
+      "updated": "2026-11-03T13:30:16Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2024je008885",
       "relations": {},
       "metadata_limited": false,
@@ -13488,7 +14013,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-24T10:03:48.460729+00:00",
-      "updated": "2026-09-22T12:12:22Z",
+      "updated": "2026-11-03T13:30:05Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2025je009165",
       "relations": {},
       "metadata_limited": false,
@@ -13621,7 +14146,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-24T10:03:48.460729+00:00",
-      "updated": "2026-09-22T12:12:19Z",
+      "updated": "2026-11-03T13:29:55Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2025je009108",
       "relations": {},
       "metadata_limited": false,
@@ -13761,7 +14286,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-24T10:03:48.460729+00:00",
-      "updated": "2026-09-22T12:12:21Z",
+      "updated": "2026-11-03T13:29:54Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2025je009171",
       "relations": {
         "has-preprint": [
@@ -13904,7 +14429,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-24T10:03:48.460729+00:00",
-      "updated": "2026-09-22T12:12:30Z",
+      "updated": "2026-11-03T13:30:01Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2025je009188",
       "relations": {},
       "metadata_limited": false,
@@ -14348,7 +14873,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-24T10:03:48.460729+00:00",
-      "updated": "2026-09-22T12:12:22Z",
+      "updated": "2026-11-03T13:30:05Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2025je009242",
       "relations": {
         "has-preprint": [
@@ -14479,7 +15004,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-24T10:03:48.460729+00:00",
-      "updated": "2026-09-22T12:10:27Z",
+      "updated": "2026-11-03T13:29:56Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2025je008989",
       "relations": {},
       "metadata_limited": false,
@@ -21548,7 +22073,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-25T01:25:56.188355+00:00",
-      "updated": "2026-09-22T12:12:05Z",
+      "updated": "2026-11-03T13:30:19Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2025je009120",
       "relations": {},
       "metadata_limited": false,
@@ -21647,7 +22172,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-25T01:25:56.188355+00:00",
-      "updated": "2026-09-22T12:10:29Z",
+      "updated": "2026-11-03T13:30:16Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2025je009118",
       "relations": {},
       "metadata_limited": false,
@@ -21754,7 +22279,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-25T01:25:56.188355+00:00",
-      "updated": "2026-09-22T12:11:52Z",
+      "updated": "2026-11-03T13:30:14Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2024je008762",
       "relations": {},
       "metadata_limited": false,
@@ -21880,7 +22405,7 @@
       "publication_date_source": "Crossref publisher metadata",
       "date_kind": "journal",
       "first_seen": "2026-09-25T01:25:56.188355+00:00",
-      "updated": "2026-09-22T12:14:14Z",
+      "updated": "2026-11-03T13:30:43Z",
       "metadata_source": "https://api.crossref.org/works/10.1029%2F2024je008875",
       "relations": {},
       "metadata_limited": false,
@@ -30498,6 +31023,232 @@
       "intake_kind": "recent"
     },
     {
+      "id": "doi:10.3847/1538-4357/aeb2eb",
+      "doi": "10.3847/1538-4357/aeb2eb",
+      "version_id": "doi:10.3847/1538-4357/aeb2eb",
+      "title": "The Effect of Adiabatic Index on Radius Evolution and the Mass Loss",
+      "abstract": "Abstract Models that track the size evolution of exoplanets often assume a prescribed initial thermal state or a single adiabatic index to describe the planetary interior structure, the latter of which is taken to be γ ∼ 1.4, which is likely appropriate for evolved planets (≳1 Gyr). Extrapolating this high γ to earlier ages (down to ∼million years old) is problematic since, according to thermodynamics, the adiabatic index of young planets is ∼1.2, which is low enough to drastically change how interior mass is distributed. We quantify the effect of varying the adiabatic index from 1.2 to 1.4 on the expected radius of the exoplanet over time. We find that envelopes of larger adiabatic indices start puffier with all else equal and undergo faster radius contraction with accelerated mass loss. The assumption of high γ can therefore overestimate the effect of mass loss in shaping the exoplanetary population, especially when young planets are considered. We highlight the need for a more careful consideration of the initial thermal condition and internal mass distribution of planets in evolutionary models to properly interpret the radii measurements of exoplanets.",
+      "authors": [
+        "Arick Collander",
+        "Eve J. Lee"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Arick Collander",
+          "institutions": [
+            "University of California"
+          ],
+          "orcid": "https://orcid.org/0009-0006-0239-7525"
+        },
+        {
+          "name": "Eve J. Lee",
+          "institutions": [
+            "University of California"
+          ],
+          "orcid": "https://orcid.org/0000-0002-1228-9820"
+        }
+      ],
+      "institutions": [
+        "University of California"
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faeb2eb",
+      "source": "journal",
+      "journal": "The Astrophysical Journal",
+      "journal_id": "1538-4357",
+      "source_group": "planet",
+      "categories": [],
+      "url": "https://doi.org/10.3847/1538-4357/aeb2eb",
+      "published": "2026-11-04",
+      "publication_date": "2026-11-04",
+      "publication_date_source": "Crossref publisher metadata",
+      "date_kind": "journal",
+      "first_seen": "2026-11-04T07:28:52.885596+00:00",
+      "updated": "2026-11-04T07:25:22Z",
+      "metadata_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faeb2eb",
+      "relations": {},
+      "metadata_limited": false,
+      "publication_dates": {
+        "published-online": "2026-11-04",
+        "published-print": "2026-11-10"
+      },
+      "topics": [
+        "evolution"
+      ],
+      "matches": {
+        "evolution": [
+          "planetary interior"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：planetary interior",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 31,
+      "fit_matches": [],
+      "variants": [
+        {
+          "id": "doi:10.3847/1538-4357/aeb2eb",
+          "source": "journal",
+          "journal": "The Astrophysical Journal",
+          "journal_id": "1538-4357",
+          "title": "The Effect of Adiabatic Index on Radius Evolution and the Mass Loss",
+          "url": "https://doi.org/10.3847/1538-4357/aeb2eb",
+          "doi": "10.3847/1538-4357/aeb2eb",
+          "version_id": "doi:10.3847/1538-4357/aeb2eb",
+          "first_seen": "2026-11-04T07:28:52.885596+00:00",
+          "publication_date": "2026-11-04",
+          "version_date": null,
+          "metadata_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faeb2eb",
+          "affiliation_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faeb2eb"
+        }
+      ],
+      "match_basis": [],
+      "source_types": [
+        "journal"
+      ],
+      "journals": [
+        "The Astrophysical Journal"
+      ],
+      "source_groups": [
+        "planet"
+      ],
+      "intake_kind": "recent"
+    },
+    {
+      "id": "doi:10.3847/1538-4357/aeb40e",
+      "doi": "10.3847/1538-4357/aeb40e",
+      "version_id": "doi:10.3847/1538-4357/aeb40e",
+      "title": "Modeling the Nightside Martian Ionosphere: Structure, Composition, and Energetics",
+      "abstract": "Abstract The Mars Atmosphere and Volatile Evolution (MAVEN) mission has provided multi-instrument measurements of the Martian nightside ionosphere, yet a self-consistent interpretation of its structure, composition, and energetics remains lacking. Here we extend our previous dayside Martian ionosphere model to the deep-nightside conditions during the Deep Dip 6 (DD6) campaign, by self-consistently solving the continuity, momentum, and energy equations with the background atmospheric structure and suprathermal electron precipitation constrained by MAVEN observations. The model reproduces the representative DD6 electron and ion density distributions, supporting suprathermal electron precipitation as the primary source sustaining the deep-nightside ionosphere. A notable exception is NO + below 170 km, whose long chemical lifetime allows day-to-night plasma transport, neglected in the present one-dimensional model, to become important. Unlike the dayside, where HCO + behaves as a terminal ion, the nightside calculations reveal a distinct chemical regime in which reduced electron densities suppress dissociative recombination, allowing proton transfer to H 2 O to become the dominant HCO + loss pathway. The local heating processes are insufficient to reproduce the MAVEN-derived electron and ion temperatures. Additional nonlocal energy inputs are required and represented by downward conductive heat fluxes imposed at the upper boundary, reflecting thermal coupling of the nightside ionosphere to the hotter overlying plasma. These results demonstrate that while suprathermal electron precipitation largely controls the density and chemistry of the deep-nightside ionosphere, its detailed composition and thermal structure retain important signatures of nonlocal plasma and energy transport beyond the direct effects of electron precipitation.",
+      "authors": [
+        "Yanxing Liu",
+        "Shiqi Wu",
+        "Xiaoshu Wu",
+        "Yutian Cao",
+        "Jun Cui",
+        "Jianyang Li"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Yanxing Liu",
+          "institutions": [
+            "Sun Yat-sen University"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Shiqi Wu",
+          "institutions": [
+            "The University of Hong Kong"
+          ],
+          "orcid": "https://orcid.org/0009-0005-9607-1034"
+        },
+        {
+          "name": "Xiaoshu Wu",
+          "institutions": [
+            "Sun Yat-sen University",
+            "Beihang University"
+          ],
+          "orcid": "https://orcid.org/0000-0003-4070-2050"
+        },
+        {
+          "name": "Yutian Cao",
+          "institutions": [
+            "Hangzhou International Innovation Institute of Beihang University"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Jun Cui",
+          "institutions": [
+            "Hangzhou International Innovation Institute of Beihang University"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Jianyang Li",
+          "institutions": [
+            "Sun Yat-sen University"
+          ],
+          "orcid": "https://orcid.org/0000-0003-3841-9977"
+        }
+      ],
+      "institutions": [
+        "Sun Yat-sen University",
+        "The University of Hong Kong",
+        "Beihang University",
+        "Hangzhou International Innovation Institute of Beihang University"
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faeb40e",
+      "source": "journal",
+      "journal": "The Astrophysical Journal",
+      "journal_id": "1538-4357",
+      "source_group": "planet",
+      "categories": [],
+      "url": "https://doi.org/10.3847/1538-4357/aeb40e",
+      "published": "2026-11-03",
+      "publication_date": "2026-11-03",
+      "publication_date_source": "Crossref publisher metadata",
+      "date_kind": "journal",
+      "first_seen": "2026-11-04T07:28:52.885596+00:00",
+      "updated": "2026-11-03T08:29:00Z",
+      "metadata_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faeb40e",
+      "relations": {},
+      "metadata_limited": false,
+      "publication_dates": {
+        "published-online": "2026-11-03",
+        "published-print": "2026-11-10"
+      },
+      "topics": [
+        "evolution"
+      ],
+      "matches": {
+        "evolution": [
+          "volatile"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：volatile",
+      "tags": [
+        "水循环 · Water cycle",
+        "热输送 · Heat transport",
+        "岩浆与挥发分 · Magma & volatiles"
+      ],
+      "method": "keyword",
+      "fit_score": 31,
+      "fit_matches": [],
+      "variants": [
+        {
+          "id": "doi:10.3847/1538-4357/aeb40e",
+          "source": "journal",
+          "journal": "The Astrophysical Journal",
+          "journal_id": "1538-4357",
+          "title": "Modeling the Nightside Martian Ionosphere: Structure, Composition, and Energetics",
+          "url": "https://doi.org/10.3847/1538-4357/aeb40e",
+          "doi": "10.3847/1538-4357/aeb40e",
+          "version_id": "doi:10.3847/1538-4357/aeb40e",
+          "first_seen": "2026-11-04T07:28:52.885596+00:00",
+          "publication_date": "2026-11-03",
+          "version_date": null,
+          "metadata_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faeb40e",
+          "affiliation_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faeb40e"
+        }
+      ],
+      "match_basis": [],
+      "source_types": [
+        "journal"
+      ],
+      "journals": [
+        "The Astrophysical Journal"
+      ],
+      "source_groups": [
+        "planet"
+      ],
+      "intake_kind": "recent"
+    },
+    {
       "id": "exoplanet-bib:33128",
       "version_id": "exoplanet-bib:33128",
       "exoplanet_id": "33128",
@@ -30647,6 +31398,9 @@
       "2611.03019",
       "2611.03291",
       "2611.03643",
+      "2611.04544",
+      "2611.04557",
+      "2611.04976",
       "doi:10.1029/2026gl124362",
       "doi:10.1029/2026gl125753",
       "doi:10.1029/2026je009882",
@@ -30679,6 +31433,8 @@
       "doi:10.3847/1538-4357/aea994",
       "doi:10.3847/1538-4357/aeacc1",
       "doi:10.3847/1538-4357/aeacc3",
+      "doi:10.3847/1538-4357/aeb2eb",
+      "doi:10.3847/1538-4357/aeb40e",
       "doi:10.3847/2041-8213/aea906",
       "doi:10.3847/2041-8213/aeb00b",
       "doi:10.3847/2041-8213/aeb41e",
@@ -30776,7 +31532,12 @@
       "2609.35721": "recent",
       "2608.28756": "recent",
       "2607.15923": "recent",
-      "2605.07833": "recent"
+      "2605.07833": "recent",
+      "2611.04976": "recent",
+      "2611.04557": "recent",
+      "2611.04544": "recent",
+      "doi:10.3847/1538-4357/aeb2eb": "recent",
+      "doi:10.3847/1538-4357/aeb40e": "recent"
     },
     "policy": {
       "recent_days": 2,
@@ -30784,19 +31545,14 @@
       "min_fallback_score": 65,
       "max_fallback": 3
     },
-    "last_run": "2026-11-03",
+    "last_run": "2026-11-04",
     "mode": "recent",
     "selected": [
-      "2611.03643",
-      "2611.03291",
-      "2611.03019",
-      "2611.02924",
-      "2611.02753",
-      "2610.37773",
-      "2609.35721",
-      "2608.28756",
-      "2607.15923",
-      "2605.07833"
+      "2611.04976",
+      "2611.04557",
+      "2611.04544",
+      "doi:10.3847/1538-4357/aeb2eb",
+      "doi:10.3847/1538-4357/aeb40e"
     ],
     "search_errors": []
   },
@@ -32286,21 +33042,18 @@
       }
     }
   },
-  "record_count": 2378,
-  "merged_count": 22,
+  "record_count": 2464,
+  "merged_count": 23,
   "daily_brief": {
-    "date": "2026-11-03",
-    "built_at": "2026-11-03T12:17:12.294248+00:00",
+    "date": "2026-11-04",
+    "built_at": "2026-11-04T07:37:54.748522+00:00",
     "review_basis": "Automated rule screening; reading review is recorded separately.",
-    "new_count": 7,
+    "new_count": 4,
     "recent_ids": [
-      "2611.03643",
-      "2611.03291",
-      "2611.03019",
-      "2611.02924",
-      "2609.35721",
-      "2608.28756",
-      "2605.07833"
+      "2611.04976",
+      "2611.04557",
+      "doi:10.3847/1538-4357/aeb2eb",
+      "doi:10.3847/1538-4357/aeb40e"
     ],
     "older_ids": [],
     "updated_ids": [],
