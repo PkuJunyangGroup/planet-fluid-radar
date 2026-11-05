@@ -1370,6 +1370,12 @@
       "reason": "Data-integrity quarantine 2026-11-04: this bibliography record concatenates numerous unrelated article titles, has no original abstract and carries a DOI unrelated to its leading microlensing title. Its keyword score and identity are not reliable. Quarantine only this malformed source ID; do not scientifically exclude the underlying microlensing paper or any independent arXiv record. Preserve raw archive, first_seen and checkpoints pending tested parser/source repair.",
       "reviewed_at": "2026-11-04",
       "source": "https://exoplanet.eu/bibliography/all/#publication_33360"
+    },
+    "2610.17921": {
+      "status": "excluded",
+      "reason": "Reading review 2026-11-05: Complete current v2 original abstract and version history read on the official arXiv page. The results concern silicate sublimation, oxygen enrichment and molecular gas in the HOPS-68 protostellar disk wind, with planetesimal formation as contextual motivation rather than a direct planetary atmosphere, interior, surface or planetary orbital result. Exclude under the established narrow scope, consistent with the November 4 HOPS-68 disk-chemistry exclusion. Preserve source archive, DOI/version relation and original first_seen.",
+      "reviewed_at": "2026-11-05",
+      "source": "https://arxiv.org/abs/2610.17921v2"
     }
   },
   "mechanisms": [
