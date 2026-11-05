@@ -1,20 +1,180 @@
 {
-  "generated_at": "2026-11-04T16:10:39.088775+08:00",
+  "generated_at": "2026-11-05T15:54:04.795823+08:00",
   "sources": {
     "exoplanet.eu": {
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-11-04T16:10:39.088775+08:00",
-      "last_success": "2026-11-04T16:10:39.088775+08:00",
+      "last_attempt": "2026-11-05T15:54:04.795823+08:00",
+      "last_success": "2026-11-05T15:54:04.795823+08:00",
       "coverage_since": "2026-09-25",
-      "pages_checked": 2,
-      "fetched": 1,
-      "retained": 0,
+      "pages_checked": 3,
+      "fetched": 21,
+      "retained": 4,
       "method": "daily incremental bibliography page scan; candidate-only"
     }
   },
   "papers": [
+    {
+      "id": "exoplanet-bib:33377",
+      "version_id": "exoplanet-bib:33377",
+      "exoplanet_id": "33377",
+      "title": "Orbital Architecture of Super-Earth-Cold-Jupiter Systems from Transit Duration Ratios",
+      "abstract": "",
+      "authors": [],
+      "source": "exoplanet.eu",
+      "source_group": "exoplanet bibliography",
+      "journal": "",
+      "url": "https://doi.org/10.48550/arXiv.2611.05963 ",
+      "doi": null,
+      "publication_date": "2026",
+      "published": "2026",
+      "publication_date_source": "Exoplanet.eu bibliography",
+      "date_kind": "bibliography",
+      "first_seen": "2026-11-05T15:54:04.795823+08:00",
+      "updated": "2026-11-05",
+      "metadata_source": "https://exoplanet.eu/bibliography/all/#publication_33377",
+      "affiliation_status": "unavailable",
+      "metadata_limited": true,
+      "categories": [],
+      "exoplanet_update_date": "2026-11-05",
+      "relations": {
+        "preprint": [
+          {
+            "id": "https://arxiv.org/abs/2611.05963"
+          }
+        ]
+      },
+      "arxiv_id": "2611.05963",
+      "topics": [
+        "orbital"
+      ],
+      "matches": {
+        "orbital": [
+          "orbital architecture"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：orbital architecture",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 40,
+      "fit_matches": []
+    },
+    {
+      "id": "exoplanet-bib:33376",
+      "version_id": "exoplanet-bib:33376",
+      "exoplanet_id": "33376",
+      "title": "Migration and eccentricity damping timescales in overstable resonant planetary systems: hydrodynamic and N-body simulations",
+      "abstract": "",
+      "authors": [
+        "AFKANPOUR Z.",
+        "ATAIEE S.",
+        "PENZLIN A.",
+        "ZIAMPRAS A.",
+        "NABAVINEZHAD H."
+      ],
+      "source": "exoplanet.eu",
+      "source_group": "exoplanet bibliography",
+      "journal": "MNRAS",
+      "url": "https://doi.org/10.48550/arXiv.2611.06765 ",
+      "doi": null,
+      "publication_date": "2026",
+      "published": "2026",
+      "publication_date_source": "Exoplanet.eu bibliography",
+      "date_kind": "bibliography",
+      "first_seen": "2026-11-05T15:54:04.795823+08:00",
+      "updated": "2026-11-05",
+      "metadata_source": "https://exoplanet.eu/bibliography/all/#publication_33376",
+      "affiliation_status": "unavailable",
+      "metadata_limited": true,
+      "categories": [],
+      "exoplanet_update_date": "2026-11-05",
+      "relations": {
+        "preprint": [
+          {
+            "id": "https://arxiv.org/abs/2611.06765"
+          }
+        ]
+      },
+      "arxiv_id": "2611.06765",
+      "topics": [
+        "orbital"
+      ],
+      "matches": {
+        "orbital": [
+          "n-body"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：n-body",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 48,
+      "fit_matches": [
+        "行星轨道与演化"
+      ]
+    },
+    {
+      "id": "exoplanet-bib:33032",
+      "version_id": "exoplanet-bib:33032",
+      "exoplanet_id": "33032",
+      "title": "Sea Ice as an Origin of Life Location for Hycean and Ocean Worlds",
+      "abstract": "",
+      "authors": [
+        "BARRIER E.",
+        "MADHUSUDHAN N.",
+        "RIGBY F."
+      ],
+      "source": "exoplanet.eu",
+      "source_group": "exoplanet bibliography",
+      "journal": "MNRAS",
+      "url": "https://doi.org/10.1093/mnras/stag1974 ",
+      "doi": "10.1093/mnras/stag1974",
+      "publication_date": "2026",
+      "published": "2026",
+      "publication_date_source": "Exoplanet.eu bibliography",
+      "date_kind": "bibliography",
+      "first_seen": "2026-11-05T15:54:04.795823+08:00",
+      "updated": "2026-11-04",
+      "metadata_source": "https://exoplanet.eu/bibliography/all/#publication_33032",
+      "affiliation_status": "unavailable",
+      "metadata_limited": true,
+      "categories": [],
+      "exoplanet_update_date": "2026-11-04",
+      "relations": {
+        "preprint": [
+          {
+            "id": "https://arxiv.org/abs/2609.07818"
+          }
+        ]
+      },
+      "arxiv_id": "2609.07818",
+      "topics": [
+        "cryosphere",
+        "surface"
+      ],
+      "matches": {
+        "cryosphere": [
+          "sea ice"
+        ],
+        "surface": [
+          "sea ice"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：sea ice",
+      "tags": [
+        "海冰与表层 · Ice & surface"
+      ],
+      "method": "keyword",
+      "fit_score": 48,
+      "fit_matches": [
+        "行星海洋与冰"
+      ]
+    },
     {
       "id": "exoplanet-bib:33360",
       "version_id": "exoplanet-bib:33360",
@@ -829,19 +989,19 @@
       "source": "exoplanet.eu",
       "source_group": "exoplanet bibliography",
       "journal": "Astron. J.",
-      "url": "https://doi.org/10.48550/arXiv.2610.19280",
-      "doi": null,
+      "url": "https://dx.doi.org/10.3847/PSJ/aeb37d ",
+      "doi": "10.3847/PSJ/aeb37d",
       "publication_date": "2026",
       "published": "2026",
       "publication_date_source": "Exoplanet.eu bibliography",
       "date_kind": "bibliography",
       "first_seen": "2026-10-15T16:15:37.428830+08:00",
-      "updated": "2026-10-15",
+      "updated": "2026-11-04",
       "metadata_source": "https://exoplanet.eu/bibliography/all/#publication_33259",
       "affiliation_status": "unavailable",
       "metadata_limited": true,
       "categories": [],
-      "exoplanet_update_date": "2026-10-15",
+      "exoplanet_update_date": "2026-11-04",
       "relations": {
         "preprint": [
           {
