@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T08:06:53.844326+00:00",
+  "generated_at": "2026-11-05T08:12:18.805534+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
@@ -260,12 +260,12 @@
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-11-05T15:54:04.795823+08:00",
-      "last_success": "2026-11-05T15:54:04.795823+08:00",
+      "last_attempt": "2026-11-05T16:11:24.819799+08:00",
+      "last_success": "2026-11-05T16:11:24.819799+08:00",
       "coverage_since": "2026-09-25",
-      "pages_checked": 3,
-      "fetched": 21,
-      "retained": 4,
+      "pages_checked": 2,
+      "fetched": 6,
+      "retained": 2,
       "method": "daily incremental bibliography page scan; candidate-only"
     }
   },
@@ -5433,146 +5433,6 @@
           "version_date": "2026-10-14T08:28:00+00:00",
           "metadata_source": null,
           "affiliation_source": "https://arxiv.org/html/2610.18114v2"
-        }
-      ],
-      "match_basis": [],
-      "source_types": [
-        "arXiv"
-      ],
-      "journals": [],
-      "source_groups": [],
-      "intake_kind": "recent"
-    },
-    {
-      "id": "2610.17921",
-      "version_id": "2610.17921v2",
-      "title": "A breath of fresh air: Oxygen enhancement from silicate sublimation during early protostellar evolution",
-      "abstract": "Recently, an analog to the t = 0 moment of our Solar System's meteoritic record was identified for the first time around the Class I protostar HOPS-315. Crystalline silicates were found to recondense from SiO gas that cools as it advects upward from a hot thermostat region in the inner midplane. This t=0 moment may be associated with the formation of the first planetesimals in this disk. We explore whether HOPS-68, a Class I protostar with similar properties and system geometries, is engaged in such refractory recondensation as well. A detection of cooler gas-phase SiO in absorption above a hot disk midplane would allow us to achieve this goal, thanks to a previous detection of crystalline silicates. HOPS-68 was observed with the JWST MIRI and NIRSpec, showing multiple bands of molecular absorption. We use local thermal equilibrium slab models to measure the temperature, column density, velocity, and radial location of these bands. The molecular absorption bands of gaseous SiO, H2O, CO2, and 13CO trace a warm molecular inversion layer (300-500 K) at mid-altitudes above the hot disk midplane from 0.3-16 AU, which is consistently blue-shifted with respect to the system velocity by 33-53 km/s. Atacama Large Millimeter/submillimeter Array (ALMA) observations of HOPS-68 kinematically resolve an SiO-rich jet and wind. We confirm that HOPS-68, like HOPS-315, is undergoing an epoch analogous to the t=0 moment in the Solar System's planet formation timeline. The detected warm molecular layer traces the base of a disk wind, which carries sublimated material from the thermostat region near 2 AU up into the outer disk. As for HOPS-315, the molecular layer in the inner few AU of HOPS-68 is enhanced in bulk oxygen as a result of this sublimation. Since HOPS-68 is less evolved than HOPS-315, this may indicate a prolonged epoch in protostellar evolution in which such oxygen enhancement occurs.",
-      "published": "2026-10-13T08:11:50Z",
-      "updated": "2026-11-04T07:56:47Z",
-      "authors": [
-        "F. J. Ballieux",
-        "M. K. McClure",
-        "Ł. Tychoniec",
-        "L. Francis",
-        "A. Egliene",
-        "E. A. Bergin",
-        "M. L. R. van 't Hoff",
-        "E. F. Van Dishoeck"
-      ],
-      "doi": "10.1051/0004-6361/202661414",
-      "categories": [
-        "astro-ph.SR",
-        "astro-ph.EP"
-      ],
-      "url": "https://arxiv.org/abs/2610.17921",
-      "pdf": "https://arxiv.org/pdf/2610.17921v2",
-      "source": "arXiv",
-      "first_seen": "2026-10-15T01:38:21.320708+00:00",
-      "version_changed": true,
-      "topics": [
-        "evolution"
-      ],
-      "matches": {
-        "evolution": [
-          "planet formation",
-          "planetesimal"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：planet formation、planetesimal",
-      "tags": [],
-      "method": "keyword",
-      "fit_score": 38,
-      "fit_matches": [
-        "系外行星观测表征"
-      ],
-      "institutions": [
-        "Leiden Observatory, Leiden University, PO Box 9513, 2300 RA Leiden, The Netherlands",
-        "Engineering Research Institute \"Ventspils International Radio Astronomy Center\", Ventspils University of Applied Sciences Inzenieru Str. 101, Ventspils LV-3601, Latvia",
-        "Department of Astronomy, University of Michigan, 1085 South University Avenue, Ann Arbor, MI 48109, USA",
-        "Purdue University, Department of Physics and Astronomy, 525 Northwestern Avenue, West Lafayette, IN 47907, USA",
-        "Max-Planck-Institut für Extraterrestrische Physik, Giessenbachstrasse 1, D-85748 Garching bei München, Germany"
-      ],
-      "author_affiliations": [
-        {
-          "name": "F.J. Ballieux",
-          "institutions": [
-            "Leiden Observatory, Leiden University, PO Box 9513, 2300 RA Leiden, The Netherlands"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "M.K. McClure",
-          "institutions": [
-            "Leiden Observatory, Leiden University, PO Box 9513, 2300 RA Leiden, The Netherlands"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "Ł. Tychoniec",
-          "institutions": [
-            "Leiden Observatory, Leiden University, PO Box 9513, 2300 RA Leiden, The Netherlands"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "L. Francis",
-          "institutions": [
-            "Leiden Observatory, Leiden University, PO Box 9513, 2300 RA Leiden, The Netherlands"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "A. Egliene",
-          "institutions": [
-            "Engineering Research Institute \"Ventspils International Radio Astronomy Center\", Ventspils University of Applied Sciences Inzenieru Str. 101, Ventspils LV-3601, Latvia"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "E.A. Bergin",
-          "institutions": [
-            "Department of Astronomy, University of Michigan, 1085 South University Avenue, Ann Arbor, MI 48109, USA"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "M.L.R. van ’t Hoff",
-          "institutions": [
-            "Purdue University, Department of Physics and Astronomy, 525 Northwestern Avenue, West Lafayette, IN 47907, USA"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "E.F. Van Dishoeck",
-          "institutions": [
-            "Leiden Observatory, Leiden University, PO Box 9513, 2300 RA Leiden, The Netherlands",
-            "Max-Planck-Institut für Extraterrestrische Physik, Giessenbachstrasse 1, D-85748 Garching bei München, Germany"
-          ],
-          "orcid": null
-        }
-      ],
-      "affiliation_status": "verified",
-      "affiliation_source": "https://arxiv.org/html/2610.17921v2",
-      "publication_date": "2026-10-13",
-      "publication_date_source": "https://arxiv.org/abs/2610.17921v2",
-      "version_date": "2026-11-04T07:56:47+00:00",
-      "variants": [
-        {
-          "id": "2610.17921",
-          "source": "arXiv",
-          "journal": null,
-          "journal_id": null,
-          "title": "A breath of fresh air: Oxygen enhancement from silicate sublimation during early protostellar evolution",
-          "url": "https://arxiv.org/abs/2610.17921",
-          "doi": "10.1051/0004-6361/202661414",
-          "version_id": "2610.17921v2",
-          "first_seen": "2026-10-15T01:38:21.320708+00:00",
-          "publication_date": "2026-10-13",
-          "version_date": "2026-11-04T07:56:47+00:00",
-          "metadata_source": null,
-          "affiliation_source": "https://arxiv.org/html/2610.17921v2"
         }
       ],
       "match_basis": [],
@@ -33813,7 +33673,7 @@
   "merged_count": 25,
   "daily_brief": {
     "date": "2026-11-05",
-    "built_at": "2026-11-05T08:06:53.844467+00:00",
+    "built_at": "2026-11-05T08:12:18.805650+00:00",
     "review_basis": "Automated rule screening; reading review is recorded separately.",
     "new_count": 7,
     "recent_ids": [
