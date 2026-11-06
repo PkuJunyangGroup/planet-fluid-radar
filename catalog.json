@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T08:06:01.881486+00:00",
+  "generated_at": "2026-11-06T08:11:40.398491+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
@@ -260,12 +260,12 @@
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-11-06T15:54:29.076778+08:00",
-      "last_success": "2026-11-06T15:54:29.076778+08:00",
+      "last_attempt": "2026-11-06T16:10:04.080821+08:00",
+      "last_success": "2026-11-06T16:10:04.080821+08:00",
       "coverage_since": "2026-09-25",
-      "pages_checked": 2,
-      "fetched": 17,
-      "retained": 5,
+      "pages_checked": 1,
+      "fetched": 0,
+      "retained": 0,
       "method": "daily incremental bibliography page scan; candidate-only"
     }
   },
@@ -1165,306 +1165,6 @@
           "version_date": "2026-11-05T18:59:48+00:00",
           "metadata_source": null,
           "affiliation_source": "https://arxiv.org/html/2611.08489v1"
-        }
-      ],
-      "match_basis": [],
-      "source_types": [
-        "arXiv"
-      ],
-      "journals": [],
-      "source_groups": [],
-      "intake_kind": "recent"
-    },
-    {
-      "id": "2611.08484",
-      "version_id": "2611.08484v1",
-      "title": "Evolution of Dust In Protoplanetary Disks With Magnetized Winds",
-      "abstract": "Observations and theory increasingly indicate that protoplanetary disks are weakly turbulent, implying that magnetized disk winds may dominate their angular momentum transport and long-term evolution. Yet dust evolution in wind-dominated disks remains poorly understood, despite its importance for planet formation. In particular, whether wind-dominated disk evolution can create regions with enhanced dust-to-gas mass ratios that enable planetesimal formation via the streaming instability is unclear. We build a parametric hybrid disk evolution model that includes turbulent accretion, wind-driven accretion, and wind-driven mass loss to investigate dust evolution in magnetized protoplanetary disks. We employ this model to carry out a parameter study in which the initial total accretion rate, the wind-driven mass loss rate, and the turbulence strength are varied. We find that although wind-dominated disks are more favorable to dust growth and concentration than turbulence-dominated disks, conditions suitable for the streaming instability arise only within the inner few au and only under the most extreme conditions: very weak turbulence ($α_\\text{turb} = 10^{-5}$) where magnetized winds drive most of the accretion ($\\dot{M}_\\text{acc,tot} \\simeq \\dot{M}_\\text{wind,acc}$), and wind-driven mass loss comparable to the accretion rate ($\\dot{M}_\\text{wind,outflow} \\simeq \\dot{M}_\\text{acc,wind}$). Our results therefore imply that, beyond the inner few au, the parametric wind-driven evolution models considered in the literature do not by themselves produce conditions suitable for planetesimal formation via the streaming instability, motivating more physically complete models in which spontaneous, long-lived dust traps can arise.",
-      "published": "2026-11-05T18:59:31Z",
-      "updated": "2026-11-05T18:59:31Z",
-      "authors": [
-        "Olcay Goksu",
-        "Ralph Pudritz",
-        "Timmy Delage"
-      ],
-      "doi": "",
-      "categories": [
-        "astro-ph.EP"
-      ],
-      "url": "https://arxiv.org/abs/2611.08484",
-      "pdf": "https://arxiv.org/pdf/2611.08484v1",
-      "source": "arXiv",
-      "first_seen": "2026-11-06T07:53:58.122322+00:00",
-      "version_changed": false,
-      "topics": [
-        "evolution"
-      ],
-      "matches": {
-        "evolution": [
-          "planet formation",
-          "planetesimal"
-        ],
-        "methods": [
-          "turbulence"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：planet formation、planetesimal、turbulence",
-      "tags": [
-        "流体与不稳定性 · Fluid dynamics"
-      ],
-      "method": "keyword",
-      "fit_score": 31,
-      "fit_matches": [],
-      "institutions": [
-        "Department of Physics and Astronomy, McMaster University, Hamilton, ON L8S 4M1, Canada",
-        "Astrophysics Group, Department of Physics, Imperial College London, Prince Consort Road, London SW7 2AZ, UK"
-      ],
-      "author_affiliations": [
-        {
-          "name": "Olcay Ates Goksu",
-          "institutions": [
-            "Department of Physics and Astronomy, McMaster University, Hamilton, ON L8S 4M1, Canada"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "Ralph E. Pudritz",
-          "institutions": [
-            "Department of Physics and Astronomy, McMaster University, Hamilton, ON L8S 4M1, Canada"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "Timmy N. Delage",
-          "institutions": [
-            "Astrophysics Group, Department of Physics, Imperial College London, Prince Consort Road, London SW7 2AZ, UK"
-          ],
-          "orcid": null
-        }
-      ],
-      "affiliation_status": "verified",
-      "affiliation_source": "https://arxiv.org/html/2611.08484v1",
-      "publication_date": "2026-11-06",
-      "publication_date_source": "https://arxiv.org/abs/2611.08484v1",
-      "version_date": "2026-11-05T18:59:31+00:00",
-      "variants": [
-        {
-          "id": "2611.08484",
-          "source": "arXiv",
-          "journal": null,
-          "journal_id": null,
-          "title": "Evolution of Dust In Protoplanetary Disks With Magnetized Winds",
-          "url": "https://arxiv.org/abs/2611.08484",
-          "doi": "",
-          "version_id": "2611.08484v1",
-          "first_seen": "2026-11-06T07:53:58.122322+00:00",
-          "publication_date": "2026-11-06",
-          "version_date": "2026-11-05T18:59:31+00:00",
-          "metadata_source": null,
-          "affiliation_source": "https://arxiv.org/html/2611.08484v1"
-        }
-      ],
-      "match_basis": [],
-      "source_types": [
-        "arXiv"
-      ],
-      "journals": [],
-      "source_groups": [],
-      "intake_kind": "recent"
-    },
-    {
-      "id": "2611.08346",
-      "version_id": "2611.08346v1",
-      "title": "The cold substellar frontier in JWST Extragalactic surveys: a robust parallax measurement yields the most distant known ultra-cold Y dwarf",
-      "abstract": "We present an analysis of JADES-GS-BD-5, an extremely cold Y dwarf identified in the JADES/GOODS-South field. Using multi-epoch JWST/NIRCam imaging spanning a $\\simeq2$-yr baseline, we calibrate the JWST astrometry and obtain the first robust parallax measurement for a brown dwarf discovered in a JWST extragalactic deep field. We measure a proper motion of $μ_{\\rm tot}=49.8^{+0.3}_{-0.3}$ mas yr$^{-1}$ and a parallax of $\\varpi=15.7^{+1.4}_{-1.3}$ mas, corresponding to a geometric distance of $d=64^{+6}_{-5}$ pc, $\\sim3\\times$ further than that of the previously known most distant Y dwarfs with parallax-measured distances. We hence determine a tangential velocity of $v_{\\rm tan}=15.0^{+1.4}_{-1.3}$ km s$^{-1}$, consistent with a Galactic thin-disk object. We find no evidence for binary acceleration, significant photometric variability, or a plausible host. The $J$-band spectral morphology of JADES-GS-BD-5 is consistent with existing Y-dwarf templates, while its extremely faint luminosity and overall near-infrared spectral profile confirm that it is one of the coldest dwarfs discovered to date. We therefore adopt a classification of $>$Y1, consistent with a NIRCam colour-based proxy of cY1.5. The robust parallax-determined distance allows us to determine its bolometric luminosity, $\\log(L_{\\rm bol}/L_{\\odot})=-7.08^{+0.09}_{-0.09}$. Evolutionary modelling places JADES-GS-BD-5 in the planetary-mass regime and makes it a rare benchmark for the study of cold giant-planet atmospheres. Current atmospheric models fail to reproduce its SED in detail, pointing to the importance of disequilibrium chemistry and vertical mixing. Finally, we also report additional proper motion measurements for eight of the other nine known JADES Y-dwarf candidates, highlighting JWST extragalactic surveys as a powerful route to building a statistically useful, parallax-calibrated sample of Y dwarfs.",
-      "published": "2026-11-05T17:31:30Z",
-      "updated": "2026-11-05T17:31:30Z",
-      "authors": [
-        "Feng-Yuan Frey Liu",
-        "Derek J. McLeod",
-        "Xueqing Chen",
-        "Ben J. Sutlieff",
-        "Ho-Hin Leung",
-        "Clémence Fontanive",
-        "James S. Dunlop",
-        "Ross J. McLure",
-        "Trent J. Dupuy",
-        "Adam C. Carnall",
-        "Thomas M. Stanton",
-        "Beth A. Biller",
-        "Isaac J. B. Holst",
-        "Callum T. Donnan",
-        "Ryan Begley"
-      ],
-      "doi": "",
-      "categories": [
-        "astro-ph.SR",
-        "astro-ph.EP",
-        "astro-ph.GA"
-      ],
-      "url": "https://arxiv.org/abs/2611.08346",
-      "pdf": "https://arxiv.org/pdf/2611.08346v1",
-      "source": "arXiv",
-      "first_seen": "2026-11-06T07:53:58.122322+00:00",
-      "version_changed": false,
-      "topics": [
-        "chemistry",
-        "models"
-      ],
-      "matches": {
-        "chemistry": [
-          "disequilibrium chemistry"
-        ],
-        "models": [
-          "atmospheric model"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：disequilibrium chemistry、atmospheric model",
-      "tags": [],
-      "method": "keyword",
-      "fit_score": 50,
-      "fit_matches": [
-        "系外行星观测表征"
-      ],
-      "institutions": [
-        "Institute for Astronomy, University of Edinburgh, Royal Observatory, Blackford Hill, Edinburgh, EH9 3HJ, UK",
-        "Centre for Exoplanet Science, University of Edinburgh, Edinburgh, EH9 3HJ, UK",
-        "NSF’s National Optical-Infrared Astronomy Research Laboratory, 950 N. Cherry Avenue, Tucson, AZ 85719, USA",
-        "Armagh Observatory and Planetarium, College Hill, Armagh, BT61 9DG, N. Ireland, UK"
-      ],
-      "author_affiliations": [
-        {
-          "name": "Feng-Yuan Frey Liu",
-          "institutions": [
-            "Institute for Astronomy, University of Edinburgh, Royal Observatory, Blackford Hill, Edinburgh, EH9 3HJ, UK"
-          ],
-          "orcid": "https://orcid.org/0000-0003-1386-3676"
-        },
-        {
-          "name": "Derek J. McLeod",
-          "institutions": [
-            "Institute for Astronomy, University of Edinburgh, Royal Observatory, Blackford Hill, Edinburgh, EH9 3HJ, UK"
-          ],
-          "orcid": "https://orcid.org/0000-0003-4368-3326"
-        },
-        {
-          "name": "Xueqing Chen",
-          "institutions": [
-            "Institute for Astronomy, University of Edinburgh, Royal Observatory, Blackford Hill, Edinburgh, EH9 3HJ, UK"
-          ],
-          "orcid": "https://orcid.org/0009-0005-9339-2369"
-        },
-        {
-          "name": "Ben J. Sutlieff",
-          "institutions": [
-            "Institute for Astronomy, University of Edinburgh, Royal Observatory, Blackford Hill, Edinburgh, EH9 3HJ, UK",
-            "Centre for Exoplanet Science, University of Edinburgh, Edinburgh, EH9 3HJ, UK"
-          ],
-          "orcid": "https://orcid.org/0000-0002-9962-132X"
-        },
-        {
-          "name": "Ho-Hin Leung",
-          "institutions": [
-            "Institute for Astronomy, University of Edinburgh, Royal Observatory, Blackford Hill, Edinburgh, EH9 3HJ, UK"
-          ],
-          "orcid": "https://orcid.org/0000-0003-0486-5178"
-        },
-        {
-          "name": "Clémence Fontanive",
-          "institutions": [
-            "Institute for Astronomy, University of Edinburgh, Royal Observatory, Blackford Hill, Edinburgh, EH9 3HJ, UK",
-            "Centre for Exoplanet Science, University of Edinburgh, Edinburgh, EH9 3HJ, UK"
-          ],
-          "orcid": "https://orcid.org/0000-0002-2428-9932"
-        },
-        {
-          "name": "James S. Dunlop",
-          "institutions": [
-            "Institute for Astronomy, University of Edinburgh, Royal Observatory, Blackford Hill, Edinburgh, EH9 3HJ, UK"
-          ],
-          "orcid": "https://orcid.org/0000-0002-1404-5950"
-        },
-        {
-          "name": "Ross J. McLure",
-          "institutions": [
-            "Institute for Astronomy, University of Edinburgh, Royal Observatory, Blackford Hill, Edinburgh, EH9 3HJ, UK"
-          ],
-          "orcid": "https://orcid.org/0009-0005-9742-2318"
-        },
-        {
-          "name": "Trent J. Dupuy",
-          "institutions": [
-            "Institute for Astronomy, University of Edinburgh, Royal Observatory, Blackford Hill, Edinburgh, EH9 3HJ, UK",
-            "Centre for Exoplanet Science, University of Edinburgh, Edinburgh, EH9 3HJ, UK"
-          ],
-          "orcid": "https://orcid.org/0000-0001-9823-1445"
-        },
-        {
-          "name": "Adam C. Carnall",
-          "institutions": [
-            "Institute for Astronomy, University of Edinburgh, Royal Observatory, Blackford Hill, Edinburgh, EH9 3HJ, UK"
-          ],
-          "orcid": "https://orcid.org/0000-0002-1482-5818"
-        },
-        {
-          "name": "Thomas M. Stanton",
-          "institutions": [
-            "Institute for Astronomy, University of Edinburgh, Royal Observatory, Blackford Hill, Edinburgh, EH9 3HJ, UK"
-          ],
-          "orcid": "https://orcid.org/0000-0002-0827-9769"
-        },
-        {
-          "name": "Beth A. Biller",
-          "institutions": [
-            "Institute for Astronomy, University of Edinburgh, Royal Observatory, Blackford Hill, Edinburgh, EH9 3HJ, UK",
-            "Centre for Exoplanet Science, University of Edinburgh, Edinburgh, EH9 3HJ, UK"
-          ],
-          "orcid": "https://orcid.org/0000-0003-4614-7035"
-        },
-        {
-          "name": "Isaac J. B. Holst",
-          "institutions": [
-            "Institute for Astronomy, University of Edinburgh, Royal Observatory, Blackford Hill, Edinburgh, EH9 3HJ, UK"
-          ],
-          "orcid": "https://orcid.org/0009-0006-3003-9688"
-        },
-        {
-          "name": "Callum T. Donnan",
-          "institutions": [
-            "NSF’s National Optical-Infrared Astronomy Research Laboratory, 950 N. Cherry Avenue, Tucson, AZ 85719, USA"
-          ],
-          "orcid": "https://orcid.org/0000-0002-7622-0208"
-        },
-        {
-          "name": "Ryan Begley",
-          "institutions": [
-            "Armagh Observatory and Planetarium, College Hill, Armagh, BT61 9DG, N. Ireland, UK"
-          ],
-          "orcid": "https://orcid.org/0000-0003-0629-8074"
-        }
-      ],
-      "affiliation_status": "verified",
-      "affiliation_source": "https://arxiv.org/html/2611.08346v1",
-      "publication_date": "2026-11-06",
-      "publication_date_source": "https://arxiv.org/abs/2611.08346v1",
-      "version_date": "2026-11-05T17:31:30+00:00",
-      "variants": [
-        {
-          "id": "2611.08346",
-          "source": "arXiv",
-          "journal": null,
-          "journal_id": null,
-          "title": "The cold substellar frontier in JWST Extragalactic surveys: a robust parallax measurement yields the most distant known ultra-cold Y dwarf",
-          "url": "https://arxiv.org/abs/2611.08346",
-          "doi": "",
-          "version_id": "2611.08346v1",
-          "first_seen": "2026-11-06T07:53:58.122322+00:00",
-          "publication_date": "2026-11-06",
-          "version_date": "2026-11-05T17:31:30+00:00",
-          "metadata_source": null,
-          "affiliation_source": "https://arxiv.org/html/2611.08346v1"
         }
       ],
       "match_basis": [],
@@ -11084,84 +10784,6 @@
         "planet",
         "exoplanet bibliography"
       ],
-      "intake_kind": "recent"
-    },
-    {
-      "id": "2608.00520",
-      "version_id": "2608.00520v2",
-      "title": "Using High-Resolution Spectroscopy to Study the Composition, Temperature, and Dynamics of Exoplanet Atmospheres",
-      "abstract": "High-resolution spectroscopy, typically operating at resolving powers R greater or equal to 25,000, has matured into one of the primary techniques for characterising the atmospheres of extrasolar planets. The ability of HRS to resolve individual rotational-vibrational lines of molecular bands, combined with the large Doppler shifts experienced by close-in planets during their orbits, allows planetary signals to be separated from quasi-stationary telluric and stellar contamination. Since the pioneering detection of carbon monoxide in the transmission spectrum of HD 209458b, HRS has enabled the identification of more than a dozen chemical species, including H2O, CH4, HCN, TiO, VO, Na, K, Li, H-alpha, He I, Mg, Ca, V, Cr, Mn, Fe, Co, Ni, and Ti, in a wide variety of transiting, non-transiting and directly imaged exoplanets . In addition to chemical abundances, HRS constrains the vertical temperature structure through the pressure dependence of line depths, and reveals atmospheric dynamics through Doppler shifts and asymmetries imprinted on the planetary cross-correlation function. This review synthesises observational and methodological progress from the past fifteen years with a focus on how current and forthcoming high-resolution facilities HARPS, ESPRESSO, NIRPS, CARMENES, CRIRES+, SPIRou, GIANO, and ultimately the ANDES, METIS and HARMONI instruments on the Extremely Large Telescope are reshaping our empirical view of exoplanet atmospheres.",
-      "published": "2026-08-01T08:31:04Z",
-      "updated": "2026-11-05T16:52:00Z",
-      "authors": [
-        "Mu'allim Yakubu"
-      ],
-      "doi": "",
-      "categories": [
-        "astro-ph.EP",
-        "astro-ph.IM"
-      ],
-      "url": "https://arxiv.org/abs/2608.00520",
-      "pdf": "https://arxiv.org/pdf/2608.00520v2",
-      "source": "arXiv",
-      "first_seen": "2026-11-06T07:53:58.122322+00:00",
-      "version_changed": false,
-      "topics": [
-        "planetary",
-        "detection"
-      ],
-      "matches": {
-        "planetary": [
-          "exoplanet atmosphere"
-        ],
-        "dynamics": [
-          "atmospheric dynamics"
-        ],
-        "detection": [
-          "transmission spectrum"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：exoplanet atmosphere、atmospheric dynamics、transmission spectrum",
-      "tags": [
-        "光谱与相曲线 · Spectra & phase curves"
-      ],
-      "method": "keyword",
-      "fit_score": 68,
-      "fit_matches": [
-        "行星大气与辐射",
-        "系外行星观测表征"
-      ],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "unavailable",
-      "affiliation_source": "https://arxiv.org/html/2608.00520v2",
-      "publication_date": "2026-08-01",
-      "publication_date_source": "https://arxiv.org/abs/2608.00520v2",
-      "version_date": "2026-11-05T16:52:00+00:00",
-      "variants": [
-        {
-          "id": "2608.00520",
-          "source": "arXiv",
-          "journal": null,
-          "journal_id": null,
-          "title": "Using High-Resolution Spectroscopy to Study the Composition, Temperature, and Dynamics of Exoplanet Atmospheres",
-          "url": "https://arxiv.org/abs/2608.00520",
-          "doi": "",
-          "version_id": "2608.00520v2",
-          "first_seen": "2026-11-06T07:53:58.122322+00:00",
-          "publication_date": "2026-08-01",
-          "version_date": "2026-11-05T16:52:00+00:00",
-          "metadata_source": null,
-          "affiliation_source": "https://arxiv.org/html/2608.00520v2"
-        }
-      ],
-      "match_basis": [],
-      "source_types": [
-        "arXiv"
-      ],
-      "journals": [],
-      "source_groups": [],
       "intake_kind": "recent"
     },
     {
@@ -34962,15 +34584,12 @@
   "merged_count": 27,
   "daily_brief": {
     "date": "2026-11-06",
-    "built_at": "2026-11-06T08:06:01.881636+00:00",
+    "built_at": "2026-11-06T08:11:40.398585+00:00",
     "review_basis": "Automated rule screening; reading review is recorded separately.",
-    "new_count": 6,
+    "new_count": 3,
     "recent_ids": [
       "2611.08489",
-      "2611.08484",
-      "2611.08346",
       "2608.24873",
-      "2608.00520",
       "2605.18264"
     ],
     "older_ids": [],
