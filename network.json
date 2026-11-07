@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T08:11:40.398491+00:00",
+  "generated_at": "2026-11-07T07:13:08.557471+00:00",
   "nodes": [
     {
       "id": "b4689a3954627ed4",
@@ -12057,7 +12057,8 @@
       "name_zh": "麦吉尔大学",
       "papers": [
         "2609.20155",
-        "doi:10.3847/2041-8213/aeb4ab"
+        "doi:10.3847/2041-8213/aeb4ab",
+        "doi:10.3847/2041-8213/aeb5f5"
       ],
       "authors": [
         {
@@ -12100,7 +12101,8 @@
           "name_source": null,
           "orcid": "https://orcid.org/0000-0001-6129-5699",
           "papers": [
-            "doi:10.3847/2041-8213/aeb4ab"
+            "doi:10.3847/2041-8213/aeb4ab",
+            "doi:10.3847/2041-8213/aeb5f5"
           ],
           "unit_papers": {}
         },
@@ -12112,6 +12114,17 @@
           "orcid": "https://orcid.org/0000-0001-6171-200X",
           "papers": [
             "doi:10.3847/2041-8213/aeb4ab"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "54ee35059e566fc7",
+          "name": "Casey L. Brinkman",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-4480-310X",
+          "papers": [
+            "doi:10.3847/2041-8213/aeb5f5"
           ],
           "unit_papers": {}
         }
@@ -21201,7 +21214,9 @@
       ],
       "first_seen": "2026-11-06T07:53:58.122322+00:00",
       "publication_date": "2026-11-06",
-      "journals": [],
+      "journals": [
+        "Astron. & Astrophys."
+      ],
       "institutions": [
         "b4689a3954627ed4"
       ]
@@ -22387,7 +22402,9 @@
       ],
       "first_seen": "2026-10-08T01:28:21.610616+00:00",
       "publication_date": "2024-11-26",
-      "journals": [],
+      "journals": [
+        "Astron. & Astrophys."
+      ],
       "institutions": [
         "7d7f56dced000a09",
         "8af390e38bab9df5",
@@ -24771,6 +24788,22 @@
       "institutions": [
         "ac7aeed6b85a0a40",
         "c952a08fdb0ff916"
+      ]
+    },
+    "doi:10.3847/2041-8213/aeb5f5": {
+      "id": "doi:10.3847/2041-8213/aeb5f5",
+      "title": "“Mega-Earths” are Likely an Artifact of Stellar Activity",
+      "url": "https://doi.org/10.3847/2041-8213/aeb5f5",
+      "topics": [
+        "evolution"
+      ],
+      "first_seen": "2026-11-07T07:06:01.407845+00:00",
+      "publication_date": "2026-11-06",
+      "journals": [
+        "The Astrophysical Journal Letters"
+      ],
+      "institutions": [
+        "f138c3615bfbd805"
       ]
     },
     "exoplanet-bib:33128": {
@@ -49060,7 +49093,8 @@
       "orcid": "https://orcid.org/0000-0001-6129-5699",
       "identity_basis": "orcid",
       "papers": [
-        "doi:10.3847/2041-8213/aeb4ab"
+        "doi:10.3847/2041-8213/aeb4ab",
+        "doi:10.3847/2041-8213/aeb5f5"
       ],
       "institutions": [
         "f138c3615bfbd805"
@@ -49355,6 +49389,23 @@
       ],
       "aliases": [
         "David K. Sing"
+      ]
+    },
+    {
+      "id": "54ee35059e566fc7",
+      "name": "Casey L. Brinkman",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0002-4480-310X",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/2041-8213/aeb5f5"
+      ],
+      "institutions": [
+        "f138c3615bfbd805"
+      ],
+      "aliases": [
+        "Casey L. Brinkman"
       ]
     },
     {

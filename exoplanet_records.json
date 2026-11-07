@@ -1,20 +1,227 @@
 {
-  "generated_at": "2026-11-06T16:10:04.080821+08:00",
+  "generated_at": "2026-11-07T15:05:57.164260+08:00",
   "sources": {
     "exoplanet.eu": {
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-11-06T16:10:04.080821+08:00",
-      "last_success": "2026-11-06T16:10:04.080821+08:00",
+      "last_attempt": "2026-11-07T15:05:57.164260+08:00",
+      "last_success": "2026-11-07T15:05:57.164260+08:00",
       "coverage_since": "2026-09-25",
-      "pages_checked": 1,
-      "fetched": 0,
-      "retained": 0,
+      "pages_checked": 2,
+      "fetched": 19,
+      "retained": 4,
       "method": "daily incremental bibliography page scan; candidate-only"
     }
   },
   "papers": [
+    {
+      "id": "exoplanet-bib:29077",
+      "version_id": "exoplanet-bib:29077",
+      "exoplanet_id": "29077",
+      "title": "Water-rich sub-Neptunes and rocky super Earths around different Stars: Radii shaped by Volatile Partitioning, Formation, and Evolution",
+      "abstract": "",
+      "authors": [
+        "BURN R.",
+        "BALI K.",
+        "DORN C.",
+        "LUQUE R.",
+        "GRIMM S."
+      ],
+      "source": "exoplanet.eu",
+      "source_group": "exoplanet bibliography",
+      "journal": "Astron. & Astrophys.",
+      "url": "https://doi.org/10.1051/0004-6361/202452905 ",
+      "doi": "10.1051/0004-6361/202452905",
+      "publication_date": "2026",
+      "published": "2026",
+      "publication_date_source": "Exoplanet.eu bibliography",
+      "date_kind": "bibliography",
+      "first_seen": "2026-11-07T15:05:57.164260+08:00",
+      "updated": "2026-11-06",
+      "metadata_source": "https://exoplanet.eu/bibliography/all/#publication_29077",
+      "affiliation_status": "unavailable",
+      "metadata_limited": true,
+      "categories": [],
+      "exoplanet_update_date": "2026-11-06",
+      "relations": {
+        "preprint": [
+          {
+            "id": "https://arxiv.org/abs/2411.16879"
+          }
+        ]
+      },
+      "arxiv_id": "2411.16879",
+      "topics": [
+        "evolution"
+      ],
+      "matches": {
+        "evolution": [
+          "volatile"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：volatile",
+      "tags": [
+        "岩浆与挥发分 · Magma & volatiles"
+      ],
+      "method": "keyword",
+      "fit_score": 31,
+      "fit_matches": []
+    },
+    {
+      "id": "exoplanet-bib:33389",
+      "version_id": "exoplanet-bib:33389",
+      "exoplanet_id": "33389",
+      "title": "An analytical framework for atmospheric tides on rocky planets. II. Semidiurnal thermotidal torque",
+      "abstract": "",
+      "authors": [
+        "AUCLAIR-DESROTOUR P.",
+        "LASKAR J.",
+        "FARHAT M.",
+        "BOUE G."
+      ],
+      "source": "exoplanet.eu",
+      "source_group": "exoplanet bibliography",
+      "journal": "Astron. & Astrophys.",
+      "url": "https://doi.org/10.48550/arXiv.2611.07060",
+      "doi": null,
+      "publication_date": "2026",
+      "published": "2026",
+      "publication_date_source": "Exoplanet.eu bibliography",
+      "date_kind": "bibliography",
+      "first_seen": "2026-11-07T15:05:57.164260+08:00",
+      "updated": "2026-11-06",
+      "metadata_source": "https://exoplanet.eu/bibliography/all/#publication_33389",
+      "affiliation_status": "unavailable",
+      "metadata_limited": true,
+      "categories": [],
+      "exoplanet_update_date": "2026-11-06",
+      "relations": {
+        "preprint": [
+          {
+            "id": "https://arxiv.org/abs/2611.07060"
+          }
+        ]
+      },
+      "arxiv_id": "2611.07060",
+      "topics": [
+        "dynamics"
+      ],
+      "matches": {
+        "dynamics": [
+          "atmospheric tide"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：atmospheric tide",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 34,
+      "fit_matches": []
+    },
+    {
+      "id": "exoplanet-bib:33388",
+      "version_id": "exoplanet-bib:33388",
+      "exoplanet_id": "33388",
+      "title": "Prospects for detecting hot-Jupiter tidal decay through transit timing with the mission Earth 2.0",
+      "abstract": "",
+      "authors": [],
+      "source": "exoplanet.eu",
+      "source_group": "exoplanet bibliography",
+      "journal": "",
+      "url": "https://doi.org/10.48550/arXiv.2611.07427 ",
+      "doi": null,
+      "publication_date": "2026",
+      "published": "2026",
+      "publication_date_source": "Exoplanet.eu bibliography",
+      "date_kind": "bibliography",
+      "first_seen": "2026-11-07T15:05:57.164260+08:00",
+      "updated": "2026-11-06",
+      "metadata_source": "https://exoplanet.eu/bibliography/all/#publication_33388",
+      "affiliation_status": "unavailable",
+      "metadata_limited": true,
+      "categories": [],
+      "exoplanet_update_date": "2026-11-06",
+      "relations": {
+        "preprint": [
+          {
+            "id": "https://arxiv.org/abs/2611.07427"
+          }
+        ]
+      },
+      "arxiv_id": "2611.07427",
+      "topics": [
+        "detection"
+      ],
+      "matches": {
+        "detection": [
+          "transit timing"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：transit timing",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 36,
+      "fit_matches": []
+    },
+    {
+      "id": "exoplanet-bib:33385",
+      "version_id": "exoplanet-bib:33385",
+      "exoplanet_id": "33385",
+      "title": "BeAR: The Bern Atmospheric Retrieval code - A GPU-accelerated framework for low-resolution, high-resolution, and joint retrievals of exoplanet atmospheres",
+      "abstract": "",
+      "authors": [
+        "WANG E.",
+        "KITZMANN D.",
+        "HOEIJMAKERS J.",
+        "WARDENIER J.",
+        "LECOQ-MOLINOS H."
+      ],
+      "source": "exoplanet.eu",
+      "source_group": "exoplanet bibliography",
+      "journal": "Astron. & Astrophys.",
+      "url": "https://doi.org/10.48550/arXiv.2611.08489 ",
+      "doi": null,
+      "publication_date": "2026",
+      "published": "2026",
+      "publication_date_source": "Exoplanet.eu bibliography",
+      "date_kind": "bibliography",
+      "first_seen": "2026-11-07T15:05:57.164260+08:00",
+      "updated": "2026-11-06",
+      "metadata_source": "https://exoplanet.eu/bibliography/all/#publication_33385",
+      "affiliation_status": "unavailable",
+      "metadata_limited": true,
+      "categories": [],
+      "exoplanet_update_date": "2026-11-06",
+      "relations": {
+        "preprint": [
+          {
+            "id": "https://arxiv.org/abs/2611.08489"
+          }
+        ]
+      },
+      "arxiv_id": "2611.08489",
+      "topics": [
+        "planetary"
+      ],
+      "matches": {
+        "planetary": [
+          "exoplanet atmosphere"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：exoplanet atmosphere",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 50,
+      "fit_matches": [
+        "行星大气与辐射"
+      ]
+    },
     {
       "id": "exoplanet-bib:32831",
       "version_id": "exoplanet-bib:32831",
