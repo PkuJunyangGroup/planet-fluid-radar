@@ -1394,6 +1394,18 @@
       "reason": "Reading review 2026-11-06: Complete current v2 original abstract, administrative notice and version history read on the official arXiv page. arXiv Admin explicitly withdrew this submission because it does not meet arXiv's research content quality standards. Do not present it as an active research review. Preserve source archive, original first_seen and withdrawal/version evidence.",
       "reviewed_at": "2026-11-06",
       "source": "https://arxiv.org/abs/2608.00520v2"
+    },
+    "2611.12655": {
+      "status": "excluded",
+      "reason": "Reading review 2026-11-10: Complete original v1 abstract read on the official arXiv page. The simulations concern formation and gravito-viscous evolution of protoplanetary disks, comparing cloud collapse, gas/dust masses and disk radii. Planet formation is contextual motivation, not a direct planetary atmosphere, interior, surface or planetary-system orbital result. Exclude under the established narrow scope, preserving source archive, DOI relation and original first_seen.",
+      "reviewed_at": "2026-11-10",
+      "source": "https://arxiv.org/abs/2611.12655v1"
+    },
+    "2611.12560": {
+      "status": "candidate",
+      "reason": "Reading review 2026-11-10: Complete original v1 abstract and version history read on the official arXiv page. This directly reanalyses the orbital-period occurrence distribution of Neptune-size exoplanets in TESS/Kepler data and the claimed Neptunian ridge, providing a relevant planetary-population characterization result and a corrective companion to indexed paper 2611.03643. The keyword matcher missed this paper. Admit narrowly as a November 9 recent publication; the automatic score remains 0 (the score >=65 threshold applies only to one-year fallback). Preserve source archive and original first_seen; do not broaden global matching rules.",
+      "reviewed_at": "2026-11-10",
+      "source": "https://arxiv.org/abs/2611.12560v1"
     }
   },
   "mechanisms": [
