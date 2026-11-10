@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T08:43:16.568151+00:00",
+  "generated_at": "2026-11-10T10:25:45.897419+00:00",
   "nodes": [
     {
       "id": "b1bd88fb1d4f03c6",
@@ -1729,72 +1729,6 @@
       }
     },
     {
-      "id": "fa3c75d12710670b",
-      "label": "University College London",
-      "name_zh": "伦敦大学学院",
-      "papers": [
-        "2611.12655",
-        "doi:10.3847/2041-8213/aea4ae"
-      ],
-      "authors": [
-        {
-          "id": "6541e5e0abe1fc11",
-          "name": "Paola Pinilla",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "2611.12655"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "1b18c3729c1d8251",
-          "name": "Eduard I. Vorobyov",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "2611.12655"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "d68b3c0d84e70fea",
-          "name": "James McKevitt",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "2611.12655"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "364555719026d032",
-          "name": "Vincent Van Eylen",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0001-5542-8870",
-          "papers": [
-            "doi:10.3847/2041-8213/aea4ae"
-          ],
-          "unit_papers": {}
-        }
-      ],
-      "units": [],
-      "raw": [
-        "Mullard Space Science Laboratory, University College London, Holmbury St Mary, Dorking, Surrey, RH5 6NT, UK",
-        "University College London"
-      ],
-      "verification": {
-        "ror": "https://ror.org/02jx3x895",
-        "website": "http://www.ucl.ac.uk/",
-        "source": "https://api.ror.org/v2/organizations/02jx3x895",
-        "checked_at": "2026-09-24"
-      }
-    },
-    {
       "id": "7dc526e4471527e6",
       "label": "University of Copenhagen",
       "name_zh": "哥本哈根大学",
@@ -1920,6 +1854,136 @@
         "ror": "https://ror.org/035b05819",
         "website": "https://www.ku.dk",
         "source": "https://api.ror.org/v2/organizations/035b05819",
+        "checked_at": "2026-09-24"
+      }
+    },
+    {
+      "id": "4d3dd6848c184118",
+      "label": "University of Warwick",
+      "name_zh": "华威大学",
+      "papers": [
+        "2609.20155",
+        "2610.29610",
+        "2610.37773",
+        "2611.12560",
+        "doi:10.3847/2041-8213/aea4ae",
+        "doi:10.3847/2041-8213/aea906",
+        "doi:10.3847/2041-8213/aeb4ab"
+      ],
+      "authors": [
+        {
+          "id": "0f3a13012245872a",
+          "name": "David J. Armstrong",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "2611.12560"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "77d6fd6ec708baf4",
+          "name": "Felipe Lagos-Vilches",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "2610.37773"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "6b6b0f1150878a47",
+          "name": "Boris T. Gänsicke",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "2610.37773"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "8df9b68cf9af0bf8",
+          "name": "K. Ulaczyk",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "2610.29610"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "5c17927219bf45c6",
+          "name": "Thomas Wilson",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "2609.20155"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "10fdb845a5b65998",
+          "name": "Edward M. Bryant",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0001-7904-4441",
+          "papers": [
+            "doi:10.3847/2041-8213/aea4ae"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "7b23a94576b4e78f",
+          "name": "Daniel Bayliss",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0001-6023-1335",
+          "papers": [
+            "doi:10.3847/2041-8213/aea4ae"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "bc200f1155bd0cef",
+          "name": "Tim Pearce",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0001-5653-5635",
+          "papers": [
+            "doi:10.3847/2041-8213/aea906"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "b8aebf1388a74b2f",
+          "name": "Thomas G. Wilson",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0001-8749-1962",
+          "papers": [
+            "doi:10.3847/2041-8213/aeb4ab"
+          ],
+          "unit_papers": {}
+        }
+      ],
+      "units": [],
+      "raw": [
+        "Centre for Exoplanets and Habitability, University of Warwick, Coventry, UK",
+        "Centre for Exoplanets and Habitability, University of Warwick, Gibbet Hill Road, Coventry CV4 7AL, UK",
+        "Department of Physics, University of Warwick, Coventry, UK",
+        "Department of Physics, University of Warwick, Gibbet Hill Road, Coventry CV4 7AL, UK",
+        "University of Warwick",
+        "University of Warwick, Coventry CV4 7AL, United Kingdom"
+      ],
+      "verification": {
+        "ror": "https://ror.org/01a77tt86",
+        "website": "https://warwick.ac.uk/",
+        "source": "https://api.ror.org/v2/organizations/01a77tt86",
         "checked_at": "2026-09-24"
       }
     },
@@ -5285,123 +5349,6 @@
         "ror": "https://ror.org/01nrxwf90",
         "website": "https://www.ed.ac.uk",
         "source": "https://api.ror.org/v2/organizations/01nrxwf90",
-        "checked_at": "2026-09-24"
-      }
-    },
-    {
-      "id": "4d3dd6848c184118",
-      "label": "University of Warwick",
-      "name_zh": "华威大学",
-      "papers": [
-        "2609.20155",
-        "2610.29610",
-        "2610.37773",
-        "doi:10.3847/2041-8213/aea4ae",
-        "doi:10.3847/2041-8213/aea906",
-        "doi:10.3847/2041-8213/aeb4ab"
-      ],
-      "authors": [
-        {
-          "id": "77d6fd6ec708baf4",
-          "name": "Felipe Lagos-Vilches",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "2610.37773"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "6b6b0f1150878a47",
-          "name": "Boris T. Gänsicke",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "2610.37773"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "8df9b68cf9af0bf8",
-          "name": "K. Ulaczyk",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "2610.29610"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "5c17927219bf45c6",
-          "name": "Thomas Wilson",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "2609.20155"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "10fdb845a5b65998",
-          "name": "Edward M. Bryant",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0001-7904-4441",
-          "papers": [
-            "doi:10.3847/2041-8213/aea4ae"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "7b23a94576b4e78f",
-          "name": "Daniel Bayliss",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0001-6023-1335",
-          "papers": [
-            "doi:10.3847/2041-8213/aea4ae"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "bc200f1155bd0cef",
-          "name": "Tim Pearce",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0001-5653-5635",
-          "papers": [
-            "doi:10.3847/2041-8213/aea906"
-          ],
-          "unit_papers": {}
-        },
-        {
-          "id": "b8aebf1388a74b2f",
-          "name": "Thomas G. Wilson",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0001-8749-1962",
-          "papers": [
-            "doi:10.3847/2041-8213/aeb4ab"
-          ],
-          "unit_papers": {}
-        }
-      ],
-      "units": [],
-      "raw": [
-        "Centre for Exoplanets and Habitability, University of Warwick, Coventry, UK",
-        "Department of Physics, University of Warwick, Coventry, UK",
-        "Department of Physics, University of Warwick, Gibbet Hill Road, Coventry CV4 7AL, UK",
-        "University of Warwick",
-        "University of Warwick, Coventry CV4 7AL, United Kingdom"
-      ],
-      "verification": {
-        "ror": "https://ror.org/01a77tt86",
-        "website": "https://warwick.ac.uk/",
-        "source": "https://api.ror.org/v2/organizations/01a77tt86",
         "checked_at": "2026-09-24"
       }
     },
@@ -13178,6 +13125,37 @@
         "ror": "https://ror.org/01js2sh04",
         "website": "https://desy.de",
         "source": "https://api.ror.org/v2/organizations/01js2sh04",
+        "checked_at": "2026-09-24"
+      }
+    },
+    {
+      "id": "fa3c75d12710670b",
+      "label": "University College London",
+      "name_zh": "伦敦大学学院",
+      "papers": [
+        "doi:10.3847/2041-8213/aea4ae"
+      ],
+      "authors": [
+        {
+          "id": "364555719026d032",
+          "name": "Vincent Van Eylen",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0001-5542-8870",
+          "papers": [
+            "doi:10.3847/2041-8213/aea4ae"
+          ],
+          "unit_papers": {}
+        }
+      ],
+      "units": [],
+      "raw": [
+        "University College London"
+      ],
+      "verification": {
+        "ror": "https://ror.org/02jx3x895",
+        "website": "http://www.ucl.ac.uk/",
+        "source": "https://api.ror.org/v2/organizations/02jx3x895",
         "checked_at": "2026-09-24"
       }
     },
@@ -21778,20 +21756,6 @@
       "journals": [],
       "institutions": []
     },
-    "2611.12655": {
-      "id": "2611.12655",
-      "title": "Testing Models of Disk Formation and Gravito-Viscous Evolution Against Observations of Young Protoplanetary Disks",
-      "url": "https://arxiv.org/abs/2611.12655",
-      "topics": [
-        "evolution"
-      ],
-      "first_seen": "2026-11-10T08:23:33.861725+00:00",
-      "publication_date": "2026-11-10",
-      "journals": [],
-      "institutions": [
-        "fa3c75d12710670b"
-      ]
-    },
     "2611.12581": {
       "id": "2611.12581",
       "title": "The compositional link between rocky exoplanets and their host stars is consistent with Earth-like devolatilization",
@@ -21804,6 +21768,18 @@
       "journals": [],
       "institutions": [
         "7dc526e4471527e6"
+      ]
+    },
+    "2611.12560": {
+      "id": "2611.12560",
+      "title": "The Neptunian ridge depends on the choice of linear or logarithmic period",
+      "url": "https://arxiv.org/abs/2611.12560",
+      "topics": [],
+      "first_seen": "2026-11-10T08:23:33.861725+00:00",
+      "publication_date": "2026-11-09",
+      "journals": [],
+      "institutions": [
+        "4d3dd6848c184118"
       ]
     },
     "2611.08489": {
@@ -25874,72 +25850,6 @@
       ]
     },
     {
-      "id": "05dd3ee457408022",
-      "name": "Fabiola Antonietta Gerosa",
-      "name_zh": null,
-      "name_source": "",
-      "orcid": null,
-      "identity_basis": "paper_signature",
-      "papers": [
-        "2611.12655"
-      ],
-      "institutions": [],
-      "aliases": [
-        "Fabiola Antonietta Gerosa"
-      ]
-    },
-    {
-      "id": "6541e5e0abe1fc11",
-      "name": "Paola Pinilla",
-      "name_zh": null,
-      "name_source": "",
-      "orcid": null,
-      "identity_basis": "name_and_institution",
-      "papers": [
-        "2611.12655"
-      ],
-      "institutions": [
-        "fa3c75d12710670b"
-      ],
-      "aliases": [
-        "Paola Pinilla"
-      ]
-    },
-    {
-      "id": "1b18c3729c1d8251",
-      "name": "Eduard I. Vorobyov",
-      "name_zh": null,
-      "name_source": "",
-      "orcid": null,
-      "identity_basis": "name_and_institution",
-      "papers": [
-        "2611.12655"
-      ],
-      "institutions": [
-        "fa3c75d12710670b"
-      ],
-      "aliases": [
-        "Eduard I. Vorobyov"
-      ]
-    },
-    {
-      "id": "d68b3c0d84e70fea",
-      "name": "James McKevitt",
-      "name_zh": null,
-      "name_source": "",
-      "orcid": null,
-      "identity_basis": "name_and_institution",
-      "papers": [
-        "2611.12655"
-      ],
-      "institutions": [
-        "fa3c75d12710670b"
-      ],
-      "aliases": [
-        "James McKevitt"
-      ]
-    },
-    {
       "id": "d7039a661475293f",
       "name": "Yared Reinarz",
       "name_zh": null,
@@ -25985,6 +25895,38 @@
       ],
       "aliases": [
         "Haiyang S. Wang"
+      ]
+    },
+    {
+      "id": "435d27a3e4f65b93",
+      "name": "Kaiming Cui",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": null,
+      "identity_basis": "paper_signature",
+      "papers": [
+        "2611.12560"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Kaiming Cui"
+      ]
+    },
+    {
+      "id": "0f3a13012245872a",
+      "name": "David J. Armstrong",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": null,
+      "identity_basis": "name_and_institution",
+      "papers": [
+        "2611.12560"
+      ],
+      "institutions": [
+        "4d3dd6848c184118"
+      ],
+      "aliases": [
+        "David J. Armstrong"
       ]
     },
     {

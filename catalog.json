@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T08:43:16.568151+00:00",
+  "generated_at": "2026-11-10T10:25:45.897419+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
@@ -260,11 +260,11 @@
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-11-10T16:23:56.590518+08:00",
-      "last_success": "2026-11-10T16:23:56.590518+08:00",
+      "last_attempt": "2026-11-10T18:24:27.236262+08:00",
+      "last_success": "2026-11-10T18:24:27.236262+08:00",
       "coverage_since": "2026-09-25",
-      "pages_checked": 2,
-      "fetched": 4,
+      "pages_checked": 1,
+      "fetched": 0,
       "retained": 0,
       "method": "daily incremental bibliography page scan; candidate-only"
     }
@@ -1491,111 +1491,6 @@
       "intake_kind": "recent"
     },
     {
-      "id": "2611.12655",
-      "version_id": "2611.12655v1",
-      "title": "Testing Models of Disk Formation and Gravito-Viscous Evolution Against Observations of Young Protoplanetary Disks",
-      "abstract": "Young protoplanetary disks have received increasing attention in recent years, due to observations revealing the presence of substructures in disks younger than one million years, suggesting that planet formation may begin earlier than previously thought. Other recent observations have provided new insights into the evolution of gas and dust in these early stages, enabling comparisons with evolved Class II disks. Yet the physical processes governing the earliest stages of disk evolution remain poorly understood. In this paper, we present two-dimensional thin-disk hydrodynamical simulations of the formation and early evolution of protoplanetary disks, under the influence of self-gravity and turbulent viscosity alone. We explore various properties of disks forming from the collapse of clouds with a range of initial masses and we compare our results with surveys of protoplanetary disks across multiple evolutionary stages. Our simulations broadly reproduce key observational constraints, including the mm fluxes of Class 0 disks and the dust disk radii of later stages. However, our models do not explain the observed gas and dust disk masses of Class I and II disks: while they account for the most massive observed disks, they fail to reproduce the least massive ones. We discuss that simulations incorporating the influence of the star-forming environment might be needed to resolve this discrepancy.",
-      "published": "2026-11-09T16:24:07Z",
-      "updated": "2026-11-09T16:24:07Z",
-      "authors": [
-        "Fabiola Antonietta Gerosa",
-        "Paola Pinilla",
-        "Eduard I. Vorobyov",
-        "James McKevitt"
-      ],
-      "doi": "10.1093/mnras/stag2130",
-      "categories": [
-        "astro-ph.EP"
-      ],
-      "url": "https://arxiv.org/abs/2611.12655",
-      "pdf": "https://arxiv.org/pdf/2611.12655v1",
-      "source": "arXiv",
-      "first_seen": "2026-11-10T08:23:33.861725+00:00",
-      "version_changed": false,
-      "topics": [
-        "evolution"
-      ],
-      "matches": {
-        "evolution": [
-          "planet formation"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：planet formation",
-      "tags": [
-        "云与辐射 · Clouds & radiation",
-        "反演与数值方法 · Inverse & numerical methods"
-      ],
-      "method": "keyword",
-      "fit_score": 31,
-      "fit_matches": [],
-      "institutions": [
-        "Mullard Space Science Laboratory, University College London, Holmbury St Mary, Dorking, Surrey, RH5 6NT, UK",
-        "Institut für Astro- und Teilchenphysik, Universität Innsbruck, Technikerstraße 25, 6020 Innsbruck, Austria",
-        "University of Vienna, Department of Astrophysics, Türkenschanzstrasse 17, 1180, Vienna, Austria"
-      ],
-      "author_affiliations": [
-        {
-          "name": "Fabiola Antonietta Gerosa",
-          "institutions": [],
-          "orcid": null
-        },
-        {
-          "name": "Paola Pinilla",
-          "institutions": [
-            "Mullard Space Science Laboratory, University College London, Holmbury St Mary, Dorking, Surrey, RH5 6NT, UK"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "Eduard I. Vorobyov",
-          "institutions": [
-            "Mullard Space Science Laboratory, University College London, Holmbury St Mary, Dorking, Surrey, RH5 6NT, UK",
-            "Institut für Astro- und Teilchenphysik, Universität Innsbruck, Technikerstraße 25, 6020 Innsbruck, Austria",
-            "University of Vienna, Department of Astrophysics, Türkenschanzstrasse 17, 1180, Vienna, Austria"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "James McKevitt",
-          "institutions": [
-            "Mullard Space Science Laboratory, University College London, Holmbury St Mary, Dorking, Surrey, RH5 6NT, UK",
-            "University of Vienna, Department of Astrophysics, Türkenschanzstrasse 17, 1180, Vienna, Austria"
-          ],
-          "orcid": null
-        }
-      ],
-      "affiliation_status": "verified",
-      "affiliation_source": "https://arxiv.org/html/2611.12655v1",
-      "publication_date": "2026-11-10",
-      "publication_date_source": "https://arxiv.org/abs/2611.12655v1",
-      "version_date": "2026-11-09T16:24:07+00:00",
-      "variants": [
-        {
-          "id": "2611.12655",
-          "source": "arXiv",
-          "journal": null,
-          "journal_id": null,
-          "title": "Testing Models of Disk Formation and Gravito-Viscous Evolution Against Observations of Young Protoplanetary Disks",
-          "url": "https://arxiv.org/abs/2611.12655",
-          "doi": "10.1093/mnras/stag2130",
-          "version_id": "2611.12655v1",
-          "first_seen": "2026-11-10T08:23:33.861725+00:00",
-          "publication_date": "2026-11-10",
-          "version_date": "2026-11-09T16:24:07+00:00",
-          "metadata_source": null,
-          "affiliation_source": "https://arxiv.org/html/2611.12655v1"
-        }
-      ],
-      "match_basis": [],
-      "source_types": [
-        "arXiv"
-      ],
-      "journals": [],
-      "source_groups": [],
-      "intake_kind": "recent"
-    },
-    {
       "id": "2611.12581",
       "version_id": "2611.12581v1",
       "title": "The compositional link between rocky exoplanets and their host stars is consistent with Earth-like devolatilization",
@@ -1685,6 +1580,83 @@
           "version_date": "2026-11-09T15:37:31+00:00",
           "metadata_source": null,
           "affiliation_source": "https://arxiv.org/html/2611.12581v1"
+        }
+      ],
+      "match_basis": [],
+      "source_types": [
+        "arXiv"
+      ],
+      "journals": [],
+      "source_groups": [],
+      "intake_kind": "recent"
+    },
+    {
+      "id": "2611.12560",
+      "version_id": "2611.12560v1",
+      "title": "The Neptunian ridge depends on the choice of linear or logarithmic period",
+      "abstract": "The Neptunian ridge has been reported as an overdensity of planets with radii of $\\simeq$5-8 R$_\\oplus$ and orbital periods of $\\simeq$3-6 d, located between the Neptunian desert and the savanna. It was first identified in Kepler data and has recently been reanalysed using our TESS occurrence rates, where it appears as an approximately twofold excess relative to neighbouring regions. We show that the reported excess arises from expressing the occurrence density per unit period, $\\mathrm{d}N/\\mathrm{d}P$, rather than per unit logarithmic period, $\\mathrm{d}N/\\mathrm{d}\\ln P$, where the logarithmic form is standard in planet demographics. Because the savanna interval used for comparison is twice as wide in period as the ridge, a population uniform in $\\ln P$ naturally produces a factor-of-two contrast in $\\mathrm{d}N/\\mathrm{d}P$. When expressed per unit $\\ln P$, the published TESS and Kepler ridge-to-savanna contrasts decrease from 1.6-2.2 to 0.8-1.2, all consistent with unity. A simulated population with a desert but no intrinsic excess reproduces the appearance of a ridge in $\\mathrm{d}N/\\mathrm{d}P$ precisely. Reanalysing the TESS-SPOC occurrence rates of 5.5-8.5 R$_\\oplus$ planets around FGK stars, we find a ridge-to-savanna ratio of $0.91^{+0.21}_{-0.16}$ per unit $\\ln P$, which does not support the claimed overdensity at the ridge. Taken together, these tests imply that the published ridge is a result of the scale choice used, rather than a definitive property of the observed planet population.",
+      "published": "2026-11-09T15:25:49Z",
+      "updated": "2026-11-09T15:25:49Z",
+      "authors": [
+        "Kaiming Cui",
+        "David J. Armstrong"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2611.12560",
+      "pdf": "https://arxiv.org/pdf/2611.12560v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-10T08:23:33.861725+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "candidate",
+      "reason": "Reading review 2026-11-10: Complete original v1 abstract and version history read on the official arXiv page. This directly reanalyses the orbital-period occurrence distribution of Neptune-size exoplanets in TESS/Kepler data and the claimed Neptunian ridge, providing a relevant planetary-population characterization result and a corrective companion to indexed paper 2611.03643. The keyword matcher missed this paper. Admit narrowly as a November 9 recent publication; the automatic score remains 0 (the score >=65 threshold applies only to one-year fallback). Preserve source archive and original first_seen; do not broaden global matching rules.",
+      "tags": [],
+      "method": "manual",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Department of Physics, University of Warwick, Gibbet Hill Road, Coventry CV4 7AL, UK",
+        "Centre for Exoplanets and Habitability, University of Warwick, Gibbet Hill Road, Coventry CV4 7AL, UK"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Kaiming Cui",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "David J. Armstrong",
+          "institutions": [
+            "Department of Physics, University of Warwick, Gibbet Hill Road, Coventry CV4 7AL, UK",
+            "Centre for Exoplanets and Habitability, University of Warwick, Gibbet Hill Road, Coventry CV4 7AL, UK"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.12560v1",
+      "publication_date": "2026-11-09",
+      "publication_date_source": "https://arxiv.org/abs/2611.12560v1",
+      "version_date": "2026-11-09T15:25:49+00:00",
+      "variants": [
+        {
+          "id": "2611.12560",
+          "source": "arXiv",
+          "journal": null,
+          "journal_id": null,
+          "title": "The Neptunian ridge depends on the choice of linear or logarithmic period",
+          "url": "https://arxiv.org/abs/2611.12560",
+          "doi": "",
+          "version_id": "2611.12560v1",
+          "first_seen": "2026-11-10T08:23:33.861725+00:00",
+          "publication_date": "2026-11-09",
+          "version_date": "2026-11-09T15:25:49+00:00",
+          "metadata_source": null,
+          "affiliation_source": "https://arxiv.org/html/2611.12560v1"
         }
       ],
       "match_basis": [],
@@ -34215,6 +34187,7 @@
       "2611.08346",
       "2611.08484",
       "2611.08489",
+      "2611.12560",
       "2611.12581",
       "2611.12655",
       "2611.12787",
@@ -34386,7 +34359,8 @@
       "2611.12655": "recent",
       "2611.12581": "recent",
       "doi:10.3847/1538-4357/aeb012": "recent",
-      "doi:10.3847/2041-8213/aeb4a4": "recent"
+      "doi:10.3847/2041-8213/aeb4a4": "recent",
+      "2611.12560": "recent"
     },
     "policy": {
       "recent_days": 2,
@@ -34403,7 +34377,8 @@
       "2611.12655",
       "2611.12581",
       "doi:10.3847/1538-4357/aeb012",
-      "doi:10.3847/2041-8213/aeb4a4"
+      "doi:10.3847/2041-8213/aeb4a4",
+      "2611.12560"
     ],
     "search_errors": []
   },
@@ -35897,15 +35872,15 @@
   "merged_count": 29,
   "daily_brief": {
     "date": "2026-11-10",
-    "built_at": "2026-11-10T08:43:16.568300+00:00",
+    "built_at": "2026-11-10T10:25:45.897594+00:00",
     "review_basis": "Automated rule screening; reading review is recorded separately.",
     "new_count": 7,
     "recent_ids": [
       "2611.12881",
       "2611.12819",
       "2611.12787",
-      "2611.12655",
       "2611.12581",
+      "2611.12560",
       "doi:10.3847/1538-4357/aeb012",
       "doi:10.3847/2041-8213/aeb4a4"
     ],
