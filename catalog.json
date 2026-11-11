@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T07:56:01.890621+00:00",
+  "generated_at": "2026-11-11T08:31:23.573046+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
@@ -260,11 +260,11 @@
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-11-11T15:44:21.082285+08:00",
-      "last_success": "2026-11-11T15:44:21.082285+08:00",
+      "last_attempt": "2026-11-11T16:30:03.442534+08:00",
+      "last_success": "2026-11-11T16:30:03.442534+08:00",
       "coverage_since": "2026-09-25",
       "pages_checked": 2,
-      "fetched": 8,
+      "fetched": 7,
       "retained": 0,
       "method": "daily incremental bibliography page scan; candidate-only"
     }
@@ -1055,109 +1055,6 @@
   "repository": "https://github.com/PkuJunyangGroup/planet-fluid-radar",
   "papers": [
     {
-      "id": "2611.14441",
-      "version_id": "2611.14441v1",
-      "title": "Nucleation of water ice under weak ionization via clustering on negative ions",
-      "abstract": "Water-ice grains are shown to form spontaneously in a cold, weakly-ionized laboratory plasma with trace water admixture when neutrals and ions are cooled below $\\sim$200 K. These conditions serve as an analog of ice nucleation in cold astrophysical and atmospheric environments. The ice grains form without the presence of particulate impurities, and do not form in the absence of ionization, indicating that nucleation is induced by ions. Time-resolved ion mass spectrometry provides separate detection of clusters of water molecules on both positive and negative ions. Hydrated negative ions, mainly $\\mathrm{OH^-(H_2O)_n}$, grow to $\\sim$200 amu, while hydrated positive ions, mainly $\\mathrm{H^+(H_2O)_n}$, remain small and short-lived. As the temperature is reduced from room temperature toward 200 K, negative ion clusters grow in size and then drop sharply in abundance, consistent with the onset of rapid growth into macroscopic ice grains below a critical temperature. This indicates that hydrated negative ions are key precursors to ice nucleation in cold, weakly ionized environments, such as the Earth's mesosphere and protoplanetary disks, providing a concrete pathway for ice formation in environments where the nucleation mechanism has remained unresolved. This negative ion pathway is estimated to dominate over ice deposition on pre-existing dust grains in protoplanetary disk locations where there is sufficient UV to partially dissociate water molecules, and in addition, where negative ions such as OH- can form readily through electron attachment at low temperature.",
-      "published": "2026-11-10T18:11:44Z",
-      "updated": "2026-11-10T18:11:44Z",
-      "authors": [
-        "André Nicolov",
-        "Efstratios M. Kritikos",
-        "William A. Goddard III.",
-        "Paul M. Bellan"
-      ],
-      "doi": "",
-      "categories": [
-        "astro-ph.EP",
-        "physics.plasm-ph",
-        "physics.space-ph"
-      ],
-      "url": "https://arxiv.org/abs/2611.14441",
-      "pdf": "https://arxiv.org/pdf/2611.14441v1",
-      "source": "arXiv",
-      "first_seen": "2026-11-11T07:43:49.541050+00:00",
-      "version_changed": false,
-      "topics": [
-        "cryosphere"
-      ],
-      "matches": {
-        "cryosphere": [
-          "water ice"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：water ice",
-      "tags": [],
-      "method": "keyword",
-      "fit_score": 38,
-      "fit_matches": [],
-      "institutions": [
-        "Department of Applied Physics and Materials Science, California Institute of Technology, Pasadena, CA 91125, USA",
-        "Department of Physics, University of Oxford, Oxford, OX1 3PU, England"
-      ],
-      "author_affiliations": [
-        {
-          "name": "André Nicolov",
-          "institutions": [
-            "Department of Applied Physics and Materials Science, California Institute of Technology, Pasadena, CA 91125, USA"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "Efstratios M. Kritikos",
-          "institutions": [
-            "Department of Applied Physics and Materials Science, California Institute of Technology, Pasadena, CA 91125, USA",
-            "Department of Physics, University of Oxford, Oxford, OX1 3PU, England"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "William A. Goddard III",
-          "institutions": [
-            "Department of Applied Physics and Materials Science, California Institute of Technology, Pasadena, CA 91125, USA"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "Paul M. Bellan",
-          "institutions": [
-            "Department of Applied Physics and Materials Science, California Institute of Technology, Pasadena, CA 91125, USA"
-          ],
-          "orcid": null
-        }
-      ],
-      "affiliation_status": "verified",
-      "affiliation_source": "https://arxiv.org/html/2611.14441v1",
-      "publication_date": "2026-11-11",
-      "publication_date_source": "https://arxiv.org/abs/2611.14441v1",
-      "version_date": "2026-11-10T18:11:44+00:00",
-      "variants": [
-        {
-          "id": "2611.14441",
-          "source": "arXiv",
-          "journal": null,
-          "journal_id": null,
-          "title": "Nucleation of water ice under weak ionization via clustering on negative ions",
-          "url": "https://arxiv.org/abs/2611.14441",
-          "doi": "",
-          "version_id": "2611.14441v1",
-          "first_seen": "2026-11-11T07:43:49.541050+00:00",
-          "publication_date": "2026-11-11",
-          "version_date": "2026-11-10T18:11:44+00:00",
-          "metadata_source": null,
-          "affiliation_source": "https://arxiv.org/html/2611.14441v1"
-        }
-      ],
-      "match_basis": [],
-      "source_types": [
-        "arXiv"
-      ],
-      "journals": [],
-      "source_groups": [],
-      "intake_kind": "recent"
-    },
-    {
       "id": "2611.13771",
       "version_id": "2611.13771v1",
       "title": "Breaking the Chain: The Dynamical History of the Barnard's Star Planetary System",
@@ -1223,6 +1120,78 @@
           "version_date": "2026-11-10T09:10:41+00:00",
           "metadata_source": null,
           "affiliation_source": "https://arxiv.org/html/2611.13771v1"
+        }
+      ],
+      "match_basis": [],
+      "source_types": [
+        "arXiv"
+      ],
+      "journals": [],
+      "source_groups": [],
+      "intake_kind": "recent"
+    },
+    {
+      "id": "2611.13770",
+      "version_id": "2611.13770v1",
+      "title": "ExoPlanetLab: Bayesian orbit fitting of Gaia-DR4 epoch astrometry, radial velocities and relative astrometry",
+      "abstract": "Gaia Data Release 4 (DR4) provides epoch astrometry from which thousands of giant planets and many substellar and stellar companions can be characterised. We present ExoPlanetLab, an open-source package for Bayesian orbit inference from Gaia epoch astrometry, radial velocities (RVs) and relative astrometry, validated on simulated and real data. The model orbit is compared with the epoch residuals after removing the part absorbed by the single-star fit. A Student-t likelihood describes heavy-tailed data. A robust Keplerian periodogram with bootstrap false-alarm probabilities gives starting values for a joint fit. Five samplers are available: tempered ensemble MCMC, two nested samplers and two reversible-jump samplers. Evidences for a fixed number of companions select that number. Acceleration and scan-angle models test whether an orbit is warranted. The samplers agree within 0.1 sigma on a simulated two-planet system. In 180 injections all fits converge, and all signals with signal-to-noise ratio S >= 10 are detected. The posteriors show no significant bias, but the period coverage is below nominal: 90% of the true periods lie within their 95% credible intervals. None of 30 companion-free data sets gives a false detection. On DR4 pre-release data the orbit of Gaia BH3 is recovered within 1.4 sigma of published solutions. The Student-t model brings the astrometric period and eccentricity of HD 114762 onto its RV orbit. Eight simulated relative positions narrow the period's credible interval to 0.27 of its width, and Octofitter agrees within 0.2 sigma on the same data. The code is validated for single sources with DR4-like epoch astrometry, with or without RVs. Relative astrometry is tested on simulated data only. The main limits are an uncorrelated noise model and the computing cost, which grows linearly with the number of measurements and steeply with the number of companions.",
+      "published": "2026-11-10T09:09:59Z",
+      "updated": "2026-11-10T09:09:59Z",
+      "authors": [
+        "David Hobbs"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.IM",
+        "astro-ph.EP",
+        "astro-ph.GA",
+        "astro-ph.SR"
+      ],
+      "url": "https://arxiv.org/abs/2611.13770",
+      "pdf": "https://arxiv.org/pdf/2611.13770v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-11T07:43:49.541050+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "candidate",
+      "reason": "Reading review 2026-11-11: Complete original v1 abstract and version history read on the official arXiv page. This is a quantitative exoplanet orbit-inference method with simulated two-planet recovery, 180 injection tests and explicit coverage/false-positive validation, rather than a generic numerical sampler. The keyword matcher missed it. Admit narrowly as a November 10 recent publication; keep the automatic score of 0 because the score >=65 threshold applies only to one-year fallback. Real-data examples are Gaia BH3 and HD 114762, not a new planet discovery; relative-astrometry validation is simulated and period coverage is below nominal. Preserve source archive and original first_seen; do not broaden global matching rules.",
+      "tags": [],
+      "method": "manual",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Lund Observatory, Division of Astrophysics, Department of Physics, Lund University, Box 43, SE-221 00 Lund, Sweden"
+      ],
+      "author_affiliations": [
+        {
+          "name": "D. Hobbs",
+          "institutions": [
+            "Lund Observatory, Division of Astrophysics, Department of Physics, Lund University, Box 43, SE-221 00 Lund, Sweden"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.13770v1",
+      "publication_date": "2026-11-10",
+      "publication_date_source": "https://arxiv.org/abs/2611.13770v1",
+      "version_date": "2026-11-10T09:09:59+00:00",
+      "variants": [
+        {
+          "id": "2611.13770",
+          "source": "arXiv",
+          "journal": null,
+          "journal_id": null,
+          "title": "ExoPlanetLab: Bayesian orbit fitting of Gaia-DR4 epoch astrometry, radial velocities and relative astrometry",
+          "url": "https://arxiv.org/abs/2611.13770",
+          "doi": "",
+          "version_id": "2611.13770v1",
+          "first_seen": "2026-11-11T07:43:49.541050+00:00",
+          "publication_date": "2026-11-10",
+          "version_date": "2026-11-10T09:09:59+00:00",
+          "metadata_source": null,
+          "affiliation_source": "https://arxiv.org/html/2611.13770v1"
         }
       ],
       "match_basis": [],
@@ -11037,168 +11006,6 @@
           "version_date": "2026-10-20T09:33:31+00:00",
           "metadata_source": null,
           "affiliation_source": "https://arxiv.org/html/2609.20155v2"
-        }
-      ],
-      "match_basis": [],
-      "source_types": [
-        "arXiv"
-      ],
-      "journals": [],
-      "source_groups": [],
-      "intake_kind": "recent"
-    },
-    {
-      "id": "2609.09063",
-      "version_id": "2609.09063v2",
-      "title": "The size and mass distribution of cold classical TNOs for $5<H<13$",
-      "abstract": "The cold classical trans-Neptunian objects (CCs) are the only observable \\textit{in situ} population of planetesimal remnants believed to have escaped collisional grinding. Recent JWST observations make it possible to fit the differential absolute magnitude distribution $dN/dH$ of the CCs from $5<H_r<13,$ and infer the differential mass distribution $dN/dM$ across $\\ge5$ orders of magnitude in mass. We find $dN/dM$ well fit by a lognormal distribution, and equally well by a generalized $Γ$ distribution or a double power law. The maximum fraction of the total CC mass per log interval in $M$ is in bodies near 75~km diameter, or $\\approx10^{-7.5}M_\\oplus.$ Extrapolation of the fitted $dN/dH$ functions to $H_r>13$ is unwise, as the different analytic forms diverge. It remains unclear if $dN/dH$ turns over at faint $H.$ The uncertainty in the total mass of the CC belt is dominated by uncertainty in the relation between $M$ and $H$. A calibration using CC binaries suggests a total CC mass of 1.7--2.7$\\times10^{-3}\\,M_\\oplus.$ A trend toward lower density and/or higher albedo for smaller bodies may be present in the data, and would lower the estimated total CC mass. Qualitative comparison of the derived mass distribution to the results of numerical simulations of the streaming instability (SI) suggest the simulations produce $dN/dM$ distributions that are more sharply peaked, and steeper at the bright end, than the CCs. Such differences could be ascribed to inhomogeneous formation conditions in the classical belt that are not yet included in modeling. The variety and uncertainty of $dN/dM$ derived from state-of-the-art SI simulations currently preclude any definitive test of the SI hypothesis.",
-      "published": "2026-09-08T17:17:45Z",
-      "updated": "2026-11-10T18:14:45Z",
-      "authors": [
-        "Gary M. Bernstein",
-        "Wesley C. Fraser",
-        "Marielle R. Eduardo",
-        "William M. Grundy",
-        "Bryan Hilbert",
-        "Matthew J. Holman",
-        "Anastasia N. Morgan",
-        "Kevin J. Napier",
-        "John A. Stansberry",
-        "David E. Trilling"
-      ],
-      "doi": "",
-      "categories": [
-        "astro-ph.EP"
-      ],
-      "url": "https://arxiv.org/abs/2609.09063",
-      "pdf": "https://arxiv.org/pdf/2609.09063v2",
-      "source": "arXiv",
-      "first_seen": "2026-11-11T07:43:49.541050+00:00",
-      "version_changed": false,
-      "topics": [
-        "evolution"
-      ],
-      "matches": {
-        "evolution": [
-          "planetesimal"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：planetesimal",
-      "tags": [
-        "云与辐射 · Clouds & radiation",
-        "流体与不稳定性 · Fluid dynamics",
-        "反演与数值方法 · Inverse & numerical methods"
-      ],
-      "method": "keyword",
-      "fit_score": 38,
-      "fit_matches": [
-        "系外行星观测表征"
-      ],
-      "institutions": [
-        "Department of Physics and Astronomy, University of Pennsylvania, Philadelphia, PA 19104, USA",
-        "National Research Council of Canada, Herzberg Astronomy and Astrophysics Research Centre, 5071 W. Saanich Rd. Victoria, BC, V9E 2E7, Canada",
-        "Department of Physics and Astronomy, University of Victoria, Elliott Building, 3800 Finnerty Road, Victoria, BC V8P 5C2, Canada",
-        "Department of Physics and Astronomy, University of Victoria, 3800 Finnerty Road, Victoria, BC V8P 5C2, Canada",
-        "Department of Astronomy and Planetary Science, Northern Arizona University, Flagstaff, AZ 86011, USA",
-        "Space Telescope Science Institute, 3700 San Martin Drive, Baltimore, MD 21218, USA",
-        "Center for Astrophysics — Harvard & Smithsonian, 60 Garden Street, Cambridge, MA 02138, USA",
-        "Department of Physics, University of Michigan, Ann Arbor, MI 48109, USA"
-      ],
-      "author_affiliations": [
-        {
-          "name": "Gary M. Bernstein",
-          "institutions": [
-            "Department of Physics and Astronomy, University of Pennsylvania, Philadelphia, PA 19104, USA"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "Wesley C. Fraser",
-          "institutions": [
-            "National Research Council of Canada, Herzberg Astronomy and Astrophysics Research Centre, 5071 W. Saanich Rd. Victoria, BC, V9E 2E7, Canada",
-            "Department of Physics and Astronomy, University of Victoria, Elliott Building, 3800 Finnerty Road, Victoria, BC V8P 5C2, Canada"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "Marielle R. Eduardo",
-          "institutions": [
-            "Department of Physics and Astronomy, University of Victoria, 3800 Finnerty Road, Victoria, BC V8P 5C2, Canada"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "William M. Grundy",
-          "institutions": [
-            "Department of Astronomy and Planetary Science, Northern Arizona University, Flagstaff, AZ 86011, USA"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "Bryan Hilbert",
-          "institutions": [
-            "Space Telescope Science Institute, 3700 San Martin Drive, Baltimore, MD 21218, USA"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "Matthew J. Holman",
-          "institutions": [
-            "Center for Astrophysics — Harvard & Smithsonian, 60 Garden Street, Cambridge, MA 02138, USA"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "Anastasia N. Morgan",
-          "institutions": [
-            "Department of Astronomy and Planetary Science, Northern Arizona University, Flagstaff, AZ 86011, USA"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "Kevin J. Napier",
-          "institutions": [
-            "Department of Physics, University of Michigan, Ann Arbor, MI 48109, USA",
-            "Center for Astrophysics — Harvard & Smithsonian, 60 Garden Street, Cambridge, MA 02138, USA"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "John A. Stansberry",
-          "institutions": [
-            "Space Telescope Science Institute, 3700 San Martin Drive, Baltimore, MD 21218, USA"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "David E. Trilling",
-          "institutions": [
-            "Department of Astronomy and Planetary Science, Northern Arizona University, Flagstaff, AZ 86011, USA"
-          ],
-          "orcid": null
-        }
-      ],
-      "affiliation_status": "verified",
-      "affiliation_source": "https://arxiv.org/html/2609.09063v2",
-      "publication_date": "2026-09-09",
-      "publication_date_source": "https://arxiv.org/abs/2609.09063v2",
-      "version_date": "2026-11-10T18:14:45+00:00",
-      "variants": [
-        {
-          "id": "2609.09063",
-          "source": "arXiv",
-          "journal": null,
-          "journal_id": null,
-          "title": "The size and mass distribution of cold classical TNOs for $5<H<13$",
-          "url": "https://arxiv.org/abs/2609.09063",
-          "doi": "",
-          "version_id": "2609.09063v2",
-          "first_seen": "2026-11-11T07:43:49.541050+00:00",
-          "publication_date": "2026-09-09",
-          "version_date": "2026-11-10T18:14:45+00:00",
-          "metadata_source": null,
-          "affiliation_source": "https://arxiv.org/html/2609.09063v2"
         }
       ],
       "match_basis": [],
@@ -34632,6 +34439,7 @@
       "2611.12787",
       "2611.12819",
       "2611.12881",
+      "2611.13770",
       "2611.13771",
       "2611.14441",
       "doi:10.1029/2026gl124362",
@@ -34806,7 +34614,8 @@
       "2611.14441": "recent",
       "2611.13771": "recent",
       "2609.09063": "recent",
-      "doi:10.3847/1538-4357/aea216": "recent"
+      "doi:10.3847/1538-4357/aea216": "recent",
+      "2611.13770": "recent"
     },
     "policy": {
       "recent_days": 2,
@@ -34817,9 +34626,8 @@
     "last_run": "2026-11-11",
     "mode": "recent",
     "selected": [
-      "2611.14441",
       "2611.13771",
-      "2609.09063",
+      "2611.13770",
       "doi:10.3847/1538-4357/aea216"
     ],
     "search_errors": []
@@ -36314,13 +36122,12 @@
   "merged_count": 29,
   "daily_brief": {
     "date": "2026-11-11",
-    "built_at": "2026-11-11T07:56:01.890769+00:00",
+    "built_at": "2026-11-11T08:31:23.573166+00:00",
     "review_basis": "Automated rule screening; reading review is recorded separately.",
-    "new_count": 4,
+    "new_count": 3,
     "recent_ids": [
-      "2611.14441",
       "2611.13771",
-      "2609.09063",
+      "2611.13770",
       "doi:10.3847/1538-4357/aea216"
     ],
     "older_ids": [],
