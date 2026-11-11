@@ -1406,6 +1406,24 @@
       "reason": "Reading review 2026-11-10: Complete original v1 abstract and version history read on the official arXiv page. This directly reanalyses the orbital-period occurrence distribution of Neptune-size exoplanets in TESS/Kepler data and the claimed Neptunian ridge, providing a relevant planetary-population characterization result and a corrective companion to indexed paper 2611.03643. The keyword matcher missed this paper. Admit narrowly as a November 9 recent publication; the automatic score remains 0 (the score >=65 threshold applies only to one-year fallback). Preserve source archive and original first_seen; do not broaden global matching rules.",
       "reviewed_at": "2026-11-10",
       "source": "https://arxiv.org/abs/2611.12560v1"
+    },
+    "2611.14441": {
+      "status": "excluded",
+      "reason": "Reading review 2026-11-11: Complete original v1 abstract and version history read on the official arXiv page. This studies ice nucleation in a cold weakly ionized laboratory plasma, with Earth's mesosphere and protoplanetary disks as applications. It does not establish a nonterrestrial planetary atmosphere, climate, surface or interior result. Exclude under the existing cloud-microphysics and disk-study scope boundaries; preserve the source archive and original first_seen.",
+      "reviewed_at": "2026-11-11",
+      "source": "https://arxiv.org/abs/2611.14441v1"
+    },
+    "2609.09063": {
+      "status": "excluded",
+      "reason": "Reading review 2026-11-11: Complete current v2 original abstract and version history read on the official arXiv page. This measures the size and mass distribution of cold classical trans-Neptunian planetesimal remnants and compares it with streaming-instability formation theory. It does not address a direct planetary atmosphere, interior, surface or planetary-system orbital mechanism. Exclude under the established narrow scope; preserve the source archive, revision history and original first_seen.",
+      "reviewed_at": "2026-11-11",
+      "source": "https://arxiv.org/abs/2609.09063v2"
+    },
+    "2611.13770": {
+      "status": "candidate",
+      "reason": "Reading review 2026-11-11: Complete original v1 abstract and version history read on the official arXiv page. This is a quantitative exoplanet orbit-inference method with simulated two-planet recovery, 180 injection tests and explicit coverage/false-positive validation, rather than a generic numerical sampler. The keyword matcher missed it. Admit narrowly as a November 10 recent publication; keep the automatic score of 0 because the score >=65 threshold applies only to one-year fallback. Real-data examples are Gaia BH3 and HD 114762, not a new planet discovery; relative-astrometry validation is simulated and period coverage is below nominal. Preserve source archive and original first_seen; do not broaden global matching rules.",
+      "reviewed_at": "2026-11-11",
+      "source": "https://arxiv.org/abs/2611.13770v1"
     }
   },
   "mechanisms": [
