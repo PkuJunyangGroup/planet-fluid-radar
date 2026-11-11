@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-10T10:25:45.897419+00:00",
+  "generated_at": "2026-11-11T07:56:01.890621+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
-      "last_attempt": "2026-11-10T08:23:33.861725+00:00",
-      "last_success": "2026-11-10T08:23:33.861725+00:00",
-      "status": "ok",
-      "fetched": 15
-    },
-    "physics.ao-ph": {
-      "last_attempt": "2026-11-10T08:23:33.861725+00:00",
-      "last_success": "2026-11-10T08:23:33.861725+00:00",
+      "last_attempt": "2026-11-11T07:43:49.541050+00:00",
+      "last_success": "2026-11-11T07:43:49.541050+00:00",
       "status": "ok",
       "fetched": 8
     },
-    "physics.geo-ph": {
-      "last_attempt": "2026-11-10T08:23:33.861725+00:00",
-      "last_success": "2026-11-10T08:23:33.861725+00:00",
+    "physics.ao-ph": {
+      "last_attempt": "2026-11-11T07:43:49.541050+00:00",
+      "last_success": "2026-11-11T07:43:49.541050+00:00",
       "status": "ok",
-      "fetched": 5
+      "fetched": 4
+    },
+    "physics.geo-ph": {
+      "last_attempt": "2026-11-11T07:43:49.541050+00:00",
+      "last_success": "2026-11-11T07:43:49.541050+00:00",
+      "status": "ok",
+      "fetched": 3
     },
     "physics.flu-dyn": {
-      "last_attempt": "2026-11-10T08:23:33.861725+00:00",
-      "last_success": "2026-11-10T08:23:33.861725+00:00",
+      "last_attempt": "2026-11-11T07:43:49.541050+00:00",
+      "last_success": "2026-11-11T07:43:49.541050+00:00",
       "status": "ok",
-      "fetched": 13
+      "fetched": 19
     },
     "journal:1476-4687": {
       "name": "Nature",
       "status": "ok",
-      "last_attempt": "2026-11-10T08:24:00.626988+00:00",
-      "last_success": "2026-11-10T08:24:00.626988+00:00",
-      "fetched": 29,
+      "last_attempt": "2026-11-11T07:44:25.254193+00:00",
+      "last_success": "2026-11-11T07:44:25.254193+00:00",
+      "fetched": 31,
       "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
@@ -39,28 +39,28 @@
     "journal:1095-9203": {
       "name": "Science",
       "status": "ok",
-      "last_attempt": "2026-11-10T08:24:00.626988+00:00",
-      "last_success": "2026-11-10T08:24:00.626988+00:00",
-      "fetched": 1,
-      "retained": 1,
+      "last_attempt": "2026-11-11T07:44:25.254193+00:00",
+      "last_success": "2026-11-11T07:44:25.254193+00:00",
+      "fetched": 0,
+      "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-07-26"
     },
     "journal:1091-6490": {
       "name": "PNAS",
       "status": "ok",
-      "last_attempt": "2026-11-10T08:24:00.626988+00:00",
-      "last_success": "2026-11-10T08:24:00.626988+00:00",
-      "fetched": 27,
-      "retained": 5,
+      "last_attempt": "2026-11-11T07:44:25.254193+00:00",
+      "last_success": "2026-11-11T07:44:25.254193+00:00",
+      "fetched": 18,
+      "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1752-0908": {
       "name": "Nature Geoscience",
       "status": "ok",
-      "last_attempt": "2026-11-10T08:24:00.626988+00:00",
-      "last_success": "2026-11-10T08:24:00.626988+00:00",
+      "last_attempt": "2026-11-11T07:44:25.254193+00:00",
+      "last_success": "2026-11-11T07:44:25.254193+00:00",
       "fetched": 1,
       "retained": 0,
       "method": "Crossref publisher metadata",
@@ -69,9 +69,9 @@
     "journal:2397-3366": {
       "name": "Nature Astronomy",
       "status": "ok",
-      "last_attempt": "2026-11-10T08:24:00.626988+00:00",
-      "last_success": "2026-11-10T08:24:00.626988+00:00",
-      "fetched": 0,
+      "last_attempt": "2026-11-11T07:44:25.254193+00:00",
+      "last_success": "2026-11-11T07:44:25.254193+00:00",
+      "fetched": 1,
       "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-07-26"
@@ -79,9 +79,9 @@
     "journal:1758-6798": {
       "name": "Nature Climate Change",
       "status": "ok",
-      "last_attempt": "2026-11-10T08:24:00.626988+00:00",
-      "last_success": "2026-11-10T08:24:00.626988+00:00",
-      "fetched": 3,
+      "last_attempt": "2026-11-11T07:44:25.254193+00:00",
+      "last_success": "2026-11-11T07:44:25.254193+00:00",
+      "fetched": 4,
       "retained": 0,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-07-26"
@@ -89,30 +89,30 @@
     "journal:1520-0469": {
       "name": "Journal of the Atmospheric Sciences",
       "status": "ok",
-      "last_attempt": "2026-11-10T08:24:00.626988+00:00",
-      "last_success": "2026-11-10T08:24:00.626988+00:00",
-      "fetched": 1,
-      "retained": 1,
+      "last_attempt": "2026-11-11T07:44:25.254193+00:00",
+      "last_success": "2026-11-11T07:44:25.254193+00:00",
+      "fetched": 3,
+      "retained": 3,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1680-7324": {
       "name": "Atmospheric Chemistry and Physics",
       "status": "ok",
-      "last_attempt": "2026-11-10T08:24:00.626988+00:00",
-      "last_success": "2026-11-10T08:24:00.626988+00:00",
-      "fetched": 9,
-      "retained": 5,
+      "last_attempt": "2026-11-11T07:44:25.254193+00:00",
+      "last_success": "2026-11-11T07:44:25.254193+00:00",
+      "fetched": 15,
+      "retained": 6,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:2169-8996": {
       "name": "Journal of Geophysical Research: Atmospheres",
       "status": "ok",
-      "last_attempt": "2026-11-10T08:24:00.626988+00:00",
-      "last_success": "2026-11-10T08:24:00.626988+00:00",
-      "fetched": 47,
-      "retained": 26,
+      "last_attempt": "2026-11-11T07:44:25.254193+00:00",
+      "last_success": "2026-11-11T07:44:25.254193+00:00",
+      "fetched": 6,
+      "retained": 3,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
@@ -159,18 +159,18 @@
     "journal:1520-0442": {
       "name": "Journal of Climate",
       "status": "ok",
-      "last_attempt": "2026-11-10T08:24:00.626988+00:00",
-      "last_success": "2026-11-10T08:24:00.626988+00:00",
-      "fetched": 20,
-      "retained": 15,
+      "last_attempt": "2026-11-11T07:44:25.254193+00:00",
+      "last_success": "2026-11-11T07:44:25.254193+00:00",
+      "fetched": 4,
+      "retained": 4,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1432-0894": {
       "name": "Climate Dynamics",
       "status": "ok",
-      "last_attempt": "2026-11-10T08:24:00.626988+00:00",
-      "last_success": "2026-11-10T08:24:00.626988+00:00",
+      "last_attempt": "2026-11-11T07:44:25.254193+00:00",
+      "last_success": "2026-11-11T07:44:25.254193+00:00",
       "fetched": 40,
       "retained": 11,
       "method": "Crossref publisher metadata",
@@ -179,28 +179,28 @@
     "journal:1814-9332": {
       "name": "Climate of the Past",
       "status": "ok",
-      "last_attempt": "2026-11-10T08:24:00.626988+00:00",
-      "last_success": "2026-11-10T08:24:00.626988+00:00",
-      "fetched": 0,
-      "retained": 0,
+      "last_attempt": "2026-11-11T07:44:25.254193+00:00",
+      "last_success": "2026-11-11T07:44:25.254193+00:00",
+      "fetched": 1,
+      "retained": 1,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1477-870X": {
       "name": "Quarterly Journal of the Royal Meteorological Society",
       "status": "ok",
-      "last_attempt": "2026-11-10T08:24:00.626988+00:00",
-      "last_success": "2026-11-10T08:24:00.626988+00:00",
-      "fetched": 3,
-      "retained": 2,
+      "last_attempt": "2026-11-11T07:44:25.254193+00:00",
+      "last_success": "2026-11-11T07:44:25.254193+00:00",
+      "fetched": 2,
+      "retained": 1,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1557-8070": {
       "name": "Astrobiology",
       "status": "ok",
-      "last_attempt": "2026-11-10T08:24:00.626988+00:00",
-      "last_success": "2026-11-10T08:24:00.626988+00:00",
+      "last_attempt": "2026-11-11T07:44:25.254193+00:00",
+      "last_success": "2026-11-11T07:44:25.254193+00:00",
       "fetched": 0,
       "retained": 0,
       "method": "Crossref publisher metadata",
@@ -209,39 +209,39 @@
     "journal:1944-8007": {
       "name": "Geophysical Research Letters",
       "status": "ok",
-      "last_attempt": "2026-11-10T08:24:00.626988+00:00",
-      "last_success": "2026-11-10T08:24:00.626988+00:00",
-      "fetched": 3,
-      "retained": 0,
+      "last_attempt": "2026-11-11T07:44:25.254193+00:00",
+      "last_success": "2026-11-11T07:44:25.254193+00:00",
+      "fetched": 77,
+      "retained": 23,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:2169-9100": {
       "name": "Journal of Geophysical Research: Planets",
       "status": "ok",
-      "last_attempt": "2026-11-10T08:24:00.626988+00:00",
-      "last_success": "2026-11-10T08:24:00.626988+00:00",
-      "fetched": 3,
-      "retained": 3,
+      "last_attempt": "2026-11-11T07:44:25.254193+00:00",
+      "last_success": "2026-11-11T07:44:25.254193+00:00",
+      "fetched": 40,
+      "retained": 14,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:1538-4357": {
       "name": "The Astrophysical Journal",
       "status": "ok",
-      "last_attempt": "2026-11-10T08:24:00.626988+00:00",
-      "last_success": "2026-11-10T08:24:00.626988+00:00",
-      "fetched": 9,
-      "retained": 2,
+      "last_attempt": "2026-11-11T07:44:25.254193+00:00",
+      "last_success": "2026-11-11T07:44:25.254193+00:00",
+      "fetched": 21,
+      "retained": 4,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
     "journal:2041-8213": {
       "name": "The Astrophysical Journal Letters",
       "status": "ok",
-      "last_attempt": "2026-11-10T08:24:00.626988+00:00",
-      "last_success": "2026-11-10T08:24:00.626988+00:00",
-      "fetched": 2,
+      "last_attempt": "2026-11-11T07:44:25.254193+00:00",
+      "last_success": "2026-11-11T07:44:25.254193+00:00",
+      "fetched": 7,
       "retained": 1,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
@@ -249,10 +249,10 @@
     "journal:0012-821X": {
       "name": "Earth and Planetary Science Letters",
       "status": "ok",
-      "last_attempt": "2026-11-10T08:24:00.626988+00:00",
-      "last_success": "2026-11-10T08:24:00.626988+00:00",
-      "fetched": 3,
-      "retained": 0,
+      "last_attempt": "2026-11-11T07:44:25.254193+00:00",
+      "last_success": "2026-11-11T07:44:25.254193+00:00",
+      "fetched": 47,
+      "retained": 8,
       "method": "Crossref publisher metadata",
       "coverage_since": "2026-08-01"
     },
@@ -260,11 +260,11 @@
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-11-10T18:24:27.236262+08:00",
-      "last_success": "2026-11-10T18:24:27.236262+08:00",
+      "last_attempt": "2026-11-11T15:44:21.082285+08:00",
+      "last_success": "2026-11-11T15:44:21.082285+08:00",
       "coverage_since": "2026-09-25",
-      "pages_checked": 1,
-      "fetched": 0,
+      "pages_checked": 2,
+      "fetched": 8,
       "retained": 0,
       "method": "daily incremental bibliography page scan; candidate-only"
     }
@@ -1055,12 +1055,191 @@
   "repository": "https://github.com/PkuJunyangGroup/planet-fluid-radar",
   "papers": [
     {
+      "id": "2611.14441",
+      "version_id": "2611.14441v1",
+      "title": "Nucleation of water ice under weak ionization via clustering on negative ions",
+      "abstract": "Water-ice grains are shown to form spontaneously in a cold, weakly-ionized laboratory plasma with trace water admixture when neutrals and ions are cooled below $\\sim$200 K. These conditions serve as an analog of ice nucleation in cold astrophysical and atmospheric environments. The ice grains form without the presence of particulate impurities, and do not form in the absence of ionization, indicating that nucleation is induced by ions. Time-resolved ion mass spectrometry provides separate detection of clusters of water molecules on both positive and negative ions. Hydrated negative ions, mainly $\\mathrm{OH^-(H_2O)_n}$, grow to $\\sim$200 amu, while hydrated positive ions, mainly $\\mathrm{H^+(H_2O)_n}$, remain small and short-lived. As the temperature is reduced from room temperature toward 200 K, negative ion clusters grow in size and then drop sharply in abundance, consistent with the onset of rapid growth into macroscopic ice grains below a critical temperature. This indicates that hydrated negative ions are key precursors to ice nucleation in cold, weakly ionized environments, such as the Earth's mesosphere and protoplanetary disks, providing a concrete pathway for ice formation in environments where the nucleation mechanism has remained unresolved. This negative ion pathway is estimated to dominate over ice deposition on pre-existing dust grains in protoplanetary disk locations where there is sufficient UV to partially dissociate water molecules, and in addition, where negative ions such as OH- can form readily through electron attachment at low temperature.",
+      "published": "2026-11-10T18:11:44Z",
+      "updated": "2026-11-10T18:11:44Z",
+      "authors": [
+        "André Nicolov",
+        "Efstratios M. Kritikos",
+        "William A. Goddard III.",
+        "Paul M. Bellan"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP",
+        "physics.plasm-ph",
+        "physics.space-ph"
+      ],
+      "url": "https://arxiv.org/abs/2611.14441",
+      "pdf": "https://arxiv.org/pdf/2611.14441v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-11T07:43:49.541050+00:00",
+      "version_changed": false,
+      "topics": [
+        "cryosphere"
+      ],
+      "matches": {
+        "cryosphere": [
+          "water ice"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：water ice",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 38,
+      "fit_matches": [],
+      "institutions": [
+        "Department of Applied Physics and Materials Science, California Institute of Technology, Pasadena, CA 91125, USA",
+        "Department of Physics, University of Oxford, Oxford, OX1 3PU, England"
+      ],
+      "author_affiliations": [
+        {
+          "name": "André Nicolov",
+          "institutions": [
+            "Department of Applied Physics and Materials Science, California Institute of Technology, Pasadena, CA 91125, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Efstratios M. Kritikos",
+          "institutions": [
+            "Department of Applied Physics and Materials Science, California Institute of Technology, Pasadena, CA 91125, USA",
+            "Department of Physics, University of Oxford, Oxford, OX1 3PU, England"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "William A. Goddard III",
+          "institutions": [
+            "Department of Applied Physics and Materials Science, California Institute of Technology, Pasadena, CA 91125, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Paul M. Bellan",
+          "institutions": [
+            "Department of Applied Physics and Materials Science, California Institute of Technology, Pasadena, CA 91125, USA"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.14441v1",
+      "publication_date": "2026-11-11",
+      "publication_date_source": "https://arxiv.org/abs/2611.14441v1",
+      "version_date": "2026-11-10T18:11:44+00:00",
+      "variants": [
+        {
+          "id": "2611.14441",
+          "source": "arXiv",
+          "journal": null,
+          "journal_id": null,
+          "title": "Nucleation of water ice under weak ionization via clustering on negative ions",
+          "url": "https://arxiv.org/abs/2611.14441",
+          "doi": "",
+          "version_id": "2611.14441v1",
+          "first_seen": "2026-11-11T07:43:49.541050+00:00",
+          "publication_date": "2026-11-11",
+          "version_date": "2026-11-10T18:11:44+00:00",
+          "metadata_source": null,
+          "affiliation_source": "https://arxiv.org/html/2611.14441v1"
+        }
+      ],
+      "match_basis": [],
+      "source_types": [
+        "arXiv"
+      ],
+      "journals": [],
+      "source_groups": [],
+      "intake_kind": "recent"
+    },
+    {
+      "id": "2611.13771",
+      "version_id": "2611.13771v1",
+      "title": "Breaking the Chain: The Dynamical History of the Barnard's Star Planetary System",
+      "abstract": "Barnard's Star is the nearest single-star system to the Sun and hosts four recently detected sub-Earth-mass planets. The system exhibits architectural imprints of a \"broken resonant chain\". We explore scenarios in which the presence of a now-lost, additional planet provides a more natural explanation for the present-day architecture from a dynamical-formation perspective. In such a situation, a resonance-breaking event triggered a merger between two planets, forming the present-day planet c. We find two viable pathways that can reproduce the observed configuration: (i) stellar-driven, long-term tidal expansion and (ii) disk-driven, early expansion, in which one-sided Lindblad torques separate the two outermost planets. Both scenarios can lead to the c1-c2 merger required to form the present-day architecture. The latter pathway also agrees with the broader exoplanet census: among the 14 compact four-planet systems we identify with broken-chain architectures similar to Barnard's Star system, ten have the third planet \"breaking\" the resonant sequence.",
+      "published": "2026-11-10T09:10:41Z",
+      "updated": "2026-11-10T09:10:41Z",
+      "authors": [
+        "Tian Yi",
+        "Qiran Huang",
+        "Shuo Huang",
+        "Chris W. Ormel"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2611.13771",
+      "pdf": "https://arxiv.org/pdf/2611.13771v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-11T07:43:49.541050+00:00",
+      "version_changed": false,
+      "topics": [
+        "orbital"
+      ],
+      "matches": {
+        "orbital": [
+          "resonant chain"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：resonant chain",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 48,
+      "fit_matches": [
+        "行星轨道与演化"
+      ],
+      "author_affiliation_status": "unavailable",
+      "institutions": [
+        "Department of Astronomy, Tsinghua University, Haidian DS 100084 Beijing, China; yit23@mails.tsinghua.edu.cn",
+        "St. Paul’s School, Concord, NH 03301, USA",
+        "Department of Computer Science and Engineering, University of California, San Diego, La Jolla, CA 92093, USA",
+        "Tsung-Dao Lee Institute, Shanghai Jiao Tong University No.1 Lisuo Road, Pudong New Area, Shanghai, China \\vs\\no"
+      ],
+      "author_affiliations": [],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.13771v1",
+      "publication_date": "2026-11-10",
+      "publication_date_source": "https://arxiv.org/abs/2611.13771v1",
+      "version_date": "2026-11-10T09:10:41+00:00",
+      "variants": [
+        {
+          "id": "2611.13771",
+          "source": "arXiv",
+          "journal": null,
+          "journal_id": null,
+          "title": "Breaking the Chain: The Dynamical History of the Barnard's Star Planetary System",
+          "url": "https://arxiv.org/abs/2611.13771",
+          "doi": "",
+          "version_id": "2611.13771v1",
+          "first_seen": "2026-11-11T07:43:49.541050+00:00",
+          "publication_date": "2026-11-10",
+          "version_date": "2026-11-10T09:10:41+00:00",
+          "metadata_source": null,
+          "affiliation_source": "https://arxiv.org/html/2611.13771v1"
+        }
+      ],
+      "match_basis": [],
+      "source_types": [
+        "arXiv"
+      ],
+      "journals": [],
+      "source_groups": [],
+      "intake_kind": "recent"
+    },
+    {
       "id": "2611.12881",
-      "version_id": "2611.12881v1",
+      "version_id": "2611.12881v2",
       "title": "The Brown Dwarf Desert is a Mass-Ratio Desert: Astrometric Demographics of 63,254 Stars",
       "abstract": "Brown dwarfs are rare as close companions to stars compared to planets and stellar companions, a paucity known as the brown dwarf desert. Whether the desert sits at a fixed companion mass or a fixed companion-to-star mass-ratio $q$ has been difficult to test, because microlensing, radial velocities, and direct imaging have sampled comparatively narrow slices of stellar mass and separation. Here we apply a novel joint-modelling method to Hipparcos and Gaia DR2/DR3 astrometry from 63,254 stars to complete this picture with a sample 1-2 orders of magnitude larger than those of previous wide-orbit demographic studies. For the first time, we present a single survey that measures occurrence rates of both planetary and stellar companions on 3--94 yr orbits ($\\sim$2--20\\,au) across host masses from M dwarfs to B stars. We find that the desert is a mass-ratio feature: companions are strongly depleted at $q\\approx2\\%$ independent of stellar mass from M to B stars, and a desert at fixed companion mass is excluded. Furthermore, we find a positive trend in occurrence with metallicity below the mass-ratio desert, but a negative trend above. The desert therefore separates two distinct populations, plausibly two formation channels, that each scale with stellar mass: the lightest stellar-like companions of K stars ($\\sim13 \\, M_{jup}$) are less massive than the heaviest planet-like companions of B stars ($\\sim27, M_{jup}$), which continue well beyond the deuterium-burning limit. Mass-ratio, not mass, is therefore the physically meaningful boundary between planets and their stellar-like counterparts.",
       "published": "2026-11-09T18:59:28Z",
-      "updated": "2026-11-09T18:59:28Z",
+      "updated": "2026-11-10T15:18:22Z",
       "authors": [
         "William Thompson",
         "Alexandre Bouchard-Côté",
@@ -1071,7 +1250,7 @@
         "Kyle Franson",
         "Jerry Xuan",
         "Doug Johnstone",
-        "Emma Turtleboom",
+        "Emma Turtelboom",
         "Jingwen Zhang",
         "Clarissa Do Ó",
         "Brendan Bowler",
@@ -1091,10 +1270,10 @@
         "astro-ph.SR"
       ],
       "url": "https://arxiv.org/abs/2611.12881",
-      "pdf": "https://arxiv.org/pdf/2611.12881v1",
+      "pdf": "https://arxiv.org/pdf/2611.12881v2",
       "source": "arXiv",
       "first_seen": "2026-11-10T08:23:33.861725+00:00",
-      "version_changed": false,
+      "version_changed": true,
       "topics": [
         "detection"
       ],
@@ -1282,10 +1461,10 @@
         }
       ],
       "affiliation_status": "verified",
-      "affiliation_source": "https://arxiv.org/html/2611.12881v1",
+      "affiliation_source": "https://arxiv.org/html/2611.12881v2",
       "publication_date": "2026-11-10",
-      "publication_date_source": "https://arxiv.org/abs/2611.12881v1",
-      "version_date": "2026-11-09T18:59:28+00:00",
+      "publication_date_source": "https://arxiv.org/abs/2611.12881v2",
+      "version_date": "2026-11-10T15:18:22+00:00",
       "variants": [
         {
           "id": "2611.12881",
@@ -1295,12 +1474,12 @@
           "title": "The Brown Dwarf Desert is a Mass-Ratio Desert: Astrometric Demographics of 63,254 Stars",
           "url": "https://arxiv.org/abs/2611.12881",
           "doi": "",
-          "version_id": "2611.12881v1",
+          "version_id": "2611.12881v2",
           "first_seen": "2026-11-10T08:23:33.861725+00:00",
           "publication_date": "2026-11-10",
-          "version_date": "2026-11-09T18:59:28+00:00",
+          "version_date": "2026-11-10T15:18:22+00:00",
           "metadata_source": null,
-          "affiliation_source": "https://arxiv.org/html/2611.12881v1"
+          "affiliation_source": "https://arxiv.org/html/2611.12881v2"
         }
       ],
       "match_basis": [],
@@ -10858,6 +11037,168 @@
           "version_date": "2026-10-20T09:33:31+00:00",
           "metadata_source": null,
           "affiliation_source": "https://arxiv.org/html/2609.20155v2"
+        }
+      ],
+      "match_basis": [],
+      "source_types": [
+        "arXiv"
+      ],
+      "journals": [],
+      "source_groups": [],
+      "intake_kind": "recent"
+    },
+    {
+      "id": "2609.09063",
+      "version_id": "2609.09063v2",
+      "title": "The size and mass distribution of cold classical TNOs for $5<H<13$",
+      "abstract": "The cold classical trans-Neptunian objects (CCs) are the only observable \\textit{in situ} population of planetesimal remnants believed to have escaped collisional grinding. Recent JWST observations make it possible to fit the differential absolute magnitude distribution $dN/dH$ of the CCs from $5<H_r<13,$ and infer the differential mass distribution $dN/dM$ across $\\ge5$ orders of magnitude in mass. We find $dN/dM$ well fit by a lognormal distribution, and equally well by a generalized $Γ$ distribution or a double power law. The maximum fraction of the total CC mass per log interval in $M$ is in bodies near 75~km diameter, or $\\approx10^{-7.5}M_\\oplus.$ Extrapolation of the fitted $dN/dH$ functions to $H_r>13$ is unwise, as the different analytic forms diverge. It remains unclear if $dN/dH$ turns over at faint $H.$ The uncertainty in the total mass of the CC belt is dominated by uncertainty in the relation between $M$ and $H$. A calibration using CC binaries suggests a total CC mass of 1.7--2.7$\\times10^{-3}\\,M_\\oplus.$ A trend toward lower density and/or higher albedo for smaller bodies may be present in the data, and would lower the estimated total CC mass. Qualitative comparison of the derived mass distribution to the results of numerical simulations of the streaming instability (SI) suggest the simulations produce $dN/dM$ distributions that are more sharply peaked, and steeper at the bright end, than the CCs. Such differences could be ascribed to inhomogeneous formation conditions in the classical belt that are not yet included in modeling. The variety and uncertainty of $dN/dM$ derived from state-of-the-art SI simulations currently preclude any definitive test of the SI hypothesis.",
+      "published": "2026-09-08T17:17:45Z",
+      "updated": "2026-11-10T18:14:45Z",
+      "authors": [
+        "Gary M. Bernstein",
+        "Wesley C. Fraser",
+        "Marielle R. Eduardo",
+        "William M. Grundy",
+        "Bryan Hilbert",
+        "Matthew J. Holman",
+        "Anastasia N. Morgan",
+        "Kevin J. Napier",
+        "John A. Stansberry",
+        "David E. Trilling"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2609.09063",
+      "pdf": "https://arxiv.org/pdf/2609.09063v2",
+      "source": "arXiv",
+      "first_seen": "2026-11-11T07:43:49.541050+00:00",
+      "version_changed": false,
+      "topics": [
+        "evolution"
+      ],
+      "matches": {
+        "evolution": [
+          "planetesimal"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：planetesimal",
+      "tags": [
+        "云与辐射 · Clouds & radiation",
+        "流体与不稳定性 · Fluid dynamics",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 38,
+      "fit_matches": [
+        "系外行星观测表征"
+      ],
+      "institutions": [
+        "Department of Physics and Astronomy, University of Pennsylvania, Philadelphia, PA 19104, USA",
+        "National Research Council of Canada, Herzberg Astronomy and Astrophysics Research Centre, 5071 W. Saanich Rd. Victoria, BC, V9E 2E7, Canada",
+        "Department of Physics and Astronomy, University of Victoria, Elliott Building, 3800 Finnerty Road, Victoria, BC V8P 5C2, Canada",
+        "Department of Physics and Astronomy, University of Victoria, 3800 Finnerty Road, Victoria, BC V8P 5C2, Canada",
+        "Department of Astronomy and Planetary Science, Northern Arizona University, Flagstaff, AZ 86011, USA",
+        "Space Telescope Science Institute, 3700 San Martin Drive, Baltimore, MD 21218, USA",
+        "Center for Astrophysics — Harvard & Smithsonian, 60 Garden Street, Cambridge, MA 02138, USA",
+        "Department of Physics, University of Michigan, Ann Arbor, MI 48109, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Gary M. Bernstein",
+          "institutions": [
+            "Department of Physics and Astronomy, University of Pennsylvania, Philadelphia, PA 19104, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Wesley C. Fraser",
+          "institutions": [
+            "National Research Council of Canada, Herzberg Astronomy and Astrophysics Research Centre, 5071 W. Saanich Rd. Victoria, BC, V9E 2E7, Canada",
+            "Department of Physics and Astronomy, University of Victoria, Elliott Building, 3800 Finnerty Road, Victoria, BC V8P 5C2, Canada"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Marielle R. Eduardo",
+          "institutions": [
+            "Department of Physics and Astronomy, University of Victoria, 3800 Finnerty Road, Victoria, BC V8P 5C2, Canada"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "William M. Grundy",
+          "institutions": [
+            "Department of Astronomy and Planetary Science, Northern Arizona University, Flagstaff, AZ 86011, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Bryan Hilbert",
+          "institutions": [
+            "Space Telescope Science Institute, 3700 San Martin Drive, Baltimore, MD 21218, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Matthew J. Holman",
+          "institutions": [
+            "Center for Astrophysics — Harvard & Smithsonian, 60 Garden Street, Cambridge, MA 02138, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Anastasia N. Morgan",
+          "institutions": [
+            "Department of Astronomy and Planetary Science, Northern Arizona University, Flagstaff, AZ 86011, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Kevin J. Napier",
+          "institutions": [
+            "Department of Physics, University of Michigan, Ann Arbor, MI 48109, USA",
+            "Center for Astrophysics — Harvard & Smithsonian, 60 Garden Street, Cambridge, MA 02138, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "John A. Stansberry",
+          "institutions": [
+            "Space Telescope Science Institute, 3700 San Martin Drive, Baltimore, MD 21218, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "David E. Trilling",
+          "institutions": [
+            "Department of Astronomy and Planetary Science, Northern Arizona University, Flagstaff, AZ 86011, USA"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2609.09063v2",
+      "publication_date": "2026-09-09",
+      "publication_date_source": "https://arxiv.org/abs/2609.09063v2",
+      "version_date": "2026-11-10T18:14:45+00:00",
+      "variants": [
+        {
+          "id": "2609.09063",
+          "source": "arXiv",
+          "journal": null,
+          "journal_id": null,
+          "title": "The size and mass distribution of cold classical TNOs for $5<H<13$",
+          "url": "https://arxiv.org/abs/2609.09063",
+          "doi": "",
+          "version_id": "2609.09063v2",
+          "first_seen": "2026-11-11T07:43:49.541050+00:00",
+          "publication_date": "2026-09-09",
+          "version_date": "2026-11-10T18:14:45+00:00",
+          "metadata_source": null,
+          "affiliation_source": "https://arxiv.org/html/2609.09063v2"
         }
       ],
       "match_basis": [],
@@ -34022,6 +34363,103 @@
       "intake_kind": "recent"
     },
     {
+      "id": "doi:10.3847/1538-4357/aea216",
+      "doi": "10.3847/1538-4357/aea216",
+      "version_id": "doi:10.3847/1538-4357/aea216",
+      "title": "Receiving Exoplanet Messages with Gravitational-wave Carriers: The Gravitational-wave Radial Velocity Method",
+      "abstract": "Abstract Gravitational-wave (GW) radial velocity (RV) may offer a new method for detecting exoplanets, one that would primarily target planets orbiting GW-emitting, ultracompact, post-main-sequence stellar objects such as white dwarfs, neutron stars, and black holes. In this work we show that while similar to electromagnetic-based RV, this GW-based method depends on the “phase modulation index” (PMI), a parameter that is more sensitive to high-mass, long-period exoplanets. We investigate the potential of GW RV for GW sources in both the mid-frequency spectrum (where the upcoming LISA mission will operate) and the high-frequency spectrum (where the current LIGO–Virgo–KAGRA (LVK) observatories operate). Remarkably, we find that the PMI increases by a factor of ∼ O 1 0 4 − 1 0 6 going from the mid-frequency to the high-frequency GW spectrum, which results in a greater redistribution of observed power due to the exoplanet’s presence. By analyzing the power content of the observed GW signal, we derive analytic expressions to predict the GW carrier frequency power loss due to the exoplanet and the signal-to-noise ratio of the GW source and the exoplanet. We also explore the effects of the additional Doppler effect caused by the motion of the GW observatory and the potential for GW source parameter bias introduced by the presence of an undetected exoplanet. All of this helps us better understand where the GW RV method may work best in the exoplanet mass–period discovery space.",
+      "authors": [
+        "Casey McGrath"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Casey McGrath",
+          "institutions": [
+            "University of Maryland, Baltimore County",
+            "Center for Research and Exploration in Space Science and Technology II",
+            "NASA Goddard Space Flight Center"
+          ],
+          "orcid": "https://orcid.org/0000-0002-6155-3501"
+        }
+      ],
+      "institutions": [
+        "University of Maryland, Baltimore County",
+        "Center for Research and Exploration in Space Science and Technology II",
+        "NASA Goddard Space Flight Center"
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faea216",
+      "source": "journal",
+      "journal": "The Astrophysical Journal",
+      "journal_id": "1538-4357",
+      "source_group": "planet",
+      "categories": [],
+      "url": "https://doi.org/10.3847/1538-4357/aea216",
+      "published": "2026-11-10",
+      "publication_date": "2026-11-10",
+      "publication_date_source": "Crossref publisher metadata",
+      "date_kind": "journal",
+      "first_seen": "2026-11-11T07:44:25.254193+00:00",
+      "updated": "2026-11-11T05:00:12Z",
+      "metadata_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faea216",
+      "relations": {
+        "is-supplemented-by": [
+          {
+            "id-type": "doi",
+            "id": "10.5281/zenodo.22129575",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "metadata_limited": false,
+      "publication_dates": {
+        "published-online": "2026-11-10",
+        "published-print": "2026-11-20"
+      },
+      "topics": [
+        "detection"
+      ],
+      "matches": {
+        "detection": [
+          "radial velocity"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：radial velocity",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 36,
+      "fit_matches": [],
+      "variants": [
+        {
+          "id": "doi:10.3847/1538-4357/aea216",
+          "source": "journal",
+          "journal": "The Astrophysical Journal",
+          "journal_id": "1538-4357",
+          "title": "Receiving Exoplanet Messages with Gravitational-wave Carriers: The Gravitational-wave Radial Velocity Method",
+          "url": "https://doi.org/10.3847/1538-4357/aea216",
+          "doi": "10.3847/1538-4357/aea216",
+          "version_id": "doi:10.3847/1538-4357/aea216",
+          "first_seen": "2026-11-11T07:44:25.254193+00:00",
+          "publication_date": "2026-11-10",
+          "version_date": null,
+          "metadata_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faea216",
+          "affiliation_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faea216"
+        }
+      ],
+      "match_basis": [],
+      "source_types": [
+        "journal"
+      ],
+      "journals": [
+        "The Astrophysical Journal"
+      ],
+      "source_groups": [
+        "planet"
+      ],
+      "intake_kind": "recent"
+    },
+    {
       "id": "exoplanet-bib:33128",
       "version_id": "exoplanet-bib:33128",
       "exoplanet_id": "33128",
@@ -34135,6 +34573,7 @@
       "2608.24873",
       "2608.28756",
       "2609.04318",
+      "2609.09063",
       "2609.20155",
       "2609.35721",
       "2609.36697",
@@ -34193,6 +34632,8 @@
       "2611.12787",
       "2611.12819",
       "2611.12881",
+      "2611.13771",
+      "2611.14441",
       "doi:10.1029/2026gl124362",
       "doi:10.1029/2026gl125753",
       "doi:10.1029/2026je009882",
@@ -34218,6 +34659,7 @@
       "doi:10.3847/1538-4357/aea13e",
       "doi:10.3847/1538-4357/aea149",
       "doi:10.3847/1538-4357/aea161",
+      "doi:10.3847/1538-4357/aea216",
       "doi:10.3847/1538-4357/aea293",
       "doi:10.3847/1538-4357/aea404",
       "doi:10.3847/1538-4357/aea407",
@@ -34360,7 +34802,11 @@
       "2611.12581": "recent",
       "doi:10.3847/1538-4357/aeb012": "recent",
       "doi:10.3847/2041-8213/aeb4a4": "recent",
-      "2611.12560": "recent"
+      "2611.12560": "recent",
+      "2611.14441": "recent",
+      "2611.13771": "recent",
+      "2609.09063": "recent",
+      "doi:10.3847/1538-4357/aea216": "recent"
     },
     "policy": {
       "recent_days": 2,
@@ -34368,17 +34814,13 @@
       "min_fallback_score": 65,
       "max_fallback": 3
     },
-    "last_run": "2026-11-10",
+    "last_run": "2026-11-11",
     "mode": "recent",
     "selected": [
-      "2611.12881",
-      "2611.12819",
-      "2611.12787",
-      "2611.12655",
-      "2611.12581",
-      "doi:10.3847/1538-4357/aeb012",
-      "doi:10.3847/2041-8213/aeb4a4",
-      "2611.12560"
+      "2611.14441",
+      "2611.13771",
+      "2609.09063",
+      "doi:10.3847/1538-4357/aea216"
     ],
     "search_errors": []
   },
@@ -35868,21 +36310,18 @@
       }
     }
   },
-  "record_count": 2813,
+  "record_count": 2856,
   "merged_count": 29,
   "daily_brief": {
-    "date": "2026-11-10",
-    "built_at": "2026-11-10T10:25:45.897594+00:00",
+    "date": "2026-11-11",
+    "built_at": "2026-11-11T07:56:01.890769+00:00",
     "review_basis": "Automated rule screening; reading review is recorded separately.",
-    "new_count": 7,
+    "new_count": 4,
     "recent_ids": [
-      "2611.12881",
-      "2611.12819",
-      "2611.12787",
-      "2611.12581",
-      "2611.12560",
-      "doi:10.3847/1538-4357/aeb012",
-      "doi:10.3847/2041-8213/aeb4a4"
+      "2611.14441",
+      "2611.13771",
+      "2609.09063",
+      "doi:10.3847/1538-4357/aea216"
     ],
     "older_ids": [],
     "updated_ids": [],
