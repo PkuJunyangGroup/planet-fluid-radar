@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-11-11T07:43:49.541050+00:00",
+  "generated_at": "2026-11-12T08:18:03.304868+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
-      "last_attempt": "2026-11-11T07:43:49.541050+00:00",
-      "last_success": "2026-11-11T07:43:49.541050+00:00",
+      "last_attempt": "2026-11-12T08:18:03.304868+00:00",
+      "last_success": "2026-11-12T08:18:03.304868+00:00",
       "status": "ok",
-      "fetched": 8
+      "fetched": 0
     },
     "physics.ao-ph": {
-      "last_attempt": "2026-11-11T07:43:49.541050+00:00",
-      "last_success": "2026-11-11T07:43:49.541050+00:00",
+      "last_attempt": "2026-11-12T08:18:03.304868+00:00",
+      "last_success": "2026-11-12T08:18:03.304868+00:00",
       "status": "ok",
-      "fetched": 4
+      "fetched": 0
     },
     "physics.geo-ph": {
-      "last_attempt": "2026-11-11T07:43:49.541050+00:00",
-      "last_success": "2026-11-11T07:43:49.541050+00:00",
+      "last_attempt": "2026-11-12T08:18:03.304868+00:00",
+      "last_success": "2026-11-12T08:18:03.304868+00:00",
       "status": "ok",
-      "fetched": 3
+      "fetched": 0
     },
     "physics.flu-dyn": {
-      "last_attempt": "2026-11-11T07:43:49.541050+00:00",
-      "last_success": "2026-11-11T07:43:49.541050+00:00",
+      "last_attempt": "2026-11-12T08:18:03.304868+00:00",
+      "last_success": "2026-11-12T08:18:03.304868+00:00",
       "status": "ok",
-      "fetched": 19
+      "fetched": 0
     }
   },
   "topics": [
@@ -844,10 +844,10 @@
           "water ice"
         ]
       },
-      "status": "candidate",
-      "reason": "关联线索：water ice",
+      "status": "excluded",
+      "reason": "Reading review 2026-11-11: Complete original v1 abstract and version history read on the official arXiv page. This studies ice nucleation in a cold weakly ionized laboratory plasma, with Earth's mesosphere and protoplanetary disks as applications. It does not establish a nonterrestrial planetary atmosphere, climate, surface or interior result. Exclude under the existing cloud-microphysics and disk-study scope boundaries; preserve the source archive and original first_seen.",
       "tags": [],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 38,
       "fit_matches": [],
       "institutions": [
@@ -2363,10 +2363,10 @@
       "version_changed": false,
       "topics": [],
       "matches": {},
-      "status": "unmatched",
-      "reason": "行星科学拓展阅读",
+      "status": "candidate",
+      "reason": "Reading review 2026-11-11: Complete original v1 abstract and version history read on the official arXiv page. This is a quantitative exoplanet orbit-inference method with simulated two-planet recovery, 180 injection tests and explicit coverage/false-positive validation, rather than a generic numerical sampler. The keyword matcher missed it. Admit narrowly as a November 10 recent publication; keep the automatic score of 0 because the score >=65 threshold applies only to one-year fallback. Real-data examples are Gaia BH3 and HD 114762, not a new planet discovery; relative-astrometry validation is simulated and period coverage is below nominal. Preserve source archive and original first_seen; do not broaden global matching rules.",
       "tags": [],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 0,
       "fit_matches": [],
       "institutions": [
@@ -52254,14 +52254,14 @@
           "planetesimal"
         ]
       },
-      "status": "candidate",
-      "reason": "关联线索：planetesimal",
+      "status": "excluded",
+      "reason": "Reading review 2026-11-11: Complete current v2 original abstract and version history read on the official arXiv page. This measures the size and mass distribution of cold classical trans-Neptunian planetesimal remnants and compares it with streaming-instability formation theory. It does not address a direct planetary atmosphere, interior, surface or planetary-system orbital mechanism. Exclude under the established narrow scope; preserve the source archive, revision history and original first_seen.",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "流体与不稳定性 · Fluid dynamics",
         "反演与数值方法 · Inverse & numerical methods"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 38,
       "fit_matches": [
         "系外行星观测表征"
@@ -55855,15 +55855,51 @@
       "method": "keyword",
       "fit_score": 20,
       "fit_matches": [],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "institutions": [
+        "Mathematical Institute",
+        "University of Oxford",
+        "Oxford OX2 6GG, United Kingdom",
+        "Aerospace and Mechanical Engineering",
+        "University of Notre Dame",
+        "Notre Dame, IN 46556, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Daniel Dehtyriov",
+          "institutions": [
+            "Mathematical Institute",
+            "University of Oxford",
+            "Oxford OX2 6GG, United Kingdom"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Jonathan F. MacArt",
+          "institutions": [
+            "Aerospace and Mechanical Engineering",
+            "University of Notre Dame",
+            "Notre Dame, IN 46556, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Justin Sirignano",
+          "institutions": [
+            "Mathematical Institute",
+            "University of Oxford",
+            "Oxford OX2 6GG, United Kingdom"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
       "intro_en": "Turbulence is ubiquitous in engineering and science, yet direct simulation is prohibitively expensive. The Reynolds-averaged Navier-Stokes (RANS) equations provide savings exceeding ten orders of magnitude but introduce unclosed terms.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-05-26",
       "publication_date_source": "https://arxiv.org/abs/2605.26358v3",
+      "affiliation_source": "https://arxiv.org/html/2605.26358v3",
       "version_date": "2026-11-09T12:28:16+00:00"
     },
     {
@@ -56803,15 +56839,54 @@
       "method": "keyword",
       "fit_score": 20,
       "fit_matches": [],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "institutions": [
+        "The Pearlstone Center for Aeronautical Engineering Studies, Department of Mechanical Engineering, The Ben-Gurion University of the Negev, POB 653, Beer-Sheva 8410530, Israel"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Elad Elmakies",
+          "institutions": [
+            "The Pearlstone Center for Aeronautical Engineering Studies, Department of Mechanical Engineering, The Ben-Gurion University of the Negev, POB 653, Beer-Sheva 8410530, Israel"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Oleg Shildkrot",
+          "institutions": [
+            "The Pearlstone Center for Aeronautical Engineering Studies, Department of Mechanical Engineering, The Ben-Gurion University of the Negev, POB 653, Beer-Sheva 8410530, Israel"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Nathan Kleeorin",
+          "institutions": [
+            "The Pearlstone Center for Aeronautical Engineering Studies, Department of Mechanical Engineering, The Ben-Gurion University of the Negev, POB 653, Beer-Sheva 8410530, Israel"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Avi Levy",
+          "institutions": [
+            "The Pearlstone Center for Aeronautical Engineering Studies, Department of Mechanical Engineering, The Ben-Gurion University of the Negev, POB 653, Beer-Sheva 8410530, Israel"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Igor Rogachevskii",
+          "institutions": [
+            "The Pearlstone Center for Aeronautical Engineering Studies, Department of Mechanical Engineering, The Ben-Gurion University of the Negev, POB 653, Beer-Sheva 8410530, Israel"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
       "intro_en": "Turbophoresis in inhomogeneous turbulent flows leads to the formation of large-scale nonuniform particle number density distributions of inertial particles. This effect is associated with an effective drift velocity directed toward regions of lower turbulence intensity.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-05-05",
       "publication_date_source": "https://arxiv.org/abs/2605.03646v6",
+      "affiliation_source": "https://arxiv.org/html/2605.03646v6",
       "version_date": "2026-11-10T16:31:25+00:00"
     },
     {
@@ -57835,15 +57910,69 @@
       "method": "keyword",
       "fit_score": 20,
       "fit_matches": [],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "institutions": [
+        "Helmholtz Institute Erlangen-Nürnberg für Erneuerbare Energien (IET–2), Cauerstr. 1, 91058 Erlangen, Germany",
+        "Department of Chemical and Biological Engineering, Friedrich-Alexander-Universität Erlangen-Nürnberg, Cauerstr. 1, 91058 Erlangen, Germany",
+        "Institute of Fluid Dynamics, Helmholtz-Zentrum Dresden-Rossendorf, 01328 Dresden, Germany",
+        "Institute of Process Engineering and Environmental Technology, Technische Universität Dresden, 01062 Dresden, Germany",
+        "Department of Chemical and Biological Engineering and Department of Physics, Friedrich-Alexander-Universität Erlangen-Nürnberg, Cauerstr. 1, 91058 Erlangen, Germany"
+      ],
+      "author_affiliations": [
+        {
+          "name": "J.M.P. Beunen",
+          "institutions": [
+            "Helmholtz Institute Erlangen-Nürnberg für Erneuerbare Energien (IET–2), Cauerstr. 1, 91058 Erlangen, Germany",
+            "Department of Chemical and Biological Engineering, Friedrich-Alexander-Universität Erlangen-Nürnberg, Cauerstr. 1, 91058 Erlangen, Germany"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "T. Lappan",
+          "institutions": [
+            "Institute of Fluid Dynamics, Helmholtz-Zentrum Dresden-Rossendorf, 01328 Dresden, Germany",
+            "Institute of Process Engineering and Environmental Technology, Technische Universität Dresden, 01062 Dresden, Germany"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "P. Malgaretti",
+          "institutions": [
+            "Helmholtz Institute Erlangen-Nürnberg für Erneuerbare Energien (IET–2), Cauerstr. 1, 91058 Erlangen, Germany"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "O. Aouane",
+          "institutions": [
+            "Helmholtz Institute Erlangen-Nürnberg für Erneuerbare Energien (IET–2), Cauerstr. 1, 91058 Erlangen, Germany"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "K. Eckert",
+          "institutions": [
+            "Institute of Fluid Dynamics, Helmholtz-Zentrum Dresden-Rossendorf, 01328 Dresden, Germany",
+            "Institute of Process Engineering and Environmental Technology, Technische Universität Dresden, 01062 Dresden, Germany"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "J. Harting",
+          "institutions": [
+            "Helmholtz Institute Erlangen-Nürnberg für Erneuerbare Energien (IET–2), Cauerstr. 1, 91058 Erlangen, Germany",
+            "Department of Chemical and Biological Engineering and Department of Physics, Friedrich-Alexander-Universität Erlangen-Nürnberg, Cauerstr. 1, 91058 Erlangen, Germany"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
       "intro_en": "Gas bubble transport through highly porous transport layers (PTLs) is a key process in electrochemical devices such as proton exchange membrane water electrolyzers, where bubbles generated at catalyst surfaces must migrate through complex porous networks. To understand this process, we focus on model systems, namely the motion of single, paired and multiple bubbles in capillaries and study these by combining analytical modeling, three-dimensional color-gradient lattice Boltzmann simulations, and X-ray radiography.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-03-30",
       "publication_date_source": "https://arxiv.org/abs/2603.28511v2",
+      "affiliation_source": "https://arxiv.org/html/2603.28511v2",
       "version_date": "2026-11-10T10:04:18+00:00"
     },
     {
@@ -58454,15 +58583,111 @@
       "method": "keyword",
       "fit_score": 36,
       "fit_matches": [],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "institutions": [
+        "Munich Climate Center and Earth System Modelling Group, Department of Aerospace and Geodesy, TUM School of Engineering and Design, Technical University of Munich, Munich, Germany",
+        "Potsdam Institute for Climate Impact Research, Potsdam, Germany",
+        "School of Systems Science and Institute of Nonequilibrium Systems, Beijing Normal University, Beijing, China",
+        "School of Ocean and Earth Science, University of Southampton, Southampton, UK",
+        "Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research, Potsdam, Germany",
+        "Department of Mathematics and Global Systems Institute, University of Exeter, Exeter, UK"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Zhen Qian",
+          "institutions": [
+            "Munich Climate Center and Earth System Modelling Group, Department of Aerospace and Geodesy, TUM School of Engineering and Design, Technical University of Munich, Munich, Germany",
+            "Potsdam Institute for Climate Impact Research, Potsdam, Germany"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Teng Liu",
+          "institutions": [
+            "Munich Climate Center and Earth System Modelling Group, Department of Aerospace and Geodesy, TUM School of Engineering and Design, Technical University of Munich, Munich, Germany",
+            "Potsdam Institute for Climate Impact Research, Potsdam, Germany",
+            "School of Systems Science and Institute of Nonequilibrium Systems, Beijing Normal University, Beijing, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Duo Chan",
+          "institutions": [
+            "School of Ocean and Earth Science, University of Southampton, Southampton, UK"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Sebastian Bathiany",
+          "institutions": [
+            "Munich Climate Center and Earth System Modelling Group, Department of Aerospace and Geodesy, TUM School of Engineering and Design, Technical University of Munich, Munich, Germany",
+            "Potsdam Institute for Climate Impact Research, Potsdam, Germany"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Shangshang Yang",
+          "institutions": [
+            "Munich Climate Center and Earth System Modelling Group, Department of Aerospace and Geodesy, TUM School of Engineering and Design, Technical University of Munich, Munich, Germany",
+            "Potsdam Institute for Climate Impact Research, Potsdam, Germany"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Philipp Hess",
+          "institutions": [
+            "Munich Climate Center and Earth System Modelling Group, Department of Aerospace and Geodesy, TUM School of Engineering and Design, Technical University of Munich, Munich, Germany",
+            "Potsdam Institute for Climate Impact Research, Potsdam, Germany"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Nils Bochow",
+          "institutions": [
+            "Potsdam Institute for Climate Impact Research, Potsdam, Germany",
+            "Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research, Potsdam, Germany"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Christian Burmester",
+          "institutions": [
+            "Munich Climate Center and Earth System Modelling Group, Department of Aerospace and Geodesy, TUM School of Engineering and Design, Technical University of Munich, Munich, Germany"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Maximilian Gelbrecht",
+          "institutions": [
+            "Munich Climate Center and Earth System Modelling Group, Department of Aerospace and Geodesy, TUM School of Engineering and Design, Technical University of Munich, Munich, Germany",
+            "Potsdam Institute for Climate Impact Research, Potsdam, Germany"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Brian Groenke",
+          "institutions": [
+            "Potsdam Institute for Climate Impact Research, Potsdam, Germany"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Niklas Boers",
+          "institutions": [
+            "Munich Climate Center and Earth System Modelling Group, Department of Aerospace and Geodesy, TUM School of Engineering and Design, Technical University of Munich, Munich, Germany",
+            "Potsdam Institute for Climate Impact Research, Potsdam, Germany",
+            "Department of Mathematics and Global Systems Institute, University of Exeter, Exeter, UK"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
       "intro_en": "Instrumental observations from the early twentieth century are sparse and uncertain, limiting estimates of historical climate variability and change. Existing reconstructions rely largely on statistical interpolation, smoothing spatiotemporal variability and leading to underestimation of local extremes.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-02-18",
       "publication_date_source": "https://arxiv.org/abs/2602.16515v3",
+      "affiliation_source": "https://arxiv.org/html/2602.16515v3",
       "version_date": "2026-11-09T07:59:22+00:00"
     },
     {
@@ -59338,14 +59563,36 @@
       "fit_score": 20,
       "fit_matches": [],
       "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "author_affiliations": [
+        {
+          "name": "J. Cach",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "K. Tůma",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "J. Blechta",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "S. Schwarzacher",
+          "institutions": [],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "unavailable",
       "intro_en": "A systematic numerical investigation of flow-regime transitions in the two-dimensional incompressible Navier-Stokes flow past a confined circular cylinder is presented. For a fixed benchmark geometry, we observe a clear empirical correspondence between qualitative changes in steady traction profiles, understood here as the pointwise force density given by the Cauchy stress tensor on the obstacle boundary, and bifurcations in the long-time behavior of the unsteady Navier-Stokes equations.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2025-12-17",
       "publication_date_source": "https://arxiv.org/abs/2512.15424v3",
+      "affiliation_source": "https://arxiv.org/html/2512.15424v3",
       "version_date": "2026-11-10T13:18:46+00:00"
     },
     {
@@ -59381,13 +59628,15 @@
       "fit_matches": [],
       "institutions": [],
       "author_affiliations": [],
-      "affiliation_status": "pending",
+      "affiliation_status": "unavailable",
       "intro_en": "Seismic phase picking is fundamental for microseismic monitoring and subsurface imaging. Manual processing is impractical for real-time applications and large sensor arrays, motivating the use of deep learning-based pickers trained on extensive earthquake catalogs.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2025-12-15",
       "publication_date_source": "https://arxiv.org/abs/2512.13197v3",
+      "author_affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2512.13197v3",
       "version_date": "2026-11-09T08:34:23+00:00"
     },
     {
@@ -59753,15 +60002,22 @@
       "method": "keyword",
       "fit_score": 30,
       "fit_matches": [],
-      "institutions": [],
+      "institutions": [
+        "1Laboratoire de Physique des Plasmas, CNRS, Ecole Polytechnique, Sorbonne Université, Université Paris-Saclay, Observatoire de Paris, F-91120 Palaiseau, France",
+        "2ENPC, Institut Polytechnique de Paris, 77455 Champs-sur-Marne, Marne-la-Vallée cedex 2, France",
+        "3CEA, IRFM, F-13108 Saint-Paul-lez-Durance, France",
+        "4School of Mathematics, University of Leeds, Leeds LS2 9JT, UK"
+      ],
       "author_affiliations": [],
-      "affiliation_status": "pending",
+      "affiliation_status": "verified",
       "intro_en": "Staircase formation and layering is studied in simplified, potential vorticity conserving models of plasmas and geophysical fluids, by investigating turbulent self-organisation and nonlinear saturation with different mechanisms of free energy production -- forcing or linear instability -- and with standard or modified zonal flow responses. To this end, staircase formation in both the standard and modified Charney-Hasegawa-Mima equations with stochastic forcing, along with two different simple instability driven models -- one from a plasma and from a geophysical context -- are studied and compared.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2025-11-14",
       "publication_date_source": "https://arxiv.org/abs/2511.10438v2",
+      "author_affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2511.10438v2",
       "version_date": "2026-11-10T14:25:24+00:00"
     },
     {
@@ -65750,15 +66006,34 @@
       "method": "keyword",
       "fit_score": 20,
       "fit_matches": [],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "institutions": [
+        "Aerothermals department, ITP Aero, 28108 Alcobendas, Spain",
+        "Divisão de Engenharia Aeroespacial, Instituto Tecnológico de Aeronáutica, São José dos Campos, SP, Brazil"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Enrique Flores-Montoya",
+          "institutions": [
+            "Aerothermals department, ITP Aero, 28108 Alcobendas, Spain"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "André V. G. Cavalieri",
+          "institutions": [
+            "Divisão de Engenharia Aeroespacial, Instituto Tecnológico de Aeronáutica, São José dos Campos, SP, Brazil"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
       "intro_en": "In this work, Galerkin projection is used to build reduced-order models (ROM) for two-dimensional Rayleigh-Bénard (RB) convection with no-slip walls. We compare an uncoupled projection approach that uses separate orthonormal bases for velocity and temperature with a coupled formalism where the equations are projected onto a single basis combining velocity and temperature components.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2025-04-04",
       "publication_date_source": "https://arxiv.org/abs/2504.02961v4",
+      "affiliation_source": "https://arxiv.org/html/2504.02961v4",
       "version_date": "2026-11-09T10:32:41+00:00"
     },
     {
@@ -66359,13 +66634,14 @@
       "fit_matches": [],
       "institutions": [],
       "author_affiliations": [],
-      "affiliation_status": "pending",
+      "affiliation_status": "unavailable",
       "intro_en": "Ocean dynamics play a crucial role in global climate, ecosystems, and human activities, necessitating accurate and efficient methods to characterize ocean currents and waves. This paper presents the development of a novel bio-inspired hydrofoil system for detecting and characterizing ocean currents and waves based on a dolphin's flipper foil design.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2023-05-01",
       "publication_date_source": "https://arxiv.org/abs/2306.08091v3",
+      "affiliation_source": "https://arxiv.org/html/2306.08091v3",
       "version_date": "2026-11-09T14:38:26+00:00"
     },
     {
@@ -66398,13 +66674,14 @@
       "fit_matches": [],
       "institutions": [],
       "author_affiliations": [],
-      "affiliation_status": "pending",
+      "affiliation_status": "unavailable",
       "intro_en": "Gas and vapor bubbles at a wall can reduce the skin friction of a liquid flow. We estimate whether an oscillating piezoelectric plate mounted flush with the wall can create such a near-wall bubble layer by acoustic cavitation.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2017-11-15",
       "publication_date_source": "https://arxiv.org/abs/1711.05234v3",
+      "affiliation_source": "https://arxiv.org/html/1711.05234v3",
       "version_date": "2026-11-10T16:40:27+00:00"
     }
   ]
