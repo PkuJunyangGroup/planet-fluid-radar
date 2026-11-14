@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T08:12:14.348506+00:00",
+  "generated_at": "2026-11-14T07:44:41.490774+00:00",
   "nodes": [
     {
       "id": "f0a42ba5624748d4",
@@ -14842,6 +14842,7 @@
       "papers": [
         "doi:10.1029/2026je009724",
         "doi:10.1073/pnas.2615884123",
+        "doi:10.1175/jas-d-25-0238.1",
         "doi:10.3847/1538-4357/ae9f4b",
         "doi:10.3847/2041-8213/aea405"
       ],
@@ -14967,13 +14968,25 @@
             "doi:10.3847/1538-4357/ae9f4b"
           ],
           "unit_papers": {}
+        },
+        {
+          "id": "1a3ad22ba7c46268",
+          "name": "A. Ionescu",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "doi:10.1175/jas-d-25-0238.1"
+          ],
+          "unit_papers": {}
         }
       ],
       "units": [],
       "raw": [
         "Department of Geosciences, Princeton University",
         "Princeton University",
-        "Princeton University Princeton NJ USA"
+        "Princeton University Princeton NJ USA",
+        "b Princeton University, Department of Mathematics, Fine Hall, Washington Road, Princeton, NJ 08544, USA"
       ],
       "verification": {
         "ror": "https://ror.org/00hx57361",
@@ -26154,6 +26167,35 @@
         "78740f94739b5583"
       ]
     },
+    "doi:10.1175/jas-d-25-0238.1": {
+      "id": "doi:10.1175/jas-d-25-0238.1",
+      "title": "Energy-enstrophy balance and the evolving shape of Jupiter’s Great Red Spot",
+      "url": "https://doi.org/10.1175/jas-d-25-0238.1",
+      "topics": [],
+      "first_seen": "2026-11-14T07:35:58.025758+00:00",
+      "publication_date": "2026-11-13",
+      "journals": [
+        "Journal of the Atmospheric Sciences"
+      ],
+      "institutions": [
+        "6f4241a7694672b8"
+      ]
+    },
+    "doi:10.3847/2041-8213/aeb6e0": {
+      "id": "doi:10.3847/2041-8213/aeb6e0",
+      "title": "Stellar Flares Rather than High T int as Possible Cause for the Missing Methane in Young Exoplanets: The Case Study of V1298 Tau b",
+      "url": "https://doi.org/10.3847/2041-8213/aeb6e0",
+      "topics": [
+        "planetary",
+        "detection"
+      ],
+      "first_seen": "2026-11-14T07:35:58.025758+00:00",
+      "publication_date": "2026-11-13",
+      "journals": [
+        "The Astrophysical Journal Letters"
+      ],
+      "institutions": []
+    },
     "exoplanet-bib:33128": {
       "id": "exoplanet-bib:33128",
       "title": "Transport and Thermochemical Kinetics of Alkali Species in Hot Jupiter Atmospheres: Implications for Magnetic Models",
@@ -26170,7 +26212,7 @@
       "institutions": []
     }
   },
-  "omitted_papers": 55,
+  "omitted_papers": 56,
   "level": "parent",
   "researchers": [
     {
@@ -47799,7 +47841,8 @@
       "orcid": "https://orcid.org/0000-0002-0298-8089",
       "identity_basis": "orcid",
       "papers": [
-        "doi:10.3847/1538-4357/ae969c"
+        "doi:10.3847/1538-4357/ae969c",
+        "doi:10.3847/2041-8213/aeb6e0"
       ],
       "institutions": [],
       "aliases": [
@@ -52513,6 +52556,83 @@
       ],
       "aliases": [
         "Casey McGrath"
+      ]
+    },
+    {
+      "id": "ced47b65cf883e58",
+      "name": "A. Constantin",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": null,
+      "identity_basis": "paper_signature",
+      "papers": [
+        "doi:10.1175/jas-d-25-0238.1"
+      ],
+      "institutions": [],
+      "aliases": [
+        "A. Constantin"
+      ]
+    },
+    {
+      "id": "1a3ad22ba7c46268",
+      "name": "A. Ionescu",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": null,
+      "identity_basis": "name_and_institution",
+      "papers": [
+        "doi:10.1175/jas-d-25-0238.1"
+      ],
+      "institutions": [
+        "6f4241a7694672b8"
+      ],
+      "aliases": [
+        "A. Ionescu"
+      ]
+    },
+    {
+      "id": "07ffa9c420902e6e",
+      "name": "Danica Adams",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0001-9897-9680",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/2041-8213/aeb6e0"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Danica Adams"
+      ]
+    },
+    {
+      "id": "99fedf48d1833018",
+      "name": "Pierre-Alexis Roy",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0001-6809-3520",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/2041-8213/aeb6e0"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Pierre-Alexis Roy"
+      ]
+    },
+    {
+      "id": "dc85d70c792041f6",
+      "name": "Björn Benneke",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0001-5578-1498",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.3847/2041-8213/aeb6e0"
+      ],
+      "institutions": [],
+      "aliases": [
+        "Björn Benneke"
       ]
     },
     {

@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-11-13T07:53:45.188625+00:00",
+  "generated_at": "2026-11-14T07:35:29.684541+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
-      "last_attempt": "2026-11-13T07:53:45.188625+00:00",
-      "last_success": "2026-11-13T07:53:45.188625+00:00",
+      "last_attempt": "2026-11-14T07:35:29.684541+00:00",
+      "last_success": "2026-11-14T07:35:29.684541+00:00",
       "status": "ok",
-      "fetched": 11
+      "fetched": 0
     },
     "physics.ao-ph": {
-      "last_attempt": "2026-11-13T07:53:45.188625+00:00",
-      "last_success": "2026-11-13T07:53:45.188625+00:00",
+      "last_attempt": "2026-11-14T07:35:29.684541+00:00",
+      "last_success": "2026-11-14T07:35:29.684541+00:00",
       "status": "ok",
-      "fetched": 4
+      "fetched": 0
     },
     "physics.geo-ph": {
-      "last_attempt": "2026-11-13T07:53:45.188625+00:00",
-      "last_success": "2026-11-13T07:53:45.188625+00:00",
+      "last_attempt": "2026-11-14T07:35:29.684541+00:00",
+      "last_success": "2026-11-14T07:35:29.684541+00:00",
       "status": "ok",
-      "fetched": 1
+      "fetched": 0
     },
     "physics.flu-dyn": {
-      "last_attempt": "2026-11-13T07:53:45.188625+00:00",
-      "last_success": "2026-11-13T07:53:45.188625+00:00",
+      "last_attempt": "2026-11-14T07:35:29.684541+00:00",
+      "last_success": "2026-11-14T07:35:29.684541+00:00",
       "status": "ok",
-      "fetched": 19
+      "fetched": 0
     }
   },
   "topics": [
@@ -1830,14 +1830,14 @@
           "radiative convective equilibrium"
         ]
       },
-      "status": "candidate",
-      "reason": "关联线索：radiative convective equilibrium",
+      "status": "excluded",
+      "reason": "Reading review 2026-11-13: The complete original v1 abstract studies SiO2 clouds in two isolated field L brown dwarfs, J0624 and J2148. This is not a specific planetary-atmosphere target and is outside the established narrow scope, consistent with earlier isolated-brown-dwarf exclusions. Preserve source archive and original first_seen.",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "海冰与表层 · Ice & surface",
         "反演与数值方法 · Inverse & numerical methods"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 39,
       "fit_matches": [
         "系外行星观测表征"
@@ -2138,10 +2138,10 @@
           "mantle"
         ]
       },
-      "status": "candidate",
-      "reason": "关联线索：radiogenic、mantle",
+      "status": "excluded",
+      "reason": "Reading review 2026-11-13: The complete original v1 abstract concerns terrestrial mantle radiogenic heterogeneity and multi-site geoneutrino measurements. This is Earth geophysics, not the nonterrestrial planetary interior or atmosphere scope. Preserve source archive and original first_seen.",
       "tags": [],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 31,
       "fit_matches": [],
       "institutions": [
@@ -2804,12 +2804,12 @@
           "water ice"
         ]
       },
-      "status": "candidate",
-      "reason": "关联线索：water ice",
+      "status": "excluded",
+      "reason": "Reading review 2026-11-13: The complete original v1 abstract concerns Euclid spacecraft performance, contamination and meteoroid impacts in the L2 environment. This is spacecraft/space-environment engineering, not a planetary atmosphere, interior, surface or orbital-mechanism result. Preserve source archive and original first_seen.",
       "tags": [
         "岩浆与挥发分 · Magma & volatiles"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 38,
       "fit_matches": [],
       "author_affiliation_status": "unavailable",
