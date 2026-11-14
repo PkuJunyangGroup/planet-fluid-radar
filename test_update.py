@@ -7,6 +7,17 @@ import update
 
 CONFIG=json.loads(Path('topics.json').read_text())
 class Rules(unittest.TestCase):
+ def test_great_red_spot_has_planetary_atmosphere_topic(self):
+  p=self.paper("Energy-enstrophy balance and the evolving shape of Jupiter's Great Red Spot",
+   "We model two-dimensional turbulence in Jupiter's upper troposphere near the cloud tops.")
+  result=update.classify(p,CONFIG)
+  self.assertEqual(result['status'],'candidate')
+  self.assertIn('planetary',result['topics'])
+  self.assertIn('great red spot',result['matches']['planetary'])
+  unrelated=self.paper("Energy-enstrophy balance in two-dimensional turbulence",
+   "We model an idealized terrestrial atmospheric vortex.")
+  self.assertNotIn('planetary',update.classify(unrelated,CONFIG)['topics'])
+
  def test_high_eccentricity_migration_requires_planet_context(self):
   p=self.paper('Exomoons around migrating white dwarf planets','We study high-eccentricity migration and tidal decay of planetary satellites.')
   self.assertIn('orbital',update.classify(p,CONFIG)['topics'])
