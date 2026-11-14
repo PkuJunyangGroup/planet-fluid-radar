@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T07:44:41.490774+00:00",
+  "generated_at": "2026-11-14T08:03:00.440520+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
@@ -260,11 +260,11 @@
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-11-14T15:35:53.958842+08:00",
-      "last_success": "2026-11-14T15:35:53.958842+08:00",
+      "last_attempt": "2026-11-14T16:01:47.698913+08:00",
+      "last_success": "2026-11-14T16:01:47.698913+08:00",
       "coverage_since": "2026-09-25",
-      "pages_checked": 2,
-      "fetched": 12,
+      "pages_checked": 1,
+      "fetched": 0,
       "retained": 0,
       "method": "daily incremental bibliography page scan; candidate-only"
     }
@@ -291,7 +291,8 @@
         "exoplanetary atmosphere",
         "atmospheric mass loss",
         "planetary climate",
-        "rocky planet atmosphere"
+        "rocky planet atmosphere",
+        "great red spot"
       ],
       "context": [
         "atmosphere",
@@ -35141,8 +35142,13 @@
       "publication_dates": {
         "published-print": "2026-11-13"
       },
-      "topics": [],
+      "topics": [
+        "planetary"
+      ],
       "matches": {
+        "planetary": [
+          "great red spot"
+        ],
         "gfd": [
           "two dimensional turbulence"
         ],
@@ -35151,14 +35157,14 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：two dimensional turbulence、turbulence",
+      "reason": "关联线索：great red spot、two dimensional turbulence、turbulence",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "环流与波动 · Circulation & waves",
         "流体与不稳定性 · Fluid dynamics"
       ],
       "method": "keyword",
-      "fit_score": 30,
+      "fit_score": 46,
       "fit_matches": [],
       "variants": [
         {
@@ -37181,7 +37187,7 @@
   "merged_count": 31,
   "daily_brief": {
     "date": "2026-11-14",
-    "built_at": "2026-11-14T07:44:41.490950+00:00",
+    "built_at": "2026-11-14T08:03:00.440662+00:00",
     "review_basis": "Automated rule screening; reading review is recorded separately.",
     "new_count": 2,
     "recent_ids": [
