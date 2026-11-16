@@ -20,7 +20,11 @@ def date_value(record,key):
 def publication(record):
  values=[date_value(record,k) for k in ['published-online','published-print','published']]
  valid=[v for v in values if v]
- return min(valid) if valid else None
+ # A month/year prefix is not an earlier date than a known day in that period.
+ # Keep genuinely earlier coarse dates, but do not let a same-month print
+ # date hide a precise online publication date from recent-paper intake.
+ precise=[v for v in valid if not any(w.startswith(v+'-') for w in valid)]
+ return min(precise) if precise else None
 
 def parse_record(r,journal,stamp):
  doi=r.get('DOI','').lower();title=plain((r.get('title') or [''])[0])

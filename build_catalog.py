@@ -82,6 +82,10 @@ def apply_publisher_supplements(records, supplements):
   supplement=supplements.get(doi) if doi else None
   if not supplement:
    continue
+  if supplement.get('publication_date') and supplement.get('source_url'):
+   p['publication_date']=supplement['publication_date']
+   p['published']=supplement['publication_date']
+   p['publication_date_source']=supplement['source_url']
   if supplement.get('abstract'):
    p['abstract']=supplement['abstract']
    p['abstract_source']=supplement.get('source_url','')

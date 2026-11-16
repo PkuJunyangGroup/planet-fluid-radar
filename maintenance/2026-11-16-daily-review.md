@@ -1,0 +1,18 @@
+# Daily maintenance review — 2026-11-16 (Asia/Shanghai)
+
+## Execution and initial result
+Designated PkuJunyangGroup cloud connection and repository permissions verified. Latest configuration, topics, journals, README, workflow and previous maintenance record read. Scheduled run [43827415486](https://github.com/PkuJunyangGroup/planet-fluid-radar/actions/runs/43827415486) began 07:56:59 UTC and completed successfully, including all 91 existing tests and Pages deployment at 08:07:29 UTC. Data commit c2ee707b1738f569a1dd16b33576111a87f29bf3. No duplicate full fetch or failed-source retry was triggered.
+
+All four arXiv categories, all 19 enabled journals and Exoplanet.eu reported success. arXiv returned zero in each category; Exoplanet.eu checked one page and returned zero. Journal retrieved/retained counts: JAS 1/1, ACP 36/15, JGR Atmospheres 2/1, Journal of Climate 10/9, Climate of the Past 2/2, GRL 8/2, JGR Planets 1/1, EPSL 2/0; other enabled journals 0/0. Disabled journals remained disabled. Original intake selected zero and its bounded one-year fallback returned zero with zero search errors. Request success does not imply complete publisher coverage.
+
+## Reading review and correction
+Raw archive count increased 3022 -> 3027; this was not five public additions. All five newly archived original English abstracts were read. Four remain outside scope: 10.1029/2026JD048743 (Earth wildfire smoke), 10.5194/acp-22-12629-2022 (2022 regional nitrate pollution), 10.1029/2026GL125277 (urban boundary-layer heating), 10.1029/2026GL125936 (terrestrial satellite water-vapor bias). No abstracts were missing among these five.
+
+The fifth paper, **Al 2 O 3 Under Extreme Conditions: Implications for Alumina-Rich Planetary Interiors**, by **Ishita Das and Gaurav Shukla**, is directly in scope. DOI: https://doi.org/10.1029/2026JE009903; journal: Journal of Geophysical Research: Planets. Its complete publisher-deposited abstract and explicit author/ORCID/affiliation metadata were independently retrieved from https://api.crossref.org/works/10.1029/2026JE009903. The DOI landing page was unavailable through web retrieval; no independent publisher-page verification is claimed.
+
+Crossref explicitly records online publication 2026-11-15 but print date only 2026-11. The parser's lexical minimum selected the month prefix, hiding a precise online day from recent intake. Fixed the date-selection function so a same-period coarse prefix does not override its precise day; genuinely earlier uncertain months and month-only records remain uncertain. Added a DOI-scoped source-backed date supplement for this existing archived record, plus reading-review override. Original full abstract, byline and first_seen 2026-11-16T07:57:40.825502+00:00 (15:57:40 Beijing) preserved. No score inflation; the >=65 threshold applies to fallback, not recent papers. Corrected intake selects this one paper as recent, not fallback.
+
+## Verification and limits
+All 95 tests pass locally, including four new date/supplement regression tests. Original live catalog.json and network.json were retrieved and matched generated_at 2026-11-16T08:07:15.153148+00:00. Initial public catalog was 231 papers, with no changed existing public paper content. 26 old raw records changed metadata timestamps; 19 also changed relations. No broad retrospective reading audit is claimed.
+
+Correction deployment and final live count must be verified after this commit. Expected public count is 232, with exactly the alumina paper added. Three historical missing abstracts and previously recorded parser/affiliation/withdrawal/formula limitations remain unresolved. No shared recommendation vote, new guessed institution/name, backend change or UI redesign.
