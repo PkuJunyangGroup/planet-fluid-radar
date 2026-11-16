@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T08:07:15.153148+00:00",
+  "generated_at": "2026-11-16T12:25:40.472585+00:00",
   "nodes": [
     {
       "id": "f0a42ba5624748d4",
@@ -15597,6 +15597,7 @@
       "label": "Indian Institute of Science Education and Research Kolkata",
       "name_zh": "印度科学教育与研究学院加尔各答分院",
       "papers": [
+        "doi:10.1029/2026je009903",
         "doi:10.3847/1538-4357/ae9ba8"
       ],
       "authors": [
@@ -15610,11 +15611,35 @@
             "doi:10.3847/1538-4357/ae9ba8"
           ],
           "unit_papers": {}
+        },
+        {
+          "id": "e9d95a3183acc48e",
+          "name": "Ishita Das",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "doi:10.1029/2026je009903"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "0b4651b131f82392",
+          "name": "Gaurav Shukla",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0003-1002-4842",
+          "papers": [
+            "doi:10.1029/2026je009903"
+          ],
+          "unit_papers": {}
         }
       ],
       "units": [],
       "raw": [
-        "Indian Institute of Science Education and Research (IISER) Mohali"
+        "Department of Earth Sciences Indian Institute of Science Education and Research Kolkata Mohanpur India",
+        "Indian Institute of Science Education and Research (IISER) Mohali",
+        "National Centre for High Pressure Studies Indian Institute of Science Education and Research Kolkata Mohanpur India"
       ],
       "verification": {
         "ror": "https://ror.org/00djv2c17",
@@ -26197,6 +26222,22 @@
         "The Astrophysical Journal Letters"
       ],
       "institutions": []
+    },
+    "doi:10.1029/2026je009903": {
+      "id": "doi:10.1029/2026je009903",
+      "title": "Al 2 O 3 Under Extreme Conditions: Implications for Alumina‐Rich Planetary Interiors",
+      "url": "https://doi.org/10.1029/2026je009903",
+      "topics": [
+        "evolution"
+      ],
+      "first_seen": "2026-11-16T07:57:40.825502+00:00",
+      "publication_date": "2026-11-15",
+      "journals": [
+        "Journal of Geophysical Research: Planets"
+      ],
+      "institutions": [
+        "22875ce8d727497d"
+      ]
     },
     "exoplanet-bib:33128": {
       "id": "exoplanet-bib:33128",
@@ -52635,6 +52676,40 @@
       "institutions": [],
       "aliases": [
         "Björn Benneke"
+      ]
+    },
+    {
+      "id": "e9d95a3183acc48e",
+      "name": "Ishita Das",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": null,
+      "identity_basis": "name_and_institution",
+      "papers": [
+        "doi:10.1029/2026je009903"
+      ],
+      "institutions": [
+        "22875ce8d727497d"
+      ],
+      "aliases": [
+        "Ishita Das"
+      ]
+    },
+    {
+      "id": "0b4651b131f82392",
+      "name": "Gaurav Shukla",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0003-1002-4842",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.1029/2026je009903"
+      ],
+      "institutions": [
+        "22875ce8d727497d"
+      ],
+      "aliases": [
+        "Gaurav Shukla"
       ]
     },
     {
