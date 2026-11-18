@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T08:43:44.062091+00:00",
+  "generated_at": "2026-11-18T10:17:42.165710+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
@@ -260,12 +260,12 @@
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-11-18T16:30:35.234567+08:00",
-      "last_success": "2026-11-18T16:30:35.234567+08:00",
+      "last_attempt": "2026-11-18T18:15:47.240086+08:00",
+      "last_success": "2026-11-18T18:15:47.240086+08:00",
       "coverage_since": "2026-09-25",
-      "pages_checked": 3,
-      "fetched": 24,
-      "retained": 2,
+      "pages_checked": 1,
+      "fetched": 0,
+      "retained": 0,
       "method": "daily incremental bibliography page scan; candidate-only"
     }
   },
@@ -1085,9 +1085,9 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：mean motion resonance",
+      "reason": "Reading review 2026-11-18: Complete source-provided English abstract read. Planetary radius/mass ordering and mean-motion resonances. Preserve source archive and original first_seen; no score inflation.",
       "tags": [],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 40,
       "fit_matches": [],
       "institutions": [
@@ -1147,104 +1147,6 @@
       "intake_kind": "recent"
     },
     {
-      "id": "2611.22571",
-      "version_id": "2611.22571v1",
-      "title": "Planet Formation in a Warped Disc: Gravitational Instability and Misaligned Infall",
-      "abstract": "We perform three-dimensional smoothed particle hydrodynamics simulations to investigate the impact of misaligned infall on a gravitationally unstable protoplanetary disc. The interaction between the disc and the infalling gas does not occur uniformly across all radii. As infall impacts the outer disc first, the outer disc experiences stronger torques than the inner disc, resulting in a warped disc where the angular momentum vector of the disc varies with radius. The surrounding infalling gas reprocesses stellar irradiation and re-emits it back towards the disc, resulting in a warmer disc. The higher temperatures cause the disc to become more gravitationally stable resulting in weaker spiral arms. However, over time, infall also continuously increases the disc mass, gradually altering the local conditions and strengthening gravitational instabilities despite the azimuthally averaged Toomre $Q$ indicating that the disc is stable against gravitational instability. Eventually, one of the spiral arms fragments, forming a giant planet by gravitational instability in a disc warped by misaligned infall. Hence, the impact of infall on gravitational instability in general will vary depending on the infall and disc properties due to the balance between the stabilising and destabilising effects. We also find that infall alters the expected signatures of gravitationally unstable discs by introducing asymmetries in scattered-light, continuum, and molecular line emission.",
-      "published": "2026-11-17T10:57:41Z",
-      "updated": "2026-11-17T10:57:41Z",
-      "authors": [
-        "Sahl Rowther",
-        "Josh Calcino",
-        "Richard Alexander"
-      ],
-      "doi": "",
-      "categories": [
-        "astro-ph.EP"
-      ],
-      "url": "https://arxiv.org/abs/2611.22571",
-      "pdf": "https://arxiv.org/pdf/2611.22571v1",
-      "source": "arXiv",
-      "first_seen": "2026-11-18T08:30:06.593871+00:00",
-      "version_changed": false,
-      "topics": [
-        "evolution"
-      ],
-      "matches": {
-        "evolution": [
-          "planet formation"
-        ],
-        "methods": [
-          "smoothed particle hydrodynamics"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：planet formation、smoothed particle hydrodynamics",
-      "tags": [
-        "流体与不稳定性 · Fluid dynamics",
-        "反演与数值方法 · Inverse & numerical methods"
-      ],
-      "method": "keyword",
-      "fit_score": 31,
-      "fit_matches": [],
-      "institutions": [
-        "Department of Astronomy, Tsinghua University, 30 Shuangqing Rd, 100084 Beijing, China",
-        "School of Physics and Astronomy, University of Leicester, Leicester LE1 7RH, UK",
-        "Centre for Exoplanets and Habitability, University of Warwick, Coventry CV4 7AL, UK",
-        "Department of Physics, University of Warwick, Coventry CV4 7AL, UK"
-      ],
-      "author_affiliations": [
-        {
-          "name": "Sahl Rowther",
-          "institutions": [],
-          "orcid": null
-        },
-        {
-          "name": "Josh Calcino",
-          "institutions": [
-            "Department of Astronomy, Tsinghua University, 30 Shuangqing Rd, 100084 Beijing, China"
-          ],
-          "orcid": null
-        },
-        {
-          "name": "Richard Alexander",
-          "institutions": [
-            "School of Physics and Astronomy, University of Leicester, Leicester LE1 7RH, UK"
-          ],
-          "orcid": null
-        }
-      ],
-      "affiliation_status": "verified",
-      "affiliation_source": "https://arxiv.org/html/2611.22571v1",
-      "publication_date": "2026-11-17",
-      "publication_date_source": "https://arxiv.org/abs/2611.22571v1",
-      "version_date": "2026-11-17T10:57:41+00:00",
-      "variants": [
-        {
-          "id": "2611.22571",
-          "source": "arXiv",
-          "journal": null,
-          "journal_id": null,
-          "title": "Planet Formation in a Warped Disc: Gravitational Instability and Misaligned Infall",
-          "url": "https://arxiv.org/abs/2611.22571",
-          "doi": "",
-          "version_id": "2611.22571v1",
-          "first_seen": "2026-11-18T08:30:06.593871+00:00",
-          "publication_date": "2026-11-17",
-          "version_date": "2026-11-17T10:57:41+00:00",
-          "metadata_source": null,
-          "affiliation_source": "https://arxiv.org/html/2611.22571v1"
-        }
-      ],
-      "match_basis": [],
-      "source_types": [
-        "arXiv"
-      ],
-      "journals": [],
-      "source_groups": [],
-      "intake_kind": "recent"
-    },
-    {
       "id": "2611.22150",
       "version_id": "2611.22150v1",
       "title": "Exomoons and Exorings with the Habitable Worlds Observatory. III. Icy Moons and Rings Often Outshine Their Planets",
@@ -1279,12 +1181,12 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：exomoon、icy moon",
+      "reason": "Reading review 2026-11-18: Complete source-provided English abstract read. Detectability and disentangling of exomoon/exoring reflected light from planetary observations. Preserve source archive and original first_seen; no score inflation.",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "宜居性 · Habitability"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 51,
       "fit_matches": [
         "行星海洋与冰"
@@ -1348,151 +1250,199 @@
       "intake_kind": "recent"
     },
     {
-      "id": "2611.21884",
-      "version_id": "2611.21884v1",
-      "title": "Rapid Protoplanetary Disk Evolution and Debris Disk Formation in Taurus-Auriga",
-      "abstract": "We present a Submillimeter Array (SMA) 1.3mm (225GHz) continuum emission survey of Young Stellar Objects (YSOs) in the Taurus-Auriga star-forming region, comprising 69 class III and 5 class I/II YSOs with spectral types B9-M3, as part of a total sample of 149 class II and 82 class III YSOs. This represents a complete sample (100%) of class II and III YSOs with spectral types earlier than K3, and a near-complete sample (85%) for spectral types earlier than M2. The survey has a median $3σ$ sensitivity of 1.4mJy. We did not find any emission from circumstellar dust around class III YSOs, but present three detections that can be attributed to variable stellar activity, and one from an unresolved companion. We compile and model spectral energy distributions (SEDs) for the sample, and report 27 class III YSOs with excess thermal emission. We demonstrate that the class III YSOs in Taurus are typically older than their class II counterparts. We produce millimeter luminosity and dust disk mass distributions, and present evidence for a bifurcation between the class II and III populations, implying that ${\\gtrsim}99.5\\%$ of the dust mass is dispersed or transformed as YSOs transition from the class II to III stage. The combined infrared and millimeter properties demonstrate that warm (inner) and cold (outer) dust reservoirs evolve on comparable timescales: there is a rapid evolution across the radial extent of disks. We demonstrate that the survey properties are broadly consistent with a belt population that formed planetesimals from class II disks with an efficiency of a few tenths to a few tens of percent.",
-      "published": "2026-11-16T20:54:04Z",
-      "updated": "2026-11-16T20:54:04Z",
+      "id": "2611.21841",
+      "version_id": "2611.21841v1",
+      "title": "Three Dimensional Structure of Jovian Polar Cyclones Revealed by Juno Microwave Radiometer",
+      "abstract": "Jupiter's circumpolar cyclones (CPCs) represent one of the most extreme dynamical regimes of the Solar System, where rotation, stratification, and convection interact to organize a stable polygonal cyclone lattice at each pole. Yet the depth and vertical structure of these cyclones remain unresolved. Here, using Juno Microwave Radiometer observations acquired between May 2023 and May 2024, we retrieve the 3-D thermal/compositional structure of Jupiter's northern CPCs at depths beyond those detectable by Earth-based telescopes and spacecraft that have ever visited. The eight CPCs, appearing with enhanced microwave brightness, show as modest ammonia depletion near the water lifting-condensation level ($\\sim$5 bar) and/or, equivalently, warm-core structures analogous to terrestrial tropical cyclones. Five of them show substantially stronger and deeper anomalies than the remaining three, with approximately twice the inferred ammonia depletion and localized heating. In contrast, the central polar cyclone exhibits little microwave brightness contrast relative to its surroundings, despite its substantially cloudier and visually distinct appearance in visible and infrared observations. Previous dynamical models have treated the CPCs and the central polar cyclone as dynamically similar structures arising from the self-organization of turbulent flows. The new observations, however, suggest that the CPCs and the central polar cyclone may have distinct origins and operate under different dynamical regimes.",
+      "published": "2026-11-16T19:58:59Z",
+      "updated": "2026-11-16T19:58:59Z",
       "authors": [
-        "Joshua B. Lovell",
-        "Sean M. Andrews",
-        "Grant M. Kennedy",
-        "David J. Wilner",
-        "Richard Alexander",
-        "Adam L. Kraus",
-        "Daniel M. Krolikowski",
-        "Luca Matrà",
-        "Mark C. Wyatt",
-        "Jonathan P. Williams"
+        "Jiheng Hu",
+        "Yuan Lian",
+        "Cheng Li",
+        "Sushil K. Atreya",
+        "Leigh N. Fletcher",
+        "Yohai Kaspi",
+        "Liming Li",
+        "Glenn S. Orton",
+        "Fabiano A. Oyafuso",
+        "John H. Rogers",
+        "Fachreddin Tabataba-Vakili",
+        "J. Hunter Waite",
+        "Michael H. Wong",
+        "Zhimeng Zhang",
+        "Steven M. Levin",
+        "Scott J. Bolton"
       ],
       "doi": "",
       "categories": [
-        "astro-ph.EP",
-        "astro-ph.GA",
-        "astro-ph.SR"
+        "astro-ph.EP"
       ],
-      "url": "https://arxiv.org/abs/2611.21884",
-      "pdf": "https://arxiv.org/pdf/2611.21884v1",
+      "url": "https://arxiv.org/abs/2611.21841",
+      "pdf": "https://arxiv.org/pdf/2611.21841v1",
       "source": "arXiv",
       "first_seen": "2026-11-18T08:30:06.593871+00:00",
       "version_changed": false,
-      "topics": [
-        "evolution"
-      ],
-      "matches": {
-        "evolution": [
-          "planetesimal"
-        ]
-      },
+      "topics": [],
+      "matches": {},
       "status": "candidate",
-      "reason": "关联线索：planetesimal",
-      "tags": [],
-      "method": "keyword",
-      "fit_score": 31,
+      "reason": "Reading review 2026-11-18: Complete source-provided English abstract read. Juno microwave retrievals of Jovian polar cyclone thermal/compositional structure. Preserve source archive and original first_seen; no score inflation.",
+      "tags": [
+        "水循环 · Water cycle",
+        "流体与不稳定性 · Fluid dynamics"
+      ],
+      "method": "manual",
+      "fit_score": 0,
       "fit_matches": [],
       "institutions": [
-        "Center for Astrophysics, Harvard & Smithsonian, 60 Garden Street, Cambridge, MA 02138-1516, USA",
-        "Malaghan Institute of Medical Research, Kelburn, Wellington 6012, New Zealand",
-        "School of Physics and Astronomy, University of Leicester, University Road, Leicester, LE1 7RH, UK",
-        "University of Texas at Austin, Department of Astronomy, 2515 Speedway, Austin, TX 78712, USA",
-        "Steward Observatory, University of Arizona, 933 N. Cherry Avenue, Tucson, AZ 85721, USA",
-        "School of Physics, Trinity College Dublin, The University of Dublin, College Green, Dublin 2, Ireland",
-        "Institute of Astronomy, University of Cambridge, Madingley Road, Cambridge, CB3 0HA, UK",
-        "Institute for Astronomy, University of Hawai’i at Ma¯\\bar{\\texttt{a}}noa, Honolulu, HI, USA"
+        "Department of Climate and Space Sciences and Engineering, University of Michigan, Ann Arbor, MI, USA",
+        "Aeolis Research, Chandler, AZ, USA",
+        "School of Physics and Astronomy, University of Leicester, Leicester LE1 7RH, UK",
+        "Department of Earth and Planetary Sciences, Weizmann Institute of Science, Rehovot, Israel",
+        "Department of Physics, University of Houston, Houston, TX, USA",
+        "Jet Propulsion Laboratory, California Institute of Technology, Pasadena, CA, USA",
+        "British Astronomical Association, London, UK",
+        "Department of Physics and Astronomy, The University of Alabama, Tuscaloosa, AL, USA.",
+        "Space Sciences Laboratory, University of California, Berkeley, CA, USA",
+        "Carl Sagan Center for Science, SETI Institute, Mountain View, CA, USA",
+        "Department of Geological and Planetary Sciences, California Institute of Technology, Pasadena, CA, USA",
+        "Southwest Research Institute, San Antonio, TX, USA"
       ],
       "author_affiliations": [
         {
-          "name": "Joshua B. Lovell",
+          "name": "Jiheng Hu",
           "institutions": [
-            "Center for Astrophysics, Harvard & Smithsonian, 60 Garden Street, Cambridge, MA 02138-1516, USA"
-          ],
-          "orcid": "https://orcid.org/0000-0002-4248-5443"
-        },
-        {
-          "name": "Sean M. Andrews",
-          "institutions": [
-            "Center for Astrophysics, Harvard & Smithsonian, 60 Garden Street, Cambridge, MA 02138-1516, USA"
-          ],
-          "orcid": "https://orcid.org/0000-0003-2253-2270"
-        },
-        {
-          "name": "Grant M. Kennedy",
-          "institutions": [
-            "Malaghan Institute of Medical Research, Kelburn, Wellington 6012, New Zealand"
-          ],
-          "orcid": "https://orcid.org/0000-0001-6831-7547"
-        },
-        {
-          "name": "David J. Wilner",
-          "institutions": [
-            "Center for Astrophysics, Harvard & Smithsonian, 60 Garden Street, Cambridge, MA 02138-1516, USA"
-          ],
-          "orcid": "https://orcid.org/0000-0003-1526-7587"
-        },
-        {
-          "name": "Richard Alexander",
-          "institutions": [
-            "School of Physics and Astronomy, University of Leicester, University Road, Leicester, LE1 7RH, UK"
-          ],
-          "orcid": "https://orcid.org/0000-0001-6410-2899"
-        },
-        {
-          "name": "Adam L. Kraus",
-          "institutions": [
-            "University of Texas at Austin, Department of Astronomy, 2515 Speedway, Austin, TX 78712, USA"
+            "Department of Climate and Space Sciences and Engineering, University of Michigan, Ann Arbor, MI, USA"
           ],
           "orcid": null
         },
         {
-          "name": "Daniel M. Krolikowski",
+          "name": "Yuan Lian",
           "institutions": [
-            "Steward Observatory, University of Arizona, 933 N. Cherry Avenue, Tucson, AZ 85721, USA"
+            "Aeolis Research, Chandler, AZ, USA"
           ],
-          "orcid": "https://orcid.org/0000-0001-9626-0613"
+          "orcid": null
         },
         {
-          "name": "Luca Matrà",
+          "name": "Cheng Li",
           "institutions": [
-            "School of Physics, Trinity College Dublin, The University of Dublin, College Green, Dublin 2, Ireland"
+            "Department of Climate and Space Sciences and Engineering, University of Michigan, Ann Arbor, MI, USA"
           ],
-          "orcid": "https://orcid.org/0000-0003-4705-3188"
+          "orcid": null
         },
         {
-          "name": "Mark C. Wyatt",
+          "name": "Sushil K. Atreya",
           "institutions": [
-            "Institute of Astronomy, University of Cambridge, Madingley Road, Cambridge, CB3 0HA, UK"
+            "Department of Climate and Space Sciences and Engineering, University of Michigan, Ann Arbor, MI, USA"
           ],
-          "orcid": "https://orcid.org/0000-0001-9064-5598"
+          "orcid": null
         },
         {
-          "name": "Jonathan P. Williams",
+          "name": "Leigh N. Fletcher",
           "institutions": [
-            "Institute for Astronomy, University of Hawai’i at Ma¯\\bar{\\texttt{a}}noa, Honolulu, HI, USA"
+            "School of Physics and Astronomy, University of Leicester, Leicester LE1 7RH, UK"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Yohai Kaspi",
+          "institutions": [
+            "Department of Earth and Planetary Sciences, Weizmann Institute of Science, Rehovot, Israel"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Liming Li",
+          "institutions": [
+            "Department of Physics, University of Houston, Houston, TX, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Glenn S. Orton",
+          "institutions": [
+            "Jet Propulsion Laboratory, California Institute of Technology, Pasadena, CA, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Fabiano A. Oyafuso",
+          "institutions": [
+            "Jet Propulsion Laboratory, California Institute of Technology, Pasadena, CA, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "John H. Rogers",
+          "institutions": [
+            "British Astronomical Association, London, UK"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Fachreddin Tabataba-Vakili",
+          "institutions": [
+            "Jet Propulsion Laboratory, California Institute of Technology, Pasadena, CA, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "J. Hunter Waite",
+          "institutions": [
+            "Department of Physics and Astronomy, The University of Alabama, Tuscaloosa, AL, USA."
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Michael H. Wong",
+          "institutions": [
+            "Space Sciences Laboratory, University of California, Berkeley, CA, USA",
+            "Carl Sagan Center for Science, SETI Institute, Mountain View, CA, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Zhimeng Zhang",
+          "institutions": [
+            "Department of Geological and Planetary Sciences, California Institute of Technology, Pasadena, CA, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Steven M. Levin",
+          "institutions": [
+            "Jet Propulsion Laboratory, California Institute of Technology, Pasadena, CA, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Scott J. Bolton",
+          "institutions": [
+            "Southwest Research Institute, San Antonio, TX, USA"
           ],
           "orcid": null
         }
       ],
       "affiliation_status": "verified",
-      "affiliation_source": "https://arxiv.org/html/2611.21884v1",
+      "affiliation_source": "https://arxiv.org/html/2611.21841v1",
       "publication_date": "2026-11-17",
-      "publication_date_source": "https://arxiv.org/abs/2611.21884v1",
-      "version_date": "2026-11-16T20:54:04+00:00",
+      "publication_date_source": "https://arxiv.org/abs/2611.21841v1",
+      "version_date": "2026-11-16T19:58:59+00:00",
       "variants": [
         {
-          "id": "2611.21884",
+          "id": "2611.21841",
           "source": "arXiv",
           "journal": null,
           "journal_id": null,
-          "title": "Rapid Protoplanetary Disk Evolution and Debris Disk Formation in Taurus-Auriga",
-          "url": "https://arxiv.org/abs/2611.21884",
+          "title": "Three Dimensional Structure of Jovian Polar Cyclones Revealed by Juno Microwave Radiometer",
+          "url": "https://arxiv.org/abs/2611.21841",
           "doi": "",
-          "version_id": "2611.21884v1",
+          "version_id": "2611.21841v1",
           "first_seen": "2026-11-18T08:30:06.593871+00:00",
           "publication_date": "2026-11-17",
-          "version_date": "2026-11-16T20:54:04+00:00",
+          "version_date": "2026-11-16T19:58:59+00:00",
           "metadata_source": null,
-          "affiliation_source": "https://arxiv.org/html/2611.21884v1"
+          "affiliation_source": "https://arxiv.org/html/2611.21841v1"
         }
       ],
       "match_basis": [],
@@ -1504,117 +1454,437 @@
       "intake_kind": "recent"
     },
     {
-      "id": "2611.21786",
-      "version_id": "2611.21786v1",
-      "title": "Connecting Calcium Depletion and Dust Evolution in the Rapid Accretor T28",
-      "abstract": "We present a multi-wavelength case study of the star T28 in the Chamaeleon I star-forming region and investigate the dust evolution of its highly Ca-depleted protoplanetary disk. We combine new observations from the MIKE spectrograph on the Magellan Clay Telescope with archival IRS spectrum and photometry. We constrain the optical extinction using the hydrogen column density of the region, and apply ROTFIT to obtain stellar parameters. We estimate the mass accretion rate by fitting the excess flux above the photosphere with an accretion shock model. We model the line profiles of Ca II K and H$α$ with magnetospheric accretion models to infer Ca/H abundance, while the infrared excess is modeled with irradiated accretion disk models to get disk properties. We find that T28 is a high accretor with significant Ca depletion in its accretion flows. We find that the disk is best fit with a pre-transitional model with a disk mass of 0.12 $M_{\\odot}$, where two optically thick disks are separated by a gap filled with optically thin dust extending to 16 au. This gap would not be resolved in the existing observations. T28 follows the trend of increasing depletion with increasing mass accretion rate. This trend can potentially be explained by preferential and early giant planet formation in massive disks, as suggested by recent planet formation simulations, leading to enhanced capture of refractory material in the massive disks of high accretors and thus depletion in the material reaching the star.",
-      "published": "2026-11-16T19:09:58Z",
-      "updated": "2026-11-16T19:09:58Z",
+      "id": "2611.21758",
+      "version_id": "2611.21758v1",
+      "title": "NEMESIS: Exoplanet TraNsit SurvEy of Nearby M-dwarfs in TESS FFIS II - 262 Transiting Planet Candidates from the TESS Primary Mission",
+      "abstract": "We present NEMESIS II, a blind transit search of nearby M-dwarfs in TESS Primary Mission full-frame images (Sectors 1-26), including stars lacking 2-minute observations. Using the open-source NEMESIS pipeline, we extracted, detrended, and searched 213,658 single-sector light curves of 113,047 M-dwarfs within 100 pc, yielding 23,339 threshold crossing events. Automated LEO-Vetter vetting, applied identically to the survey and its injection-recovery and orbit-scrambling controls, retains 558 detections corresponding to 525 distinct signals with converged transit fits and periods of 0.51-9.10 days. Of these, 482 lie on stars without TOI, CTOI, or NASA Exoplanet Archive transiting-planet entries. Orbit-scrambling predicts 329 false alarms among the 558 detections, all but 14 of them among the 408 below Multiple Event Statistic 8. Assuming an astrophysical signal, TRICERATOPS favors a planetary origin for 262 of 525 candidates (232 new), which we classify as planet candidates; it also excludes resolved-neighbor eclipses for 105. Known planets and TOI candidates survive vetting at 1.01 +/- 0.07 of the injection-predicted rate. Correcting for each light curve's sensitivity, false alarms, and astrophysical false positives, we infer 0.81 +/- 0.44 planets per star for periods between 1.0-10.0 days and planet radii between 0.5-11.0 Earth radii. This is a lower limit, because our injections recover few or no planets near and below 1 Earth radii and assume central transits. Light curves, catalogs, vetting reports, and injection-recovery results will be released as a High Level Science Product at MAST upon publication. Documentation for the NEMESIS pipeline is available at https://nemesis-tess.readthedocs.io/.",
+      "published": "2026-11-16T19:00:32Z",
+      "updated": "2026-11-16T19:00:32Z",
       "authors": [
-        "Eylul Galimidi",
-        "Nuria Calvet",
-        "Marbely Micolta",
-        "Antonio Frasca",
-        "Ezequiel Manzo-Martinez",
-        "Cesar Briceno"
+        "Dax L. Feliz",
+        "Madeline Maldonado Gutierrez",
+        "Maliyah Adams",
+        "Shreeya KC",
+        "Kylor G. Ghai",
+        "Thamim Chowdhury",
+        "August Fischer",
+        "Jashcelyn S. Canada",
+        "Donovan Bradley",
+        "Mary Jimenez",
+        "Samantha N. Bianco",
+        "Bryan Villarreal Alvarado",
+        "Keivan G. Stassun",
+        "Peter Plavchan",
+        "Kevin I. Collins",
+        "Ruth Angus"
       ],
       "doi": "",
       "categories": [
-        "astro-ph.SR",
-        "astro-ph.EP"
+        "astro-ph.EP",
+        "astro-ph.SR"
       ],
-      "url": "https://arxiv.org/abs/2611.21786",
-      "pdf": "https://arxiv.org/pdf/2611.21786v1",
+      "url": "https://arxiv.org/abs/2611.21758",
+      "pdf": "https://arxiv.org/pdf/2611.21758v1",
       "source": "arXiv",
       "first_seen": "2026-11-18T08:30:06.593871+00:00",
       "version_changed": false,
-      "topics": [
-        "evolution"
-      ],
-      "matches": {
-        "evolution": [
-          "planet formation"
-        ]
-      },
+      "topics": [],
+      "matches": {},
       "status": "candidate",
-      "reason": "关联线索：planet formation",
-      "tags": [
-        "反演与数值方法 · Inverse & numerical methods"
-      ],
-      "method": "keyword",
-      "fit_score": 31,
+      "reason": "Reading review 2026-11-18: Complete source-provided English abstract read. NEMESIS transit vetting and occurrence of exoplanet candidates, not confirmed discoveries for all candidates. Preserve source archive and original first_seen; no score inflation.",
+      "tags": [],
+      "method": "manual",
+      "fit_score": 0,
       "fit_matches": [],
       "institutions": [
-        "Department of Astronomy, University of Michigan, 1085 South University Avenue, Ann Arbor, MI 48109, USA.",
-        "INAF – Osservatorio Astrofisico di Catania, via S. Sofia 78, 95123 Catania, Italy",
-        "Instituto de Astronomía, Universidad Nacional Autónoma de México, Km. 107 Carretera Tijuana-Ensenada, Ensenada Baja California, México, CP 22860, Mexico",
-        "SOAR Telescope/NSF NOIRLab, Casilla 603, La Serena, Chile"
+        "Center for Computational Astrophysics, Flatiron Institute, 162 Fifth Avenue, New York, NY 10010, USA",
+        "Department of Astrophysics, American Museum of Natural History, 200 Central Park West, New York, NY 10024, USA",
+        "Department of Physics and Astronomy, Barnard College of Columbia University, New York, NY 10027, USA",
+        "Arizona State University School of Earth and Space Exploration, P.O. Box 871404, Tempe, AZ 85287, USA",
+        "Science Research Mentoring Program, American Museum of Natural History, 200 Central Park West, New York, NY 10024, USA",
+        "Princeton University, 1 Nassau Hall, Princeton, NJ 08544-0070, USA",
+        "Boston University, 233 Bay State Road, Boston, MA 02215",
+        "Hunter College, The City University of New York, 695 Park Avenue, New York, NY 10065, USA",
+        "Villanova University, 800 Lancaster Ave, Villanova, PA 19085",
+        "Space Telescope Science Institute, 3700 San Martin Drive, Baltimore, MD 21218, USA",
+        "Escuela de Física, Universidad de Costa Rica, 11501-2060 San José, Costa Rica",
+        "Department of Physics, Fisk University, 1000 17th Avenue North, Nashville, TN 37208, USA",
+        "Department of Physics and Astronomy, Vanderbilt University, Nashville, TN 37235, USA",
+        "George Mason University, 4400 University Drive, Fairfax, VA 22030, USA"
       ],
       "author_affiliations": [
         {
-          "name": "Eylul Galimidi",
+          "name": "Dax L. Feliz",
           "institutions": [
-            "Department of Astronomy, University of Michigan, 1085 South University Avenue, Ann Arbor, MI 48109, USA."
-          ],
-          "orcid": "https://orcid.org/0009-0000-0630-5735"
-        },
-        {
-          "name": "Nuria Calvet",
-          "institutions": [
-            "Department of Astronomy, University of Michigan, 1085 South University Avenue, Ann Arbor, MI 48109, USA."
-          ],
-          "orcid": "https://orcid.org/0000-0002-3950-5386"
-        },
-        {
-          "name": "Marbely Micolta",
-          "institutions": [
-            "Department of Astronomy, University of Michigan, 1085 South University Avenue, Ann Arbor, MI 48109, USA."
-          ],
-          "orcid": "https://orcid.org/0000-0001-8022-4378"
-        },
-        {
-          "name": "Antonio Frasca",
-          "institutions": [
-            "INAF – Osservatorio Astrofisico di Catania, via S. Sofia 78, 95123 Catania, Italy"
-          ],
-          "orcid": "https://orcid.org/0000-0002-0474-0896"
-        },
-        {
-          "name": "Ezequiel Manzo-Martínez",
-          "institutions": [
-            "Department of Astronomy, University of Michigan, 1085 South University Avenue, Ann Arbor, MI 48109, USA.",
-            "Instituto de Astronomía, Universidad Nacional Autónoma de México, Km. 107 Carretera Tijuana-Ensenada, Ensenada Baja California, México, CP 22860, Mexico"
+            "Center for Computational Astrophysics, Flatiron Institute, 162 Fifth Avenue, New York, NY 10010, USA",
+            "Department of Astrophysics, American Museum of Natural History, 200 Central Park West, New York, NY 10024, USA"
           ],
           "orcid": null
         },
         {
-          "name": "César Briceño",
+          "name": "Madeline Maldonado Gutierrez",
           "institutions": [
-            "SOAR Telescope/NSF NOIRLab, Casilla 603, La Serena, Chile"
+            "Department of Physics and Astronomy, Barnard College of Columbia University, New York, NY 10027, USA"
           ],
-          "orcid": "https://orcid.org/0000-0001-7124-4094"
+          "orcid": null
+        },
+        {
+          "name": "Maliyah Adams",
+          "institutions": [
+            "Arizona State University School of Earth and Space Exploration, P.O. Box 871404, Tempe, AZ 85287, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Shreeya KC",
+          "institutions": [
+            "Science Research Mentoring Program, American Museum of Natural History, 200 Central Park West, New York, NY 10024, USA",
+            "Princeton University, 1 Nassau Hall, Princeton, NJ 08544-0070, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Kylor G. Ghai",
+          "institutions": [
+            "Science Research Mentoring Program, American Museum of Natural History, 200 Central Park West, New York, NY 10024, USA",
+            "Boston University, 233 Bay State Road, Boston, MA 02215"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Thamim Chowdhury",
+          "institutions": [
+            "Hunter College, The City University of New York, 695 Park Avenue, New York, NY 10065, USA",
+            "Science Research Mentoring Program, American Museum of Natural History, 200 Central Park West, New York, NY 10024, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "August Fischer",
+          "institutions": [
+            "Science Research Mentoring Program, American Museum of Natural History, 200 Central Park West, New York, NY 10024, USA",
+            "Villanova University, 800 Lancaster Ave, Villanova, PA 19085"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Jashcelyn S. Canada",
+          "institutions": [
+            "Science Research Mentoring Program, American Museum of Natural History, 200 Central Park West, New York, NY 10024, USA",
+            "Boston University, 233 Bay State Road, Boston, MA 02215"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Donovan Bradley",
+          "institutions": [
+            "Science Research Mentoring Program, American Museum of Natural History, 200 Central Park West, New York, NY 10024, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Mary Jimenez",
+          "institutions": [
+            "Department of Astrophysics, American Museum of Natural History, 200 Central Park West, New York, NY 10024, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Samantha N. Bianco",
+          "institutions": [
+            "Space Telescope Science Institute, 3700 San Martin Drive, Baltimore, MD 21218, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Bryan Villarreal Alvarado",
+          "institutions": [
+            "Escuela de Física, Universidad de Costa Rica, 11501-2060 San José, Costa Rica"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Keivan G. Stassun",
+          "institutions": [
+            "Department of Physics, Fisk University, 1000 17th Avenue North, Nashville, TN 37208, USA",
+            "Department of Physics and Astronomy, Vanderbilt University, Nashville, TN 37235, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Peter Plavchan",
+          "institutions": [
+            "George Mason University, 4400 University Drive, Fairfax, VA 22030, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Kevin I. Collins",
+          "institutions": [
+            "George Mason University, 4400 University Drive, Fairfax, VA 22030, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Ruth Angus",
+          "institutions": [
+            "Department of Astrophysics, American Museum of Natural History, 200 Central Park West, New York, NY 10024, USA"
+          ],
+          "orcid": null
         }
       ],
       "affiliation_status": "verified",
-      "affiliation_source": "https://arxiv.org/html/2611.21786v1",
+      "affiliation_source": "https://arxiv.org/html/2611.21758v1",
       "publication_date": "2026-11-17",
-      "publication_date_source": "https://arxiv.org/abs/2611.21786v1",
-      "version_date": "2026-11-16T19:09:58+00:00",
+      "publication_date_source": "https://arxiv.org/abs/2611.21758v1",
+      "version_date": "2026-11-16T19:00:32+00:00",
       "variants": [
         {
-          "id": "2611.21786",
+          "id": "2611.21758",
           "source": "arXiv",
           "journal": null,
           "journal_id": null,
-          "title": "Connecting Calcium Depletion and Dust Evolution in the Rapid Accretor T28",
-          "url": "https://arxiv.org/abs/2611.21786",
+          "title": "NEMESIS: Exoplanet TraNsit SurvEy of Nearby M-dwarfs in TESS FFIS II - 262 Transiting Planet Candidates from the TESS Primary Mission",
+          "url": "https://arxiv.org/abs/2611.21758",
           "doi": "",
-          "version_id": "2611.21786v1",
+          "version_id": "2611.21758v1",
           "first_seen": "2026-11-18T08:30:06.593871+00:00",
           "publication_date": "2026-11-17",
-          "version_date": "2026-11-16T19:09:58+00:00",
+          "version_date": "2026-11-16T19:00:32+00:00",
           "metadata_source": null,
-          "affiliation_source": "https://arxiv.org/html/2611.21786v1"
+          "affiliation_source": "https://arxiv.org/html/2611.21758v1"
+        }
+      ],
+      "match_basis": [],
+      "source_types": [
+        "arXiv"
+      ],
+      "journals": [],
+      "source_groups": [],
+      "intake_kind": "recent"
+    },
+    {
+      "id": "2611.21583",
+      "version_id": "2611.21583v1",
+      "title": "Compositions of Exoplanetary Debris Shaped by Milky Way Stellar Abundance Patterns",
+      "abstract": "Galactic chemical evolution (GCE) predicts large-scale variations in exoplanet compositions with host star elemental abundances, reflecting the Milky Way's history of star formation and elemental enrichment from stellar feedback. We investigate the impact of GCE on the compositions of exoplanetary bodies using polluted white dwarfs (WDs), which probe the bulk elemental abundances of planetary debris. Using a literature sample of 70 polluted WDs, we calculate iron mass fractions for the accreted bodies and compare these to tracers of the WD progenitor's initial abundances, including age and kinematics. We demonstrate predicted trends using a sample of main sequence stars, and we show that these are generally reflected in the polluted WD sample. In particular, H-dominated WDs show preferentially larger iron mass fractions amongst younger and less dynamically excited systems. This trend is weaker amongst He-dominated WDs, and we show that this may be attributed to uncertainties in their observed phases of accretion. Continuing to combine WD pollution compositions with stellar parameters and kinematics could be a valuable way to constrain large-scale versus local drivers of planetary compositions.",
+      "published": "2026-11-16T18:53:24Z",
+      "updated": "2026-11-16T18:53:24Z",
+      "authors": [
+        "Isabella L. Trierweiler",
+        "Kendra Nguyen",
+        "Lou Baya Ould Rouis",
+        "Pratik Gandhi",
+        "Laura K. Rogers",
+        "Carey M. Lisse",
+        "Malena Rice",
+        "Damanveer S. Grewal",
+        "Edward Young"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP",
+        "astro-ph.GA"
+      ],
+      "url": "https://arxiv.org/abs/2611.21583",
+      "pdf": "https://arxiv.org/pdf/2611.21583v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-18T08:30:06.593871+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "candidate",
+      "reason": "Reading review 2026-11-18: Complete source-provided English abstract read. Bulk exoplanetary debris composition inferred from white-dwarf pollution, explicitly testing planetary-composition drivers. Preserve source archive and original first_seen; no score inflation.",
+      "tags": [],
+      "method": "manual",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Department of Astronomy, Yale University, New Haven, CT 06511, USA",
+        "Department of Astronomy & Institute for Astrophysical Research Boston University Boston, MA 02215, USA",
+        "NOIRLab, 950 N Cherry Ave., Tucson, AZ 85719, USA;",
+        "Johns Hopkins University, 3400 N. Charles St, Baltimore, MD 21218, USA;",
+        "Johns Hopkins University Applied Physics Laboratory, Laurel, MD 20723, USA",
+        "Department of Earth and Planetary Sciences, Yale University, New Haven, CT 06511, USA",
+        "Department of Earth, Planetary, and Space Sciences, University of California, Los Angeles, Los Angeles, CA 90095, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Isabella L. Trierweiler",
+          "institutions": [
+            "Department of Astronomy, Yale University, New Haven, CT 06511, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Kendra Nguyen",
+          "institutions": [
+            "Department of Astronomy, Yale University, New Haven, CT 06511, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Lou Baya Ould Rouis",
+          "institutions": [
+            "Department of Astronomy & Institute for Astrophysical Research Boston University Boston, MA 02215, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Pratik Gandhi",
+          "institutions": [
+            "Department of Astronomy, Yale University, New Haven, CT 06511, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Laura K. Rogers",
+          "institutions": [
+            "NOIRLab, 950 N Cherry Ave., Tucson, AZ 85719, USA;"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Carey M. Lisse",
+          "institutions": [
+            "Johns Hopkins University, 3400 N. Charles St, Baltimore, MD 21218, USA;",
+            "Johns Hopkins University Applied Physics Laboratory, Laurel, MD 20723, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Malena Rice",
+          "institutions": [
+            "Department of Astronomy, Yale University, New Haven, CT 06511, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Damanveer S. Grewal",
+          "institutions": [
+            "Department of Earth and Planetary Sciences, Yale University, New Haven, CT 06511, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-5653-1543"
+        },
+        {
+          "name": "Edward Young",
+          "institutions": [
+            "Department of Earth, Planetary, and Space Sciences, University of California, Los Angeles, Los Angeles, CA 90095, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-1299-0801"
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.21583v1",
+      "publication_date": "2026-11-17",
+      "publication_date_source": "https://arxiv.org/abs/2611.21583v1",
+      "version_date": "2026-11-16T18:53:24+00:00",
+      "variants": [
+        {
+          "id": "2611.21583",
+          "source": "arXiv",
+          "journal": null,
+          "journal_id": null,
+          "title": "Compositions of Exoplanetary Debris Shaped by Milky Way Stellar Abundance Patterns",
+          "url": "https://arxiv.org/abs/2611.21583",
+          "doi": "",
+          "version_id": "2611.21583v1",
+          "first_seen": "2026-11-18T08:30:06.593871+00:00",
+          "publication_date": "2026-11-17",
+          "version_date": "2026-11-16T18:53:24+00:00",
+          "metadata_source": null,
+          "affiliation_source": "https://arxiv.org/html/2611.21583v1"
+        }
+      ],
+      "match_basis": [],
+      "source_types": [
+        "arXiv"
+      ],
+      "journals": [],
+      "source_groups": [],
+      "intake_kind": "recent"
+    },
+    {
+      "id": "2611.21575",
+      "version_id": "2611.21575v1",
+      "title": "Scaling of impact ripples across planetary conditions",
+      "abstract": "Ubiquitous wind-driven (aeolian) ripples have been thought to emerge solely from grain collisions with the bed during saltation. Recent findings, however, have shown that there are two scales of aeolian ripples, with the larger scale having a hydrodynamic origin, akin to water ripples, and the smaller scale ('impact ripples') being hypothesized to emerge from the grain-bed collision mechanism. Still, there are several instances where only one ripple scale is found and the formation mechanism is not clear. Here we compare numerical simulations of only impact ripples with observations, over a broad range of planetary conditions, to clarify their defining characteristics. We find two main regimes for the scaling of impact ripple wavelengths based on transport intensity: for low-intensity transport ('saltation' regime), impact ripple wavelengths scale with grain size regardless of the fluid density; whereas for high-intensity transport ('collisional' regime) wavelengths scale with the average hoplength and thus increase with the fluid velocity. In contrast, impact ripple migration speeds strongly depend on the grain-fluid density ratio, grain size and fluid velocity. Finally, we find that impact ripple speeds become zero or negative (denoting stationary ripples and antiripples, respectively) for grain-fluid density ratios below a threshold that depends on the grain size. In particular, for low density ratios, like those found on Venus, or millimeter-scale grains on Earth, we find only antiripples. Our results thus provide a general framework for interpreting ripple emergence across environments and for identifying impact ripples in ambiguous field or experimental data.",
+      "published": "2026-11-16T18:45:47Z",
+      "updated": "2026-11-16T18:45:47Z",
+      "authors": [
+        "C. W. Lester",
+        "O. Duran",
+        "A. B. Murray"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.geo-ph",
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2611.21575",
+      "pdf": "https://arxiv.org/pdf/2611.21575v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-18T08:30:06.593871+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "candidate",
+      "reason": "Reading review 2026-11-18: Complete source-provided English abstract read. Impact-ripple transport across explicit planetary environments including Venus. Preserve source archive and original first_seen; no score inflation.",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "manual",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "1,2",
+        "Department of Ocean Engineering, Texas A&M University, College Station, TX, USA",
+        "Earth and Climate Sciences, Duke University, Durham, NC, USA",
+        "Physics and Physical Oceanography, University of North Carolina Wilmington, Wilmington, NC, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "C. W. Lester",
+          "institutions": [
+            "1,2"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "O. Duran",
+          "institutions": [
+            "Department of Ocean Engineering, Texas A&M University, College Station, TX, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "A. B. Murray",
+          "institutions": [
+            "Earth and Climate Sciences, Duke University, Durham, NC, USA"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.21575v1",
+      "publication_date": "2026-11-17",
+      "publication_date_source": "https://arxiv.org/abs/2611.21575v1",
+      "version_date": "2026-11-16T18:45:47+00:00",
+      "variants": [
+        {
+          "id": "2611.21575",
+          "source": "arXiv",
+          "journal": null,
+          "journal_id": null,
+          "title": "Scaling of impact ripples across planetary conditions",
+          "url": "https://arxiv.org/abs/2611.21575",
+          "doi": "",
+          "version_id": "2611.21575v1",
+          "first_seen": "2026-11-18T08:30:06.593871+00:00",
+          "publication_date": "2026-11-17",
+          "version_date": "2026-11-16T18:45:47+00:00",
+          "metadata_source": null,
+          "affiliation_source": "https://arxiv.org/html/2611.21575v1"
         }
       ],
       "match_basis": [],
@@ -1691,9 +1961,9 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：atmospheric chemistry、direct imaging",
+      "reason": "Reading review 2026-11-18: Complete source-provided English abstract read. JWST sensitivity to cold sub-Jupiter populations explicitly depends on atmospheric chemistry. Preserve source archive and original first_seen; no score inflation.",
       "tags": [],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 51,
       "fit_matches": [
         "系外行星观测表征"
@@ -2059,9 +2329,9 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：radial velocity",
+      "reason": "Reading review 2026-11-18: Complete source-provided English abstract read. Astrometric outer-companion occurrence around inner planets and planetary migration. Preserve source archive and original first_seen; no score inflation.",
       "tags": [],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 36,
       "fit_matches": [],
       "institutions": [
@@ -2264,6 +2534,91 @@
       "journals": [],
       "source_groups": [],
       "intake_kind": "recent"
+    },
+    {
+      "id": "2611.20785",
+      "version_id": "2611.20785v1",
+      "title": "Validation of Ariel candidates orbiting K-M stars",
+      "abstract": "One of the key goals of planetary population studies is to achieve broad coverage of the parameter space, which is not yet fully represented by confirmed planets. This limitation can be mitigated by including planets that have been statistically validated through a vetting procedure, even if they are not fully confirmed. In preparation for the Ariel mission, a Mission Candidate Sample has been assembled, comprising both confirmed planets and several unvalidated candidates. In this context, we apply a vetting analysis to a selected subsample of these candidates. Our methodology is based on the TRICERATOPS tool, aimed at confirming the presence of transiting planets or ruling out false-positive scenarios. We applied TRICERATOPS to a sample of 318 targets drawn from the last three Ariel TESS Planet Candidates catalogues. The analysis includes evaluation of statistical probabilities, as well as checks on stellar binarity indicators such as the Renormalized Unit Weight Error (RUWE) and the IPD_frac_multi_peak values from Gaia Data Release 3. Our analysis validated 56 candidates as planets, identified 29 false positives, and classified 35 as likely planets. These results are intended to support the Ariel mission by providing a probabilistic priority ranking to guide follow-up observations and optimise targets for atmospheric characterisation studies.",
+      "published": "2026-11-16T09:33:10Z",
+      "updated": "2026-11-16T09:33:10Z",
+      "authors": [
+        "Giulia Piccinini",
+        "Claudia Di Maio",
+        "Giuseppina Micela",
+        "Jonathan Brande",
+        "David R. Ciardi",
+        "Catherine A. Clark",
+        "Ian J. M. Crossfield",
+        "Julian C. van Eyken",
+        "Miranda Felsmann",
+        "Emily A. Gilbert",
+        "Michael B. Lund",
+        "Rachel A. Matson",
+        "Elisabeth C. Matthews",
+        "Alex S. Polanski",
+        "Joshua E. Schlieder"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP",
+        "astro-ph.IM"
+      ],
+      "url": "https://arxiv.org/abs/2611.20785",
+      "pdf": "https://arxiv.org/pdf/2611.20785v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-18T08:30:06.593871+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "candidate",
+      "reason": "Reading review 2026-11-18: Complete source-provided English abstract read. Ariel planet-candidate validation directly supporting atmospheric characterization; recovered November 16 paper missed after failed November 17 run. Preserve source archive and original first_seen; no score inflation.",
+      "tags": [],
+      "method": "manual",
+      "fit_score": 0,
+      "fit_matches": [],
+      "author_affiliation_status": "unavailable",
+      "institutions": [
+        "INAF – Astronomical Observatory of Palermo, Piazza del Parlamento 1, 90134, Palermo, Italy",
+        "Department of Physics and Chemistry, University of Palermo, Via Archirafi 36, 90123, Palermo, Italy",
+        "Department of Astronomy, University of Maryland, PSC 1113, 4296 Stadium Dr., College Park, MD 20742, USA",
+        "NASA Exoplanet Science Institute, Caltech/IPAC, Pasadena, CA 91125, USA",
+        "Department of Physics and Astronomy, University of Kansas, Lawrence, KS 66045, USA",
+        "U.S. Naval Observatory, 3450 Massachusetts Avenue NW, Washington, DC 20392, USA",
+        "Max-Planck-Institut für Astronomie, Königstuhl 17, 69117 Heidelberg, Germany",
+        "Lowell Observatory, 1400 W Mars Hill Road, Flagstaff, AZ 86001, USA",
+        "NASA Goddard Space Flight Center, Exoplanets and Stellar Astrophysics Laboratory, 8800 Greenbelt Road, Greenbelt, MD 20771, USA"
+      ],
+      "author_affiliations": [],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.20785v1",
+      "publication_date": "2026-11-16",
+      "publication_date_source": "https://arxiv.org/abs/2611.20785v1",
+      "version_date": "2026-11-16T09:33:10+00:00",
+      "variants": [
+        {
+          "id": "2611.20785",
+          "source": "arXiv",
+          "journal": null,
+          "journal_id": null,
+          "title": "Validation of Ariel candidates orbiting K-M stars",
+          "url": "https://arxiv.org/abs/2611.20785",
+          "doi": "",
+          "version_id": "2611.20785v1",
+          "first_seen": "2026-11-18T08:30:06.593871+00:00",
+          "publication_date": "2026-11-16",
+          "version_date": "2026-11-16T09:33:10+00:00",
+          "metadata_source": null,
+          "affiliation_source": "https://arxiv.org/html/2611.20785v1"
+        }
+      ],
+      "match_basis": [],
+      "source_types": [
+        "arXiv"
+      ],
+      "journals": [],
+      "source_groups": [],
+      "intake_kind": "failed_window_recovery"
     },
     {
       "id": "2611.17300",
@@ -7110,12 +7465,12 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：hot jupiter、phase curve、planetary interior",
+      "reason": "Reading review 2026-11-18: Complete source-provided English abstract read. Planetary tidal deformation, Love numbers, phase curves and interior constraints. Historical record; preserve earliest first_seen. Preserve source archive and original first_seen; no score inflation.",
       "tags": [
         "光谱与相曲线 · Spectra & phase curves",
         "反演与数值方法 · Inverse & numerical methods"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 58,
       "fit_matches": [
         "系外行星观测表征"
@@ -9234,14 +9589,14 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：planetary atmosphere、general circulation model、climate model、gcm、dynamical core、general circulation",
+      "reason": "Reading review 2026-11-18: Complete source-provided English abstract read. Differentiable Mars climate model and atmospheric physics. Preserve source archive and original first_seen; no score inflation.",
       "tags": [
         "环流与波动 · Circulation & waves",
         "岩浆与挥发分 · Magma & volatiles",
         "海冰与表层 · Ice & surface",
         "反演与数值方法 · Inverse & numerical methods"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 72,
       "fit_matches": [
         "行星大气与辐射",
@@ -13965,9 +14320,9 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：atmospheric escape、sub neptune",
+      "reason": "Reading review 2026-11-18: Complete source-provided English abstract read. Hydrogen-silicate miscibility, sub-Neptune interiors and atmospheric escape; November 17 v3 update, not a one-year fallback. Preserve source archive and original first_seen; no score inflation.",
       "tags": [],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 42,
       "fit_matches": [],
       "institutions": [
@@ -13993,7 +14348,8 @@
       "affiliation_status": "verified",
       "affiliation_source": "https://arxiv.org/html/2606.30644v3",
       "publication_date": "2026-06-30",
-      "publication_date_source": "arXiv API",
+      "publication_date_source": "https://arxiv.org/abs/2606.30644v3",
+      "version_date": "2026-11-17T11:46:40+00:00",
       "variants": [
         {
           "id": "2606.30644",
@@ -14006,7 +14362,7 @@
           "version_id": "2606.30644v3",
           "first_seen": "2026-11-18T08:30:06.593871+00:00",
           "publication_date": "2026-06-30",
-          "version_date": null,
+          "version_date": "2026-11-17T11:46:40+00:00",
           "metadata_source": null,
           "affiliation_source": "https://arxiv.org/html/2606.30644v3"
         }
@@ -37052,6 +37408,771 @@
       "intake_kind": "recent"
     },
     {
+      "id": "doi:10.1073/pnas.2615294123",
+      "doi": "10.1073/pnas.2615294123",
+      "version_id": "doi:10.1073/pnas.2615294123",
+      "title": "A decadal record of isotopic trends in martian atmospheric CO 2",
+      "abstract": "This work represents the first long-term record of the isotopic composition of martian atmospheric CO 2 , acquired in situ by the Curiosity rover at Gale crater during Mars Years (MY) 31–38 (2012–2025). Measurement campaigns were designed to investigate possibilities of both diurnal and seasonal effects on CO 2 isotopes. Coordinated pairs of analyses during MY 31 and 38 revealed no significant differences in isotopic composition of CO 2 acquired during daytime and nighttime hours. However, here we show evidence for modest enrichment in heavy isotopes of oxygen in both northern and southern hemisphere spring-summer seasons. We assessed several processes, including precipitation/sublimation and adsorption/desorption of CO 2 , CO 2 photolysis, and oxygen isotope exchange as potential candidates for producing the observed fractionations. We find that while sublimation of CO 2 from polar caps, sublimation and desorption of CO 2 from lower latitude reservoirs, and CO 2 photolysis are insufficient alone, we can reproduce the measured enrichment through modeling of isotope exchange between CO 2 and 18 O-enriched H 2 O in thin liquid-like films at Mars’ surface or adsorbed within the regolith as Mars approaches and transits through perihelion. Lesser 18 O enrichment near aphelion may reflect less favorable conditions for oxygen isotope exchange at lower temperatures. Observed seasonal variations in CO 2 carbon isotopic composition are less pronounced, consistent with less carbon isotope exchange with surface reservoirs than seen for oxygen. Since our measurements were obtained at a single near-equatorial location on Mars, the relative contributions from global, regional, and local processes cannot be well-constrained by the available data.",
+      "authors": [
+        "Heather B. Franz",
+        "Christopher R. Webster",
+        "Gregory J. Flesch",
+        "Paul R. Mahaffy",
+        "Eric Raaen",
+        "Melinda Kahre",
+        "Benito Prats",
+        "Bethany L. Ehlmann",
+        "Sushil K. Atreya",
+        "David G. Burtt",
+        "Christopher H. House",
+        "Daniel Y. Lo",
+        "Jennifer C. Stern",
+        "Melissa G. Trainer",
+        "P. Douglas Archer",
+        "Manuel de la Torre Juarez",
+        "Scott Guzewich",
+        "German M. Martinez",
+        "Charles A. Malespin",
+        "Jorge Pla-Garcia",
+        "Scot C. R. Rafkin",
+        "Andrew Steele",
+        "Ashwin R. Vasavada",
+        "Daniel Víudez-Moreiras",
+        "Michael H. Wong",
+        "Maria-Paz Zorzano"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Heather B. Franz",
+          "institutions": [
+            "National Aeronautics and Space Administration, Solar System Exploration Division, Goddard Space Flight Center"
+          ],
+          "orcid": "https://orcid.org/0000-0001-9716-5597"
+        },
+        {
+          "name": "Christopher R. Webster",
+          "institutions": [
+            "Jet Propulsion Laboratory, California Institute of Technology"
+          ],
+          "orcid": "https://orcid.org/0000-0003-3448-9783"
+        },
+        {
+          "name": "Gregory J. Flesch",
+          "institutions": [
+            "Jet Propulsion Laboratory, California Institute of Technology"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Paul R. Mahaffy",
+          "institutions": [
+            "National Aeronautics and Space Administration, Solar System Exploration Division, Goddard Space Flight Center"
+          ],
+          "orcid": "https://orcid.org/0000-0003-1896-1726"
+        },
+        {
+          "name": "Eric Raaen",
+          "institutions": [
+            "National Aeronautics and Space Administration, Solar System Exploration Division, Goddard Space Flight Center"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Melinda Kahre",
+          "institutions": [
+            "National Aeronautics and Space Administration, Ames Research Center"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Benito Prats",
+          "institutions": [
+            "National Aeronautics and Space Administration, Solar System Exploration Division, Goddard Space Flight Center",
+            "eINFORMe, Inc."
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Bethany L. Ehlmann",
+          "institutions": [
+            "Division of Geologic and Planetary Sciences, California Institute of Technology"
+          ],
+          "orcid": "https://orcid.org/0000-0002-2745-3240"
+        },
+        {
+          "name": "Sushil K. Atreya",
+          "institutions": [
+            "Department of Climate and Space Sciences and Engineering, University of Michigan"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "David G. Burtt",
+          "institutions": [
+            "National Aeronautics and Space Administration, Solar System Exploration Division, Goddard Space Flight Center",
+            "Center for Research and Exploration in Space Science & Technology, University of Maryland Baltimore County"
+          ],
+          "orcid": "https://orcid.org/0009-0003-4461-0396"
+        },
+        {
+          "name": "Christopher H. House",
+          "institutions": [
+            "Department of Geosciences, The Pennsylvania State University",
+            "Earth and Environmental Systems Institute, The Pennsylvania State University"
+          ],
+          "orcid": "https://orcid.org/0000-0002-4926-4985"
+        },
+        {
+          "name": "Daniel Y. Lo",
+          "institutions": [
+            "Department of Climate and Space Sciences and Engineering, University of Michigan"
+          ],
+          "orcid": "https://orcid.org/0000-0002-9603-500X"
+        },
+        {
+          "name": "Jennifer C. Stern",
+          "institutions": [
+            "National Aeronautics and Space Administration, Solar System Exploration Division, Goddard Space Flight Center"
+          ],
+          "orcid": "https://orcid.org/0000-0002-0162-8807"
+        },
+        {
+          "name": "Melissa G. Trainer",
+          "institutions": [
+            "National Aeronautics and Space Administration, Solar System Exploration Division, Goddard Space Flight Center"
+          ],
+          "orcid": "https://orcid.org/0000-0003-1106-8580"
+        },
+        {
+          "name": "P. Douglas Archer",
+          "institutions": [
+            "National Aeronautics and Space Administration, Johnson Space Center",
+            "Jacobs Technology"
+          ],
+          "orcid": "https://orcid.org/0000-0001-8118-0346"
+        },
+        {
+          "name": "Manuel de la Torre Juarez",
+          "institutions": [
+            "Jet Propulsion Laboratory, California Institute of Technology"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Scott Guzewich",
+          "institutions": [
+            "National Aeronautics and Space Administration, Solar System Exploration Division, Goddard Space Flight Center"
+          ],
+          "orcid": "https://orcid.org/0000-0003-1149-7385"
+        },
+        {
+          "name": "German M. Martinez",
+          "institutions": [
+            "Centro de Astrobiologia, Instituto Nacional de Técnica Aeroespacial-Consejo Superior de Investigaciones Científicas"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Charles A. Malespin",
+          "institutions": [
+            "National Aeronautics and Space Administration, Solar System Exploration Division, Goddard Space Flight Center"
+          ],
+          "orcid": "https://orcid.org/0000-0002-5852-5016"
+        },
+        {
+          "name": "Jorge Pla-Garcia",
+          "institutions": [
+            "Centro de Astrobiologia, Instituto Nacional de Técnica Aeroespacial-Consejo Superior de Investigaciones Científicas"
+          ],
+          "orcid": "https://orcid.org/0000-0002-8047-3937"
+        },
+        {
+          "name": "Scot C. R. Rafkin",
+          "institutions": [
+            "Southwest Research Institute"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Andrew Steele",
+          "institutions": [
+            "Earth and Planetary Laboratory, Carnegie Institution for Science"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Ashwin R. Vasavada",
+          "institutions": [
+            "Jet Propulsion Laboratory, California Institute of Technology"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Daniel Víudez-Moreiras",
+          "institutions": [
+            "Centro de Astrobiologia, Instituto Nacional de Técnica Aeroespacial-Consejo Superior de Investigaciones Científicas"
+          ],
+          "orcid": "https://orcid.org/0000-0001-8442-3788"
+        },
+        {
+          "name": "Michael H. Wong",
+          "institutions": [
+            "Division of Geologic and Planetary Sciences, California Institute of Technology"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Maria-Paz Zorzano",
+          "institutions": [
+            "Centro de Astrobiologia, Instituto Nacional de Técnica Aeroespacial-Consejo Superior de Investigaciones Científicas"
+          ],
+          "orcid": "https://orcid.org/0000-0002-4492-9650"
+        }
+      ],
+      "institutions": [
+        "National Aeronautics and Space Administration, Solar System Exploration Division, Goddard Space Flight Center",
+        "Jet Propulsion Laboratory, California Institute of Technology",
+        "National Aeronautics and Space Administration, Ames Research Center",
+        "eINFORMe, Inc.",
+        "Division of Geologic and Planetary Sciences, California Institute of Technology",
+        "Department of Climate and Space Sciences and Engineering, University of Michigan",
+        "Center for Research and Exploration in Space Science & Technology, University of Maryland Baltimore County",
+        "Department of Geosciences, The Pennsylvania State University",
+        "Earth and Environmental Systems Institute, The Pennsylvania State University",
+        "National Aeronautics and Space Administration, Johnson Space Center",
+        "Jacobs Technology",
+        "Centro de Astrobiologia, Instituto Nacional de Técnica Aeroespacial-Consejo Superior de Investigaciones Científicas",
+        "Southwest Research Institute",
+        "Earth and Planetary Laboratory, Carnegie Institution for Science"
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://api.crossref.org/works/10.1073%2Fpnas.2615294123",
+      "source": "journal",
+      "journal": "PNAS",
+      "journal_id": "1091-6490",
+      "source_group": "general",
+      "categories": [],
+      "url": "https://doi.org/10.1073/pnas.2615294123",
+      "published": "2026-11-16",
+      "publication_date": "2026-11-16",
+      "publication_date_source": "Crossref publisher metadata",
+      "date_kind": "journal",
+      "first_seen": "2026-11-18T08:30:42.372874+00:00",
+      "updated": "2026-11-16T21:17:54Z",
+      "metadata_source": "https://api.crossref.org/works/10.1073%2Fpnas.2615294123",
+      "relations": {},
+      "metadata_limited": false,
+      "publication_dates": {
+        "published-online": "2026-11-16",
+        "published-print": "2026-11-24"
+      },
+      "topics": [
+        "surface"
+      ],
+      "matches": {
+        "surface": [
+          "desorption"
+        ]
+      },
+      "status": "candidate",
+      "reason": "Reading review 2026-11-18: Complete source-provided English abstract read. Martian atmospheric carbon-dioxide isotopes and atmosphere-surface exchange. Recovered November 16 publication. Preserve source archive and original first_seen; no score inflation.",
+      "tags": [
+        "水循环 · Water cycle",
+        "海冰与表层 · Ice & surface"
+      ],
+      "method": "manual",
+      "fit_score": 30,
+      "fit_matches": [],
+      "variants": [
+        {
+          "id": "doi:10.1073/pnas.2615294123",
+          "source": "journal",
+          "journal": "PNAS",
+          "journal_id": "1091-6490",
+          "title": "A decadal record of isotopic trends in martian atmospheric CO 2",
+          "url": "https://doi.org/10.1073/pnas.2615294123",
+          "doi": "10.1073/pnas.2615294123",
+          "version_id": "doi:10.1073/pnas.2615294123",
+          "first_seen": "2026-11-18T08:30:42.372874+00:00",
+          "publication_date": "2026-11-16",
+          "version_date": null,
+          "metadata_source": "https://api.crossref.org/works/10.1073%2Fpnas.2615294123",
+          "affiliation_source": "https://api.crossref.org/works/10.1073%2Fpnas.2615294123"
+        }
+      ],
+      "match_basis": [],
+      "source_types": [
+        "journal"
+      ],
+      "journals": [
+        "PNAS"
+      ],
+      "source_groups": [
+        "general"
+      ],
+      "intake_kind": "failed_window_recovery"
+    },
+    {
+      "id": "doi:10.1029/2025je009300",
+      "doi": "10.1029/2025je009300",
+      "version_id": "doi:10.1029/2025je009300",
+      "title": "The Lunar Trailblazer Mission: Science Motivation and Implementation of a Pioneering Small Satellite for Lunar Water and Lunar Geology in the NASA SIMPLEx Program",
+      "abstract": "Abstract Lunar Trailblazer is a NASA small satellite mission with a science goal to understand the form, abundance, and distribution of water on the Moon and the lunar water cycle. Lunar Trailblazer is optimized to make targeted measurements of the lunar surface's infrared properties to (a) detect and map water to determine its form (OH, H 2 O, ice), abundance, and distribution as a function of latitude, soil maturity, and lithology; (b) assess time variation in lunar water on sunlit surfaces; (c) map the form, abundance, and distribution of water ice in permanently shadowed regions (PSRs); and (d) measure surface temperature to quantify local gradients and search for small cold traps. While achieving these objectives, Trailblazer also provides the highest spatial and spectral resolution shortwave‐ and mid‐infrared data sets for surface composition, thermophysical properties, and landing site reconnaissance. Operated by Caltech with JPL navigation, the Lockheed Martin‐built flight system thrusts on a 4‐month low‐energy trajectory to lunar orbit insertion. From a ∼100‐km polar orbit, two science instruments acquire targeted data simultaneously: the NASA JPL High‐resolution Volatiles and Minerals Moon Mapper and the UK Space Agency‐funded, University of Oxford Lunar Thermal Mapper. Over ≥1 year, each instrument acquires ≥1,000 images of the Moon. Both science instruments were delivered with ground‐based testing showing that they meet or exceed their performance requirements. Lunar Trailblazer was launched in February 2025; hardware deployed as designed. Flight software errors led to loss of communication with the spacecraft; as of this writing, recovery efforts were underway but ultimately did not succeed.",
+      "authors": [
+        "Bethany L. Ehlmann",
+        "Rachel L. Klima",
+        "Calina C. Seybold",
+        "Andrew T. Klesh",
+        "C. Lee Bennett",
+        "Neil Bowles",
+        "James L. Dickson",
+        "Kerri Donaldson Hanna",
+        "Christopher S. Edwards",
+        "Robert O. Green",
+        "Martha A. House",
+        "Carle M. Pieters",
+        "David R. Thompson",
+        "John D. Baker",
+        "Julie Bellerose",
+        "Diana L. Blaney",
+        "Angela M. Dapremont",
+        "Henry H. Eshbaugh",
+        "Rory Evans",
+        "Elise Furlan",
+        "K. Gauld",
+        "Namrah Habib",
+        "Samuel Islas",
+        "Gregory Lantoine",
+        "Jasper K. Miura",
+        "Elena Scire",
+        "Katherine Shirley",
+        "Tristam J. Warren",
+        "Kierra A. Wilk",
+        "Judy S. Adler",
+        "Amelia A. Ascione",
+        "B. P. Blakley",
+        "Sean Carey",
+        "Sergio B. Fajardo‐Acosta",
+        "Emily R. Felder",
+        "Chris Haberle",
+        "Michael J. Hauge",
+        "David A. Imel",
+        "Laura M. Lee",
+        "Jacob A. Llamas",
+        "Robert W. Miller",
+        "Dillan McDonald",
+        "Sara Pooley",
+        "Michael Sondheim",
+        "Walton R. Williamson",
+        "the Lunar Trailblazer Team"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Bethany L. Ehlmann",
+          "institutions": [
+            "Division of Geological and Planetary Sciences California Institute of Technology Pasadena CA USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-2745-3240"
+        },
+        {
+          "name": "Rachel L. Klima",
+          "institutions": [
+            "Johns Hopkins Applied Physics Laboratory Laurel MD USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-9151-6429"
+        },
+        {
+          "name": "Calina C. Seybold",
+          "institutions": [
+            "Jet Propulsion Laboratory California Institute of Technology Pasadena CA USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Andrew T. Klesh",
+          "institutions": [
+            "Jet Propulsion Laboratory California Institute of Technology Pasadena CA USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "C. Lee Bennett",
+          "institutions": [
+            "California Institute of Technology/IPAC Pasadena CA USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Neil Bowles",
+          "institutions": [
+            "Department of Atmospheric, Oceanic and Planetary Physics University of Oxford Oxford UK"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "James L. Dickson",
+          "institutions": [
+            "Division of Geological and Planetary Sciences California Institute of Technology Pasadena CA USA",
+            "Department of Earth & Environmental Sciences University of Minnesota Minneapolis MN USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Kerri Donaldson Hanna",
+          "institutions": [
+            "Department of Physics University of Central Florida Orlando FL USA"
+          ],
+          "orcid": "https://orcid.org/0000-0001-5592-4292"
+        },
+        {
+          "name": "Christopher S. Edwards",
+          "institutions": [
+            "Department of Astronomy and Planetary Science Northern Arizona University Flagstaff AZ USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-8096-9633"
+        },
+        {
+          "name": "Robert O. Green",
+          "institutions": [
+            "Jet Propulsion Laboratory California Institute of Technology Pasadena CA USA"
+          ],
+          "orcid": "https://orcid.org/0000-0001-9447-3076"
+        },
+        {
+          "name": "Martha A. House",
+          "institutions": [
+            "Pasadena City College Pasadena CA USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Carle M. Pieters",
+          "institutions": [
+            "Department of Earth, Environmental, and Planetary Sciences Brown University Providence RI USA"
+          ],
+          "orcid": "https://orcid.org/0000-0003-1671-8415"
+        },
+        {
+          "name": "David R. Thompson",
+          "institutions": [
+            "Jet Propulsion Laboratory California Institute of Technology Pasadena CA USA"
+          ],
+          "orcid": "https://orcid.org/0000-0003-1100-7550"
+        },
+        {
+          "name": "John D. Baker",
+          "institutions": [
+            "Jet Propulsion Laboratory California Institute of Technology Pasadena CA USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Julie Bellerose",
+          "institutions": [
+            "Jet Propulsion Laboratory California Institute of Technology Pasadena CA USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Diana L. Blaney",
+          "institutions": [
+            "Jet Propulsion Laboratory California Institute of Technology Pasadena CA USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-4267-7939"
+        },
+        {
+          "name": "Angela M. Dapremont",
+          "institutions": [
+            "Johns Hopkins Applied Physics Laboratory Laurel MD USA"
+          ],
+          "orcid": "https://orcid.org/0000-0003-0343-7382"
+        },
+        {
+          "name": "Henry H. Eshbaugh",
+          "institutions": [
+            "Department of Atmospheric, Oceanic and Planetary Physics University of Oxford Oxford UK"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Rory Evans",
+          "institutions": [
+            "Department of Atmospheric, Oceanic and Planetary Physics University of Oxford Oxford UK"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Elise Furlan",
+          "institutions": [
+            "California Institute of Technology/IPAC Pasadena CA USA"
+          ],
+          "orcid": "https://orcid.org/0000-0001-9800-6248"
+        },
+        {
+          "name": "K. Gauld",
+          "institutions": [
+            "Division of Geological and Planetary Sciences California Institute of Technology Pasadena CA USA"
+          ],
+          "orcid": "https://orcid.org/0009-0004-2276-2791"
+        },
+        {
+          "name": "Namrah Habib",
+          "institutions": [
+            "Department of Atmospheric, Oceanic and Planetary Physics University of Oxford Oxford UK"
+          ],
+          "orcid": "https://orcid.org/0000-0001-7131-251X"
+        },
+        {
+          "name": "Samuel Islas",
+          "institutions": [
+            "Jet Propulsion Laboratory California Institute of Technology Pasadena CA USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Gregory Lantoine",
+          "institutions": [
+            "Jet Propulsion Laboratory California Institute of Technology Pasadena CA USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-9528-0011"
+        },
+        {
+          "name": "Jasper K. Miura",
+          "institutions": [
+            "Division of Geological and Planetary Sciences California Institute of Technology Pasadena CA USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-2672-2605"
+        },
+        {
+          "name": "Elena Scire",
+          "institutions": [
+            "California Institute of Technology/IPAC Pasadena CA USA"
+          ],
+          "orcid": "https://orcid.org/0000-0003-1468-5357"
+        },
+        {
+          "name": "Katherine Shirley",
+          "institutions": [
+            "Department of Atmospheric, Oceanic and Planetary Physics University of Oxford Oxford UK"
+          ],
+          "orcid": "https://orcid.org/0000-0003-0669-7497"
+        },
+        {
+          "name": "Tristam J. Warren",
+          "institutions": [
+            "Department of Atmospheric, Oceanic and Planetary Physics University of Oxford Oxford UK"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Kierra A. Wilk",
+          "institutions": [
+            "Department of Earth, Environmental, and Planetary Sciences Brown University Providence RI USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-7149-7144"
+        },
+        {
+          "name": "Judy S. Adler",
+          "institutions": [
+            "California Institute of Technology/IPAC Pasadena CA USA"
+          ],
+          "orcid": "https://orcid.org/0009-0006-7265-2747"
+        },
+        {
+          "name": "Amelia A. Ascione",
+          "institutions": [
+            "Department of Astronomy and Planetary Science Northern Arizona University Flagstaff AZ USA"
+          ],
+          "orcid": "https://orcid.org/0009-0002-9484-5831"
+        },
+        {
+          "name": "B. P. Blakley",
+          "institutions": [
+            "Division of Geological and Planetary Sciences California Institute of Technology Pasadena CA USA",
+            "Pasadena City College Pasadena CA USA"
+          ],
+          "orcid": "https://orcid.org/0009-0005-4064-5916"
+        },
+        {
+          "name": "Sean Carey",
+          "institutions": [
+            "California Institute of Technology/IPAC Pasadena CA USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Sergio B. Fajardo‐Acosta",
+          "institutions": [
+            "California Institute of Technology/IPAC Pasadena CA USA"
+          ],
+          "orcid": "https://orcid.org/0000-0001-9309-0102"
+        },
+        {
+          "name": "Emily R. Felder",
+          "institutions": [
+            "Division of Geological and Planetary Sciences California Institute of Technology Pasadena CA USA",
+            "Pasadena City College Pasadena CA USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Chris Haberle",
+          "institutions": [
+            "Department of Astronomy and Planetary Science Northern Arizona University Flagstaff AZ USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Michael J. Hauge",
+          "institutions": [
+            "Jet Propulsion Laboratory California Institute of Technology Pasadena CA USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "David A. Imel",
+          "institutions": [
+            "California Institute of Technology/IPAC Pasadena CA USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Laura M. Lee",
+          "institutions": [
+            "Department of Astronomy and Planetary Science Northern Arizona University Flagstaff AZ USA"
+          ],
+          "orcid": "https://orcid.org/0009-0003-9667-9483"
+        },
+        {
+          "name": "Jacob A. Llamas",
+          "institutions": [
+            "California Institute of Technology/IPAC Pasadena CA USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Robert W. Miller",
+          "institutions": [
+            "Jet Propulsion Laboratory California Institute of Technology Pasadena CA USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Dillan McDonald",
+          "institutions": [
+            "Jet Propulsion Laboratory California Institute of Technology Pasadena CA USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Sara Pooley",
+          "institutions": [
+            "Division of Geological and Planetary Sciences California Institute of Technology Pasadena CA USA",
+            "Pasadena City College Pasadena CA USA"
+          ],
+          "orcid": "https://orcid.org/0009-0006-6328-978X"
+        },
+        {
+          "name": "Michael Sondheim",
+          "institutions": [
+            "Jet Propulsion Laboratory California Institute of Technology Pasadena CA USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Walton R. Williamson",
+          "institutions": [
+            "Jet Propulsion Laboratory California Institute of Technology Pasadena CA USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "the Lunar Trailblazer Team",
+          "institutions": [],
+          "orcid": null
+        }
+      ],
+      "institutions": [
+        "Division of Geological and Planetary Sciences California Institute of Technology Pasadena CA USA",
+        "Johns Hopkins Applied Physics Laboratory Laurel MD USA",
+        "Jet Propulsion Laboratory California Institute of Technology Pasadena CA USA",
+        "California Institute of Technology/IPAC Pasadena CA USA",
+        "Department of Atmospheric, Oceanic and Planetary Physics University of Oxford Oxford UK",
+        "Department of Earth & Environmental Sciences University of Minnesota Minneapolis MN USA",
+        "Department of Physics University of Central Florida Orlando FL USA",
+        "Department of Astronomy and Planetary Science Northern Arizona University Flagstaff AZ USA",
+        "Pasadena City College Pasadena CA USA",
+        "Department of Earth, Environmental, and Planetary Sciences Brown University Providence RI USA"
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://api.crossref.org/works/10.1029%2F2025je009300",
+      "source": "journal",
+      "journal": "Journal of Geophysical Research: Planets",
+      "journal_id": "2169-9100",
+      "source_group": "planet",
+      "categories": [],
+      "url": "https://doi.org/10.1029/2025je009300",
+      "published": "2026-11-16",
+      "publication_date": "2026-11-16",
+      "publication_date_source": "Crossref publisher metadata",
+      "date_kind": "journal",
+      "first_seen": "2026-11-18T08:30:42.372874+00:00",
+      "updated": "2026-11-17T06:20:29Z",
+      "metadata_source": "https://api.crossref.org/works/10.1029%2F2025je009300",
+      "relations": {},
+      "metadata_limited": false,
+      "publication_dates": {
+        "published-online": "2026-11-16",
+        "published-print": "2026-11"
+      },
+      "topics": [
+        "cryosphere"
+      ],
+      "matches": {
+        "cryosphere": [
+          "water ice"
+        ]
+      },
+      "status": "candidate",
+      "reason": "Reading review 2026-11-18: Complete source-provided English abstract read. Lunar water/ice and surface thermal mapping science and mission implementation. This is not a report of successful orbital measurements; its abstract states communications recovery ultimately failed. Recovered November 16 publication. Preserve source archive and original first_seen; no score inflation.",
+      "tags": [
+        "水循环 · Water cycle",
+        "岩浆与挥发分 · Magma & volatiles",
+        "海冰与表层 · Ice & surface"
+      ],
+      "method": "manual",
+      "fit_score": 38,
+      "fit_matches": [],
+      "variants": [
+        {
+          "id": "doi:10.1029/2025je009300",
+          "source": "journal",
+          "journal": "Journal of Geophysical Research: Planets",
+          "journal_id": "2169-9100",
+          "title": "The Lunar Trailblazer Mission: Science Motivation and Implementation of a Pioneering Small Satellite for Lunar Water and Lunar Geology in the NASA SIMPLEx Program",
+          "url": "https://doi.org/10.1029/2025je009300",
+          "doi": "10.1029/2025je009300",
+          "version_id": "doi:10.1029/2025je009300",
+          "first_seen": "2026-11-18T08:30:42.372874+00:00",
+          "publication_date": "2026-11-16",
+          "version_date": null,
+          "metadata_source": "https://api.crossref.org/works/10.1029%2F2025je009300",
+          "affiliation_source": "https://api.crossref.org/works/10.1029%2F2025je009300"
+        }
+      ],
+      "match_basis": [],
+      "source_types": [
+        "journal"
+      ],
+      "journals": [
+        "Journal of Geophysical Research: Planets"
+      ],
+      "source_groups": [
+        "planet"
+      ],
+      "intake_kind": "failed_window_recovery"
+    },
+    {
       "id": "doi:10.3847/2041-8213/aebc7e",
       "doi": "10.3847/2041-8213/aebc7e",
       "version_id": "doi:10.3847/2041-8213/aebc7e",
@@ -37186,11 +38307,11 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：radial velocity",
+      "reason": "Reading review 2026-11-18: Complete source-provided English abstract read. Measured cold giant planet orbit, mass and direct exoplanet characterization. Preserve source archive and original first_seen; no score inflation.",
       "tags": [
         "流体与不稳定性 · Fluid dynamics"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 36,
       "fit_matches": [],
       "variants": [
@@ -37410,19 +38531,26 @@
       "2611.16783",
       "2611.16949",
       "2611.17300",
+      "2611.20785",
       "2611.21436",
       "2611.21468",
+      "2611.21575",
+      "2611.21583",
+      "2611.21758",
       "2611.21786",
+      "2611.21841",
       "2611.21884",
       "2611.22150",
       "2611.22571",
       "2611.23217",
+      "doi:10.1029/2025je009300",
       "doi:10.1029/2026gl124362",
       "doi:10.1029/2026gl125753",
       "doi:10.1029/2026je009882",
       "doi:10.1029/2026je009903",
       "doi:10.1029/2026je009941",
       "doi:10.1038/s41586-026-11213-z",
+      "doi:10.1073/pnas.2615294123",
       "doi:10.1073/pnas.2616582123",
       "doi:10.1126/science.adz5646",
       "doi:10.1175/jas-d-25-0238.1",
@@ -37453,6 +38581,7 @@
       "doi:10.3847/1538-4357/aea994",
       "doi:10.3847/1538-4357/aeacc1",
       "doi:10.3847/1538-4357/aeacc3",
+      "doi:10.3847/1538-4357/aeb008",
       "doi:10.3847/1538-4357/aeb012",
       "doi:10.3847/1538-4357/aeb019",
       "doi:10.3847/1538-4357/aeb2eb",
@@ -37617,7 +38746,15 @@
       "2610.22338": "recent",
       "2610.04081": "recent",
       "2606.30644": "recent",
-      "doi:10.3847/2041-8213/aebc7e": "recent"
+      "doi:10.3847/2041-8213/aebc7e": "recent",
+      "2611.21841": "recent",
+      "2611.21575": "recent",
+      "2611.21758": "recent",
+      "2611.21583": "recent",
+      "2611.20785": "failed_window_recovery",
+      "doi:10.1073/pnas.2615294123": "failed_window_recovery",
+      "doi:10.3847/1538-4357/aeb008": "failed_window_recovery",
+      "doi:10.1029/2025je009300": "failed_window_recovery"
     },
     "policy": {
       "recent_days": 2,
@@ -37629,16 +38766,21 @@
     "mode": "recent",
     "selected": [
       "2611.23217",
-      "2611.22571",
       "2611.22150",
-      "2611.21884",
-      "2611.21786",
       "2611.21468",
       "2611.21436",
       "2610.22338",
       "2610.04081",
       "2606.30644",
-      "doi:10.3847/2041-8213/aebc7e"
+      "doi:10.3847/2041-8213/aebc7e",
+      "2611.21841",
+      "2611.21575",
+      "2611.21758",
+      "2611.21583",
+      "2611.20785",
+      "doi:10.1073/pnas.2615294123",
+      "doi:10.3847/1538-4357/aeb008",
+      "doi:10.1029/2025je009300"
     ],
     "search_errors": []
   },
@@ -39132,22 +40274,26 @@
   "merged_count": 33,
   "daily_brief": {
     "date": "2026-11-18",
-    "built_at": "2026-11-18T08:43:44.062223+00:00",
+    "built_at": "2026-11-18T10:17:42.165867+00:00",
     "review_basis": "Automated rule screening; reading review is recorded separately.",
-    "new_count": 10,
+    "new_count": 14,
     "recent_ids": [
       "2611.23217",
-      "2611.22571",
       "2611.22150",
-      "2611.21884",
-      "2611.21786",
+      "2611.21841",
+      "2611.21758",
+      "2611.21583",
+      "2611.21575",
       "2611.21468",
       "2611.21436",
       "2610.04081",
+      "2606.30644",
       "doi:10.3847/2041-8213/aebc7e"
     ],
     "older_ids": [
-      "2606.30644"
+      "2611.20785",
+      "doi:10.1073/pnas.2615294123",
+      "doi:10.1029/2025je009300"
     ],
     "updated_ids": [
       "2610.22338"
