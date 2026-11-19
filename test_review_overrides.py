@@ -22,4 +22,12 @@ class ReviewOverrides(unittest.TestCase):
   self.assertEqual(classify(p,config)['tags'],['Clouds'])
   self.assertEqual(classify({**p,'id':'other'},config)['tags'],['Broad tag'])
 
+ def test_topic_override_is_validated_and_record_scoped(self):
+  config={'exclude_terms':[],'topics':[{'id':'planetary','terms':[]}],'overrides':{'target':{'status':'candidate','reason':'Read','topics':['planetary','invalid','planetary']}}}
+  p={'id':'target','title':'Jovian polar cyclone','abstract':'','authors':[]}
+  result=classify(p,config)
+  self.assertEqual(result['topics'],['planetary'])
+  self.assertEqual(result['matches'],{})
+  self.assertEqual(classify({**p,'id':'other'},config)['topics'],[])
+
 if __name__=='__main__':unittest.main()
