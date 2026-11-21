@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T08:25:03.556551+00:00",
+  "generated_at": "2026-11-21T10:58:09.530181+00:00",
   "nodes": [
     {
       "id": "fccd5d0ac9cc52f9",
@@ -4730,7 +4730,6 @@
         "doi:10.1029/2026gl124362",
         "doi:10.1029/2026je009724",
         "doi:10.1029/2026je009825",
-        "doi:10.1029/2026je009973",
         "doi:10.1126/science.adu5501",
         "doi:10.3847/1538-4357/ae91d1",
         "doi:10.3847/1538-4357/aea6ca"
@@ -4923,21 +4922,6 @@
             "doi:10.3847/1538-4357/aea6ca"
           ],
           "unit_papers": {}
-        },
-        {
-          "id": "d87f31d7ea5b88d2",
-          "name": "Kathleen Gwen Hanley",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0001-6250-7665",
-          "papers": [
-            "doi:10.1029/2026je009973"
-          ],
-          "unit_papers": {
-            "a3d7ee2716e8d525": [
-              "doi:10.1029/2026je009973"
-            ]
-          }
         }
       ],
       "units": [
@@ -4950,15 +4934,13 @@
             "2611.21841",
             "doi:10.1029/2026gl124362",
             "doi:10.1029/2026je009724",
-            "doi:10.1029/2026je009825",
-            "doi:10.1029/2026je009973"
+            "doi:10.1029/2026je009825"
           ]
         }
       ],
       "raw": [
         "Astronomy Department, University of California Berkeley, Berkeley CA 94720-3411, USA",
         "Department of Earth & Planetary Science, University of California, Berkeley, Berkeley, CA, USA.",
-        "Space Sciences Laboratory University of California Berkeley Berkeley CA USA",
         "Space Sciences Laboratory University of California Berkeley CA USA",
         "Space Sciences Laboratory University of California, Berkeley Berkeley CA USA",
         "Space Sciences Laboratory, University of California, Berkeley, CA, USA",
@@ -12527,7 +12509,6 @@
         "doi:10.1029/2025je009605",
         "doi:10.1029/2026gl124362",
         "doi:10.1029/2026je009825",
-        "doi:10.1029/2026je009973",
         "doi:10.1177/15311074261475054",
         "doi:10.3847/1538-4357/ae77fd",
         "doi:10.3847/1538-4357/ae8c33",
@@ -12761,51 +12742,6 @@
             "doi:10.3847/1538-4357/ae77fd"
           ],
           "unit_papers": {}
-        },
-        {
-          "id": "3eeb9abb53a922d4",
-          "name": "Sergey D. Shuvalov",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-5211-868X",
-          "papers": [
-            "doi:10.1029/2026je009973"
-          ],
-          "unit_papers": {
-            "3497ffea378e2074": [
-              "doi:10.1029/2026je009973"
-            ]
-          }
-        },
-        {
-          "id": "7d92d4885fd963d7",
-          "name": "Laila Andersson",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": "https://orcid.org/0000-0002-6384-7036",
-          "papers": [
-            "doi:10.1029/2026je009973"
-          ],
-          "unit_papers": {
-            "3497ffea378e2074": [
-              "doi:10.1029/2026je009973"
-            ]
-          }
-        },
-        {
-          "id": "29ac0cc89e2420cb",
-          "name": "Duncan Bark",
-          "name_zh": null,
-          "name_source": null,
-          "orcid": null,
-          "papers": [
-            "doi:10.1029/2026je009973"
-          ],
-          "unit_papers": {
-            "3497ffea378e2074": [
-              "doi:10.1029/2026je009973"
-            ]
-          }
         }
       ],
       "units": [
@@ -12819,7 +12755,6 @@
             "doi:10.1029/2025je009605",
             "doi:10.1029/2026gl124362",
             "doi:10.1029/2026je009825",
-            "doi:10.1029/2026je009973",
             "doi:10.1177/15311074261475054"
           ]
         }
@@ -24508,10 +24443,9 @@
       "target": "de85f8377f7fd093",
       "papers": [
         "doi:10.1029/2026gl124362",
-        "doi:10.1029/2026je009825",
-        "doi:10.1029/2026je009973"
+        "doi:10.1029/2026je009825"
       ],
-      "weight": 3
+      "weight": 2
     },
     {
       "source": "d3692470048b36d2",
@@ -29599,23 +29533,6 @@
         "4ae45b121fe12e9c",
         "572758623152e66d",
         "fccd5d0ac9cc52f9"
-      ]
-    },
-    "doi:10.1029/2026je009973": {
-      "id": "doi:10.1029/2026je009973",
-      "title": "Magnetic Field Pressure Imbalance at Mars and Heavy Ion Transport From Ionosphere to Magnetosheath",
-      "url": "https://doi.org/10.1029/2026je009973",
-      "topics": [
-        "planetary"
-      ],
-      "first_seen": "2026-11-21T08:16:00.428441+00:00",
-      "publication_date": "2026-11-20",
-      "journals": [
-        "Journal of Geophysical Research: Planets"
-      ],
-      "institutions": [
-        "be74dcf5d0cb77ea",
-        "de85f8377f7fd093"
       ]
     },
     "doi:10.1029/2026je009809": {
@@ -60450,134 +60367,6 @@
       ],
       "aliases": [
         "Jeffrey D. Crane"
-      ]
-    },
-    {
-      "id": "3eeb9abb53a922d4",
-      "name": "Sergey D. Shuvalov",
-      "name_zh": null,
-      "name_source": "",
-      "orcid": "https://orcid.org/0000-0002-5211-868X",
-      "identity_basis": "orcid",
-      "papers": [
-        "doi:10.1029/2026je009973"
-      ],
-      "institutions": [
-        "de85f8377f7fd093"
-      ],
-      "aliases": [
-        "Sergey D. Shuvalov"
-      ]
-    },
-    {
-      "id": "7d92d4885fd963d7",
-      "name": "Laila Andersson",
-      "name_zh": null,
-      "name_source": "",
-      "orcid": "https://orcid.org/0000-0002-6384-7036",
-      "identity_basis": "orcid",
-      "papers": [
-        "doi:10.1029/2026je009973"
-      ],
-      "institutions": [
-        "de85f8377f7fd093"
-      ],
-      "aliases": [
-        "Laila Andersson"
-      ]
-    },
-    {
-      "id": "ba7067b60c40b4d0",
-      "name": "Skylar R. Shaver",
-      "name_zh": null,
-      "name_source": "",
-      "orcid": "https://orcid.org/0000-0003-2401-5971",
-      "identity_basis": "orcid",
-      "papers": [
-        "doi:10.1029/2026je009973"
-      ],
-      "institutions": [],
-      "aliases": [
-        "Skylar R. Shaver"
-      ]
-    },
-    {
-      "id": "c52b89473573bdab",
-      "name": "Neesha R. Schnepf",
-      "name_zh": null,
-      "name_source": "",
-      "orcid": "https://orcid.org/0000-0003-1489-7958",
-      "identity_basis": "orcid",
-      "papers": [
-        "doi:10.1029/2026je009973"
-      ],
-      "institutions": [],
-      "aliases": [
-        "Neesha R. Schnepf"
-      ]
-    },
-    {
-      "id": "29ac0cc89e2420cb",
-      "name": "Duncan Bark",
-      "name_zh": null,
-      "name_source": "",
-      "orcid": null,
-      "identity_basis": "name_and_institution",
-      "papers": [
-        "doi:10.1029/2026je009973"
-      ],
-      "institutions": [
-        "de85f8377f7fd093"
-      ],
-      "aliases": [
-        "Duncan Bark"
-      ]
-    },
-    {
-      "id": "bd2480b7038808ac",
-      "name": "Marcin Pilinski",
-      "name_zh": null,
-      "name_source": "",
-      "orcid": null,
-      "identity_basis": "paper_signature",
-      "papers": [
-        "doi:10.1029/2026je009973"
-      ],
-      "institutions": [],
-      "aliases": [
-        "Marcin Pilinski"
-      ]
-    },
-    {
-      "id": "d87f31d7ea5b88d2",
-      "name": "Kathleen Gwen Hanley",
-      "name_zh": null,
-      "name_source": "",
-      "orcid": "https://orcid.org/0000-0001-6250-7665",
-      "identity_basis": "orcid",
-      "papers": [
-        "doi:10.1029/2026je009973"
-      ],
-      "institutions": [
-        "be74dcf5d0cb77ea"
-      ],
-      "aliases": [
-        "Kathleen Gwen Hanley"
-      ]
-    },
-    {
-      "id": "57fcb889389ceb9c",
-      "name": "Catherine E. Regan",
-      "name_zh": null,
-      "name_source": "",
-      "orcid": "https://orcid.org/0000-0001-8784-5919",
-      "identity_basis": "orcid",
-      "papers": [
-        "doi:10.1029/2026je009973"
-      ],
-      "institutions": [],
-      "aliases": [
-        "Catherine E. Regan"
       ]
     },
     {
