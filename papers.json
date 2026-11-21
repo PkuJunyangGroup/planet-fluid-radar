@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-11-20T08:30:11.374398+00:00",
+  "generated_at": "2026-11-21T08:15:24.753256+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
-      "last_attempt": "2026-11-20T08:30:11.374398+00:00",
-      "last_success": "2026-11-20T08:30:11.374398+00:00",
+      "last_attempt": "2026-11-21T08:15:24.753256+00:00",
+      "last_success": "2026-11-21T08:15:24.753256+00:00",
       "status": "ok",
-      "fetched": 8
+      "fetched": 0
     },
     "physics.ao-ph": {
-      "last_attempt": "2026-11-20T08:30:11.374398+00:00",
-      "last_success": "2026-11-20T08:30:11.374398+00:00",
+      "last_attempt": "2026-11-21T08:15:24.753256+00:00",
+      "last_success": "2026-11-21T08:15:24.753256+00:00",
       "status": "ok",
-      "fetched": 6
+      "fetched": 0
     },
     "physics.geo-ph": {
-      "last_attempt": "2026-11-20T08:30:11.374398+00:00",
-      "last_success": "2026-11-20T08:30:11.374398+00:00",
+      "last_attempt": "2026-11-21T08:15:24.753256+00:00",
+      "last_success": "2026-11-21T08:15:24.753256+00:00",
       "status": "ok",
       "fetched": 0
     },
     "physics.flu-dyn": {
-      "last_attempt": "2026-11-20T08:30:11.374398+00:00",
-      "last_success": "2026-11-20T08:30:11.374398+00:00",
+      "last_attempt": "2026-11-21T08:15:24.753256+00:00",
+      "last_success": "2026-11-21T08:15:24.753256+00:00",
       "status": "ok",
-      "fetched": 18
+      "fetched": 0
     }
   },
   "topics": [
@@ -1775,13 +1775,13 @@
           "habitable zone"
         ]
       },
-      "status": "candidate",
-      "reason": "关联线索：habitable zone",
+      "status": "excluded",
+      "reason": "Reading review 2026-11-20: Complete source English abstract read. Focus is radio technosignature propagation through a photoionized ionosphere, not neutral-atmosphere climate, chemistry, circulation, or atmospheric retrieval. Exclude under the existing space-physics/technosignature scope; preserve source archive and first_seen.",
       "tags": [
         "宜居性 · Habitability",
         "海冰与表层 · Ice & surface"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 50,
       "fit_matches": [
         "行星气候与模式"
@@ -47986,13 +47986,14 @@
       "fit_matches": [],
       "institutions": [],
       "author_affiliations": [],
-      "affiliation_status": "pending",
+      "affiliation_status": "unavailable",
       "intro_en": "Deep learning has revolutionised weather forecasting in recent years, especially through atmospheric foundation models, which offer competitive skill for a fraction of the computational costs of classic physics-based models. However, most existing foundation models are deterministic, limiting the generation of large ensembles for accurate uncertainty quantification, extreme weather risk assessment, and long-range weather forecasting.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-10-05",
       "publication_date_source": "https://arxiv.org/abs/2610.06509v2",
+      "affiliation_source": "https://arxiv.org/html/2610.06509v2",
       "version_date": "2026-11-19T13:15:41+00:00"
     },
     {
