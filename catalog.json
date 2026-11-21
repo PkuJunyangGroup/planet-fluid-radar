@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T10:58:09.530181+00:00",
+  "generated_at": "2026-11-21T11:00:33.561378+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
@@ -260,8 +260,8 @@
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-11-21T18:56:42.230256+08:00",
-      "last_success": "2026-11-21T18:56:42.230256+08:00",
+      "last_attempt": "2026-11-21T18:59:19.773948+08:00",
+      "last_success": "2026-11-21T18:59:19.773948+08:00",
       "coverage_since": "2026-09-25",
       "pages_checked": 2,
       "fetched": 8,
@@ -40411,6 +40411,125 @@
       "intake_kind": "recent"
     },
     {
+      "id": "doi:10.1073/pnas.2613085123",
+      "doi": "10.1073/pnas.2613085123",
+      "version_id": "doi:10.1073/pnas.2613085123",
+      "title": "Windblown dunes are born in sand at the brink of transport",
+      "abstract": "Windblown dunes are found everywhere in the Solar System where a supply of loose sediment is mobilized by gas flows, from the sluggish winds of Venus to speed-of-sound sublimation flows on comets. Their abundance is nontrivial because dunes only form where grains hop ballistically (“saltate”). This implies that winds across the Solar System reach “goldilocks” speeds that are just right to initiate and maintain saltation of whatever sediment is available despite vast variations in material and fluid properties, and gravity. Based on select observations, it was proposed that dune fields may be characterized by a near-threshold transport state where dune-forming winds minimally exceed the saltation threshold on Earth. Here, we demonstrate that this is indeed the case globally. Next, we show that, unlike riverbeds—which evolve to a similar state through adjustments of channel geometry—dune fields are born in it due to the rapid decrease in wind frequency with increasing wind speed. These results imply that grain sizes in windblown dunes provide a robust record of formative winds, such that corresponding wind speeds can be estimated from aeolian sandstones and dune deposits across planets. The near-threshold state of windblown dunes thus opens a promising line of investigation for paleoenvironmental and paleoclimate reconstructions on Earth and beyond.",
+      "authors": [
+        "M. Colin Marvin",
+        "Alex Gleason",
+        "Clément Narteau",
+        "Olivier Rozier",
+        "Mathieu G. A. Lapôtre"
+      ],
+      "author_affiliations": [
+        {
+          "name": "M. Colin Marvin",
+          "institutions": [
+            "Department of Earth and Planetary Sciences, Stanford University"
+          ],
+          "orcid": "https://orcid.org/0000-0001-5774-0972"
+        },
+        {
+          "name": "Alex Gleason",
+          "institutions": [
+            "Department of Geophysics, Stanford University"
+          ],
+          "orcid": "https://orcid.org/0009-0006-9281-5996"
+        },
+        {
+          "name": "Clément Narteau",
+          "institutions": [
+            "Institut de Physique du Globe de Paris, Université Paris Cité"
+          ],
+          "orcid": "https://orcid.org/0000-0002-9556-9544"
+        },
+        {
+          "name": "Olivier Rozier",
+          "institutions": [
+            "Institut de Physique du Globe de Paris, Université Paris Cité"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Mathieu G. A. Lapôtre",
+          "institutions": [
+            "Department of Earth and Planetary Sciences, Stanford University"
+          ],
+          "orcid": "https://orcid.org/0000-0001-9941-1552"
+        }
+      ],
+      "institutions": [
+        "Department of Earth and Planetary Sciences, Stanford University",
+        "Department of Geophysics, Stanford University",
+        "Institut de Physique du Globe de Paris, Université Paris Cité"
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://api.crossref.org/works/10.1073%2Fpnas.2613085123",
+      "source": "journal",
+      "journal": "PNAS",
+      "journal_id": "1091-6490",
+      "source_group": "general",
+      "categories": [],
+      "url": "https://doi.org/10.1073/pnas.2613085123",
+      "published": "2026-11-20",
+      "publication_date": "2026-11-20",
+      "publication_date_source": "Crossref publisher metadata",
+      "date_kind": "journal",
+      "first_seen": "2026-11-21T08:16:00.428441+00:00",
+      "updated": "2026-11-20T18:15:34Z",
+      "metadata_source": "https://api.crossref.org/works/10.1073%2Fpnas.2613085123",
+      "relations": {},
+      "metadata_limited": false,
+      "publication_dates": {
+        "published-online": "2026-11-20",
+        "published-print": "2026-12-08"
+      },
+      "topics": [
+        "surface"
+      ],
+      "matches": {
+        "surface": [
+          "paleoclimate"
+        ]
+      },
+      "status": "candidate",
+      "reason": "Reading review 2026-11-21: Complete publisher-deposited English abstract read. Experiments and observations support a near-threshold sand transport mechanism for dunes, explicitly applicable to Venus and comets and to reconstructing winds on planetary surfaces. Crossref publisher metadata confirms online publication 2026-11-20. Preserve the source record and first_seen.",
+      "tags": [],
+      "method": "manual",
+      "fit_score": 30,
+      "fit_matches": [],
+      "variants": [
+        {
+          "id": "doi:10.1073/pnas.2613085123",
+          "source": "journal",
+          "journal": "PNAS",
+          "journal_id": "1091-6490",
+          "title": "Windblown dunes are born in sand at the brink of transport",
+          "url": "https://doi.org/10.1073/pnas.2613085123",
+          "doi": "10.1073/pnas.2613085123",
+          "version_id": "doi:10.1073/pnas.2613085123",
+          "first_seen": "2026-11-21T08:16:00.428441+00:00",
+          "publication_date": "2026-11-20",
+          "version_date": null,
+          "metadata_source": "https://api.crossref.org/works/10.1073%2Fpnas.2613085123",
+          "affiliation_source": "https://api.crossref.org/works/10.1073%2Fpnas.2613085123"
+        }
+      ],
+      "match_basis": [],
+      "source_types": [
+        "journal"
+      ],
+      "journals": [
+        "PNAS"
+      ],
+      "source_groups": [
+        "general"
+      ],
+      "intake_kind": "recent"
+    },
+    {
       "id": "doi:10.1029/2026je009809",
       "doi": "10.1029/2026je009809",
       "version_id": "doi:10.1029/2026je009809",
@@ -40461,7 +40580,6 @@
         "published-print": "2026-11"
       },
       "topics": [
-        "detection",
         "cryosphere"
       ],
       "matches": {
@@ -40478,14 +40596,14 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：ocean circulation、ocean heat transport、ocean dynamics、biosignature、ice shell",
+      "reason": "Reading review 2026-11-21: Complete publisher-deposited English abstract read. The study infers Enceladus's subsurface ocean salinity and dissipation from ice-shell morphology, rather than detecting or retrieving a biosignature.",
       "tags": [
         "环流与波动 · Circulation & waves",
         "热输送 · Heat transport",
         "宜居性 · Habitability",
         "反演与数值方法 · Inverse & numerical methods"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 56,
       "fit_matches": [
         "行星海洋与冰"
@@ -40583,7 +40701,7 @@
         "published-print": "2026-11"
       },
       "topics": [
-        "cryosphere"
+        "surface"
       ],
       "matches": {
         "cryosphere": [
@@ -40591,11 +40709,11 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：cryospheric",
+      "reason": "Reading review 2026-11-21: Complete publisher-deposited English abstract read. The focus is active Martian aeolian bedforms and sediment transport, not ice or cryosphere processes.",
       "tags": [
         "云与辐射 · Clouds & radiation"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 38,
       "fit_matches": [],
       "variants": [
@@ -40959,10 +41077,10 @@
       "doi:10.1029/2026je009882",
       "doi:10.1029/2026je009903",
       "doi:10.1029/2026je009941",
-      "doi:10.1029/2026je009973",
       "doi:10.1029/2026je010021",
       "doi:10.1029/2026je010062",
       "doi:10.1038/s41586-026-11213-z",
+      "doi:10.1073/pnas.2613085123",
       "doi:10.1073/pnas.2615294123",
       "doi:10.1073/pnas.2616582123",
       "doi:10.1126/science.adz5646",
@@ -41183,10 +41301,10 @@
       "2609.05312": "recent",
       "2603.03014": "recent",
       "2510.00124": "recent",
-      "doi:10.1029/2026je009973": "recent",
       "doi:10.1029/2026je009809": "recent",
       "doi:10.1029/2026je010062": "recent",
-      "doi:10.1029/2026je010021": "recent"
+      "doi:10.1029/2026je010021": "recent",
+      "doi:10.1073/pnas.2613085123": "recent"
     },
     "policy": {
       "recent_days": 2,
@@ -41197,10 +41315,10 @@
     "last_run": "2026-11-21",
     "mode": "recent",
     "selected": [
-      "doi:10.1029/2026je009973",
       "doi:10.1029/2026je009809",
       "doi:10.1029/2026je010062",
-      "doi:10.1029/2026je010021"
+      "doi:10.1029/2026je010021",
+      "doi:10.1073/pnas.2613085123"
     ],
     "search_errors": []
   },
@@ -42694,10 +42812,11 @@
   "merged_count": 35,
   "daily_brief": {
     "date": "2026-11-21",
-    "built_at": "2026-11-21T10:58:09.530392+00:00",
+    "built_at": "2026-11-21T11:00:33.561548+00:00",
     "review_basis": "Automated rule screening; reading review is recorded separately.",
-    "new_count": 3,
+    "new_count": 4,
     "recent_ids": [
+      "doi:10.1073/pnas.2613085123",
       "doi:10.1029/2026je009809",
       "doi:10.1029/2026je010062",
       "doi:10.1029/2026je010021"

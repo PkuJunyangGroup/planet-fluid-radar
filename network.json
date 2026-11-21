@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T10:58:09.530181+00:00",
+  "generated_at": "2026-11-21T11:00:33.561378+00:00",
   "nodes": [
     {
       "id": "fccd5d0ac9cc52f9",
@@ -9146,7 +9146,8 @@
         "2610.35251",
         "2611.06765",
         "doi:10.1029/2025je009139",
-        "doi:10.1029/2025je009242"
+        "doi:10.1029/2025je009242",
+        "doi:10.1073/pnas.2613085123"
       ],
       "authors": [
         {
@@ -9296,6 +9297,36 @@
             "doi:10.1029/2025je009242"
           ],
           "unit_papers": {}
+        },
+        {
+          "id": "8195ef050d062e53",
+          "name": "Clément Narteau",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-9556-9544",
+          "papers": [
+            "doi:10.1073/pnas.2613085123"
+          ],
+          "unit_papers": {
+            "d0b3bf085611b8ee": [
+              "doi:10.1073/pnas.2613085123"
+            ]
+          }
+        },
+        {
+          "id": "e2f9d7c9c2f67cd7",
+          "name": "Olivier Rozier",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": null,
+          "papers": [
+            "doi:10.1073/pnas.2613085123"
+          ],
+          "unit_papers": {
+            "d0b3bf085611b8ee": [
+              "doi:10.1073/pnas.2613085123"
+            ]
+          }
         }
       ],
       "units": [
@@ -9306,11 +9337,13 @@
           "source": "https://api.ror.org/v2/organizations/05f82e368",
           "papers": [
             "2511.14581",
-            "doi:10.1029/2025je009139"
+            "doi:10.1029/2025je009139",
+            "doi:10.1073/pnas.2613085123"
           ]
         }
       ],
       "raw": [
+        "Institut de Physique du Globe de Paris, Université Paris Cité",
         "LIRA, Observatoire de Paris, Université PSL, CNRS, Sorbonne Université, Université Paris Cité, CY Cergy Paris Université, 5 place Jules Janssen, 92195 Meudon, France",
         "LIRA, Observatoire de Paris, Université PSL, CNRS, Sorbonne Université, Université Paris Cité, CY Cergy Paris Université, 5 place Jules Janssen, F-92190 Meudon, France",
         "LIRA, Observatoire de Paris, Université PSL, CNRS, Sorbonne Université, Université Paris-Cité, 5 place Jules Janssen, 92195 Meudon, France",
@@ -15278,7 +15311,8 @@
       "name_zh": "斯坦福大学",
       "papers": [
         "2606.14646",
-        "doi:10.1029/2025je009518"
+        "doi:10.1029/2025je009518",
+        "doi:10.1073/pnas.2613085123"
       ],
       "authors": [
         {
@@ -15313,13 +15347,48 @@
             "doi:10.1029/2025je009518"
           ],
           "unit_papers": {}
+        },
+        {
+          "id": "dee23944abee5a19",
+          "name": "M. Colin Marvin",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0001-5774-0972",
+          "papers": [
+            "doi:10.1073/pnas.2613085123"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "91ee5f287af9aa94",
+          "name": "Alex Gleason",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0009-0006-9281-5996",
+          "papers": [
+            "doi:10.1073/pnas.2613085123"
+          ],
+          "unit_papers": {}
+        },
+        {
+          "id": "e4a4377e1de1a96c",
+          "name": "Mathieu G. A. Lapôtre",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0001-9941-1552",
+          "papers": [
+            "doi:10.1073/pnas.2613085123"
+          ],
+          "unit_papers": {}
         }
       ],
       "units": [],
       "raw": [
+        "Department of Earth and Planetary Sciences, Stanford University",
         "Department of Earth and Planetary Sciences, Stanford University, Stanford, CA 94305, USA",
         "Department of Electrical Engineering Stanford University Stanford CA USA",
         "Department of Geophysics Stanford University Stanford CA USA",
+        "Department of Geophysics, Stanford University",
         "Stanford University"
       ],
       "verification": {
@@ -25166,6 +25235,14 @@
         "doi:10.3847/2041-8213/aebc7e"
       ],
       "weight": 1
+    },
+    {
+      "source": "20f9e7e26b090a82",
+      "target": "ed72534d79b73fac",
+      "papers": [
+        "doi:10.1073/pnas.2613085123"
+      ],
+      "weight": 1
     }
   ],
   "papers": {
@@ -29535,12 +29612,28 @@
         "fccd5d0ac9cc52f9"
       ]
     },
+    "doi:10.1073/pnas.2613085123": {
+      "id": "doi:10.1073/pnas.2613085123",
+      "title": "Windblown dunes are born in sand at the brink of transport",
+      "url": "https://doi.org/10.1073/pnas.2613085123",
+      "topics": [
+        "surface"
+      ],
+      "first_seen": "2026-11-21T08:16:00.428441+00:00",
+      "publication_date": "2026-11-20",
+      "journals": [
+        "PNAS"
+      ],
+      "institutions": [
+        "20f9e7e26b090a82",
+        "ed72534d79b73fac"
+      ]
+    },
     "doi:10.1029/2026je009809": {
       "id": "doi:10.1029/2026je009809",
       "title": "Subsurface Ocean Salinity and Dissipation Rate Inferred From Enceladus Ice Shell Morphology",
       "url": "https://doi.org/10.1029/2026je009809",
       "topics": [
-        "detection",
         "cryosphere"
       ],
       "first_seen": "2026-11-21T08:16:00.428441+00:00",
@@ -29557,7 +29650,7 @@
       "title": "Global Survey of Megaripple and Transverse Aeolian Ridge Activity on Mars",
       "url": "https://doi.org/10.1029/2026je010062",
       "topics": [
-        "cryosphere"
+        "surface"
       ],
       "first_seen": "2026-11-21T08:16:00.428441+00:00",
       "publication_date": "2026-11-20",
@@ -60367,6 +60460,91 @@
       ],
       "aliases": [
         "Jeffrey D. Crane"
+      ]
+    },
+    {
+      "id": "dee23944abee5a19",
+      "name": "M. Colin Marvin",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0001-5774-0972",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.1073/pnas.2613085123"
+      ],
+      "institutions": [
+        "ed72534d79b73fac"
+      ],
+      "aliases": [
+        "M. Colin Marvin"
+      ]
+    },
+    {
+      "id": "91ee5f287af9aa94",
+      "name": "Alex Gleason",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0009-0006-9281-5996",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.1073/pnas.2613085123"
+      ],
+      "institutions": [
+        "ed72534d79b73fac"
+      ],
+      "aliases": [
+        "Alex Gleason"
+      ]
+    },
+    {
+      "id": "8195ef050d062e53",
+      "name": "Clément Narteau",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0002-9556-9544",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.1073/pnas.2613085123"
+      ],
+      "institutions": [
+        "20f9e7e26b090a82"
+      ],
+      "aliases": [
+        "Clément Narteau"
+      ]
+    },
+    {
+      "id": "e2f9d7c9c2f67cd7",
+      "name": "Olivier Rozier",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": null,
+      "identity_basis": "name_and_institution",
+      "papers": [
+        "doi:10.1073/pnas.2613085123"
+      ],
+      "institutions": [
+        "20f9e7e26b090a82"
+      ],
+      "aliases": [
+        "Olivier Rozier"
+      ]
+    },
+    {
+      "id": "e4a4377e1de1a96c",
+      "name": "Mathieu G. A. Lapôtre",
+      "name_zh": null,
+      "name_source": "",
+      "orcid": "https://orcid.org/0000-0001-9941-1552",
+      "identity_basis": "orcid",
+      "papers": [
+        "doi:10.1073/pnas.2613085123"
+      ],
+      "institutions": [
+        "ed72534d79b73fac"
+      ],
+      "aliases": [
+        "Mathieu G. A. Lapôtre"
       ]
     },
     {
