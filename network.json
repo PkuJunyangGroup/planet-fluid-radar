@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T08:06:52.888543+00:00",
+  "generated_at": "2026-11-22T11:23:42.079921+00:00",
   "nodes": [
     {
       "id": "fccd5d0ac9cc52f9",
@@ -17838,6 +17838,51 @@
         "source": "https://api.ror.org/v2/organizations/02qyf5152",
         "checked_at": "2026-09-24"
       }
+    },
+    {
+      "id": "4bd5b44d8ae72efb",
+      "label": "Hebrew University of Jerusalem",
+      "name_zh": "耶路撒冷希伯来大学",
+      "papers": [
+        "doi:10.3847/1538-4357/ae21d7"
+      ],
+      "authors": [
+        {
+          "id": "38bd0d2c97194e5f",
+          "name": "Amri Wandel",
+          "name_zh": null,
+          "name_source": null,
+          "orcid": "https://orcid.org/0000-0002-8900-212X",
+          "papers": [
+            "doi:10.3847/1538-4357/ae21d7"
+          ],
+          "unit_papers": {
+            "64c56519c510cf89": [
+              "doi:10.3847/1538-4357/ae21d7"
+            ]
+          }
+        }
+      ],
+      "units": [
+        {
+          "id": "64c56519c510cf89",
+          "label": "Racah Institute of Physics",
+          "name_zh": null,
+          "source": "https://phys.huji.ac.il/",
+          "papers": [
+            "doi:10.3847/1538-4357/ae21d7"
+          ]
+        }
+      ],
+      "raw": [
+        "Racah Institute of Physics, The Hebrew University of Jerusalem"
+      ],
+      "verification": {
+        "ror": "https://ror.org/03qxff017",
+        "website": "http://new.huji.ac.il/en",
+        "source": "https://api.ror.org/v2/organizations/03qxff017",
+        "checked_at": "2026-09-24"
+      }
     }
   ],
   "edges": [
@@ -29684,16 +29729,16 @@
       "url": "https://doi.org/10.3847/1538-4357/ae21d7",
       "topics": [
         "planetary",
-        "models",
-        "detection",
-        "evolution"
+        "models"
       ],
       "first_seen": "2026-11-22T08:05:05.882913+00:00",
       "publication_date": "2026-01-10",
       "journals": [
         "The Astrophysical Journal"
       ],
-      "institutions": []
+      "institutions": [
+        "4bd5b44d8ae72efb"
+      ]
     },
     "exoplanet-bib:33128": {
       "id": "exoplanet-bib:33128",
@@ -29711,7 +29756,7 @@
       "institutions": []
     }
   },
-  "omitted_papers": 64,
+  "omitted_papers": 63,
   "level": "parent",
   "researchers": [
     {
@@ -60689,7 +60734,9 @@
       "papers": [
         "doi:10.3847/1538-4357/ae21d7"
       ],
-      "institutions": [],
+      "institutions": [
+        "4bd5b44d8ae72efb"
+      ],
       "aliases": [
         "Amri Wandel"
       ]
