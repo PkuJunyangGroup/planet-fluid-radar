@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-11-21T08:15:24.753256+00:00",
+  "generated_at": "2026-11-22T07:58:07.865958+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
-      "last_attempt": "2026-11-21T08:15:24.753256+00:00",
-      "last_success": "2026-11-21T08:15:24.753256+00:00",
+      "last_attempt": "2026-11-22T07:58:07.865958+00:00",
+      "last_success": "2026-11-22T07:58:07.865958+00:00",
       "status": "ok",
       "fetched": 0
     },
     "physics.ao-ph": {
-      "last_attempt": "2026-11-21T08:15:24.753256+00:00",
-      "last_success": "2026-11-21T08:15:24.753256+00:00",
+      "last_attempt": "2026-11-22T07:58:07.865958+00:00",
+      "last_success": "2026-11-22T07:58:07.865958+00:00",
       "status": "ok",
       "fetched": 0
     },
     "physics.geo-ph": {
-      "last_attempt": "2026-11-21T08:15:24.753256+00:00",
-      "last_success": "2026-11-21T08:15:24.753256+00:00",
+      "last_attempt": "2026-11-22T07:58:07.865958+00:00",
+      "last_success": "2026-11-22T07:58:07.865958+00:00",
       "status": "ok",
       "fetched": 0
     },
     "physics.flu-dyn": {
-      "last_attempt": "2026-11-21T08:15:24.753256+00:00",
-      "last_success": "2026-11-21T08:15:24.753256+00:00",
+      "last_attempt": "2026-11-22T07:58:07.865958+00:00",
+      "last_success": "2026-11-22T07:58:07.865958+00:00",
       "status": "ok",
       "fetched": 0
     }
@@ -51176,14 +51176,31 @@
       "fit_score": 0,
       "fit_matches": [],
       "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "author_affiliations": [
+        {
+          "name": "Abhishek Kushwaha",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Bjarne Lieth",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Isaac Boxx",
+          "institutions": [],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "unavailable",
       "intro_en": "The interaction between flame dynamics & hydrodynamic instabilities plays a fundamental role in determining the stability of swirl-stabilized combustors. In the present study, we investigate the hypothesis that spatial overlap between flame & wavemaker region is a necessary prerequisite for combustion stability in flows characterized by a wavemaker region.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-30",
       "publication_date_source": "https://arxiv.org/abs/2609.39502v2",
+      "affiliation_source": "https://arxiv.org/html/2609.39502v2",
       "version_date": "2026-11-16T10:52:41+00:00"
     },
     {
@@ -51396,13 +51413,14 @@
       "fit_matches": [],
       "institutions": [],
       "author_affiliations": [],
-      "affiliation_status": "pending",
+      "affiliation_status": "unavailable",
       "intro_en": "Physics-informed computational methods usually optimize parameters within a functional representation whose structure is fixed in advance. This work proposes a Physics-Informed Method of Group Data Handling (PI-GMDH), in which representations of coupled physical fields are progressively constructed during solution.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-30",
       "publication_date_source": "https://arxiv.org/abs/2609.39291v2",
+      "affiliation_source": "https://arxiv.org/html/2609.39291v2",
       "version_date": "2026-11-16T17:18:40+00:00"
     },
     {
@@ -52745,15 +52763,40 @@
       "method": "keyword",
       "fit_score": 0,
       "fit_matches": [],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "institutions": [
+        "Department of Physics and Astronomy, University College London, London WC1E 6BT, UK",
+        "Smithsonian Astrophysical Observatory, Cambridge MA 02138, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Hiba Tu Noor",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Jay Farihi",
+          "institutions": [
+            "Department of Physics and Astronomy, University College London, London WC1E 6BT, UK"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Scott J. Kenyon",
+          "institutions": [
+            "Department of Physics and Astronomy, University College London, London WC1E 6BT, UK",
+            "Smithsonian Astrophysical Observatory, Cambridge MA 02138, USA"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
       "intro_en": "This study presents multi-epoch photometry from the Wide-field Infrared Survey Explorer to investigate variability in white dwarf debris disks, utilizing the full 14.5 yr mission datasets pre- and post-cryogen. Unambiguous variations are detected across the bulk of the 52 confirmed dusty white dwarfs and are consistent with universal variability after correcting for the sensitivity of WISE relative to Spitzer.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-28",
       "publication_date_source": "https://arxiv.org/abs/2609.34868v2",
+      "affiliation_source": "https://arxiv.org/html/2609.34868v2",
       "version_date": "2026-11-16T17:21:07+00:00"
     },
     {
@@ -63038,15 +63081,19 @@
       "fit_matches": [
         "理论机制与尺度关系"
       ],
-      "institutions": [],
+      "institutions": [
+        "1Laboratoire de Physique de l’Ecole Normale Supérieure, UMR 8023 PSL-SU-UPCité-CNRS, Paris, France 2Physique et Mécanique des Milieux Hétérogènes, UMR 7636 ESPCI-PSL-SU-UPCité-CNRS, Paris, France"
+      ],
       "author_affiliations": [],
-      "affiliation_status": "pending",
+      "affiliation_status": "verified",
       "intro_en": "Droplet-laden cloud dynamics emerge from coupled phase transitions and turbulent mixing. Combining experiments and mean-field theory, we establish scaling laws for steam-injected clouds in unsaturated air seeded with condensation nuclei.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-14",
       "publication_date_source": "https://arxiv.org/abs/2609.14787v2",
+      "author_affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2609.14787v2",
       "version_date": "2026-11-16T09:06:16+00:00"
     },
     {
@@ -63393,15 +63440,49 @@
       "method": "keyword",
       "fit_score": 20,
       "fit_matches": [],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "institutions": [
+        "School of Engineering, University of Manchester",
+        "Department of Mathematics, University of Manchester",
+        "School of Engineering, Cardiff University"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Benjamin L. Cookman",
+          "institutions": [
+            "School of Engineering, University of Manchester"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Jack R. C. King",
+          "institutions": [
+            "School of Engineering, University of Manchester"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Raphaël C. Assier",
+          "institutions": [
+            "Department of Mathematics, University of Manchester"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Steven J. Lind",
+          "institutions": [
+            "School of Engineering, Cardiff University"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
       "intro_en": "In this work, Direct Numerical Simulations (DNS) of thermoacoustically unstable free flames in closed-open tubes are presented. Simulations demonstrate nonlinear saturation of the primary instability as the flame flattens, resulting in a quasiperiodic acoustic limit cycle.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-09-05",
       "publication_date_source": "https://arxiv.org/abs/2609.05656v2",
+      "affiliation_source": "https://arxiv.org/html/2609.05656v2",
       "version_date": "2026-11-17T15:44:06+00:00"
     },
     {
@@ -64386,13 +64467,14 @@
       "fit_matches": [],
       "institutions": [],
       "author_affiliations": [],
-      "affiliation_status": "pending",
+      "affiliation_status": "unavailable",
       "intro_en": "Interaction between energy-abundant mesoscale eddies and internal waves can lead to convection-turbulence generation and may prove important for deep-sea life and circulation. However, the size of scales of interacting flows is not well known.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-08-21",
       "publication_date_source": "https://arxiv.org/abs/2608.21046v2",
+      "affiliation_source": "https://arxiv.org/html/2608.21046v2",
       "version_date": "2026-11-16T14:18:43+00:00"
     },
     {
@@ -64578,15 +64660,33 @@
       "method": "keyword",
       "fit_score": 32,
       "fit_matches": [],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "institutions": [
+        "Research Institute for Earth and Information Sciences, Japan Agency for Marine-Earth Science and Technology, 3173-25 Showa-machi, Kanazawa-ku, Yokohama, 2360001, Kanagawa, Japan"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Yuki Yasuda",
+          "institutions": [
+            "Research Institute for Earth and Information Sciences, Japan Agency for Marine-Earth Science and Technology, 3173-25 Showa-machi, Kanazawa-ku, Yokohama, 2360001, Kanagawa, Japan"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Shoichiro Kido",
+          "institutions": [
+            "Research Institute for Earth and Information Sciences, Japan Agency for Marine-Earth Science and Technology, 3173-25 Showa-machi, Kanazawa-ku, Yokohama, 2360001, Kanagawa, Japan"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
       "intro_en": "Estimating forced and internal variability in climate data is fundamental to detecting the climate change signal and assessing uncertainty in climate projections. We propose a metric that quantifies the relative magnitude of internal variability in single-model initial-condition large ensembles (SMILEs).",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-08-15",
       "publication_date_source": "https://arxiv.org/abs/2608.14455v2",
+      "affiliation_source": "https://arxiv.org/html/2608.14455v2",
       "version_date": "2026-11-16T12:29:05+00:00"
     },
     {
@@ -64703,15 +64803,36 @@
       "method": "keyword",
       "fit_score": 0,
       "fit_matches": [],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "institutions": [
+        "Department of Mechanical and Aerospace Engineering, Princeton University, Princeton, NJ, 08540, USA."
+      ],
+      "author_affiliations": [
+        {
+          "name": "Victoria M. Malarczyk",
+          "institutions": [
+            "Department of Mechanical and Aerospace Engineering, Princeton University, Princeton, NJ, 08540, USA."
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Marcus Hultmark",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "∗Corresponding author. Email: hultmark@princeton.edu",
+          "institutions": [],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
       "intro_en": "Aerodynamic unsteadiness is inherent to the operation of many engineering applications, especially those that involve large-scale rotating blades, such as modern wind turbines. Over the past few decades, wind turbine rotors have grown rapidly and are now exceeding 200 meters in diameter, causing them to operate in conditions where limited empirical data are available, and where models have not been validated.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-08-14",
       "publication_date_source": "https://arxiv.org/abs/2608.13424v2",
+      "affiliation_source": "https://arxiv.org/html/2608.13424v2",
       "version_date": "2026-11-17T15:50:06+00:00"
     },
     {
@@ -65380,15 +65501,78 @@
       "method": "keyword",
       "fit_score": 20,
       "fit_matches": [],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "institutions": [
+        "School of Engineering and Applied Sciences, Harvard University, Cambridge, MA 02138, USA",
+        "Department of Aerospace Engineering and Engineering Mechanics, The University of Texas at Austin, Austin, TX 78712, USA",
+        "Department of Mechanical Engineering, Johns Hopkins University, Baltimore, MD 21218, USA",
+        "Department of Applied Mathematics and Statistics, Johns Hopkins University, Baltimore, MD 21218, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Quentin Malé",
+          "institutions": [
+            "School of Engineering and Applied Sciences, Harvard University, Cambridge, MA 02138, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Lucas Amoudruz",
+          "institutions": [
+            "School of Engineering and Applied Sciences, Harvard University, Cambridge, MA 02138, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Daniel Bulgarini",
+          "institutions": [
+            "Department of Aerospace Engineering and Engineering Mechanics, The University of Texas at Austin, Austin, TX 78712, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Shuolin Xiao",
+          "institutions": [
+            "Department of Mechanical Engineering, Johns Hopkins University, Baltimore, MD 21218, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Gregory Eyink",
+          "institutions": [
+            "Department of Applied Mathematics and Statistics, Johns Hopkins University, Baltimore, MD 21218, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Charles Meneveau",
+          "institutions": [
+            "Department of Mechanical Engineering, Johns Hopkins University, Baltimore, MD 21218, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Fabrizio Bisetti",
+          "institutions": [
+            "Department of Aerospace Engineering and Engineering Mechanics, The University of Texas at Austin, Austin, TX 78712, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Petros Koumoutsakos",
+          "institutions": [
+            "School of Engineering and Applied Sciences, Harvard University, Cambridge, MA 02138, USA"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
       "intro_en": "The von Kármán turbulent swirling flow exhibits intriguing large-scale metastable dynamics, including low-frequency state switching. The study of state switching demands long-duration high-fidelity simulations at high Reynolds numbers that capture the flow generated by the impellers.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-07-28",
       "publication_date_source": "https://arxiv.org/abs/2607.25048v3",
+      "affiliation_source": "https://arxiv.org/html/2607.25048v3",
       "version_date": "2026-11-18T15:21:07+00:00"
     },
     {
@@ -65876,15 +66060,89 @@
       "method": "keyword",
       "fit_score": 0,
       "fit_matches": [],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "institutions": [
+        "School of Physics and State Key Laboratory of Nuclear Physics and Technology, Peking University, Beijing 100871, China",
+        "School of Physics, Sun Yat-sen University, Guangzhou 510275, China",
+        "School of Nuclear Science and Technology, University of Chinese Academy of Sciences, Beijing 100049, China Guangdong Laboratory for Advanced Energy Science and Technology, Huizhou, Guangdong 516000, China Institute of Modern Physics, Chinese Academy of Sciences, Lanzhou 730000, China"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Zimo Hu",
+          "institutions": [
+            "School of Physics and State Key Laboratory of Nuclear Physics and Technology, Peking University, Beijing 100871, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Leyun Gao",
+          "institutions": [
+            "School of Physics and State Key Laboratory of Nuclear Physics and Technology, Peking University, Beijing 100871, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Zhengyun You",
+          "institutions": [
+            "School of Physics, Sun Yat-sen University, Guangzhou 510275, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Qite Li",
+          "institutions": [
+            "School of Physics and State Key Laboratory of Nuclear Physics and Technology, Peking University, Beijing 100871, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Qiang Li",
+          "institutions": [
+            "School of Physics and State Key Laboratory of Nuclear Physics and Technology, Peking University, Beijing 100871, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Yuhong Yu",
+          "institutions": [
+            "School of Nuclear Science and Technology, University of Chinese Academy of Sciences, Beijing 100049, China Guangdong Laboratory for Advanced Energy Science and Technology, Huizhou, Guangdong 516000, China Institute of Modern Physics, Chinese Academy of Sciences, Lanzhou 730000, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Liangwen Chen",
+          "institutions": [
+            "School of Nuclear Science and Technology, University of Chinese Academy of Sciences, Beijing 100049, China Guangdong Laboratory for Advanced Energy Science and Technology, Huizhou, Guangdong 516000, China Institute of Modern Physics, Chinese Academy of Sciences, Lanzhou 730000, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Xueheng Zhang",
+          "institutions": [
+            "School of Nuclear Science and Technology, University of Chinese Academy of Sciences, Beijing 100049, China Guangdong Laboratory for Advanced Energy Science and Technology, Huizhou, Guangdong 516000, China Institute of Modern Physics, Chinese Academy of Sciences, Lanzhou 730000, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Zhiyu Sun",
+          "institutions": [
+            "School of Nuclear Science and Technology, University of Chinese Academy of Sciences, Beijing 100049, China Guangdong Laboratory for Advanced Energy Science and Technology, Huizhou, Guangdong 516000, China Institute of Modern Physics, Chinese Academy of Sciences, Lanzhou 730000, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "PKMu Collaboration",
+          "institutions": [],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
       "intro_en": "We propose a novel muon Moonshot concept for lunar subsurface tomography based on upward-going muons originating from the lunar regolith. Unlike Earth, the Moon lacks an atmosphere, leaving dense regolith below and a near-vacuum environment above.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-07-12",
       "publication_date_source": "https://arxiv.org/abs/2607.10403v3",
+      "affiliation_source": "https://arxiv.org/html/2607.10403v3",
       "version_date": "2026-11-16T21:56:45+00:00"
     },
     {
@@ -66016,15 +66274,24 @@
       "method": "keyword",
       "fit_score": 20,
       "fit_matches": [],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "institutions": [
+        "††affiliation: School of Aeronautics, U. Politécnica Madrid, 28040 Madrid Spain"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Carlos Martínez–López and Javier Jiménez",
+          "institutions": [],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
       "intro_en": "Experiments on the regeneration of long streaks in flows in which they had originally been damped show that their initial growth is due to the interaction of the mean shear with weak long cross-flow velocities (`rollers') that remain even when the streaks are damped. More surprisingly, turbulence also persists in simulations in which only the long rollers are damped while long streaks remain, and these flows are also able to recover when the damping is removed.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-07-10",
       "publication_date_source": "https://arxiv.org/abs/2607.08878v2",
+      "affiliation_source": "https://arxiv.org/html/2607.08878v2",
       "version_date": "2026-11-16T14:44:27+00:00"
     },
     {
@@ -66228,10 +66495,20 @@
       "method": "keyword",
       "fit_score": 20,
       "fit_matches": [],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
-      "affiliation_source": "https://arxiv.org/html/2607.05745v4",
+      "institutions": [
+        "Institute for Advanced Study, Princeton, 08540, NJ, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Alexander Migdal",
+          "institutions": [
+            "Institute for Advanced Study, Princeton, 08540, NJ, USA"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2607.05745v6",
       "intro_en": "We present a theory of decaying turbulence in which the statistics of a classical flow becomes quantum mechanics in loop space. The loop functional plays the role of a wave function, and the Navier-Stokes equation makes it evolve linearly, with the viscosity as Planck constant.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
@@ -66543,15 +66820,55 @@
       "method": "keyword",
       "fit_score": 20,
       "fit_matches": [],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "institutions": [
+        "Tata Institute of Fundamental Research, Gopanpally, Hyderabad 500046, India",
+        "Department of Physics and INFN, University of Rome “Tor Vergata”, Via della Ricerca Scientifica 1, Rome, 00133, Italy"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Hridey Narula",
+          "institutions": [
+            "Tata Institute of Fundamental Research, Gopanpally, Hyderabad 500046, India"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Tianyi Li",
+          "institutions": [
+            "Department of Physics and INFN, University of Rome “Tor Vergata”, Via della Ricerca Scientifica 1, Rome, 00133, Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Michele Buzzicotti",
+          "institutions": [
+            "Department of Physics and INFN, University of Rome “Tor Vergata”, Via della Ricerca Scientifica 1, Rome, 00133, Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Luca Biferale",
+          "institutions": [
+            "Department of Physics and INFN, University of Rome “Tor Vergata”, Via della Ricerca Scientifica 1, Rome, 00133, Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Prasad Perlekar",
+          "institutions": [
+            "Tata Institute of Fundamental Research, Gopanpally, Hyderabad 500046, India"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
       "intro_en": "Experiments in multiphase flows are often limited in their ability to simultaneously obtain velocity measurements in different phases. At the same time, flow reconstruction from phase-limited measurements is a challenging problem due to the substantially different velocity statistics across the phases.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-06-29",
       "publication_date_source": "https://arxiv.org/abs/2606.29843v2",
+      "affiliation_source": "https://arxiv.org/html/2606.29843v2",
       "version_date": "2026-11-16T14:19:25+00:00"
     },
     {
@@ -67189,15 +67506,156 @@
       "fit_matches": [
         "系外行星观测表征"
       ],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "institutions": [
+        "Department of Physics and Astronomy, Michigan State University, East Lansing, MI, USA",
+        "Department of Earth, Atmospheric and Planetary Sciences, Massachusetts Institute of Technology, 77 Massachusetts Avenue, Cambridge, MA 02139, USA",
+        "Kavli Institute for Astrophysics and Space Research, Massachusetts Institute of Technology, Cambridge, MA 02139, USA",
+        "School of Earth and Space Exploration, Arizona State University, Tempe, AZ, USA",
+        "Department of Physics and Astronomy, Vanderbilt University, Nashville, TN 37235, USA",
+        "Max Planck Institute for Astronomy (MPIA), Königstuhl 17, 69117 Heidelberg, Germany",
+        "Astrobiology Center, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan",
+        "National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan",
+        "Astronomical Science Program, The Graduate University for Advanced Studies (SOKENDAI), 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan",
+        "Leibniz Institute for Astrophysics Potsdam, An der Sternwarte 16, 14482 Potsdam, Germany",
+        "DESY, Platanenallee 6, D-15738 Zeuthen, Germany",
+        "Instituto de Astrofísica de Andalucía (IAA-CSIC), Glorieta de la Astronomía s/n, 18008 Granada, Spain",
+        "Department of Astrophysical and Planetary Sciences, University of Colorado Boulder, Boulder, CO 80309, USA",
+        "Department of Astronomy & Astrophysics, University of Chicago, 5640 South Ellis Avenue, Chicago, IL 60637, USA",
+        "Anton Pannekoek Institute for Astronomy, University of Amsterdam, Science Park 904, 1098 XH, Amsterdam, The Netherlands"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Matthew M. Murphy",
+          "institutions": [
+            "Department of Physics and Astronomy, Michigan State University, East Lansing, MI, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Adina D. Feinstein",
+          "institutions": [
+            "Department of Physics and Astronomy, Michigan State University, East Lansing, MI, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Meir E. Schochet",
+          "institutions": [
+            "Department of Physics and Astronomy, Michigan State University, East Lansing, MI, USA"
+          ],
+          "orcid": "https://orcid.org/0009-0007-9766-2324"
+        },
+        {
+          "name": "Benjamin V. Rackham",
+          "institutions": [
+            "Department of Earth, Atmospheric and Planetary Sciences, Massachusetts Institute of Technology, 77 Massachusetts Avenue, Cambridge, MA 02139, USA",
+            "Kavli Institute for Astrophysics and Space Research, Massachusetts Institute of Technology, Cambridge, MA 02139, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Luis Welbanks",
+          "institutions": [
+            "School of Earth and Space Exploration, Arizona State University, Tempe, AZ, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Darryl Z. Seligman",
+          "institutions": [
+            "Department of Physics and Astronomy, Michigan State University, East Lansing, MI, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-0726-6480"
+        },
+        {
+          "name": "Girish M. Duvvuri",
+          "institutions": [
+            "Department of Physics and Astronomy, Vanderbilt University, Nashville, TN 37235, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Eva-Maria Ahrer",
+          "institutions": [
+            "Max Planck Institute for Astronomy (MPIA), Königstuhl 17, 69117 Heidelberg, Germany"
+          ],
+          "orcid": "https://orcid.org/0000-0003-0973-8426"
+        },
+        {
+          "name": "John H. Livingston",
+          "institutions": [
+            "Astrobiology Center, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan",
+            "National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan",
+            "Astronomical Science Program, The Graduate University for Advanced Studies (SOKENDAI), 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Saugata Barat",
+          "institutions": [
+            "Kavli Institute for Astrophysics and Space Research, Massachusetts Institute of Technology, Cambridge, MA 02139, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Jean-Michel Désert",
+          "institutions": [
+            "Leibniz Institute for Astrophysics Potsdam, An der Sternwarte 16, 14482 Potsdam, Germany",
+            "DESY, Platanenallee 6, D-15738 Zeuthen, Germany"
+          ],
+          "orcid": "https://orcid.org/0000-0002-0875-8401"
+        },
+        {
+          "name": "Rafael Luque",
+          "institutions": [
+            "Instituto de Astrofísica de Andalucía (IAA-CSIC), Glorieta de la Astronomía s/n, 18008 Granada, Spain"
+          ],
+          "orcid": "https://orcid.org/0000-0002-4671-2957"
+        },
+        {
+          "name": "Catriona Murray",
+          "institutions": [
+            "Department of Astrophysical and Planetary Sciences, University of Colorado Boulder, Boulder, CO 80309, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Matthew C. Nixon",
+          "institutions": [
+            "School of Earth and Space Exploration, Arizona State University, Tempe, AZ, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Sydney Petz",
+          "institutions": [
+            "Department of Physics and Astronomy, Michigan State University, East Lansing, MI, USA"
+          ],
+          "orcid": "https://orcid.org/0009-0008-8016-6591"
+        },
+        {
+          "name": "Michael Radica",
+          "institutions": [
+            "Department of Astronomy & Astrophysics, University of Chicago, 5640 South Ellis Avenue, Chicago, IL 60637, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Hinna Shivkumar",
+          "institutions": [
+            "Anton Pannekoek Institute for Astronomy, University of Amsterdam, Science Park 904, 1098 XH, Amsterdam, The Netherlands"
+          ],
+          "orcid": "https://orcid.org/0000-0001-9289-0570"
+        }
+      ],
+      "affiliation_status": "verified",
       "intro_en": "Transiting exoplanets provide a unique laboratory for studying stellar surface heterogeneities via starspot or facular occultations. When observed at multiple wavelengths, this configuration enables spectroscopic characterization of spot thermal contrasts, distributions, and morphology.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-06-15",
       "publication_date_source": "https://arxiv.org/abs/2606.16782v3",
+      "affiliation_source": "https://arxiv.org/html/2606.16782v3",
       "version_date": "2026-11-16T18:55:00+00:00"
     },
     {

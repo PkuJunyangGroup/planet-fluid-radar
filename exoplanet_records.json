@@ -1,20 +1,72 @@
 {
-  "generated_at": "2026-11-21T18:59:19.773948+08:00",
+  "generated_at": "2026-11-22T15:58:36.764403+08:00",
   "sources": {
     "exoplanet.eu": {
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-11-21T18:59:19.773948+08:00",
-      "last_success": "2026-11-21T18:59:19.773948+08:00",
+      "last_attempt": "2026-11-22T15:58:36.764403+08:00",
+      "last_success": "2026-11-22T15:58:36.764403+08:00",
       "coverage_since": "2026-09-25",
-      "pages_checked": 2,
-      "fetched": 8,
-      "retained": 2,
+      "pages_checked": 3,
+      "fetched": 25,
+      "retained": 3,
       "method": "daily incremental bibliography page scan; candidate-only"
     }
   },
   "papers": [
+    {
+      "id": "exoplanet-bib:32915",
+      "version_id": "exoplanet-bib:32915",
+      "exoplanet_id": "32915",
+      "title": "A Search for helium in the atmospheres of three sub-Neptunes and a super-Earth around M-dwarfs",
+      "abstract": "",
+      "authors": [
+        "KAWAUCHI K.",
+        "NARITA N.",
+        "ITO Y.",
+        "NAKAYAMA A.",
+        "HIRANO T."
+      ],
+      "source": "exoplanet.eu",
+      "source_group": "exoplanet bibliography",
+      "journal": "PASJ",
+      "url": "https://doi.org/10.1093/pasj/psag104",
+      "doi": "10.1093/pasj/psag104",
+      "publication_date": "2026",
+      "published": "2026",
+      "publication_date_source": "Exoplanet.eu bibliography",
+      "date_kind": "bibliography",
+      "first_seen": "2026-11-22T15:58:36.764403+08:00",
+      "updated": "2026-11-21",
+      "metadata_source": "https://exoplanet.eu/bibliography/all/#publication_32915",
+      "affiliation_status": "unavailable",
+      "metadata_limited": true,
+      "categories": [],
+      "exoplanet_update_date": "2026-11-21",
+      "relations": {
+        "preprint": [
+          {
+            "id": "https://arxiv.org/abs/2608.19030"
+          }
+        ]
+      },
+      "arxiv_id": "2608.19030",
+      "topics": [
+        "planetary"
+      ],
+      "matches": {
+        "planetary": [
+          "sub neptune"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：sub neptune",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 42,
+      "fit_matches": []
+    },
     {
       "id": "exoplanet-bib:33483",
       "version_id": "exoplanet-bib:33483",
