@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-11-22T07:58:07.865958+00:00",
+  "generated_at": "2026-11-23T08:58:30.988941+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
-      "last_attempt": "2026-11-22T07:58:07.865958+00:00",
-      "last_success": "2026-11-22T07:58:07.865958+00:00",
+      "last_attempt": "2026-11-23T08:58:30.988941+00:00",
+      "last_success": "2026-11-23T08:58:30.988941+00:00",
       "status": "ok",
       "fetched": 0
     },
     "physics.ao-ph": {
-      "last_attempt": "2026-11-22T07:58:07.865958+00:00",
-      "last_success": "2026-11-22T07:58:07.865958+00:00",
+      "last_attempt": "2026-11-23T08:58:30.988941+00:00",
+      "last_success": "2026-11-23T08:58:30.988941+00:00",
       "status": "ok",
       "fetched": 0
     },
     "physics.geo-ph": {
-      "last_attempt": "2026-11-22T07:58:07.865958+00:00",
-      "last_success": "2026-11-22T07:58:07.865958+00:00",
+      "last_attempt": "2026-11-23T08:58:30.988941+00:00",
+      "last_success": "2026-11-23T08:58:30.988941+00:00",
       "status": "ok",
       "fetched": 0
     },
     "physics.flu-dyn": {
-      "last_attempt": "2026-11-22T07:58:07.865958+00:00",
-      "last_success": "2026-11-22T07:58:07.865958+00:00",
+      "last_attempt": "2026-11-23T08:58:30.988941+00:00",
+      "last_success": "2026-11-23T08:58:30.988941+00:00",
       "status": "ok",
       "fetched": 0
     }
@@ -68338,15 +68338,28 @@
       "method": "keyword",
       "fit_score": 0,
       "fit_matches": [],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "institutions": [
+        "Aix-Marseille Univ, CNRS, Centrale Med, IRPHE, Marseille, France",
+        "Department of Applied Mathematics and Theoretical Physics, University of Cambridge, Cambridge, UK"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Christophe Eloy",
+          "institutions": [
+            "Aix-Marseille Univ, CNRS, Centrale Med, IRPHE, Marseille, France",
+            "Department of Applied Mathematics and Theoretical Physics, University of Cambridge, Cambridge, UK"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
       "intro_en": "Predicting how a deformable body moves and deforms in a viscous flow underlies problems ranging from microorganism locomotion to soft microrobotics, yet existing frameworks are either problem-specific or ill-suited to inverse design. We propose a soft mobility theory.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-05-23",
       "publication_date_source": "https://arxiv.org/abs/2605.23869v2",
+      "affiliation_source": "https://arxiv.org/html/2605.23869v2",
       "version_date": "2026-11-17T18:12:38+00:00"
     },
     {
@@ -68862,13 +68875,14 @@
       "fit_matches": [],
       "institutions": [],
       "author_affiliations": [],
-      "affiliation_status": "pending",
+      "affiliation_status": "unavailable",
       "intro_en": "Marangoni condensation - where surface tension gradients induce instabilities that lead to condensate film breakup into discrete droplets - has traditionally been considered limited to positive binary mixtures, where the less volatile component has higher surface tension. Negative mixtures were expected to exhibit stable filmwise condensation.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-05-13",
       "publication_date_source": "https://arxiv.org/abs/2605.13552v2",
+      "affiliation_source": "https://arxiv.org/html/2605.13552v2",
       "version_date": "2026-11-16T22:47:59+00:00"
     },
     {
@@ -69017,15 +69031,63 @@
       "method": "keyword",
       "fit_score": 0,
       "fit_matches": [],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "institutions": [
+        "MOX, Department of Mathematics, Politecnico di Milano, Piazza Leonardo Da Vinci, 32, 20133, Milano, Italy",
+        "Pirelli Tyre S.p.A., Viale Piero e Alberto Pirelli, 25, 20126, Milano, Italy",
+        "Department of Mathematics, Computational Multiphase Flow Group, Technische Universität Darmstadt, Peter-Grünberg-Straße 10, 64287, Darmstadt, Hessen, Germany"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Emilia Capuano",
+          "institutions": [
+            "MOX, Department of Mathematics, Politecnico di Milano, Piazza Leonardo Da Vinci, 32, 20133, Milano, Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Daniele Cerroni",
+          "institutions": [
+            "Pirelli Tyre S.p.A., Viale Piero e Alberto Pirelli, 25, 20126, Milano, Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Holger Marschall",
+          "institutions": [
+            "Department of Mathematics, Computational Multiphase Flow Group, Technische Universität Darmstadt, Peter-Grünberg-Straße 10, 64287, Darmstadt, Hessen, Germany"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Giorgio Negrini",
+          "institutions": [
+            "Pirelli Tyre S.p.A., Viale Piero e Alberto Pirelli, 25, 20126, Milano, Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Nicola Parolini",
+          "institutions": [
+            "MOX, Department of Mathematics, Politecnico di Milano, Piazza Leonardo Da Vinci, 32, 20133, Milano, Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Marco Verani",
+          "institutions": [
+            "MOX, Department of Mathematics, Politecnico di Milano, Piazza Leonardo Da Vinci, 32, 20133, Milano, Italy"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
       "intro_en": "Free-surface numerical simulation of polymer mixing processes requires handling rotating solid boundaries of complex shapes as well as kinematic viscosity ratios between polymer melt and air up to $10^8$. We present a finite volume method that couples a Volume of Fluid (VOF) interface-capturing scheme with a non-conforming immersed boundary (IB) method, so that moving screws are represented on a fixed mesh without remeshing.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-05-12",
       "publication_date_source": "https://arxiv.org/abs/2605.11896v2",
+      "affiliation_source": "https://arxiv.org/html/2605.11896v2",
       "version_date": "2026-11-19T15:31:17+00:00"
     },
     {
@@ -70101,15 +70163,29 @@
       "method": "keyword",
       "fit_score": 0,
       "fit_matches": [],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "institutions": [
+        "††affiliation: Department of Applied Mechanics and Biomedical Engineering, Indian Institute of Technology Madras, Chennai, India"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Himanshu Mishra",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Anubhab Roy",
+          "institutions": [],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
       "intro_en": "We investigate the orientation dynamics of a settling spheroid in simple shear flow, combining a deterministic dynamical-systems analysis with a stochastic Fokker-Planck treatment. The dynamics is governed by competition between the Jeffery torque from the shear and the inertial torque from settling.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-04-15",
       "publication_date_source": "https://arxiv.org/abs/2604.13676v2",
+      "affiliation_source": "https://arxiv.org/html/2604.13676v2",
       "version_date": "2026-11-19T09:13:14+00:00"
     },
     {
@@ -72018,13 +72094,14 @@
       "fit_matches": [],
       "institutions": [],
       "author_affiliations": [],
-      "affiliation_status": "pending",
+      "affiliation_status": "unavailable",
       "intro_en": "The Mediterranean Sea is known for its limited tidal motions. For example, surface barotropic tidal elevations have an amplitude of about 0.1 m in the Northwestern Mediterranean.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-01-07",
       "publication_date_source": "https://arxiv.org/abs/2601.03771v2",
+      "affiliation_source": "https://arxiv.org/html/2601.03771v2",
       "version_date": "2026-11-18T09:10:30+00:00"
     },
     {
@@ -72719,14 +72796,26 @@
       "fit_score": 20,
       "fit_matches": [],
       "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "author_affiliations": [
+        {
+          "name": "Qifeng Hu",
+          "institutions": [],
+          "orcid": "https://orcid.org/0009-0002-9465-7208"
+        },
+        {
+          "name": "Inanc Senocak",
+          "institutions": [],
+          "orcid": "https://orcid.org/0000-0003-1967-7583"
+        }
+      ],
+      "affiliation_status": "unavailable",
       "intro_en": "We present a physics-constrained neural solver for incompressible flow that requires neither labeled data nor supervised pretraining. The solver enforces incompressibility and boundary conditions (BCs) to strict tolerances.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2025-11-24",
       "publication_date_source": "https://arxiv.org/abs/2511.18820v3",
+      "affiliation_source": "https://arxiv.org/html/2511.18820v3",
       "version_date": "2026-11-17T05:29:44+00:00"
     },
     {
@@ -78240,15 +78329,50 @@
       "method": "keyword",
       "fit_score": 0,
       "fit_matches": [],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "institutions": [
+        "Sonny Astani Department of Civil and Environmental Engineering, University of Southern California, Los Angeles, California",
+        "Department of Aerospace and Mechanical Engineering, University of Southern California, Los Angeles, California",
+        "Earth & Environmental Sciences Area, Lawrence Berkeley National Laboratory, Berkeley, California"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Thomas Petersen",
+          "institutions": [
+            "Sonny Astani Department of Civil and Environmental Engineering, University of Southern California, Los Angeles, California",
+            "Department of Aerospace and Mechanical Engineering, University of Southern California, Los Angeles, California"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Pouya Golchin",
+          "institutions": [
+            "Sonny Astani Department of Civil and Environmental Engineering, University of Southern California, Los Angeles, California"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Jinwoo Im",
+          "institutions": [
+            "Earth & Environmental Sciences Area, Lawrence Berkeley National Laboratory, Berkeley, California"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Felipe P. J. de Barros",
+          "institutions": [
+            "Sonny Astani Department of Civil and Environmental Engineering, University of Southern California, Los Angeles, California"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
       "intro_en": "The phase offset between surface charge modulation and geometric undulations in a corrugated nanochannel provides a tunable mechanism for rectified, diode-like ion transport under purely pressure-driven conditions: reversing the applied pressure gradient selectively activates transport of opposite ionic species, generating a net ionic current whose sign and magnitude are set by the charge-geometry alignment. Fully coupled Poisson-Nernst-Planck-Stokes simulations reveal the underlying two-regime structure: at low driving force (Regime I), throughput is suppressed below the Poiseuille limit by a localized streaming potential that pins counterio…",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2025-10-25",
       "publication_date_source": "https://arxiv.org/abs/2510.22182v4",
+      "affiliation_source": "https://arxiv.org/html/2510.22182v4",
       "version_date": "2026-11-17T07:58:56+00:00"
     },
     {
@@ -78288,15 +78412,19 @@
       "method": "keyword",
       "fit_score": 20,
       "fit_matches": [],
-      "institutions": [],
+      "institutions": [
+        "††affiliation: 1Department of Astrophysical Sciences, Princeton University, Princeton, NJ 08544, USA 2Department of Earth and Planetary Sciences, Harvard University, Cambridge, MA 02139, USA"
+      ],
       "author_affiliations": [],
-      "affiliation_status": "pending",
+      "affiliation_status": "verified",
       "intro_en": "The roll streak structure (RSS) is ubiquitous in shear flow turbulence and is fundamental to the dynamics of the self-sustaining process (SSP) maintaining the turbulent state. The formation and maintenance of the RSS in wall-bounded shear flow suggest the presence of an underlying instability that has recently been identified using statistical state dynamics (SSD).",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2025-10-22",
       "publication_date_source": "https://arxiv.org/abs/2510.19575v2",
+      "author_affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2510.19575v2",
       "version_date": "2026-11-17T12:16:20+00:00"
     },
     {
@@ -78748,15 +78876,55 @@
       "method": "keyword",
       "fit_score": 20,
       "fit_matches": [],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "institutions": [
+        "State Key Laboratory for Turbulence and Complex Systems, School of Mechanics and Engineering Science, Peking University, Beijing 100871, China",
+        "State Key Laboratory of Nonlinear Mechanics, Institute of Mechanics, Chinese Academy of Sciences, Beijing 100190, China",
+        "School of Physics, South China Normal University, Guangzhou, China",
+        "Center on Frontiers of Computing Studies, Peking University, Beijing 100871, China",
+        "School of Computer Science, Peking University, Beijing 100871, China",
+        "HEDPS-CAPT, Peking University, Beijing 100871, China"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Zhaoyuan Meng",
+          "institutions": [
+            "State Key Laboratory for Turbulence and Complex Systems, School of Mechanics and Engineering Science, Peking University, Beijing 100871, China",
+            "State Key Laboratory of Nonlinear Mechanics, Institute of Mechanics, Chinese Academy of Sciences, Beijing 100190, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Xiao-Ming Zhang",
+          "institutions": [
+            "School of Physics, South China Normal University, Guangzhou, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Xiao Yuan",
+          "institutions": [
+            "Center on Frontiers of Computing Studies, Peking University, Beijing 100871, China",
+            "School of Computer Science, Peking University, Beijing 100871, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Yue Yang",
+          "institutions": [
+            "State Key Laboratory for Turbulence and Complex Systems, School of Mechanics and Engineering Science, Peking University, Beijing 100871, China",
+            "HEDPS-CAPT, Peking University, Beijing 100871, China"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
       "intro_en": "Simulating multiscale turbulence in engineering remains challenging. Any quantum advantage for such simulations requires efficient initial-state preparation.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2025-08-07",
       "publication_date_source": "https://arxiv.org/abs/2508.05346v4",
+      "affiliation_source": "https://arxiv.org/html/2508.05346v4",
       "version_date": "2026-11-17T13:05:02+00:00"
     },
     {
@@ -79829,15 +79997,55 @@
       "method": "keyword",
       "fit_score": 0,
       "fit_matches": [],
-      "institutions": [],
-      "author_affiliations": [],
-      "affiliation_status": "pending",
+      "institutions": [
+        "CAPS Laboratory, Department of Mechanical and Process Engineering, ETH Zürich, 8092 Zürich, Switzerland",
+        "CERFACS, 42 avenue Gaspard Coriolis, 31057 Toulouse, France"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Quentin Malé",
+          "institutions": [
+            "CAPS Laboratory, Department of Mechanical and Process Engineering, ETH Zürich, 8092 Zürich, Switzerland"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Nicolas Barléon",
+          "institutions": [
+            "CERFACS, 42 avenue Gaspard Coriolis, 31057 Toulouse, France"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Sergey Shcherbanev",
+          "institutions": [
+            "CAPS Laboratory, Department of Mechanical and Process Engineering, ETH Zürich, 8092 Zürich, Switzerland"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Bayu Dharmaputra",
+          "institutions": [
+            "CAPS Laboratory, Department of Mechanical and Process Engineering, ETH Zürich, 8092 Zürich, Switzerland"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Nicolas Noiray",
+          "institutions": [
+            "CAPS Laboratory, Department of Mechanical and Process Engineering, ETH Zürich, 8092 Zürich, Switzerland"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
       "intro_en": "Plasma Assisted Combustion (PAC) is a promising technology to enhance the combustion of lean mixtures prone to instabilities and flame blow-off. Although many PAC experiments demonstrated combustion enhancement, several studies report an increase in NOx emissions.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2023-06-27",
       "publication_date_source": "https://arxiv.org/abs/2306.15539v2",
+      "affiliation_source": "https://arxiv.org/html/2306.15539v2",
       "version_date": "2026-11-18T15:01:46+00:00"
     },
     {
