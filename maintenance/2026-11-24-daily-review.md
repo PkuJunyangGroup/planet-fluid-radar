@@ -1,0 +1,13 @@
+# November 24 daily review (Asia/Shanghai)
+
+Cloud-only review following delayed [scheduled run 45378993409](https://github.com/PkuJunyangGroup/planet-fluid-radar/actions/runs/45378993409), 18:53–19:06 Beijing. The job passed 96 tests; fetched all 24 enabled sources without an actual source failure; saved the results as 50d5759 and published Pages. Source counts: arXiv categories returned 11/7/4/19 (36 unique new raw records across the archives); 19 Crossref journals (33 new raw records); Exoplanet.eu inspected 34 recent entries across three pages, no relevant additions. No repeated fetch or one-year fallback.
+
+Full source English abstracts reviewed for all seven automatically public entrants. Kept three: arXiv 2611.31181 (temperate exoplanet atmospheric characterization priorities), 2611.31057 (cold-giant masses and orbits from astrometry + Doppler), 2611.30855 (eccentric warm-Jupiter spin-orbit tides). Two were first submitted November 24 Beijing and the third November 23 Beijing. Site first_seen for all three is November 24 18:53:26 Beijing. No claims of formal journal publication for arXiv preprints.
+
+Excluded four public entrants by source-scoped overrides: pure disk volatile chemistry (2605.31091), disk kinematics and indirect third-planet conjecture (2609.05230), stellar age inference from brown-dwarf companions (2611.30451), and the journal version of formally excluded HOPS-68 protostellar disk chemistry (10.3847/2041-8213/aebc81, linked to 2611.04557). The DOI manifestation had resurfaced because a candidate merged variant can make the public group a candidate. Keep both source archive manifestations and first_seen, without changing global matching rules. Also read the Mars instrument cross-calibration and two small-body arXiv boundary abstracts; no admission.
+
+Historical change: 2611.24615 gas-giant accretion shocks updated to v3 on November 23 Beijing, first_seen November 19 unchanged. Its original updated English abstract remains in scope. This is not a new admission.
+
+Expected final after corrective deployment: 269 works, 3 net new, no deletions relative to November 23. No site/front-end code changes; no synthetic abstract replacements.
+
+Journal audit: 33 archive additions, including older backfills; new/near-date relevant boundary entries reviewed without finding a new in-scope journal addition. Historically pending Mars deep-mantle EPSL DOI 10.1016/j.epsl.2026.120474 has no new original abstract or exact online date in the source archive. Do not count a metadata-deposit date as publication. Three historical non-standard entries' absent abstract status unchanged.
