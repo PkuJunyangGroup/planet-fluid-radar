@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-11-24T10:53:26.122067+00:00",
+  "generated_at": "2026-11-25T09:49:28.728614+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
-      "last_attempt": "2026-11-24T10:53:26.122067+00:00",
-      "last_success": "2026-11-24T10:53:26.122067+00:00",
+      "last_attempt": "2026-11-25T09:49:28.728614+00:00",
+      "last_success": "2026-11-25T09:49:28.728614+00:00",
       "status": "ok",
-      "fetched": 11
+      "fetched": 3
     },
     "physics.ao-ph": {
-      "last_attempt": "2026-11-24T10:53:26.122067+00:00",
-      "last_success": "2026-11-24T10:53:26.122067+00:00",
+      "last_attempt": "2026-11-25T09:49:28.728614+00:00",
+      "last_success": "2026-11-25T09:49:28.728614+00:00",
       "status": "ok",
-      "fetched": 7
+      "fetched": 3
     },
     "physics.geo-ph": {
-      "last_attempt": "2026-11-24T10:53:26.122067+00:00",
-      "last_success": "2026-11-24T10:53:26.122067+00:00",
+      "last_attempt": "2026-11-25T09:49:28.728614+00:00",
+      "last_success": "2026-11-25T09:49:28.728614+00:00",
       "status": "ok",
-      "fetched": 4
+      "fetched": 2
     },
     "physics.flu-dyn": {
-      "last_attempt": "2026-11-24T10:53:26.122067+00:00",
-      "last_success": "2026-11-24T10:53:26.122067+00:00",
+      "last_attempt": "2026-11-25T09:49:28.728614+00:00",
+      "last_success": "2026-11-25T09:49:28.728614+00:00",
       "status": "ok",
-      "fetched": 19
+      "fetched": 9
     }
   },
   "topics": [
@@ -813,6 +813,706 @@
   ],
   "repository": "https://github.com/PkuJunyangGroup/planet-fluid-radar",
   "papers": [
+    {
+      "id": "2611.33103",
+      "version_id": "2611.33103v1",
+      "title": "Self-arresting vortex rearrangements in pinned spinning-down superfluids",
+      "abstract": "Superfluids, in a spinning-down container with pinning centres, exhibit sudden collective migration of quantized vortices. The onset, progress, and termination of this process remain poorly understood. Here, we show that: 1) the first exodus of vortices occurs when a sector of the vortex array, having a minimum opening angle, is vacated close to the wall; 2) driven by this exodus, the superfluid flow near the boundary continually decreases in strength and arrests the exit; and 3) the resultant depletion region has well-defined dimensions---governed primarily by the critical unpinning velocity, the container size, and the initial rotation rate---that limit the angular momentum transferred to the container. We conclude by discussing the relevance to pulsar glitches.",
+      "published": "2026-11-24T18:38:23Z",
+      "updated": "2026-11-24T18:38:23Z",
+      "authors": [
+        "Anantharaman Sekharipuram Viswanathan",
+        "Dipankar Bhattacharya"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.HE",
+        "cond-mat.quant-gas",
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2611.33103",
+      "pdf": "https://arxiv.org/pdf/2611.33103v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-25T09:49:28.728614+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "环流与波动 · Circulation & waves"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Department of Physics, Ashoka University, Sonipat, 131029, India"
+      ],
+      "author_affiliations": [
+        {
+          "name": "S V Anantharaman",
+          "institutions": [
+            "Department of Physics, Ashoka University, Sonipat, 131029, India"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Dipankar Bhattacharya",
+          "institutions": [
+            "Department of Physics, Ashoka University, Sonipat, 131029, India"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.33103v1",
+      "intro_en": "Superfluids, in a spinning-down container with pinning centres, exhibit sudden collective migration of quantized vortices. The onset, progress, and termination of this process remain poorly understood.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-25",
+      "publication_date_source": "https://arxiv.org/abs/2611.33103v1",
+      "version_date": "2026-11-24T18:38:23+00:00"
+    },
+    {
+      "id": "2611.33049",
+      "version_id": "2611.33049v1",
+      "title": "Nonlinear non-modal stability and minimal perturbations in electroconvection driven by unipolar injection",
+      "abstract": "Electroconvection in a dielectric liquid subjected to unipolar charge injection is subcritical. Convection can be sustained well below the threshold of linear stability theory, and experiments report onset far below it. We use nonlinear non-modal optimization to determine the smallest charge perturbations that trigger convection below the linear threshold. The method, based on a direct--adjoint formulation of the full electrohydrodynamic equations, recovers the classical linear threshold in the limit of small amplitudes. At finite amplitude, the most dangerous perturbations are localized charge deficits rather than excesses, because a deficit relaxes more slowly under Coulomb repulsion. The minimal perturbation needed for transition grows from about 0.5% of the injected charge near the linear threshold to 3% at two thirds of it, where the convective branch ends, in agreement with direct numerical simulations. Near the critical amplitude, trajectories approach an unstable steady state, the edge state, that separates the basins of attraction of rest and convection and originates from the critical linear mode. The damped oscillatory modes involved in the growth of the optimal perturbations are transit-time modes of the ion drift. The convective mode is the first of them, made stationary by the coupling with the flow, which explains why the instability sets in as a steady motion. Small charge fluctuations can therefore lower the onset of electroconvection to about two thirds of the linear threshold, helping to explain the discrepancy between linear theory and experiments.",
+      "published": "2026-11-24T17:55:06Z",
+      "updated": "2026-11-24T17:55:06Z",
+      "authors": [
+        "Pedro A. Vázquez",
+        "A. T. Pérez"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2611.33049",
+      "pdf": "https://arxiv.org/pdf/2611.33049v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-25T09:49:28.728614+00:00",
+      "version_changed": false,
+      "topics": [
+        "methods"
+      ],
+      "matches": {
+        "methods": [
+          "direct numerical simulation"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "流体与不稳定性 · Fluid dynamics",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 20,
+      "fit_matches": [],
+      "institutions": [
+        "Department of Applied Physics III, ETSI, Universidad de Sevilla, Camino de los Descubrimientos s/n, 41092 Sevilla, Spain",
+        "Department of Electronics and Electromagnetism, Faculty of Physics, Universidad de Sevilla, Avda. Reina Mercedes s/n, 41012 Sevilla, Spain"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Pedro A. Vázquez",
+          "institutions": [
+            "Department of Applied Physics III, ETSI, Universidad de Sevilla, Camino de los Descubrimientos s/n, 41092 Sevilla, Spain"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "A. T. Pérez",
+          "institutions": [
+            "Department of Electronics and Electromagnetism, Faculty of Physics, Universidad de Sevilla, Avda. Reina Mercedes s/n, 41012 Sevilla, Spain"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.33049v1",
+      "intro_en": "Electroconvection in a dielectric liquid subjected to unipolar charge injection is subcritical. Convection can be sustained well below the threshold of linear stability theory, and experiments report onset far below it.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-25",
+      "publication_date_source": "https://arxiv.org/abs/2611.33049v1",
+      "version_date": "2026-11-24T17:55:06+00:00"
+    },
+    {
+      "id": "2611.32968",
+      "version_id": "2611.32968v1",
+      "title": "Quantum-Inspired Tensor Train Spectral Solver for High-Resolution PDEs with Non-Periodic Boundary Conditions",
+      "abstract": "Tensor train (TT) methods enable high-resolution computational mechanics simulations by exploiting low-rank structure in discretized fields and operators. While the superfast Fourier transform (SFFT) has enabled efficient TT-based spectral solvers for periodic problems, corresponding representations for non-periodic boundary conditions remain underexplored. We introduce the superfast cosine and sine transforms (SFCT and SFST), extending the TT spectral framework to homogeneous Neumann and Dirichlet boundary conditions, respectively. Building on a quantum-circuit construction of the discrete cosine and sine transforms, we derive both transforms from a shared TT operator representation and prove that their TT ranks are bounded by $6r_S$, independently of the discretization order, where $r_S$ is the rank of the SFFT at the prescribed accuracy. The measured ranks plateau near 32 for grid sizes up to $2^{26}$ points. For Rayleigh-Bénard convection, spectral pressure projection achieves up to a 7-fold speedup in the Poisson solve relative to a preconditioned physical-space TT solver while maintaining comparable accuracy. Three-dimensional computational homogenization achieves a 2-6-fold speedup and a 4-7-fold reduction in memory consumption compared with the existing TT-based approach. The results establish an efficient TT framework for spectral PDE solvers with non-periodic boundary conditions.",
+      "published": "2026-11-24T17:05:00Z",
+      "updated": "2026-11-24T17:05:00Z",
+      "authors": [
+        "Sascha H. Hauck",
+        "Nis-Luca van Hülst",
+        "Matthias Kabel",
+        "Dieter Jaksch",
+        "Nicolas R. Gauger"
+      ],
+      "doi": "",
+      "categories": [
+        "math.NA",
+        "cond-mat.mtrl-sci",
+        "cs.CE",
+        "physics.flu-dyn",
+        "quant-ph"
+      ],
+      "url": "https://arxiv.org/abs/2611.32968",
+      "pdf": "https://arxiv.org/pdf/2611.32968v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-25T09:49:28.728614+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "流体与不稳定性 · Fluid dynamics",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "organization=Fraunhofer ITWM, addressline=Department of Flow and Material Simulation, city=Kaiserslautern, postcode=67663, state=Rhineland Palatinate, country=Germany",
+        "organization=University of Kaiserslautern-Landau (RPTU), addressline=Chair for Scientific Computing, city=Kaiserslautern, postcode=67663, state=Rhineland Palatinate, country=Germany",
+        "organization=University of Hamburg, addressline=Institute for Quantum Physics, city=Hamburg, postcode=20146, state=Hamburg, country=Germany",
+        "organization=University of Oxford, addressline=Clarendon Laboratory, Parks Road, city=Oxford, postcode=OX1 3PU, country=United Kingdom"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Sascha H. Hauck",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Nis-Luca van Hülst",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Matthias Kabel",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Dieter Jaksch",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Nicolas R. Gauger",
+          "institutions": [
+            "organization=Fraunhofer ITWM, addressline=Department of Flow and Material Simulation, city=Kaiserslautern, postcode=67663, state=Rhineland Palatinate, country=Germany",
+            "organization=University of Kaiserslautern-Landau (RPTU), addressline=Chair for Scientific Computing, city=Kaiserslautern, postcode=67663, state=Rhineland Palatinate, country=Germany",
+            "organization=University of Hamburg, addressline=Institute for Quantum Physics, city=Hamburg, postcode=20146, state=Hamburg, country=Germany",
+            "organization=University of Oxford, addressline=Clarendon Laboratory, Parks Road, city=Oxford, postcode=OX1 3PU, country=United Kingdom"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.32968v1",
+      "intro_en": "Tensor train (TT) methods enable high-resolution computational mechanics simulations by exploiting low-rank structure in discretized fields and operators. While the superfast Fourier transform (SFFT) has enabled efficient TT-based spectral solvers for periodic problems, corresponding representations for non-periodic boundary conditions remain underexplored.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-25",
+      "publication_date_source": "https://arxiv.org/abs/2611.32968v1",
+      "version_date": "2026-11-24T17:05:00+00:00"
+    },
+    {
+      "id": "2611.32950",
+      "version_id": "2611.32950v1",
+      "title": "A comparative analysis of the presence of haze in sub-Neptunes observed with JWST",
+      "abstract": "Photochemical hazes have been proposed to explain the diversity of sub-Neptune transmission spectra, with early HST observations suggesting a temperature-dependent trend in aerosol opacity. However, JWST observations reveal a more heterogeneous picture. Here, we perform a consistent atmospheric retrieval analysis of eight moderately irradiated JWST-observed sub-Neptunes, LP 791-18 c, TOI-1231 b, TOI-732 c, TOI-270 d, GJ 1214 b, GJ 9827 d, GJ 3090 b, and TOI-421 b, using experimentally derived haze optical properties. We compare haze-free models with two experimentally haze analogues to assess haze evidence and spectral signatures. We find significant evidence for haze in LP 791-18 c, TOI-732 c and GJ 3090 b, while LP 791-18 c and GJ 3090 b evidences may be biased by TLS. Haze-favored solutions are primarily driven by short-wavelength spectral slope rather than characteristic infrared absorption features of the experimental analogues, except for TOI-732 c. We find no clear correlation between retrieved CH4 abundance and haze preference, suggesting that haze formation also depends on atmospheric composition and photochemical conditions. For TOI-270 d, the inferred haze properties vary with the MIRI inter-instrument offset and temperature parameterization without yielding significant evidence for haze, highlighting multidimensional retrieval degeneracies. Overall, our results do not support a ubiquitous haze trend across the JWST sub-Neptune sample, but rather a heterogeneous picture that could nevertheless evolve toward the HST trend with improved characterization of the host stars, more accurate TLS corrections and accounting for different haze types. Broader experimental haze measurements and multi-wavelength observations, including phase curves, will be essential to disentangle atmospheric aerosols from stellar contamination and other retrieval degeneracies.",
+      "published": "2026-11-24T16:53:03Z",
+      "updated": "2026-11-24T16:53:03Z",
+      "authors": [
+        "A. Y. Jaziri",
+        "T. Drant",
+        "M. Turbet"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2611.32950",
+      "pdf": "https://arxiv.org/pdf/2611.32950v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-25T09:49:28.728614+00:00",
+      "version_changed": false,
+      "topics": [
+        "planetary",
+        "chemistry",
+        "detection"
+      ],
+      "matches": {
+        "planetary": [
+          "sub neptune"
+        ],
+        "chemistry": [
+          "photochemical",
+          "haze formation"
+        ],
+        "detection": [
+          "transmission spectra",
+          "phase curve"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：sub neptune、photochemical、haze formation、transmission spectra、phase curve",
+      "tags": [
+        "光谱与相曲线 · Spectra & phase curves",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 61,
+      "fit_matches": [
+        "系外行星观测表征"
+      ],
+      "institutions": [
+        "LATMOS/IPSL, UVSQ Université Paris-Saclay, Sorbonne Université, CNRS, Guyancourt, France",
+        "Laboratoire d’astrophysique de Bordeaux, Univ. Bordeaux, CNRS, B18N, allée Geoffroy Saint-Hilaire, 33615 Pessac, France",
+        "ETH University, Center for Origin and Prevalence of Life, Department of Earth and Planetary Sciences, 8092 Zurich, Switzerland.",
+        "Laboratoire de Météorologie Dynamique/IPSL, CNRS, Sorbonne Université, Ecole Normale Supérieure, PSL Research University, Ecole Polytechnique, 75005 Paris, France"
+      ],
+      "author_affiliations": [
+        {
+          "name": "A. Y. Jaziri",
+          "institutions": [
+            "LATMOS/IPSL, UVSQ Université Paris-Saclay, Sorbonne Université, CNRS, Guyancourt, France",
+            "Laboratoire d’astrophysique de Bordeaux, Univ. Bordeaux, CNRS, B18N, allée Geoffroy Saint-Hilaire, 33615 Pessac, France"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "T. Drant",
+          "institutions": [
+            "ETH University, Center for Origin and Prevalence of Life, Department of Earth and Planetary Sciences, 8092 Zurich, Switzerland."
+          ],
+          "orcid": null
+        },
+        {
+          "name": "M. Turbet",
+          "institutions": [
+            "Laboratoire d’astrophysique de Bordeaux, Univ. Bordeaux, CNRS, B18N, allée Geoffroy Saint-Hilaire, 33615 Pessac, France",
+            "Laboratoire de Météorologie Dynamique/IPSL, CNRS, Sorbonne Université, Ecole Normale Supérieure, PSL Research University, Ecole Polytechnique, 75005 Paris, France"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.32950v1",
+      "intro_en": "Photochemical hazes have been proposed to explain the diversity of sub-Neptune transmission spectra, with early HST observations suggesting a temperature-dependent trend in aerosol opacity. However, JWST observations reveal a more heterogeneous picture.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-25",
+      "publication_date_source": "https://arxiv.org/abs/2611.32950v1",
+      "version_date": "2026-11-24T16:53:03+00:00"
+    },
+    {
+      "id": "2611.32831",
+      "version_id": "2611.32831v1",
+      "title": "CORALIE Radial Velocity Search for Companions around Evolved Stars (CASCADES) VI. Revised masses and homogeneous estimation of the stellar parameters of 583 red giants",
+      "abstract": "Giant-star radial-velocity surveys allow us to study how the exoplanet population varies with stellar mass and evolution. However, obtaining accurate estimates of stellar masses for such stars is challenging, as methods like isochrone fitting are prone to large errors due to the degeneracy associated with the closeness of isochrones. We provide a homogeneous re-derivation of the stellar parameters of the CASCADES giant-star survey. This includes parameters obtained from spectral energy distribution fitting, as well as an update of the stellar masses using asteroseismology. We use TESS light curves to measure the frequency of maximum oscillation power, $ν_{\\rm max}$, for all the stars when applicable. We re-extract the stellar radii of the survey by fitting broadband photometry with ARIADNE, a spectral energy distribution (SED) fitting package, using priors from spectroscopy for the effective temperature, metallicity and $\\log g$. By using scaling relations, we compute revised estimates of the stellar masses of targets with a $ν_{\\rm max}$ measurement. We obtain new estimates of mass for 583 out of the 640 stars of the survey. These revised masses are typically 15 to 20% lower (median difference of $-0.35\\,M_\\odot$) than the ones obtained by isochrone fitting, in particular for low-metallicity stars for which this effect is stronger. These new masses impact the overall mass distribution of the sample, whose median decreases from $2.11\\,M_\\odot$ to $1.65\\,M_\\odot$. These revised masses provide the basis for future occurrence-rate analyses aiming to study the link between host-star mass and planet occurrence. They also highlight the uncertainties associated with the determination of masses for evolved stars.",
+      "published": "2026-11-24T15:47:54Z",
+      "updated": "2026-11-24T15:47:54Z",
+      "authors": [
+        "Emile Fontanet",
+        "Stéphane Udry",
+        "Damien Ségransan",
+        "Patrick Eggenberger",
+        "Pedro Figueira",
+        "João P. Faria"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP",
+        "astro-ph.SR"
+      ],
+      "url": "https://arxiv.org/abs/2611.32831",
+      "pdf": "https://arxiv.org/pdf/2611.32831v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-25T09:49:28.728614+00:00",
+      "version_changed": false,
+      "topics": [
+        "detection"
+      ],
+      "matches": {
+        "detection": [
+          "radial velocity"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：radial velocity",
+      "tags": [
+        "光谱与相曲线 · Spectra & phase curves"
+      ],
+      "method": "keyword",
+      "fit_score": 36,
+      "fit_matches": [],
+      "author_affiliation_status": "unavailable",
+      "institutions": [
+        "Observatoire Astronomique de l’Université de Genève, Chemin Pegasi 51b, 1290 Versoix, Switzerland",
+        "Instituto de Astrofísica de Andalucía-CSIC, Glorieta de la Astronomía s/n, 18008 Granada, Spain"
+      ],
+      "author_affiliations": [],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.32831v1",
+      "intro_en": "Giant-star radial-velocity surveys allow us to study how the exoplanet population varies with stellar mass and evolution. However, obtaining accurate estimates of stellar masses for such stars is challenging, as methods like isochrone fitting are prone to large errors due to the degeneracy associated with the closeness of isochrones.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-24",
+      "publication_date_source": "https://arxiv.org/abs/2611.32831v1",
+      "version_date": "2026-11-24T15:47:54+00:00"
+    },
+    {
+      "id": "2611.32787",
+      "version_id": "2611.32787v1",
+      "title": "Dynamical conditions for tilting Neptune during planetary migration",
+      "abstract": "Giant planets are expected to form with near-zero obliquities, so that their current tilts must be the result of some post-formation processes. Capture into spin-orbit resonances has been shown to provide a viable mechanism for explaining the current obliquities of Jupiter, Saturn, and Uranus. We aim to determine whether specific configurations of a primordial satellite system of Neptune could have enabled the tilting of its spin axis during planetary migration. We modeled Neptune's secular spin-axis dynamics, including the presence of a primordial satellite system that enhanced the planet's precession constant. We numerically explored the conditions on the primordial satellite system that could trigger a spin-orbit resonance. We identified an open set in the parameter space that led to a successful tilting of Neptune. In particular, the total mass of the primordial system must have been $\\geq 4\\times 10^{-4}\\,M_N$. A representative configuration consists of an inner satellite of mass $5\\times 10 ^{-5}\\,M_N$ and semi-major axis $35\\,R_N$, and an outer satellite of mass $3.5\\times 10 ^{-4}\\,M_N$ and semi-major axis $100\\,R_N$. Such a system could have survived during the unstable phase of the planetary migration if the gravitational encounters between Neptune and Uranus were not too close. The eventual ejection of the outer moon, possibly due to the encounter with a planetesimal, froze Neptune's obliquity to its current value. Neptune's current obliquity can be attained during planetary migration if the planet initially possessed a satellite system with a suitable architecture. The required satellite properties are not far from theoretical predictions and are consistent with recent scenarios proposed for the tilting of Uranus. Once the outer moon was ejected, the system matched a configuration suitable for the following capture of Triton and its fast evolution toward its current orbit.",
+      "published": "2026-11-24T15:14:51Z",
+      "updated": "2026-11-24T15:14:51Z",
+      "authors": [
+        "Andrea Moretti",
+        "Giacomo Lari"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2611.32787",
+      "pdf": "https://arxiv.org/pdf/2611.32787v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-25T09:49:28.728614+00:00",
+      "version_changed": false,
+      "topics": [
+        "orbital",
+        "evolution"
+      ],
+      "matches": {
+        "orbital": [
+          "planetary migration",
+          "spin-orbit resonance"
+        ],
+        "evolution": [
+          "planetesimal"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：planetary migration、spin-orbit resonance、planetesimal",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 52,
+      "fit_matches": [
+        "行星轨道与演化"
+      ],
+      "institutions": [
+        "LTE, CNRS, Observatoire de Paris, PSL University, Sorbonne Université, 77 Avenue Denfert-Rochereau, 75014 Paris, France",
+        "Department of Mathematics, University of Pisa, Largo Bruno Pontecorvo 5, 56127 Pisa, Italy"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Andrea Moretti",
+          "institutions": [
+            "LTE, CNRS, Observatoire de Paris, PSL University, Sorbonne Université, 77 Avenue Denfert-Rochereau, 75014 Paris, France",
+            "Department of Mathematics, University of Pisa, Largo Bruno Pontecorvo 5, 56127 Pisa, Italy"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Giacomo Lari",
+          "institutions": [
+            "Department of Mathematics, University of Pisa, Largo Bruno Pontecorvo 5, 56127 Pisa, Italy"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.32787v1",
+      "intro_en": "Giant planets are expected to form with near-zero obliquities, so that their current tilts must be the result of some post-formation processes. Capture into spin-orbit resonances has been shown to provide a viable mechanism for explaining the current obliquities of Jupiter, Saturn, and Uranus.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-24",
+      "publication_date_source": "https://arxiv.org/abs/2611.32787v1",
+      "version_date": "2026-11-24T15:14:51+00:00"
+    },
+    {
+      "id": "2611.32737",
+      "version_id": "2611.32737v1",
+      "title": "Impact of Taylor-Aris dispersion on chemical patterns in confined channel flows",
+      "abstract": "Chemical patterns form through non-linear interactions between different species. We study how confined channel flows affect pattern formation using the Brusselator as a paradigmatic activator-inhibitor model. An invariant-manifold method for slender channels reduces the advection-diffusion-reaction equation to one spatial dimension, with species transported at the mean flow velocity and molecular diffusivities replaced by the classical Taylor-Aris dispersion coefficients. We obtain the phase diagram as a function of the Péclet number (i.e., the relative strength of advection to diffusion), the channel slenderness, and the diffusivity ratio of the species. Our analytical results demonstrate that the classical Turing criterion can become inverted at large Péclet numbers and, thus, channel flow can trigger pattern formation even when the molecular diffusivities violate the classical Turing condition, and conversely destroy pre-existing patterns. Both predictions are confirmed by direct numerical simulations, which show advected stripe patterns, whose wavelength can be predicted by our reduced theory, as well as oscillatory dynamics. These findings highlight that hydrodynamic flows can modify chemical mixing and thereby profoundly affect pattern formation in channel geometries.",
+      "published": "2026-11-24T14:53:00Z",
+      "updated": "2026-11-24T14:53:00Z",
+      "authors": [
+        "Yanis Baouche",
+        "Ramita Mondal",
+        "Christina Kurzthaler"
+      ],
+      "doi": "",
+      "categories": [
+        "cond-mat.soft",
+        "physics.bio-ph",
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2611.32737",
+      "pdf": "https://arxiv.org/pdf/2611.32737v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-25T09:49:28.728614+00:00",
+      "version_changed": false,
+      "topics": [
+        "methods"
+      ],
+      "matches": {
+        "methods": [
+          "direct numerical simulation"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 20,
+      "fit_matches": [],
+      "institutions": [
+        "Max-Planck-Institut für Physik komplexer Systeme, Nöthnitzer Straße 38, 01187 Dresden, Germany",
+        "School of Mathematics, Fry Building, University of Bristol, BS8 1UG, UK",
+        "Center for Systems Biology Dresden, Pfotenhauerstraße 108, 01307 Dresden, Germany",
+        "Cluster of Excellence, Physics of Life, TU Dresden, Arnoldstraße 18, 01062 Dresden, Germany"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Yanis Baouche",
+          "institutions": [
+            "Max-Planck-Institut für Physik komplexer Systeme, Nöthnitzer Straße 38, 01187 Dresden, Germany"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Ramita Mondal",
+          "institutions": [
+            "Max-Planck-Institut für Physik komplexer Systeme, Nöthnitzer Straße 38, 01187 Dresden, Germany",
+            "School of Mathematics, Fry Building, University of Bristol, BS8 1UG, UK"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Christina Kurzthaler",
+          "institutions": [
+            "Max-Planck-Institut für Physik komplexer Systeme, Nöthnitzer Straße 38, 01187 Dresden, Germany",
+            "Center for Systems Biology Dresden, Pfotenhauerstraße 108, 01307 Dresden, Germany",
+            "Cluster of Excellence, Physics of Life, TU Dresden, Arnoldstraße 18, 01062 Dresden, Germany"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.32737v1",
+      "intro_en": "Chemical patterns form through non-linear interactions between different species. We study how confined channel flows affect pattern formation using the Brusselator as a paradigmatic activator-inhibitor model.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-24",
+      "publication_date_source": "https://arxiv.org/abs/2611.32737v1",
+      "version_date": "2026-11-24T14:53:00+00:00"
+    },
+    {
+      "id": "2611.32703",
+      "version_id": "2611.32703v1",
+      "title": "Effect of humidity and phase transition on turbulent diffusion of droplets and water vapour in atmospheric turbulent flows",
+      "abstract": "We investigate the effect of humidity on turbulent diffusion of droplets and water vapour in atmospheric turbulent flows taking into account the effect of phase transitions on turbulent transport. We find that the coefficients of turbulent diffusion of droplets and water vapour decrease with increase the turbulent Damköhler number (the ratio of turbulent time in the integral scale and phase transition time for condensation of water vapour), while the coefficients of the mutual turbulent diffusion that describe the turbulent cross effects increase with this parameter. For large turbulent Damköhler number, the coefficient of turbulent diffusion of droplets is strongly depleted when the evaporation of droplets is much faster than the condensation of water vapour. The obtained theoretical relationships are potentially useful in modelling applications in the atmospheric turbulence.",
+      "published": "2026-11-24T14:32:13Z",
+      "updated": "2026-11-24T14:32:13Z",
+      "authors": [
+        "I. Rogachevskii",
+        "N. Kleeorin"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn",
+        "physics.ao-ph",
+        "physics.geo-ph"
+      ],
+      "url": "https://arxiv.org/abs/2611.32703",
+      "pdf": "https://arxiv.org/pdf/2611.32703v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-25T09:49:28.728614+00:00",
+      "version_changed": false,
+      "topics": [
+        "physics",
+        "methods"
+      ],
+      "matches": {
+        "physics": [
+          "condensation"
+        ],
+        "methods": [
+          "turbulence"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "水循环 · Water cycle",
+        "流体与不稳定性 · Fluid dynamics"
+      ],
+      "method": "keyword",
+      "fit_score": 32,
+      "fit_matches": [],
+      "author_affiliation_status": "unavailable",
+      "institutions": [
+        "1Department of Mechanical Engineering, Ben-Gurion University of the Negev, Beer-Sheva 8410530, Israel 2IZMIRAN, Troitsk, 108840 Moscow Region, Russia"
+      ],
+      "author_affiliations": [],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.32703v1",
+      "intro_en": "We investigate the effect of humidity on turbulent diffusion of droplets and water vapour in atmospheric turbulent flows taking into account the effect of phase transitions on turbulent transport. We find that the coefficients of turbulent diffusion of droplets and water vapour decrease with increase the turbulent Damköhler number (the ratio of turbulent time in the integral scale and phase transition time for condensation of water vapour), while the coefficients of the mutual turbulent diffusion that describe the turbulent cross effects increase with this parameter.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-24",
+      "publication_date_source": "https://arxiv.org/abs/2611.32703v1",
+      "version_date": "2026-11-24T14:32:13+00:00"
+    },
+    {
+      "id": "2611.32596",
+      "version_id": "2611.32596v1",
+      "title": "Emergent cloud patterns from stochastic jump models of parcel microphysics",
+      "abstract": "Warm clouds organize into bands, cells, and intricate wave networks, yet the dynamical mechanisms connecting these forms remain difficult to isolate. To bridge unresolved parcel microphysics and cloud organization, we formulate a spatial jump-process model of cloud-water and rain-water anomalies in an activated regime and analyze its mean-field closure. Eliminating fast supersaturation adjustment from droplet growth and vapor transport supplies a screened environmental kernel, which we couple to a cubic Stuart-Landau oscillatory law. Averaging over Poisson parcel episodes and closing third-order moments yields a pseudoparabolic Ginzburg--Landau equation (PGLE), whose mixed space--time derivative encodes dynamic inertia, slowing fine-scale relaxation. Unlike diffusive amplitude equations, the PGLE splits into a regularized nonlinear Schrödinger Hamiltonian sector and a pseudoparabolic Allen--Cahn gradient sector governed by a conserved Noether charge, alongside an open-system liquid-water budget separating conversion from vapor exchange, fallout, and triad-driven domain-mean oscillations. Exact stability criteria show how dynamic inertia and amplitude-dependent frequency shifts (twist) control modulational loss of synchrony and resonant cross-carrier sideband gain above a critical twist threshold. Numerical integrations show that increasing twist transforms undulatus-like bands into defect-rich asperitas-like waves via defect proliferation, while subcritical competition consolidates cellular patterns into rolls. Even without twist, random anomalies evolve into a persistent cellular exclusion scale and actinoform-like spiral arms, while 1D wave breakup reorganizes into a two-frequency combination-tone spectrum. The jump model identifies omitted fluctuation moments for calibration against large-eddy simulations.",
+      "published": "2026-11-24T13:32:24Z",
+      "updated": "2026-11-24T13:32:24Z",
+      "authors": [
+        "Mickaël D. Chekroun",
+        "Ilan Koren",
+        "Honghu Liu"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn",
+        "math-ph",
+        "nlin.PS"
+      ],
+      "url": "https://arxiv.org/abs/2611.32596",
+      "pdf": "https://arxiv.org/pdf/2611.32596v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-25T09:49:28.728614+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "云与辐射 · Clouds & radiation",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Department of Atmospheric & Oceanic Sciences, University of California, Los Angeles, CA 90095-1565, USA",
+        "Department of Earth and Planetary Sciences, Weizmann Institute of Science, Rehovot 76100, Israel",
+        "Department of Mathematics, Virginia Tech, Blacksburg, VA 24061, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Mickaël D. Chekroun",
+          "institutions": [
+            "Department of Atmospheric & Oceanic Sciences, University of California, Los Angeles, CA 90095-1565, USA",
+            "Department of Earth and Planetary Sciences, Weizmann Institute of Science, Rehovot 76100, Israel"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Ilan Koren",
+          "institutions": [
+            "Department of Earth and Planetary Sciences, Weizmann Institute of Science, Rehovot 76100, Israel"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Honghu Liu",
+          "institutions": [
+            "Department of Mathematics, Virginia Tech, Blacksburg, VA 24061, USA"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.32596v1",
+      "intro_en": "Warm clouds organize into bands, cells, and intricate wave networks, yet the dynamical mechanisms connecting these forms remain difficult to isolate. To bridge unresolved parcel microphysics and cloud organization, we formulate a spatial jump-process model of cloud-water and rain-water anomalies in an activated regime and analyze its mean-field closure.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-24",
+      "publication_date_source": "https://arxiv.org/abs/2611.32596v1",
+      "version_date": "2026-11-24T13:32:24+00:00"
+    },
+    {
+      "id": "2611.32589",
+      "version_id": "2611.32589v1",
+      "title": "A consistent generalised kinetic equation for damped ocean waves",
+      "abstract": "Contemporary spectral wave models, including those used in operational wave forecasts and in coupled earth system models, assume damping and non-linear wave energy exchange to be independent. Here, we critically examine this assumption. Starting from the equations of weakly non-linear waves, we rigorously derive a governing equation that consistently couples damping and non-linear interactions. This consistent generalised kinetic equation does not lead to an appreciable change in total wave--energy dissipation, but compared to the standard additive damping approach there is a noticeable difference in the distribution of energy among the wave frequencies. This effect is particularly important for weak damping, and is a consequence of a memory effect retained in model. Even stronger differences are observed when damping is allowed to depend on wave frequency, as is characteristic of many wave processes of growing interest such as the interaction with other components of the earth system, e.g. the cryosphere. Compared to the purely additive formulation, our new damped generalised kinetic equation has improved numerical stability characteristics. The formulation presented therefore provides a possible basis for future operational wave modelling. While our results are for ocean waves, the derived generalised kinetic equation can be applied to other weakly nonlinear dispersive systems where external damping (or forcing) applies.",
+      "published": "2026-11-24T13:26:54Z",
+      "updated": "2026-11-24T13:26:54Z",
+      "authors": [
+        "Rhys Ransome",
+        "Alberto Alberello",
+        "Davide Proment",
+        "Raphael Stuhlmeier"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn",
+        "physics.ao-ph"
+      ],
+      "url": "https://arxiv.org/abs/2611.32589",
+      "pdf": "https://arxiv.org/pdf/2611.32589v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-25T09:49:28.728614+00:00",
+      "version_changed": false,
+      "topics": [
+        "cryosphere"
+      ],
+      "matches": {
+        "cryosphere": [
+          "cryosphere"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 38,
+      "fit_matches": [],
+      "author_affiliation_status": "unavailable",
+      "institutions": [
+        "††affiliation: 1 School of Engineering, Mathematics and Physics, University of East Anglia, Norwich Research Park, Norwich, NR4 7TJ, United Kingdom 2 Department of Engineering & Centre for Energy, Environment, and Sutainable Engineering, University of Huddersfield, Huddersfield, HD1 3DH, United Kingdom 3 Centre for Photonics and Quantum Science, University of East Anglia, Norwich Research Park, Norwich, NR4 7TJ, United Kingdom 4 ExtreMe Matter Institute EMMI, GSI Helmholtzzentrum fuer Schwerionenforschung, Planckstrasse 1, 64291 Darmstadt, Germany 5 Faculty of Civil & Environmental Engineering, Technion – Israel Institute of Technology, Technion City, Haifa, 3200003, Israel"
+      ],
+      "author_affiliations": [],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.32589v1",
+      "intro_en": "Contemporary spectral wave models, including those used in operational wave forecasts and in coupled earth system models, assume damping and non-linear wave energy exchange to be independent. Here, we critically examine this assumption.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-24",
+      "publication_date_source": "https://arxiv.org/abs/2611.32589v1",
+      "version_date": "2026-11-24T13:26:54+00:00"
+    },
     {
       "id": "2611.31213",
       "version_id": "2611.31213v1",
@@ -2817,13 +3517,13 @@
           "condensation"
         ]
       },
-      "status": "candidate",
-      "reason": "关联线索：condensation",
+      "status": "excluded",
+      "reason": "Reading review 2026-11-24: Complete original English abstract read. Eclipse photometry constrains brown dwarf luminosities and host M dwarf ages; no planet measurements. Keep source archive and first_seen.",
       "tags": [
         "云与辐射 · Clouds & radiation",
         "水循环 · Water cycle"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 39,
       "fit_matches": [
         "系外行星观测表征"
@@ -48016,11 +48716,11 @@
     },
     {
       "id": "2610.09898",
-      "version_id": "2610.09898v1",
-      "title": "Learning joint probabilistic weather forecasts from station observations alone",
-      "abstract": "Assessing compound weather risks requires forecasts representing dependence between variables. CLARA (Calibrated Advection-Routing Attention) learns joint Gaussian predictive distributions of five surface variables from station observations alone, without numerical weather prediction or reanalysis; the approximately 28,000-parameter model supports CPU training and prediction. Across six multi-year folds on 96 stations, its lead-mean energy score is 4.9% lower than that of a learned comparator with matched temporal inputs (4.7% with a similar parameter count) and 11-65% lower than those of statistical baselines. Holding marginal variances fixed, removing learned correlations worsens joint negative log-likelihood by 1.0-2.8 nats per station. A covariance-scale estimator, proved consistent under stated assumptions, improves short-lead calibration but over-corrects at long leads. Synthetic interventions show an attention-bias coefficient alone does not measure forecast influence. Retrained in ten regions on six continents, CLARA outperforms persistence in all 60 multi-year region-lead comparisons and a similarly sized learned model in 57 of 60.",
+      "version_id": "2610.09898v2",
+      "title": "Learning joint predictive distributions from observations with coordinate-aware covariance bounds",
+      "abstract": "Quantifying uncertainty in derived quantities requires forecasts that capture cross-variable dependence. From station observations alone, CLARA predicts the mean and full covariance of a Gaussian joint distribution in one forward pass per lead, trains on a CPU and recalibrates the covariance without altering correlations. On two nationwide Korean weather networks, ten regions on six continents and a nationwide air-quality network, CLARA outperforms learned comparators in lead-mean energy score, by 5.2-5.5% against comparably sized iTransformers with the same temporal-phase inputs on the Korean networks, with gains that persist in two held-out seasons. We prove that the same lower bound on the Cholesky diagonal admits different covariances in different output coordinates. Changing only these coordinates lowers the pressure-difference continuous ranked probability score by 40-67%, lets the learned correlations outperform a fixed correlation matrix in joint likelihood at every lead and, on an electricity grid, improves the joint likelihood with two other backbones.",
       "published": "2026-10-07T11:57:10Z",
-      "updated": "2026-10-07T11:57:10Z",
+      "updated": "2026-11-24T13:08:14Z",
       "authors": [
         "Chaeyeon Yi",
         "Yun Am Seo"
@@ -48032,32 +48732,29 @@
         "physics.ao-ph"
       ],
       "url": "https://arxiv.org/abs/2610.09898",
-      "pdf": "https://arxiv.org/pdf/2610.09898v1",
+      "pdf": "https://arxiv.org/pdf/2610.09898v2",
       "source": "arXiv",
       "first_seen": "2026-10-08T01:28:21.610616+00:00",
-      "version_changed": false,
+      "version_changed": true,
       "topics": [],
       "matches": {},
-      "status": "unmatched",
-      "reason": "拓展阅读",
-      "tags": [
-        "海冰与表层 · Ice & surface",
-        "反演与数值方法 · Inverse & numerical methods"
-      ],
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [],
       "method": "keyword",
       "fit_score": 0,
       "fit_matches": [],
       "institutions": [],
       "author_affiliations": [],
       "affiliation_status": "unavailable",
-      "affiliation_source": "https://arxiv.org/html/2610.09898v1",
-      "intro_en": "Assessing compound weather risks requires forecasts representing dependence between variables. CLARA (Calibrated Advection-Routing Attention) learns joint Gaussian predictive distributions of five surface variables from station observations alone, without numerical weather prediction or reanalysis; the approximately 28,000-parameter model supports CPU training and prediction.",
+      "affiliation_source": "https://arxiv.org/html/2610.09898v2",
+      "intro_en": "Quantifying uncertainty in derived quantities requires forecasts that capture cross-variable dependence. From station observations alone, CLARA predicts the mean and full covariance of a Gaussian joint distribution in one forward pass per lead, trains on a CPU and recalibrates the covariance without altering correlations.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-10-07",
-      "publication_date_source": "https://arxiv.org/abs/2610.09898v1",
-      "version_date": "2026-10-07T11:57:10+00:00"
+      "publication_date_source": "https://arxiv.org/abs/2610.09898v2",
+      "version_date": "2026-11-24T13:08:14+00:00"
     },
     {
       "id": "2610.09888",
@@ -66215,10 +66912,10 @@
           "planet formation"
         ]
       },
-      "status": "candidate",
-      "reason": "关联线索：planet formation",
+      "status": "excluded",
+      "reason": "Reading review 2026-11-24: Complete original English abstract read. Models and observations concern protoplanetary disk gaps and gas kinematics. There are known planets at the gap locations, but the suggested third body is not constrained as a measured planetary orbit. Keep source archive and first_seen.",
       "tags": [],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 31,
       "fit_matches": [],
       "institutions": [
@@ -68058,6 +68755,75 @@
       "publication_date": "2026-08-01",
       "publication_date_source": "https://arxiv.org/abs/2608.00360v2",
       "version_date": "2026-10-13T23:13:10+00:00"
+    },
+    {
+      "id": "2607.29118",
+      "version_id": "2607.29118v2",
+      "title": "The linear stability of electronic Poiseuille flow in two-dimensional materials",
+      "abstract": "Motivated by the experimental observation of electronic Poiseuille flow in graphene [J.A. Sulpizio et al. Nature 576, 75 (2019)] we analyze the linear stability of plane-Poiseuille flow of electrons in a two-dimensional material using a modified Orr-Sommerfeld equation. We calculate the critical current needed to make the flow unstable as a function of the experimental parameters and characterize the most favorable situation, that is the one needing the lowest current density, to observe flow instability. We predict the streamwise wavenumber and frequency at which the instability occurs and discuss the difficulties of an experiment aimed at probing this phenomenon.",
+      "published": "2026-07-31T07:47:42Z",
+      "updated": "2026-11-24T13:29:18Z",
+      "authors": [
+        "Marine Bastida",
+        "Alvaro Meseguer",
+        "Iacopo Torre"
+      ],
+      "doi": "",
+      "categories": [
+        "cond-mat.mes-hall",
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2607.29118",
+      "pdf": "https://arxiv.org/pdf/2607.29118v2",
+      "source": "arXiv",
+      "first_seen": "2026-11-25T09:49:28.728614+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "流体与不稳定性 · Fluid dynamics"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Département de Physique, École Normale Supérieure Paris-Saclay, 91190 Gif-sur-Yvette, France",
+        "Departament de Física, Universitat Politècnica de Catalunya - BarcelonaTech (UPC), Campus Nord B4-B5, C. Jordi Girona 1-3, 08034 Barcelona, Spain"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Marine Bastida",
+          "institutions": [
+            "Département de Physique, École Normale Supérieure Paris-Saclay, 91190 Gif-sur-Yvette, France"
+          ],
+          "orcid": "https://orcid.org/0009-0009-0390-3217"
+        },
+        {
+          "name": "Álvaro Meseguer",
+          "institutions": [
+            "Departament de Física, Universitat Politècnica de Catalunya - BarcelonaTech (UPC), Campus Nord B4-B5, C. Jordi Girona 1-3, 08034 Barcelona, Spain"
+          ],
+          "orcid": "https://orcid.org/0000-0002-2022-2001"
+        },
+        {
+          "name": "Iacopo Torre",
+          "institutions": [
+            "Departament de Física, Universitat Politècnica de Catalunya - BarcelonaTech (UPC), Campus Nord B4-B5, C. Jordi Girona 1-3, 08034 Barcelona, Spain"
+          ],
+          "orcid": "https://orcid.org/0000-0001-6515-181X"
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2607.29118v2",
+      "intro_en": "Motivated by the experimental observation of electronic Poiseuille flow in graphene [J.A. Sulpizio et al.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-07-31",
+      "publication_date_source": "https://arxiv.org/abs/2607.29118v2",
+      "version_date": "2026-11-24T13:29:18+00:00"
     },
     {
       "id": "2607.28093",
@@ -70799,13 +71565,13 @@
           "volatile"
         ]
       },
-      "status": "candidate",
-      "reason": "关联线索：volatile",
+      "status": "excluded",
+      "reason": "Reading review 2026-11-24: Complete original English abstract read. Chemistry and volatile transport in the disk itself; no direct planetary interior or atmosphere result. Keep source archive and first_seen.",
       "tags": [
         "岩浆与挥发分 · Magma & volatiles",
         "海冰与表层 · Ice & surface"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 38,
       "fit_matches": [
         "系外行星观测表征"
@@ -73297,6 +74063,100 @@
       "publication_date_source": "https://arxiv.org/abs/2604.09346v2",
       "affiliation_source": "https://arxiv.org/html/2604.09346v2",
       "version_date": "2026-10-22T09:34:08+00:00"
+    },
+    {
+      "id": "2604.07290",
+      "version_id": "2604.07290v2",
+      "title": "Multispectral representation of Distributed Acoustic Sensing data: a framework for physically interpretable feature extraction and visualization",
+      "abstract": "Distributed Acoustic Sensing (DAS) enables continuous monitoring of dynamic strain along tens of kilometres of optical fibre, generating massive datasets whose interpretation and automated analysis remain challenging. DAS data can be understood as a time-distance image array. However, the absence of standardised representation methods limits both the physical interpretability and the development of automated image-based analysis pipelines. This work introduces a systematic framework for visualisation and feature extraction of DAS data based on a multispectral signal representation. The approach decomposes strain-rate measurements into predefined frequency bands and produces band-limited energy images that describe the spatial and temporal distribution of acoustic energy across distinct spectral regimes. The framework is evaluated using DAS recordings containing fin whale and blue whale vocalisations. Three experiments are conducted to assess the approach: enhanced visualisation of bioacoustic signals, unsupervised clustering of acoustic patterns, and event detection using a convolutional neural network. The visualisation experiment shows that the multispectral representation allows for the simultaneous visualisation of sets of events that cannot be visualised using the strain amplitude representation. The unsupervised clustering experiment confirms that the multispectral representation yields class-discriminative feature spaces without requiring labelled data, enabling the automatic grouping of acoustically distinct event types. Finally, the use of multispectral composites as input of a ResNet-18 achieves an accuracy of 95.9% in whale vocalisation detection, demonstrating that the proposed representation provides an effective feature space for automated analysis.",
+      "published": "2026-04-08T16:57:35Z",
+      "updated": "2026-11-24T12:53:22Z",
+      "authors": [
+        "Sergio Morell-Monzó",
+        "Dídac Diego-Tortosa",
+        "Isabel Pérez-Arjona",
+        "Víctor Espinosa"
+      ],
+      "doi": "10.1016/j.apor.2026.105281",
+      "categories": [
+        "physics.ins-det",
+        "physics.geo-ph",
+        "stat.AP"
+      ],
+      "url": "https://arxiv.org/abs/2604.07290",
+      "pdf": "https://arxiv.org/pdf/2604.07290v2",
+      "source": "arXiv",
+      "first_seen": "2026-11-25T09:49:28.728614+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Underwater Acoustics Group",
+        "Universitat Politècnica de València (IGIC-UPV)",
+        "Carrer del Paranimf, 1",
+        "46730 Gandia, Spain",
+        "Institut de Ciències del Mar",
+        "CSIC (ICM-CSIC)",
+        "Passeig Marítim de la Barceloneta 37-49",
+        "08003 Barcelona, Spain"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Sergio Morell-Monzó",
+          "institutions": [
+            "Underwater Acoustics Group",
+            "Universitat Politècnica de València (IGIC-UPV)",
+            "Carrer del Paranimf, 1",
+            "46730 Gandia, Spain"
+          ],
+          "orcid": "https://orcid.org/0000-0001-8883-2618"
+        },
+        {
+          "name": "Dídac Diego-Tortosa",
+          "institutions": [
+            "Institut de Ciències del Mar",
+            "CSIC (ICM-CSIC)",
+            "Passeig Marítim de la Barceloneta 37-49",
+            "08003 Barcelona, Spain"
+          ],
+          "orcid": "https://orcid.org/0000-0001-5546-3748"
+        },
+        {
+          "name": "Isabel Pérez-Arjona",
+          "institutions": [
+            "Underwater Acoustics Group",
+            "Universitat Politècnica de València (IGIC-UPV)",
+            "Carrer del Paranimf, 1",
+            "46730 Gandia, Spain"
+          ],
+          "orcid": "https://orcid.org/0000-0001-9010-6287"
+        },
+        {
+          "name": "Víctor Espinosa",
+          "institutions": [
+            "Underwater Acoustics Group",
+            "Universitat Politècnica de València (IGIC-UPV)",
+            "Carrer del Paranimf, 1",
+            "46730 Gandia, Spain"
+          ],
+          "orcid": "https://orcid.org/0000-0001-8882-866X"
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2604.07290v2",
+      "intro_en": "Distributed Acoustic Sensing (DAS) enables continuous monitoring of dynamic strain along tens of kilometres of optical fibre, generating massive datasets whose interpretation and automated analysis remain challenging. DAS data can be understood as a time-distance image array.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-04-09",
+      "publication_date_source": "https://arxiv.org/abs/2604.07290v2",
+      "version_date": "2026-11-24T12:53:22+00:00"
     },
     {
       "id": "2604.05892",
@@ -83199,11 +84059,11 @@
     },
     {
       "id": "1711.05234",
-      "version_id": "1711.05234v3",
+      "version_id": "1711.05234v4",
       "title": "Cavitation near the oscillating piezoelectric plate in water",
       "abstract": "Gas and vapor bubbles at a wall can reduce the skin friction of a liquid flow. We estimate whether an oscillating piezoelectric plate mounted flush with the wall can create such a near-wall bubble layer by acoustic cavitation. Once the cavitation threshold is reached, the liquid can no longer follow the receding plate, and the excess plate displacement is accommodated by cavitation bubbles forming at the wall; this kinematic argument gives the bubble volume generated per stroke and its energy cost. Homogeneous cavitation in pure water (about -30 MPa) requires pressure amplitudes far beyond those of flat piezoelectric plates and produces submicron bubbles that collapse within nanoseconds. Heterogeneous cavitation on wall and gas nuclei (-0.1 to -1 MPa) is within reach of piezoceramics and concentrates the void on fewer, larger wal-attached bubbles, which survive between strokes if they exceed a few micrometres at 5 MHz. The acoustic power needed to sustain a bubble layer in a turbulent boundary layer at 10 m/s is about 20 kW/m2 for heterogeneous and about 0.4 MW/m2 for homogeneous cavitation.",
       "published": "2017-11-14T18:15:44Z",
-      "updated": "2026-11-10T16:40:27Z",
+      "updated": "2026-11-24T16:04:05Z",
       "authors": [
         "M. N. Shneider",
         "M. Pekker"
@@ -83213,10 +84073,10 @@
         "physics.flu-dyn"
       ],
       "url": "https://arxiv.org/abs/1711.05234",
-      "pdf": "https://arxiv.org/pdf/1711.05234v3",
+      "pdf": "https://arxiv.org/pdf/1711.05234v4",
       "source": "arXiv",
       "first_seen": "2026-11-11T07:43:49.541050+00:00",
-      "version_changed": false,
+      "version_changed": true,
       "topics": [],
       "matches": {},
       "status": "unmatched",
@@ -83233,9 +84093,9 @@
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2017-11-15",
-      "publication_date_source": "https://arxiv.org/abs/1711.05234v3",
-      "affiliation_source": "https://arxiv.org/html/1711.05234v3",
-      "version_date": "2026-11-10T16:40:27+00:00"
+      "publication_date_source": "https://arxiv.org/abs/1711.05234v4",
+      "affiliation_source": "https://arxiv.org/html/1711.05234v4",
+      "version_date": "2026-11-24T16:04:05+00:00"
     }
   ]
 }
