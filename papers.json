@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-11-25T09:49:28.728614+00:00",
+  "generated_at": "2026-11-26T09:29:22.338604+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
-      "last_attempt": "2026-11-25T09:49:28.728614+00:00",
-      "last_success": "2026-11-25T09:49:28.728614+00:00",
+      "last_attempt": "2026-11-26T09:29:22.338604+00:00",
+      "last_success": "2026-11-26T09:29:22.338604+00:00",
       "status": "ok",
-      "fetched": 3
+      "fetched": 8
     },
     "physics.ao-ph": {
-      "last_attempt": "2026-11-25T09:49:28.728614+00:00",
-      "last_success": "2026-11-25T09:49:28.728614+00:00",
+      "last_attempt": "2026-11-26T09:29:22.338604+00:00",
+      "last_success": "2026-11-26T09:29:22.338604+00:00",
+      "status": "ok",
+      "fetched": 6
+    },
+    "physics.geo-ph": {
+      "last_attempt": "2026-11-26T09:29:22.338604+00:00",
+      "last_success": "2026-11-26T09:29:22.338604+00:00",
       "status": "ok",
       "fetched": 3
     },
-    "physics.geo-ph": {
-      "last_attempt": "2026-11-25T09:49:28.728614+00:00",
-      "last_success": "2026-11-25T09:49:28.728614+00:00",
-      "status": "ok",
-      "fetched": 2
-    },
     "physics.flu-dyn": {
-      "last_attempt": "2026-11-25T09:49:28.728614+00:00",
-      "last_success": "2026-11-25T09:49:28.728614+00:00",
+      "last_attempt": "2026-11-26T09:29:22.338604+00:00",
+      "last_success": "2026-11-26T09:29:22.338604+00:00",
       "status": "ok",
-      "fetched": 9
+      "fetched": 5
     }
   },
   "topics": [
@@ -813,6 +813,1208 @@
   ],
   "repository": "https://github.com/PkuJunyangGroup/planet-fluid-radar",
   "papers": [
+    {
+      "id": "2611.34901",
+      "version_id": "2611.34901v1",
+      "title": "Floquet Decomposition: Floquet Multipliers and Time-Periodic Modes from Period-Sampled Snapshot Data",
+      "abstract": "Dynamic mode decomposition (DMD) fits one constant linear operator to a sequence of snapshots. When the dynamics, or the view of them, vary periodically, as in a parametrically excited flow or a rotating structure seen in a fixed plane, no such operator exists, and stability is decided by the Floquet multipliers, the eigenvalues of the map over one period. In the paper that introduced DMD, Schmid observed that snapshots sampled at the period of an oscillatory flow would identify the Floquet matrix. We develop that observation into a method and analyze it. The Floquet decomposition (FD) applies DMD to fixed-rate data subsampled once per period; the ensemble Floquet decomposition (EFD) stacks the snapshots of each period into one column, giving one set of multipliers and phase-resolved modes. For linear time-periodic systems both are exact: FD when the measurement at one instant determines the state, EFD when the measurements over one period do---so EFD succeeds with partial measurements. EFD and Hankel (delay-embedded) DMD use the same data matrix with different shifts between columns. With $p$ samples per period, Hankel-DMD returns each Floquet mode as a carrier with sidebands, a comb of $p$-th roots of its multiplier, which the period shift collapses onto the multiplier. The methods are verified against known multipliers; outside their hypotheses, on nonlinear or noisy data, the estimated moduli are biased and are not decay rates. Measurements of velocity, scalars, and acoustic pressure in a swirl-stabilized combustor illustrate the choice of period, rank, and data scaling.",
+      "published": "2026-11-25T18:52:38Z",
+      "updated": "2026-11-25T18:52:38Z",
+      "authors": [
+        "John Mathew Quinlan"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn",
+        "math-ph",
+        "physics.data-an"
+      ],
+      "url": "https://arxiv.org/abs/2611.34901",
+      "pdf": "https://arxiv.org/pdf/2611.34901v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-26T09:29:22.338604+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [
+        {
+          "name": "J. Matt Quinlan",
+          "institutions": [],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2611.34901v1",
+      "intro_en": "Dynamic mode decomposition (DMD) fits one constant linear operator to a sequence of snapshots. When the dynamics, or the view of them, vary periodically, as in a parametrically excited flow or a rotating structure seen in a fixed plane, no such operator exists, and stability is decided by the Floquet multipliers, the eigenvalues of the map over one period.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-26",
+      "publication_date_source": "https://arxiv.org/abs/2611.34901v1",
+      "version_date": "2026-11-25T18:52:38+00:00"
+    },
+    {
+      "id": "2611.34867",
+      "version_id": "2611.34867v1",
+      "title": "The oxygen cold trap in protoplanetary discs",
+      "abstract": "The diffusive transport of oxygen in protoplanetary discs followed by sequestration into ice in the midplane, a process known as the cold trap, can substantially alter the chemical environment where planets form. This paper presents a new time-dependent modelling framework that allows us to consistently simulate kinetic gas-phase chemistry, ice growth and desorption, turbulent diffusive mixing, and gravitational settling of icy particles with a changing particle size distribution over million-year timescales in one-dimensional vertical columns. Applying our model to a T Tauri disc across radii from 1 to 100 au reveals that vertical cold trapping becomes an effective mechanism once the diffusion-to-settling timescale ratio exceeds unity, simultaneously driving the gas-phase C/O up toward unity, and the gas-phase C/H down, by up to two orders of magnitude at large distances. All models feature the development of an upward counter-flux due to the turbulent up-whirling of icy particles followed by ice sublimation above the horizontal icelines, which brings the cold trapping to a halt and eventually establishes a relaxed vertical structure after about $10^4$ to $10^6$ yr, depending on the radial distance. The ice formation leads to a strongly peaked size distribution around 1 mic, which contains the majority of the condensed mass in the disc after ice formation, and changes the dynamical behaviour of the grains substantially. We conclude that the vertical cold trap can provide an important part of the explanation why evolved discs observed with ALMA often show high C/O ratios as inferred from strong emissions from hydrocarbon molecules in the outer disc, such as C2H and c-C3H2. However, in none of our models does the C/O ratio exceed unity, which is a consequence of CO-blocking, a chemical process where water molecules naturally stop forming once C/O approaches unity.",
+      "published": "2026-11-25T18:32:35Z",
+      "updated": "2026-11-25T18:32:35Z",
+      "authors": [
+        "Peter Woitke"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2611.34867",
+      "pdf": "https://arxiv.org/pdf/2611.34867v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-26T09:29:22.338604+00:00",
+      "version_changed": false,
+      "topics": [
+        "physics",
+        "surface"
+      ],
+      "matches": {
+        "physics": [
+          "cold trap"
+        ],
+        "surface": [
+          "desorption"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：cold trap、desorption",
+      "tags": [
+        "水循环 · Water cycle"
+      ],
+      "method": "keyword",
+      "fit_score": 36,
+      "fit_matches": [],
+      "institutions": [
+        "Space Research Institute, Austrian Academy of Sciences, Schmiedlstr. 6, A-8042, Graz, Austria"
+      ],
+      "author_affiliations": [
+        {
+          "name": "P. Woitke",
+          "institutions": [
+            "Space Research Institute, Austrian Academy of Sciences, Schmiedlstr. 6, A-8042, Graz, Austria"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.34867v1",
+      "intro_en": "The diffusive transport of oxygen in protoplanetary discs followed by sequestration into ice in the midplane, a process known as the cold trap, can substantially alter the chemical environment where planets form. This paper presents a new time-dependent modelling framework that allows us to consistently simulate kinetic gas-phase chemistry, ice growth and desorption, turbulent diffusive mixing, and gravitational settling of icy particles with a changing particle size distribution over million-year timescales in one-dimensional vertical columns.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-26",
+      "publication_date_source": "https://arxiv.org/abs/2611.34867v1",
+      "version_date": "2026-11-25T18:32:35+00:00"
+    },
+    {
+      "id": "2611.34790",
+      "version_id": "2611.34790v1",
+      "title": "A Bayesian Approach to Prioritizing the Follow-Up of Near-Earth Objects",
+      "abstract": "We present pneo, a Bayesian classifier that computes the probability that a single-night tracklet belongs to a near-Earth object (NEO), using only its sky position, angular motion, and apparent magnitude. A tracklet does not determine the object's distance or radial velocity, so pneo integrates a model of the Solar System's small-body populations over all bound orbits consistent with it. The result is the exact posterior probability under that model, with no tuned scores or separately chosen priors: its classifications are optimal for the adopted model, and its probabilities are calibrated. On real discovery tracklets from the NEO Confirmation Page, the classifier is well calibrated and its selection is 1.14 times purer than that of digest2, the classifier now in use, at the same completeness. The advantage grows at Rubin's depth, where the faint background of main-belt and more distant objects is still largely undiscovered. On simulated tracklets to that depth, its selection is 2 times purer than that of digest2 (96% against 48%). On the Rubin alert stream and Rubin Data Preview 2 its selection is 1.4-1.7 times purer than that of digest2, and its predicted NEO counts are close to those observed. By raising the fraction of follow-up targets that are NEOs, pneo could potentially double the effective capacity of NEO follow-up in the Rubin era.",
+      "published": "2026-11-25T17:44:16Z",
+      "updated": "2026-11-25T17:44:16Z",
+      "authors": [
+        "Devanshi Singh",
+        "Mario Jurić",
+        "Željko Ivezić"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.IM",
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2611.34790",
+      "pdf": "https://arxiv.org/pdf/2611.34790v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-26T09:29:22.338604+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "行星科学拓展阅读",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "DiRAC Institute and the Department of Astronomy, University of Washington, 3910 15th Ave NE, Seattle, WA, 98195, U.S.A."
+      ],
+      "author_affiliations": [
+        {
+          "name": "Devanshi Singh",
+          "institutions": [
+            "DiRAC Institute and the Department of Astronomy, University of Washington, 3910 15th Ave NE, Seattle, WA, 98195, U.S.A."
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Mario Jurić",
+          "institutions": [
+            "DiRAC Institute and the Department of Astronomy, University of Washington, 3910 15th Ave NE, Seattle, WA, 98195, U.S.A."
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Željko Ivezić",
+          "institutions": [
+            "DiRAC Institute and the Department of Astronomy, University of Washington, 3910 15th Ave NE, Seattle, WA, 98195, U.S.A."
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.34790v1",
+      "intro_en": "We present pneo, a Bayesian classifier that computes the probability that a single-night tracklet belongs to a near-Earth object (NEO), using only its sky position, angular motion, and apparent magnitude. A tracklet does not determine the object's distance or radial velocity, so pneo integrates a model of the Solar System's small-body populations over all bound orbits consistent with it.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-26",
+      "publication_date_source": "https://arxiv.org/abs/2611.34790v1",
+      "version_date": "2026-11-25T17:44:16+00:00"
+    },
+    {
+      "id": "2611.34753",
+      "version_id": "2611.34753v1",
+      "title": "periapsis: A Comprehensive Orbital Fitting Package",
+      "abstract": "We introduce a new Python package \\texttt{periapsis}, which computes posterior distributions for a variety of orbital parameters given astrometric and/or radial velocity data. \\texttt{periapsis} not only returns posterior distributions, but also a variety of statistics assessing convergence and fit metrics as well as plotting capabilities for visualizing the orbital systems. In this paper, we describe our various methods for fitting Keplerian orbits to both astrometric and radial velocity data. We then show the breadth of binary systems that \\texttt{periapsis} can characterize by comparing our computed parameters with known orbital systems. Finally, we discuss how \\texttt{periapsis} will be a helpful tool for future data releases like \\textit{Gaia} DR4 and \\textit{Roman}.",
+      "published": "2026-11-25T17:26:24Z",
+      "updated": "2026-11-25T17:26:24Z",
+      "authors": [
+        "Evan Kerr",
+        "Matthew Whitaker",
+        "Anil Seth",
+        "Jay Strader",
+        "Maximilian Häberle",
+        "Sebastian Kamann"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.SR",
+        "astro-ph.EP",
+        "astro-ph.IM"
+      ],
+      "url": "https://arxiv.org/abs/2611.34753",
+      "pdf": "https://arxiv.org/pdf/2611.34753v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-26T09:29:22.338604+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "行星科学拓展阅读",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Department of Physics and Astronomy, University of Utah, Salt Lake City, UT 84112, USA",
+        "Michigan State University, USA",
+        "European Southern Observatory, Germany",
+        "Liverpool John Moores University, UK"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Evan Kerr",
+          "institutions": [],
+          "orcid": null
+        },
+        {
+          "name": "Matthew Whitaker",
+          "institutions": [
+            "Department of Physics and Astronomy, University of Utah, Salt Lake City, UT 84112, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Anil Seth",
+          "institutions": [
+            "Department of Physics and Astronomy, University of Utah, Salt Lake City, UT 84112, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Jay Strader",
+          "institutions": [
+            "Department of Physics and Astronomy, University of Utah, Salt Lake City, UT 84112, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Maximilian Häberle",
+          "institutions": [
+            "Michigan State University, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "and Sebastian Kamann",
+          "institutions": [
+            "European Southern Observatory, Germany",
+            "Liverpool John Moores University, UK"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.34753v1",
+      "intro_en": "We introduce a new Python package \\texttt{periapsis}, which computes posterior distributions for a variety of orbital parameters given astrometric and/or radial velocity data. \\texttt{periapsis} not only returns posterior distributions, but also a variety of statistics assessing convergence and fit metrics as well as plotting capabilities for visualizing the orbital systems. In this paper, we describe our various methods for fitting Keplerian orbits to both astrometric and radial velocity data.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-26",
+      "publication_date_source": "https://arxiv.org/abs/2611.34753v1",
+      "version_date": "2026-11-25T17:26:24+00:00"
+    },
+    {
+      "id": "2611.34720",
+      "version_id": "2611.34720v1",
+      "title": "NASA's Pandora SmallSat Mission: Gaussian Processes for Simulated Stellar Heterogeneity Corrections under Imperfect Stellar Models",
+      "abstract": "Stellar contamination is the primary bottleneck limiting robust atmospheric characterization of exoplanets orbiting active K- and M-dwarfs with James Webb Space Telescope (JWST) transmission spectroscopy. Launched in January 2026, NASA's Pandora SmallSat mission addresses this challenge through long-term, simultaneous visible photometry and near-infrared spectroscopy of planet-hosting stars, providing the data to disentangle planetary and stellar signals. However, conventional stellar-contamination corrections rely on stellar atmosphere models, making them vulnerable to model inaccuracies that can impede accurate inferences. Here, we investigate how Pandora data can be used to mitigate stellar contamination without an accurate host star model. We present a Gaussian-process-aided stellar retrieval framework that learns wavelength-dependent deviations from current stellar model grids. We propagate stellar contamination factors directly from the stellar retrieval into the planetary atmospheric retrievals, allowing the atmospheric inference to marginalize over stellar-contamination uncertainty without relying on a biased stellar model. Tests using simulated Pandora observations with realistic stellar model mismatch show that this framework consistently improves the recovery of disk-integrated stellar spectra. For a WASP-69 b-like system, this approach can reduce model-driven biases in inferred atmospheric properties, though degeneracies among stellar and atmospheric parameters can leave residual biases. This flexible, data-driven framework is a promising approach toward accurate stellar-contamination corrections and more robust atmospheric inference even when host-star model grids are inaccurate.",
+      "published": "2026-11-25T17:09:32Z",
+      "updated": "2026-11-25T17:09:32Z",
+      "authors": [
+        "Zoe Ko",
+        "Peter McGill",
+        "Benjamin V. Rackham",
+        "Dániel Apai",
+        "Aishwarya R. Iyer",
+        "Jason F. Rowe",
+        "Luis Welbanks",
+        "Suman Saha",
+        "Yoav Rotman",
+        "Elisa V. Quintana",
+        "Jessie L. Dotson",
+        "Knicole D. Colón",
+        "Thomas Barclay",
+        "Christina Hedges",
+        "Emily A. Gilbert",
+        "Néstor Espinoza",
+        "Trevor O. Foote",
+        "Rae Holcomb",
+        "Benjamin J. Hord",
+        "Brett M. Morris",
+        "Joe P. Renaud"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.SR",
+        "astro-ph.EP",
+        "astro-ph.IM"
+      ],
+      "url": "https://arxiv.org/abs/2611.34720",
+      "pdf": "https://arxiv.org/pdf/2611.34720v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-26T09:29:22.338604+00:00",
+      "version_changed": false,
+      "topics": [
+        "models"
+      ],
+      "matches": {
+        "models": [
+          "atmosphere model"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：atmosphere model",
+      "tags": [
+        "光谱与相曲线 · Spectra & phase curves",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 42,
+      "fit_matches": [
+        "系外行星观测表征"
+      ],
+      "institutions": [
+        "Space Science Institute, Lawrence Livermore National Laboratory, 7000 East Ave., Livermore, CA 94550, USA",
+        "William H. Miller III Department of Physics and Astronomy, Johns Hopkins University, Baltimore, MD 21218, USA",
+        "Department of Earth, Atmospheric and Planetary Sciences, Massachusetts Institute of Technology, 77 Massachusetts Avenue, Cambridge, MA 02139, USA",
+        "Kavli Institute for Astrophysics and Space Research, Massachusetts Institute of Technology, Cambridge, MA 02139, USA",
+        "Steward Observatory, University of Arizona, 933 N. Cherry Avenue, Tucson, AZ 85721, USA",
+        "Lunar and Planetary Laboratory, University of Arizona, 1629 E. University Boulevard, Tucson, AZ 85721, USA",
+        "NASA Goddard Space Flight Center, 8800 Greenbelt Road, Greenbelt, MD 20771, USA",
+        "NASA Postdoctoral Fellowship through Oak Ridge Associated Universities",
+        "Department of Physics and Astronomy, Bishop’s University, 2600 Rue College, Sherbrooke, QC J1M 1Z7, Canada",
+        "School of Earth & Space Exploration, Arizona State University, Tempe, AZ 85287, USA",
+        "NASA Ames Research Center, MS 245-6, Moffett Field, CA 94035, USA",
+        "University of Maryland, Baltimore County, 1000 Hilltop Circle, Baltimore, Maryland, United States",
+        "NASA Goddard Space Flight Center, Greenbelt, Maryland, United States",
+        "Caltech/IPAC-NASA Exoplanet Science Institute, Pasadena, CA 91125, USA",
+        "Space Telescope Science Institute, 3700 San Martin Drive, Baltimore, MD 21218, USA",
+        "University of Maryland, College Park, Maryland, United States"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Zoe Ko",
+          "institutions": [
+            "Space Science Institute, Lawrence Livermore National Laboratory, 7000 East Ave., Livermore, CA 94550, USA",
+            "William H. Miller III Department of Physics and Astronomy, Johns Hopkins University, Baltimore, MD 21218, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-4962-2543"
+        },
+        {
+          "name": "Peter McGill",
+          "institutions": [
+            "Space Science Institute, Lawrence Livermore National Laboratory, 7000 East Ave., Livermore, CA 94550, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-1052-6749"
+        },
+        {
+          "name": "Benjamin V. Rackham",
+          "institutions": [
+            "Department of Earth, Atmospheric and Planetary Sciences, Massachusetts Institute of Technology, 77 Massachusetts Avenue, Cambridge, MA 02139, USA",
+            "Kavli Institute for Astrophysics and Space Research, Massachusetts Institute of Technology, Cambridge, MA 02139, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-3627-1676"
+        },
+        {
+          "name": "Dániel Apai",
+          "institutions": [
+            "Steward Observatory, University of Arizona, 933 N. Cherry Avenue, Tucson, AZ 85721, USA",
+            "Lunar and Planetary Laboratory, University of Arizona, 1629 E. University Boulevard, Tucson, AZ 85721, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0003-3714-5855"
+        },
+        {
+          "name": "Aishwarya R. Iyer",
+          "institutions": [
+            "NASA Goddard Space Flight Center, 8800 Greenbelt Road, Greenbelt, MD 20771, USA",
+            "NASA Postdoctoral Fellowship through Oak Ridge Associated Universities"
+          ],
+          "orcid": "https://orcid.org/0000-0003-0971-1709"
+        },
+        {
+          "name": "Jason F. Rowe",
+          "institutions": [
+            "Department of Physics and Astronomy, Bishop’s University, 2600 Rue College, Sherbrooke, QC J1M 1Z7, Canada"
+          ],
+          "orcid": "https://orcid.org/0000-0002-5904-1865"
+        },
+        {
+          "name": "Luis Welbanks",
+          "institutions": [
+            "School of Earth & Space Exploration, Arizona State University, Tempe, AZ 85287, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0003-0156-4564"
+        },
+        {
+          "name": "Suman Saha",
+          "institutions": [
+            "Steward Observatory, University of Arizona, 933 N. Cherry Avenue, Tucson, AZ 85721, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0001-8018-0264"
+        },
+        {
+          "name": "Yoav Rotman",
+          "institutions": [
+            "School of Earth & Space Exploration, Arizona State University, Tempe, AZ 85287, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0003-4459-9054"
+        },
+        {
+          "name": "Elisa V. Quintana",
+          "institutions": [
+            "NASA Goddard Space Flight Center, 8800 Greenbelt Road, Greenbelt, MD 20771, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0003-1309-2904"
+        },
+        {
+          "name": "Jessie L. Dotson",
+          "institutions": [
+            "NASA Ames Research Center, MS 245-6, Moffett Field, CA 94035, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Knicole D. Colón",
+          "institutions": [
+            "NASA Goddard Space Flight Center, 8800 Greenbelt Road, Greenbelt, MD 20771, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0001-8020-7121"
+        },
+        {
+          "name": "Thomas Barclay",
+          "institutions": [
+            "NASA Goddard Space Flight Center, 8800 Greenbelt Road, Greenbelt, MD 20771, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0001-7139-2724"
+        },
+        {
+          "name": "Christina Hedges",
+          "institutions": [
+            "University of Maryland, Baltimore County, 1000 Hilltop Circle, Baltimore, Maryland, United States",
+            "NASA Goddard Space Flight Center, Greenbelt, Maryland, United States"
+          ],
+          "orcid": "https://orcid.org/0000-0002-3385-8391"
+        },
+        {
+          "name": "Emily A. Gilbert",
+          "institutions": [
+            "Caltech/IPAC-NASA Exoplanet Science Institute, Pasadena, CA 91125, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-0388-8004"
+        },
+        {
+          "name": "Néstor Espinoza",
+          "institutions": [
+            "Space Telescope Science Institute, 3700 San Martin Drive, Baltimore, MD 21218, USA",
+            "William H. Miller III Department of Physics and Astronomy, Johns Hopkins University, Baltimore, MD 21218, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0001-9513-1449"
+        },
+        {
+          "name": "Trevor O. Foote",
+          "institutions": [
+            "NASA Goddard Space Flight Center, 8800 Greenbelt Road, Greenbelt, MD 20771, USA",
+            "NASA Postdoctoral Fellowship through Oak Ridge Associated Universities"
+          ],
+          "orcid": "https://orcid.org/0000-0002-6276-1361"
+        },
+        {
+          "name": "Rae Holcomb",
+          "institutions": [
+            "NASA Goddard Space Flight Center, 8800 Greenbelt Road, Greenbelt, MD 20771, USA",
+            "NASA Postdoctoral Fellowship through Oak Ridge Associated Universities"
+          ],
+          "orcid": "https://orcid.org/0000-0002-5034-9476"
+        },
+        {
+          "name": "Benjamin J. Hord",
+          "institutions": [
+            "NASA Goddard Space Flight Center, 8800 Greenbelt Road, Greenbelt, MD 20771, USA",
+            "NASA Postdoctoral Fellowship through Oak Ridge Associated Universities"
+          ],
+          "orcid": "https://orcid.org/0000-0001-5084-4269"
+        },
+        {
+          "name": "Brett M. Morris",
+          "institutions": [
+            "Space Telescope Science Institute, 3700 San Martin Drive, Baltimore, MD 21218, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0003-2528-3409"
+        },
+        {
+          "name": "Joe P. Renaud",
+          "institutions": [
+            "University of Maryland, College Park, Maryland, United States",
+            "NASA Goddard Space Flight Center, 8800 Greenbelt Road, Greenbelt, MD 20771, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-8619-8542"
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.34720v1",
+      "intro_en": "Stellar contamination is the primary bottleneck limiting robust atmospheric characterization of exoplanets orbiting active K- and M-dwarfs with James Webb Space Telescope (JWST) transmission spectroscopy. Launched in January 2026, NASA's Pandora SmallSat mission addresses this challenge through long-term, simultaneous visible photometry and near-infrared spectroscopy of planet-hosting stars, providing the data to disentangle planetary and stellar signals.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-26",
+      "publication_date_source": "https://arxiv.org/abs/2611.34720v1",
+      "version_date": "2026-11-25T17:09:32+00:00"
+    },
+    {
+      "id": "2611.34718",
+      "version_id": "2611.34718v1",
+      "title": "ENSO-linked redistribution of post-monsoon tropical cyclone energy between the Arabian Sea and the Bay of Bengal: 1982--2025",
+      "abstract": "Tropical cyclones in the North Indian Ocean (NIO) form in two sub-basins, the Arabian Sea (AS) and the Bay of Bengal (BoB), which are usually studied separately, with their relationship to the El Niño-Southern Oscillation (ENSO) treated as stationary. We develop a joint inter-basin statistical framework and apply it to 416 disturbances from quality-controlled IBTrACS best tracks for 1982--2025, with harmonised IMD and JTWC intensities, ERA5 and ERSSTv5. The framework tests whether ENSO changes the basin total or redistributes energy between the sub-basins, separates its effect on formation from that on intensification, attributes each sub-basin's response to environmental terms along individual tracks, and tests stationarity and the record length needed to detect trends. In October-December, ENSO redistributes rather than changes the total: for a one-standard-deviation increase in Niño-3.4 (about 1 $^\\circ$C), accumulated cyclone energy (ACE) is multiplied by 1.89 in the AS and by 0.63 in the BoB, while the NIO total shows no detectable change (factor 0.99 [0.74, 1.32]). ENSO acts on intensification, with no detectable effect on formation: the odds that a cyclonic storm becomes very severe rise about fourfold in the AS and halve in the BoB, through lower vertical wind shear (VWS) over the AS and weaker low-level vorticity over the BoB. The relationship has changed: El Niño lowered total NIO energy in 1982--2003, but in 2004-2025 AS gains balanced BoB losses (change p = 0.016). Very severe storms and rapid intensification increased in the AS only, and no 15-year window detects this increase, so about three decades of data are needed. The post-monsoon IOD signal can hardly be separated from ENSO, and August Niño-3.4 gives modest skill for the AS-BoB partition but none for the basin total.",
+      "published": "2026-11-25T17:08:59Z",
+      "updated": "2026-11-25T17:08:59Z",
+      "authors": [
+        "Prashant Saini",
+        "Rishikesh Yadav",
+        "Sarita Azad"
+      ],
+      "doi": "",
+      "categories": [
+        "stat.AP",
+        "physics.ao-ph"
+      ],
+      "url": "https://arxiv.org/abs/2611.34718",
+      "pdf": "https://arxiv.org/pdf/2611.34718v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-26T09:29:22.338604+00:00",
+      "version_changed": false,
+      "topics": [
+        "climate"
+      ],
+      "matches": {
+        "climate": [
+          "enso"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 32,
+      "fit_matches": [],
+      "institutions": [
+        "School of Mathematical and Statistical Sciences, Indian Institute of Technology Mandi, Mandi, Himachal Pradesh, India"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Prashant Saini",
+          "institutions": [
+            "School of Mathematical and Statistical Sciences, Indian Institute of Technology Mandi, Mandi, Himachal Pradesh, India"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Rishikesh Yadav",
+          "institutions": [
+            "School of Mathematical and Statistical Sciences, Indian Institute of Technology Mandi, Mandi, Himachal Pradesh, India"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Sarita Azad",
+          "institutions": [
+            "School of Mathematical and Statistical Sciences, Indian Institute of Technology Mandi, Mandi, Himachal Pradesh, India"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.34718v1",
+      "intro_en": "Tropical cyclones in the North Indian Ocean (NIO) form in two sub-basins, the Arabian Sea (AS) and the Bay of Bengal (BoB), which are usually studied separately, with their relationship to the El Niño-Southern Oscillation (ENSO) treated as stationary. We develop a joint inter-basin statistical framework and apply it to 416 disturbances from quality-controlled IBTrACS best tracks for 1982--2025, with harmonised IMD and JTWC intensities, ERA5 and ERSSTv5.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-26",
+      "publication_date_source": "https://arxiv.org/abs/2611.34718v1",
+      "version_date": "2026-11-25T17:08:59+00:00"
+    },
+    {
+      "id": "2611.34676",
+      "version_id": "2611.34676v1",
+      "title": "Electrostatic effects on settling cloud droplets: from pair collisions to size distribution evolution",
+      "abstract": "We investigate how droplet charge and a uniform vertical electric field influence collisions between cloud droplets settling in still air and how these collisions shape the droplet size distribution. We compute collision efficiencies by analyzing the relative trajectories of pairs of spherical, conducting droplets, accounting for droplet inertia, exact hydrodynamic, electrostatic, and van der Waals forces. The hydrodynamic interactions are based on exact two-body solutions for Stokes flow with interfacial mobility and internal circulation. In the absence of an applied electric field, collisions between like-charged droplets are suppressed, whereas collisions between oppositely-charged droplets are enhanced. A vertical electric field promotes collisions between uncharged droplets through induced polarization and, when sufficiently strong, can overcome the repulsion between like-charged droplets. When the larger droplet has a radius of $10$ or $20μ$m raising the electric field strength from $5\\times10^{4}$ to $3\\times10^{5}\\,\\mathrm{V\\,m^{-1}}$ can enhance the collision efficiency of uncharged droplet pairs by an order of magnitude. Depending on droplet size and field strength, for oppositely charged pairs, an applied electric field can either enhance or suppress collisions relative to the zero-field case. Using collision kernels computed from droplet pair trajectories, we solve the stochastic collection equation with a flux method on a two-dimensional grid that resolves droplet mass and charge. For an initial mean droplet radius of $10μ$m , by $40$ min in every electrified case the large-droplet mode of the mass spectrum reaches a larger radius than in the hydrodynamic reference case. This suggests that electrostatic interactions can hasten warm rain initiation by accelerating droplet growth through collision and coalescence.",
+      "published": "2026-11-25T16:39:50Z",
+      "updated": "2026-11-25T16:39:50Z",
+      "authors": [
+        "Pijush Patra",
+        "John S. Wettlaufer"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2611.34676",
+      "pdf": "https://arxiv.org/pdf/2611.34676v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-26T09:29:22.338604+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "云与辐射 · Clouds & radiation",
+        "环流与波动 · Circulation & waves"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Nordita, KTH Royal Institute of Technology, and Stockholm University, Stockholm 10691, Sweden",
+        "Departments of Earth & Planetary Sciences, Mathematics, and Physics, Yale University, New Haven, Connecticut 06520-8109, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Pijush Patra",
+          "institutions": [
+            "Nordita, KTH Royal Institute of Technology, and Stockholm University, Stockholm 10691, Sweden"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "J. S. Wettlaufer",
+          "institutions": [
+            "Departments of Earth & Planetary Sciences, Mathematics, and Physics, Yale University, New Haven, Connecticut 06520-8109, USA",
+            "Nordita, KTH Royal Institute of Technology, and Stockholm University, Stockholm 10691, Sweden"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.34676v1",
+      "intro_en": "We investigate how droplet charge and a uniform vertical electric field influence collisions between cloud droplets settling in still air and how these collisions shape the droplet size distribution. We compute collision efficiencies by analyzing the relative trajectories of pairs of spherical, conducting droplets, accounting for droplet inertia, exact hydrodynamic, electrostatic, and van der Waals forces.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-26",
+      "publication_date_source": "https://arxiv.org/abs/2611.34676v1",
+      "version_date": "2026-11-25T16:39:50+00:00"
+    },
+    {
+      "id": "2611.34674",
+      "version_id": "2611.34674v1",
+      "title": "A Large Envelope Can Explain Super-Puffs",
+      "abstract": "Super-puffs are a class of exoplanets with extremely low bulk densities, having masses of a few to tens of Earth masses but radii comparable to that of Jupiter. Observations suggest that these inflated radii can persist for Gyr timescales, even for planets receiving relatively low stellar irradiation. The physical mechanisms responsible for maintaining such large radii, however, remain poorly understood. Here, we model the thermal evolution of super-puffs with substantial H/He envelopes using a one-dimensional planetary structure and cooling model. We follow the coupled cooling and contraction of the planetary interior and H/He envelope while self-consistently calculating the planet's hydrostatic and radiative--convective structure. We find that planets with H/He envelope mass fractions of approximately $40-60\\%$ can retain Jupiter-like radii over Gyr timescales, provided that they begin with sufficiently hot interiors. Massive H/He envelopes substantially delay planetary contraction through two effects: (1) strong thermal blanketing, which slows the cooling of the underlying rocky core, and (2) Kelvin--Helmholtz luminosity generated by the cooling and contraction of the envelope itself, which helps maintain its high entropy and inflated radius. Our results suggest that super-puffs may represent a distinct class of planets that accreted large quantities of nebular gas during formation without undergoing runaway gas accretion.",
+      "published": "2026-11-25T16:38:44Z",
+      "updated": "2026-11-25T16:38:44Z",
+      "authors": [
+        "Xiumin Huang",
+        "Darius Modirrousta-Galian",
+        "Dong Lai",
+        "Ren Wang"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP"
+      ],
+      "url": "https://arxiv.org/abs/2611.34674",
+      "pdf": "https://arxiv.org/pdf/2611.34674v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-26T09:29:22.338604+00:00",
+      "version_changed": false,
+      "topics": [
+        "physics",
+        "evolution"
+      ],
+      "matches": {
+        "physics": [
+          "radiative convective"
+        ],
+        "evolution": [
+          "planetary interior"
+        ]
+      },
+      "status": "candidate",
+      "reason": "关联线索：radiative convective、planetary interior",
+      "tags": [
+        "云与辐射 · Clouds & radiation"
+      ],
+      "method": "keyword",
+      "fit_score": 41,
+      "fit_matches": [
+        "理论机制与尺度关系"
+      ],
+      "institutions": [
+        "Tsung-Dao Lee Institute, Shanghai Jiao-Tong University, Shanghai, 201210, China",
+        "School of Physics and Astronomy, Shanghai Jiao-Tong University, Shanghai, China",
+        "Center for Astrophysics and Planetary Science, Department of Astronomy, Cornell University, Ithaca, NY 14853, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Xiumin Huang",
+          "institutions": [
+            "Tsung-Dao Lee Institute, Shanghai Jiao-Tong University, Shanghai, 201210, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Darius Modirrousta‐Galian",
+          "institutions": [
+            "Tsung-Dao Lee Institute, Shanghai Jiao-Tong University, Shanghai, 201210, China",
+            "School of Physics and Astronomy, Shanghai Jiao-Tong University, Shanghai, China"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Dong Lai",
+          "institutions": [
+            "Tsung-Dao Lee Institute, Shanghai Jiao-Tong University, Shanghai, 201210, China",
+            "Center for Astrophysics and Planetary Science, Department of Astronomy, Cornell University, Ithaca, NY 14853, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Ren Wang",
+          "institutions": [
+            "Tsung-Dao Lee Institute, Shanghai Jiao-Tong University, Shanghai, 201210, China"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.34674v1",
+      "intro_en": "Super-puffs are a class of exoplanets with extremely low bulk densities, having masses of a few to tens of Earth masses but radii comparable to that of Jupiter. Observations suggest that these inflated radii can persist for Gyr timescales, even for planets receiving relatively low stellar irradiation.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-26",
+      "publication_date_source": "https://arxiv.org/abs/2611.34674v1",
+      "version_date": "2026-11-25T16:38:44+00:00"
+    },
+    {
+      "id": "2611.34613",
+      "version_id": "2611.34613v1",
+      "title": "Discovery of Trailing Spiral Dust Alignment in the Dust Polarization of HL Tau at $λ= 2.1$ mm",
+      "abstract": "Polarimetric observations of protoplanetary disks at (sub)millimeter wavelengths constrain dust grain properties, dynamics, and alignment mechanisms. We present new high-resolution ALMA Band 4 (2.1 mm) polarization observations of HL Tau with spatial resolutions of $\\sim$0.08$''$ (11.78 au) and $\\sim$0.19$''$ (27.99 au). Linearly decomposing the polarization into contributions from dust scattering and thermal emission by aligned grains, we analyze the new Band 4 data and published high-resolution Band 7 (870 $μ$m) observations. Thermal emission from aligned grains dominates the polarization across the disk at Band 4, in contrast to the scattering-dominated Band 7, and both mechanisms vary radially with the disk substructures, consistent with expected optical depth variations. At Band 4, we detect a coherent angular deviation from purely azimuthal grain alignment, in which the streamlines of the alignment field yield trailing spirals with respect to disk rotation. A single global offset angle quantifies this deviation as $2.83^\\circ\\pm0.33^\\circ$ and $4.10^\\circ\\pm0.09^\\circ$ (statistical uncertainties) from two robust weightings, and the detection reaches a significance of $\\approx7σ$ under conservative uncertainty estimates. This trailing orientation is consistent with aerodynamic (\"badminton birdie-like\") alignment driven by gas-dust drift near pressure bumps. However, under an axisymmetric disk velocity structure, this interpretation requires Stokes numbers two to three orders of magnitude larger than expected for the grains dominating the millimeter emission. At Band 7, the polarization angle is weakly sensitive to the alignment direction and exhibits a near/far-side antisymmetric structure that the model cannot reproduce. The Band 7 data therefore neither support nor contradict the Band 4 result.",
+      "published": "2026-11-25T16:01:41Z",
+      "updated": "2026-11-25T16:01:41Z",
+      "authors": [
+        "Yi-Wei Jerry Xu",
+        "Leslie W. Looney",
+        "Ian W. Stephens",
+        "Manuel Fernández-López",
+        "Zhe-Yu Daniel Lin",
+        "Zhi-Yun Li",
+        "Haifeng Yang",
+        "Austen Fourkas",
+        "Rachel Harrison",
+        "Ryo Tazaki",
+        "Satoshi Okuzumi",
+        "Carlos Carrasco-González"
+      ],
+      "doi": "",
+      "categories": [
+        "astro-ph.EP",
+        "astro-ph.SR"
+      ],
+      "url": "https://arxiv.org/abs/2611.34613",
+      "pdf": "https://arxiv.org/pdf/2611.34613v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-26T09:29:22.338604+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "行星科学拓展阅读",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Department of Astronomy, University of Illinois, 1002 West Green St, Urbana, IL 61801, USA",
+        "Department of Earth, Environment, and Physics, Worcester State University, Worcester, MA 01602, USA",
+        "Institut de Ciències de l’Espai (ICE), CSIC, Campus UAB, Carrer de Can Magrans s/n, 08193 Bellaterra, Barcelona, Spain",
+        "Instituto Argentino de Radioastronomía (CCT-La Plata, CONICET; UNLP; CICPBA), C.C. No. 5, 1894, Villa Elisa, Buenos Aires, Argentina",
+        "Facultad de Ciencias Astronómicas y Geofísicas, Universidad Nacional de La Plata, Paseo del Bosque S/N, B1900FWA La Plata, Argentina",
+        "National Radio Astronomy Observatory, 520 Edgemont Rd., Charlottesville, VA 22903 USA",
+        "University of Virginia, 530 McCormick Rd., Charlottesville, Virginia 22904, USA",
+        "Institute for Astronomy, School of Physics, Zhejiang University, Hangzhou, 310027 Zhejiang, China",
+        "Department of Physics and Astronomy, Rice University, 6100 Main Street – MS 108, Houston, TX 77005, USA",
+        "Department of Earth Science and Astronomy, The University of Tokyo, 3-8-1 Komaba, Meguro, Tokyo 153-8902, Japan",
+        "Department of Earth and Planetary Sciences, Institute of Science Tokyo, 2-12-1 Ookayama, Meguro, Tokyo 152-8551, Japan",
+        "Instituto de Radioastronomía y Astrofísica, Universidad Nacional Autónoma de México, Antigua Carretera a Pátzcuaro 8701, Ex-Hda. San José de la Huerta, 58089 Morelia, Michoacán, Mexico"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Yi-Wei Jerry Xu",
+          "institutions": [
+            "Department of Astronomy, University of Illinois, 1002 West Green St, Urbana, IL 61801, USA"
+          ],
+          "orcid": "https://orcid.org/0009-0004-2356-9483"
+        },
+        {
+          "name": "Leslie W. Looney",
+          "institutions": [
+            "Department of Astronomy, University of Illinois, 1002 West Green St, Urbana, IL 61801, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-4540-6587"
+        },
+        {
+          "name": "Ian W. Stephens",
+          "institutions": [
+            "Department of Earth, Environment, and Physics, Worcester State University, Worcester, MA 01602, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0003-3017-4418"
+        },
+        {
+          "name": "Manuel Fernández-López",
+          "institutions": [
+            "Institut de Ciències de l’Espai (ICE), CSIC, Campus UAB, Carrer de Can Magrans s/n, 08193 Bellaterra, Barcelona, Spain",
+            "Instituto Argentino de Radioastronomía (CCT-La Plata, CONICET; UNLP; CICPBA), C.C. No. 5, 1894, Villa Elisa, Buenos Aires, Argentina",
+            "Facultad de Ciencias Astronómicas y Geofísicas, Universidad Nacional de La Plata, Paseo del Bosque S/N, B1900FWA La Plata, Argentina"
+          ],
+          "orcid": "https://orcid.org/0000-0001-5811-0454"
+        },
+        {
+          "name": "Zhe-Yu Daniel Lin",
+          "institutions": [
+            "National Radio Astronomy Observatory, 520 Edgemont Rd., Charlottesville, VA 22903 USA"
+          ],
+          "orcid": "https://orcid.org/0000-0001-7233-4171"
+        },
+        {
+          "name": "Zhi-Yun Li",
+          "institutions": [
+            "University of Virginia, 530 McCormick Rd., Charlottesville, Virginia 22904, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0002-7402-6487"
+        },
+        {
+          "name": "Haifeng Yang",
+          "institutions": [
+            "Institute for Astronomy, School of Physics, Zhejiang University, Hangzhou, 310027 Zhejiang, China"
+          ],
+          "orcid": "https://orcid.org/0000-0002-8537-6669"
+        },
+        {
+          "name": "Austen Fourkas",
+          "institutions": [
+            "Department of Astronomy, University of Illinois, 1002 West Green St, Urbana, IL 61801, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0001-7387-3898"
+        },
+        {
+          "name": "Rachel Harrison",
+          "institutions": [
+            "Department of Physics and Astronomy, Rice University, 6100 Main Street – MS 108, Houston, TX 77005, USA"
+          ],
+          "orcid": "https://orcid.org/0000-0003-2118-4999"
+        },
+        {
+          "name": "Ryo Tazaki",
+          "institutions": [
+            "Department of Earth Science and Astronomy, The University of Tokyo, 3-8-1 Komaba, Meguro, Tokyo 153-8902, Japan"
+          ],
+          "orcid": "https://orcid.org/0000-0003-1451-6836"
+        },
+        {
+          "name": "Satoshi Okuzumi",
+          "institutions": [
+            "Department of Earth and Planetary Sciences, Institute of Science Tokyo, 2-12-1 Ookayama, Meguro, Tokyo 152-8551, Japan"
+          ],
+          "orcid": "https://orcid.org/0000-0002-1886-0880"
+        },
+        {
+          "name": "Carlos Carrasco-González",
+          "institutions": [
+            "Instituto de Radioastronomía y Astrofísica, Universidad Nacional Autónoma de México, Antigua Carretera a Pátzcuaro 8701, Ex-Hda. San José de la Huerta, 58089 Morelia, Michoacán, Mexico"
+          ],
+          "orcid": "https://orcid.org/0000-0003-2862-5363"
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.34613v1",
+      "intro_en": "Polarimetric observations of protoplanetary disks at (sub)millimeter wavelengths constrain dust grain properties, dynamics, and alignment mechanisms. We present new high-resolution ALMA Band 4 (2.1 mm) polarization observations of HL Tau with spatial resolutions of $\\sim$0.08$''$ (11.78 au) and $\\sim$0.19$''$ (27.99 au).",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-26",
+      "publication_date_source": "https://arxiv.org/abs/2611.34613v1",
+      "version_date": "2026-11-25T16:01:41+00:00"
+    },
+    {
+      "id": "2611.34582",
+      "version_id": "2611.34582v1",
+      "title": "Pressure demand and solute replacement in a collagen-plugged bioreactor",
+      "abstract": "In a perfusion bioreactor, fresh culture medium enters through a small opening, flows through a collagen plug, and leaves through a second opening. How much pressure is needed to sustain that flow? When fresh medium reaches the outlet, has it also replaced the old medium inside the pores? To answer these questions, we simulated flow and medium replacement in pores traced from a collagen image. The flow simulations and curved-channel theory show how narrow, winding passages concentrate resistance. We used that resistance to estimate the plug permeability and found that the modeled plug accounts for most of the pressure drop across the chamber. Feeding through small openings adds to that demand because the flow must spread through the plug and converge again at the outlet. At the same flow rate, this requires about seven times the pressure needed with uniform feeding across the plug faces. Pore shape also affects how closely the outlet signal tracks replacement in the interior. In most runs, the interior reaches 99% replacement before the outlet does. A slowly exchanging side pocket can reverse that order by retaining old medium while fresh medium passes through the main channel. In the strongest case, the interior takes nearly three times as long as the outlet to reach the same replacement threshold.",
+      "published": "2026-11-25T15:45:38Z",
+      "updated": "2026-11-25T15:45:38Z",
+      "authors": [
+        "Mohammad Mehedi Hasan Akash",
+        "Mohammad Yeasin",
+        "Karl Van Horsen",
+        "Mithul Sathish",
+        "Susan Immanuel",
+        "Sanku Mallik",
+        "Saikat Basu"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn",
+        "physics.bio-ph"
+      ],
+      "url": "https://arxiv.org/abs/2611.34582",
+      "pdf": "https://arxiv.org/pdf/2611.34582v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-26T09:29:22.338604+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Department of Mechanical and Aerospace Engineering, FAMU–FSU College of Engineering, Tallahassee, Florida, USA",
+        "Department of Mechanical Engineering, South Dakota State University, Brookings, South Dakota, USA",
+        "Department of Pharmaceutical Sciences, North Dakota State University, Fargo, North Dakota, USA",
+        "Department of Pharmaceutical Sciences, College of Pharmacy and Allied Health Professions, South Dakota State University, Brookings, South Dakota, USA"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Mohammad Mehedi Hasan Akash",
+          "institutions": [
+            "Department of Mechanical and Aerospace Engineering, FAMU–FSU College of Engineering, Tallahassee, Florida, USA",
+            "Department of Mechanical Engineering, South Dakota State University, Brookings, South Dakota, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Mohammad Yeasin",
+          "institutions": [
+            "Department of Mechanical Engineering, South Dakota State University, Brookings, South Dakota, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Karl Van Horsen",
+          "institutions": [
+            "Department of Pharmaceutical Sciences, North Dakota State University, Fargo, North Dakota, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Mithul Sathish",
+          "institutions": [
+            "Department of Pharmaceutical Sciences, North Dakota State University, Fargo, North Dakota, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Susan Immanuel",
+          "institutions": [
+            "Department of Pharmaceutical Sciences, College of Pharmacy and Allied Health Professions, South Dakota State University, Brookings, South Dakota, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Sanku Mallik",
+          "institutions": [
+            "Department of Pharmaceutical Sciences, College of Pharmacy and Allied Health Professions, South Dakota State University, Brookings, South Dakota, USA"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Saikat Basu",
+          "institutions": [
+            "Department of Mechanical Engineering, South Dakota State University, Brookings, South Dakota, USA"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.34582v1",
+      "intro_en": "In a perfusion bioreactor, fresh culture medium enters through a small opening, flows through a collagen plug, and leaves through a second opening. How much pressure is needed to sustain that flow?",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-25",
+      "publication_date_source": "https://arxiv.org/abs/2611.34582v1",
+      "version_date": "2026-11-25T15:45:38+00:00"
+    },
+    {
+      "id": "2611.34574",
+      "version_id": "2611.34574v1",
+      "title": "CLM-JAX v3.2.46: a differentiable, GPU-accelerated land surface model numerically indistinguishable from the Community Land Model 5.0",
+      "abstract": "The original Fortran implementation of the Community Land Model version 5.0 (CLM5.0) primarily targets CPUs and does not support GPU computation or automatic differentiation. We present CLM-JAX, a land surface model implemented in Python, based on the CLM5.0 BGC-Crop configuration in the Community Earth System Model version 2.1.3 (CESM2.1.3). CLM-JAX retains the original subgrid hierarchy, parameterizations and coupling among energy, water, carbon, nitrogen and crop processes, runs on CPUs and GPUs, and supports gradient backpropagation through multi-step time integration. Using floating-point perturbations of order $10^{-14}$ in the initial state, we construct a stringent ensemble baseline of CLM's own differences and evaluate the numerical consistency of CLM-JAX for 32 variables over five years of continuous global simulation during 2019-2023. CLM-JAX errors relative to CLM generally lie below this ensemble baseline. On a single NVIDIA A800 GPU, CLM-JAX requires 0.7692 s per model hour, yielding sustained integration speedups of 4.04 and 2.57 over CLM compiled with gfortran and ifort, respectively, on 64 CPU cores. In the gradient test, the objective function is the first-layer soil temperature at step 100 (50 h), and its gradient with respect to the initial soil temperature field of all model layers is obtained by backpropagation through the 100 time steps. With converged central finite differences as references, 95.79% of the 84,254 nonzero references have relative errors no greater than 1% and 98.22% have matching signs, with median and 90th-percentile relative errors of $5.862\\times10^{-7}$% and $3.578\\times10^{-4}$%, respectively. The differentiability of CLM-JAX provides a basis for gradient-based applications, such as end-to-end parameter optimization and four-dimensional variational data assimilation.",
+      "published": "2026-11-25T15:38:43Z",
+      "updated": "2026-11-25T15:38:43Z",
+      "authors": [
+        "Shijin Yuan",
+        "Zhen Wei",
+        "Tianyu Shen",
+        "Bin Mu",
+        "Bo Qin",
+        "Guokun Dai"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.ao-ph"
+      ],
+      "url": "https://arxiv.org/abs/2611.34574",
+      "pdf": "https://arxiv.org/pdf/2611.34574v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-26T09:29:22.338604+00:00",
+      "version_changed": false,
+      "topics": [
+        "methods"
+      ],
+      "matches": {
+        "methods": [
+          "data assimilation"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "海冰与表层 · Ice & surface",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 20,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2611.34574v1",
+      "intro_en": "The original Fortran implementation of the Community Land Model version 5.0 (CLM5.0) primarily targets CPUs and does not support GPU computation or automatic differentiation. We present CLM-JAX, a land surface model implemented in Python, based on the CLM5.0 BGC-Crop configuration in the Community Earth System Model version 2.1.3 (CESM2.1.3).",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-25",
+      "publication_date_source": "https://arxiv.org/abs/2611.34574v1",
+      "version_date": "2026-11-25T15:38:43+00:00"
+    },
+    {
+      "id": "2611.34441",
+      "version_id": "2611.34441v1",
+      "title": "Full-waveform inversion with adaptive anisotropic Gaussian primitives",
+      "abstract": "Reparameterizing the velocity model has emerged as an effective way to regularize full-waveform inversion (FWI) and reduce its sensitivity to the starting model. Existing parameterizations, however, either fix the position and shape of every basis function in advance, as in grids and splines, or control the spatial structure of their updates only indirectly through the shared weights of a neural network. We propose Gauss-FWI, which represents the velocity perturbation as a sum of anisotropic Gaussian primitives with learnable amplitudes, centres, scales, and orientations. The basis itself thus adapts to the subsurface. Primitives move onto interfaces, stretch along layers, and rotate with the dip, so model updates follow the geological structure without a hand-designed regularizer. A gradient-energy criterion adds finer zero-amplitude primitives where the data call for more detail, increasing resolution progressively without perturbing the current model. All parameters receive analytic gradients through the adjoint-state method on a fixed simulation grid, so the representation fits into existing FWI workflows and combines directly with frequency continuation. Each primitive keeps an explicit position, extent, and orientation, and the representation Jacobian links the waveform gradient to the resulting model update, which makes the behaviour of the inversion interpretable. In two-dimensional acoustic examples, Gauss-FWI uses about fifty times fewer parameters than implicit FWI and recovers the Marmousi, Overthrust, and BP salt models more accurately than grid, multiscale, B-spline, and implicit parameterizations. It remains accurate under missing low frequencies, noise, and discretization mismatch, and it recovers the main structure from starting models where the other methods fail, such as a linear model without the BP salt body.",
+      "published": "2026-11-25T14:23:09Z",
+      "updated": "2026-11-25T14:23:09Z",
+      "authors": [
+        "Pu Yang",
+        "Yuxin Liu",
+        "Zhengyang Fang",
+        "Bin Zhang",
+        "Deshan Feng"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.geo-ph"
+      ],
+      "url": "https://arxiv.org/abs/2611.34441",
+      "pdf": "https://arxiv.org/pdf/2611.34441v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-26T09:29:22.338604+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2611.34441v1",
+      "intro_en": "Reparameterizing the velocity model has emerged as an effective way to regularize full-waveform inversion (FWI) and reduce its sensitivity to the starting model. Existing parameterizations, however, either fix the position and shape of every basis function in advance, as in grids and splines, or control the spatial structure of their updates only indirectly through the shared weights of a neural network.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-25",
+      "publication_date_source": "https://arxiv.org/abs/2611.34441v1",
+      "version_date": "2026-11-25T14:23:09+00:00"
+    },
+    {
+      "id": "2611.34437",
+      "version_id": "2611.34437v1",
+      "title": "Graph Parameterization for Invariant Manifolds Attached to Quasi-Periodic Tori",
+      "abstract": "We develop a high-order Fourier-Taylor graph-parameterization method for computing local invariant manifolds attached to reducible quasi-periodic invariant tori of discrete dynamical systems, with particular emphasis on Poincaré maps. Assuming that the invariant torus and its Floquet reduction are known, we represent the manifold as a graph over a selected spectral subspace and compute its coefficients recursively through jet transport and cohomological equations on the torus. The formulation accommodates stable, unstable, and center spectral selections. For center manifolds, it simultaneously determines the nonlinear reduced dynamics, providing a low-dimensional representation from which nearby invariant objects can be lifted to the original phase space. For real systems with complex-conjugate Floquet multipliers, we derive an equivalent real formulation based on Hermitian symmetry and Krawtchouk transformations. This allows real-valued jet transport while retaining the advantages of complex spectral coordinates in the cohomological solver. The implementation also incorporates inverse dynamics for stable directions, multiple shooting, coordinate scaling, and a posteriori validation tests. Numerical experiments with a quasi-periodically forced pendulum, an oscillating solar sail in the Earth-Moon system, and a simplified solar system model illustrate the construction and its computational properties. In the solar-sail benchmark, the real formulation reduces computation time by approximately a factor of 2.2 compared with the complex implementation.",
+      "published": "2026-11-25T14:21:09Z",
+      "updated": "2026-11-25T14:21:09Z",
+      "authors": [
+        "Miquel Barcelona",
+        "Joan Gimeno",
+        "Marc Jorba-Cuscó"
+      ],
+      "doi": "",
+      "categories": [
+        "math.DS",
+        "astro-ph.EP",
+        "math-ph",
+        "physics.class-ph"
+      ],
+      "url": "https://arxiv.org/abs/2611.34437",
+      "pdf": "https://arxiv.org/pdf/2611.34437v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-26T09:29:22.338604+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "行星科学拓展阅读",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [
+        {
+          "name": "Miquel Barcelona",
+          "institutions": [],
+          "orcid": "https://orcid.org/0000-0002-0036-5240"
+        },
+        {
+          "name": "Joan Gimeno",
+          "institutions": [],
+          "orcid": "https://orcid.org/0000-0002-8707-6379"
+        },
+        {
+          "name": "Marc Jorba-Cuscó",
+          "institutions": [],
+          "orcid": "https://orcid.org/0000-0003-0308-3756"
+        }
+      ],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2611.34437v1",
+      "intro_en": "We develop a high-order Fourier-Taylor graph-parameterization method for computing local invariant manifolds attached to reducible quasi-periodic invariant tori of discrete dynamical systems, with particular emphasis on Poincaré maps. Assuming that the invariant torus and its Floquet reduction are known, we represent the manifold as a graph over a selected spectral subspace and compute its coefficients recursively through jet transport and cohomological equations on the torus.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-25",
+      "publication_date_source": "https://arxiv.org/abs/2611.34437v1",
+      "version_date": "2026-11-25T14:21:09+00:00"
+    },
+    {
+      "id": "2611.34296",
+      "version_id": "2611.34296v1",
+      "title": "LatENSO v1.0: a learned latent state of the tropical Pacific for seasonal ENSO operators and forecasting",
+      "abstract": "Here we present LatENSO v1.0, a machine-learning forecast system for the El Niño-Southern Oscillation (ENSO) built around a learned, 32-dimensional state of the tropical Pacific. A Swin-transformer autoencoder compresses thirteen monthly-averaged ocean and atmosphere fields into 32 numbers, trained to reconstruct the fields, with no forecast target. The 32 numbers rebuild the fields as well as O(100) empirical orthogonal functions. Two seasonal operators use this state. The first is the extended nonlinear recharge oscillator (XRO) with two directions of the learned state among its variables; we call it XRO-lat. The second is a Floquet modal operator (FMO) of three damped oscillators, which forecasts a correction added to a least-squares base forecast made from four observed predictors. We evaluate both against the recharge oscillator, XRO and a deep echo-state network (DESN), all refitted on identical data, cross-validation folds and verification windows (1981-2024). Over lead times of 1-18 months, XRO-lat reaches an anomaly correlation coefficient (ACC) of 0.673, the highest of all tropical-Pacific-only (in-domain) systems and statistically indistinguishable from XRO and DESN with their eight remote-basin indices (0.685 and 0.667). From lead 15 to lead 24 it is the most skillful of all systems. Over leads 1-18, the FMO forecast (0.619) is statistically indistinguishable from every in-domain reference model (0.631-0.654). What the FMO adds to its base forecast, 0.054 in ACC, is carried by its Floquet propagation, whose generator consistently holds a prominent quasi-biennial oscillator. At leads 3-9 the FMO trails XRO, DESN and the in-domain XRO, a deficit partly attributable to its base. LatENSO combines competitive skill with trustworthiness: a compact state whose physical content can be inspected, and fully open access to code, weights and data.",
+      "published": "2026-11-25T12:49:39Z",
+      "updated": "2026-11-25T12:49:39Z",
+      "authors": [
+        "Milad Panahi",
+        "Annalisa Bracco"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.ao-ph",
+        "cs.LG",
+        "physics.geo-ph"
+      ],
+      "url": "https://arxiv.org/abs/2611.34296",
+      "pdf": "https://arxiv.org/pdf/2611.34296v1",
+      "source": "arXiv",
+      "first_seen": "2026-11-26T09:29:22.338604+00:00",
+      "version_changed": false,
+      "topics": [
+        "climate"
+      ],
+      "matches": {
+        "climate": [
+          "enso"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 32,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "unavailable",
+      "affiliation_source": "https://arxiv.org/html/2611.34296v1",
+      "intro_en": "Here we present LatENSO v1.0, a machine-learning forecast system for the El Niño-Southern Oscillation (ENSO) built around a learned, 32-dimensional state of the tropical Pacific. A Swin-transformer autoencoder compresses thirteen monthly-averaged ocean and atmosphere fields into 32 numbers, trained to reconstruct the fields, with no forecast target.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-25",
+      "publication_date_source": "https://arxiv.org/abs/2611.34296v1",
+      "version_date": "2026-11-25T12:49:39+00:00"
+    },
     {
       "id": "2611.33103",
       "version_id": "2611.33103v1",
@@ -11865,6 +13067,73 @@
       "version_date": "2026-11-16T13:37:25+00:00"
     },
     {
+      "id": "2611.17411",
+      "version_id": "2611.17411v2",
+      "title": "HydróDex: gotta match 'em all!",
+      "abstract": "First-order phase transitions can source a stochastic gravitational-wave background within reach of LISA and other future detectors, with sound waves in the plasma typically providing the dominant contribution. Predicting the resulting gravitational-wave signal requires determining the stationary fluid profiles around expanding bubbles. We present a complete hydrodynamic classification of these profiles in the constant-sound-speed model, which generalizes the bag model by allowing the sound speeds in front of and behind the wall, $c_+$ and $c_-$, to differ. Solving the matching conditions at the wall and evolving the surrounding plasma, we recover the known direct and inverse detonations, deflagrations, and hybrids, and uncover mixed hybrids, a new class with rarefaction waves on both sides of the wall and oppositely directed fluid flows. For a sufficiently pronounced hierarchy $c_+>c_-$, multiple stationary profiles can correspond to the same wall velocity $ξ_w$ and asymptotic transition strength $α_N$. This non-uniqueness arises because this parametrization discards thermodynamic information and is resolved once the underlying microphysics is specified. We compute the kinetic-energy budget and acoustic gravitational-wave spectra within the sound-shell model, finding that mixed hybrids introduce no additional spectral feature and can be mimicked by ordinary direct or inverse hybrids with substantially different fluid profiles. Finally, we release HydróDex, a public code implementing the complete classification, profile construction, energy-budget calculation, and gravitational-wave prediction.",
+      "published": "2026-11-12T19:00:03Z",
+      "updated": "2026-11-25T17:44:49Z",
+      "authors": [
+        "Giulio Barni",
+        "Eric Madge"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.flu-dyn",
+        "astro-ph.CO",
+        "hep-ph"
+      ],
+      "url": "https://arxiv.org/abs/2611.17411",
+      "pdf": "https://arxiv.org/pdf/2611.17411v2",
+      "source": "arXiv",
+      "first_seen": "2026-11-26T09:29:22.338604+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [
+        "Instituto de Física Teórica IFT-UAM/CSIC, Cantoblanco, E-28049 Madrid, Spain",
+        "Deutsches Elektronen-Synchrotron DESY, Notkestr. 85, 22607 Hamburg, Germany",
+        "Departamento de Física Teórica, Universidad Autónoma de Madrid, Cantoblanco, E-28049 Madrid, Spain",
+        "Institute for Particle Physics Phenomenology, Durham University, South Road, Durham DH1 3LE, United Kingdom"
+      ],
+      "author_affiliations": [
+        {
+          "name": "Giulio Barni",
+          "institutions": [
+            "Instituto de Física Teórica IFT-UAM/CSIC, Cantoblanco, E-28049 Madrid, Spain",
+            "Deutsches Elektronen-Synchrotron DESY, Notkestr. 85, 22607 Hamburg, Germany"
+          ],
+          "orcid": null
+        },
+        {
+          "name": "Eric Madge",
+          "institutions": [
+            "Instituto de Física Teórica IFT-UAM/CSIC, Cantoblanco, E-28049 Madrid, Spain",
+            "Departamento de Física Teórica, Universidad Autónoma de Madrid, Cantoblanco, E-28049 Madrid, Spain",
+            "Institute for Particle Physics Phenomenology, Durham University, South Road, Durham DH1 3LE, United Kingdom"
+          ],
+          "orcid": null
+        }
+      ],
+      "affiliation_status": "verified",
+      "affiliation_source": "https://arxiv.org/html/2611.17411v2",
+      "intro_en": "First-order phase transitions can source a stochastic gravitational-wave background within reach of LISA and other future detectors, with sound waves in the plasma typically providing the dominant contribution. Predicting the resulting gravitational-wave signal requires determining the stationary fluid profiles around expanding bubbles.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-11-13",
+      "publication_date_source": "https://arxiv.org/abs/2611.17411v2",
+      "version_date": "2026-11-25T17:44:49+00:00"
+    },
+    {
       "id": "2611.17300",
       "version_id": "2611.17300v1",
       "title": "JWST Rocky Worlds DDT Observations of LTT 1445 A b and c in Secondary Eclipse Using MIRI/F1500W",
@@ -14473,11 +15742,11 @@
     },
     {
       "id": "2611.14330",
-      "version_id": "2611.14330v2",
-      "title": "Linking Outer Solar System Objects in Archival DECam Imaging: A Multi-year Linker Tested on Held-out Known Objects, and 189 Multi-opposition Candidates Including Five L4 Neptune Trojans, Two Retrograde Objects and Eight with a > 150 au",
-      "abstract": "I link single-night detections in public DECam imaging: 74% of the NOIRLab Source Catalog DR2 (2012-2019) sky with four or more nights, and my extraction from 149,421 exposures (2020-2026). Of 931 secure known objects, single-season linking recovers 22.1-25.0%, a multi-year linker 26.5%, together 36.2%. The multi-year rule, fixed before its held-out tests, recovers 68% of DES objects brighter than r = 23.5 in a strip of its footprint and 14 of 47 known objects outside it. Its shifted-sky controls, complete for 162 of 165 blocks, return no candidate. For its 34 candidates not already known this limits pure chance alignments to under 4% (11% at seven nights), but not links that mix real and chance detections. At six nights real and control counts are indistinguishable. Identification by orbit finds 14 designated objects that a position check missed. The catalogue has 189 undesignated candidates with orbits from two or more oppositions, whose linked detections were re-measured on the images; 41 were then detected on two or more nights that their fits did not use. Listed apart are 63 weaker entries and 19 designated objects, 12 of them Rubin discoveries with 4.9-13.2 yr of earlier arc. Five are candidate L4 Neptune Trojans whose orbits and clones librate for 10 Myr (one reported independently by Jongma 2026, mostly from other data), two are retrograde candidates and eight have a > 150 au. There is no follow-up and no selection function. The Minor Planet Center has astrometry of 37 objects; unreleased positions are available on request, in confidence.",
+      "version_id": "2611.14330v3",
+      "title": "Linking Outer Solar System Objects in Archival DECam Imaging: A Multi-year Linker Tested on Held-out Known Objects, and 273 Multi-opposition Candidates Including Six L4 Neptune Trojans, Two Retrograde Objects and Ten with a > 150 au",
+      "abstract": "I link single-night detections in public DECam imaging: 74% of the NOIRLab Source Catalog DR2 (2012-2019) sky with four or more nights, and my extraction from 149,421 exposures (2020-2026). Of 931 secure known objects, single-season linking recovers 22.1-25.0%, a multi-year linker 26.5%, together 36.2%. The multi-year rule, fixed before its held-out tests, recovers 68% of DES objects brighter than r=23.5 in a strip of its footprint and 14 of 47 known objects outside it. Its shifted-sky controls, complete for 162 of 165 blocks, return no candidate. This limits pure chance alignments, not links that mix real and chance detections. An identity check by orbit with 3,110 joint fits finds no designated object among the candidates. Searches beyond 79 au recover, blind, only 2014 UZ224, Gonggong and Chiminigagua. The catalogue has 273 undesignated candidates with orbits from two or more oppositions, whose linked detections were re-measured on the images; of the 189 of version 2, 41 were then detected on two or more nights that their fits did not use. Listed apart are 92 weaker entries and 30 designated objects, 17 of them Rubin discoveries with 2.9-13.2 yr of arc before discovery. Six are candidate L4 Neptune Trojans whose orbits and clones librate for 10 Myr (one reported independently by Jongma 2026, mostly from other data), two are retrograde candidates and ten have a>150 au. There is no follow-up or validated selection function. The Minor Planet Center has astrometry of 38 objects; unreleased positions are available on request, in confidence.",
       "published": "2026-11-10T16:55:06Z",
-      "updated": "2026-11-17T13:25:21Z",
+      "updated": "2026-11-25T14:05:24Z",
       "authors": [
         "Gioele Cerati"
       ],
@@ -14487,7 +15756,7 @@
         "astro-ph.IM"
       ],
       "url": "https://arxiv.org/abs/2611.14330",
-      "pdf": "https://arxiv.org/pdf/2611.14330v2",
+      "pdf": "https://arxiv.org/pdf/2611.14330v3",
       "source": "arXiv",
       "first_seen": "2026-11-11T07:43:49.541050+00:00",
       "version_changed": true,
@@ -14512,14 +15781,14 @@
         }
       ],
       "affiliation_status": "verified",
-      "affiliation_source": "https://arxiv.org/html/2611.14330v2",
+      "affiliation_source": "https://arxiv.org/html/2611.14330v3",
       "intro_en": "I link single-night detections in public DECam imaging: 74% of the NOIRLab Source Catalog DR2 (2012-2019) sky with four or more nights, and my extraction from 149,421 exposures (2020-2026). Of 931 secure known objects, single-season linking recovers 22.1-25.0%, a multi-year linker 26.5%, together 36.2%.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-11-11",
-      "publication_date_source": "https://arxiv.org/abs/2611.14330v2",
-      "version_date": "2026-11-17T13:25:21+00:00"
+      "publication_date_source": "https://arxiv.org/abs/2611.14330v3",
+      "version_date": "2026-11-25T14:05:24+00:00"
     },
     {
       "id": "2611.14297",
@@ -27500,11 +28769,11 @@
     },
     {
       "id": "2610.36944",
-      "version_id": "2610.36944v1",
+      "version_id": "2610.36944v2",
       "title": "Impact of Cumulus Parameterization and Cloud Microphysics on WRF Simulation of an Extreme Rainfall Event over Maharashtra, India: A 3 by 3 Factorial Assessment",
       "abstract": "Simulating extreme monsoon rainfall over the Konkan coast and Western Ghats remains challenging at 9 km resolution, where convection is partly resolved and partly parameterised. This study evaluates the sensitivity of Weather Research and Forecasting (WRF) simulations of the 5-7 July 2026 Maharashtra rainfall event to cumulus and cloud microphysics schemes. Nine simulations employed a 3 x 3 factorial design combining WSM6, WDM6 and Thompson microphysics with Kain-Fritsch, Tiedtke and Grell-Freitas cumulus schemes. Rainfall was evaluated against IMD 0.25-degree gridded observations, with IMERG and ERA5 as additional references. A descriptive factorial decomposition showed that cumulus parameterisation accounted for 97.3% of across-experiment variation in mean rainfall, 88.2% in RMSE and 84.7% in spatial correlation, while microphysics contributed 2.0%, 2.1% and 9.3%, respectively. Kain-Fritsch produced the highest spatial correlations (0.533-0.581) but substantially overestimated rainfall. Tiedtke achieved the smallest mean biases and RMSE, although compensating regional errors concealed a 28-34% rainfall deficit over the Konkan-Ghats belt and substantial underestimation on 7 July. Grell-Freitas showed large wet biases and relatively high RMSE. All nine simulations displaced the event-total rainfall maximum approximately 140-195 km northward. WSM6-Tiedtke achieved the lowest RMSE, whereas Thompson-Kain-Fritsch better represented the rainfall spatial pattern. The findings demonstrate that, for this event and fixed model configuration, cumulus parameterisation exerted substantially greater influence on simulated rainfall than cloud microphysics. However, a single-event, single-member experimental design does not establish a universally optimal physics configuration.",
       "published": "2026-10-27T10:02:48Z",
-      "updated": "2026-10-27T10:02:48Z",
+      "updated": "2026-11-25T15:12:18Z",
       "authors": [
         " Devesh",
         "Satyam Kumar",
@@ -27515,10 +28784,10 @@
         "physics.ao-ph"
       ],
       "url": "https://arxiv.org/abs/2610.36944",
-      "pdf": "https://arxiv.org/pdf/2610.36944v1",
+      "pdf": "https://arxiv.org/pdf/2610.36944v2",
       "source": "arXiv",
       "first_seen": "2026-10-28T06:50:23.316687+00:00",
-      "version_changed": false,
+      "version_changed": true,
       "topics": [
         "physics"
       ],
@@ -27540,14 +28809,14 @@
       "institutions": [],
       "author_affiliations": [],
       "affiliation_status": "unavailable",
-      "affiliation_source": "https://arxiv.org/html/2610.36944v1",
+      "affiliation_source": "https://arxiv.org/html/2610.36944v2",
       "intro_en": "Simulating extreme monsoon rainfall over the Konkan coast and Western Ghats remains challenging at 9 km resolution, where convection is partly resolved and partly parameterised. This study evaluates the sensitivity of Weather Research and Forecasting (WRF) simulations of the 5-7 July 2026 Maharashtra rainfall event to cumulus and cloud microphysics schemes.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-10-27",
-      "publication_date_source": "https://arxiv.org/abs/2610.36944v1",
-      "version_date": "2026-10-27T10:02:48+00:00"
+      "publication_date_source": "https://arxiv.org/abs/2610.36944v2",
+      "version_date": "2026-11-25T15:12:18+00:00"
     },
     {
       "id": "2610.36928",
@@ -46933,11 +48202,11 @@
     },
     {
       "id": "2610.17896",
-      "version_id": "2610.17896v2",
+      "version_id": "2610.17896v3",
       "title": "Cumulus parameterization controls simulated rainfall more than microphysics, but not at heavy thresholds: a 3 * 2 factorial WRF study over the Western Himalaya",
       "abstract": "Rainfall forecasts over the Western Himalaya remain poor, and the relative contributions of the cumulus and microphysics parameterizations to that error are not well constrained.",
       "published": "2026-10-13T07:50:40Z",
-      "updated": "2026-10-14T04:10:41Z",
+      "updated": "2026-11-25T16:06:49Z",
       "authors": [
         "Satyam Kumar",
         "Akshay Sunil",
@@ -46948,10 +48217,10 @@
         "physics.ao-ph"
       ],
       "url": "https://arxiv.org/abs/2610.17896",
-      "pdf": "https://arxiv.org/pdf/2610.17896v2",
+      "pdf": "https://arxiv.org/pdf/2610.17896v3",
       "source": "arXiv",
       "first_seen": "2026-10-15T01:38:21.320708+00:00",
-      "version_changed": false,
+      "version_changed": true,
       "topics": [],
       "matches": {},
       "status": "unmatched",
@@ -46963,14 +48232,14 @@
       "institutions": [],
       "author_affiliations": [],
       "affiliation_status": "unavailable",
-      "affiliation_source": "https://arxiv.org/html/2610.17896v2",
+      "affiliation_source": "https://arxiv.org/html/2610.17896v3",
       "intro_en": "Rainfall forecasts over the Western Himalaya remain poor, and the relative contributions of the cumulus and microphysics parameterizations to that error are not well constrained.",
       "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
       "intro_kind": "abstract_excerpt",
       "intro_basis": "英文摘要节选",
       "publication_date": "2026-10-13",
-      "publication_date_source": "https://arxiv.org/abs/2610.17896v2",
-      "version_date": "2026-10-14T04:10:41+00:00"
+      "publication_date_source": "https://arxiv.org/abs/2610.17896v3",
+      "version_date": "2026-11-25T16:06:49+00:00"
     },
     {
       "id": "2610.17889",
@@ -66384,6 +67653,58 @@
       "version_date": "2026-11-12T15:44:57+00:00"
     },
     {
+      "id": "2609.09709",
+      "version_id": "2609.09709v2",
+      "title": "Boundary-layer scheme selection outweighs microphysics in WRF simulations of the August 2018 Kerala extreme rainfall event",
+      "abstract": "Because precipitation is regulated by intricate interactions between topography, cloud microphysics,cumulus convection, radiation, and boundary-layer processes, it is still difficult to accurately simulate orographically enhanced monsoon rainfall over the Western Ghats.",
+      "published": "2026-09-09T04:48:27Z",
+      "updated": "2026-11-25T16:01:52Z",
+      "authors": [
+        "Satyam Kumar",
+        "Akshay Sunil",
+        "Rashad PE"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.ao-ph"
+      ],
+      "url": "https://arxiv.org/abs/2609.09709",
+      "pdf": "https://arxiv.org/pdf/2609.09709v2",
+      "source": "arXiv",
+      "first_seen": "2026-11-26T09:29:22.338604+00:00",
+      "version_changed": false,
+      "topics": [
+        "physics"
+      ],
+      "matches": {
+        "physics": [
+          "cloud microphysics",
+          "precipitation"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [
+        "云与辐射 · Clouds & radiation",
+        "水循环 · Water cycle",
+        "流体与不稳定性 · Fluid dynamics",
+        "反演与数值方法 · Inverse & numerical methods"
+      ],
+      "method": "keyword",
+      "fit_score": 32,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "pending",
+      "intro_en": "Because precipitation is regulated by intricate interactions between topography, cloud microphysics,cumulus convection, radiation, and boundary-layer processes, it is still difficult to accurately simulate orographically enhanced monsoon rainfall over the Western Ghats.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-09-09",
+      "publication_date_source": "https://arxiv.org/abs/2609.09709v2",
+      "version_date": "2026-11-25T16:01:52+00:00"
+    },
+    {
       "id": "2609.09063",
       "version_id": "2609.09063v2",
       "title": "The size and mass distribution of cold classical TNOs for $5<H<13$",
@@ -72661,6 +73982,55 @@
       "publication_date_source": "https://arxiv.org/abs/2605.13417v2",
       "affiliation_source": "https://arxiv.org/html/2605.13417v2",
       "version_date": "2026-10-22T09:34:52+00:00"
+    },
+    {
+      "id": "2605.12393",
+      "version_id": "2605.12393v2",
+      "title": "Variational approach to droplet motion on uneven solid surfaces, including contact line dynamics and evaporation",
+      "abstract": "We show how dynamical equations for liquid films and drops on uneven surfaces, including contact line dynamics and evaporation/condensation effects, may be formulated as a variational dynamics, generated via Onsager's variational principle. The theory applies in the isothermal overdamped-dynamics limit. We apply this general approach to obtain several well-known results on contact line dynamics and to study drops pinning and sliding on inclined corrugated surfaces. This approach constructs the dynamical equations starting from the free energy of the system and therefore has the advantage that it naturally incorporates the correct equilibrium properties.",
+      "published": "2026-05-12T16:56:53Z",
+      "updated": "2026-11-25T14:28:00Z",
+      "authors": [
+        "Gyula I Tóth",
+        "David N Sibley",
+        "Agnes J Bokányi-Tóth",
+        "Dmitri Tseluiko",
+        "Andrew J Archer"
+      ],
+      "doi": "",
+      "categories": [
+        "cond-mat.soft",
+        "cond-mat.mes-hall",
+        "cond-mat.stat-mech",
+        "math.DS",
+        "physics.flu-dyn"
+      ],
+      "url": "https://arxiv.org/abs/2605.12393",
+      "pdf": "https://arxiv.org/pdf/2605.12393v2",
+      "source": "arXiv",
+      "first_seen": "2026-11-26T09:29:22.338604+00:00",
+      "version_changed": false,
+      "topics": [],
+      "matches": {},
+      "status": "unmatched",
+      "reason": "拓展阅读",
+      "tags": [
+        "水循环 · Water cycle",
+        "海冰与表层 · Ice & surface"
+      ],
+      "method": "keyword",
+      "fit_score": 0,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "pending",
+      "intro_en": "We show how dynamical equations for liquid films and drops on uneven surfaces, including contact line dynamics and evaporation/condensation effects, may be formulated as a variational dynamics, generated via Onsager's variational principle. The theory applies in the isothermal overdamped-dynamics limit.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2026-05-13",
+      "publication_date_source": "https://arxiv.org/abs/2605.12393v2",
+      "version_date": "2026-11-25T14:28:00+00:00"
     },
     {
       "id": "2605.11896",
@@ -84056,6 +85426,53 @@
       "publication_date_source": "https://arxiv.org/abs/2306.08091v3",
       "affiliation_source": "https://arxiv.org/html/2306.08091v3",
       "version_date": "2026-11-09T14:38:26+00:00"
+    },
+    {
+      "id": "1908.00726",
+      "version_id": "1908.00726v2",
+      "title": "The linear Boltzmann equation in column experiments of porous media",
+      "abstract": "The use of the linear Boltzmann equation is proposed for transport in porous media in a column. By column experiments, we show that the breakthrough curve is reproduced by the linear Boltzmann equation. The advection-diffusion equation is derived from the linear Boltzmann equation in the asymptotic limit of large propagation distance and long time.",
+      "published": "2019-08-02T07:33:58Z",
+      "updated": "2026-11-25T10:13:53Z",
+      "authors": [
+        "Kenji Amagai",
+        "Motoko Yamakawa",
+        "Manabu Machida",
+        "Yuko Hatano"
+      ],
+      "doi": "",
+      "categories": [
+        "physics.geo-ph"
+      ],
+      "url": "https://arxiv.org/abs/1908.00726",
+      "pdf": "https://arxiv.org/pdf/1908.00726v2",
+      "source": "arXiv",
+      "first_seen": "2026-11-26T09:29:22.338604+00:00",
+      "version_changed": false,
+      "topics": [
+        "methods"
+      ],
+      "matches": {
+        "methods": [
+          "boltzmann"
+        ]
+      },
+      "status": "excluded",
+      "reason": "当前研究范围外的候选，供管理员复核",
+      "tags": [],
+      "method": "keyword",
+      "fit_score": 20,
+      "fit_matches": [],
+      "institutions": [],
+      "author_affiliations": [],
+      "affiliation_status": "pending",
+      "intro_en": "The use of the linear Boltzmann equation is proposed for transport in porous media in a column. By column experiments, we show that the breakthrough curve is reproduced by the linear Boltzmann equation.",
+      "intro_zh": "中文导读待整理；可展开英文摘要查看研究内容。",
+      "intro_kind": "abstract_excerpt",
+      "intro_basis": "英文摘要节选",
+      "publication_date": "2019-08-02",
+      "publication_date_source": "https://arxiv.org/abs/1908.00726v2",
+      "version_date": "2026-11-25T10:13:53+00:00"
     },
     {
       "id": "1711.05234",
