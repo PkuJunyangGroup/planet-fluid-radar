@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T09:41:49.145123+00:00",
+  "generated_at": "2026-11-26T12:41:10.269504+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
@@ -260,12 +260,12 @@
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-11-26T17:29:50.612710+08:00",
-      "last_success": "2026-11-26T17:29:50.612710+08:00",
+      "last_attempt": "2026-11-26T20:39:22.476377+08:00",
+      "last_success": "2026-11-26T20:39:22.476377+08:00",
       "coverage_since": "2026-09-25",
       "pages_checked": 2,
-      "fetched": 20,
-      "retained": 2,
+      "fetched": 13,
+      "retained": 1,
       "method": "daily incremental bibliography page scan; candidate-only"
     }
   },
@@ -1055,86 +1055,6 @@
   ],
   "repository": "https://github.com/PkuJunyangGroup/planet-fluid-radar",
   "papers": [
-    {
-      "id": "2611.34867",
-      "version_id": "2611.34867v1",
-      "title": "The oxygen cold trap in protoplanetary discs",
-      "abstract": "The diffusive transport of oxygen in protoplanetary discs followed by sequestration into ice in the midplane, a process known as the cold trap, can substantially alter the chemical environment where planets form. This paper presents a new time-dependent modelling framework that allows us to consistently simulate kinetic gas-phase chemistry, ice growth and desorption, turbulent diffusive mixing, and gravitational settling of icy particles with a changing particle size distribution over million-year timescales in one-dimensional vertical columns. Applying our model to a T Tauri disc across radii from 1 to 100 au reveals that vertical cold trapping becomes an effective mechanism once the diffusion-to-settling timescale ratio exceeds unity, simultaneously driving the gas-phase C/O up toward unity, and the gas-phase C/H down, by up to two orders of magnitude at large distances. All models feature the development of an upward counter-flux due to the turbulent up-whirling of icy particles followed by ice sublimation above the horizontal icelines, which brings the cold trapping to a halt and eventually establishes a relaxed vertical structure after about $10^4$ to $10^6$ yr, depending on the radial distance. The ice formation leads to a strongly peaked size distribution around 1 mic, which contains the majority of the condensed mass in the disc after ice formation, and changes the dynamical behaviour of the grains substantially. We conclude that the vertical cold trap can provide an important part of the explanation why evolved discs observed with ALMA often show high C/O ratios as inferred from strong emissions from hydrocarbon molecules in the outer disc, such as C2H and c-C3H2. However, in none of our models does the C/O ratio exceed unity, which is a consequence of CO-blocking, a chemical process where water molecules naturally stop forming once C/O approaches unity.",
-      "published": "2026-11-25T18:32:35Z",
-      "updated": "2026-11-25T18:32:35Z",
-      "authors": [
-        "Peter Woitke"
-      ],
-      "doi": "",
-      "categories": [
-        "astro-ph.EP"
-      ],
-      "url": "https://arxiv.org/abs/2611.34867",
-      "pdf": "https://arxiv.org/pdf/2611.34867v1",
-      "source": "arXiv",
-      "first_seen": "2026-11-26T09:29:22.338604+00:00",
-      "version_changed": false,
-      "topics": [
-        "surface"
-      ],
-      "matches": {
-        "physics": [
-          "cold trap"
-        ],
-        "surface": [
-          "desorption"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：cold trap、desorption",
-      "tags": [
-        "水循环 · Water cycle"
-      ],
-      "method": "keyword",
-      "fit_score": 36,
-      "fit_matches": [],
-      "institutions": [
-        "Space Research Institute, Austrian Academy of Sciences, Schmiedlstr. 6, A-8042, Graz, Austria"
-      ],
-      "author_affiliations": [
-        {
-          "name": "P. Woitke",
-          "institutions": [
-            "Space Research Institute, Austrian Academy of Sciences, Schmiedlstr. 6, A-8042, Graz, Austria"
-          ],
-          "orcid": null
-        }
-      ],
-      "affiliation_status": "verified",
-      "affiliation_source": "https://arxiv.org/html/2611.34867v1",
-      "publication_date": "2026-11-26",
-      "publication_date_source": "https://arxiv.org/abs/2611.34867v1",
-      "version_date": "2026-11-25T18:32:35+00:00",
-      "variants": [
-        {
-          "id": "2611.34867",
-          "source": "arXiv",
-          "journal": null,
-          "journal_id": null,
-          "title": "The oxygen cold trap in protoplanetary discs",
-          "url": "https://arxiv.org/abs/2611.34867",
-          "doi": "",
-          "version_id": "2611.34867v1",
-          "first_seen": "2026-11-26T09:29:22.338604+00:00",
-          "publication_date": "2026-11-26",
-          "version_date": "2026-11-25T18:32:35+00:00",
-          "metadata_source": null,
-          "affiliation_source": "https://arxiv.org/html/2611.34867v1"
-        }
-      ],
-      "match_basis": [],
-      "source_types": [
-        "arXiv"
-      ],
-      "journals": [],
-      "source_groups": [],
-      "intake_kind": "recent"
-    },
     {
       "id": "2611.34720",
       "version_id": "2611.34720v1",
@@ -43215,475 +43135,6 @@
       "intake_kind": "recent"
     },
     {
-      "id": "doi:10.3847/1538-4357/aebc54",
-      "doi": "10.3847/1538-4357/aebc54",
-      "version_id": "doi:10.3847/1538-4357/aebc54",
-      "title": "The Peculiar Growth of Structure: Validating f σ 8 Measurements from TITAN Type Ia Supernovae and the Uchuu Simulations",
-      "abstract": "Abstract The growth rate of cosmic structure, parameterized by fσ 8 , is a fundamental test of Λ cold dark matter (CDM) and general relativity. Type Ia supernova (SN Ia) peculiar velocities, combined with galaxy redshift surveys, are among the most precise local probes of fσ 8 , yet existing analyses have not quantified its systematic uncertainties. We present an end-to-end simulated fσ 8 measurement tailored to the Type Ia Supernova Trove from ATLAS in the Nearby Universe (TITAN) survey, using ∼2000 simulated SNe Ia at z < 0.067. We use the Uchuu N -body simulations to generate mock galaxy catalogs and SN Ia simulations with realistic, correlated peculiar velocities, and reconstruct density fields that replicate the 2M+ + redshift survey. Using a modified forward likelihood framework across eight mock realizations, we recover 〈 fσ 8 〉 = 0.429 ± 0.037 ( σ stat = 0.030, σ sys = 0.022), consistent with the Uchuu input fσ 8 = 0.428 to within 0.1%. The mock-to-mock scatter of 0.031 is consistent with our uncertainties. Our measurement is dominated by the statistical uncertainty, with comparable contributions from SN Ia ( σ sys SN = 0.015 ) and density reconstruction ( σ sys recon = 0.016 ) systematic uncertainties. The assumed intrinsic scatter model is the largest SN Ia systematic contribution, and a different model choice can shift fσ 8 to lower values, largely driven by red SNe with a skewed color distribution. Our analysis provides the first systematic uncertainty budget for the “reconstruction-and-scaling” method of measuring fσ 8 and demonstrates that SNe Ia are a competitive probe of the growth of structure in the local Universe.",
-      "authors": [
-        "Mitchell Dixon",
-        "David O. Jones",
-        "Nicole E. Drakos",
-        "Bastien Carreres",
-        "Jack W. Tweddle",
-        "Yukei S. Murakami",
-        "Chris Ashall",
-        "Dillon Brout",
-        "Thomas de Jaeger",
-        "Aaron Do",
-        "Elijah G. Marlin",
-        "David Rubin",
-        "Stephen J. Smartt",
-        "Ken W. Smith",
-        "Maria Vincenzi"
-      ],
-      "author_affiliations": [
-        {
-          "name": "Mitchell Dixon",
-          "institutions": [
-            "University of Hawai’i,"
-          ],
-          "orcid": "https://orcid.org/0000-0003-0928-0494"
-        },
-        {
-          "name": "David O. Jones",
-          "institutions": [
-            "University of Hawai’i,"
-          ],
-          "orcid": "https://orcid.org/0000-0002-6230-0151"
-        },
-        {
-          "name": "Nicole E. Drakos",
-          "institutions": [
-            "University of Hawai’i at Hilo"
-          ],
-          "orcid": "https://orcid.org/0000-0003-4761-2197"
-        },
-        {
-          "name": "Bastien Carreres",
-          "institutions": [
-            "Duke University"
-          ],
-          "orcid": "https://orcid.org/0000-0002-7234-844X"
-        },
-        {
-          "name": "Jack W. Tweddle",
-          "institutions": [
-            "University of Oxford"
-          ],
-          "orcid": "https://orcid.org/0009-0004-5681-545X"
-        },
-        {
-          "name": "Yukei S. Murakami",
-          "institutions": [
-            "Johns Hopkins University"
-          ],
-          "orcid": "https://orcid.org/0000-0002-8342-3804"
-        },
-        {
-          "name": "Chris Ashall",
-          "institutions": [
-            "University of Hawai’i,"
-          ],
-          "orcid": "https://orcid.org/0000-0002-5221-7557"
-        },
-        {
-          "name": "Dillon Brout",
-          "institutions": [
-            "Boston University"
-          ],
-          "orcid": "https://orcid.org/0000-0001-5201-8374"
-        },
-        {
-          "name": "Thomas de Jaeger",
-          "institutions": [
-            "Sorbonne Université"
-          ],
-          "orcid": "https://orcid.org/0000-0001-6069-1139"
-        },
-        {
-          "name": "Aaron Do",
-          "institutions": [
-            "Institute of Astronomy and Kavli Institute for Cosmology"
-          ],
-          "orcid": "https://orcid.org/0000-0003-3429-7845"
-        },
-        {
-          "name": "Elijah G. Marlin",
-          "institutions": [
-            "Boston University"
-          ],
-          "orcid": "https://orcid.org/0009-0003-4631-3184"
-        },
-        {
-          "name": "David Rubin",
-          "institutions": [
-            "University of Hawai’i,"
-          ],
-          "orcid": "https://orcid.org/0000-0001-5402-4647"
-        },
-        {
-          "name": "Stephen J. Smartt",
-          "institutions": [
-            "University of Oxford",
-            "Queen’s University Belfast,"
-          ],
-          "orcid": "https://orcid.org/0000-0002-8229-1731"
-        },
-        {
-          "name": "Ken W. Smith",
-          "institutions": [
-            "University of Oxford",
-            "Queen’s University Belfast,"
-          ],
-          "orcid": "https://orcid.org/0000-0001-9535-3199"
-        },
-        {
-          "name": "Maria Vincenzi",
-          "institutions": [
-            "University of Oxford"
-          ],
-          "orcid": "https://orcid.org/0000-0001-8788-1688"
-        }
-      ],
-      "institutions": [
-        "University of Hawai’i,",
-        "University of Hawai’i at Hilo",
-        "Duke University",
-        "University of Oxford",
-        "Johns Hopkins University",
-        "Boston University",
-        "Sorbonne Université",
-        "Institute of Astronomy and Kavli Institute for Cosmology",
-        "Queen’s University Belfast,"
-      ],
-      "affiliation_status": "verified",
-      "affiliation_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faebc54",
-      "source": "journal",
-      "journal": "The Astrophysical Journal",
-      "journal_id": "1538-4357",
-      "source_group": "planet",
-      "categories": [],
-      "url": "https://doi.org/10.3847/1538-4357/aebc54",
-      "published": "2026-11-26",
-      "publication_date": "2026-11-26",
-      "publication_date_source": "Crossref publisher metadata",
-      "date_kind": "journal",
-      "first_seen": "2026-11-26T09:29:54.859089+00:00",
-      "updated": "2026-11-26T06:13:36Z",
-      "metadata_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faebc54",
-      "relations": {},
-      "metadata_limited": false,
-      "publication_dates": {
-        "published-online": "2026-11-26",
-        "published-print": "2026-12-01"
-      },
-      "topics": [
-        "orbital"
-      ],
-      "matches": {
-        "orbital": [
-          "n-body"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：n-body",
-      "tags": [
-        "反演与数值方法 · Inverse & numerical methods"
-      ],
-      "method": "keyword",
-      "fit_score": 40,
-      "fit_matches": [],
-      "variants": [
-        {
-          "id": "doi:10.3847/1538-4357/aebc54",
-          "source": "journal",
-          "journal": "The Astrophysical Journal",
-          "journal_id": "1538-4357",
-          "title": "The Peculiar Growth of Structure: Validating f σ 8 Measurements from TITAN Type Ia Supernovae and the Uchuu Simulations",
-          "url": "https://doi.org/10.3847/1538-4357/aebc54",
-          "doi": "10.3847/1538-4357/aebc54",
-          "version_id": "doi:10.3847/1538-4357/aebc54",
-          "first_seen": "2026-11-26T09:29:54.859089+00:00",
-          "publication_date": "2026-11-26",
-          "version_date": null,
-          "metadata_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faebc54",
-          "affiliation_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faebc54"
-        }
-      ],
-      "match_basis": [],
-      "source_types": [
-        "journal"
-      ],
-      "journals": [
-        "The Astrophysical Journal"
-      ],
-      "source_groups": [
-        "planet"
-      ],
-      "intake_kind": "recent"
-    },
-    {
-      "id": "doi:10.3847/1538-4357/aebc82",
-      "doi": "10.3847/1538-4357/aebc82",
-      "version_id": "doi:10.3847/1538-4357/aebc82",
-      "title": "Shadowing the Sun. I. Testing Synthetic Granulation Spectra with NEID Solar Eclipse Observations",
-      "abstract": "Abstract The subtle Doppler radial-velocity (RV) signature of an Earth-mass exoplanet in the habitable zone around a nearby Sun-like star is difficult to detect due to stellar variability. While multiple techniques aim to mitigate rotationally modulated stellar activity, granulation, introducing 0.1–1 m s −1 RV shifts, currently sets the floor for detecting Earth-mass RV signals for low-activity stars. Observations of the Rossiter–McLaughlin (RM) effect during a solar eclipse, with a peak-to-trough amplitude of ∼1.4 km s −1 , are a rigorous test of granulation and convective blueshift in the solar spectrum. Using NEID solar feed data of the 2023 October solar eclipse and GRASS-E (a geometry-modified version of GRASS ), we compare the observed RVs for 22 lines with the simulated RVs from the synthetic granulation-driven spectra. Residuals of the GRASS-E Fe I 5434 Å model show an rms of 13.47 m s −1 over the RM signal. We find that a model with an optimized convective blueshift polynomial for Fe I 5434 Å significantly outperforms GRASS-E with an rms of only 2.90 m s −1 , suggesting that GRASS-E is currently limited by sparse center-to-limb observations. By combining a set of spectral lines, we achieve a weighted rms of 5.2 m s −1 over the RM signal (∼0.37%), a level of accuracy well beyond the reach of current exoplanet transit observations. In all, we demonstrate that solar eclipse observations allow us to recover the center-to-limb variation of the convective blueshift for individual spectral lines.",
-      "authors": [
-        "Elizabeth Gonzalez",
-        "Michael L. Palumbo",
-        "Suvrath Mahadevan",
-        "Eric B. Ford",
-        "Sarah E. Logsdon",
-        "Chad F. Bender",
-        "Andrea S. J. Lin",
-        "Daniel M. Krolikowski",
-        "Ashutosh Joshi",
-        "Joe P. Ninan",
-        "Jason T. Wright",
-        "Ansgar Reiners",
-        "Samuel Halverson",
-        "Michael W. McElwain",
-        "Jayadev Rajagopal",
-        "Paul Robertson",
-        "Arpita Roy",
-        "Christian Schwab",
-        "Gudmundur Stefansson",
-        "Ryan C. Terrien"
-      ],
-      "author_affiliations": [
-        {
-          "name": "Elizabeth Gonzalez",
-          "institutions": [
-            "The Pennsylvania State University"
-          ],
-          "orcid": "https://orcid.org/0009-0002-0987-652X"
-        },
-        {
-          "name": "Michael L. Palumbo",
-          "institutions": [
-            "Flatiron Institute"
-          ],
-          "orcid": "https://orcid.org/0000-0002-4677-8796"
-        },
-        {
-          "name": "Suvrath Mahadevan",
-          "institutions": [
-            "The Pennsylvania State University"
-          ],
-          "orcid": "https://orcid.org/0000-0001-9596-7983"
-        },
-        {
-          "name": "Eric B. Ford",
-          "institutions": [
-            "The Pennsylvania State University"
-          ],
-          "orcid": "https://orcid.org/0000-0001-6545-639X"
-        },
-        {
-          "name": "Sarah E. Logsdon",
-          "institutions": [
-            "U.S. National Science Foundation National Optical-Infrared Astronomy Research Laboratory"
-          ],
-          "orcid": "https://orcid.org/0000-0002-9632-9382"
-        },
-        {
-          "name": "Chad F. Bender",
-          "institutions": [
-            "University of Arizona"
-          ],
-          "orcid": "https://orcid.org/0000-0003-4384-7220"
-        },
-        {
-          "name": "Andrea S. J. Lin",
-          "institutions": [
-            "California Institute of Technology"
-          ],
-          "orcid": "https://orcid.org/0000-0002-9082-6337"
-        },
-        {
-          "name": "Daniel M. Krolikowski",
-          "institutions": [
-            "University of Arizona"
-          ],
-          "orcid": "https://orcid.org/0000-0001-9626-0613"
-        },
-        {
-          "name": "Ashutosh Joshi",
-          "institutions": [
-            "Tata Institute of Fundamental Research"
-          ],
-          "orcid": "https://orcid.org/0009-0005-9178-7017"
-        },
-        {
-          "name": "Joe P. Ninan",
-          "institutions": [
-            "Tata Institute of Fundamental Research"
-          ],
-          "orcid": "https://orcid.org/0000-0001-8720-5612"
-        },
-        {
-          "name": "Jason T. Wright",
-          "institutions": [
-            "The Pennsylvania State University",
-            "he Pennsylvania State University"
-          ],
-          "orcid": "https://orcid.org/0000-0001-6160-5888"
-        },
-        {
-          "name": "Ansgar Reiners",
-          "institutions": [
-            "Institut für Astrophysik und Geophysik"
-          ],
-          "orcid": "https://orcid.org/0000-0003-1242-5922"
-        },
-        {
-          "name": "Samuel Halverson",
-          "institutions": [
-            "California Institute of Technology"
-          ],
-          "orcid": "https://orcid.org/0000-0003-1312-9391"
-        },
-        {
-          "name": "Michael W. McElwain",
-          "institutions": [
-            "NASA Goddard Space Flight Center"
-          ],
-          "orcid": "https://orcid.org/0000-0003-0241-8956"
-        },
-        {
-          "name": "Jayadev Rajagopal",
-          "institutions": [
-            "U.S. National Science Foundation National Optical-Infrared Astronomy Research Laboratory"
-          ],
-          "orcid": "https://orcid.org/0000-0002-2488-7123"
-        },
-        {
-          "name": "Paul Robertson",
-          "institutions": [
-            "The University of California, Irvine"
-          ],
-          "orcid": "https://orcid.org/0000-0003-0149-9678"
-        },
-        {
-          "name": "Arpita Roy",
-          "institutions": [
-            "Astrophysics & Space Institute"
-          ],
-          "orcid": "https://orcid.org/0000-0001-8127-5775"
-        },
-        {
-          "name": "Christian Schwab",
-          "institutions": [
-            "Macquarie University"
-          ],
-          "orcid": "https://orcid.org/0000-0002-4046-987X"
-        },
-        {
-          "name": "Gudmundur Stefansson",
-          "institutions": [
-            "Astrophysics & Space Institute",
-            "University of Amsterdam"
-          ],
-          "orcid": "https://orcid.org/0000-0001-7409-5688"
-        },
-        {
-          "name": "Ryan C. Terrien",
-          "institutions": [
-            "Carleton College"
-          ],
-          "orcid": "https://orcid.org/0000-0002-4788-8858"
-        }
-      ],
-      "institutions": [
-        "The Pennsylvania State University",
-        "Flatiron Institute",
-        "U.S. National Science Foundation National Optical-Infrared Astronomy Research Laboratory",
-        "University of Arizona",
-        "California Institute of Technology",
-        "Tata Institute of Fundamental Research",
-        "he Pennsylvania State University",
-        "Institut für Astrophysik und Geophysik",
-        "NASA Goddard Space Flight Center",
-        "The University of California, Irvine",
-        "Astrophysics & Space Institute",
-        "Macquarie University",
-        "University of Amsterdam",
-        "Carleton College"
-      ],
-      "affiliation_status": "verified",
-      "affiliation_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faebc82",
-      "source": "journal",
-      "journal": "The Astrophysical Journal",
-      "journal_id": "1538-4357",
-      "source_group": "planet",
-      "categories": [],
-      "url": "https://doi.org/10.3847/1538-4357/aebc82",
-      "published": "2026-11-25",
-      "publication_date": "2026-11-25",
-      "publication_date_source": "Crossref publisher metadata",
-      "date_kind": "journal",
-      "first_seen": "2026-11-26T09:29:54.859089+00:00",
-      "updated": "2026-11-25T10:18:16Z",
-      "metadata_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faebc82",
-      "relations": {},
-      "metadata_limited": false,
-      "publication_dates": {
-        "published-online": "2026-11-25",
-        "published-print": "2026-12-01"
-      },
-      "topics": [
-        "planetary",
-        "detection"
-      ],
-      "matches": {
-        "planetary": [
-          "habitable zone"
-        ],
-        "detection": [
-          "radial velocity"
-        ]
-      },
-      "status": "candidate",
-      "reason": "关联线索：habitable zone、radial velocity",
-      "tags": [
-        "宜居性 · Habitability"
-      ],
-      "method": "keyword",
-      "fit_score": 56,
-      "fit_matches": [
-        "行星气候与模式"
-      ],
-      "variants": [
-        {
-          "id": "doi:10.3847/1538-4357/aebc82",
-          "source": "journal",
-          "journal": "The Astrophysical Journal",
-          "journal_id": "1538-4357",
-          "title": "Shadowing the Sun. I. Testing Synthetic Granulation Spectra with NEID Solar Eclipse Observations",
-          "url": "https://doi.org/10.3847/1538-4357/aebc82",
-          "doi": "10.3847/1538-4357/aebc82",
-          "version_id": "doi:10.3847/1538-4357/aebc82",
-          "first_seen": "2026-11-26T09:29:54.859089+00:00",
-          "publication_date": "2026-11-25",
-          "version_date": null,
-          "metadata_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faebc82",
-          "affiliation_source": "https://api.crossref.org/works/10.3847%2F1538-4357%2Faebc82"
-        }
-      ],
-      "match_basis": [],
-      "source_types": [
-        "journal"
-      ],
-      "journals": [
-        "The Astrophysical Journal"
-      ],
-      "source_groups": [
-        "planet"
-      ],
-      "intake_kind": "recent"
-    },
-    {
       "id": "exoplanet-bib:33128",
       "version_id": "exoplanet-bib:33128",
       "exoplanet_id": "33128",
@@ -43909,7 +43360,6 @@
       "2611.32950",
       "2611.34674",
       "2611.34720",
-      "2611.34867",
       "doi:10.1029/2025je009300",
       "doi:10.1029/2026gl124362",
       "doi:10.1029/2026gl125753",
@@ -43963,8 +43413,6 @@
       "doi:10.3847/1538-4357/aeb019",
       "doi:10.3847/1538-4357/aeb2eb",
       "doi:10.3847/1538-4357/aeb40e",
-      "doi:10.3847/1538-4357/aebc54",
-      "doi:10.3847/1538-4357/aebc82",
       "doi:10.3847/2041-8213/aea906",
       "doi:10.3847/2041-8213/aeb00b",
       "doi:10.3847/2041-8213/aeb41e",
@@ -44164,15 +43612,12 @@
       "2611.32831": "recent",
       "2611.32787": "recent",
       "doi:10.1029/2026je009960": "recent",
-      "2611.34867": "recent",
       "2611.34720": "recent",
       "2611.34674": "recent",
       "doi:10.1029/2026je009838": "recent",
       "doi:10.1029/2026je009895": "recent",
       "doi:10.1029/2026je010161": "recent",
-      "doi:10.3847/1538-4357/aeaed1": "recent",
-      "doi:10.3847/1538-4357/aebc54": "recent",
-      "doi:10.3847/1538-4357/aebc82": "recent"
+      "doi:10.3847/1538-4357/aeaed1": "recent"
     },
     "policy": {
       "recent_days": 2,
@@ -44183,15 +43628,12 @@
     "last_run": "2026-11-26",
     "mode": "recent",
     "selected": [
-      "2611.34867",
       "2611.34720",
       "2611.34674",
       "doi:10.1029/2026je009838",
       "doi:10.1029/2026je009895",
       "doi:10.1029/2026je010161",
-      "doi:10.3847/1538-4357/aeaed1",
-      "doi:10.3847/1538-4357/aebc54",
-      "doi:10.3847/1538-4357/aebc82"
+      "doi:10.3847/1538-4357/aeaed1"
     ],
     "search_errors": []
   },
@@ -45685,19 +45127,16 @@
   "merged_count": 37,
   "daily_brief": {
     "date": "2026-11-26",
-    "built_at": "2026-11-26T09:41:49.145236+00:00",
+    "built_at": "2026-11-26T12:41:10.269706+00:00",
     "review_basis": "Automated rule screening; reading review is recorded separately.",
-    "new_count": 9,
+    "new_count": 6,
     "recent_ids": [
-      "2611.34867",
       "2611.34720",
       "2611.34674",
       "doi:10.1029/2026je009838",
       "doi:10.1029/2026je009895",
       "doi:10.1029/2026je010161",
-      "doi:10.3847/1538-4357/aeaed1",
-      "doi:10.3847/1538-4357/aebc54",
-      "doi:10.3847/1538-4357/aebc82"
+      "doi:10.3847/1538-4357/aeaed1"
     ],
     "older_ids": [],
     "updated_ids": [],
