@@ -1,0 +1,5 @@
+# November 27 daily review (Asia/Shanghai)
+
+[Scheduled Actions run](https://github.com/PkuJunyangGroup/planet-fluid-radar/actions/runs/45975443071) succeeded, including tests and Pages deployment. Main snapshot `0895031` and both live catalog/network datasets matched byte-for-byte at 281 works (generated 17:49 Beijing). The four enabled arXiv categories, 19 journals, and Exoplanet.eu reported OK; no source failure, repeated full fetch, revised work, or one-year fallback.
+
+Read both complete publisher-deposited original English abstracts. Both articles published online November 26 and were first seen November 27 Beijing at 17:39. Retain `10.1029/2026je010034` (Akatsuki radio-occultation retrieval of the Venus southern midlatitude jet; add planetary and dynamics) and `10.1029/2026je009979` (shergottite olivine and Martian mantle heterogeneity; retain evolution). Only review overrides and this note are changed; no source record, historical dates, authentication or layout changes. The November 25 two additions and one exclusion remain separate and pending.
