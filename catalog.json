@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T09:49:17.215957+00:00",
+  "generated_at": "2026-11-27T12:33:41.448925+00:00",
   "ai_enabled": false,
   "sources": {
     "astro-ph.EP": {
@@ -260,11 +260,11 @@
       "name": "Exoplanet.eu bibliography",
       "url": "https://exoplanet.eu/bibliography/all/",
       "status": "ok",
-      "last_attempt": "2026-11-27T17:39:37.913148+08:00",
-      "last_success": "2026-11-27T17:39:37.913148+08:00",
+      "last_attempt": "2026-11-27T20:31:27.656997+08:00",
+      "last_success": "2026-11-27T20:31:27.656997+08:00",
       "coverage_since": "2026-09-25",
       "pages_checked": 2,
-      "fetched": 15,
+      "fetched": 9,
       "retained": 1,
       "method": "daily incremental bibliography page scan; candidate-only"
     }
@@ -3357,8 +3357,8 @@
           "journal": "Astron. J.",
           "journal_id": null,
           "title": "Exomoons and Exorings with the Habitable Worlds Observatory. III. Icy Moons and Rings Often Outshine Their Planets",
-          "url": "https://doi.org/10.48550/arXiv.2611.22150  ",
-          "doi": null,
+          "url": "https://dx.doi.org/10.3847/1538-3881/aeba7f ",
+          "doi": "10.3847/1538-3881/aeba7f",
           "version_id": "exoplanet-bib:33469",
           "first_seen": "2026-11-19T18:46:34.743937+08:00",
           "publication_date": "2026",
@@ -43193,7 +43193,9 @@
         "published-online": "2026-11-26",
         "published-print": "2026-12"
       },
-      "topics": [],
+      "topics": [
+        "planetary"
+      ],
       "matches": {
         "dynamics": [
           "atmospheric dynamics",
@@ -43204,13 +43206,12 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：atmospheric dynamics、superrotation、thermal wind",
+      "reason": "Reading review 2026-11-27: Complete publisher-deposited English abstract read. Akatsuki radio-occultation temperatures constrain a Venus southern midlatitude jet under cyclostrophic balance. Published online 2026-11-26; preserve original first_seen.",
       "tags": [
-        "云与辐射 · Clouds & radiation",
         "环流与波动 · Circulation & waves",
         "反演与数值方法 · Inverse & numerical methods"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 38,
       "fit_matches": [],
       "variants": [
@@ -43381,11 +43382,11 @@
         ]
       },
       "status": "candidate",
-      "reason": "关联线索：mantle",
+      "reason": "Reading review 2026-11-27: Complete publisher-deposited English abstract read. Shergottite olivine compositional systematics constrain Martian mantle heterogeneity and magmatic processing. Published online 2026-11-26; preserve original first_seen.",
       "tags": [
         "岩浆与挥发分 · Magma & volatiles"
       ],
-      "method": "keyword",
+      "method": "manual",
       "fit_score": 31,
       "fit_matches": [],
       "variants": [
@@ -45410,7 +45411,7 @@
   "merged_count": 37,
   "daily_brief": {
     "date": "2026-11-27",
-    "built_at": "2026-11-27T09:49:17.216097+00:00",
+    "built_at": "2026-11-27T12:33:41.449055+00:00",
     "review_basis": "Automated rule screening; reading review is recorded separately.",
     "new_count": 2,
     "recent_ids": [
